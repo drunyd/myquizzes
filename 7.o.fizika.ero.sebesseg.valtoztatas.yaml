@@ -1,0 +1,230 @@
+Quiz: Fizika, ero sebessegvaltoztato hatasa
+Question:
+  - Type: singlechoice
+    Text: Miért áll meg előbb-utóbb egy fémgolyó, ha meglökjük egy üvegfelületen?
+    A: Mert a gravitáció lelassítja
+    B: Mert fellép a súrlódási erő
+    C: Mert elfogy a lendület
+    D: Mert a levegő tolja vissza
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a tapadási súrlódási erő?
+    A: Az erő, ami megakadályozza, hogy a testek elmozduljanak egymáson
+    B: Az erő, ami gyorsítja a testet
+    C: Az erő, ami mindig lefelé hat
+    D: Az erő, ami a levegőben fékezi a testet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a csúszási súrlódási erő?
+    A: Az erő, ami megakadályozza a testek elmozdulását
+    B: Az erő, ami fékezi a testek egymáson történő mozgását
+    C: Az erő, ami a jármű kormányzását segíti
+    D: Az erő, ami gyorsítja a testet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a gördülési ellenállás?
+    A: Az erő, ami teljesen megszünteti a mozgást
+    B: Az erő, ami a gördülő test mozgását fékezi
+    C: Az erő, ami a testet felfelé tartja
+    D: Az erő, ami a járműveket gyorsítja
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely tényezők befolyásolják a csúszási súrlódási erő nagyságát?
+    Answers: [A felületeket összenyomó erő, A felületek anyaga, A felületek nagysága, A test tömege]
+    Correct: [A felületeket összenyomó erő, A felületek anyaga]
+
+  - Type: multiplechoice
+    Text: Mely tényezők befolyásolják a közegellenállási erőt?
+    Answers: [A közeg sűrűsége, A test sebessége, A test alakja, A felület nagysága, A test színe]
+    Correct: [A közeg sűrűsége, A test sebessége, A test alakja, A felület nagysága]
+
+  - Type: singlechoice
+    Text: Mi a tapadási súrlódás legfontosabb szerepe a járművek mozgásában?
+    A: Csak a fékezést segíti
+    B: Biztosítja, hogy a forgó kerekek ne csússzanak el, és a jármű irányítható legyen
+    C: Csak a gyorsítást segíti
+    D: Csökkenti a légellenállást
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik sorrend helyes a súrlódási erők nagyságára nézve?
+    A: Ftapadási < Fcsúszási < Fgördülési
+    B: Fgördülési < Fcsúszási < Ftapadási
+    C: Fcsúszási < Fgördülési < Ftapadási
+    D: Fgördülési < Ftapadási < Fcsúszási
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért használunk bordázott talpú cipőt vagy hóláncot az autóra?
+    A: Hogy csökkentsük a súrlódást
+    B: Hogy növeljük a tapadási súrlódást és a biztonságot
+    C: Hogy gyorsabban guruljon
+    D: Hogy csökkentsük a test tömegét
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik, ha a kerék az úton elveszíti a tapadást?
+    A: A jármű irányíthatatlanná válik és a fékút megnő
+    B: A jármű gyorsabban halad
+    C: A jármű megáll azonnal
+    D: A kerék könnyebben forog
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a különbség a tapadási és a csúszási súrlódás között?
+    A: A tapadási fékezi a mozgást, a csúszási gyorsítja
+    B: A tapadási meggátolja az elmozdulást, a csúszási fékezi a már mozgó testet
+    C: A csúszási erő mindig nagyobb
+    D: Nincs különbség
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a közegellenállás legfontosabb hatása?
+    A: A test gyorsulását növeli
+    B: A test mozgását fékezi
+    C: A test tömegét csökkenti
+    D: A súrlódást növeli
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért könnyebb gurítani egy kerekes bevásárlókocsit, mint vinni kézben?
+    A: Mert csökken a csúszási súrlódás
+    B: Mert a gördülési ellenállás kisebb, mint a csúszási súrlódás
+    C: Mert a kerekek gyorsabbak
+    D: Mert kisebb a tömeg
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent, hogy a súrlódás hasznos is lehet?
+    A: Csak a gépeket rontja
+    B: Biztosítja a járást, fékezést, tapadást és irányíthatóságot
+    C: Csak a cipő kopását okozza
+    D: Semmi haszna nincs
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyek a csúszási súrlódásra ható tényezők?
+    Answers: [A felületek összenyomása, A felületek anyaga, A felület nagysága, A test sebessége]
+    Correct: [A felületek összenyomása, A felületek anyaga]
+
+  - Type: multiplechoice
+    Text: Melyek a közegellenállásra ható tényezők?
+    Answers: [A közeg sűrűsége, A test sebessége, A test alakja, A felület nagysága, A test színe]
+    Correct: [A közeg sűrűsége, A test sebessége, A test alakja, A felület nagysága]
+
+  - Type: singlechoice
+    Text: Miért használják az autóknál a téli gumit?
+    A: Hogy csökkentsék a gördülési ellenállást
+    B: Hogy növeljék a tapadási súrlódást havas úton
+    C: Hogy gyorsabban guruljon
+    D: Hogy csökkentsék a súrlódást
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit csinál a kipörgésgátló az autóban?
+    A: Növeli a csúszási súrlódást
+    B: Megakadályozza, hogy a kerék elveszítse a tapadást
+    C: Csökkenti a közegellenállást
+    D: Gyorsítja a járművet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért áramvonalasak a halak és a madarak?
+    A: Hogy szebb legyen a testük
+    B: Hogy csökkentsék a közegellenállást és takarékoskodjanak az energiával
+    C: Hogy gyorsabban ússzanak a vízben
+    D: Csak véletlenül
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik a gördülő kerekes tárgyakkal, ha lejtőn engedjük el?
+    A: Mindig megáll azonnal
+    B: Gördülnek, mert a gördülési ellenállás kisebb, mint a csúszási
+    C: Csúsznak, mert a csúszási súrlódás nagyobb
+    D: Lebegnek
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért kopik a cipő talpa vagy a kerekek felülete?
+    A: A közegellenállás miatt
+    B: A súrlódás miatt
+    C: A gravitáció miatt
+    D: A tömeg miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit csinál az olaj vagy kenőanyag a gépekben?
+    A: Növeli a csúszási súrlódást
+    B: Csökkenti a súrlódást és a kopást
+    C: Csökkenti a tömeget
+    D: Növeli a közegellenállást
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik, ha a kerék megcsúszik az úton?
+    A: A jármű irányítható marad
+    B: A jármű irányíthatatlanná válik és a fékút nő
+    C: A jármű gyorsabban halad
+    D: A kerék könnyebben forog
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a különbség a gördülési ellenállás és a csúszási súrlódás között?
+    A: A gördülési ellenállás kisebb, mert a felületek barázdái gördülnek egymáson
+    B: A csúszási súrlódás kisebb, mert könnyebben mozog
+    C: Nincs különbség
+    D: A csúszási mindig nullára csökken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért fontos a súrlódás a járművek fékezésében?
+    A: Mert a fék mindig gyorsítja a kereket
+    B: Mert a súrlódás akadályozza a kerekek forgását, így lassul a jármű
+    C: Mert a fék csak gravitációval működik
+    D: Mert a kerekek mindig elcsúsznak
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik, ha a kerekes bőröndöt nagyon egyenetlen felületen toljuk?
+    A: Könnyebben gurul
+    B: Nehezebben gurul, mert nő a gördülési ellenállás
+    C: Lebeg
+    D: Csökken a súrlódás
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért van a lépcsők szélére csúszásgátló szalag?
+    A: Hogy csökkentsük a csúszási súrlódást
+    B: Hogy növeljük a tapadási súrlódást és biztonságos legyen a járás
+    C: Hogy gyorsabban menjünk le a lépcsőn
+    D: Hogy csökkentsük a test tömegét
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért használunk gurulós bevásárlókocsit a nagyobb mennyiségeknél?
+    A: Hogy csökkentsük a csúszási súrlódást és könnyebb legyen mozgatni
+    B: Hogy a csomagok gyorsabban fogyjanak
+    C: Hogy csökkentsük a tömeget
+    D: Hogy növeljük a közegellenállást
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a papírlappal, amikor a levegőben hullik?
+    A: Pontosan úgy esik, mint egy kő
+    B: Lassabban esik, mert a közegellenállás fékezi
+    C: Gyorsabban esik, mert könnyű
+    D: Lebeg
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért van szükség a hóláncra az autóra havas úton?
+    A: Hogy csökkentsük a gördülési ellenállást
+    B: Hogy növeljük a tapadást és csökkentsük a megcsúszás esélyét
+    C: Hogy gyorsabban guruljon
+    D: Hogy csökkentsük a közegellenállást
+    Correct: B
+

@@ -1,0 +1,438 @@
+Quiz: Az orszag 3 reszre szakadasa, vegvari hosok
+Question:
+  - Type: singlechoice
+    Text: Mikor volt a mohácsi csata?
+    A: 1521. augusztus 29.
+    B: 1526. augusztus 29.
+    C: 1541
+    D: 1552
+    Correct: B
+
+  - Type: singlechoice
+    Text: Ki volt Magyarország királya a mohácsi csata idején?
+    A: Szapolyai János
+    B: Habsburg Ferdinánd
+    C: II. Lajos
+    D: János Zsigmond
+    Correct: C
+      
+  - Type: singlechoice
+    Text: Melyik vár esett el 1521-ben?
+    A: Eger
+    B: Buda
+    C: Nándorfehérvár
+    D: Szigetvár
+    Correct: C
+
+  - Type: singlechoice
+    Text: Ki lett Szapolyai János halála után Erdély és Kelet-Magyarország uralkodója?
+    A: Habsburg Ferdinánd
+    B: II. Lajos
+    C: Báthori István
+    D: János Zsigmond
+    Correct: D
+
+  - Type: multiplechoice
+    Text: Kik voltak a végvári hősök az alábbiak közül?
+    Answers: [Dobó István, Szulejmán, Zrínyi Miklós, Jurisics Miklós, II. Lajos]
+    Correct: [Dobó István, Zrínyi Miklós, Jurisics Miklós]
+
+  - Type: singlechoice
+    Text: Melyik esemény vezetett közvetlenül Magyarország három részre szakadásához?
+    A: Mohácsi csata
+    B: Váradi béke
+    C: Buda elfoglalása 1541-ben
+    D: Eger ostroma
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben volt Eger ostroma?
+    Answers: [1526, 1532, 1541, 1552, 1566]
+    Correct: [1552]
+
+  - Type: singlechoice
+    Text: Ki volt Szapolyai János legfőbb külső szövetségese a trónharc során?
+    A: Lengyel király
+    B: Velence
+    C: Szulejmán szultán
+    D: Francia király
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik béke rendelkezett arról, hogy Szapolyai halála után Ferdinánd kapja a koronát?
+    A: Drinápolyi béke
+    B: Váradi béke
+    C: Pozsonyi béke
+    D: Nikolsburgi béke
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely várak estek el a törökök kezén 1552-ben?
+    Answers: [Temesvár, Eger, Szolnok, Drégelypalánk, Kőszeg]
+    Correct: [Temesvár, Szolnok, Drégelypalánk]
+
+  - Type: singlechoice
+    Text: Ki vezette Eger védelmét az 1552-es ostrom során?
+    A: Zrínyi Miklós
+    B: Jurisics Miklós
+    C: Dobó István
+    D: Szondi György
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben volt a szigetvári ostrom?
+    Answers: [1541, 1552, 1566, 1570, 1586]
+    Correct: [1566]
+
+  - Type: singlechoice
+    Text: Meddig uralkodott II. Lajos Magyarországon?
+    A: 1490–1516
+    B: 1506–1526
+    C: 1516–1526
+    D: 1526–1540
+    Correct: C
+
+  - Type: singlechoice
+    Text: Ki volt Habsburg Ferdinánd legfőbb támogatója a trónharc során?
+    A: az erdélyi köznemesek
+    B: a török szultán
+    C: a Német–római Császárság
+    D: a lengyel királyság
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely területek támogatták Szapolyai Jánost a koronáért folytatott küzdelemben?
+    Answers: [Keleti országrész, Nyugati országrész, Erdély, köznemesek, főnemesek]
+    Correct: [Keleti országrész, Erdély, köznemesek]
+
+  - Type: singlechoice
+    Text: Ki vezette a kőszegi vár védelmét 1532-ben?
+    A: Dobó István
+    B: Jurisics Miklós
+    C: Szondi György
+    D: Losonczy István
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi volt a török fő stratégiai célja Mohács után?
+    A: Erdély elfoglalása
+    B: Buda megerősítése
+    C: Bécs elfoglalása
+    D: Lengyelország megtámadása
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben kötötték a váradi békét?
+    Answers: [1526, 1532, 1538, 1541, 1551]
+    Correct: [1538]
+
+  - Type: singlechoice
+    Text: Ki volt az, aki 1570-ben lemondott a magyar koronáról?
+    A: Báthori István
+    B: János Zsigmond
+    C: Szapolyai János
+    D: II. Lajos
+    Correct: B
+
+  - Type: singlechoice
+    Text: Ki pusztította el Erdélyt 1551-ben a sikertelen megállapodás után?
+    A: a török hadsereg
+    B: a lengyel csapatok
+    C: Castaldo zsoldosai
+    D: a végvári katonák
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Báthori Istvánra?
+    Answers: [Erdély fejedelme volt, Lengyel királlyá választották, Mohácsnál harcolt, Gyulafehérvárt tette központtá, Habsburg uralkodó volt]
+    Correct: [Erdély fejedelme volt, Lengyel királlyá választották, Gyulafehérvárt tette központtá]
+
+  - Type: singlechoice
+    Text: Melyik eseményhez köthető Szulejmán szultán halála?
+    A: Eger ostroma
+    B: Mohácsi csata
+    C: Buda elfoglalása
+    D: Szigetvár ostroma
+    Correct: D
+
+  - Type: singlechoice
+    Text: Ki volt Szapolyai János apja?
+    A: Szapolyai István
+    B: Szapolyai Imre
+    C: Szapolyai Miklós
+    D: Szapolyai László
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik évben esett el Buda török kézre?
+    A: 1526
+    B: 1538
+    C: 1541
+    D: 1552
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely tényezők járultak hozzá a mohácsi vereséghez?
+    Answers: [belső megosztottság, gyenge királyi hatalom, túlerő, korszerű hadsereg, egységes nemesség]
+    Correct: [belső megosztottság, gyenge királyi hatalom, túlerő]
+
+  - Type: singlechoice
+    Text: Ki volt Temesvár védője 1552-ben?
+    A: Szondi György
+    B: Dobó István
+    C: Losonczy István
+    D: Zrínyi Miklós
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik várnál halt hősi halált Szondi György?
+    A: Eger
+    B: Drégelypalánk
+    C: Szigetvár
+    D: Kőszeg
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely események kapcsolódnak Szulejmán szultánhoz?
+    Answers: [Nándorfehérvár elfoglalása, Mohácsi csata, Buda elfoglalása, Eger ostroma, Szigetvár ostroma]
+    Correct: [Nándorfehérvár elfoglalása, Mohácsi csata, Buda elfoglalása, Szigetvár ostroma]
+
+  - Type: singlechoice
+    Text: Melyik terület tartozott a Királyi Magyarországhoz?
+    A: Erdély
+    B: Hódoltság
+    C: Nyugat-Magyarország
+    D: Temesköz
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben volt a kőszegi ostrom?
+    Answers: [1521, 1526, 1532, 1541, 1552]
+    Correct: [1532]
+
+  - Type: singlechoice
+    Text: Ki volt Fráter György?
+    A: török hadvezér
+    B: erdélyi főpap és politikus
+    C: végvári kapitány
+    D: Habsburg uralkodó
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi lett János Zsigmond uralkodói címe 1570 után?
+    A: magyar király
+    B: királyi helytartó
+    C: erdélyi fejedelem
+    D: nádor
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történt II. Lajossal a mohácsi csata után?
+    A: fogságba esett
+    B: elmenekült Lengyelországba
+    C: meghalt
+    D: lemondott a trónról
+    Correct: C
+
+  - Type: singlechoice
+    Text: Ki volt Szapolyai János a mohácsi csata idején?
+    A: nádor
+    B: erdélyi vajda
+    C: király
+    D: végvári kapitány
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely csoportok támogatták Habsburg Ferdinándot a trónharcban?
+    Answers: [Nyugati országrész, keleti országrész, főnemesek, köznemesek, Német–római Császárság]
+    Correct: [Nyugati országrész, főnemesek, Német–római Császárság]
+
+  - Type: singlechoice
+    Text: Miért kértek Szulejmántól segítséget 1541-ben?
+    A: Eger védelméhez
+    B: Temesvár visszafoglalásához
+    C: Buda védelméhez Ferdinánd ellen
+    D: Lengyelország megtámadásához
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi lett Buda sorsa 1541-ben?
+    A: királyi székhely maradt
+    B: Habsburg kézre került
+    C: török kézre került
+    D: elnéptelenedett
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely várak védelme volt sikeres a törökkel szemben?
+    Answers: [Eger, Kőszeg, Temesvár, Buda, Drégelypalánk]
+    Correct: [Eger, Kőszeg]
+
+  - Type: singlechoice
+    Text: Ki volt a szigetvári vár kapitánya 1566-ban?
+    A: Dobó István
+    B: Jurisics Miklós
+    C: Zrínyi Miklós
+    D: Szondi György
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben halt meg Szulejmán szultán?
+    Answers: [1526, 1541, 1552, 1566, 1570]
+    Correct: [1566]
+
+  - Type: singlechoice
+    Text: Mi volt a végvári rendszer egyik fő célja?
+    A: a királyi udvar védelme
+    B: a török terjeszkedés feltartóztatása
+    C: Erdély elszakítása
+    D: a nemesség hatalmának növelése
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol alakult ki Erdély fejedelemségének központja Báthori István idején?
+    A: Kolozsvár
+    B: Nagyvárad
+    C: Gyulafehérvár
+    D: Brassó
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi volt a mohácsi csata közvetlen következménye?
+    A: a török kivonulása Magyarországról
+    B: az ország megerősödése
+    C: II. Lajos halála
+    D: Erdély függetlenné válása
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik évben kezdődött II. Lajos uralkodása?
+    A: 1506
+    B: 1516
+    C: 1521
+    D: 1526
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely események történtek 1541-ben?
+    Answers: [Buda elfoglalása, Mohácsi csata, az ország három részre szakadása, Váradi béke, János Zsigmond uralkodása]
+    Correct: [Buda elfoglalása, az ország három részre szakadása]
+
+  - Type: singlechoice
+    Text: Ki volt János Zsigmond apja?
+    A: II. Lajos
+    B: Báthori István
+    C: Szapolyai János
+    D: Habsburg Ferdinánd
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik terület került közvetlen török uralom alá?
+    A: Erdély
+    B: Királyi Magyarország
+    C: Hódoltság
+    D: Felvidék
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely személyek vettek részt a trónharcban Mohács után?
+    Answers: [Szapolyai János, Habsburg Ferdinánd, II. Lajos, János Zsigmond, Szulejmán]
+    Correct: [Szapolyai János, Habsburg Ferdinánd]
+
+  - Type: singlechoice
+    Text: Milyen státuszba került Szapolyai János az Oszmán Birodalommal szemben?
+    A: szövetséges
+    B: vazallus (hűbéres)
+    C: ellenség
+    D: alattvaló nélküli uralkodó
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol zajlott le az 1532-es török hadjárat egyik fontos eseménye?
+    A: Eger
+    B: Szigetvár
+    C: Kőszeg
+    D: Temesvár
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely jellemzők igazak a végvári rendszerre?
+    Answers: [palánkvárak építése, tüzérség szerepének növekedése, lovagi harcmodor, bástyák kialakítása, mozgó hadsereg hiánya]
+    Correct: [palánkvárak építése, tüzérség szerepének növekedése, bástyák kialakítása]
+
+  - Type: singlechoice
+    Text: Ki volt Drégelypalánk hős védője?
+    A: Dobó István
+    B: Zrínyi Miklós
+    C: Jurisics Miklós
+    D: Szondi György
+    Correct: D
+
+  - Type: singlechoice
+    Text: Melyik vár védelme során arattak jelentős magyar győzelmet 1552-ben?
+    A: Temesvár
+    B: Szolnok
+    C: Eger
+    D: Drégelypalánk
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely várak estek el a török hadjárat során 1552-ben?
+    Answers: [Temesvár, Szolnok, Eger, Drégelypalánk, Kőszeg]
+    Correct: [Temesvár, Szolnok, Drégelypalánk]
+
+  - Type: singlechoice
+    Text: Mi volt az 1566-os török hadjárat fő célja?
+    A: Erdély elfoglalása
+    B: Buda megerősítése
+    C: Bécs elfoglalása
+    D: Lengyelország megtámadása
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történt Zrínyi Miklóssal Szigetvárnál?
+    A: fogságba esett
+    B: visszavonult
+    C: hősi kirohanásban elesett
+    D: békét kötött
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak János Zsigmondra?
+    Answers: [Szapolyai fia volt, magyar király lett, 1570-ben lemondott a koronáról, erdélyi fejedelem lett, Habsburg uralkodó volt]
+    Correct: [Szapolyai fia volt, 1570-ben lemondott a koronáról, erdélyi fejedelem lett]
+
+  - Type: singlechoice
+    Text: Melyik évben egyezett meg Fráter György a Habsburgokkal?
+    A: 1538
+    B: 1541
+    C: 1551
+    D: 1570
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi lett Fráter György megállapodásának következménye?
+    A: Erdély megerősödése
+    B: török kivonulás
+    C: Castaldo zsoldosainak pusztítása
+    D: békés egyesítés
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely városok kapcsolódnak Erdély fejedelemségéhez?
+    Answers: [Gyulafehérvár, Buda, Kolozsvár, Eger, Temesvár]
+    Correct: [Gyulafehérvár, Kolozsvár]
+
+  - Type: singlechoice
+    Text: Ki építette ki Erdély új államának alapjait?
+    A: János Zsigmond
+    B: Szapolyai János
+    C: Báthori István
+    D: Habsburg Ferdinánd
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben választották Báthori Istvánt erdélyi fejedelemmé?
+    Answers: [1541, 1551, 1570, 1571, 1586]
+    Correct: [1571]
+

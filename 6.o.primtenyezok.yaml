@@ -1,0 +1,151 @@
+Quiz: Primtenyezok
+Question:
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 12-nek!
+    Answers: [2, 3, 4, 6, 5]
+    Correct: [2, 3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 18-nak!
+    Answers: [2, 3, 6, 9, 5]
+    Correct: [2, 3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 20-nak!
+    Answers: [2, 4, 5, 10, 3]
+    Correct: [2, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 15-nek!
+    Answers: [3, 5, 15, 1, 2]
+    Correct: [3, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 16-nak!
+    Answers: [2, 4, 8, 16, 3]
+    Correct: [2]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 21-nek!
+    Answers: [3, 7, 21, 14, 5]
+    Correct: [3, 7]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 24-nek!
+    Answers: [2, 3, 4, 6, 12]
+    Correct: [2, 3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 14-nek!
+    Answers: [2, 7, 14, 1, 4]
+    Correct: [2, 7]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 9-nek!
+    Answers: [3, 9, 1, 2, 6]
+    Correct: [3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 25-nek!
+    Answers: [5, 25, 1, 10, 2]
+    Correct: [5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 30-nak!
+    Answers: [2, 3, 5, 6, 10]
+    Correct: [2, 3, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 8-nak!
+    Answers: [2, 4, 8, 1, 3]
+    Correct: [2]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 27-nek!
+    Answers: [3, 9, 27, 1, 2]
+    Correct: [3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 10-nek!
+    Answers: [2, 5, 10, 1, 3]
+    Correct: [2, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 22-nek!
+    Answers: [2, 11, 22, 1, 4]
+    Correct: [2, 11]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 28-nak!
+    Answers: [2, 7, 14, 4, 3]
+    Correct: [2, 7]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 6-nak!
+    Answers: [2, 3, 6, 1, 4]
+    Correct: [2, 3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 35-nek!
+    Answers: [5, 7, 35, 1, 10]
+    Correct: [5, 7]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 32-nek!
+    Answers: [2, 4, 8, 16, 3]
+    Correct: [2]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 49-nek!
+    Answers: [7, 49, 1, 14, 2]
+    Correct: [7]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 40-nek!
+    Answers: [2, 5, 4, 10, 20]
+    Correct: [2, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 11-nek!
+    Answers: [11, 1, 2, 22, 5]
+    Correct: [11]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 26-nak!
+    Answers: [2, 13, 26, 1, 6]
+    Correct: [2, 13]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 45-nek!
+    Answers: [3, 5, 9, 15, 45]
+    Correct: [3, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 50-nek!
+    Answers: [2, 5, 10, 25, 1]
+    Correct: [2, 5]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 33-nak!
+    Answers: [3, 11, 33, 1, 6]
+    Correct: [3, 11]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 36-nak!
+    Answers: [2, 3, 6, 9, 12]
+    Correct: [2, 3]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 44-nek!
+    Answers: [2, 11, 22, 4, 1]
+    Correct: [2, 11]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 13-nak!
+    Answers: [13, 1, 26, 2, 5]
+    Correct: [13]
+
+  - Type: multiplechoice
+    Text: Jelöld be, mely számok prímtényezői a 60-nak!
+    Answers: [2, 3, 5, 6, 10]
+    Correct: [2, 3, 5]

@@ -1,0 +1,393 @@
+Quiz: Magyar tulajdonnevek helyesírása
+Question:
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a Földközi-tengert?
+    A: Foldkozi tenger
+    B: Földközi tenger
+    C: Földközi-tenger
+    D: földközi-tenger
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen Magyarország fővárosát?
+    A: budapest
+    B: Buda-Pest
+    C: Budapest
+    D: budaPest
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a Balaton becenevét?
+    A: magyar tenger
+    B: Magyar-tenger
+    C: Magyar tenger
+    D: magyar-Tenger
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a földrajzi nevet?
+    A: Duna folyó
+    B: duna folyó
+    C: Duna Folyó
+    D: Duna-folyó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen az ünnep nevét?
+    A: karácsony
+    B: Karácsony
+    C: Karácsony ünnepe
+    D: karácsony Ünnepe
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az országnevet?
+    A: cseh Köztársaság
+    B: Cseh köztársaság
+    C: Cseh Köztársaság
+    D: cseh köztársaság
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi kort?
+    A: középkor
+    B: Középkor
+    C: Közép-kor
+    D: középKor
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a hegy nevét?
+    A: Mount Everest
+    B: mount Everest
+    C: Mount everest
+    D: mount everest
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az intézménynevet?
+    A: Eötvös loránd Tudományegyetem
+    B: Eötvös Loránd Tudományegyetem
+    C: Eötvös loránd tudományegyetem
+    D: eötvös Loránd Tudományegyetem
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az utcanevet?
+    A: Petőfi Sándor utca
+    B: Petőfi sándor utca
+    C: petőfi Sándor Utca
+    D: Petőfi sándor Utca
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi eseményt?
+    A: Mohácsi csata
+    B: mohácsi csata
+    C: Mohácsi Csata
+    D: mohácsi Csata
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a kontinensnevet?
+    A: európa
+    B: Európa
+    C: Európa kontinens
+    D: európa Kontinens
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a folyónevet?
+    A: Tisza
+    B: tisza
+    C: TISZA
+    D: Tisza folyó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen az iskolatípust?
+    A: gimnázium
+    B: Gimnázium
+    C: gimnÁzium
+    D: GIMNÁZIUM
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a csillagászati nevet?
+    A: föld
+    B: Föld
+    C: föLd
+    D: FÖLD
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi személy nevét?
+    A: Mátyás király
+    B: Mátyás Király
+    C: mátyás király
+    D: Mátyás király úr
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az országnevet?
+    A: Egyesült államok
+    B: Egyesült Államok
+    C: egyesült Államok
+    D: Egyesült államok
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a városrészt?
+    A: belváros
+    B: Belváros
+    C: bel-Város
+    D: Belvárosrész
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az irodalmi műcímet?
+    A: Az ember tragédiája
+    B: Az Ember Tragédiája
+    C: az ember tragédiája
+    D: Az ember Tragédiája
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi kort?
+    A: reneszánsz
+    B: Reneszánsz
+    C: reneszánsz Kor
+    D: Reneszánsz kor
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a következő földrajzi nevet?
+    A: Dél alföld
+    B: Dél-Alföld
+    C: dél-Alföld
+    D: Dél-alföld
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a hegységnevet?
+    A: Északi-középhegység
+    B: Északi középhegység
+    C: északi-középhegység
+    D: Északi Középhegység
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a tónevet?
+    A: Fertő tó
+    B: Fertő-tó
+    C: fertő-tó
+    D: Fertő Tó
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen az ünnep nevét?
+    A: húsvét
+    B: Húsvét
+    C: Húsvét ünnepe
+    D: húsvét Ünnepe
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi eseményt?
+    A: Aradi vértanúk
+    B: aradi vértanúk
+    C: Aradi Vértanúk
+    D: aradi Vértanúk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a városnevet?
+    A: székesfehérvár
+    B: Székes Fehérvár
+    C: Székesfehérvár
+    D: Székes-fehérvár
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a folyó mellékágát?
+    A: Rába folyó
+    B: Rába
+    C: rába
+    D: RÁBA
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi kort?
+    A: újkor
+    B: Újkor
+    C: új Kor
+    D: Új-Kor
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen az iskola nevét?
+    A: kossuth Lajos gimnázium
+    B: Kossuth lajos Gimnázium
+    C: Kossuth Lajos Gimnázium
+    D: Kossuth Lajos gimnázium
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az országnevet?
+    A: nagy-britannia
+    B: Nagy-Britannia
+    C: Nagy britannia
+    D: nagy Britannia
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a történelmi személynevet?
+    A: II. Rákóczi Ferenc
+    B: II Rákóczi Ferenc
+    C: II. rákóczi Ferenc
+    D: ii. Rákóczi Ferenc
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a világtájat?
+    A: Észak
+    B: észak
+    C: Észak-Nyugat
+    D: északnyugat
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a parknevet?
+    A: Hortobágyi Nemzeti Park
+    B: Hortobágyi nemzeti park
+    C: hortobágyi Nemzeti Park
+    D: Hortobágyi Nemzeti park
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az utcanevet?
+    A: Kossuth Lajos tér
+    B: Kossuth lajos tér
+    C: kossuth Lajos Tér
+    D: Kossuth Lajos Tér
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen az égitest nevét?
+    A: nap
+    B: Nap
+    C: NAP
+    D: NaP
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a műcímet?
+    A: Egri csillagok
+    B: Egri Csillagok
+    C: egri csillagok
+    D: Egri csillagok regény
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a megyenevet?
+    A: Borsod abaúj zemplén megye
+    B: Borsod-Abaúj-Zemplén megye
+    C: Borsod-Abaúj-zemplén Megye
+    D: borsod-Abaúj-Zemplén megye
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi eseményt?
+    A: 1848-as forradalom
+    B: 1848-As forradalom
+    C: 1848 as forradalom
+    D: 1848-As Forradalom
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a hídnevet?
+    A: Lánchíd
+    B: Lánc híd
+    C: lánchíd
+    D: Lánc-Híd
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt az intézményt?
+    A: Magyar Tudományos Akadémia
+    B: Magyar tudományos akadémia
+    C: magyar Tudományos Akadémia
+    D: Magyar Tudományos akadémia
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a nemzetiséget?
+    A: magyar
+    B: Magyar
+    C: MAGYAR
+    D: MaGyaR
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a sporteseményt?
+    A: olimpiai játékok
+    B: Olimpiai játékok
+    C: Olimpiai Játékok
+    D: olimpiai Játékok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a templomnevet?
+    A: Mátyás-templom
+    B: Mátyás templom
+    C: mátyás-templom
+    D: Mátyás Templom
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a folyó és a tenger nevét együtt?
+    A: Duna delta
+    B: Duna-delta
+    C: Duna Delta
+    D: duna-delta
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a városrészt?
+    A: Újbuda
+    B: Új-Buda
+    C: újBuda
+    D: új-buda
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a vasútvonalat?
+    A: Budapest–Győr vasútvonal
+    B: Budapest-Győr Vasútvonal
+    C: budapest–győr vasútvonal
+    D: Budapest–győr Vasútvonal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a folyónevet?
+    A: Dráva
+    B: dráva
+    C: Dráva folyó
+    D: DRÁVA
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen a történelmi dokumentum nevét?
+    A: Aranybulla
+    B: Arany Bulla
+    C: aranybulla
+    D: Arany-bulla
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan írjuk helyesen ezt a városnevet?
+    A: Debrecen
+    B: debrecen
+    C: Debre-cen
+    D: DEBRECEN
+    Correct: A

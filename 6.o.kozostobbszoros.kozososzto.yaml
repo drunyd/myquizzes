@@ -1,0 +1,151 @@
+Quiz: Legkisebb kozos tobbszoros - legnagyobb kozos oszto
+Question:
+- Type: word
+  Text: Mennyi a 6 és 8 legkisebb közös többszöröse?
+  Answers: [12, 24, 48, 6, 8]
+  Correct: [24]
+
+- Type: word
+  Text: Mennyi a 4 és 10 legkisebb közös többszöröse?
+  Answers: [20, 40, 10, 4, 5]
+  Correct: [20]
+
+- Type: word
+  Text: Mennyi a 3 és 5 legkisebb közös többszöröse?
+  Answers: [8, 15, 10, 5, 30]
+  Correct: [15]
+
+- Type: word
+  Text: Mennyi a 6 és 9 legkisebb közös többszöröse?
+  Answers: [18, 36, 9, 6, 54]
+  Correct: [18]
+
+- Type: word
+  Text: Mennyi a 8 és 12 legkisebb közös többszöröse?
+  Answers: [24, 48, 12, 96, 8]
+  Correct: [24]
+
+- Type: word
+  Text: Mennyi a 5 és 7 legkisebb közös többszöröse?
+  Answers: [35, 12, 14, 70, 7]
+  Correct: [35]
+
+- Type: word
+  Text: Mennyi a 9 és 12 legkisebb közös többszöröse?
+  Answers: [18, 36, 24, 72, 12]
+  Correct: [36]
+
+- Type: word
+  Text: Mennyi a 10 és 15 legkisebb közös többszöröse?
+  Answers: [30, 15, 60, 10, 45]
+  Correct: [30]
+
+- Type: word
+  Text: Mennyi a 4 és 6 legkisebb közös többszöröse?
+  Answers: [12, 6, 24, 4, 18]
+  Correct: [12]
+
+- Type: word
+  Text: Mennyi a 7 és 14 legkisebb közös többszöröse?
+  Answers: [14, 28, 7, 49, 21]
+  Correct: [14]
+
+- Type: word
+  Text: Mennyi a 6 és 8 legnagyobb közös osztója?
+  Answers: [1, 2, 4, 6, 8]
+  Correct: [2]
+
+- Type: word
+  Text: Mennyi a 12 és 18 legnagyobb közös osztója?
+  Answers: [3, 6, 12, 18, 9]
+  Correct: [6]
+
+- Type: word
+  Text: Mennyi a 8 és 20 legnagyobb közös osztója?
+  Answers: [2, 4, 8, 10, 20]
+  Correct: [4]
+
+- Type: word
+  Text: Mennyi a 9 és 15 legnagyobb közös osztója?
+  Answers: [1, 3, 5, 9, 15]
+  Correct: [3]
+
+- Type: word
+  Text: Mennyi a 10 és 25 legnagyobb közös osztója?
+  Answers: [1, 5, 10, 25, 2]
+  Correct: [5]
+
+- Type: word
+  Text: Mennyi a 14 és 21 legnagyobb közös osztója?
+  Answers: [1, 7, 14, 21, 3]
+  Correct: [7]
+
+- Type: word
+  Text: Mennyi a 16 és 24 legnagyobb közös osztója?
+  Answers: [4, 8, 16, 24, 2]
+  Correct: [8]
+
+- Type: word
+  Text: Mennyi a 18 és 30 legnagyobb közös osztója?
+  Answers: [3, 6, 9, 12, 15]
+  Correct: [6]
+
+- Type: word
+  Text: Mennyi a 6 és 14 legnagyobb közös osztója?
+  Answers: [1, 2, 6, 7, 14]
+  Correct: [2]
+
+- Type: word
+  Text: Mennyi a 12 és 16 legnagyobb közös osztója?
+  Answers: [2, 4, 8, 12, 16]
+  Correct: [4]
+
+- Type: word
+  Text: Mennyi a 3 és 4 legkisebb közös többszöröse?
+  Answers: [6, 12, 4, 3, 24]
+  Correct: [12]
+
+- Type: word
+  Text: Mennyi a 5 és 10 legkisebb közös többszöröse?
+  Answers: [5, 10, 20, 50, 15]
+  Correct: [10]
+
+- Type: word
+  Text: Mennyi a 6 és 10 legkisebb közös többszöröse?
+  Answers: [30, 60, 10, 6, 20]
+  Correct: [30]
+
+- Type: word
+  Text: Mennyi a 8 és 6 legnagyobb közös osztója?
+  Answers: [1, 2, 4, 6, 8]
+  Correct: [2]
+
+- Type: word
+  Text: Mennyi a 15 és 20 legnagyobb közös osztója?
+  Answers: [1, 5, 10, 15, 20]
+  Correct: [5]
+
+- Type: word
+  Text: Mennyi a 9 és 6 legkisebb közös többszöröse?
+  Answers: [18, 36, 9, 6, 54]
+  Correct: [18]
+
+- Type: word
+  Text: Mennyi a 4 és 9 legkisebb közös többszöröse?
+  Answers: [18, 36, 9, 4, 12]
+  Correct: [36]
+
+- Type: word
+  Text: Mennyi a 12 és 20 legkisebb közös többszöröse?
+  Answers: [60, 120, 20, 12, 240]
+  Correct: [60]
+
+- Type: word
+  Text: Mennyi a 18 és 24 legnagyobb közös osztója?
+  Answers: [3, 6, 12, 18, 24]
+  Correct: [6]
+
+- Type: word
+  Text: Mennyi a 10 és 14 legnagyobb közös osztója?
+  Answers: [1, 2, 5, 7, 14]
+  Correct: [2]

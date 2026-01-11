@@ -1,0 +1,240 @@
+Quiz: Fizika, nehany ero
+Question:
+  - Type: singlechoice
+    Text: Mi okozza, hogy az érett gyümölcs lehull a fáról?
+    A: A gravitációs erő hatására
+    B: A levegő nyomása miatt
+    C: A Nap sugárzása miatt
+    D: A gyümölcs súlya miatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a gravitációs erő jele?
+    A: G
+    B: Fg
+    C: m
+    D: g
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik tényezőtől függ a gravitációs erő nagysága?
+    A: A test anyagától
+    B: A test tömegétől és a gravitációs gyorsulástól
+    C: A test színétől
+    D: Csak a test térfogatától
+    Correct: B
+
+  - Type: word
+    Text: Számítsd ki a gravitációs erőt egy 2 kg tömegű virágcserepre! (g = 10 N/kg)
+    Answers: [10, 20, 2, 200, 0]
+    Correct: [20]
+
+  - Type: singlechoice
+    Text: Mi a neve annak az erőnek, ami egy testet nyugalomban tart az alátámasztáson?
+    A: Súlyerő
+    B: Gravitációs erő
+    C: Tartóerő
+    D: Súrlódási erő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen irányban hat a tartóerő nyugalomban lévő testnél?
+    A: Felfelé
+    B: Lefelé
+    C: Oldalirányban
+    D: Körkörösen
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a súlyerő jele?
+    A: m
+    B: g
+    C: G
+    D: Fg
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Miben különbözik a tömeg és a súly?
+    Answers: [A tömeg állandó, a súly változik a helytől függően, A súly mértékegysége kg, A tömeg erő, A tömeg N-ban mérhető]
+    Correct: [A tömeg állandó, a súly változik a helytől függően]
+
+  - Type: singlechoice
+    Text: Hol van a gravitációs erő támadáspontja egy testnél?
+    A: A test felszínén
+    B: A test középpontjában
+    C: A test alján
+    D: A test tetején
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit mérünk a mérlegen, amikor ráállunk?
+    A: A test tömegét kilogrammban
+    B: A test súlyát newtonban
+    C: A gravitációs gyorsulást
+    D: A test térfogatát
+    Correct: A
+
+  - Type: word
+    Text: Számítsd ki a gravitációs erőt egy 5 kg tömegű labdára! (g = 10 N/kg)
+    Answers: [50, 15, 5, 100, 25]
+    Correct: [50]
+
+  - Type: word
+    Text: Egy 8 kg tömegű doboz gyorsul a föld felé. Mekkora a gravitációs erő? (g = 9,8 N/kg)
+    Answers: [78.4, 80, 98, 8]
+    Correct: [78.4]
+
+  - Type: word
+    Text: Számítsd ki a súlyt egy 12 kg tömegű testre! (g = 10 N/kg)
+    Answers: [120, 12, 1,2, 100, 10]
+    Correct: [120]
+
+  - Type: word
+    Text: Egy 0,5 kg tömegű alma esik a fáról. Mekkora a gravitációs erő? (g = 10 N/kg)
+    Answers: [5, 0,5, 10, 50]
+    Correct: [5]
+
+  - Type: word
+    Text: Mekkora erővel nyom egy 15 kg-os láda az alátámasztásra? (g = 10 N/kg)
+    Answers: [150, 15, 1,5, 100]
+    Correct: [150]
+
+  - Type: word
+    Text: Számítsd ki a gravitációs erőt egy 20 kg tömegű csomagra! (g = 9,8 N/kg)
+    Answers: [196, 200, 20, 9,8, 180]
+    Correct: [196]
+
+  - Type: word
+    Text: Egy 3 kg tömegű könyv fekszik az asztalon. Mekkora a súlya? (g = 10 N/kg)
+    Answers: [30, 3, 0,3, 10]
+    Correct: [30]
+
+  - Type: word
+    Text: Számítsd ki egy 7 kg tömegű vízpalack gravitációs erejét! (g = 9,8 N/kg)
+    Answers: [68,6, 70, 7, 9,8]
+    Correct: [68.6]
+
+  - Type: word
+    Text: Mekkora a súlya egy 0,2 kg-os tollnak? (g = 10 N/kg)
+    Answers: [2, 0,2, 20, 0,02]
+    Correct: [2]
+
+  - Type: word
+    Text: Egy 25 kg-os zsák gyorsul a föld felé. Mekkora a gravitációs erő? (g = 9,8 N/kg)
+    Answers: [245, 250, 24,5, 98]
+    Correct: [245]
+
+  - Type: singlechoice
+    Text: Miért nem esik le az éretlen gyümölcs az ágról?
+    A: Mert a gravitáció nem hat rá
+    B: Mert a tartóerő kiegyenlíti a gravitációs erőt
+    C: Mert könnyű a gyümölcs
+    D: Mert a Nap tartja az ágon
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a gravitációs erő iránya?
+    A: Felfelé
+    B: Lefelé, a Föld középpontja felé
+    C: Oldalirányban
+    D: Körkörösen
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik, ha a tartóerő kisebb, mint a gravitációs erő?
+    A: A test nyugalomban marad
+    B: A test elmozdul a nagyobb erő irányába
+    C: A test lebegni kezd
+    D: A test felfelé emelkedik
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a súlyerő jele?
+    A: Fg
+    B: G
+    C: m
+    D: g
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik állítás igaz a tömegre?
+    A: A tömeg változik a földrajzi helytől
+    B: A tömeg mértékegysége N
+    C: A tömeg a test tehetetlenségének mértéke
+    D: A tömeg mindig lefelé hat
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a súlyerőre?
+    Answers: [A test nyugalomban hat az alátámasztásra, Jele G, Nagysága mindig változik, Irány felfelé]
+    Correct: [A test nyugalomban hat az alátámasztásra, Jele G]
+
+  - Type: singlechoice
+    Text: Hol van a gravitációs erő támadáspontja?
+    A: A test középpontjában
+    B: A test alján
+    C: A test tetején
+    D: A test felszínén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért olvashatjuk a mérlegen kg-ban a test tömegét?
+    A: Mert a mérleg a súlyt méri és átszámítja
+    B: Mert a mérleg csak a gravitációt méri
+    C: Mert a tömeg változik a földrajzi helytől
+    D: Mert a mérleg csak Newton-ban tud mérni
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a neve annak az erőnek, ami a testet felfüggesztés vagy alátámasztás útján tartja?
+    A: Gravitációs erő
+    B: Tartóerő
+    C: Súlyerő
+    D: Súrlódási erő
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik egy lehulló gyümölccsel, ha nincs tartóerő?
+    A: Nem mozdul
+    B: A gravitáció gyorsítja lefelé
+    C: Lebegni kezd
+    D: Oldalirányba esik
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyek a gravitációs erő jellemzői?
+    Answers: [Vektormennyiség, Jele Fg, Nagysága a test tömegétől és g-től függ, Mindig felfelé hat]
+    Correct: [Vektormennyiség, Jele Fg, Nagysága a test tömegétől és g-től függ]
+
+  - Type: singlechoice
+    Text: Mi történik a testtel, ha a tartóerő épp megegyezik a gravitációs erővel?
+    A: A test elmozdul
+    B: A test nyugalomban marad
+    C: A test gyorsul felfelé
+    D: A test gyorsul lefelé
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit mér a mérleg, amikor ráállunk?
+    A: A gravitációs erőt newtonban
+    B: A test tömegét kilogrammban
+    C: A gyorsulást
+    D: A térfogatot
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a különbség a súly és a tömeg között?
+    A: A súly állandó, a tömeg változik
+    B: A súly az erő, a tömeg a test tehetetlensége
+    C: Mindkettő erő
+    D: Mindkettő ugyanaz
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mitől függ a súly nagysága?
+    A: Csak a test anyagától
+    B: A test tömegétől és a gravitációs gyorsulástól
+    C: Csak a test térfogatától
+    D: A test színétől
+    Correct: B
+
