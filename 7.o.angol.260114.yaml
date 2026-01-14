@@ -1,0 +1,160 @@
+Quiz: English–Hungarian vocabulary quiz
+Question:
+  - Type: singlechoice
+    Text: Mit jelent angolul az, hogy „jobb oldalt”?
+    A: on the left
+    B: on the right
+    C: in the middle
+    D: on the top
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent angolul az, hogy „bal oldalt”?
+    A: on the bottom
+    B: on the left
+    C: in the middle
+    D: via
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent angolul az, hogy „középen”?
+    A: on the top
+    B: on the bottom
+    C: in the middle
+    D: together
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit jelent angolul az, hogy „tetején”?
+    A: on the top
+    B: on the right
+    C: on the left
+    D: at all
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent angolul az, hogy „alul”?
+    A: in the middle
+    B: on the bottom
+    C: on the top
+    D: again
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyik jelentései lehetnek a „country” szónak?
+    Answers: [vidék, ország, megye, falu]
+    Correct: [vidék, ország]
+
+  - Type: multiplechoice
+    Text: Melyik jelentései lehetnek a „county” szónak?
+    Answers: [megye, falu, ország, város]
+    Correct: [megye, falu]
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „felnő”?
+    Answers: [grow up]
+    Correct: [grow up]
+
+  - Type: multiplechoice
+    Text: Melyik jelentései lehetnek a „keep” szónak?
+    Answers: [tart (állatokat), megőriz, eldob, elveszít]
+    Correct: [tart (állatokat), megőriz]
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „hold”?
+    A: tart (állatokat)
+    B: tárgy (fog)
+    C: nő
+    D: elenged
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „vet”?
+    A: gazda
+    B: állatorvos
+    C: orvos
+    D: tenyésztő
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „going to” (jövő időben)?
+    A: most csinálja
+    B: meg fogja csinálni
+    C: már megcsinálta
+    D: csinálhatná
+    Correct: B
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „hamarosan”?
+    Answers: [soon]
+    Correct: [soon]
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „spend”?
+    A: keres
+    B: félretesz
+    C: elkölt (pénzt)
+    D: kölcsönad
+    Correct: C
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „terv”?
+    Answers: [plan]
+    Correct: [plan]
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „együtt”?
+    Answers: [together]
+    Correct: [together]
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „via”?
+    A: mellett
+    B: keresztül
+    C: nélkül
+    D: után
+    Correct: B
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „ódivatú”?
+    Answers: [old fashioned]
+    Correct: [old fashioned]
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „at all”?
+    A: mindig
+    B: egyáltalán
+    C: gyakran
+    D: néha
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „by far now”?
+    A: most azonnal
+    B: régen
+    C: ennyi mostanáig
+    D: hamarosan
+    Correct: C
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „újra”?
+    Answers: [again]
+    Correct: [again]
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „szokásos”?
+    Answers: [usual]
+    Correct: [usual]
+
+  - Type: singlechoice
+    Text: Mit jelent magyarul az, hogy „go on an excursion”?
+    A: dolgozni megy
+    B: kirándulni megy
+    C: vásárolni megy
+    D: hazamegy
+    Correct: B
+
+  - Type: word
+    Text: Mit jelent angolul az, hogy „különleges”?
+    Answers: [special]
+    Correct: [special]
