@@ -1,0 +1,319 @@
+Quiz: Nyitvatermők – biológia
+Question:
+  - Type: singlechoice
+    Text: Melyek a ma élő legfejlettebb növények fő részei?
+    A: gyökér, szár, levél
+    B: gyökér, szár, levél, virág
+    C: gyökér, levél, termés
+    D: szár, levél, virág
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely növénycsoportból fejlődtek ki a virágos növények?
+    A: mohákból
+    B: algákból
+    C: ősi harasztokból
+    D: zárvatermőkből
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a virágos növények szaporodására?
+    A: nedves környezetet igényel
+    B: vízben történik
+    C: nem igényel nedves környezetet
+    D: spórával történik
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hány törzsbe sorolhatók a virágos növények?
+    A: egy
+    B: kettő
+    C: három
+    D: négy
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a virág feladata?
+    A: fotoszintézis
+    B: raktározás
+    C: szaporodás
+    D: vízszállítás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miből alakult ki a virág?
+    A: gyökérből
+    B: szárból
+    C: lomblevelekből
+    D: termésből
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol fejlődnek ki a hímivarsejtek?
+    A: termőben
+    B: porzóban
+    C: magkezdeményben
+    D: csírában
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit tartalmaz a termő?
+    A: pollent
+    B: csírát
+    C: magkezdeményt petesejttel
+    D: spórát
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történik megporzáskor?
+    A: a mag lehullik
+    B: a pollen a termőre kerül
+    C: a csíra kifejlődik
+    D: a toboz kinyílik
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a megtermékenyített petesejtet?
+    A: csíra
+    B: mag
+    C: zigóta
+    D: pollen
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi fejlődik a magban a zigótából?
+    A: virág
+    B: gyökér
+    C: csíra
+    D: termés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mikor jelentek meg az első nyitvatermők?
+    A: 50 millió éve
+    B: 100 millió éve
+    C: 250 millió éve
+    D: 1 millió éve
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit jelent az, hogy a nyitvatermők magkezdeményei szabadon fejlődnek?
+    A: termésben vannak
+    B: a termőleveleken szabadon ülnek
+    C: vízben fejlődnek
+    D: gyökérben fejlődnek
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik a nyitvatermők legismertebb osztálya?
+    A: pálmák
+    B: páfrányok
+    C: fenyők
+    D: mohák
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a nyitvatermők jellemzői?
+    Answers: [fás szárúak, tű- vagy pikkelylevelűek, egylakiak, virágos termésük van]
+    Correct: [fás szárúak, tű- vagy pikkelylevelűek, egylakiak]
+
+  - Type: singlechoice
+    Text: Hogyan történik a nyitvatermők beporzása?
+    A: rovarokkal
+    B: vízzel
+    C: széllel
+    D: állatokkal
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mivé alakulnak a termős virágok a fenyőknél?
+    A: bogyóvá
+    B: terméssé
+    C: tobozzá
+    D: virágzattá
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő őshonos hazánkban és kedvelt karácsonyfa?
+    A: erdeifenyő
+    B: közönséges lucfenyő
+    C: feketefenyő
+    D: vörösfenyő
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik fenyő lombhullató?
+    A: lucfenyő
+    B: jegenyefenyő
+    C: vörösfenyő
+    D: feketefenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növénynek nem alakul ki toboza?
+    A: boróka
+    B: lucfenyő
+    C: tiszafa
+    D: erdeifenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növényi szerv hiányzik a nyitvatermőknél?
+    A: gyökér
+    B: szár
+    C: levél
+    D: termés
+    Correct: D
+
+  - Type: singlechoice
+    Text: Miért nevezik a nyitvatermőket „nyitvatermőknek”?
+    A: mert magjaik vízben fejlődnek
+    B: mert termésük felnyílik
+    C: mert a magkezdemények szabadon ülnek
+    D: mert virágaik nagyok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik állítás igaz a nyitvatermők virágaira?
+    A: feltűnő szirmúak
+    B: egyneműek
+    C: mindig rovarbeporzásúak
+    D: termést hoznak
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit termelnek a porzós virágok?
+    A: petesejtet
+    B: magot
+    C: virágport
+    D: csírát
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol található a petesejt?
+    A: porzóban
+    B: pollenben
+    C: magban
+    D: magkezdeményben
+    Correct: D
+
+  - Type: singlechoice
+    Text: Mi alakul ki a magkezdeményből megtermékenyítés után?
+    A: virág
+    B: termés
+    C: mag
+    D: toboz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a szerepe a tartalék tápanyagnak a magban?
+    A: fotoszintézis
+    B: csíra táplálása
+    C: szaporodás
+    D: vízfelvétel
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelent az, hogy a nyitvatermők egylakiak?
+    A: csak porzós virágaik vannak
+    B: csak termős virágaik vannak
+    C: porzós és termős virágok is egy növényen vannak
+    D: külön növényeken vannak a virágok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyenek a nyitvatermők levelei?
+    A: széles lomblevelek
+    B: kerek levelek
+    C: tű- vagy pikkelyszerű levelek
+    D: színes levelek
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a fenyők leveleinek egyik előnye?
+    A: gyors párologtatás
+    B: nagy felület
+    C: kevés vízvesztés
+    D: rovarcsalogatás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyőnek kettesével állnak a tűlevelei?
+    A: lucfenyő
+    B: jegenyefenyő
+    C: erdeifenyő
+    D: tiszafa
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő kérge rókavörös színű?
+    A: feketefenyő
+    B: erdeifenyő
+    C: lucfenyő
+    D: vörösfenyő
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik fenyő meleg- és szárazságkedvelő?
+    A: lucfenyő
+    B: vörösfenyő
+    C: feketefenyő
+    D: jegenyefenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő nem őshonos hazánkban?
+    A: lucfenyő
+    B: erdeifenyő
+    C: feketefenyő
+    D: tiszafa
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő tűlevelei csomókban állnak?
+    A: vörösfenyő
+    B: lucfenyő
+    C: jegenyefenyő
+    D: erdeifenyő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a jegenyefenyő tobozaira?
+    A: lehullanak érés után
+    B: szétesnek érés után
+    C: bogyóvá alakulnak
+    D: kék színűek
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen növény a közönséges boróka?
+    A: fa
+    B: lágyszárú
+    C: cserje
+    D: kúszónövény
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen színűek a boróka tobozbogyói?
+    A: piros
+    B: sárga
+    C: zöld
+    D: kék
+    Correct: D
+
+  - Type: singlechoice
+    Text: Mivel burkolt a tiszafa magja?
+    A: toboz pikkelyeivel
+    B: terméshéjjal
+    C: piros magköpennyel
+    D: viaszréteggel
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol él vadon a tiszafa Magyarországon?
+    A: Alföldön
+    B: Bakonyban
+    C: Mecsekben
+    D: Hortobágyon
+    Correct: B
+

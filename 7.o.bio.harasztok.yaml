@@ -1,0 +1,434 @@
+Quiz: Harasztok – biológia
+Question:
+  - Type: singlechoice
+    Text: Mely növények voltak az első valódi szövetekből felépülő szervekkel rendelkező növények?
+    A: mohák
+    B: harasztok
+    C: zárvatermők
+    D: algák
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely szervei vannak a harasztoknak?
+    Answers: [gyökér, szár, levél, virág, termés]
+    Correct: [gyökér, szár, levél]
+
+  - Type: singlechoice
+    Text: Hogyan szaporodnak a harasztok?
+    A: maggal
+    B: sarjakkal
+    C: spórával
+    D: terméssel
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit nevezünk hajtásnak?
+    A: gyökér és szár
+    B: szár és levél
+    C: gyökér és levél
+    D: virág és termés
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi volt az elsőként kialakult növényi szerv?
+    A: gyökér
+    B: levél
+    C: virág
+    D: szár
+    Correct: D
+
+  - Type: singlechoice
+    Text: Mi a gyökér egyik legfontosabb feladata?
+    A: fotoszintézis
+    B: szaporodás
+    C: rögzítés és vízfelvétel
+    D: párologtatás
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a főgyökérzet jellemzői?
+    Answers: [vastag főgyökér, oldalgyökerek, hajszálgyökerek, egyforma gyökerek]
+    Correct: [vastag főgyökér, oldalgyökerek, hajszálgyökerek]
+
+  - Type: singlechoice
+    Text: Melyik növény rendelkezik mellékgyökérzettel?
+    A: paprika
+    B: sárgarépa
+    C: vöröshagyma
+    D: almafa
+    Correct: C
+
+  - Type: word
+    Text: Hogyan nevezzük a mikroszkopikus méretű gyökérszőrökkel rendelkező gyökereket?
+    Answers: [hajszálgyökerek]
+    Correct: [hajszálgyökerek]
+
+  - Type: singlechoice
+    Text: Melyik szerv a növény tengelye?
+    A: gyökér
+    B: levél
+    C: szár
+    D: virág
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a lágy szár jellemzői?
+    Answers: [egy-két évig él, bőrszövet borítja, elhalt kéreg, alapszövet tölti ki]
+    Correct: [egy-két évig él, bőrszövet borítja, alapszövet tölti ki]
+
+  - Type: singlechoice
+    Text: Mi vastagítja a fás szárat?
+    A: bőrszövet
+    B: kambium
+    C: farész
+    D: háncsrész
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit jelentenek az évgyűrűk?
+    A: a fa magasságát
+    B: a fa korát
+    C: a levelek számát
+    D: a gyökerek hosszát
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyek a lomblevél feladatai?
+    Answers: [fotoszintézis, párologtatás, gázcsere, rögzítés]
+    Correct: [fotoszintézis, párologtatás, gázcsere]
+
+  - Type: singlechoice
+    Text: Mi fut a levélnyélben?
+    A: kambium
+    B: gyökérszőrök
+    C: szállítónyaláb
+    D: bőrszövet
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen erezetű a kukorica levele?
+    A: hálózatos
+    B: sugaras
+    C: párhuzamos
+    D: tagolt
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol találhatók a zöld színtestek?
+    A: bőrszövetben
+    B: táplálékkészítő alapszövetben
+    C: farészben
+    D: háncsrészben
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely ősi harasztokból keletkeztek kőszéntelepek?
+    A: mohákból
+    B: zsurlókból
+    C: pecsétfából és pikkelyfából
+    D: páfrányokból
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen élőhelyen fordul elő a mezei zsurló?
+    A: száraz pusztán
+    B: vizes talajon
+    C: hegytetőn
+    D: sivatagban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol találhatók a páfrányok spórái?
+    A: a gyökéren
+    B: a szár csúcsán
+    C: a lomblevél fonákján
+    D: a virágban
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért alakult ki a lomblevél a szár után?
+    A: a szaporodás miatt
+    B: a fotoszintézis mértékének növelése miatt
+    C: a rögzítés miatt
+    D: a párologtatás csökkentése miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi volt a gyökér kialakulásának egyik fő oka?
+    A: fotoszintézis
+    B: szaporodás
+    C: kapaszkodás és vízfelvétel
+    D: spóraképzés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely szervek alkotják együtt a hajtást?
+    A: gyökér és szár
+    B: gyökér és levél
+    C: szár és lomblevél
+    D: levél és virág
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik állítás igaz a harasztokra?
+    A: virágos növények
+    B: termést hoznak
+    C: hajtásos, de virágtalan növények
+    D: csak száruk van
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely feladatokat látja el a gyökér?
+    Answers: [rögzítés, vízfelvétel, ásványi sók felszívása, fotoszintézis]
+    Correct: [rögzítés, vízfelvétel, ásványi sók felszívása]
+
+  - Type: singlechoice
+    Text: Mit alkotnak együtt a gyökerek?
+    A: hajtást
+    B: gyökérzetet
+    C: törzset
+    D: lombkoronát
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik gyökérzet típusra jellemző az erős főgyökér?
+    A: mellékgyökérzet
+    B: bojtos gyökérzet
+    C: főgyökérzet
+    D: járulékos gyökérzet
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növény példája a főgyökérzetnek?
+    A: kukorica
+    B: vöröshagyma
+    C: paprika
+    D: tulipán
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol történik a víz és ásványi sók felszívása?
+    A: vastag gyökérben
+    B: szárban
+    C: hajszálgyökereken
+    D: levélben
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik gyökér alkalmas tápanyag raktározásra?
+    A: mellékgyökér
+    B: hajszálgyökér
+    C: karógyökér
+    D: oldalgyökér
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi köti össze a gyökeret a levelekkel?
+    A: levélnyél
+    B: szár
+    C: hajtás
+    D: bőrszövet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik szártípus él több évig?
+    A: lágy szár
+    B: üreges szár
+    C: fás szár
+    D: szalmaszár
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi borítja kívülről a lágy szárat?
+    A: elhalt kéreg
+    B: bőrszövet
+    C: farész
+    D: háncsrész
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi tölti ki a lágy szár belsejét?
+    A: alapszövet
+    B: kambium
+    C: farész
+    D: kéreg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol található a háncsrész?
+    A: a szár közepén
+    B: a farész felett
+    C: a kéreg alatt
+    D: a levélben
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a kambium szerepe?
+    A: fotoszintézis
+    B: rögzítés
+    C: osztódás és vastagodás
+    D: párologtatás
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mit hoz létre a kambium osztódáskor?
+    Answers: [vízszállító csövek, rostacsövek, zöld színtestek, spórák]
+    Correct: [vízszállító csövek, rostacsövek]
+
+  - Type: singlechoice
+    Text: Hol található a farész?
+    A: legkívül
+    B: legbelül
+    C: a levélben
+    D: a gyökér csúcsán
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért vastagabbak az évgyűrűk tavasszal?
+    A: több napfény van
+    B: hidegebb van
+    C: több csapadék hullik
+    D: kevesebb a fotoszintézis
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a lomblevél részei?
+    Answers: [levélnyél, levéllemez, gyökér, bőrszövet]
+    Correct: [levélnyél, levéllemez]
+
+  - Type: singlechoice
+    Text: Mi a levélnyél feladata?
+    A: rögzítés
+    B: spóraképzés
+    C: anyagszállítás
+    D: raktározás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a levélben elágazó szállítónyalábokat?
+    A: kambium
+    B: erezet
+    C: kéreg
+    D: hajtás
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen erezetű az almafa levele?
+    A: párhuzamos
+    B: sugaras
+    C: hálózatos
+    D: tagolt
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi fedi a levelet kívülről?
+    A: alapszövet
+    B: bőrszövet
+    C: farész
+    D: háncsrész
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol zajlik a fotoszintézis a levélben?
+    A: bőrszövetben
+    B: táplálékkészítő alapszövetben
+    C: szállítónyalábban
+    D: levélnyélben
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen méretűek voltak az ősi harasztok?
+    A: nagyon kicsik
+    B: közepesek
+    C: nagy termetűek
+    D: mikroszkopikusak
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik anyag keletkezett az ősi harasztokból?
+    A: kőolaj
+    B: földgáz
+    C: kőszén
+    D: mészkő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyenek a ma élő harasztok?
+    A: nagy termetűek
+    B: fás szárúak
+    C: kis termetűek
+    D: fák
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik osztályba tartozik a mezei zsurló?
+    A: mohák
+    B: páfrányok
+    C: zsurlók
+    D: nyitvatermők
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen színűek a zsurló meddőhajtásai?
+    A: barna
+    B: sárga
+    C: zöld
+    D: fehér
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen színűek a zsurló spóratermő hajtásai?
+    A: zöld
+    B: barna
+    C: piros
+    D: fehér
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol található a mezei zsurló szára?
+    A: a levegőben
+    B: a víz felszínén
+    C: a föld alatt
+    D: a fa törzsén
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik osztályba tartozik az erdei pajzsika?
+    A: zsurlók
+    B: mohák
+    C: páfrányok
+    D: zárvatermők
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol él az erdei pajzsika?
+    A: száraz réten
+    B: nyirkos erdőben
+    C: sivatagban
+    D: vízben
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol fejlődnek ki a páfrány lomblevelei?
+    A: a gyökérből
+    B: a föld alatti szárból
+    C: a virágból
+    D: a termésből
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen alakú az erdei pajzsika lomblevele?
+    A: tűszerű
+    B: kerek
+    C: tölcsérszerű
+    D: szív alakú
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen környezetben képesek a páfrányspórák fejlődni?
+    A: száraz helyen
+    B: szeles időben
+    C: nedves helyen
+    D: fagyban
+    Correct: C
+
