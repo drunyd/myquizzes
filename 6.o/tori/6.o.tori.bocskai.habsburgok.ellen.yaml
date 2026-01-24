@@ -1,0 +1,255 @@
+Quiz: Bocskai István Habsburg-ellenes harca
+Question:
+  - Type: singlechoice
+    Text: Mikortól fokozódtak a török–Habsburg háborúk, amelyek Erdélyt is érintették?
+    A: 1526-tól
+    B: 1550-től
+    C: 1593-tól
+    D: 1606-tól
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük az 1593–1606 közötti török–Habsburg háborút?
+    A: végvári harcok
+    B: felszabadító háború
+    C: tizenöt éves háború
+    D: Bocskai-szabadságharc
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik területet vonták be a tizenöt éves háborúba?
+    A: Horvátországot
+    B: Erdélyt
+    C: Lengyelországot
+    D: Csehországot
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történt Erdéllyel a háborúk során?
+    A: megerősödött
+    B: önálló lett
+    C: a Habsburgok feldúlták
+    D: török kézre került
+    Correct: C
+
+  - Type: singlechoice
+    Text: Ki volt a Habsburg uralkodó Bocskai felkelésének idején?
+    A: I. Ferdinánd
+    B: II. Lajos
+    C: Rudolf
+    D: I. Lipót
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen vádakkal szerzett pénzt Rudolf?
+    A: hűtlenségi
+    B: felségárulási
+    C: eretnekségi
+    D: adóelkerülési
+    Correct: B
+
+  - Type: singlechoice
+    Text: Kit vádoltak meg felségárulással a Habsburgok?
+    A: Bethlen Gábort
+    B: Bocskai Istvánt
+    C: Rákóczi Györgyöt
+    D: Zrínyi Miklóst
+    Correct: B
+
+  - Type: singlechoice
+    Text: Kik gyakoroltak nyomást Bocskaira, hogy a felkelés élére álljon?
+    A: főurak és nemesek
+    B: parasztok
+    C: bujdosók és hajdúk
+    D: városi polgárok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mikor tört ki Bocskai István felkelése?
+    A: 1593-ban
+    B: 1604-ben
+    C: 1605-ben
+    D: 1606-ban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol zajlott Bocskai első jelentős győzelme?
+    A: Kassa
+    B: Debrecen
+    C: Álmosd
+    D: Bécs
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely városokat foglalta vissza Bocskai 1604-ben?
+    A: Buda és Pest
+    B: Debrecen, Kassa és a Felvidék
+    C: Győr és Sopron
+    D: Pozsony és Bécs
+    Correct: B
+
+  - Type: singlechoice
+    Text: Meddig jutott Bocskai hadjárata?
+    A: Pozsonyig
+    B: Prágáig
+    C: Bécsig
+    D: Grazig
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik várost ostromolta Bocskai?
+    A: Prága
+    B: Pozsony
+    C: Bécs
+    D: Graz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mikor lett Bocskai István Erdély fejedelme?
+    A: 1604-ben
+    B: 1605-ben
+    C: 1606-ban
+    D: 1593-ban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik címeket viselte Bocskai 1605-től?
+    A: Erdély fejedelme
+    B: Magyarország királya
+    C: Erdély és Magyarország fejedelme
+    D: nádor
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik béke zárta le Bocskai harcát a Habsburgokkal?
+    A: zsitvatoroki béke
+    B: nikolsburgi béke
+    C: I. bécsi béke
+    D: szatmári béke
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mikor kötötték meg az I. bécsi békét?
+    A: 1604-ben
+    B: 1605-ben
+    C: 1606-ban
+    D: 1593-ban
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek voltak az I. bécsi béke legfontosabb rendelkezései?
+    Answers: [Erdély önállósága, protestánsok szabad vallásgyakorlata, magyar főtisztségviselők, török kiűzése]
+    Correct: [Erdély önállósága, protestánsok szabad vallásgyakorlata, magyar főtisztségviselők]
+
+  - Type: singlechoice
+    Text: Mit biztosított az I. bécsi béke a protestánsok számára?
+    A: áttérést
+    B: üldözést
+    C: szabad vallásgyakorlást
+    D: kiváltságok elvesztését
+    Correct: C
+
+  - Type: singlechoice
+    Text: Kik kapták a legfőbb tisztségeket az I. bécsi béke után?
+    A: németek
+    B: osztrákok
+    C: magyarok
+    D: olaszok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik béke zárta le a török–Habsburg háborút?
+    A: I. bécsi béke
+    B: zsitvatoroki béke
+    C: drinápolyi béke
+    D: vasvári béke
+    Correct: B
+
+  - Type: singlechoice
+    Text: Kik kötötték meg a zsitvatoroki békét?
+    A: magyarok és törökök
+    B: Erdély és Habsburgok
+    C: törökök és Habsburgok
+    D: magyarok és Habsburgok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Kik voltak Bocskai legfontosabb katonai támaszai?
+    A: végvári katonák
+    B: hajdúk
+    C: nemesi bandériumok
+    D: török segédcsapatok
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit tett Bocskai a hajdúkkal a felkelés után?
+    A: lefegyverezte őket
+    B: elűzte őket
+    C: letelepítette őket
+    D: besorozta őket a császári hadseregbe
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen kiváltságot kaptak a letelepített hajdúk?
+    A: föld nélküli szabadságot
+    B: adómentességet
+    C: nemesi címet mindenkinek
+    D: vámmentességet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi volt Bocskai felkelésének egyik fő oka?
+    A: törökellenes harc
+    B: Habsburg önkény és vallásüldözés
+    C: parasztfelkelés
+    D: gazdasági válság
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik vallási csoportot védte Bocskai politikája?
+    A: katolikusokat
+    B: ortodoxokat
+    C: protestánsokat
+    D: zsidókat
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan értékelhető Bocskai István harca?
+    A: sikertelen lázadás
+    B: törökbarát árulás
+    C: eredményes rendi felkelés
+    D: parasztfelkelés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi lett Erdély helyzete Bocskai harca után?
+    A: megszűnt
+    B: Habsburg tartomány lett
+    C: önállóságát megőrizte
+    D: török vilajet lett
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben kezdődött Bocskai István felkelése?
+    Answers: [1604]
+    Correct: [1604]
+
+  - Type: word
+    Text: Melyik évben lett Bocskai István Erdély és Magyarország fejedelme?
+    Answers: [1605]
+    Correct: [1605]
+
+  - Type: word
+    Text: Melyik évben kötötték meg az I. bécsi békét?
+    Answers: [1606]
+    Correct: [1606]
+
+  - Type: word
+    Text: Melyik város mellett zajlott Bocskai első jelentős csatája 1604-ben?
+    Answers: [Álmosd]
+    Correct: [Álmosd]
+
+  - Type: word
+    Text: Melyik várost ostromolta Bocskai István hadjárata során?
+    Answers: [Bécs]
+    Correct: [Bécs]

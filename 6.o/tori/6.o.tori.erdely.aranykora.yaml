@@ -1,0 +1,147 @@
+Quiz: Erdély aranykora
+Question:
+  - Type: singlechoice
+    Text: Melyik évben mondott le János Zsigmond a magyar királyi koronáról?
+    A: 1526
+    B: 1570
+    C: 1571
+    D: 1606
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi lett János Zsigmond címe 1570 után?
+    A: magyar király
+    B: nádor
+    C: erdélyi fejedelem
+    D: lengyel király
+    Correct: C
+
+  - Type: singlechoice
+    Text: Ki volt Erdély fejedelme 1571 és 1586 között?
+    A: Bethlen Gábor
+    B: I. Rákóczi György
+    C: Báthori István
+    D: János Zsigmond
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik ország trónját szerezte meg Báthori István?
+    A: Csehország
+    B: Franciaország
+    C: Lengyelország
+    D: Svédország
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol alakított ki fényes fejedelmi udvart Báthori István?
+    A: Kolozsváron
+    B: Gyulafehérváron
+    C: Debrecenben
+    D: Pozsonyban
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mit pártolt Báthori István Erdélyben?
+    Answers: [művészet, tudomány, hadsereg, jobbágyság felszabadítása]
+    Correct: [művészet, tudomány]
+
+  - Type: singlechoice
+    Text: Ki volt Erdély fejedelme 1613 és 1629 között?
+    A: Báthori István
+    B: Bethlen Gábor
+    C: II. Rákóczi György
+    D: János Zsigmond
+    Correct: B
+
+  - Type: singlechoice
+    Text: Kinek a segítségével került trónra Bethlen Gábor?
+    A: Habsburg császár
+    B: lengyel király
+    C: szultán
+    D: pápa
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely termékek tartoztak Bethlen Gábor monopóliumai közé?
+    Answers: [arany, ezüst, vas, só, méz, viasz, szarvasmarha, bor]
+    Correct: [arany, ezüst, vas, só, méz, viasz, szarvasmarha]
+
+  - Type: singlechoice
+    Text: Mi volt Bethlen Gábor gazdaságpolitikájának egyik eszköze?
+    A: jobbágyrendszer eltörlése
+    B: vámok és monopóliumok
+    C: robot növelése
+    D: pénzrontás
+    Correct: B
+
+  - Type: singlechoice
+    Text: Kik érkeztek Erdélybe Bethlen Gábor idején Nyugat-Európából?
+    A: katolikus papok
+    B: protestáns menekült iparosok
+    C: török katonák
+    D: francia nemesek
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit fejlesztett Bethlen Gábor a gazdaság mellett?
+    A: oktatást
+    B: hadsereget
+    C: mezőgazdaságot
+    D: bányászatot
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik háború kezdődött 1618-ban?
+    A: török háború
+    B: Bocskai-szabadságharc
+    C: harmincéves háború
+    D: függetlenségi háború
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely államok protestáns oldalán harcolt Bethlen Gábor?
+    Answers: [svéd, dán, cseh, francia, spanyol]
+    Correct: [svéd, dán, cseh, francia]
+
+  - Type: singlechoice
+    Text: Meddig nyomult előre Bethlen Gábor hadjárata?
+    A: Pozsonyig
+    B: Prágáig
+    C: Bécsig
+    D: Linzig
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik béke zárta le Bethlen Gábor hadjáratát?
+    A: I. bécsi béke
+    B: II. bécsi béke
+    C: linzi béke
+    D: zsitvatoroki béke
+    Correct: B
+
+  - Type: word
+    Text: Melyik évben kötötték meg a II. bécsi békét?
+    Answers: [1621]
+    Correct: [1621]
+
+  - Type: singlechoice
+    Text: Ki folytatta Bethlen Gábor politikáját halála után?
+    A: II. Rákóczi György
+    B: I. Rákóczi György
+    C: Báthori István
+    D: János Zsigmond
+    Correct: B
+
+  - Type: word
+    Text: Melyik évben kötötték meg a linzi békét?
+    Answers: [1645]
+    Correct: [1645]
+
+  - Type: singlechoice
+    Text: Mi okozta Erdély nagyhatalmi helyzetének elvesztését?
+    A: gazdasági válság
+    B: Habsburg támadás
+    C: II. Rákóczi György kalandor politikája
+    D: vallási megosztottság
+    Correct: C
+
