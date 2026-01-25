@@ -1,0 +1,310 @@
+Quiz: A Dunántúli-dombvidék
+Question:
+  - Type: singlechoice
+    Text: Hol helyezkedik el a Dunántúli-dombvidék?
+    A: a Dunántúl északi részén
+    B: a Dunántúl déli–délnyugati részén
+    C: az Alföld közepén
+    D: az Északi-középhegységben
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik természetes határ választja el északon a Dunántúli-dombvidéket?
+    A: Duna
+    B: Dráva
+    C: Balaton
+    D: Tisza
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely vizek választják el a Dunántúli-dombvidéket az Alföldtől?
+    Answers: [Sió, Duna, Rába, Tisza]
+    Correct: [Sió, Duna]
+
+  - Type: singlechoice
+    Text: Melyik folyó alakítja a Dunántúli-dombvidék nyugati részének felszínét?
+    A: Rába
+    B: Dráva
+    C: Zala
+    D: Kapos
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi borította a Dunántúli-dombvidék területét tízmillió évvel ezelőtt?
+    A: jégtakaró
+    B: sivatag
+    C: tenger
+    D: erdőség
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely anyag alkotja a dombvidék alapját?
+    A: vulkáni kőzet
+    B: üledék
+    C: gránit
+    D: bazalt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi borította be végül a Dunántúli-dombvidéket?
+    A: homok
+    B: kavics
+    C: lösz
+    D: agyag
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi alakította ki a dombvidék hullámos felszínét?
+    A: vulkánkitörések
+    B: gleccserek
+    C: folyók völgymélyítő munkája
+    D: szél eróziója
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen felszínformák jellemzik a Dunántúli-dombvidéket?
+    A: magas csúcsok
+    B: fennsíkok
+    C: dombhátak és völgyek
+    D: síkság
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik a Dunántúli-dombvidék nyugati része?
+    A: Somogyi-dombság
+    B: Baranyai-dombság
+    C: Zalai-dombság
+    D: Tolnai-dombság
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemzi a Zalai-dombság keleti részét?
+    A: vulkáni kőzet
+    B: löszös, agyagos felszín
+    C: magas hegyláncok
+    D: homokbuckák
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely dombságok tartoznak a Dunántúli-dombvidékhez?
+    Answers: [Somogyi-dombság, Baranyai-dombság, Tolnai-dombság, Bükk-vidék]
+    Correct: [Somogyi-dombság, Baranyai-dombság, Tolnai-dombság]
+
+  - Type: singlechoice
+    Text: Melyik dombság nyugati része alföld jellegű?
+    A: Zalai-dombság
+    B: Somogyi-dombság
+    C: Baranyai-dombság
+    D: Tolnai-dombság
+    Correct: B
+
+  - Type: singlechoice
+    Text: Meddig húzódik északon a Somogyi-dombság?
+    A: a Duna partjáig
+    B: a Balaton déli partjáig
+    C: a Mecsek lábáig
+    D: a Dráváig
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért kedvelt üdülőhely a Balaton déli partja?
+    A: mély víz
+    B: hideg klíma
+    C: sekély, melegebb víz
+    D: hegyvidéki táj
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely hegység emelkedik a Dunántúli-dombvidéktől délre?
+    A: Bakony
+    B: Villányi-hegység
+    C: Mecsek
+    D: Vértes
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mi jellemző a Mecsekre?
+    Answers: [lankás hegyoldalak, legömbölyített hegyhátak, mészkő, bővizű források]
+    Correct: [lankás hegyoldalak, legömbölyített hegyhátak, mészkő, bővizű források]
+
+  - Type: singlechoice
+    Text: Melyik barlang található a Mecsekben?
+    A: Aggteleki-barlang
+    B: Abaligeti-barlang
+    C: Tapolcai-tavasbarlang
+    D: Szemlő-hegyi-barlang
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely hegység híres bortermelő vidék?
+    A: Mecsek
+    B: Bakony
+    C: Villányi-hegység
+    D: Vértes
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi Dél-Dunántúl legfontosabb gazdasági és kulturális központja?
+    A: Kaposvár
+    B: Szekszárd
+    C: Pécs
+    D: Mohács
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik irányban folytatódik a Dunántúli-dombvidék az országhatáron túl?
+    A: északon
+    B: keleten
+    C: délen és délnyugaton
+    D: északkeleten
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik folyó választja el keleten a Dunántúli-dombvidéket az Alföldtől?
+    A: Dráva
+    B: Zala
+    C: Sió és Duna
+    D: Rába
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történt a területtel az üledék felhalmozódása után?
+    A: kiemelkedett
+    B: megsüllyedt
+    C: eljegesedett
+    D: elsivatagosodott
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen hordalékot raktak le a folyók a süllyedés idején?
+    A: bazaltos törmeléket
+    B: löszt
+    C: kavicsos, homokos hordalékot
+    D: agyagos iszapot
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik anyag fedte be végül a Dunántúli-dombvidéket?
+    A: bazalt
+    B: homok
+    C: lösz
+    D: gránit
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi indult meg a lösz lerakódásával egyidőben?
+    A: süllyedés
+    B: kiemelkedés
+    C: vulkáni működés
+    D: eljegesedés
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen irányba futnak az Alföld felé tartó folyók?
+    A: észak felé
+    B: nyugat felé
+    C: kelet felé
+    D: dél felé
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen felszín alakult ki a folyók munkája nyomán?
+    A: sík felszín
+    B: magas hegylánc
+    C: hullámos dombvidék
+    D: fennsík
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik dombság nyugati része mutat rokonságot az Alpokaljával?
+    A: Somogyi-dombság
+    B: Baranyai-dombság
+    C: Tolnai-dombság
+    D: Zalai-dombság
+    Correct: D
+
+  - Type: singlechoice
+    Text: Melyik anyag jellemző a Zalai-dombság keleti részére?
+    A: vulkáni kőzet
+    B: lösz és agyag
+    C: bazalt
+    D: homokkő
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen felszínű a Somogyi-, Baranyai- és Tolnai-dombság?
+    A: sík alföld
+    B: erősen tagolt hegység
+    C: hullámos, lösszel borított dombvidék
+    D: vulkáni kúpvidék
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a Somogyi-dombság nyugati részére?
+    A: hegyvidéki jelleg
+    B: alföld jellegű feltöltött terület
+    C: vulkáni felszín
+    D: karsztos vidék
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi alakította ki a Somogyi-dombság nyugati részét?
+    A: szél
+    B: gleccserek
+    C: folyók feltöltő munkája
+    D: vulkánok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért kedvező az éghajlat a Balaton déli partján?
+    A: magas hegyek védik
+    B: sekély, gyorsan felmelegedő víz
+    C: kevés a napsütés
+    D: hideg szelek jellemzik
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen jellegűek a Mecsek hegyoldalai?
+    A: meredekek
+    B: szakadékosak
+    C: lankásak
+    D: kopárak
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemzi a Mecsek déli lejtőit?
+    A: kevés napsütés
+    B: sok csapadék
+    C: sok napsütés
+    D: állandó hóborítás
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek találhatók a Mecsekben?
+    Answers: [barlangok, bővizű források, cseppkövek, vulkáni kráterek]
+    Correct: [barlangok, bővizű források, cseppkövek]
+
+  - Type: singlechoice
+    Text: Melyik nyersanyag fordul elő a Mecsekben?
+    A: kőolaj
+    B: feketekőszén
+    C: bauxit
+    D: arany
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi található Harkányban?
+    A: nemzeti park
+    B: ipari központ
+    C: gyógyfürdő
+    D: egyetem
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért különleges a Szársomlyó?
+    A: legmagasabb hegység
+    B: vulkáni csúcs
+    C: magyar kikerics élőhelye
+    D: barlangrendszer
+    Correct: C
+
