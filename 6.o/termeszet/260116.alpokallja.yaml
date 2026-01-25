@@ -1,0 +1,304 @@
+Quiz: Az Alpokalja
+Question:
+  - Type: singlechoice
+    Text: Hol helyezkedik el az Alpokalja Magyarországon?
+    A: az ország keleti részén
+    B: az ország északi peremén
+    C: az ország nyugati peremén
+    D: az ország déli részén
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen felszín jellemzi az Alpokalját?
+    A: egységes síkság
+    B: magas hegyláncok
+    C: változatos felszín
+    D: vulkáni kúpok
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Milyen felszínformák alkotják az Alpokalját?
+    Answers: [középhegységek, dombságok, síkságok, alföldek]
+    Correct: [középhegységek, dombságok]
+
+  - Type: singlechoice
+    Text: Mely hegységek tartoznak az Alpokaljához?
+    A: Bakony és Vértes
+    B: Soproni-hegység és Kőszegi-hegység
+    C: Mecsek és Villányi-hegység
+    D: Börzsöny és Cserhát
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely hegységek az Alpok legkeletibb nyúlványai?
+    A: Bakony és Vértes
+    B: Soproni- és Kőszegi-hegység
+    C: Mecsek és Villányi-hegység
+    D: Pilis és Gerecse
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely folyó és mellékfolyói alakították az Alpokalja előterét?
+    A: Duna
+    B: Dráva
+    C: Rába
+    D: Tisza
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit terítettek szét az Alpokból érkező folyók?
+    A: löszt
+    B: kavicstakarót
+    C: vulkáni hamut
+    D: homokot
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen a nyár az Alpokalján az Alföldhöz képest?
+    A: forróbb
+    B: azonos
+    C: 1–2 °C-kal hűvösebb
+    D: hideg
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen a tél az Alpokalján?
+    A: hidegebb, mint az Alföldön
+    B: enyhébb
+    C: hómentes
+    D: rendkívül zord
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemző az Alpokalja szélviszonyaira?
+    A: szélcsendes
+    B: ritkán fúj a szél
+    C: szinte állandóan fúj
+    D: csak télen szeles
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Miért csapadékosabb az Alpokalja?
+    Answers: [óceánhoz való közelség, nagyobb tengerszint feletti magasság, sík felszín, kontinentális éghajlat]
+    Correct: [óceánhoz való közelség, nagyobb tengerszint feletti magasság]
+
+  - Type: multiplechoice
+    Text: Milyen erdők jellemzőek az Alpokalján?
+    Answers: [lombhullató erdők, fenyőerdők, sztyeppei növényzet, sivatagi növényzet]
+    Correct: [lombhullató erdők, fenyőerdők]
+
+  - Type: singlechoice
+    Text: Hol helyezkedik el Sopron?
+    A: a Balaton partján
+    B: a Fertőre nyíló medencében
+    C: a Duna partján
+    D: hegytetőn
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért híres Sopron?
+    A: nehéziparáról
+    B: borászatáról
+    C: bányászatáról
+    D: mezőgazdaságáról
+    Correct: B
+
+  - Type: word
+    Text: Mennyi a Soproni-hegység legmagasabb pontja méterben?
+    Answers: [557]
+    Correct: [557]
+
+  - Type: singlechoice
+    Text: Miért lepusztult a Soproni-hegység felszíne?
+    A: vulkánkitörések miatt
+    B: szél, víz és jég munkája miatt
+    C: földrengések miatt
+    D: emberi tevékenység miatt
+    Correct: B
+
+  - Type: word
+    Text: Mikor fedezték fel a Brenberg bányát?
+    Answers: [1750]
+    Correct: [1750]
+
+  - Type: singlechoice
+    Text: Mi volt a Brenberg bánya jelentősége?
+    A: aranybánya volt
+    B: hazánk első szénbányája
+    C: vasércbánya volt
+    D: kősóbánya volt
+    Correct: B
+
+  - Type: word
+    Text: Mennyi az Írottkő magassága méterben?
+    Answers: [882]
+    Correct: [882]
+
+  - Type: singlechoice
+    Text: Mi található az Alpokalja délkeleti előterében?
+    A: Zemplén
+    B: Őrség
+    C: Hortobágy
+    D: Cserehát
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mihez kötődik az Alpokalja kialakulása?
+    A: a Kárpátokhoz
+    B: az Alpokhoz
+    C: a vulkanizmushoz
+    D: a jégkorszakhoz
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért változatos az Alpokalja felszíne?
+    A: mert síkság és alföld váltakozik
+    B: mert középhegységek és dombságok alkotják
+    C: mert vulkáni kúpok jellemzik
+    D: mert fiatal gyűrthegység
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miben különböznek az Alpokalja felszínformái?
+    A: kőzettípusban
+    B: tengerszint feletti magasságban
+    C: éghajlatban
+    D: vízrajzban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi alakította az Alpokalja előterében húzódó dombvidékeket?
+    A: szél
+    B: jég
+    C: az Alpokból érkező folyók
+    D: vulkánok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit tettek a folyók, amikor többször változtatták medrüket?
+    A: löszt halmoztak fel
+    B: kavicstakarót terítettek szét
+    C: szurdokokat vájtak
+    D: tavakat hoztak létre
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mibe mélyítették a folyók a völgyeket az Alpokalján?
+    A: löszbe
+    B: kavicstakaróba
+    C: agyagba
+    D: bazaltba
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért enyhébb a tél az Alpokalján?
+    A: mert síkvidéki terület
+    B: mert közelebb van az óceánhoz
+    C: mert alacsony a csapadék
+    D: mert magas hegységek veszik körül
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért alakult ki sok erdő az Alpokalján?
+    A: kevés a napsütés
+    B: száraz az éghajlat
+    C: csapadékos az éghajlat
+    D: vulkáni talaj miatt
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen típusú erdők jellemzőek az Alpokaljára?
+    A: lombhullató és fenyőerdők
+    B: sztyeppei erdők
+    C: trópusi esőerdők
+    D: ligeterdők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen szerepe volt Sopronnak a történelemben?
+    A: bányaváros
+    B: ipari központ
+    C: kereskedőváros
+    D: mezőgazdasági központ
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért kedvelt üdülőhely Sopron?
+    A: meleg tengervíz miatt
+    B: sípályák miatt
+    C: történelmi emlékek és tiszta levegő miatt
+    D: gyógyfürdők miatt
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen felszínű a Soproni-hegység?
+    A: fiatal, éles gerincekkel
+    B: lepusztult
+    C: vulkáni kúpokkal
+    D: fennsíkos
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi okozta a Soproni-hegység felszínének lepusztulását?
+    A: földrengések
+    B: szél, víz és jég
+    C: emberi tevékenység
+    D: tengeri erózió
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik város műemlékekben gazdag történelmi város?
+    A: Sopron
+    B: Kőszeg
+    C: Szombathely
+    D: Mosonmagyaróvár
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemző a Kőszegi-hegység lejtőire?
+    A: kevés csapadék
+    B: sok csapadék
+    C: száraz éghajlat
+    D: kopár felszín
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért sok a forrás és a gyors patak a Kőszegi-hegységben?
+    A: laza üledék miatt
+    B: tömör kőzet miatt
+    C: sík felszín miatt
+    D: magas hőmérséklet miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a szerepe az Írottkőnek a Kék-túrán?
+    A: végpont
+    B: pihenőhely
+    C: kiindulópont
+    D: ellenőrzőpont
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol helyezkednek el általában az alpokaljai falvak?
+    A: völgyek alján
+    B: folyók partján
+    C: dombtetőkön
+    D: síkságon
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit jelent az Őrségben a „szer”?
+    A: egy település
+    B: egy dombtetőre épült falurész
+    C: erdőgazdaság
+    D: mezőgazdasági parcella
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miből éltek hagyományosan az Őrség lakói?
+    A: bányászatból
+    B: halászatból
+    C: legeltetéses szarvasmarha-tenyésztésből
+    D: iparból
+    Correct: C
+
