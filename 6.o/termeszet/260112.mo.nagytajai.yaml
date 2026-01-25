@@ -1,0 +1,278 @@
+Quiz: Hazánk nagytájai és jellemzői
+Question:
+  - Type: singlechoice
+    Text: Hol helyezkedik el Magyarország?
+    A: Nyugat-Európában
+    B: Kelet-Közép-Európában, a Kárpát-medencében
+    C: Délkelet-Európában
+    D: Észak-Európában
+    Correct: B
+
+  - Type: singlechoice
+    Text: Magyarország területének körülbelül mekkora része alföld?
+    A: egyharmada
+    B: fele
+    C: közel kétharmada
+    D: egésze
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen hegységek jellemzőek Magyarországra?
+    A: magashegységek
+    B: középmagas és magas hegységek
+    C: alacsony és középmagas hegységek
+    D: kizárólag dombságok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik jellemző Magyarország domborzatára?
+    A: vad, meredek felszín
+    B: sivatagos tájak
+    C: szelíd domborzati formák
+    D: fjordok
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek Magyarország nagytájai?
+    Answers: [Alföld, Kisalföld, Dunántúli-középhegység, Dunántúli-dombvidék, Északi-középhegység, Alpokalja]
+    Correct: [Alföld, Kisalföld, Dunántúli-középhegység, Dunántúli-dombvidék, Északi-középhegység, Alpokalja]
+
+  - Type: singlechoice
+    Text: Melyik nagytáj található teljes egészében Magyarország területén?
+    A: Alföld
+    B: Kisalföld
+    C: Dunántúli-középhegység
+    D: Alpokalja
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a többi nagytáj határára?
+    A: egybeesnek az államhatárral
+    B: kizárólag folyók jelölik ki
+    C: nem esnek egybe az államhatárral
+    D: mesterséges határok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol folytatódnak Magyarország nagytájai?
+    A: a tengerek alatt
+    B: kizárólag az országon belül
+    C: a szomszédos országok területén is
+    D: csak keleti irányban
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek Magyarország legfontosabb határfolyói?
+    Answers: [Duna, Ipoly, Mura, Dráva, Tisza]
+    Correct: [Duna, Ipoly, Mura, Dráva]
+
+  - Type: singlechoice
+    Text: Mi öleli körül a Kárpát-medencét?
+    A: síkságok
+    B: tengerek
+    C: hegységek
+    D: dombvidékek
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a medencehelyzet pozitív következményei?
+    Answers: [viharos szelek felfogása, kevesebb csapadék, magasabb hőmérséklet, pusztító árvizek]
+    Correct: [viharos szelek felfogása, kevesebb csapadék, magasabb hőmérséklet]
+
+  - Type: singlechoice
+    Text: Miért alakulhatnak ki pusztító árvizek Magyarországon?
+    A: a tengeri áramlatok miatt
+    B: a hegységekből lefutó víz itt gyűlik össze
+    C: a kevés csapadék miatt
+    D: a sík felszín hiánya miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mikor fokozott az árvízveszély?
+    A: téli fagy idején
+    B: tavaszi hóolvadáskor és nyári esőzésekkor
+    C: ősszel
+    D: aszály idején
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért érkezhetnek szennyeződések más országokból?
+    A: mert tengerparti ország vagyunk
+    B: mert zárt a vízrendszer
+    C: mert a folyók határokon átnyúlnak
+    D: mert kevés az erdő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért fontos Magyarország földrajzi helyzete Európában?
+    A: elszigetelt terület
+    B: összekötő kapocs Nyugat- és Kelet-Európa között
+    C: csak keleti kapcsolatokkal rendelkezik
+    D: tengeri kereskedelmi központ
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyek az átmenő forgalom következményei?
+    Answers: [árbevétel, környezeti problémák, elszigetelődés, népességcsökkenés]
+    Correct: [árbevétel, környezeti problémák]
+
+  - Type: word
+    Text: Mennyi Magyarország területe km²-ben?
+    Answers: [93030]
+    Correct: [93030]
+
+  - Type: word
+    Text: Mennyi Magyarország legmagasabb pontjának magassága méterben?
+    Answers: [1014]
+    Correct: [1014]
+
+  - Type: singlechoice
+    Text: Mi Magyarország legmagasabb pontja?
+    A: Pilis-tető
+    B: Kékes
+    C: Írottkő
+    D: Kőris-hegy
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely városok tartoznak Magyarország legnagyobb városai közé?
+    Answers: [Debrecen, Szeged, Miskolc, Pécs, Győr, Sopron]
+    Correct: [Debrecen, Szeged, Miskolc, Pécs, Győr]
+
+  - Type: singlechoice
+    Text: Melyik medencében fekszik Magyarország?
+    A: Pannon-medence
+    B: Kárpát-medence
+    C: Bécsi-medence
+    D: Erdélyi-medence
+    Correct: B
+
+  - Type: singlechoice
+    Text: Magyarország átlagos tengerszint feletti magassága milyen?
+    A: magas
+    B: közepes
+    C: alacsony
+    D: változó
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző Magyarország domborzati formáira?
+    A: éles, fiatal hegyláncok
+    B: szelíd formák
+    C: sivatagi felszín
+    D: tundra
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik nagytáj NEM tartozik Magyarország nagytájai közé?
+    A: Kisalföld
+    B: Alpokalja
+    C: Zempléni-hegység
+    D: Északi-középhegység
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért nem esnek egybe a nagytájak határai az államhatárral?
+    A: mesterséges határok miatt
+    B: mert a tájak természetes egységek
+    C: mert folyók választják el őket
+    D: mert hegységek zárják le őket
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik nagytáj folytatódik több szomszédos országban is?
+    A: Dunántúli-középhegység
+    B: Alföld
+    C: egyik sem
+    D: csak az Alpokalja
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely országokkal határos Magyarország?
+    Answers: [Szlovákia, Ukrajna, Románia, Szerbia, Horvátország, Szlovénia, Ausztria]
+    Correct: [Szlovákia, Ukrajna, Románia, Szerbia, Horvátország, Szlovénia, Ausztria]
+
+  - Type: word
+    Text: Mennyi Magyarország lakóinak száma főben?
+    Answers: [9683000]
+    Correct: [9683000]
+
+  - Type: singlechoice
+    Text: Mi Magyarország fővárosa?
+    A: Debrecen
+    B: Szeged
+    C: Budapest
+    D: Győr
+    Correct: C
+
+  - Type: word
+    Text: Körülbelül hány kilométer Magyarország legnagyobb nyugat–keleti kiterjedése?
+    Answers: [530]
+    Correct: [530]
+
+  - Type: word
+    Text: Körülbelül hány kilométer Magyarország legnagyobb észak–déli kiterjedése?
+    Answers: [270]
+    Correct: [270]
+
+  - Type: singlechoice
+    Text: Mely települések között mérhető Magyarország legnagyobb nyugat–keleti kiterjedése?
+    A: Sopron–Szeged
+    B: Felsőszölnök–Tiszabecs
+    C: Kőszeg–Gyula
+    D: Szombathely–Debrecen
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely települések között mérhető Magyarország legnagyobb észak–déli kiterjedése?
+    A: Esztergom–Szeged
+    B: Jósvafő–Kiszombor
+    C: Sopron–Pécs
+    D: Miskolc–Baja
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik folyó NEM tartozik Magyarország legnagyobb folyói közé?
+    A: Duna
+    B: Tisza
+    C: Rába
+    D: Rajna
+    Correct: D
+
+  - Type: multiplechoice
+    Text: Melyek Magyarország legnagyobb tavai?
+    Answers: [Balaton, Tisza-tó, Velencei-tó, Fertő-tó, Hévízi-tó]
+    Correct: [Balaton, Tisza-tó, Velencei-tó, Fertő-tó]
+
+  - Type: singlechoice
+    Text: Melyik város NEM tartozik Magyarország legnagyobb városai közé?
+    A: Győr
+    B: Pécs
+    C: Szeged
+    D: Eger
+    Correct: D
+
+  - Type: singlechoice
+    Text: Mi Magyarország legmagasabb pontjának neve?
+    A: Írottkő
+    B: Kékes
+    C: Pilis-tető
+    D: Galya-tető
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemző a folyóink határszerepére?
+    A: minden határ folyó
+    B: sehol sem határfolyók
+    C: az ország határának egy részét jelölik ki
+    D: csak mesterséges csatornák
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért szükséges a szomszédos országokkal való együttműködés a környezetvédelemben?
+    A: mert kevés az erdő
+    B: mert a szennyezések országhatáron túlról is érkezhetnek
+    C: mert kevés a folyó
+    D: mert magas a csapadék
+    Correct: B
+
