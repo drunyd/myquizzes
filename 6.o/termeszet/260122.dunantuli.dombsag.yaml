@@ -1,0 +1,301 @@
+Quiz: A Dunántúli-középhegység
+Question:
+  - Type: singlechoice
+    Text: Hol terül el a Dunántúli-középhegység?
+    A: a Dráva és a Tisza között
+    B: a Zala folyótól a Dunakanyarig
+    C: a Balaton és az Alföld között
+    D: az Északi-középhegység mellett
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik folyótól számítjuk a Dunántúli-középhegység nyugati határát?
+    A: Duna
+    B: Rába
+    C: Zala
+    D: Tisza
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a Dunántúli-középhegység fő részei?
+    Answers: [Bakony, Vértes, Velencei-hegység, Dunazug-hegység, Mecsek]
+    Correct: [Bakony, Vértes, Velencei-hegység, Dunazug-hegység]
+
+  - Type: singlechoice
+    Text: Mely hegységek tartoznak a Dunazug-hegységhez?
+    A: Bakony és Vértes
+    B: Gerecse, Budai-hegység, Pilis
+    C: Pilis és Velencei-hegység
+    D: Vértes és Mecsek
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi borította a Dunántúli-középhegység területét tízmillió évvel ezelőtt?
+    A: jégmező
+    B: sivatag
+    C: tenger
+    D: erdőség
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely üledékes kőzetek jellemzőek a Dunántúli-középhegységre?
+    Answers: [mészkő, dolomit, gránit, homokkő]
+    Correct: [mészkő, dolomit]
+
+  - Type: singlechoice
+    Text: Mi történt a területtel a tengeri üledékképződés után?
+    A: besüllyedt
+    B: kiemelkedett
+    C: eljegesedett
+    D: elsivatagosodott
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi alakította lepusztulttá a hegység felszínét?
+    A: vulkánkitörések
+    B: földrengések
+    C: szél, víz, jég
+    D: emberi tevékenység
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen felszínformák jellemzik a Dunántúli-középhegységet?
+    A: éles csúcsok
+    B: legömbölyített gerincek és széles hegyhátak
+    C: mély szurdokok
+    D: magas fennsíkok hiánya
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik fennsík található a Dunántúli-középhegységben?
+    A: Bükk-fennsík
+    B: Aggteleki-fennsík
+    C: Veszprémi-fennsík
+    D: Somogyi-fennsík
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Milyen az éghajlata a Dunántúli-középhegységnek?
+    Answers: [hűvösebb, csapadékosabb, forró nyár, hideg tél]
+    Correct: [hűvösebb, csapadékosabb, hideg tél]
+
+  - Type: singlechoice
+    Text: Miért csapadékosabb a hegység az Alföldnél?
+    A: közelebb van a tengerhez
+    B: a hegyek felemelik a párás levegőt
+    C: több a folyó
+    D: erdőirtás miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért szegény felszíni vizekben a Dunántúli-középhegység?
+    A: kevés a csapadék
+    B: a víz a mészkő repedésein elszivárog
+    C: sok a folyó
+    D: mesterséges csatornák vannak
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért fontosak a források a hegységben?
+    A: energiatermelés miatt
+    B: turizmus miatt
+    C: ivóvízellátás miatt
+    D: hajózás miatt
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik a Bakony legmagasabb pontja?
+    A: Kab-hegy
+    B: Pilis-tető
+    C: Kőris-hegy
+    D: Badacsony
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik hegységrész turisztikailag kiemelkedő?
+    A: Északi-Bakony
+    B: Déli-Bakony
+    C: Balaton-felvidék
+    D: Vértes
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely tanúhegyek találhatók a Tapolcai-medencében?
+    Answers: [Badacsony, Szent György-hegy, Kékes, Somló]
+    Correct: [Badacsony, Szent György-hegy]
+
+  - Type: singlechoice
+    Text: Melyik hegységben jellemző a vörös színű mészkő bányászata?
+    A: Bakony
+    B: Vértes
+    C: Pilis
+    D: Velencei-hegység
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemző a Budai-hegység és a Pilis felszínére?
+    A: egynemű kőzet
+    B: vulkáni kőzet
+    C: változatos üledékes kőzetek és barlangok
+    D: sík felszín
+    Correct: C
+
+  - Type: word
+    Text: Mennyi a Pilis legmagasabb pontjának, a Pilis-tetőnek a magassága méterben?
+    Answers: [757]
+    Correct: [757]
+
+  - Type: singlechoice
+    Text: Melyik táj Magyarország egyik legszebb és látnivalókban leggazdagabb területe?
+    A: Balaton-felvidék
+    B: Dunakanyar
+    C: Vértes
+    D: Velencei-hegység
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely történelmi építmény található a Dunakanyarban?
+    A: Egri vár
+    B: Visegrádi fellegvár
+    C: Sümegi vár
+    D: Siklósi vár
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely tavak találhatók a Dunántúli-középhegység előterében?
+    A: Fertő-tó és Tisza-tó
+    B: Balaton és Velencei-tó
+    C: Hévízi-tó és Fertő-tó
+    D: Balaton és Tisza-tó
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen jellegű területek a Balaton és a Velencei-tó?
+    A: tektonikus árkok
+    B: vulkáni tavak
+    C: feltöltődő területek
+    D: gleccsertavak
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely város volt 2023-ban Európa kulturális fővárosa?
+    A: Székesfehérvár
+    B: Győr
+    C: Veszprém
+    D: Pécs
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely város híres a porcelángyártásáról?
+    A: Ajka
+    B: Herend
+    C: Tata
+    D: Esztergom
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely város a Dunántúli-középhegység fontos gazdasági központja?
+    A: Veszprém
+    B: Esztergom
+    C: Székesfehérvár
+    D: Tata
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely város vallási központ és ipari szerepe is jelentős?
+    A: Veszprém
+    B: Esztergom
+    C: Tata
+    D: Keszthely
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen autógyár működik Esztergomban?
+    A: Audi
+    B: Opel
+    C: Suzuki
+    D: Mercedes
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a Dunántúli-középhegység felszíni vizeire?
+    A: sok folyó és tó
+    B: bővizű patakok
+    C: felszíni vizekben szegény
+    D: állandó vízfolyások
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hová kerül a csapadékvíz a mészkő repedésein keresztül?
+    A: felszíni tavakba
+    B: folyókba
+    C: felszín alatti járatokba
+    D: párologtatással eltűnik
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért ezek mentén alakultak ki a települések?
+    A: folyók miatt
+    B: források miatt
+    C: termőföld miatt
+    D: bányák miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen a nyár a Dunántúli-középhegységben?
+    A: forró
+    B: hűvös
+    C: mérsékelten meleg
+    D: hideg
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a télre a Dunántúli-középhegységben?
+    A: enyhe, hómentes
+    B: hideg, vastag hótakaróval
+    C: csapadékmentes
+    D: száraz és szeles
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely tényezők segítik a felhőképződést a hegységben?
+    A: erdők hiánya
+    B: hegyek által felemelt párás levegő
+    C: magas hőmérséklet
+    D: sík felszín
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik hegység található a Móri-árok és a Tatai-árok között?
+    A: Bakony
+    B: Pilis
+    C: Vértes
+    D: Velencei-hegység
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi található a Vértes szikláin?
+    A: barlangok
+    B: tanúhegyek
+    C: középkori várak
+    D: bányatavak
+    Correct: C
+
+  - Type: word
+    Text: Mennyi a Kőris-hegy magassága méterben?
+    Answers: [709]
+    Correct: [709]
+
+  - Type: word
+    Text: Mennyi a Kab-hegy magassága méterben?
+    Answers: [599]
+    Correct: [599]
+
+  - Type: singlechoice
+    Text: Milyen kőzet jellemzi a Tapolcai-medence tanúhegyeit?
+    A: mészkő
+    B: dolomit
+    C: vulkáni kőzet
+    D: gránit
+    Correct: C
+
