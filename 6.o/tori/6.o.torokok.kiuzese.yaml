@@ -1,0 +1,256 @@
+Quiz: A török kiűzése
+
+Questions:
+  - Type: singlechoice
+    Text: Ki szervezte meg a Szent Szövetséget a törökök ellen?
+    A: XIV. Lajos
+    B: XI. Ince pápa
+    C: Savoyai Jenő
+    D: Lotharingiai Károly
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely államok voltak a Szent Szövetség tagjai?
+    Answers: [NR császárság, Lengyel kir., Velence, Franciaország, Pápa]
+    Correct: [NR császárság, Lengyel kir., Velence, Pápa]
+
+  - Type: word
+    Text: Mikor kísérelték meg a törökök utoljára Bécs elfoglalását?
+    Answers: [1683, 1686, 1687, 1697, 1699]
+    Correct: [1683]
+
+  - Type: singlechoice
+    Text: Kik vezették a Szent Szövetség hadseregét?
+    A: Savoyai Jenő és Lotharingiai Károly
+    B: Széchenyi István és Rákóczi Ferenc
+    C: II. Rákóczi Ferenc és Habsburg Lipót
+    D: Károly Róbert és Mátyás király
+    Correct: A
+
+  - Type: word
+    Text: Mikor foglalták vissza Budát a törököktől?
+    Answers: [1683, 1686, 1687, 1697, 1699]
+    Correct: [1686]
+
+  - Type: singlechoice
+    Text: Mi volt a jelentős csata 1687-ben?
+    A: Mohács
+    B: Nagyharsányi csata
+    C: Zenta-i csata
+    D: Buda visszafoglalása
+    Correct: B
+
+  - Type: singlechoice
+    Text: A Nagyharsányi csatát gyakran így is nevezik
+    A: Az első mohácsi csata
+    B: A második mohácsi csata
+    C: Bécs csatája
+    D: Zenta csata
+    Correct: B
+
+  - Type: word
+    Text: Mikor zajlott a zentai csata?
+    Answers: [1683, 1686, 1687, 1697, 1699]
+    Correct: [1697]
+
+  - Type: word
+    Text: Mikor írták alá a karlócai békét?
+    Answers: [1683, 1686, 1687, 1697, 1699]
+    Correct: [1699]
+
+  - Type: singlechoice
+    Text: Mely terület maradt török uralom alatt a karlócai béke után?
+    A: Temesköz
+    B: Buda
+    C: Erdély
+    D: Magyarország
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen következményekkel járt a felszabadítás Magyarország számára?
+    Answers: [hatalmas pusztítás, emberveszteség, szabad föld a magyar nemeseknek, idegen nemesek kapták a földet, lakosságcsökkenés]
+    Correct: [hatalmas pusztítás, emberveszteség, idegen nemesek kapták a földet]
+
+  - Type: multiplechoice
+    Text: Mely nemzetiségeket telepítették be a magyar földekre az idegen nemesek?
+    Answers: [svábok, szlovákok, szerbek, románok, magyarok]
+    Correct: [svábok, szlovákok, szerbek, románok]
+
+  - Type: singlechoice
+    Text: Miért vesztették el a magyar nemesek földjeiket a felszabadítás után?
+    A: Nem vettek részt a harcban
+    B: Nem tudták megfizetni a fegyverváltságot
+    C: Elfogták őket a törökök
+    D: Eladták földjeiket
+    Correct: B
+
+  - Type: word
+    Text: Ki volt az a pápa, aki megszervezte a Szent Szövetséget?
+    Answers: [X. Pius, XI. Ince, XII. Leo, XIII. Benedek]
+    Correct: [XI. Ince]
+
+  - Type: singlechoice
+    Text: Mi volt a Szent Szövetség fő célja?
+    A: Francia területek megszerzése
+    B: Magyarország felszabadítása a török uralom alól
+    C: Bécs elfoglalása
+    D: Új birodalom létrehozása
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely csaták kapcsolódnak a magyar felszabadításhoz?
+    Answers: [Buda visszafoglalása, Nagyharsányi csata, Zenta-i csata, Mohács, Waterloo]
+    Correct: [Buda visszafoglalása, Nagyharsányi csata, Zenta-i csata]
+
+  - Type: singlechoice
+    Text: Az idegen nemzetiségek betelepítése Magyarországon mihez vezetett?
+    A: Nemzeti egységhez
+    B: A különböző nemzetiségek elszaporodásához
+    C: Békéhez a törökökkel
+    D: Nemesi birtokok csökkenéséhez
+    Correct: B
+
+  - Type: word
+    Text: Ki vezette a Szent Szövetség hadseregét Savoyai Jenő mellett?
+    Answers: [Lotharingiai Károly, Mátyás király, Rákóczi Ferenc, Hunyadi János]
+    Correct: [Lotharingiai Károly]
+
+  - Type: singlechoice
+    Text: Melyik birodalom volt a Szent Szövetség tagja?
+    A: Oszmán Birodalom
+    B: NR császárság
+    C: Orosz Birodalom
+    D: Francia Királyság
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyek voltak a felszabadítás közvetlen következményei Magyarországon?
+    Answers: [földpusztítás, emberveszteség, lakosságcsökkenés, gazdasági fellendülés, kulturális reneszánsz]
+    Correct: [földpusztítás, emberveszteség, lakosságcsökkenés]
+
+  - Type: singlechoice
+    Text: Melyik évben kezdődött a Szent Liga hadművelete a török ellen?
+    A: 1683
+    B: 1686
+    C: 1687
+    D: 1697
+    Correct: A
+
+  - Type: word
+    Text: Mely város volt a törökök utolsó célpontja 1683-ban?
+    Answers: [Buda, Bécs, Nagyharsány, Zenta]
+    Correct: [Bécs]
+
+  - Type: singlechoice
+    Text: Melyik csata volt a “második mohácsi csata”?
+    A: Buda visszafoglalása
+    B: Nagyharsányi csata
+    C: Zenta-i csata
+    D: Mohács
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely nemzetek vettek részt a Szent Szövetségben?
+    Answers: [NR császárság, Lengyelország, Velence, Franciaország, Pápa]
+    Correct: [NR császárság, Lengyelország, Velence, Pápa]
+
+  - Type: word
+    Text: Mikor zajlott a Buda visszafoglalása?
+    Answers: [1683, 1686, 1687, 1697]
+    Correct: [1686]
+
+  - Type: singlechoice
+    Text: Melyik két vezető irányította a Szent Szövetség hadseregét?
+    A: Savoyai Jenő és Lotharingiai Károly
+    B: Rákóczi Ferenc és Habsburg Lipót
+    C: Hunyadi János és Mátyás király
+    D: Széchenyi István és Bethlen Gábor
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi volt a Karlócai béke célja?
+    A: Minden magyar föld visszaszerzése
+    B: Magyarország felszabadítása a török alól
+    C: A török hódítás kiterjesztése
+    D: Ausztria megsemmisítése
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely területeket érintette a Karlócai béke?
+    Answers: [Temesköz, Buda, Erdély, Magyarország, Velence]
+    Correct: [Temesköz, Buda, Erdély, Magyarország]
+
+  - Type: singlechoice
+    Text: Melyik csata után vált biztosan a török kiűzése Magyarország területéről?
+    A: Nagyharsány
+    B: Zenta
+    C: Mohács
+    D: Buda visszafoglalása
+    Correct: B
+
+  - Type: word
+    Text: Mi volt a magyar nemesek teendője földjeik visszaszerzéséhez?
+    Answers: [fegyverváltság megfizetése, adócsökkentés, lakosság növelése, újraépítés]
+    Correct: [fegyverváltság megfizetése]
+
+  - Type: multiplechoice
+    Text: Melyek voltak a felszabadítás társadalmi következményei?
+    Answers: [idegen nemesek települnek, idegen jobbágyokat hoznak, magyar nemesség gazdagodik, nemzetiségek elszaporodnak]
+    Correct: [idegen nemesek települnek, idegen jobbágyokat hoznak, nemzetiségek elszaporodnak]
+
+  - Type: singlechoice
+    Text: Melyik csata során szenvedett súlyos emberveszteséget a török hadsereg 1697-ben?
+    A: Mohács
+    B: Zenta-i csata
+    C: Nagyharsányi csata
+    D: Buda visszafoglalása
+    Correct: B
+
+  - Type: word
+    Text: Kik települtek be a magyar földekre az idegen nemesek által?
+    Answers: [svábok, szlovákok, szerbek, románok]
+    Correct: [svábok, szlovákok, szerbek, románok]
+
+  - Type: singlechoice
+    Text: Melyik terület maradt a török kezén a Karlócai béke után?
+    A: Temesköz
+    B: Buda
+    C: Erdély
+    D: Magyarország
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Kik voltak a Szent Szövetség hadvezérei?
+    Answers: [Savoyai Jenő, Lotharingiai Károly, Hunyadi János, Rákóczi Ferenc]
+    Correct: [Savoyai Jenő, Lotharingiai Károly]
+
+  - Type: singlechoice
+    Text: Miért nevezzük a Nagyharsányi csatát a “második mohácsi csatának”?
+    A: Mert a török győzött
+    B: Mert hasonlóan nagy volt a vereség, de a magyar oldal győzött
+    C: Mert Buda védelmében zajlott
+    D: Mert a Habsburgok veszítettek
+    Correct: B
+
+  - Type: word
+    Text: Ki volt a pápa a Szent Szövetség megszervezésekor?
+    Answers: [X. Pius, XI. Ince, XII. Leo, XIII. Benedek]
+    Correct: [XI. Ince]
+
+  - Type: multiplechoice
+    Text: Melyik események történtek 1683–1699 között Magyarországon?
+    Answers: [Buda visszafoglalása, Nagyharsányi csata, Zenta-i csata, Mohácsi csata, Waterloo]
+    Correct: [Buda visszafoglalása, Nagyharsányi csata, Zenta-i csata]
+
+  - Type: singlechoice
+    Text: Melyik nemzetiség nem települt be a magyar földekre a felszabadítás után?
+    A: Svábok
+    B: Szlovákok
+    C: Franciaok
+    D: Szerbek
+    Correct: C
+
+  - Type: word
+    Text: Melyik évben volt a Nagyharsányi csata?
+    Answers: [1683, 1686, 1687, 1697, 1699]
+    Correct: [1687]

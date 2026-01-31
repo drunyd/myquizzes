@@ -1,0 +1,194 @@
+Quiz: Habsburg-ellenes harcok
+
+Questions:
+  - Type: singlechoice
+    Text: Ki volt költő és hadvezér, aki az önálló magyar hadsereg gondolatát hirdette?
+    A: Wesselényi Ferenc
+    B: Zrínyi Miklós
+    C: Thököly Imre
+    D: Rákóczi Ferenc
+    Correct: B
+
+  - Type: word
+    Text: Mikor foglalta el a török Érsekújvárt?
+    Answers: [1663, 1664, 1682, 1685]
+    Correct: [1663]
+
+  - Type: singlechoice
+    Text: Miért támadta Zrínyi Miklós 1664 januárjában az eszéki Dráva hidat?
+    A: Hogy megszerezze a híd adóbevételét
+    B: Hogy megállítsa a török nyugati előrenyomulását
+    C: Hogy megbosszulja a Habsburgokat
+    D: Hogy felgyújtsa a szultán sátrát
+    Correct: B
+
+  - Type: word
+    Text: Hol vesztett csatát a török 1664-ben a Dráva híd felégetése után?
+    Answers: [Szentgotthárd, Mohács, Buda, Nagyharsány]
+    Correct: [Szentgotthárd]
+
+  - Type: singlechoice
+    Text: Milyen békét kötöttek a Habsburgok a törökkel 1664-ben?
+    A: Zenta-i béke
+    B: Karlócai béke
+    C: Vasvári béke
+    D: Bécsi béke
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Miért tartották a magyar főurak szégyenletesnek a Vasvári békét?
+    Answers: [A török maradhatott Magyarország közelében, Nem kapták vissza a földeket, Nem volt önálló hadsereg, A Habsburgok túl engedékenyek voltak]
+    Correct: [A török maradhatott Magyarország közelében, Nem volt önálló hadsereg]
+
+  - Type: word
+    Text: Mikor halt meg Zrínyi Miklós?
+    Answers: [1664 nov., 1682, 1685, 1663]
+    Correct: [1664 nov.]
+
+  - Type: singlechoice
+    Text: Mi volt Wesselényi Ferenc titkos összeesküvése?
+    A: A törökkel szövetkezett a Habsburgok ellen
+    B: Bécs elfoglalása
+    C: Magyarország teljes függetlenségének kikiáltása
+    D: Erdély megszerzése
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi történt az összeesküvés után?
+    Answers: [Kivégzések, Protestánsok üldözése, Magyar főurak gazdagodása, Bujdosók menekülése]
+    Correct: [Kivégzések, Protestánsok üldözése, Bujdosók menekülése]
+
+  - Type: word
+    Text: Hol folytatták a bujdosók mozgalmukat?
+    Answers: [Felvidék, Erdély, Buda, Dunántúl]
+    Correct: [Felvidék]
+
+  - Type: singlechoice
+    Text: Mikor volt Thököly Imre felvidéki fejedelemsége?
+    A: 1663-1664
+    B: 1682-1685
+    C: 1697-1699
+    D: 1670-1675
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért szakadt az ország négy részre ebben az időszakban?
+    A: A török hódítás és Habsburg uralom miatt
+    B: A magyar nemesek lázadása miatt
+    C: Erdély önállósodása miatt
+    D: Thököly Imre betelepítése miatt
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely események kötődnek Zrínyi Miklós tevékenységéhez?
+    Answers: [Eszéki Dráva híd felégetése, Szentgotthárdi csata, Buda visszafoglalása, Költészet, Habsburg-ellenes politika]
+    Correct: [Eszéki Dráva híd felégetése, Szentgotthárdi csata, Költészet, Habsburg-ellenes politika]
+
+  - Type: singlechoice
+    Text: Melyik városnál vesztett a török 1664-ben a felégetett Dráva híd után?
+    A: Mohács
+    B: Buda
+    C: Szentgotthárd
+    D: Nagyharsány
+    Correct: C
+
+  - Type: word
+    Text: Melyik híres eseményhez köthető Zrínyi Miklós?
+    Answers: [Dráva híd felégetése, Zenta-i csata, Mohácsi csata, Bécsi ostrom]
+    Correct: [Dráva híd felégetése]
+
+  - Type: multiplechoice
+    Text: Mely következményekkel járt a Wesselényi-összeesküvés?
+    Answers: [Kivégzések, Protestánsok üldözése, Bujdosók mozgalma, Földek visszaadása]
+    Correct: [Kivégzések, Protestánsok üldözése, Bujdosók mozgalma]
+
+  - Type: singlechoice
+    Text: Mit jelentett a felvidéki bujdosók mozgalma?
+    A: Titkos Habsburg-párti szervezkedés
+    B: Habsburg-ellenes, törökellenes tevékenység
+    C: Francia szövetség megszervezése
+    D: Önálló magyar királyság kiáltása
+    Correct: B
+
+  - Type: word
+    Text: Ki volt a felvidéki fejedelem 1682–1685 között?
+    Answers: [Thököly Imre, Zrínyi Miklós, Wesselényi Ferenc, Rákóczi Ferenc]
+    Correct: [Thököly Imre]
+
+  - Type: singlechoice
+    Text: Milyen következménye volt Zrínyi Miklós halálának?
+    A: A Habsburg-ellenes mozgalom gyengülése
+    B: A törökök visszavonulása
+    C: Magyarország függetlenné vált
+    D: Thököly fejedelemsége megszűnt
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely események mutatják a magyar főurak elégedetlenségét a Habsburgokkal szemben?
+    Answers: [Vasvári béke, Zrínyi hídakciója, Wesselényi-összeesküvés, Thököly fejedelemsége]
+    Correct: [Vasvári béke, Wesselényi-összeesküvés]
+
+  - Type: singlechoice
+    Text: Melyik esemény jelezte a török nyugati előrenyomulásának megállítását 1664-ben?
+    A: Érsekújvár elfoglalása
+    B: Eszéki Dráva híd felégetése
+    C: Zrínyi halála
+    D: Thököly fejedelemsége
+    Correct: B
+
+  - Type: word
+    Text: Mikor kötötték a Vasvári békét?
+    Answers: [1663, 1664, 1682, 1685]
+    Correct: [1664]
+
+  - Type: singlechoice
+    Text: Melyik magyar főúr kezdeményezett összeesküvést a Habsburgok ellen?
+    A: Thököly Imre
+    B: Wesselényi Ferenc
+    C: Zrínyi Miklós
+    D: Rákóczi Ferenc
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely események kapcsolódnak a Wesselényi-összeesküvés következményeihez?
+    Answers: [Kivégzés, Protestánsok üldözése, Bujdosók mozgalma, Magyarország függetlensége]
+    Correct: [Kivégzés, Protestánsok üldözése, Bujdosók mozgalma]
+
+  - Type: singlechoice
+    Text: Hol folytatták a bujdosók tevékenységüket?
+    A: Dunántúl
+    B: Felvidék
+    C: Erdély
+    D: Buda
+    Correct: B
+
+  - Type: word
+    Text: Melyik évben halt meg Zrínyi Miklós?
+    Answers: [1663, 1664, 1682, 1685]
+    Correct: [1664]
+
+  - Type: singlechoice
+    Text: Mi volt a fő célja Zrínyi Miklós hídakciójának?
+    A: Törökök megállítása nyugati irányban
+    B: Buda elfoglalása
+    C: Habsburgok legyőzése
+    D: Felvidék megszerzése
+    Correct: A
+
+  - Type: word
+    Text: Melyik történelmi személy volt felvidéki fejedelem 1682–1685 között?
+    Answers: [Zrínyi Miklós, Thököly Imre, Wesselényi Ferenc, Rákóczi Ferenc]
+    Correct: [Thököly Imre]
+
+  - Type: singlechoice
+    Text: Melyik esemény vezetett az ország négy részre szakadásához?
+    A: Zrínyi hídakciója
+    B: Vasvári béke
+    C: Thököly fejedelemsége és Habsburg-török ellentét
+    D: Wesselényi-összeesküvés
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a Habsburg-ellenes harcok fontos személyei?
+    Answers: [Zrínyi Miklós, Thököly Imre, Wesselényi Ferenc, Savoyai Jenő]
+    Correct: [Zrínyi Miklós, Thököly Imre, Wesselényi Ferenc]
