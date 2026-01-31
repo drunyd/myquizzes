@@ -1,0 +1,809 @@
+Quiz: Élővilág összefoglalás – 20 kérdés
+Question:
+  - Type: singlechoice
+    Text: Ki fektette le az élővilág rendszerezésének alapjait a 18. században?
+    A: Darwin
+    B: Linné
+    C: Mendel
+    D: Lamarck
+    Correct: B
+
+  - Type: word
+    Text: Mi az élővilág rendszerezésének alapegysége?
+    Answers: [faj]
+    Correct: [faj]
+
+  - Type: singlechoice
+    Text: Melyik tudós magyarázta az élőlények hasonlóságát közös származással?
+    A: Linné
+    B: Mendel
+    C: Darwin
+    D: Pasteur
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek tartoznak a rendszertani egységek közé?
+    Answers: [faj, nemzetség, család, rend, osztály, törzs, ország]
+    Correct: [faj, nemzetség, család, rend, osztály, törzs, ország]
+
+  - Type: singlechoice
+    Text: Hány egysejtű országot különböztet meg a mai rendszerezés?
+    A: egyet
+    B: kettőt
+    C: hármat
+    D: négyet
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely élőlények tartoznak a sejtmagnélküliek országába?
+    Answers: [baktériumok, kékbaktériumok, amőba, papucsállatka]
+    Correct: [baktériumok, kékbaktériumok]
+
+  - Type: singlechoice
+    Text: Melyik egysejtűnek van szemfoltja?
+    A: amőba
+    B: papucsállatka
+    C: zöld szemes ostoros
+    D: baktérium
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a telepes növényekre?
+    A: szöveteik vannak
+    B: szerveik vannak
+    C: nincs szövetük
+    D: virágos növények
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a moszatok törzsei?
+    Answers: [vörösmoszatok, barnamoszatok, zöldmoszatok, mohák]
+    Correct: [vörösmoszatok, barnamoszatok, zöldmoszatok]
+
+  - Type: singlechoice
+    Text: Mely növények nem rendelkeznek valódi szövetekkel és szervekkel?
+    A: harasztok
+    B: mohák
+    C: zárvatermők
+    D: nyitvatermők
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol találhatóak az osztódószövetek?
+    A: levéllemezben
+    B: gyökérszőrökben
+    C: a növény csúcsi részén
+    D: virágban
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely szövet védi a növényt a kiszáradástól?
+    A: alapszövet
+    B: szállítószövet
+    C: bőrszövet
+    D: osztódószövet
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely szövetek tartoznak az állandósult szövetek közé?
+    Answers: [bőrszövet, szállítószövet, alapszövet, osztódószövet]
+    Correct: [bőrszövet, szállítószövet, alapszövet]
+
+  - Type: singlechoice
+    Text: Mely növények szaporodnak spórával?
+    A: zárvatermők
+    B: nyitvatermők
+    C: harasztok
+    D: virágos növények
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely szervei vannak a harasztoknak?
+    Answers: [gyökér, szár, levél, virág, termés]
+    Correct: [gyökér, szár, levél]
+
+  - Type: singlechoice
+    Text: Melyik szövet felelős a víz és ásványi sók szállításáért?
+    A: háncsrész
+    B: farész
+    C: bőrszövet
+    D: alapszövet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért nevezzük a nyitvatermőket nyitvatermőknek?
+    A: nincs viráguk
+    B: magkezdeményük szabadon ül
+    C: spórával szaporodnak
+    D: húsos termésük van
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a virág elsődleges szerepe?
+    A: fotoszintézis
+    B: raktározás
+    C: szaporodás
+    D: párologtatás
+    Correct: C
+
+  - Type: word
+    Text: Hogy nevezzük a megtermékenyített petesejtet?
+    Answers: [zigóta]
+    Correct: [zigóta]
+
+  - Type: singlechoice
+    Text: Mely terméstípus tartozik a húsos termések közé?
+    A: hüvelytermés
+    B: toktermés
+    C: bogyótermés
+    D: kaszattermés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemzi a faj fogalmát?
+    A: Azonos élőhelyen élnek
+    B: Külső tulajdonságaik különböznek
+    C: Termékeny utódokat hoznak létre
+    D: Mindig azonos méretűek
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik rendszert nevezte Linné mesterséges rendszernek?
+    A: Fejlődéstörténeti
+    B: Természetes
+    C: Külső jegyek alapján felépített
+    D: Genetikai
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely országok tartoznak a soksejtű élőlényekhez?
+    Answers: [növények, gombák, állatok, baktériumok]
+    Correct: [növények, gombák, állatok]
+
+  - Type: singlechoice
+    Text: Miért nem tartoznak a vírusok az élőlények közé?
+    A: Nem szaporodnak
+    B: Nincs örökítőanyaguk
+    C: Nem sejtes felépítésűek
+    D: Nincs fehérjéjük
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely baktériumok végeznek fotoszintézist?
+    A: erjesztő baktériumok
+    B: kórokozók
+    C: kékbaktériumok
+    D: lebontók
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely betegségeket okozhatnak baktériumok?
+    Answers: [kolera, lepra, tetanusz, influenza]
+    Correct: [kolera, lepra, tetanusz]
+
+  - Type: singlechoice
+    Text: Melyik egysejtű mozog állábakkal?
+    A: papucsállatka
+    B: zöld szemes ostoros
+    C: amőba
+    D: baktérium
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a csillós egysejtűekre?
+    A: sejtfaluk van
+    B: csillókkal mozognak
+    C: fotoszintetizálnak
+    D: sejtmag nélküliek
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a telepes növényekre?
+    Answers: [soksejtűek, munkamegosztás van, nincs szövetük, virágosak]
+    Correct: [soksejtűek, munkamegosztás van, nincs szövetük]
+
+  - Type: singlechoice
+    Text: Mely moszatok élnek főként hideg tengerekben?
+    A: vörösmoszatok
+    B: barnamoszatok
+    C: zöldmoszatok
+    D: mohák
+    Correct: B
+
+  - Type: singlechoice
+    Text: A szárazföldi növények ősei mely moszatok voltak?
+    A: vörösmoszatok
+    B: barnamoszatok
+    C: zöldmoszatok
+    D: kékbaktériumok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan veszik fel a mohák a vizet?
+    A: gyökérrel
+    B: szállítószövettel
+    C: egész testfelületükön
+    D: levélereken keresztül
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a hajtás?
+    A: gyökér és szár együttese
+    B: szár és lomblevél együttese
+    C: levél és virág együttese
+    D: gyökér és levél együttese
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely funkciói vannak a gyökérnek?
+    Answers: [rögzítés, vízfelvétel, fotoszintézis, ásványi sók felvétele]
+    Correct: [rögzítés, vízfelvétel, ásványi sók felvétele]
+
+  - Type: singlechoice
+    Text: Melyik gyökérzetre jellemző a vastag főgyökér?
+    A: mellékgyökérzet
+    B: hajszálgyökérzet
+    C: főgyökérzet
+    D: támasztógyökér
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért alakulnak ki évgyűrűk a fás szárban?
+    A: hőmérséklet miatt
+    B: eltérő csapadék miatt
+    C: kártevők miatt
+    D: fotoszintézis miatt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik levélerezet jellemző az egyszikűekre?
+    A: hálózatos
+    B: sugaras
+    C: párhuzamos
+    D: elágazó
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növénycsoport virágtalan?
+    A: zárvatermők
+    B: nyitvatermők
+    C: harasztok
+    D: egyszikűek
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik haraszt tartozik a zsurlók közé?
+    A: erdei pajzsika
+    B: mezei zsurló
+    C: csillárkamoszat
+    D: békanyál
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik növénycsoport szaporodása nem igényel nedves környezetet?
+    A: mohák
+    B: harasztok
+    C: virágos növények
+    D: moszatok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen beporzás jellemző a nyitvatermőkre?
+    A: rovarbeporzás
+    B: vízbeporzás
+    C: szélbeporzás
+    D: önbeporzás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol fejlődnek a nyitvatermők magjai?
+    A: termésben
+    B: magházban
+    C: tobozban
+    D: bogyóban
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő lombhullató?
+    A: lucfenyő
+    B: erdeifenyő
+    C: vörösfenyő
+    D: feketefenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növénynek nincs toboza?
+    A: lucfenyő
+    B: jegenyefenyő
+    C: tiszafa
+    D: erdeifenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mikor jelentek meg a zárvatermők?
+    A: 250 millió éve
+    B: 180 millió éve
+    C: 120 millió éve
+    D: 60 millió éve
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi fejlődik a magházból zárvatermőknél?
+    A: csíra
+    B: termés
+    C: porzó
+    D: pollen
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hány csíralevele van a kétszikűeknek?
+    A: egy
+    B: kettő
+    C: három
+    D: nincs
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit nevezünk áltermésnek?
+    A: csak a magházból fejlődik
+    B: csak a vacokból fejlődik
+    C: termőből és vacokból fejlődik
+    D: nincs benne mag
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek húsos termések?
+    Answers: [bogyótermés, csonthéjas termés, hüvelytermés, kabaktermés]
+    Correct: [bogyótermés, csonthéjas termés, kabaktermés]
+
+  - Type: singlechoice
+    Text: Mit jelent a kettős nevezéktan?
+    A: két különböző nyelvű elnevezést
+    B: nemzetség és faj nevét
+    C: ország és törzs nevét
+    D: család és rend nevét
+    Correct: B
+
+  - Type: singlechoice
+    Text: Magyarországon a „vörös róka” elnevezésben melyik a fajnév?
+    A: vörös
+    B: róka
+    C: vörös róka
+    D: nincs fajnév
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely rendszertani egység következik közvetlenül a faj után?
+    A: család
+    B: rend
+    C: nemzetség
+    D: osztály
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a sejtmagnélküli baktériumok jellemzői?
+    Answers: [gyors szaporodás, tok képzése kedvezőtlen körülmények között, sejtmag jelenléte, ostorral való mozgás]
+    Correct: [gyors szaporodás, tok képzése kedvezőtlen körülmények között, ostorral való mozgás]
+
+  - Type: singlechoice
+    Text: Mi a baktériumok tokjának szerepe?
+    A: szaporodás
+    B: fotoszintézis
+    C: védelem kedvezőtlen körülmények között
+    D: mozgás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely baktériumok hasznosítják a napfényt?
+    A: erjesztő baktériumok
+    B: kékbaktériumok
+    C: lebontó baktériumok
+    D: kórokozók
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik egysejtűnek állandó alakja van?
+    A: amőba
+    B: zöld szemes ostoros
+    C: papucsállatka
+    D: baktérium
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik egysejtű vált heterotróffá fényhiányban?
+    A: amőba
+    B: papucsállatka
+    C: zöld szemes ostoros
+    D: kovamoszat
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a telepes növényekre?
+    Answers: [nincs valódi szövetük, van munkamegosztás, szerveik vannak, lehetnek vízben élők]
+    Correct: [nincs valódi szövetük, van munkamegosztás, lehetnek vízben élők]
+
+  - Type: singlechoice
+    Text: Mely moszatok élnek a legmélyebb tengerrétegekben?
+    A: barnamoszatok
+    B: zöldmoszatok
+    C: vörösmoszatok
+    D: kékbaktériumok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely moszatcsoport ősei a szárazföldi növényeknek?
+    A: vörösmoszatok
+    B: barnamoszatok
+    C: zöldmoszatok
+    D: mohák
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi rögzíti a mohákat a talajhoz?
+    A: valódi gyökér
+    B: főgyökér
+    C: gyökérszerű fonalak
+    D: szállítószövet
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen szaporodás jellemző a mohákra?
+    A: magvas
+    B: ivaros és terméses
+    C: ivartalan, spórás
+    D: sarjadzás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a szövetek közös jellemzője?
+    A: különböző alakú sejtek
+    B: azonos működés
+    C: mindig osztódnak
+    D: csak a levélben fordulnak elő
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért fontos az osztódószövet?
+    A: fotoszintézis
+    B: szállítás
+    C: növekedés és vastagodás
+    D: raktározás
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a bőrszövet jellemzői?
+    Answers: [védelem, kiszáradás elleni védelem, egyrétegű sejtek, fotoszintézis]
+    Correct: [védelem, kiszáradás elleni védelem, egyrétegű sejtek]
+
+  - Type: singlechoice
+    Text: Mely szövet szállítja a kész tápanyagokat?
+    A: farész
+    B: háncsrész
+    C: bőrszövet
+    D: alapszövet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hol fordul elő raktározó alapszövet?
+    A: lomblevélben
+    B: virágban
+    C: föld alatti hajtásokban
+    D: szár csúcsán
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növénycsoport az első valódi szövetes növény?
+    A: mohák
+    B: harasztok
+    C: nyitvatermők
+    D: zárvatermők
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit nevezünk hajtásnak?
+    A: gyökér és levél
+    B: szár és levél
+    C: gyökér és szár
+    D: virág és levél
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik gyökérzet jellemző a kukoricára?
+    A: főgyökérzet
+    B: mellékgyökérzet
+    C: karógyökér
+    D: támasztógyökér
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a kambium szerepe?
+    A: vízfelvétel
+    B: vastagodás
+    C: fotoszintézis
+    D: raktározás
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely levélerezet jellemző az almafára?
+    A: párhuzamos
+    B: sugaras
+    C: hálózatos
+    D: spirális
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol találhatóak a páfrányok spórái?
+    A: gyökéren
+    B: szárban
+    C: levél fonákján
+    D: virágban
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik NEM jellemző a nyitvatermőkre?
+    A: fás szár
+    B: szélbeporzás
+    C: termés
+    D: toboz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő tűlevelei kettesével állnak?
+    A: lucfenyő
+    B: jegenyefenyő
+    C: erdeifenyő
+    D: vörösfenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő termős virága nem képez tobozt?
+    A: boróka
+    B: lucfenyő
+    C: tiszafa
+    D: jegenyefenyő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit jelent a kétivarú virág?
+    A: csak porzó van benne
+    B: csak termő van benne
+    C: porzó és termő is van benne
+    D: két külön virág
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növény kétlaki?
+    A: almafa
+    B: kukorica
+    C: kender
+    D: búza
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi volt a rendszerezés kialakulásának fő oka?
+    A: a mikroszkóp feltalálása
+    B: az élőlények kihalása
+    C: sok új élőlény felfedezése
+    D: az élőlények egyszerűsége
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik NEM tartozik a faj fogalmához?
+    A: külső tulajdonságok
+    B: belső tulajdonságok
+    C: termékeny utód
+    D: azonos élőhely
+    Correct: D
+
+  - Type: singlechoice
+    Text: Mit jelent a természetes fejlődéstörténeti rendszer?
+    A: külső jegyek alapján rendez
+    B: gazdasági jelentőség szerint csoportosít
+    C: közös származás alapján rendszerez
+    D: élőhely szerint osztályoz
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a vírusokra?
+    Answers: [nem sejtek, van örökítőanyaguk, önállóan szaporodnak, gazdasejt kell a szaporodásukhoz]
+    Correct: [nem sejtek, van örökítőanyaguk, gazdasejt kell a szaporodásukhoz]
+
+  - Type: singlechoice
+    Text: Melyik baktérium megkötő tevékenység fontos a talaj számára?
+    A: oxigéntermelés
+    B: nitrogénmegkötés
+    C: cukorbontás
+    D: fehérjeszintézis
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik baktériumcsoport hasznos az élelmiszeriparban?
+    A: kórokozók
+    B: erjesztő baktériumok
+    C: lebontók
+    D: kékbaktériumok
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely egysejtűnek van két sejtmagja?
+    A: amőba
+    B: zöld szemes ostoros
+    C: papucsállatka
+    D: kovamoszat
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a csillók szerepe a papucsállatkánál?
+    A: szaporodás
+    B: fotoszintézis
+    C: mozgás és táplálkozás
+    D: védelem
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért telepesek a moszatok?
+    A: mert szöveteik vannak
+    B: mert szerveik vannak
+    C: mert nincs valódi szövetük
+    D: mert magvas növények
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely moszatok termelnek jelentős mennyiségű oxigént?
+    A: vörösmoszatok
+    B: barnamoszatok
+    C: zöldmoszatok
+    D: mohák
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol élnek leggyakrabban a mohák?
+    A: sivatagban
+    B: tengerekben
+    C: nedves, árnyékos helyeken
+    D: magashegységek csúcsán
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a mohák ökológiai szerepe?
+    A: talaj kiszárítása
+    B: talajvédelem
+    C: kártevők irtása
+    D: levegő szennyezése
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemző a hajtásos növényekre?
+    A: nincs szövetük
+    B: nincs szervük
+    C: szövetekkel és szervekkel rendelkeznek
+    D: csak vízben élnek
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely szövet biztosítja a gázcserét a növényben?
+    A: alapszövet
+    B: bőrszövet gázcserenyílásokkal
+    C: farész
+    D: kambium
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik NEM tartozik az alapszövetek közé?
+    A: táplálékkészítő
+    B: raktározó
+    C: szilárdító
+    D: szállító
+    Correct: D
+
+  - Type: singlechoice
+    Text: Melyik növényrészben található sok zöld színtest?
+    A: gyökér
+    B: lomblevél
+    C: szár belseje
+    D: mag
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik a fő funkciója a szárnak?
+    A: rögzítés
+    B: szaporodás
+    C: összeköttetés és szállítás
+    D: vízfelvétel
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik gyökér végzi a felszívást?
+    A: főgyökér
+    B: oldalgyökér
+    C: hajszálgyökér
+    D: támasztógyökér
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi jellemző a harasztokra?
+    A: virágos növények
+    B: termést hoznak
+    C: spórával szaporodnak
+    D: telepes szerveződésűek
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi növeli a fotoszintézis hatékonyságát a levelekben?
+    A: vastag sejtfal
+    B: laza alapszövet
+    C: kevés kloroplasztisz
+    D: vastag bőrszövet
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a nyitvatermők magkezdeményének jellemzője?
+    A: termésben fejlődik
+    B: magház védi
+    C: szabadon ül
+    D: húsos burok veszi körül
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik állítás igaz a fenyőkre?
+    A: rovarbeporzásúak
+    B: lágy szárúak
+    C: tűleveleik vannak
+    D: virágjuk feltűnő
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik fenyő őshonos Magyarországon?
+    A: feketefenyő
+    B: lucfenyő
+    C: ciprus
+    D: cédrus
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik növénynek vannak lepellevelei?
+    A: kétszikűek
+    B: egyszikűek
+    C: harasztok
+    D: mohák
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a virág vacok?
+    A: a porzó része
+    B: a termő felső része
+    C: a kocsány kiszélesedő része
+    D: a sziromlevelek összessége
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik növény egylaki?
+    A: juhar
+    B: kender
+    C: kukorica
+    D: fűz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik száraz termés többmagvú?
+    A: makk
+    B: kaszat
+    C: toktermés
+    D: szemtermés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik húsos termés tartozik a kabaktermések közé?
+    A: alma
+    B: szilva
+    C: paradicsom
+    D: görögdinnye
+    Correct: D
+
+  - Type: singlechoice
+    Text: Miért nevezhető az alma áltermésnek?
+    A: nincs benne mag
+    B: csak a vacokból fejlődik
+    C: csak a magházból fejlődik
+    D: a magház és a vacok is részt vesz a kialakulásában
+    Correct: D
