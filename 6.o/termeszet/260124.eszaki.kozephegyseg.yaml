@@ -1,0 +1,254 @@
+Quiz: Északi-középhegység
+
+Questions:
+  - Type: word
+    Text: Mely folyók között helyezkedik el az Északi-középhegység?
+    Answers: [Ipoly és Bodrog, Duna és Tisza, Zagyva és Tarna, Hernád és Bodrog]
+    Correct: [Ipoly és Bodrog]
+
+  - Type: singlechoice
+    Text: Mely hegység tartozik ide a Dunakanyartól délre?
+    A: Visegrádi-hegység
+    B: Börzsöny
+    C: Mátra
+    D: Bükk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az Északi-középhegység átlagos tengerszint feletti magassága jellemzően?
+    A: Legkisebb Magyarországon
+    B: Legnagyobb Magyarországon
+    C: Közepes
+    D: 100 méter alatt
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely vulkáni eredetű tagok tartoznak az Északi-középhegységhez?
+    Answers: [Visegrádi-hegység, Börzsöny, Cserhát, Mátra, Zempléni-hegység, Bükk]
+    Correct: [Visegrádi-hegység, Börzsöny, Cserhát, Mátra, Zempléni-hegység]
+
+  - Type: multiplechoice
+    Text: Mely részek mészkőből épülnek fel?
+    Answers: [Bükk, Aggteleki-hegység, Cserhát, Mátra]
+    Correct: [Bükk, Aggteleki-hegység]
+
+  - Type: singlechoice
+    Text: Mi a fő kőzettípus a vulkáni eredetű Északi-középhegységi tagoknál?
+    A: Andezit
+    B: Mészkő
+    C: Dolomit
+    D: Homokkő
+    Correct: A
+
+  - Type: word
+    Text: Mi jellemzi az Északi-középhegység éghajlatát?
+    Answers: [Leghűvösebb vidék, Legmelegebb vidék, Száraz, Trópusi]
+    Correct: [Leghűvösebb vidék]
+
+  - Type: multiplechoice
+    Text: Mely jellemző erdőtípusok találhatók az Északi-középhegységben?
+    Answers: [Tölgyesek, Bükkösök, Fenyvesek, Pálmafák]
+    Correct: [Tölgyesek, Bükkösök]
+
+  - Type: singlechoice
+    Text: Hol található hazánk legmagasabb pontja, a Kékes?
+    A: Mátra
+    B: Bükk
+    C: Zempléni-hegység
+    D: Cserhát
+    Correct: A
+
+  - Type: word
+    Text: Milyen vulkáni nyomok láthatók a Mátrában?
+    Answers: [Szénsavas források, Barlangok, Homokdűnék, Sziklás hegycsúcsok]
+    Correct: [Szénsavas források]
+
+  - Type: singlechoice
+    Text: Mely folyók veszik közre a Mátrát?
+    A: Zagyva és Tarna
+    B: Ipoly és Bodrog
+    C: Hernád és Bodrog
+    D: Duna és Tisza
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely jellemzői vannak a Bükk-fennsík területének?
+    Answers: [Barlangok, Víznyelők, Szurdokvölgyek, Homokdűnék]
+    Correct: [Barlangok, Víznyelők, Szurdokvölgyek]
+
+  - Type: singlechoice
+    Text: Hol található az Aggteleki-cseppkőbarlang?
+    A: Bükk
+    B: Aggteleki-hegység
+    C: Mátra
+    D: Zempléni-hegység
+    Correct: B
+
+  - Type: word
+    Text: Mely hegyek között helyezkedik el a Zempléni-hegység?
+    Answers: [Hernád és Bodrog, Duna és Tisza, Zagyva és Tarna, Ipoly és Bodrog]
+    Correct: [Hernád és Bodrog]
+
+  - Type: singlechoice
+    Text: Milyen talaja van a Zempléni-hegységnek, ami kedvez a szőlőtermesztésnek?
+    A: Vulkáni
+    B: Homokos
+    C: Földes
+    D: Márga
+    Correct: A
+
+  - Type: word
+    Text: Hol található Tokaji-aszú?
+    Answers: [Zempléni-hegység lábánál, Mátra, Bükk, Cserhát]
+    Correct: [Zempléni-hegység lábánál]
+
+  - Type: singlechoice
+    Text: Mi a világörökség része Hollókővel?
+    A: Cserhát
+    B: Mátra
+    C: Bükk
+    D: Zempléni-hegység
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely városok a fontosabbak az Északi-középhegység medencéiben és peremén?
+    Answers: [Eger, Miskolc, Mezőkövesd, Budapest]
+    Correct: [Eger, Miskolc, Mezőkövesd]
+
+  - Type: word
+    Text: Melyik híres fürdő tartozik Miskolchoz?
+    Answers: [Miskolctapolcai barlangfürdő, Hévízi-tó, Sárvári fürdő, Bükfürdő]
+    Correct: [Miskolctapolcai barlangfürdő]
+
+  - Type: singlechoice
+    Text: Melyik vár található Miskolc közelében?
+    A: Diósgyőri vár
+    B: Sümegi vár
+    C: Eger vára
+    D: Szigligeti vár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely irányban húzódik az Északi-középhegység?
+    A: Észak–dél
+    B: Délnyugat–északkelet
+    C: Kelet–nyugat
+    D: Dél–észak
+    Correct: B
+
+  - Type: word
+    Text: Mely hegység a Dunakanyartól északra fekszik?
+    Answers: [Börzsöny, Visegrádi-hegység, Mátra, Bükk]
+    Correct: [Börzsöny]
+
+  - Type: singlechoice
+    Text: Mi választja el a Börzsönyt a Visegrádi-hegységtől?
+    A: Tarna folyó
+    B: Duna
+    C: Ipoly
+    D: Bodrog
+    Correct: B
+
+  - Type: word
+    Text: Mely medence választja el a Börzsönyt a Cserháttól?
+    Answers: [Nógrádi-medence, Borsodi-medence, Zagyva-medence, Bodrog-medence]
+    Correct: [Nógrádi-medence]
+
+  - Type: singlechoice
+    Text: Hol található a Bükk-fennsík?
+    A: Tarna folyó és Borsodi-medence között
+    B: Mátra és Zempléni-hegység között
+    C: Cserhát és Börzsöny között
+    D: Aggteleki-hegység és Hernád között
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely jellemzői vannak a Bükk-fennsík területének?
+    Answers: [Barlangok, Források, Szurdokvölgyek, Homokdűnék]
+    Correct: [Barlangok, Források, Szurdokvölgyek]
+
+  - Type: singlechoice
+    Text: Mely folyók veszik körül a Mátrát?
+    A: Zagyva és Tarna
+    B: Ipoly és Bodrog
+    C: Hernád és Bodrog
+    D: Duna és Tisza
+    Correct: A
+
+  - Type: word
+    Text: Melyik hazánk legmagasabb pontja?
+    Answers: [Kékes, Tar-kő, Pes-kő, Nagyoldal]
+    Correct: [Kékes]
+
+  - Type: singlechoice
+    Text: Milyen eredetű a Zempléni-hegység talaja?
+    A: Vulkáni
+    B: Mészkő
+    C: Dolomit
+    D: Homokos
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely települések, helyek kapcsolódnak az Északi-középhegységhez?
+    Answers: [Hollókő, Tokaj, Eger, Mezőkövesd, Sopron]
+    Correct: [Hollókő, Tokaj, Eger, Mezőkövesd]
+
+  - Type: singlechoice
+    Text: Hol található az Aggteleki-cseppkőbarlang?
+    A: Bükk
+    B: Aggteleki-hegység
+    C: Mátra
+    D: Cserhát
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemzi a Cserhát táját?
+    A: Dombsági táj
+    B: Magashegység
+    C: Síkság
+    D: Tóvidék
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely jellemzők igazak a Mátrára?
+    Answers: [Vulkáni eredet, Szénsavas források, Színes-nemesfémércek, Mészkőhegység]
+    Correct: [Vulkáni eredet, Szénsavas források, Színes-nemesfémércek]
+
+  - Type: singlechoice
+    Text: Miért nevezik az Északi-középhegységet Magyarország leghűvösebb vidékének?
+    A: Alacsony tengerszint feletti magasság miatt
+    B: Magas csapadék és alacsony középhőmérséklet miatt
+    C: Vulkáni aktivitás miatt
+    D: Széljárás miatt
+    Correct: B
+
+  - Type: word
+    Text: Mely város közelében található a Diósgyőri vár?
+    Answers: [Miskolc, Eger, Tokaj, Mezőkövesd]
+    Correct: [Miskolc]
+
+  - Type: singlechoice
+    Text: Melyik területen található a Matyóföld híres népviselete?
+    A: Mezőkövesd környékén
+    B: Tokaj-hegyalján
+    C: Mátra lábánál
+    D: Bükk északi peremén
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely jellemző erdőtípusok találhatók az Északi-középhegységben?
+    Answers: [Tölgyesek, Bükkösök, Fenyvesek, Pálmafák]
+    Correct: [Tölgyesek, Bükkösök]
+
+  - Type: word
+    Text: Mely folyók határolják a Bükköt?
+    Answers: [Tarna, Zagyva, Bodrog, Duna]
+    Correct: [Tarna]
+
+  - Type: singlechoice
+    Text: Miért kedvező a Zempléni-hegység talaja a szőlőtermesztésnek?
+    A: Vulkáni talaj
+    B: Mészkő talaj
+    C: Homokos talaj
+    D: Fekete föld
+    Correct: A
