@@ -1,0 +1,250 @@
+Quiz: Budapest – elhelyezkedés és szerepe
+
+Question:
+  - Type: singlechoice
+    Text: Melyik régió legnagyobb városa Budapest?
+    A: Nyugat-Európa
+    B: Kelet-Közép-Európa
+    C: Délkelet-Európa
+    D: Észak-Európa
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik folyó szeli ketté Budapestet?
+    A: Tisza
+    B: Rába
+    C: Duna
+    D: Dráva
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely nagytájak találkozásánál fekszik Budapest?
+    Answers: [Alföld, Kisalföld, Dunántúli-középhegység, Északi-középhegység]
+    Correct: [Alföld, Dunántúli-középhegység]
+
+  - Type: singlechoice
+    Text: Miért ott alakult ki Budapest elődje, ahol?
+    A: Termékeny talaj miatt
+    B: A Duna itt a legkeskenyebb volt
+    C: Itt volt a legtöbb erdő
+    D: Itt volt a legtöbb ásványkincs
+    Correct: B
+
+  - Type: word
+    Text: Hogyan nevezik azt a vonalat, ahol két különböző tájegység találkozik?
+    Answers: [vásárvonal]
+    Correct: [vásárvonal]
+
+  - Type: singlechoice
+    Text: A Duna jobb partján mely városrész található?
+    A: Pest
+    B: Óbuda
+    C: Buda
+    D: Csepel
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen kőzet jellemző a Budai-hegységre?
+    A: Vulkanikus
+    B: Üledékes
+    C: Gránit
+    D: Homok
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Miben játszik fontos szerepet a Budai-hegység?
+    Answers: [Levegőminőség javítása, Város építőanyaga, Gyógyvizek, Tengeri közlekedés]
+    Correct: [Levegőminőség javítása, Város építőanyaga, Gyógyvizek]
+
+  - Type: singlechoice
+    Text: Miért nevezik Budapestet fürdővárosnak?
+    A: Sok úszómedence van
+    B: Gyógyvizes források fakadnak
+    C: Tengerpartja van
+    D: Sok eső esik
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely barlangok találhatók Budapesten?
+    Answers: [Pál-völgyi-cseppkőbarlang, Aggteleki-cseppkőbarlang, Szemlő-hegyi-barlang]
+    Correct: [Pál-völgyi-cseppkőbarlang, Szemlő-hegyi-barlang]
+
+  - Type: singlechoice
+    Text: A Duna bal partján mely városrész található?
+    A: Buda
+    B: Óbuda
+    C: Pest
+    D: Budafok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely táj területén épült Pest?
+    A: Pesti-síkság
+    B: Kisalföld
+    C: Mátra
+    D: Mezőföld
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely városok egyesüléséből jött létre Budapest?
+    Answers: [Pest, Buda, Óbuda, Vác]
+    Correct: [Pest, Buda, Óbuda]
+
+  - Type: word
+    Text: Mely évben egyesült Pest, Buda és Óbuda Budapest név alatt?
+    Answers: [1873]
+    Correct: [1873]
+
+  - Type: singlechoice
+    Text: Miért fejlődött kiemelkedően Buda a középkorban?
+    A: Termékeny síkságon feküdt
+    B: Katonailag jól védhető volt
+    C: Közel volt a tengerhez
+    D: Sok gyár működött itt
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik korszakban pusztult le Budapest elődje?
+    A: Tatárjárás
+    B: Török uralom alatt
+    C: Világháborúk idején
+    D: Római korban
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Melyek Budapest politikai szerepei?
+    Answers: [Országgyűlés, Minisztériumok, Megyei központ, Kormányhivatalok]
+    Correct: [Országgyűlés, Minisztériumok, Kormányhivatalok]
+
+  - Type: multiplechoice
+    Text: Mely iparágak jellemzőek Budapestre?
+    Answers: [Gyógyszergyártás, Műszeripar, Bányászat, Kereskedelem]
+    Correct: [Gy]
+
+  - Type: singlechoice
+    Text: Miért kapta Budapest a „Duna gyöngyszeme” elnevezést?
+    A: Sok hídja van
+    B: Szép fekvése és látképe miatt
+    C: Sok ásványkincs található itt
+    D: A Duna forrása itt van
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik városrész volt katonailag a legjobban védhető?
+    A: Pest
+    B: Óbuda
+    C: Buda
+    D: Csepel
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik városrész fejlődött leginkább Mátyás király idején?
+    A: Pest
+    B: Buda
+    C: Óbuda
+    D: Kőbánya
+    Correct: B
+
+  - Type: word
+    Text: Hány kerületből áll Budapest?
+    Answers: [23]
+    Correct: [23]
+
+  - Type: multiplechoice
+    Text: Mely területek tartoznak a Budai-hegységhez?
+    Answers: [Fás területek, Üledékes kőzetek, Alföldi síkság, Gyógyvizes források]
+    Correct: [Fás területek, Üledékes kőzetek, Gyógyvizes források]
+
+  - Type: singlechoice
+    Text: Mi alakította ki Budapest barlangjait?
+    A: Vulkanizmus
+    B: Jég
+    C: Felszín alatti vizek
+    D: Szél
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik budapesti barlang cseppkőbarlang?
+    A: Szemlő-hegyi-barlang
+    B: Pál-völgyi-cseppkőbarlang
+    C: Jósvafői-barlang
+    D: Tapolcai-tavasbarlang
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely városrészek fejlődtek önállóan Budapest egyesítése előtt?
+    Answers: [Pest, Buda, Óbuda, Kecskemét]
+    Correct: [Pest, Buda, Óbuda]
+
+  - Type: singlechoice
+    Text: Melyik században indult újra Budapest fejlődése a török uralom után?
+    A: XVII.
+    B: XVIII.
+    C: XIX.
+    D: XX.
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely városrész épült alacsony fekvésű síkságra?
+    A: Buda
+    B: Óbuda
+    C: Pest
+    D: Hegyvidék
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek Budapest kulturális intézményei közül?
+    Answers: [Színházak, Opera, Egyetemek, Bányák]
+    Correct: [Színházak, Opera, Egyetemek]
+
+  - Type: singlechoice
+    Text: Mely iparág NEM jellemző Budapestre?
+    A: Gyógyszergyártás
+    B: Műszeripar
+    C: Kereskedelem
+    D: Bányászat
+    Correct: D
+
+  - Type: word
+    Text: Mely folyó mentén alakult ki Budapest?
+    Answers: [Duna]
+    Correct: [Duna]
+
+  - Type: singlechoice
+    Text: Melyik világörökségi helyszín található Budapesten?
+    A: Tokaj-hegyalja
+    B: Hollókő
+    C: Budai Várnegyed és a Duna-part látképe
+    D: Pannonhalma
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely évszámok kapcsolódnak Budapest világörökségi helyszíneihez?
+    Answers: [1987, 2002, 1996, 1975]
+    Correct: [1987, 2002]
+
+  - Type: singlechoice
+    Text: Mely funkciók jellemzőek Budapestre?
+    A: Mezőgazdasági központ
+    B: Politikai központ
+    C: Gazdasági központ
+    D: Kulturális központ
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely közlekedési elemek találhatók Budapesten?
+    Answers: [Repülőtér, Vasúti csomópont, Kikötő, Tengeri kikötő]
+    Correct: [Repülőtér, Vasúti csomópont, Kikötő]
+
+  - Type: singlechoice
+    Text: Mely probléma jelent kihívást Budapest számára?
+    A: Hóviharok
+    B: Szennyvízkezelés
+    C: Vulkáni aktivitás
+    D: Földcsuszamlás
+    Correct: B
+
+  - Type: word
+    Text: Melyik városrész neve utal Budapest római múltjára?
+    Answers: [Óbuda]
+    Correct: [Óbuda]

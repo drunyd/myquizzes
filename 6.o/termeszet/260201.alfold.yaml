@@ -1,0 +1,268 @@
+Quiz: Alföld és Kisalföld – nagytájak
+
+Question:
+  - Type: singlechoice
+    Text: Melyik hazánk legnagyobb tája?
+    A: Kisalföld
+    B: Alföld
+    C: Dunántúli-dombvidék
+    D: Északi-középhegység
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely területek határolják az Alföldet?
+    Answers: [Északi-középhegység, Dunántúli-középhegység, Balaton, Sió]
+    Correct: [Északi-középhegység, Dunántúli-középhegység, Balaton, Sió]
+
+  - Type: word
+    Text: Melyik folyó tagolja kisebb tájakra az Alföld területét a Dunával együtt?
+    Answers: [Tisza]
+    Correct: [Tisza]
+
+  - Type: singlechoice
+    Text: Melyik terület fekszik a Dunától nyugatra az Alföldön?
+    A: Tiszántúl
+    B: Duna–Tisza köze
+    C: Mezőföld
+    D: Nyírség
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik alföldi táj található a Duna és a Tisza között?
+    A: Tiszántúl
+    B: Mezőföld
+    C: Duna–Tisza köze
+    D: Hajdúság
+    Correct: C
+
+  - Type: word
+    Text: Melyik alföldi terület fekszik a Tiszától keletre?
+    Answers: [Tiszántúl]
+    Correct: [Tiszántúl]
+
+  - Type: multiplechoice
+    Text: Mely felszínformáló erők játszották a legfontosabb szerepet az Alföld kialakulásában?
+    Answers: [Víz, Szél, Jég, Vulkanizmus]
+    Correct: [Víz, Szél]
+
+  - Type: singlechoice
+    Text: Mit hoztak magukkal a hegyvidékekről lefutó folyók az Alföldre?
+    A: Jégtakarót
+    B: Hordalékot
+    C: Lávatakarót
+    D: Karsztvizet
+    Correct: B
+
+  - Type: word
+    Text: Milyen talaj az Alföld legértékesebb talaja?
+    Answers: [mezőségi talaj]
+    Correct: [mezőségi talaj]
+
+  - Type: multiplechoice
+    Text: Mely területeket borít vastag lösztakaró?
+    Answers: [Mezőföld, Nagykunság, Hajdúság, Kőrös-Maros köze, Nyírség]
+    Correct: [Mezőföld, Nagykunság, Hajdúság, Kőrös-Maros köze]
+
+  - Type: multiplechoice
+    Text: Hol jellemzőek a homoktalajok?
+    Answers: [Kiskunság, Nyírség, Hajdúság, Mezőföld]
+    Correct: [Kiskunság, Nyírség]
+
+  - Type: singlechoice
+    Text: Milyen éghajlatú az Alföld?
+    A: Hűvös és csapadékos
+    B: Mérsékelt óceáni
+    C: Szárazföldi jellegű
+    D: Hegyvidéki
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik évszak jellemzően forró és aszályos az Alföldön?
+    A: Tél
+    B: Tavasz
+    C: Nyár
+    D: Ősz
+    Correct: C
+
+  - Type: word
+    Text: Melyik folyó gyűjti össze az alföldi folyók vizét?
+    Answers: [Tisza]
+    Correct: [Tisza]
+
+  - Type: singlechoice
+    Text: Melyik mesterséges tavat alakították ki a Tiszán?
+    A: Balaton
+    B: Fertő
+    C: Tisza-tó
+    D: Velencei-tó
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik város az Észak-Alföld központja?
+    A: Szeged
+    B: Kecskemét
+    C: Debrecen
+    D: Győr
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek Szegedhez köthető jellegzetességek?
+    Answers: [Pick szalámi, pirospaprika, Nagytemplom, oktatási központ]
+    Correct: [Pick szalámi, pirospaprika, oktatási központ]
+
+  - Type: singlechoice
+    Text: Melyik város a Kiskunság központja?
+    A: Szeged
+    B: Debrecen
+    C: Kecskemét
+    D: Győr
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik Magyarország második legnagyobb síksága?
+    A: Alföld
+    B: Kisalföld
+    C: Mezőföld
+    D: Hajdúság
+    Correct: B
+
+  - Type: word
+    Text: Melyik UNESCO világörökségi helyszín található a Kisalföldön?
+    Answers: [Pannonhalmi Bencés Főapátság]
+    Correct: [Pannonhalmi Bencés Főapátság]
+
+  - Type: singlechoice
+    Text: Mely folyó választja el az Alföldet a Dunántúltól nyugaton?
+    A: Tisza
+    B: Rába
+    C: Sió
+    D: Dráva
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely nagytáj határolja az Alföldet északról?
+    A: Dunántúli-dombvidék
+    B: Alpokalja
+    C: Északi-középhegység
+    D: Kisalföld
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely tájak tartoznak az Alföld részeihez?
+    Answers: [Mezőföld, Duna–Tisza köze, Tiszántúl, Nyírség, Kisalföld]
+    Correct: [Mezőföld, Duna–Tisza köze, Tiszántúl, Nyírség]
+
+  - Type: singlechoice
+    Text: Milyen felszínformát hoztak létre a folyók hordaléklerakással?
+    A: Homokdűnéket
+    B: Hordalékkúpokat
+    C: Vulkanikus kúpokat
+    D: Karsztfennsíkokat
+    Correct: B
+
+  - Type: word
+    Text: Milyen anyag borította be az Alföldet az áradások során?
+    Answers: [iszap]
+    Correct: [iszap]
+
+  - Type: singlechoice
+    Text: Mi alakította ki a lösztakarókat az Alföldön?
+    A: Jég
+    B: Szél
+    C: Vulkanizmus
+    D: Földrengések
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely területen hullik a legkevesebb csapadék az Alföldön?
+    A: Nyugati peremén
+    B: Középső részén
+    C: Északi részén
+    D: Keleti részén
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely éghajlati jellemzők igazak az Alföldre?
+    Answers: [Meleg nyár, Aszályos időszakok, Szélsőséges tél, Magas csapadék]
+    Correct: [Meleg nyár, Aszályos időszakok, Szélsőséges tél]
+
+  - Type: singlechoice
+    Text: Melyik folyó juttatja a Dráva vizét a Dunába?
+    A: Tisza
+    B: Marcal
+    C: Dráva
+    D: Rába
+    Correct: C
+
+  - Type: word
+    Text: Melyik században kezdődtek az alföldi folyószabályozások?
+    Answers: [19]
+    Correct: [19]
+
+  - Type: singlechoice
+    Text: Mi volt a folyószabályozások fő célja?
+    A: Hajózás fejlesztése
+    B: Árvízvédelem és termőföldek védelme
+    C: Halászat növelése
+    D: Ipartelepítés
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen tó a Tisza-tó?
+    A: Természetes tó
+    B: Vulkanikus tó
+    C: Mesterséges tó
+    D: Karszttó
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely városok tartoznak az Alföld nagyvárosai közé?
+    Answers: [Debrecen, Szeged, Kecskemét, Győr]
+    Correct: [Debrecen, Szeged, Kecskemét]
+
+  - Type: singlechoice
+    Text: Melyik alföldi város híres a Nagytemplomról?
+    A: Szeged
+    B: Debrecen
+    C: Kecskemét
+    D: Békéscsaba
+    Correct: B
+
+  - Type: word
+    Text: Melyik alföldi város híres a pirospaprikáról?
+    Answers: [Szeged]
+    Correct: [Szeged]
+
+  - Type: singlechoice
+    Text: Mely nagytáj éghajlata csapadékosabb az Alföldnél?
+    A: Kisalföld
+    B: Tiszántúl
+    C: Mezőföld
+    D: Kiskunság
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely folyók tartoznak a Kisalföld vízrajzához?
+    Answers: [Duna, Rába, Tisza, Marcal]
+    Correct: [Duna, Rába, Marcal]
+
+  - Type: singlechoice
+    Text: Mely állóvíz található a Kisalföldön?
+    A: Balaton
+    B: Tisza-tó
+    C: Fertő
+    D: Velencei-tó
+    Correct: C
+
+  - Type: word
+    Text: Mely város a Kisalföld gazdasági és kulturális központja?
+    Answers: [Győr]
+    Correct: [Győr]
+
+  - Type: singlechoice
+    Text: Mely UNESCO világörökségi helyszín található Győr közelében?
+    A: Hollókő
+    B: Tokaj-hegyalja
+    C: Pannonhalmi Bencés Főapátság
+    D: Aggteleki-cseppkőbarlang
+    Correct: C
