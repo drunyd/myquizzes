@@ -1,0 +1,221 @@
+Quiz: Vizes oldatok – bepárlás és lepárlás
+Question:
+  - Type: singlechoice
+    Text: Mi a bepárlás célja?
+    A: a párlat kinyerése
+    B: az oldott anyag visszanyerése
+    C: a keverék lehűtése
+    D: a gázok eltávolítása
+    Correct: B
+
+  - Type: singlechoice
+    Text: A bepárlás során mely összetevő párolog el?
+    A: a nem illékony
+    B: a szilárd
+    C: az illékony
+    D: a kristályos
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi marad vissza bepárlás után?
+    A: folyadék
+    B: gáz
+    C: szilárd anyag
+    D: oldat
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miből nyerhetünk ki nagy mennyiségű sót bepárlással?
+    A: esővízből
+    B: folyóvízből
+    C: tengervízből
+    D: desztillált vízből
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan alakultak ki a nagy sóbányák?
+    A: kőzetolvadással
+    B: bepárlással a természetben
+    C: erjedéssel
+    D: lepárlással
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely vízfajta tartalmaz a legtöbb szennyező anyagot?
+    A: esővíz
+    B: desztillált víz
+    C: folyóvíz
+    D: tengervíz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik a természetben előforduló legtisztább víz?
+    A: tengervíz
+    B: folyóvíz
+    C: esővíz
+    D: talajvíz
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mit tartalmazhat az esővíz?
+    Answers: [beoldódó gázok, por, oldott sók, cukor]
+    Correct: [beoldódó gázok, por]
+
+  - Type: singlechoice
+    Text: Mikor alkalmazzuk a lepárlást?
+    A: ha a szilárd anyagra van szükség
+    B: ha a párlatra van szükség
+    C: ha ülepítünk
+    D: ha szitálunk
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a lepárlás másik neve?
+    A: bepárlás
+    B: szűrés
+    C: desztilláció
+    D: kristályosítás
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történik a lepárlás első lépésében?
+    A: lehűtés
+    B: szűrés
+    C: felforralás
+    D: ülepedés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történik a gőzzel lepárlás során?
+    A: megszilárdul
+    B: elpárolog és eltűnik
+    C: elvezetjük és lehűtjük
+    D: kicsapódik szűrőn
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a lepárlás végterméke?
+    A: oldat
+    B: csapvíz
+    C: párlat
+    D: szilárd só
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit nevezünk desztillált víznek?
+    A: csapvizet
+    B: szűrt vizet
+    C: lepárlással előállított vizet
+    D: esővizet
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzik a kémiailag tiszta vizet?
+    Answers: [színtelen, szagtalan, íztelen, vezeti az áramot]
+    Correct: [színtelen, szagtalan, íztelen]
+
+  - Type: singlechoice
+    Text: Mi a víz olvadáspontja?
+    A: 100 °C
+    B: 78 °C
+    C: 0 °C
+    D: 4 °C
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a víz forráspontja?
+    A: 78 °C
+    B: 0 °C
+    C: 4 °C
+    D: 100 °C
+    Correct: D
+
+  - Type: singlechoice
+    Text: Mikor a legnagyobb a víz sűrűsége?
+    A: 0 °C-on
+    B: 100 °C-on
+    C: 4 °C-on
+    D: -10 °C-on
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért nem vezeti az elektromos áramot a desztillált víz?
+    A: mert túl hideg
+    B: mert nincs benne oldott só
+    C: mert gáz van benne
+    D: mert sűrűsége kicsi
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mit old a kémiailag tiszta víz?
+    Answers: [alkohol, ecetsav, cukor, olaj]
+    Correct: [alkohol, ecetsav, cukor]
+
+  - Type: singlechoice
+    Text: Hogyan keletkezik alkohol erjedéskor?
+    A: sók kiválásával
+    B: cukor átalakulásával
+    C: víz párolgásával
+    D: oxigén felvételével
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi a must?
+    A: erjedt bor
+    B: alkohol
+    C: cukros lé
+    D: párlat
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mennyi alkoholt tartalmaz a bor?
+    A: 5 %
+    B: 78 %
+    C: 10 %
+    D: 100 %
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért az alkohol desztillál át először a bor lepárlásakor?
+    A: mert nehezebb
+    B: mert sűrűbb
+    C: mert kisebb a forráspontja
+    D: mert oldhatatlan
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a hűtőcsőből kifolyó folyadék neve?
+    A: oldat
+    B: csapadék
+    C: párlat
+    D: oldószer
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi az alkohol kémiai neve?
+    A: metanol
+    B: etil-alkohol
+    C: propanol
+    D: glicerin
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi az etil-alkohol forráspontja?
+    A: 100 °C
+    B: 0 °C
+    C: 78 °C
+    D: 4 °C
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az etil-alkoholra?
+    Answers: [színtelen, édeskés illatú, vízzel elegyedik, sűrűsége nagyobb a víznél]
+    Correct: [színtelen, édeskés illatú, vízzel elegyedik]
+
+  - Type: singlechoice
+    Text: Mit old az etil-alkohol?
+    A: sókat
+    B: fémeket
+    C: zsírokat és olajokat
+    D: homokot
+    Correct: C

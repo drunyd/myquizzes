@@ -1,0 +1,213 @@
+Quiz: Szilárd keverékek és szétválasztási módszerek
+Question:
+  - Type: singlechoice
+    Text: Mit nevezünk keveréknek?
+    A: egyetlen tiszta anyagot
+    B: több anyag fizikai elegyét
+    C: csak folyadékokat
+    D: csak oldatokat
+    Correct: B
+
+  - Type: singlechoice
+    Text: Miért kell a keverékek összetevőit szétválasztani?
+    A: mert mindig veszélyesek
+    B: mert csak így használhatók fel az összetevők
+    C: mert kémiailag átalakulnak
+    D: mert elbomlanak
+    Correct: B
+
+  - Type: singlechoice
+    Text: A keverékek szétválasztása leggyakrabban milyen módszerrel történik?
+    A: kémiai
+    B: biológiai
+    C: fizikai
+    D: elektromos
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok különbözősége használható ki a szétválasztásnál?
+    Answers: [oldhatóság, sűrűség, mágneses tulajdonság, szín]
+    Correct: [oldhatóság, sűrűség, mágneses tulajdonság]
+
+  - Type: singlechoice
+    Text: Mely anyag oldódik jól vízben?
+    A: kén
+    B: homok
+    C: konyhasó
+    D: vas
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik állítás igaz a konyhasóra?
+    A: benzinben oldódik
+    B: vízben nem oldódik
+    C: vízben jól oldódik
+    D: mágnes vonzza
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely anyag nem oldódik sem vízben, sem benzinben?
+    A: kén
+    B: konyhasó
+    C: szilícium-dioxid
+    D: cukor
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a sóder apró szemcséjű változata?
+    A: kavics
+    B: homok
+    C: kő
+    D: por
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely anyag mágneses tulajdonságú?
+    A: kén
+    B: konyhasó
+    C: vas
+    D: homok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik anyagot vonzza a mágnes?
+    A: kén
+    B: vas
+    C: só
+    D: homok
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik anyag sárga színű és alacsony olvadáspontú?
+    A: vas
+    B: konyhasó
+    C: kén
+    D: homok
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik anyag oldódik benzinben?
+    A: konyhasó
+    B: homok
+    C: kén
+    D: vas
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit jelent a kioldás?
+    A: az egyik komponens mágneses elválasztását
+    B: az egyik komponens feloldását a másik mellett
+    C: az anyag elolvasztását
+    D: a keverék elégetését
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely lépések szükségesek a só és homok szétválasztásához?
+    Answers: [oldás vízben, szűrés, párologtatás, mágnesezés]
+    Correct: [oldás vízben, szűrés, párologtatás]
+
+  - Type: singlechoice
+    Text: Melyik módszer alapja az eltérő mágneses tulajdonság?
+    A: ülepítés
+    B: szitálás
+    C: kioldás
+    D: mágneses elválasztás
+    Correct: D
+
+  - Type: singlechoice
+    Text: Melyik módszer alapja az eltérő sűrűség?
+    A: kioldás
+    B: ülepítés
+    C: szitálás
+    D: mágnesezés
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi történik ülepítés során?
+    A: az oldódó anyag eltűnik
+    B: a könnyebb anyag lesüllyed
+    C: a nagyobb sűrűségű anyag leülepszik
+    D: az anyag elpárolog
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely keverék választható szét ülepítéssel?
+    A: só és vas
+    B: homok és kén
+    C: só és cukor
+    D: vas és kén
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit használunk a vaspor és konyhasó elválasztására?
+    A: szűrőpapírt
+    B: mágnest
+    C: vizet
+    D: szitát
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mire használható a szitálás?
+    A: eltérő oldhatóság kihasználására
+    B: eltérő sűrűség kihasználására
+    C: eltérő szemcseméret szétválasztására
+    D: mágneses elválasztásra
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely keverék szétválasztására alkalmas a szitálás?
+    A: só és víz
+    B: vas és homok
+    C: sóder
+    D: kén és víz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Miért ülepszik le az arany a homok között?
+    A: mert könnyebb
+    B: mert oldódik
+    C: mert sűrűsége nagyobb
+    D: mert mágneses
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely módszert alkalmazzák vasérc bányászatnál?
+    A: szitálás
+    B: párologtatás
+    C: mágnesezés
+    D: ülepítés
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi az illóolajok kinyerésének alapja?
+    A: mágnesesség
+    B: eltérő sűrűség
+    C: eltérő oldhatóság
+    D: eltérő szemcseméret
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely szétválasztási módszerek fizikai módszerek?
+    Answers: [szitálás, ülepítés, kioldás, égetés]
+    Correct: [szitálás, ülepítés, kioldás]
+
+  - Type: singlechoice
+    Text: Mi marad vissza a szűrőpapíron szűréskor?
+    A: az oldat
+    B: az oldószer
+    C: a nem oldódó szilárd anyag
+    D: a gáz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely tulajdonság nem alkalmas szétválasztási alapnak?
+    A: oldhatóság
+    B: sűrűség
+    C: mágnesesség
+    D: íz
+    Correct: D
+
+  - Type: word
+    Text: Mi a szilárd keverékek szétválasztásának leggyakoribb típusa?
+    Answers: [fizikai]
+    Correct: [fizikai]

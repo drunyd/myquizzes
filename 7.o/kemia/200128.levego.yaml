@@ -1,0 +1,224 @@
+Quiz: A levegő – gázkeverékek
+Question:
+  - Type: singlechoice
+    Text: Mi a levegő halmazállapota?
+    A: szilárd
+    B: folyadék
+    C: gáz
+    D: plazma
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a levegő anyagi minősége?
+    A: tiszta anyag
+    B: oldat
+    C: gázkeverék
+    D: vegyület
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzik a levegőt?
+    Answers: [színtelen, szagtalan, mérgező, gázkeverék]
+    Correct: [színtelen, szagtalan, gázkeverék]
+
+  - Type: singlechoice
+    Text: A száraz levegő legnagyobb arányú összetevője:
+    A: oxigén
+    B: szén-dioxid
+    C: nitrogén
+    D: nemesgáz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hány százalék a nitrogén aránya a száraz levegőben?
+    A: 21 %
+    B: 78 %
+    C: 0,04 %
+    D: 50 %
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hány százalék az oxigén aránya a száraz levegőben?
+    A: 78 %
+    B: 1 %
+    C: 21 %
+    D: 0,04 %
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mennyi a szén-dioxid aránya a levegőben?
+    A: 1 %
+    B: 5 %
+    C: 0,04 %
+    D: 21 %
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi adja a levegő páratartalmát?
+    A: oxigén
+    B: nitrogén
+    C: vízgőz
+    D: szén-dioxid
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen a cseppfolyós levegő?
+    A: szilárd
+    B: színes
+    C: folyadék
+    D: gáz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan nyerjük ki a levegő összetevőit?
+    A: szűréssel
+    B: bepárlással
+    C: lepárlással
+    D: mágnessel
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen hőmérsékleten kezd forrni a cseppfolyós levegő?
+    A: 0 °C
+    B: -78 °C
+    C: -196 °C
+    D: 100 °C
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely gáz távozik először a cseppfolyós levegőből?
+    A: oxigén
+    B: szén-dioxid
+    C: nitrogén
+    D: nemesgáz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely gázban dúsul a visszamaradó folyadék?
+    A: nitrogén
+    B: oxigén
+    C: szén-dioxid
+    D: metán
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen nyomáson tárolják a folyékony oxigént?
+    A: normál légnyomáson
+    B: 10 MPa-on
+    C: 200 MPa-on
+    D: vákuumban
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely gáz alkotja a levegő legnagyobb hányadát?
+    A: oxigén
+    B: szén-dioxid
+    C: nitrogén
+    D: metán
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a nitrogénre?
+    Answers: [színtelen, szagtalan, vízben jól oldódik, stabil molekula]
+    Correct: [színtelen, szagtalan, stabil molekula]
+
+  - Type: singlechoice
+    Text: Miért nem vesz részt a nitrogén az égési folyamatokban?
+    A: mert mérgező
+    B: mert instabil
+    C: mert stabil a molekulája
+    D: mert folyékony
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen célra használják a nitrogént?
+    A: égéshez
+    B: tartósításra
+    C: légzésre
+    D: robbantásra
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely gáz az élőlények számára a legfontosabb?
+    A: nitrogén
+    B: szén-dioxid
+    C: oxigén
+    D: nemesgáz
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi az oxigén vegyjele?
+    A: O
+    B: O2
+    C: CO2
+    D: N2
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely folyamatokhoz szükséges az oxigén?
+    Answers: [égés, légzés, fotoszintézis, erjedés]
+    Correct: [égés, légzés]
+
+  - Type: singlechoice
+    Text: Hogyan keletkezik oxigén a természetben?
+    A: égéssel
+    B: erjedéssel
+    C: fotoszintézissel
+    D: lepárlással
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mely élőlények termelnek oxigént?
+    A: állatok
+    B: algák és növények
+    C: gombák
+    D: baktériumok
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely gázok alkotják kis mennyiségben a levegőt?
+    A: szénhidrogének
+    B: nemesgázok
+    C: savak
+    D: fémgőzök
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemző a nemesgázokra?
+    A: reakcióképesek
+    B: mérgezők
+    C: stabil atomok
+    D: színesek
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a szén-dioxid vegyjele?
+    A: CO
+    B: C
+    C: CO2
+    D: O2
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hogyan viselkedik a szén-dioxid a levegőben?
+    A: felfelé száll
+    B: alulról tölti ki a teret
+    C: eltűnik
+    D: robban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit okoz a magas szén-dioxid-tartalom?
+    A: oxigéndús levegőt
+    B: égést
+    C: álmosságot, fulladást
+    D: fotoszintézist
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi a földgáz legfőbb összetevője?
+    A: etán
+    B: propán
+    C: metán
+    D: bután
+    Correct: C
