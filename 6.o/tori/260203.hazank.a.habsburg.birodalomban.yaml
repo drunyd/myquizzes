@@ -1,0 +1,148 @@
+Quiz: Hazánk a Habsburg Birodalomban
+Question:
+  - Type: singlechoice
+    Text: Melyik uralkodó uralkodott 1711 és 1740 között?
+    A: Mária Terézia
+    B: II. József
+    C: III. Károly
+    D: I. Lipót
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol működött a Magyar Kancellária III. Károly idején?
+    A: Pozsonyban
+    B: Budán
+    C: Bécsben
+    D: Pesten
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hol működött a Helytartótanács?
+    A: Bécsben
+    B: Budán
+    C: Pozsonyban
+    D: Nagyszombatban
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mit szavaztak meg a rendek a pozsonyi országgyűlésen?
+    Answers: [adó, újonclétszám, iparfejlesztés, robot eltörlése]
+    Correct: [adó, újonclétszám]
+
+  - Type: singlechoice
+    Text: Mit fogadott el a Pragmatica Sanctio?
+    A: a férfiági örökösödést
+    B: a nőági örökösödést
+    C: a jobbágyfelszabadítást
+    D: az alkotmányosságot
+    Correct: B
+
+  - Type: singlechoice
+    Text: Ki uralkodott 1740 és 1780 között?
+    A: III. Károly
+    B: II. József
+    C: Mária Terézia
+    D: I. Ferenc
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mária Terézia milyen uralkodó volt?
+    A: abszolút monarcha, de nem felvilágosult
+    B: felvilágosult, de abszolutista
+    C: alkotmányos király
+    D: köztársasági vezető
+    Correct: B
+
+  - Type: word
+    Text: Mely híres mondattal támogatták a magyar nemesek Mária Teréziát?
+    Answers: ["életünket és vérünket"]
+    Correct: ["életünket és vérünket"]
+
+  - Type: singlechoice
+    Text: Hogyan kormányzott Mária Terézia?
+    A: országgyűléssel együtt
+    B: népszavazással
+    C: rendeleti úton
+    D: tanácsköztársasággal
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mikor adták ki a kettős vámrendeletet?
+    A: 1740
+    B: 1754
+    C: 1767
+    D: 1777
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mit jelentett a kettős vámrendelet?
+    Answers: [alacsony belső vám, magas külső vám, ipar fellendülése, nyersanyagszállító szerep]
+    Correct: [alacsony belső vám, magas külső vám, nyersanyagszállító szerep]
+
+  - Type: singlechoice
+    Text: Mikor adták ki az Úrbéri rendeletet?
+    A: 1754
+
+    B: 1740
+    C: 1767
+    D: 1780
+
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mit szabályozott az Úrbéri rendelet?
+    Answers: [jobbágyok kötelezettségei, robot mértéke, nemesi adózás, katonai szolgálat]
+    Correct: [jobbágyok kötelezettségei, robot mértéke]
+
+  - Type: singlechoice
+    Text: Hány nap gyalog robotot kellett teljesíteni évente?
+    A: 52 nap
+    B: 104 nap
+    C: 365 nap
+    D: 30 nap
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hány nap igás robotot kellett teljesíteni évente?
+    A: 104 nap
+    B: 60 nap
+    C: 52 nap
+    D: 30 nap
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit írt elő az egészségügyi rendelet?
+    A: minden faluban iskola
+    B: városonként egy orvos
+    C: ingyenes gyógyszerek
+    D: kötelező oltás
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi volt a Ratio Educationis?
+    A: adórendelet
+    B: katonai reform
+    C: oktatási rendelet
+    D: vámrendelet
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen kor között tette kötelezővé a Ratio Educationis az iskolát?
+    A: 3-6 év
+    B: 6-12 év
+    C: 12-18 év
+    D: 14-20 év
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely reformok köthetők Mária Teréziához?
+    Answers: [kettős vámrendelet, Úrbéri rendelet, Pragmatica Sanctio, Ratio Educationis]
+    Correct: [kettős vámrendelet, Úrbéri rendelet, Ratio Educationis]
+
+  - Type: singlechoice
+    Text: Melyik városban tartották a rendi országgyűlést ebben az időszakban?
+    A: Buda
+    B: Pest
+    C: Pozsony
+    D: Debrecen
+    Correct: C

@@ -1,0 +1,156 @@
+Quiz: II. József uralkodása (1780-1790)
+Question:
+
+  - Type: singlechoice
+    Text: Mely években uralkodott II. József?
+    A: 1740-1780
+    B: 1780-1790
+    C: 1790-1800
+    D: 1767-1780
+    Correct: B
+
+  - Type: singlechoice
+
+    Text: Milyen uralkodó volt II. József?
+    A: alkotmányos király
+    B: felvilágosult, abszolutista
+    C: rendi király
+    D: köztársasági vezető
+
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan kormányzott II. József?
+    A: országgyűléssel együtt
+    B: népszavazással
+
+    C: rendeleti úton
+    D: nem kormányzott
+    Correct: C
+
+  - Type: word
+    Text: Mi volt II. József gúnyneve?
+    Answers: ["Kalapos király"]
+    Correct: ["Kalapos király"]
+
+
+  - Type: singlechoice
+    Text: Mit biztosított a Türelmi rendelet?
+    A: kötelező katonai szolgálatot
+    B: szabad vallásgyakorlatot
+    C: adómentességet
+    D: jobbágyfelszabadítást
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mit tartalmazott a Türelmi rendelet?
+    Answers: [szabad vallásgyakorlat, vallási egyenlőség, nemesi adómentesség, robot eltörlése]
+    Correct: [szabad vallásgyakorlat, vallási egyenlőség]
+
+  - Type: singlechoice
+    Text: Mit biztosított a Jobbágyrendelet?
+    A: földosztást
+    B: örökös jobbágyságot
+    C: szabad költözködést
+    D: robot növelését
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Milyen jogokat kaptak a jobbágyok a Jobbágyrendelet szerint?
+    Answers: [szabad tanulás, szakmaválasztás, szabad költözködés, adómentesség]
+    Correct: [szabad tanulás, szakmaválasztás, szabad költözködés]
+
+  - Type: singlechoice
+    Text: Milyen tervet készített II. József a nemességgel kapcsolatban?
+    A: nemesi kiváltságok bővítése
+    B: nemesi adóztatás
+    C: nemesi rang eltörlése
+    D: örökös főrendiház
+    Correct: B
+
+
+  - Type: singlechoice
+    Text: Mi volt a nemesi adóztatás alapja?
+    A: népszámlálás
+    B: földösszeírás
+    C: vallási adatgyűjtés
+    D: katonai összeírás
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely rendelet váltott ki nagy ellenállást a nyelv miatt?
+    A: Türelmi rendelet
+    B: Jobbágyrendelet
+    C: Német nyelvrendelet
+    D: Úrbéri rendelet
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mit írt elő a Német nyelvrendelet?
+    A: magyar nyelv kötelező használatát
+    B: latin nyelv használatát
+    C: német nyelv használatát
+    D: többnyelvűséget
+    Correct: C
+
+  - Type: singlechoice
+    Text: Hány kerületre osztotta az országot II. József?
+    A: 5
+    B: 8
+    C: 10
+    D: 12
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi váltotta fel a megyéket?
+    A: járások
+    B: 10 kerület
+    C: tartományok
+    D: grófságok
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen hivatalnokokat alkalmazott II. József?
+    A: nemesi származásúakat
+    B: külföldieket
+    C: profi hivatalnokokat
+    D: egyházi személyeket
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mi történt II. József halálakor?
+    A: minden rendelete érvényben maradt
+    B: semmit nem vont vissza
+    C: nevezetes tollvonással visszavonta rendeleteit
+    D: új rendeleteket adott ki
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely rendeletek maradtak érvényben II. József halála után?
+    Answers: [Türelmi rendelet, Jobbágyrendelet, Német nyelvrendelet, Kerületi reform]
+    Correct: [Türelmi rendelet, Jobbágyrendelet]
+
+  - Type: singlechoice
+    Text: Miért nevezték II. Józsefet "Kalapos királynak"?
+    A: mert nem koronáztatta meg magát magyar királlyá
+    B: mert kalapokat gyártott
+    C: mert a hadseregben szolgált
+    D: mert új divatot vezetett be
+    Correct: A
+
+  - Type: singlechoice
+
+    Text: Mely társadalmi réteg jogait bővítette leginkább II. József?
+    A: nemesség
+    B: jobbágyság
+    C: főpapok
+    D: polgárság
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi jellemezte II. József uralkodását?
+    A: rendi országgyűlésre támaszkodott
+    B: rendeleti kormányzás és reformok
+    C: teljes passzivitás
+    D: köztársasági rendszer
+    Correct: B
