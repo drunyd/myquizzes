@@ -1,0 +1,353 @@
+Quiz: Kőkemény anyagok, régi segítőink a fémek
+Question:
+  - Type: singlechoice
+    Text: Mi jellemzi az atomrácsos kristályokat?
+    A: erős kovalens kötés
+    B: ionkötés
+    C: fémes kötés
+    D: hidrogénkötés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen kötéssel kapcsolódnak össze az atomok az atomrácsban?
+    A: kovalens kötéssel
+    B: ionkötéssel
+    C: fémes kötéssel
+    D: másodrendű kötéssel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Az atomrácsos kristályokban hány atom kapcsolódik össze?
+    A: megszámlálhatatlanul sok
+    B: pontosan kettő
+    C: néhány tucat
+    D: pontosan négy
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a gyémánt kémiai jele?
+    A: C
+    B: G
+    C: Gy
+    D: D
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tiszta gyémánt?
+    A: színtelen, átlátszó
+    B: sárga
+    C: kék
+    D: fekete
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a gyémánt olvadáspontja?
+    A: 3500 °C
+    B: 1710 °C
+    C: 801 °C
+    D: 3727 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti-e a gyémánt az elektromos áramot?
+    A: nem, szigetelő
+    B: igen
+    C: részben
+    D: csak magas hőmérsékleten
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a legkeményebb ásvány a természetben?
+    A: gyémánt
+    B: kvarc
+    C: grafit
+    D: korund
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel csiszolják a gyémántot?
+    A: gyémántporral
+    B: homokkal
+    C: acéllal
+    D: üveggel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire használják a gyémántot?
+    A: ékszer, üvegvágó, fúrófej
+    B: elektród, ceruza
+    C: építőipar
+    D: gyógyszeripar
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a gyémánt kristályszerkezete?
+    A: tetraéderes
+    B: réteges
+    C: köbös
+    D: szálas
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol találták a Cullinan gyémántot?
+    A: Dél-Afrikában
+    B: Indiában
+    C: Brazíliában
+    D: Oroszországban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik anyag keményebb a gyémántnál?
+    A: wurtzit-bórnitrid
+    B: grafit
+    C: kvarc
+    D: acél
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kvarc kémiai képlete?
+    A: SiO2
+    B: SiC
+    C: CO2
+    D: CaCO3
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen atomok építik fel a kvarcot?
+    A: szilícium és oxigén
+    B: szén és oxigén
+    C: kalcium és oxigén
+    D: szilícium és szén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen arányban tartalmaz a kvarc szilíciumot és oxigént?
+    A: 1:2
+    B: 1:1
+    C: 2:1
+    D: 1:3
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a kvarc olvadáspontja?
+    A: 1710 °C
+    B: 3500 °C
+    C: 3727 °C
+    D: 801 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti-e a kvarc az elektromos áramot?
+    A: nem
+    B: igen
+    C: részben
+    D: csak magas hőmérsékleten
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kvarc tiszta formájának a neve?
+    A: hegyikristály
+    B: ametiszt
+    C: rózsakvarc
+    D: homok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a kvarc szennyezett formája?
+    A: ametiszt
+    B: hegyikristály
+    C: tiszta kvarc
+    D: gyémánt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen atomokból épül fel a grafit?
+    A: szénatomokból
+    B: szilíciumatomokból
+    C: oxigénatomokból
+    D: vasatomokból
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a grafit és a gyémánt közötti kapcsolat?
+    A: a szén eltérő kristályszerkezetű módosulatai
+    B: két különböző elem
+    C: ugyanaz az anyag
+    D: szénvegyületek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a grafit kristályrácsa?
+    A: réteges szerkezetű
+    B: tetraéderes
+    C: köbös
+    D: szálas
+    Correct: A
+
+  - Type: singlechoice
+    Text: Egy szénatom hány másik szénatomhoz kapcsolódik a grafitban?
+    A: 3
+    B: 4
+    C: 2
+    D: 1
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a grafit olvadáspontja?
+    A: 3727 °C
+    B: 3500 °C
+    C: 1710 °C
+    D: 801 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a grafit?
+    A: sötétszürke
+    B: fekete
+    C: fehér
+    D: színtelen
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti-e a grafit az elektromos áramot?
+    A: igen
+    B: nem
+    C: részben
+    D: csak nyomás alatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire használják a grafitot?
+    A: elektród, ceruza
+    B: ékszer
+    C: üvegvágó
+    D: fúrófej
+    Correct: A
+
+  - Type: singlechoice
+    Text: Az elemek hány százaléka fém?
+    A: több mint 75%
+    B: kevesebb mint 25%
+    C: pontosan 50%
+    D: körülbelül 33%
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színűek általában a fémek?
+    A: szürke
+    B: fehér
+    C: fekete
+    D: arany
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan vezetik a fémek a hőt?
+    A: jól
+    B: rosszul
+    C: egyáltalán nem
+    D: csak egyes fémek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű az arany?
+    A: sárga
+    B: vörös
+    C: szürke
+    D: kék
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a réz?
+    A: vörös
+    B: sárga
+    C: szürke
+    D: fehér
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen halmazállapotú a higany szobahőmérsékleten?
+    A: folyékony
+    B: szilárd
+    C: gáz
+    D: plazma
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely anyagok rendelkeznek atomrácsos szerkezettel?
+    Answers: [gyémánt, kvarc, grafit, konyhasó]
+    Correct: [gyémánt, kvarc, grafit]
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzőek a gyémántra?
+    Answers: [kemény, színtelen, elektromosan vezető, magas olvadáspontú]
+    Correct: [kemény, színtelen, magas olvadáspontú]
+
+  - Type: multiplechoice
+    Text: Melyek a kvarc szennyezett formái?
+    Answers: [ametiszt, rózsakvarc, homok, hegyikristály]
+    Correct: [ametiszt, rózsakvarc, homok]
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzőek a grafitra?
+    Answers: [sötétszürke, puha, elektromos vezető, színtelen]
+    Correct: [sötétszürke, puha, elektromos vezető]
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzőek általában a fémekre?
+    Answers: [szürke szín, csillogó felület, jó hővezető, rossz elektromos vezető]
+    Correct: [szürke szín, csillogó felület, jó hővezető]
+
+  - Type: multiplechoice
+    Text: Mely fémek kivételek az általános szürke szín alól?
+    Answers: [arany, réz, higany, vas]
+    Correct: [arany, réz, higany]
+
+  - Type: multiplechoice
+    Text: Mire használják a gyémántot?
+    Answers: [ékszer, üvegvágó, fúrófej, ceruza]
+    Correct: [ékszer, üvegvágó, fúrófej]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a fémes kötésre?
+    Answers: [elsőrendű kémiai kötés, energiaigényes felbontani, gyenge kötés, szabadon mozgó elektronfelhő]
+    Correct: [elsőrendű kémiai kötés, energiaigényes felbontani, szabadon mozgó elektronfelhő]
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzőek a könnyűfémekre?
+    Answers: [kisebb sűrűség mint 5 g/cm3, alacsony olvadáspont, jó megmunkálhatóság, mágneses]
+    Correct: [kisebb sűrűség mint 5 g/cm3, alacsony olvadáspont, jó megmunkálhatóság]
+
+  - Type: multiplechoice
+    Text: Mire használják fel a fémeket?
+    Answers: [ötvözetek készítése, elektromos vezeték, építőipar, gyógyszeripar]
+    Correct: [ötvözetek készítése, elektromos vezeték, építőipar]
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok közösek a grafitban és a gyémántban?
+    Answers: [szénatomokból épül fel, magas olvadáspont, oldhatatlan, elektromos vezető]
+    Correct: [szénatomokból épül fel, magas olvadáspont, oldhatatlan]
+
+  - Type: word
+    Text: Mi a gyémánt kémiai jele?
+    Answers: [C]
+    Correct: [C]
+
+  - Type: word
+    Text: Mi a kvarc kémiai képlete?
+    Answers: [SiO2]
+    Correct: [SiO2]
+
+  - Type: word
+    Text: Melyik évben találták a Cullinan gyémántot?
+    Answers: [1905]
+    Correct: [1905]
+
+  - Type: word
+    Text: Hány karátos volt a Cullinan gyémánt?
+    Answers: [3106]
+    Correct: [3106]
+
+  - Type: word
+    Text: Mennyi 1 karát grammban?
+    Answers: [0,2]
+    Correct: [0,2]

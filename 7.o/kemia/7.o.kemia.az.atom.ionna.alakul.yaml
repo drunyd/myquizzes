@@ -1,0 +1,353 @@
+Quiz: Az atom ionná alakul, ionképződés
+Question:
+  - Type: singlechoice
+    Text: Mi a reakció terméke a nátrium és klór reakciójában?
+    A: NaCl
+    B: NaOH
+    C: Na
+    D: Cl2
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen jelenség kíséri a nátrium és klór reakcióját?
+    A: fényjelenség és hőfelszabadulás
+    B: robbanás
+    C: színváltozás
+    D: hanghatás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány elektront ad le a nátrium atom az ionképződés során?
+    A: 1
+    B: 2
+    C: 3
+    D: 0
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány elektront vesz fel a klór atom az ionképződés során?
+    A: 1
+    B: 2
+    C: 3
+    D: 0
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi lesz a nátrium atomból elektronleadás után?
+    A: Na+
+    B: Na-
+    C: Na2+
+    D: Cl-
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi lesz a klór atomból elektronfelvétel után?
+    A: Cl-
+    B: Cl+
+    C: Cl2-
+    D: Na+
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a pozitív töltésű ionokat?
+    A: kationok
+    B: anionok
+    C: protonok
+    D: neutronok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a negatív töltésű ionokat?
+    A: anionok
+    B: kationok
+    C: protonok
+    D: elektronok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen töltésű a nátriumion?
+    A: 1+
+    B: 1-
+    C: 2+
+    D: 2-
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen töltésű a kloridion?
+    A: 1-
+    B: 1+
+    C: 2-
+    D: 2+
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen töltésű a magnéziumion?
+    A: 2+
+    B: 1+
+    C: 2-
+    D: 3+
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen töltésű az oxidion?
+    A: 2-
+    B: 2+
+    C: 1-
+    D: 3-
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi keletkezik a magnézium égésekor?
+    A: magnézium-oxid
+    B: magnézium-klorid
+    C: magnézium-dioxid
+    D: dimagnézium-oxid
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány elektront ad le a magnézium atom?
+    A: 2
+    B: 1
+    C: 3
+    D: 4
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány elektront vesz fel az oxigén atom?
+    A: 2
+    B: 1
+    C: 3
+    D: 4
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen ionokat képeznek az alkálifémek?
+    A: egyszeres pozitív töltésű
+    B: kétszeres pozitív töltésű
+    C: háromszoros pozitív töltésű
+    D: egyszeres negatív töltésű
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen ionokat képeznek az alkáliföldfémek?
+    A: kétszeres pozitív töltésű
+    B: egyszeres pozitív töltésű
+    C: háromszoros pozitív töltésű
+    D: kétszeres negatív töltésű
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen ionokat képeznek a halogének?
+    A: egyszeres negatív töltésű
+    B: egyszeres pozitív töltésű
+    C: kétszeres negatív töltésű
+    D: kétszeres pozitív töltésű
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen ionokat képez az oxigéncsoport elemei?
+    A: kétszeres negatív töltésű
+    B: kétszeres pozitív töltésű
+    C: egyszeres negatív töltésű
+    D: háromszoros pozitív töltésű
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az ionkötés?
+    A: ellentétes töltésű ionok közötti vonzás
+    B: azonos töltésű ionok közötti taszítás
+    C: fémes kötés
+    D: kovalens kötés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan képezzük a kationok nevét?
+    A: az atom neve + ion
+    B: az atom neve + id
+    C: az atom neve + át
+    D: az atom neve + it
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan képezzük az anionok nevét?
+    A: az atom neve + id
+    B: az atom neve + ion
+    C: az atom neve + át
+    D: az atom neve + it
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a nátrium-klorid olvadáspontja?
+    A: 801 °C
+    B: 3500 °C
+    C: 1710 °C
+    D: 100 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti-e a szilárd nátrium-klorid az elektromos áramot?
+    A: nem, szigetelő
+    B: igen
+    C: részben
+    D: csak magas hőmérsékleten
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti-e a nátrium-klorid olvadéka az elektromos áramot?
+    A: igen
+    B: nem
+    C: részben
+    D: csak nyomás alatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire használják a nátrium-kloridot?
+    A: ételízesítő, tartósítószer
+    B: építőipar
+    C: üzemanyag
+    D: gyógyszer
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kalcium-karbonát kémiai képlete?
+    A: CaCO3
+    B: CaO
+    C: CaOH
+    D: CaCl2
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a kalcium-karbonát oldhatósága?
+    A: vízben nem oldódó
+    B: jól oldódó
+    C: kevéssé oldódó
+    D: forró vízben oldódó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a rézgálic kémiai neve?
+    A: réz-szulfát
+    B: réz-oxid
+    C: réz-klorid
+    D: réz-nitrát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a réz-szulfát?
+    A: kék
+    B: zöld
+    C: piros
+    D: fehér
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nevezünk kristályvíznek?
+    A: a kristályrácsba beépülő víz
+    B: a kristály felületén lévő víz
+    C: olvadt víz
+    D: vízgőz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a kristályvíz hevítésekor?
+    A: eltávozik, a vegyület kifehéredik
+    B: megfagy
+    C: felforr
+    D: színt vált
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az ammóniumion képlete?
+    A: NH4+
+    B: NH3+
+    C: NO3-
+    D: NH2-
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a szulfátion képlete?
+    A: SO42-
+    B: SO32-
+    C: S2-
+    D: SO42+
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzőek a nátrium-kloridra?
+    Answers: [fehér, szagtalan, szilárd, folyékony]
+    Correct: [fehér, szagtalan, szilárd]
+
+  - Type: multiplechoice
+    Text: Melyek az ionvegyületek általános jellemzői?
+    Answers: [színtelen vagy fehér, szilárd halmazállapot, jó elektromos vezető, változó oldhatóság]
+    Correct: [színtelen vagy fehér, szilárd halmazállapot, változó oldhatóság]
+
+  - Type: multiplechoice
+    Text: Melyek az összetett ionok?
+    Answers: [NH4+, CO32-, SO42-, Cl-]
+    Correct: [NH4+, CO32-, SO42-]
+
+  - Type: multiplechoice
+    Text: Melyek anionok?
+    Answers: [kloridion, oxidion, nátriumion, magnéziumion]
+    Correct: [kloridion, oxidion]
+
+  - Type: multiplechoice
+    Text: Melyek kationok?
+    Answers: [nátriumion, magnéziumion, kloridion, oxidion]
+    Correct: [nátriumion, magnéziumion]
+
+  - Type: multiplechoice
+    Text: Mely elemcsoportok atomjai képeznek ionokat?
+    Answers: [alkálifémek, halogének, IV. főcsoport, alkáliföldfémek]
+    Correct: [alkálifémek, halogének, alkáliföldfémek]
+
+  - Type: multiplechoice
+    Text: Mely főcsoportok elemei nem képeznek ionokat?
+    Answers: [IV. főcsoport (C, Si), V. főcsoport nemfémes elemei, alkálifémek, halogének]
+    Correct: [IV. főcsoport (C, Si), V. főcsoport nemfémes elemei]
+
+  - Type: multiplechoice
+    Text: Milyen formában fordul elő a kalcium-karbonát a természetben?
+    Answers: [mészkő, cseppkő, élőlények vázanyaga, konyhasó]
+    Correct: [mészkő, cseppkő, élőlények vázanyaga]
+
+  - Type: multiplechoice
+    Text: Mire használják fel a nátrium-kloridot?
+    Answers: [ételízesítő, tartósítószer, ipari alapanyag, tüzelőanyag]
+    Correct: [ételízesítő, tartósítószer, ipari alapanyag]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a réz-szulfátra?
+    Answers: [kék színű, vízben oldódik, gombaölő szer, szagtalan]
+    Correct: [kék színű, vízben oldódik, gombaölő szer]
+
+  - Type: multiplechoice
+    Text: Mely anyagok rendelkeznek ionrácsos szerkezettel?
+    Answers: [NaCl, CaCO3, gyémánt, kvarc]
+    Correct: [NaCl, CaCO3]
+
+  - Type: word
+    Text: Mi a nátriumion jele?
+    Answers: [Na+]
+    Correct: [Na+]
+
+  - Type: word
+    Text: Mi a kloridion jele?
+    Answers: [Cl-]
+    Correct: [Cl-]
+
+  - Type: word
+    Text: Mi a magnéziumion jele?
+    Answers: [Mg2+]
+    Correct: [Mg2+]
+
+  - Type: word
+    Text: Mi az oxidion jele?
+    Answers: [O2-]
+    Correct: [O2-]
+
+  - Type: word
+    Text: Mi a kalcium-karbonát képlete?
+    Answers: [CaCO3]
+    Correct: [CaCO3]
