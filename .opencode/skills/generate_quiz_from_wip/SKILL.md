@@ -87,13 +87,34 @@ For `word` questions with numeric answers or multiple acceptable forms, provide 
     Correct: [1200]
 ```
 
+### Question Type: `ordering`
+Put items in the correct order (e.g., chronological, sequential, size):
+```yaml
+  - Type: ordering
+    Text: Rendezd sorrendbe a következő eseményeket időrendi sorrendben
+    Items:
+      - Első világháború kezdete
+      - Második világháború kezdete
+      - Római Birodalom bukása
+      - Honfoglalás
+    Correct:
+      - Római Birodalom bukása
+      - Honfoglalás
+      - Első világháború kezdete
+      - Második világháború kezdete
+```
+- `Items` lists the items in shuffled (display) order.
+- `Correct` lists them in the proper order.
+- Use only when the source material naturally supports ordering (timelines, sequences, processes, size comparisons, etc.).
+
 ## Question Distribution (per 50 questions)
 
 | Type | Count | Notes |
 |------|-------|-------|
-| `singlechoice` | ~30-35 | Most common — straightforward factual questions |
+| `singlechoice` | ~25-30 | Most common — straightforward factual questions |
 | `multiplechoice` | ~10-15 | Lists with multiple correct options |
 | `word` | ~5-10 | Specific facts: years, names, numbers, formulas |
+| `ordering` | ~5-8 | Timelines, sequences, processes — only if material supports it |
 
 ## Rules
 
