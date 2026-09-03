@@ -89,7 +89,7 @@ Question:
 
   - Type: multiplechoice
     Text: Melyek voltak az osztrákok gazdasági okai a kiegyezéshez?
-    Answers: [nem kereskedtek, pénzügyi válság]
+    Answers: [nem kereskedtek, pénzügyi válság, adóemelés szükségessége, túl magas bérköltségek]
     Correct: [nem kereskedtek, pénzügyi válság]
 
   - Type: multiplechoice
