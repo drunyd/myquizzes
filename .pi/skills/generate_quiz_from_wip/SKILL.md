@@ -7,7 +7,7 @@ compatibility: |
   Project: myquizzes
 
 description: |
-  Processes PDF files in the wip/ folder, reads their content, and generates
+  Processes PDF or text files in the wip/ folder, reads their content, and generates
   50-question YAML quiz files in the appropriate 6.o/<subject>/ or 7.o/<subject>/
   folder. Supports singlechoice, multichoice, word, and ordering question types.
   All questions are in Hungarian. Multiple wip/ files produce multiple YAML files.
@@ -21,12 +21,13 @@ metadata:
 
 # Generate Quiz from Wip
 
-Converts raw PDF study materials in `wip/` into structured YAML quiz files.
+Converts raw PDF or text study materials in `wip/` into structured YAML quiz files.
 
 ## Overview
 
-This skill processes PDF files in the project's `wip/` directory and generates
+This skill processes PDF or text files in the project's `wip/` directory and generates
 50-question YAML quiz files organized by grade (6.o or 7.o) and subject.
+
 
 ## Setup
 
@@ -51,10 +52,11 @@ python3 --version
 ```
 
 The skill will:
-1. Scan the `wip/` directory for PDF files
-2. Extract text from each PDF
-3. Generate 50 questions per PDF
+1. Scan the `wip/` directory for PDF or text files
+2. Extract and read content from each file
+3. Generate 50 questions based on the content
 4. Save YAML files to the appropriate grade/subject folders
+
 
 ### With Arguments
 
@@ -64,21 +66,15 @@ The skill will:
 
 ## Workflow
 
-1. **List files in `wip/`** — find all PDF files
-2. **Determine grade and subject** from the filename (e.g., `7 oszt ...` → 7th grade chemistry, `6 oszt ...` → 6th grade)
+1. **Input:** Place PDF or text files in the `wip/` directory
+2. **Process:** The skill reads each file's content directly
+3. **Generate:** Creates 50 questions based solely on the file content
+4. **Output:** Saves YAML quiz files to appropriate grade/subject folders
 
-   Subject mapping:
-   - `kémia` → `kemia`
-   - `történelem` → `tori`
-   - `természet` / `földrajz` → `termeszet`
-   - `biológia` → `biosz`
-   - `fizika` → `fizika`
-   - `nyelvtan` → `nyelvtan`
-   - `matek` / `matematika` → `matek`
-   - `angol` → `angol`
+   - PDF files use `pdftotext` for extraction
+   - Text files are read directly
+   - Grade (6.o or 7.o) and subject determined from filename
 
-3. **Read each PDF** using `pdftotext`
-4. **Generate 50 questions** per PDF in Hungarian, in YAML format
 5. **Save** to `{grade}.o/{subject}/{filename}.yaml`
 
 ## Naming Convention
@@ -184,7 +180,8 @@ Put items in the correct order:
 ## Implementation Notes
 
 - Uses `pdftotext` for PDF text extraction (from poppler-utils package)
-- Generates questions based on extracted text content
+- Reads text files directly
+- Generates questions based solely on file content
 - Maintains consistent YAML formatting across all generated files
 - Handles Hungarian character encoding properly
 - Creates necessary directories automatically
@@ -195,11 +192,11 @@ Put items in the correct order:
 - Solution: Install poppler-utils package for your system
 
 **Issue: YAML files not created**
-- Solution: Check that `wip/` directory contains PDF files
+- Solution: Check that `wip/` directory contains files
 - Solution: Verify write permissions in target directories
 
 **Issue: Questions not in Hungarian**
-- Solution: Ensure PDF content is in Hungarian
+- Solution: Ensure file content is in Hungarian
 - Solution: Review extracted text for encoding issues
 
 ## References

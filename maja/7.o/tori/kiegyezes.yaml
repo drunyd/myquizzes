@@ -1,85 +1,53 @@
-Quiz: Az osztrák-magyar kiegyezés
+Quiz: Az osztrák-magyar kiegyezés - Második változat
 Question:
   - Type: singlechoice
-    Text: Mikor jött létre az osztrák-magyar kiegyezés?
-    A: 1848
-    B: 1867
-    C: 1875
-    D: 1900
-    Correct: B
-
-  - Type: singlechoice
-    Text: Mi volt az egyik fő oka az osztrákoknak a kiegyezésre?
-    A: Gazdasági válság
-    B: Külpolitikai veszteségek (pl. Olaszország, 1866 Königgrätzi csata)
-    C: Belső forradalom
-    D: Török támadás
-    Correct: B
-
-  - Type: singlechoice
-    Text: Melyik évben adták ki az 1860-as októberi diplomát?
+    Text: Mikor adták ki az 1860-as októberi diplomát?
     A: 1859
     B: 1860
     C: 1861
     D: 1862
     Correct: B
 
+  - Type: singlechoice
+    Text: Mi volt az 1860-as diploma fő célja?
+    A: Teljes függetlenség biztosítása
+    B: A birodalom viszonyainak rendezése
+    C: A forradalom visszafordítása
+    D: A nemzetiségek elnyomása
+    Correct: B
+
   - Type: word
-    Text: Az 1860-as diploma mit állított vissza részben?
-    Answers: [megyék]
-    Correct: [megyék]
+    Text: Melyik honapban hívták össze az Országgyűlést 1861-ben?
+    Answers: [április]
+    Correct: [április]
 
   - Type: singlechoice
-    Text: Mi volt a vezető szerv az 1860-as diploma szerint?
-    A: Kormány
-    B: Országgyűlés
-    C: Birodalmi tanács
-    D: Királyi tanács
-    Correct: C
-
-  - Type: singlechoice
-    Text: Mikor hívták össze az Országgyűlést 1861-ben?
-    A: Februárban
-    B: Áprilisban
-    C: Októberben
-    D: Decemberben
+    Text: Ki volt a felirati párt vezetője?
+    A: Teleki László
+    B: Deák Ferenc
+    C: Kossuth Lajos
+    D: Eötvös József
     Correct: B
 
   - Type: singlechoice
-    Text: Melyik párt képviselte Teleki László?
-    A: Határozati párt
-    B: Felirati párt
-    C: Függetlenségi párt
-    D: Konzervatív párt
+    Text: Ki volt a határozati párt vezetője?
+    A: Teleki László
+    B: Deák Ferenc
+    C: Kossuth Lajos
+    D: Eötvös József
     Correct: A
 
-  - Type: singlechoice
-    Text: Melyik párt képviselte Deák Ferenc?
-    A: Határozati párt
-    B: Felirati párt
-    C: Függetlenségi párt
-    D: Konzervatív párt
-    Correct: B
-
   - Type: word
-    Text: Ki nyerte meg a felirati párt a 48-as választójog alapján?
-    Answers: [Deák]
-    Correct: [Deák]
-
-  - Type: singlechoice
-    Text: Mi történt Teleki Lászlóval a párt vitája után?
-    A: Letartóztatták
-    B: Öngyilkosságot követett el
-    C: Külföldre menekült
-    D: Börtönbe került
-    Correct: B
+    Text: Mikor követett el öngyilkosságot Teleki László?
+    Answers: [1861]
+    Correct: [1861]
 
   - Type: singlechoice
     Text: Mi volt a következménye a felirati párt győzelmének?
     A: Elfogadták a király követeléseit
     B: A király feloszlatta az Országgyűlést
     C: Kikiáltották a függetlenséget
-    D: Megkezdődtek a tárgyalások
+    D: Megkezdődtek a harcok
     Correct: B
 
   - Type: word
@@ -88,37 +56,37 @@ Question:
     Correct: [1861-1867]
 
   - Type: multiplechoice
-    Text: Melyek voltak az osztrákok gazdasági okai a kiegyezéshez?
-    Answers: [nem kereskedtek, pénzügyi válság, adóemelés szükségessége, túl magas bérköltségek]
-    Correct: [nem kereskedtek, pénzügyi válság]
+    Text: Melyek voltak az osztrákok okai a kiegyezéshez?
+    Answers: [külpolitikai veszteségek, gazdasági okok, Teleki halala, nemzetiségi gondok]
+    Correct: [külpolitikai veszteségek, gazdasági okok, nemzetiségi gondok]
 
   - Type: multiplechoice
     Text: Melyek voltak a magyarok okai a kiegyezéshez?
-    Answers: [szabadságharc, passzív ellenállás, nemzetiségi gondok]
-    Correct: [szabadságharc, passzív ellenállás, nemzetiségi gondok]
+    Answers: [szabadságharc rendezése, gazdasági passzív ellenállás, nemzetiségi gondok]
+    Correct: [szabadságharc rendezése, gazdasági passzív ellenállás, nemzetiségi gondok]
 
   - Type: word
-    Text: Mennyi volt a nemzetiségek aránya a birodalomban az 1860-as években?
+    Text: Mennyi volt a nemzetiségek aránya az Osztrák-Magyar Birodalomban?
     Answers: [75%]
     Correct: [75%]
 
   - Type: word
-    Text: Mennyi volt a nemzetiségek aránya Magyarországon az 1860-as években?
+    Text: Mennyi volt a nemzetiségek aránya Magyarországon?
     Answers: [50%]
     Correct: [50%]
 
   - Type: singlechoice
-    Text: Ki írta a Deák Ferenc nevében megjelent Húsvéti cikket 1865-ben?
+    Text: Ki írta a Húsvéti cikket Deák Ferenc nevében?
     A: Deák Ferenc
-    B: Eötvös
-    C: Kossuth
-    D: Tisza
-    Correct: B
+    B: Eötvös József
+    C: Kossuth Lajos
+    D: Tisza Kálmán
+    Correct: A
 
   - Type: word
     Text: Mit hirdetett a Húsvéti cikk?
-    Answers: [törvényességet]
-    Correct: [törvényességet]
+    Answers: [magyar törvényességet]
+    Correct: [magyar törvényességet]
 
   - Type: singlechoice
     Text: Mikor kezdődtek meg a kiegyezésről szóló tárgyalások?
@@ -129,7 +97,7 @@ Question:
     Correct: A
 
   - Type: singlechoice
-    Text: Melyik évben jött létre hivatalosan az Osztrák-Magyar Monarchia?
+    Text: Mikor jött létre hivatalosan az Osztrák-Magyar Monarchia?
     A: 1865
     B: 1866
     C: 1867
@@ -137,30 +105,27 @@ Question:
     Correct: C
 
   - Type: word
-    Text: Mi volt a kiegyezés hivatalos neve?
+    Text: Ki koronázta meg Ferenc Józsefet magyar királlyá?
+    Answers: [magyar Országgyűlés]
+    Correct: [magyar Országgyűlés]
+
+  - Type: word
+    Text: Hol koronázták meg Ferenc Józsefet?
+    Answers: [Buda]
+    Correct: [Buda]
+
+  - Type: singlechoice
+    Text: Melyik évben koronázták meg Ferenc Józsefet?
+    A: 1865
+    B: 1866
+    C: 1867
+    D: 1868
+    Correct: C
+
+  - Type: word
+    Text: Mi volt a kiegyezés utan az orszag hivatalos neve?
     Answers: [Osztrák-Magyar Monarchia]
     Correct: [Osztrák-Magyar Monarchia]
-
-  - Type: singlechoice
-    Text: Ki volt a magyar király az 1867-es kiegyezés idején?
-    A: I. Ferenc József
-    B: II. Ferenc József
-    C: I. Károly
-    D: IV. Béla
-    Correct: A
-
-  - Type: singlechoice
-    Text: Melyik évben koronázták meg Ferenc Józsefet magyar királlyá?
-    A: 1865
-    B: 1866
-    C: 1867
-    D: 1868
-    Correct: C
-
-  - Type: word
-    Text: Hol koronázták meg Ferenc Józsefet magyar királlyá?
-    Answers: [Pozsony]
-    Correct: [Pozsony]
 
   - Type: multiplechoice
     Text: Mely területek alkották az Osztrák-Magyar Monarchiát?
@@ -168,70 +133,17 @@ Question:
     Correct: [Ausztria, Magyarország, Horvátország, Erdély]
 
   - Type: singlechoice
-    Text: Melyik évtizedben volt a kiegyezés?
-    A: 1840-es
-    B: 1850-es
-    C: 1860-as
-    D: 1870-es
+    Text: Ki volt az első magyar miniszterelnök a dualista rendszerben?
+    A: Deák Ferenc
+    B: Andrássy Gyula
+    C: Lónyay Menyhért
+    D: Tisza Kálmán
     Correct: C
 
   - Type: word
-    Text: Melyik év novemberében adták ki az októberi diplomát?
-    Answers: [1860]
-    Correct: [1860]
-
-  - Type: singlechoice
-    Text: Ki volt Teleki László politikai ellenfele?
-    A: Deák
-    B: Kossuth
-    C: Eötvös
-    D: Tisza
-    Correct: A
-
-  - Type: singlechoice
-    Text: Melyik párt volt a mérsékeltebb a 48-as alkotmány elfogadását illetően?
-    A: Határozati párt
-    B: Felirati párt
-    Correct: B
-
-  - Type: word
-    Text: Melyik évben ölték meg gróf Teleki Lászlót?
-    Answers: [1861]
-    Correct: [1861]
-
-  - Type: singlechoice
-    Text: Mi volt a passzív ellenállás célja?
-    A: A Habsburgok elleni fegyveres harc
-    B: Gazdasági és politikai nyomás
-    C: Függetlenség kikiáltása
-    D: Nemzetiségek támogatása
-    Correct: B
-
-  - Type: multiplechoice
-    Text: Melyik események vezettek közvetlenül a kiegyezéshez?
-    Answers: [októberi diploma, 1861-es OGY, Húsvéti cikk, Teleki halála]
-    Correct: [októberi diploma, 1861-es OGY, Húsvéti cikk]
-
-  - Type: singlechoice
-    Text: Ki volt a magyar miniszterelnök az 1867-es kiegyezés idején?
-    A: Deák
-    B: Andrássy
-    C: Tisza
-    D: Eötvös
-    Correct: B
-
-  - Type: word
-    Text: Melyik évben alakult meg az első dualista kormány?
+    Text: Mikor alakult meg az első dualista kormány?
     Answers: [1867]
     Correct: [1867]
-
-  - Type: singlechoice
-    Text: Melyik ország volt a kiegyezés másik fő szereplője?
-    A: Németország
-    B: Olaszország
-    C: Ausztria
-    D: Franciaország
-    Correct: C
 
   - Type: singlechoice
     Text: Melyik évben vesztett Ausztria a poroszok ellen?
@@ -242,17 +154,27 @@ Question:
     Correct: C
 
   - Type: word
-    Text: Hol volt a poroszok elleni csata, amely gyengítette Ausztriát?
+    Text: Hol volt a poroszok elleni csata 1866-ban?
     Answers: [Königgrätz]
     Correct: [Königgrätz]
 
   - Type: multiplechoice
     Text: Melyek voltak a kiegyezés előnyei Magyarországnak?
-    Answers: [nagyobb önállóság, két parlament, kül- és hadügy]
-    Correct: [nagyobb önállóság, két parlament, kül- és hadügy]
+    Answers: [nagyobb önállóság, két parlament, közös kül- és hadügy]
+    Correct: [nagyobb önállóság, két parlament, közös kül- és hadügy]
+
+  - Type: word
+    Text: Melyik évben alakult meg a horvát-magyar kiegyezés?
+    Answers: [1868]
+    Correct: [1868]
+
+  - Type: word
+    Text: Melyik dokumentum szabályozta a Monarchia működését?
+    Answers: [Kiegyezési törvény]
+    Correct: [Kiegyezési törvény]
 
   - Type: singlechoice
-    Text: Melyik évben volt a kiegyezéssel létrejött dualista rendszer kezdete?
+    Text: Melyik évben alakult meg a dualista monarchia alkotmánya?
     A: 1865
     B: 1866
     C: 1867
@@ -260,12 +182,57 @@ Question:
     Correct: C
 
   - Type: word
-    Text: Ki volt az első magyar miniszterelnök a dualista rendszerben?
-    Answers: [Lónyay]
-    Correct: [Lónyay]
+    Text: Mi volt az osztrák-magyar kiegyezés másik neve?
+    Answers: [Dualista Monarchia]
+    Correct: [Dualista Monarchia]
 
   - Type: singlechoice
-    Text: Melyik évben alakult meg a dualista monarchia hivatalosan?
+    Text: Ki volt Teleki László politikai ellenfele?
+    A: Deák Ferenc
+    B: Kossuth Lajos
+    C: Eötvös József
+    D: Tisza Kálmán
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi volt a passzív ellenállás célja?
+    A: Fegyveres harc
+    B: Gazdasági és politikai nyomás
+    C: Függetlenség kikiáltása
+    D: Nemzetiségek támogatása
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely események vezettek a kiegyezéshez?
+    Answers: [októberi diploma, 1861-es OGY, Húsvéti cikk, Teleki halála]
+    Correct: [októberi diploma, 1861-es OGY, Húsvéti cikk]
+
+  - Type: singlechoice
+    Text: Melyik párt volt mérsékeltebb a 48-as alkotmány elfogadását illetően?
+    A: Határozati párt
+    B: Felirati párt
+    Correct: B
+
+  - Type: word
+    Text: Melyik évben adták ki a Húsvéti cikket?
+    Answers: [1865]
+    Correct: [1865]
+
+  - Type: singlechoice
+    Text: Ki volt a kiegyezés idején a magyar király?
+    A: I. Ferenc
+    B: I. Ferenc József
+    C: II. Rudolf
+    D: IV. Béla
+    Correct: B
+
+  - Type: word
+    Text: Melyik évben vesztett Ausztria a poroszok ellen Königgrätznél?
+    Answers: [1866]
+    Correct: [1866]
+
+  - Type: singlechoice
+    Text: Melyik évben alakult meg a dualista rendszer hivatalosan?
     A: 1865. február 8.
     B: 1867. június 8.
     C: 1867. március 20.
@@ -273,73 +240,41 @@ Question:
     Correct: B
 
   - Type: word
-    Text: Melyik dokumentum szabályozta a dualista monarchia működését?
-    Answers: [Kiegyezési törvény]
-    Correct: [Kiegyezési törvény]
-
-  - Type: multiplechoice
-    Text: Mely területek voltak közösek a dualista monarchiában?
-    Answers: [külügy, hadügy, pénzügy]
-    Correct: [külügy, hadügy, pénzügy]
-
-  - Type: singlechoice
-    Text: Melyik évben bomlott fel a dualista monarchia?
-    A: 1914
-    B: 1918
-    C: 1920
-    D: 1945
-    Correct: B
-
-  - Type: singlechoice
-    Text: Ki volt a dualista monarchia utolsó magyar miniszterelnöke?
-    A: Tisza István
-    B: Wekerle Sándor
-    C: Lónyay Menyhért
-    D: Andrássy Gyula
-    Correct: A
-
-  - Type: word
-    Text: Melyik évben született meg a dualista monarchia alkotmánya?
+    Text: Melyik évben volt a kiegyezéssel létrejött rendszer kezdete?
     Answers: [1867]
     Correct: [1867]
 
-  - Type: singlechoice
-    Text: Melyik évben alakult meg a horvát-magyar kiegyezés?
-    A: 1867
-    B: 1868
-    C: 1869
-    D: 1870
-    Correct: B
-
-  - Type: singlechoice
-    Text: Melyik évben volt a kiegyezéssel létrejött rendszer legsikeresebb évtizede?
-    A: 1860-as
-    B: 1870-es
-    C: 1880-as
-    D: 1890-es
-    Correct: B
-
   - Type: word
-    Text: Melyik évben volt a kiegyezéssel létrejött rendszer utolsó évtizede?
-    Answers: [1910-es]
-    Correct: [1910-es]
+    Text: Melyik évben alakult meg a horvát-magyar kiegyezés?
+    Answers: [1868]
+    Correct: [1868]
+
+  - Type: singlechoice
+    Text: Ki volt a kiegyezés idején a magyar miniszterelnök?
+    A: Deák Ferenc
+    B: Andrássy Gyula
+    C: Lónyay Menyhért
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik évben született meg a dualista monarchia alkotmánya?
+    A: 1865
+    B: 1866
+    C: 1867
+    D: 1868
+    Correct: C
 
   - Type: ordering
-    Text: Rendezd időrendbe az osztrák-magyar kiegyezéshez vezető fontos eseményeket!
+    Text: Rendezd időrendbe a kiegyezéshez vezető eseményeket!
     Items:
-      - 1860. októberi diploma kiadása
-      - 1861-es Országgyűlés összehívása
-      - Teleki László öngyilkossága
-      - Deák Ferenc Húsvéti cikke
-      - 1867-es kiegyezés létrejötte
+      - 1867-es kiegyezés
+      - 1860. októberi diploma
+      - Teleki László halála
+      - 1861-es Országgyűlés
+      - Deák Húsvéti cikke
     Correct:
-      - 1860. októberi diploma kiadása
-      - 1861-es Országgyűlés összehívása
-      - Teleki László öngyilkossága
-      - Deák Ferenc Húsvéti cikke
-      - 1867-es kiegyezés létrejötte
-
-  - Type: multiplechoice
-    Text: Melyik országok voltak a dualista monarchia szövetségesei az első világháborúban?
-    Answers: [Németország, Bulgária, Törökország]
-    Correct: [Németország, Bulgária, Törökország]
+      - 1860. októberi diploma
+      - 1861-es Országgyűlés
+      - Teleki László halála
+      - Deák Húsvéti cikke
+      - 1867-es kiegyezés
