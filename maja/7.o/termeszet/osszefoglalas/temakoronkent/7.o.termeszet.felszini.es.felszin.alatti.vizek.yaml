@@ -21,10 +21,10 @@ Question:
   - Type: ordering
     Text: Rendezd sorrendbe a víz körforgásának állomásait!
     Items:
+      - Beszivárgás a talajba
+      - Csapadék
       - Párolgás
       - Felhőképződés
-      - Csapadék
-      - Beszivárgás a talajba
     Correct:
       - Párolgás
       - Felhőképződés

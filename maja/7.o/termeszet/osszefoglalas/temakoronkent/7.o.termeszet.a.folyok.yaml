@@ -11,11 +11,11 @@ Question:
   - Type: ordering
     Text: Rendezd sorrendbe a vízfolyásokat nagyság szerint (kicsitől a nagyig)!
     Items:
-      - Ér
-      - Csermely
-      - Patak
-      - Folyó
       - Folyam
+      - Ér
+      - Patak
+      - Csermely
+      - Folyó
     Correct:
       - Ér
       - Csermely

@@ -16,10 +16,10 @@ Question:
   - Type: ordering
     Text: Rendezd sorrendbe a vízfolyások formáit nagyság szerint (kicsitől a nagyig)!
     Items:
-      - Ér
-      - Patak
       - Folyó
+      - Ér
       - Folyam
+      - Patak
     Correct:
       - Ér
       - Patak
@@ -99,9 +99,9 @@ Question:
   - Type: ordering
     Text: Rendezd sorrendbe a tó feltöltődésének fázisait!
     Items:
+      - A tó kiszáradása
       - Vízinövények elszaporodása (fertő)
       - Mocsarasodás
-      - A tó kiszáradása
     Correct:
       - Vízinövények elszaporodása (fertő)
       - Mocsarasodás
