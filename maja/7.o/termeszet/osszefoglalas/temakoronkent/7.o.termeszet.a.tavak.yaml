@@ -1,0 +1,121 @@
+Quiz: A tavak
+Question:
+  - Type: singlechoice
+    Text: Mi a tó?
+    A: A felszín mélyedéseiben kialakuló nyílt vízterületű állóvíz
+    B: A folyók mesterségesen kialakított medre
+    C: A tenger partján kialakuló víz
+    D: A felszín alatti vízgyűjtő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik magyar tó jött létre a felszín lesüllyedésével?
+    A: Balaton
+    B: Velencei-tó
+    C: Fertő-tó
+    D: Tisza-tó
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a levágott folyókanyarulatból kialakult tavat?
+    Answers: [holtág]
+    Correct: [holtág]
+
+  - Type: multiplechoice
+    Text: Milyen külső erők alakíthatják ki a tómedencét?
+    Answers: [szél, jég, folyó]
+    Correct: [szél, jég]
+
+  - Type: multiplechoice
+    Text: Milyen emberi tevékenység hozhat létre mesterséges tavakat?
+    Answers: [bányászat, gátépítés, halászat, nádvágás]
+    Correct: [bányászat, gátépítés]
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük az ember által kialakított tavakat?
+    A: Mesterséges tavak
+    B: Természetes tavak
+    C: Holtágak
+    D: Lápok
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Miből kapják a tavak a vizüket?
+    Answers: [beömlő patak, folyó, csapadékvíz, felszín alatti vizek]
+    Correct: [beömlő patak, folyó, csapadékvíz, felszín alatti vizek]
+
+  - Type: singlechoice
+    Text: Miért csökken a tavak vízszintje meleg időben?
+    A: Mert gyorsan párolognak
+    B: Mert a halak megisszák
+    C: Mert a növények felszívják
+    D: Mert a folyók elviszik
+    Correct: A
+
+  - Type: word
+    Text: Mely növények elszaporodása a tó feltöltődésének első fázisa?
+    Answers: [hínár, nád]
+    Correct: [nád]
+
+  - Type: word
+    Text: Hogyan nevezzük a tó feltöltődésének első fázisát, a vízinövények elszaporodását?
+    Answers: [fertő]
+    Correct: [fertő]
+
+  - Type: singlechoice
+    Text: Mi a tó feltöltődésének második fázisa?
+    A: Mocsarasodás
+    B: Kiszáradás
+    C: Hínárosodás
+    D: Delta kialakulása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a mocsarasodás?
+    A: A növények már olyan mennyiségben vannak jelen, hogy a víztükör nagy részét elfoglalják
+    B: A tó teljesen kiszárad
+    C: A tó vize elszennyeződik
+    D: A tó vize felmelegszik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi gyorsítja fel a tavak feltöltődését?
+    A: A környezetszennyezés és az emberi tevékenység
+    B: A tiszta csapadékvíz
+    C: A felszín alatti vizek
+    D: A szél
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan hat a mezőgazdasági műtrágyázás a tó feltöltődésére?
+    A: Felgyorsítja a vízinövények szaporodását
+    B: Leállítja a feltöltődést
+    C: Megtisztítja a tó vizét
+    D: Nincs hatása
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen szabadidős tevékenységek károsíthatják a tavakat?
+    Answers: [strandolás, túlhalászat, engedély nélküli nádvágás, csendes horgászat]
+    Correct: [strandolás, túlhalászat, engedély nélküli nádvágás]
+
+  - Type: singlechoice
+    Text: Miért fontos a nád védő funkciója?
+    A: Védi a partot és a vízi élővilágot
+    B: Díszíti a tavat
+    C: Tisztítja a levegőt
+    D: Ivóvizet ad
+    Correct: A
+
+  - Type: word
+    Text: Mivel szabad csak nádvágást végezni?
+    Answers: [engedély]
+    Correct: [engedély]
+
+  - Type: singlechoice
+    Text: Mi történhet, ha mérgező anyagok kerülnek a tóba?
+    A: A tó holt vízzé alakulhat, az élővilág elpusztul
+    B: A tó vize megtisztul
+    C: A tó vize melegebb lesz
+    D: A tó feltöltődik
+    Correct: A

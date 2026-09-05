@@ -1,0 +1,143 @@
+Quiz: A vizek természeti környezeti problémái
+Question:
+  - Type: singlechoice
+    Text: Milyen két fő problémája lehet a vizeknek világméretekben?
+    A: Mennyiségi és minőségi probléma
+    B: Hőmérsékleti és színprobléma
+    C: Mélységi és szélességi probléma
+    D: Növényi és állati probléma
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a vizek mennyiségi problémái?
+    Answers: [áradások, vízhiány, szennyezés]
+    Correct: [áradások, vízhiány]
+
+  - Type: singlechoice
+    Text: Mit okozhat a vizek szennyezése?
+    A: A vízi élőhelyek lakhatatlanná válnak, a fajok elpusztulnak
+    B: A vizek mennyisége megnő
+    C: A vizek hőmérséklete csökken
+    D: A vizek tisztábbá válnak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi határozza meg elsősorban az édesvízkészleteket?
+    A: Az éghajlati adottságok
+    B: A lakosság száma
+    C: A folyók hossza
+    D: A tavak mélysége
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol találhatók a Föld legszárazabb területei, a sivatagok?
+    A: A térítők mentén
+    B: Az Egyenlítő mentén
+    C: A sarkvidékeken
+    D: A hegyvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol hullik nagyon kevés csapadék a kontinensek belső medencéiben?
+    A: A kontinensek belsőbb medencéiben
+    B: A tengerek partjain
+    C: A folyók mentén
+    D: A hegyvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mihez vezethet a vízhiány a sivatagi területeken?
+    A: A növénytermesztés és állattenyésztés csökkenéséhez, elterelésekhez, akár háborúkhoz
+    B: A csapadék növekedéséhez
+    C: A tavak kialakulásához
+    D: A folyók bővüléséhez
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki az elsődlegesen felelős a folyók, tavak és felszín alatti vizek elszennyezéséért?
+    A: A gazdaság
+    B: A turisták
+    C: A madarak
+    D: A természet
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely anyagok mosódhatnak ki a mezőgazdasági területekről a vizekbe?
+    Answers: [növényvédő szerek, műtrágyák, tiszta homok]
+    Correct: [növényvédő szerek, műtrágyák]
+
+  - Type: singlechoice
+    Text: Mi a vízvirágzás?
+    A: A vízi növényzet gyors elszaporodása a műtrágyák bemosódásának hatására
+    B: A víz felszínének felmelegedése
+    C: A víz kivirágzása tavasszal
+    D: A halak ívása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik, ha a vízvirágzás után a növényzet pusztulni kezd?
+    A: A bomlási folyamatok csökkentik a víz oxigénszintjét
+    B: A víz oxigénszintje megnő
+    C: A víz megtisztul
+    D: A halak elszaporodnak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a vízvirágzás végeredménye?
+    A: Az élővilág gyors pusztulása
+    B: Az élővilág gazdagodása
+    C: A víz kitisztulása
+    D: A tó feltöltődése
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a vízszennyezés megelőzésének módszerei?
+    Answers: [szennyvizek tisztítása, csatornázás, ésszerű műtrágyázás, túlhalászat]
+    Correct: [szennyvizek tisztítása, csatornázás, ésszerű műtrágyázás]
+
+  - Type: singlechoice
+    Text: Hogyan szennyezhetik a gyárak a vizeket?
+    A: Kiemelés és felhasználás közbeni szennyezéssel, tisztítás nélküli visszaengedéssel
+    B: Tiszta víz visszaengedésével
+    C: A víz lehűtésével
+    D: A víz elzárásával
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük, amikor a gyárak a felmelegedett vizet engedik vissza a környezetbe?
+    Answers: [hőszennyezés]
+    Correct: [hőszennyezés]
+
+  - Type: singlechoice
+    Text: Mi kerül a vízbe a sérült olajszállító hajókból?
+    A: Kőolaj és származékai
+    B: Tiszta ivóvíz
+    C: Homok
+    D: Műtrágya
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért káros az olaj a víz felszínén?
+    A: Elzárja a napfényt és gátolja a gázcserét
+    B: Megtisztítja a vizet
+    C: Táplálékot ad a halaknak
+    D: Felmelegíti a vizet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért pusztulnak el a tengeri madarak az olajszennyezéskor?
+    A: A tollazatuk összeragad az olajtól
+    B: Mert megfulladnak a vízben
+    C: Mert nem találnak halat
+    D: Mert a napfény károsítja őket
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely tevékenységek okoznak lakossági vízszennyezést?
+    Answers: [mosás, mosogatás, fürdés, WC öblítése]
+    Correct: [mosás, mosogatás, fürdés, WC öblítése]
+
+  - Type: word
+    Text: Mit kell tennünk a vízzel való bánásmódban a szennyezés csökkentése érdekében?
+    Answers: [takarékoskodás]
+    Correct: [takarékoskodás]

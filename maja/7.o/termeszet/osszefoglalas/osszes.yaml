@@ -1,0 +1,1390 @@
+Quiz: A vizek - összes témakör (teljes vizsgaanyag)
+Question:
+  - Type: singlechoice
+    Text: Milyen formában jut a felszínre a felszín alatti víz?
+    A: Források formájában
+    B: Eső formájában
+    C: Köd formájában
+    D: Hó formájában
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a vízfolyásokat nagyság szerint (kicsitől a nagyig)!
+    Items:
+      - Ér
+      - Csermely
+      - Patak
+      - Folyó
+      - Folyam
+    Correct:
+      - Ér
+      - Csermely
+      - Patak
+      - Folyó
+      - Folyam
+
+  - Type: multiplechoice
+    Text: Melyek a felszíni vízfolyások táplálói?
+    Answers: [forrás, lehulló csapadék, olvadó jég, olvadó hó, tó]
+    Correct: [forrás, lehulló csapadék, olvadó jég, olvadó hó, tó]
+
+  - Type: singlechoice
+    Text: Mi a vízgyűjtő terület?
+    A: A felszín azon területe, ahonnan egy folyó az összes felszíni vízfolyást magába gyűjti és elvezeti
+    B: A terület, ahová a folyó hordalékát lerakja
+    C: A folyó medrének mélyebb része
+    D: A folyó torkolatának környéke
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a vízgyűjtő terület legnagyobb folyóját?
+    Answers: [főfolyó]
+    Correct: [főfolyó]
+
+  - Type: word
+    Text: Hogyan nevezzük a főfolyóba torkolló kisebb folyókat?
+    Answers: [mellékfolyó]
+    Correct: [mellékfolyó]
+
+  - Type: singlechoice
+    Text: Mi választja el egymástól a vízgyűjtő területeket?
+    A: Vízválasztók
+    B: Delták
+    C: Zátonyok
+    D: Szigetek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol futnak általában a vízválasztók?
+    A: Hegygerinceken, kiemelkedéseken
+    B: A folyóvölgyek alján
+    C: A tavak közepén
+    D: A tengerpartokon
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely vízgyűjtő területhez tartoznak Magyarország felszíni vízfolyásai?
+    A: A Duna vízgyűjtő területéhez
+    B: A Tisza vízgyűjtő területéhez
+    C: A Dráva vízgyűjtő területéhez
+    D: A Balaton vízgyűjtő területéhez
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely hegységek a Duna vízgyűjtő területének vízválasztói hazánkban?
+    Answers: [Alpok, Kárpátok, Mecsek, Bükk]
+    Correct: [Alpok, Kárpátok]
+
+  - Type: word
+    Text: Melyik a Duna legnagyobb mellékfolyója Magyarországon?
+    Answers: [Tisza]
+    Correct: [Tisza]
+
+  - Type: singlechoice
+    Text: Honnan kezdik mérni a folyók hosszát?
+    A: Az eredéstől
+    B: A torkolattól
+    C: A vízválasztótól
+    D: A főfolyótól
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a bal oldalról érkező mellékfolyót, ha a főfolyó folyásirányába állunk?
+    A: Bal parti mellékfolyó
+    B: Jobb parti mellékfolyó
+    C: Főfolyó
+    D: Vízválasztó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Merre folynak mindig a folyók?
+    A: A magasabban fekvő területek felől az alacsonyabban fekvők felé
+    B: Az alacsonyabban fekvő területek felől a magasabban fekvők felé
+    C: Mindig északról délre
+    D: Mindig keletről nyugatra
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol a legnagyobb a folyók sebessége?
+    A: A hegyvidékek nagy lejtésű területein
+    B: A síkságokon
+    C: A torkolat közelében
+    D: A tavakban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit vájnak a gyors folyású hegyi folyók?
+    A: Mély, V alakú völgyeket
+    B: Széles, lapos völgyeket
+    C: Tavakat
+    D: Deltákat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik, ha a folyó a hegyekből kilépve lelassul?
+    A: Széles folyóvölgy alakul ki és a hordalékból zátonyokat, szigeteket épít
+    B: Mélyebb V alakú völgyet váj
+    C: Meredek falú szorosokat alakít ki
+    D: Vízgyűjtő területe jön létre
+    Correct: A
+
+  - Type: word
+    Text: Mi a neve a mederben lévő víz magasságának?
+    Answers: [vízállás]
+    Correct: [vízállás]
+
+  - Type: word
+    Text: Hogyan nevezzük a folyók vízállásának többé-kevésbé szabályszerű változását?
+    Answers: [vízjárás]
+    Correct: [vízjárás]
+
+  - Type: multiplechoice
+    Text: Mi befolyásolja a folyók vízjárását?
+    Answers: [a vízgyűjtő terület éghajlata, a lehulló csapadék időbeli eloszlása, a folyó hossza]
+    Correct: [a vízgyűjtő terület éghajlata, a lehulló csapadék időbeli eloszlása]
+
+  - Type: multiplechoice
+    Text: Mikor áradnak évente kétszer a magyarországi folyók?
+    Answers: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt, télen, ősszel]
+    Correct: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt]
+
+  - Type: word
+    Text: Melyik hegységben ered a Duna?
+    Answers: [Fekete-erdő]
+    Correct: [Fekete-erdő]
+
+  - Type: word
+    Text: Melyik országban ered a Duna?
+    Answers: [Németország]
+    Correct: [Németország]
+
+  - Type: singlechoice
+    Text: Melyik tengerbe ömlik a Duna?
+    A: Fekete-tenger
+    B: Balti-tenger
+    C: Északi-tenger
+    D: Adriai-tenger
+    Correct: A
+
+  - Type: word
+    Text: Milyen torkolata van a Dunának?
+    Answers: [delta]
+    Correct: [delta]
+
+  - Type: singlechoice
+    Text: Miért nevezik delta torkolatnak?
+    A: Mert a görög ABC delta betűjére hasonlít
+    B: Mert egy delta nevű szigeten van
+    C: Mert deltában fekszik
+    D: Mert a delta szó torkolatot jelent
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a lefolyástalan terület?
+    A: Olyan terület, ahonnan a folyók nem jutnak el a tengerig, óceánig
+    B: A folyók torkolatánál lévő terület
+    C: A vízválasztók közötti terület
+    D: A folyó forrásánál lévő terület
+    Correct: A
+
+  - Type: word
+    Text: Melyik terület a lefolyástalan terület példája?
+    Answers: [Okavango, Kalahári-medence]
+    Correct: [Kalahári-medence]
+
+  - Type: singlechoice
+    Text: Mi a tó?
+    A: A felszín mélyedéseiben kialakuló nyílt vízterületű állóvíz
+    B: A folyók mesterségesen kialakított medre
+    C: A tenger partján kialakuló víz
+    D: A felszín alatti vízgyűjtő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik magyar tó jött létre a felszín lesüllyedésével?
+    A: Balaton
+    B: Velencei-tó
+    C: Fertő-tó
+    D: Tisza-tó
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a levágott folyókanyarulatból kialakult tavat?
+    Answers: [holtág]
+    Correct: [holtág]
+
+  - Type: multiplechoice
+    Text: Milyen külső erők alakíthatják ki a tómedencét?
+    Answers: [szél, jég, folyó]
+    Correct: [szél, jég]
+
+  - Type: multiplechoice
+    Text: Milyen emberi tevékenység hozhat létre mesterséges tavakat?
+    Answers: [bányászat, gátépítés, halászat, nádvágás]
+    Correct: [bányászat, gátépítés]
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük az ember által kialakított tavakat?
+    A: Mesterséges tavak
+    B: Természetes tavak
+    C: Holtágak
+    D: Lápok
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Miből kapják a tavak a vizüket?
+    Answers: [beömlő patak, folyó, csapadékvíz, felszín alatti vizek]
+    Correct: [beömlő patak, folyó, csapadékvíz, felszín alatti vizek]
+
+  - Type: singlechoice
+    Text: Miért csökken a tavak vízszintje meleg időben?
+    A: Mert gyorsan párolognak
+    B: Mert a halak megisszák
+    C: Mert a növények felszívják
+    D: Mert a folyók elviszik
+    Correct: A
+
+  - Type: word
+    Text: Mely növények elszaporodása a tó feltöltődésének első fázisa?
+    Answers: [hínár, nád]
+    Correct: [nád]
+
+  - Type: word
+    Text: Hogyan nevezzük a tó feltöltődésének első fázisát, a vízinövények elszaporodását?
+    Answers: [fertő]
+    Correct: [fertő]
+
+  - Type: singlechoice
+    Text: Mi a tó feltöltődésének második fázisa?
+    A: Mocsarasodás
+    B: Kiszáradás
+    C: Hínárosodás
+    D: Delta kialakulása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a mocsarasodás?
+    A: A növények már olyan mennyiségben vannak jelen, hogy a víztükör nagy részét elfoglalják
+    B: A tó teljesen kiszárad
+    C: A tó vize elszennyeződik
+    D: A tó vize felmelegszik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi gyorsítja fel a tavak feltöltődését?
+    A: A környezetszennyezés és az emberi tevékenység
+    B: A tiszta csapadékvíz
+    C: A felszín alatti vizek
+    D: A szél
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan hat a mezőgazdasági műtrágyázás a tó feltöltődésére?
+    A: Felgyorsítja a vízinövények szaporodását
+    B: Leállítja a feltöltődést
+    C: Megtisztítja a tó vizét
+    D: Nincs hatása
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen szabadidős tevékenységek károsíthatják a tavakat?
+    Answers: [strandolás, túlhalászat, engedély nélküli nádvágás, csendes horgászat]
+    Correct: [strandolás, túlhalászat, engedély nélküli nádvágás]
+
+  - Type: singlechoice
+    Text: Miért fontos a nád védő funkciója?
+    A: Védi a partot és a vízi élővilágot
+    B: Díszíti a tavat
+    C: Tisztítja a levegőt
+    D: Ivóvizet ad
+    Correct: A
+
+  - Type: word
+    Text: Mivel szabad csak nádvágást végezni?
+    Answers: [engedély]
+    Correct: [engedély]
+
+  - Type: singlechoice
+    Text: Mi történhet, ha mérgező anyagok kerülnek a tóba?
+    A: A tó holt vízzé alakulhat, az élővilág elpusztul
+    B: A tó vize megtisztul
+    C: A tó vize melegebb lesz
+    D: A tó feltöltődik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi környezetünk egyik legfontosabb anyaga, az élet alapvető eleme?
+    A: Levegő
+    B: Víz
+    C: Talaj
+    D: Kőzet
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Hol fordulhat elő a víz a felszínen?
+    Answers: [patakok, folyók, tavak, tengerek, karsztvíz]
+    Correct: [patakok, folyók, tavak, tengerek]
+
+  - Type: multiplechoice
+    Text: Hol fordulhat elő a víz a felszín alatt?
+    Answers: [felszín alatti vizek, karsztvíz, patakok, tavak]
+    Correct: [felszín alatti vizek, karsztvíz, patakok, tavak]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a víz körforgásának állomásait!
+    Items:
+      - Párolgás
+      - Felhőképződés
+      - Csapadék
+      - Beszivárgás a talajba
+    Correct:
+      - Párolgás
+      - Felhőképződés
+      - Csapadék
+      - Beszivárgás a talajba
+
+  - Type: word
+    Text: Hogyan nevezzük a talajszemcsék felületén megkötődött vizet?
+    Answers: [talajnedvesség]
+    Correct: [talajnedvesség]
+
+  - Type: singlechoice
+    Text: Melyik víz raktározódik talajnedvesség formájában és nagyon fontos a növények számára?
+    A: A felszínre hulló csapadék beszivárgó része
+    B: A folyók vize
+    C: A tenger vize
+    D: A hévíz
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük azt a vizet, amely a mélyebb rétegekben teljesen kitölti a talajszemcsék közti teret?
+    Answers: [talajvíz]
+    Correct: [talajvíz]
+
+  - Type: singlechoice
+    Text: Miért káros a növényekre, ha túl magasan áll a talajvíz?
+    A: Mert túl sok vizet kapnak
+    B: Mert a gyökereiken keresztül nem jutnak levegőhöz és elhalnak
+    C: Mert a leveleik leégnek
+    D: Mert nem tudnak fotoszintetizálni
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely kőzetek tartoznak a víztartó kőzetek közé?
+    Answers: [mészkő, homok, agyag, gránit]
+    Correct: [mészkő, homok]
+
+  - Type: word
+    Text: Melyik a vízzáró kőzet, amely elzárja a víz útját?
+    Answers: [agyag]
+    Correct: [agyag]
+
+  - Type: singlechoice
+    Text: Hogyan keletkezik az artézi víz?
+    A: Két vízzáró réteg közé zárt víztartó rétegből kerül a felszínre
+    B: A folyók hordalékából
+    C: A tengervíz párolgásából
+    D: A csapadékból közvetlenül
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik területen fontos az artézi víz az ivóvízellátásban?
+    A: Hegyvidéken
+    B: Az Alföldön
+    C: A tengerek partján
+    D: A sivatagokban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mikor old magába több ásványi anyagot a felszín alatti víz?
+    A: Ha minél hosszabb utat tesz meg
+    B: Ha minél sekélyebben folyik
+    C: Ha minél gyorsabban áramlik
+    D: Ha a felszínhez közel van
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a gyógyító hatással rendelkező ásványvizet?
+    Answers: [gyógyvíz]
+    Correct: [gyógyvíz]
+
+  - Type: singlechoice
+    Text: Melyik vizet nevezzük hévíznek?
+    A: Amelyik 20 °C-nál melegebb a mélyből érkezik
+    B: Amelyik 10 °C-nál hidegebb
+    C: Amelyik a felszínen áll
+    D: Amelyik a folyókból származik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire használják energiaforrásként a hévizet?
+    A: Fűtésre (fóliasátrak, lakások, épületek)
+    B: Kizárólag ivásra
+    C: Hajózásra
+    D: Öntözésre csak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Hogyan szennyeződhetnek a felszín alatti vizek?
+    Answers: [gyári szennyvíz, nem megfelelően tárolt lakossági hulladék, csatornahiány, tiszta csapadékvíz]
+    Correct: [gyári szennyvíz, nem megfelelően tárolt lakossági hulladék, csatornahiány]
+
+  - Type: singlechoice
+    Text: Mit károsítanak a talajba kerülő szennyező anyagok?
+    A: A kutak vizét, a növényeket, a talajban élő állatokat és a felszíni vizeket
+    B: Kizárólag a levegőt
+    C: Csak a felszín alatti kőzeteket
+    D: Semmit sem
+    Correct: A
+
+  - Type: word
+    Text: Mi Magyarország főfolyója?
+    Answers: [Duna]
+    Correct: [Duna]
+
+  - Type: singlechoice
+    Text: Melyik a Duna legnagyobb mellékfolyója Magyarországon?
+    A: Tisza
+    B: Dráva
+    C: Száva
+    D: Mura
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a vízfolyások formáit nagyság szerint (kicsitől a nagyig)!
+    Items:
+      - Ér
+      - Patak
+      - Folyó
+      - Folyam
+    Correct:
+      - Ér
+      - Patak
+      - Folyó
+      - Folyam
+
+  - Type: word
+    Text: Mi a neve annak a helynek, ahol a felszín alatti víz a felszínre tör, és ahonnan a vízfolyás elindul?
+    Answers: [forrás]
+    Correct: [forrás]
+
+  - Type: word
+    Text: Mi az a terület, ahonnan egy folyó az összes felszíni vízfolyást magába gyűjti és elvezeti?
+    Answers: [vízgyűjtő terület]
+    Correct: [vízgyűjtő terület]
+
+  - Type: multiplechoice
+    Text: Mely torkolattípusokat kell felismerni?
+    Answers: [delta, tölcsér]
+    Correct: [delta, tölcsér]
+
+  - Type: singlechoice
+    Text: Milyen torkolata van a Dunának?
+    A: Delta
+    B: Tölcsér
+    C: Esztuárium
+    D: Lefolyástalan
+    Correct: A
+
+  - Type: word
+    Text: Melyik tengerbe ömlik a Duna?
+    Answers: [Fekete-tenger]
+    Correct: [Fekete-tenger]
+
+  - Type: singlechoice
+    Text: Mit csinál a folyó a hegyvidéken, ahol gyors a folyása?
+    A: Rombol, V alakú völgyet váj
+    B: Épít, zátonyokat rak le
+    C: Felhalmozza a hordalékot
+    D: Deltát épít
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit csinál a folyó a síkságon, ahol lelassul?
+    A: Épít, széles völgyet alakít ki, hordalékot rak le
+    B: Rombol, mélyíti a medret
+    C: Szorosokat váj
+    D: V alakú völgyet formál
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a vízállás?
+    A: A mederben lévő víz magasságát
+    B: A folyó hosszát
+    C: A folyó sebességét
+    D: A folyó mélységét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a vízjárás?
+    A: A folyók vízállásának többé-kevésbé szabályszerű változását
+    B: A folyó útját
+    C: A folyó táplálóit
+    D: A folyó torkolatát
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mikor áradnak a magyarországi folyók?
+    Answers: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt]
+    Correct: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt]
+
+  - Type: multiplechoice
+    Text: Milyen típusai vannak a tómedence kialakulásának?
+    Answers: [lesüllyedés, külső erők, holtág, emberi tevékenység]
+    Correct: [lesüllyedés, külső erők, holtág, emberi tevékenység]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a tó feltöltődésének fázisait!
+    Items:
+      - Vízinövények elszaporodása (fertő)
+      - Mocsarasodás
+      - A tó kiszáradása
+    Correct:
+      - Vízinövények elszaporodása (fertő)
+      - Mocsarasodás
+      - A tó kiszáradása
+
+  - Type: word
+    Text: Mi a neve az apró, lebegő élőlényeknek, amelyek a vizekben a legnagyobb egyedszámban fordulnak elő?
+    Answers: [plankton]
+    Correct: [plankton]
+
+  - Type: singlechoice
+    Text: Mi jellemzi a kagylókat és a rákokat?
+    A: Kemény külső váz védi őket, kopoltyúval lélegeznek
+    B: Tollazatuk van és repülnek
+    C: Szőrrel borított testük van
+    D: Tüdővel lélegeznek a szárazföldön
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen egyedfejlődés jellemzi a szitakötőt?
+    A: "Átváltozás: a lárva bábozódás nélkül alakul át"
+    B: Teljes átalakulás
+    C: Közvetlen fejlődés
+    D: Nincs egyedfejlődése
+    Correct: A
+
+  - Type: word
+    Text: Mi a halaknak az a szerve, amelynek gáztartalma szabályozható, és segítségével süllyednek vagy emelkednek?
+    Answers: [úszóhólyag]
+    Correct: [úszóhólyag]
+
+  - Type: word
+    Text: Melyik szerv fogja fel a halaknál a víz áramlását és rezgéseit?
+    Answers: [oldalvonal]
+    Correct: [oldalvonal]
+
+  - Type: word
+    Text: Hogyan nevezzük a béka lárváját?
+    Answers: [ebihal]
+    Correct: [ebihal]
+
+  - Type: singlechoice
+    Text: Hol él a mocsári teknős és mivel szaporodik?
+    A: Iszapos állóvizekben él, lágy héjú tojásokkal szaporodik
+    B: Gyors folyású folyókban él, elevenszülő
+    C: Tengerekben él, ikrával szaporodik
+    D: Erdőkben él, petével szaporodik
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a kétéltűek és hüllők téli nyugalmi állapotát?
+    Answers: [téli álom]
+    Correct: [téli álom]
+
+  - Type: singlechoice
+    Text: Mi a vízvirágzás?
+    A: A vízi növényzet gyors elszaporodása a műtrágyák bemosódása miatt
+    B: A víz megfagyása télen
+    C: A tavaszi hóolvadás
+    D: A halak tavaszi ívása
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük, amikor a gyárak a felmelegedett vizet engedik vissza a környezetbe?
+    Answers: [hőszennyezés]
+    Correct: [hőszennyezés]
+
+  - Type: multiplechoice
+    Text: Melyek a vízszennyezés megelőzésének módszerei?
+    Answers: [szennyvíztisztítás, csatornázás, ésszerű műtrágyázás, műtrágya túladagolás]
+    Correct: [szennyvíztisztítás, csatornázás, ésszerű műtrágyázás]
+
+  - Type: singlechoice
+    Text: Mivel lélegeznek a vízben élő állatok?
+    A: A vízben oldott oxigénnel
+    B: A levegő oxigénjével
+    C: A talaj levegőjével
+    D: Nem lélegeznek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a leggyakoribb kagyló a magyarországi vizekben?
+    A: Tavi kagyló
+    B: Folyami kagyló
+    C: Tengeri kagyló
+    D: Éti kagyló
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a kagylók?
+    A: Puhatestűek
+    B: Ízeltlábúak
+    C: Gerincesek
+    D: Rovarok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből áll a kagyló külső meszes héja?
+    A: Két teknőből
+    B: Egy teknőből
+    C: Három teknőből
+    D: Négy teknőből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel lélegeznek a kagylók?
+    A: Kopoltyúval
+    B: Tüdővel
+    C: Bőrrel
+    D: Kültakaróval
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a kagylók?
+    A: A vízből kiszűrt apró törmelékkel és planktonszervezetekkel
+    B: Halakkal
+    C: Vízinövényekkel
+    D: Rovarokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel tisztítják a kagylók a vizeket?
+    A: A víz kiszűrésével
+    B: A víz megivásával
+    C: A víz felmelegítésével
+    D: A víz keverésével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a vízi rákok?
+    A: Ízeltlábúak
+    B: Puhatestűek
+    C: Gerincesek
+    D: Férgek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi szilárdítja meg a rákok kitinpáncélját?
+    A: Mész
+    B: Vas
+    C: Homok
+    D: Szaru
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivé módosult a rákok első pár lába?
+    A: Ollóvá
+    B: Úszólábbá
+    C: Csáppá
+    D: Szárnnyá
+    Correct: A
+
+  - Type: word
+    Text: Melyik védett rákfaj él a folyó- és állóvizekben?
+    Answers: [kecskerák]
+    Correct: [kecskerák]
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartozik a szitakötő?
+    A: Rovarok
+    B: Puhatestűek
+    C: Halak
+    D: Kétéltűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkozik a szitakötő?
+    A: Rovarzsákmánnyal (szúnyog, légy)
+    B: Halakkal
+    C: Vízinövényekkel
+    D: Planktonnal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hová rakják a szitakötők a petéiket?
+    A: A vízbe
+    B: A partra
+    C: A levelekre
+    D: A talajba
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel lélegeznek a szitakötő lárvái?
+    A: Kopoltyúval
+    B: Tüdővel
+    C: Bőrrel
+    D: Csövekkel
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük azt az egyedfejlődési formát, amikor a lárva bábozódás nélkül alakul át kifejlett állattá?
+    Answers: [átváltozás]
+    Correct: [átváltozás]
+
+  - Type: singlechoice
+    Text: Mi jellemzi az átváltozással fejlődő állatokat?
+    A: A petéből kibújó lárva bábozódás nélkül alakul át kifejlett állattá
+    B: A petéből közvetlenül a kifejlett állat bújik ki
+    C: A lárva bebábozódik és úgy alakul át
+    D: Az állat nem szaporodik petével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a nőstény szúnyogok?
+    A: Állandó testhőmérsékletű állatok, emberek vérével
+    B: Növények nedvével
+    C: Planktonnal
+    D: Virágporral
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a hím szúnyogok?
+    A: Növények nedvével
+    B: Állatok vérével
+    C: Emberek vérével
+    D: Rovarokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen egyedfejlődésű a szúnyog, amelynek lárvái vízben élnek?
+    A: Teljes átalakulás
+    B: Átváltozás
+    C: Közvetlen fejlődés
+    D: Bábozódás nélküli fejlődés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a halak?
+    A: Vízben élő gerinces állatok
+    B: Vízben élő gerinctelen állatok
+    C: Ízeltlábúak
+    D: Puhatestűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért áramvonalas a halak testalkata?
+    A: Hogy kis ellenállással tudjanak úszni
+    B: Hogy jobban lássanak
+    C: Hogy könnyebben lélegezzenek
+    D: Hogy ne fázzanak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel csökkenti a halak bőrén lévő nyálkaréteg a súrlódást?
+    A: A vízben való mozgáskor
+    B: A levegőn
+    C: A szárazföldön
+    D: A homokban
+    Correct: A
+
+  - Type: word
+    Text: Milyen testhőmérsékletűek a halak?
+    Answers: [változó]
+    Correct: [változó]
+
+  - Type: singlechoice
+    Text: Melyik úszó található a hal testének végén és hajtja előre erőteljes csapásokkal?
+    A: Farokúszó
+    B: Hátúszó
+    C: Hasúszó
+    D: Mellúszó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire való a halak úszóhólyagja?
+    A: Gáztartalma szabályozható, így az állat lesüllyed vagy felemelkedik
+    B: A halak hangadására
+    C: A halak légzésére
+    D: A halak táplálkozására
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit fog fel a halak oldalvonala?
+    A: A víz áramlását és rezgéseit
+    B: A fényt
+    C: A hangokat a levegőben
+    D: A szagokat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a halak légzőszerve?
+    A: Kopoltyú
+    B: Tüdő
+    C: Bőr
+    D: Kültakaró
+    Correct: A
+
+  - Type: word
+    Text: Mivel szaporodnak a halak?
+    Answers: [ikra]
+    Correct: [ikra]
+
+  - Type: multiplechoice
+    Text: Melyek a halak testének jellemzői?
+    Answers: [áramvonalas test, nyálkaréteg, csontos pikkely, változó testhőmérséklet]
+    Correct: [áramvonalas test, nyálkaréteg, csontos pikkely, változó testhőmérséklet]
+
+  - Type: singlechoice
+    Text: Milyen két fő problémája lehet a vizeknek világméretekben?
+    A: Mennyiségi és minőségi probléma
+    B: Hőmérsékleti és színprobléma
+    C: Mélységi és szélességi probléma
+    D: Növényi és állati probléma
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a vizek mennyiségi problémái?
+    Answers: [áradások, vízhiány, szennyezés]
+    Correct: [áradások, vízhiány]
+
+  - Type: singlechoice
+    Text: Mit okozhat a vizek szennyezése?
+    A: A vízi élőhelyek lakhatatlanná válnak, a fajok elpusztulnak
+    B: A vizek mennyisége megnő
+    C: A vizek hőmérséklete csökken
+    D: A vizek tisztábbá válnak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi határozza meg elsősorban az édesvízkészleteket?
+    A: Az éghajlati adottságok
+    B: A lakosság száma
+    C: A folyók hossza
+    D: A tavak mélysége
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol találhatók a Föld legszárazabb területei, a sivatagok?
+    A: A térítők mentén
+    B: Az Egyenlítő mentén
+    C: A sarkvidékeken
+    D: A hegyvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol hullik nagyon kevés csapadék a kontinensek belső medencéiben?
+    A: A kontinensek belsőbb medencéiben
+    B: A tengerek partjain
+    C: A folyók mentén
+    D: A hegyvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mihez vezethet a vízhiány a sivatagi területeken?
+    A: A növénytermesztés és állattenyésztés csökkenéséhez, elterelésekhez, akár háborúkhoz
+    B: A csapadék növekedéséhez
+    C: A tavak kialakulásához
+    D: A folyók bővüléséhez
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki az elsődlegesen felelős a folyók, tavak és felszín alatti vizek elszennyezéséért?
+    A: A gazdaság
+    B: A turisták
+    C: A madarak
+    D: A természet
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely anyagok mosódhatnak ki a mezőgazdasági területekről a vizekbe?
+    Answers: [növényvédő szerek, műtrágyák, tiszta homok]
+    Correct: [növényvédő szerek, műtrágyák]
+
+  - Type: singlechoice
+    Text: Mi a vízvirágzás?
+    A: A vízi növényzet gyors elszaporodása a műtrágyák bemosódásának hatására
+    B: A víz felszínének felmelegedése
+    C: A víz kivirágzása tavasszal
+    D: A halak ívása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik, ha a vízvirágzás után a növényzet pusztulni kezd?
+    A: A bomlási folyamatok csökkentik a víz oxigénszintjét
+    B: A víz oxigénszintje megnő
+    C: A víz megtisztul
+    D: A halak elszaporodnak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a vízvirágzás végeredménye?
+    A: Az élővilág gyors pusztulása
+    B: Az élővilág gazdagodása
+    C: A víz kitisztulása
+    D: A tó feltöltődése
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a vízszennyezés megelőzésének módszerei?
+    Answers: [szennyvizek tisztítása, csatornázás, ésszerű műtrágyázás, túlhalászat]
+    Correct: [szennyvizek tisztítása, csatornázás, ésszerű műtrágyázás]
+
+  - Type: singlechoice
+    Text: Hogyan szennyezhetik a gyárak a vizeket?
+    A: Kiemelés és felhasználás közbeni szennyezéssel, tisztítás nélküli visszaengedéssel
+    B: Tiszta víz visszaengedésével
+    C: A víz lehűtésével
+    D: A víz elzárásával
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük, amikor a gyárak a felmelegedett vizet engedik vissza a környezetbe?
+    Answers: [hőszennyezés]
+    Correct: [hőszennyezés]
+
+  - Type: singlechoice
+    Text: Mi kerül a vízbe a sérült olajszállító hajókból?
+    A: Kőolaj és származékai
+    B: Tiszta ivóvíz
+    C: Homok
+    D: Műtrágya
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért káros az olaj a víz felszínén?
+    A: Elzárja a napfényt és gátolja a gázcserét
+    B: Megtisztítja a vizet
+    C: Táplálékot ad a halaknak
+    D: Felmelegíti a vizet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért pusztulnak el a tengeri madarak az olajszennyezéskor?
+    A: A tollazatuk összeragad az olajtól
+    B: Mert megfulladnak a vízben
+    C: Mert nem találnak halat
+    D: Mert a napfény károsítja őket
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely tevékenységek okoznak lakossági vízszennyezést?
+    Answers: [mosás, mosogatás, fürdés, WC öblítése]
+    Correct: [mosás, mosogatás, fürdés, WC öblítése]
+
+  - Type: word
+    Text: Mit kell tennünk a vízzel való bánásmódban a szennyezés csökkentése érdekében?
+    Answers: [takarékoskodás]
+    Correct: [takarékoskodás]
+
+  - Type: singlechoice
+    Text: Mi határozza meg elsősorban a vízi életközösségek kialakulását és az ott élő élőlények életmódját?
+    A: A víz áramlási sebessége és mélysége
+    B: A víz hőmérséklete és színe
+    C: A part növényzete
+    D: Az évszakok váltakozása
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az apró, úszó, lebegő élőlényeket, amelyek a legnagyobb egyedszámban fordulnak elő a vizekben?
+    Answers: [plankton]
+    Correct: [plankton]
+
+  - Type: singlechoice
+    Text: Mit csinálnak a növényi tulajdonsággal rendelkező planktonszervezetek?
+    A: Fotoszintetizálnak, zöld színtestet tartalmaznak
+    B: Csak lebegnek a vízben
+    C: A fenéken élnek
+    D: Más élőlényeket fognak be
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel növelik a növényi planktonszervezetek a vízben oldott oxigén mennyiségét?
+    A: Fotoszintézissel
+    B: Légzéssel
+    C: Bomlással
+    D: Párolgással
+    Correct: A
+
+  - Type: word
+    Text: Melyik növényi tulajdonságú plankton példája a zöldmoszat?
+    Answers: [zöldmoszat]
+    Correct: [zöldmoszat]
+
+  - Type: multiplechoice
+    Text: Mely élőlények rendelkeznek állati sajátosságokkal a planktonban?
+    Answers: [papucsállatka, amőba, zöld szemesostoros, békalencse]
+    Correct: [papucsállatka, amőba, zöld szemesostoros]
+
+  - Type: singlechoice
+    Text: Mivel mozog a papucsállatka?
+    A: Csillókkal
+    B: Állábbal
+    C: Ostorral
+    D: Úszólábbal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel mozog az amőba?
+    A: Állábbal
+    B: Csillókkal
+    C: Ostorral
+    D: Szárnnyal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi található a zöld szemesostoroson, ami a fény felé történő mozgást teszi lehetővé?
+    A: Piros szemfolt
+    B: Kék szemfolt
+    C: Zöld színtest
+    D: Csillók
+    Correct: A
+
+  - Type: word
+    Text: Mi a folyók, tavak mélyebb vizű részeinek jellemző növényzete?
+    Answers: [hínár]
+    Correct: [hínár]
+
+  - Type: singlechoice
+    Text: Melyik lebegő életmódot folytató vízinövény a madarak tápláléka?
+    A: Békalencse
+    B: Tündérrózsa
+    C: Nád
+    D: Gyékény
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik gyökerező hínárnövény levelei nagy felületűek, viaszosak és a víz felszínén úsznak?
+    A: Tündérrózsa
+    B: Békalencse
+    C: Nád
+    D: Mocsári zsurló
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Miért fontos a nádas a vízi világ számára?
+    Answers: [táplálkozóhely, szaporodóhely, búvóhely, díszítő funkció]
+    Correct: [táplálkozóhely, szaporodóhely, búvóhely]
+
+  - Type: singlechoice
+    Text: Hogyan segíti a nádas a vizek öntisztulását?
+    A: Megköti a szennyezőanyagokat, így azok nem jutnak ki a nyílt vízre
+    B: Elpárologtatja a szennyező anyagokat
+    C: Oxigént termel a szennyező anyagokból
+    D: Elfedi a szennyezést
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit akadályoznak meg a nádasok a partokon?
+    A: A partok pusztulását
+    B: A halak vándorlását
+    C: A víz párolgását
+    D: A csapadék lehullását
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely növények jellemzőek a nedves rétekre, a mocsárrétekre?
+    Answers: [mocsári zsurló, mocsári gólyahír, tölgy]
+    Correct: [mocsári zsurló, mocsári gólyahír]
+
+  - Type: singlechoice
+    Text: Melyik erdőtípus él közelebb a vízparthoz és bírja ki a több hetes víz alatt létet?
+    A: Puhafás ligeterdő
+    B: Keményfás ligeterdő
+    C: Fenyves
+    D: Akácos
+    Correct: A
+
+  - Type: word
+    Text: Mely fái jellemzőek a puhafás ligeterdőnek?
+    Answers: [füzek, nyárak]
+    Correct: [füzek, nyárak]
+
+  - Type: multiplechoice
+    Text: Mely fák jellemzőek a keményfás ligeterdőre?
+    Answers: [tölgy, kőris, szil, fűz]
+    Correct: [tölgy, kőris, szil]
+
+  - Type: singlechoice
+    Text: Melyik erdőtípusba jut el ritkán az árvíz?
+    A: Keményfás ligeterdő
+    B: Puhafás ligeterdő
+    C: Mocsárrét
+    D: Nádas
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a kétéltűek?
+    A: Gerinces állatok
+    B: Gerinctelen állatok
+    C: Ízeltlábúak
+    D: Puhatestűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol éli élete első szakaszát a kétéltűek lárvája?
+    A: A vízben
+    B: A szárazföldön
+    C: A levegőben
+    D: A talajban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol folytatják életüket a kétéltűek az átalakulás után?
+    A: A szárazföldön
+    B: A vízben
+    C: A levegőben
+    D: A talaj alatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen védettségi állapotban vannak a hazai kétéltűek?
+    A: Védett fajok
+    B: Nem védett fajok
+    C: Kipusztult fajok
+    D: Kártevő fajok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állat az élővizek partjainak gyakori lakója, erős izmos ugrólábbal?
+    A: Kecskebéka
+    B: Vízisikló
+    C: Mocsári teknős
+    D: Tőkés réce
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi feszül a kecskebéka ujjai között?
+    A: Úszóhártya
+    B: Toll
+    C: Pikkely
+    D: Szőr
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Hogyan lélegzik a kecskebéka?
+    Answers: [tüdővel, bőrrel, kopoltyúval]
+    Correct: [tüdővel, bőrrel]
+
+  - Type: singlechoice
+    Text: Miért kell a kecskebéka bőrének mindig nedvesnek lennie?
+    A: Mert bőrlégzést végez
+    B: Mert így tud ugrani
+    C: Mert így védi a bőrét
+    D: Mert így jobban lát
+    Correct: A
+
+  - Type: word
+    Text: Milyen testhőmérsékletű a kecskebéka?
+    Answers: [változó]
+    Correct: [változó]
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a béka petéből kikelő lárváját?
+    A: Ebihal
+    B: Fióka
+    C: Lárva
+    D: Kopoltyú
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen jellemzői vannak az ebihalnak?
+    Answers: [úszóval mozog, kopoltyúval lélegzik, később kinőnek a lábai]
+    Correct: [úszóval mozog, kopoltyúval lélegzik, később kinőnek a lábai]
+
+  - Type: singlechoice
+    Text: Mi történik az ebihal fejlődése során?
+    A: Kinőnek a lábai, kialakul a tüdeje, úszói és kopoltyúja eltűnik
+    B: Megnő a farka és kopoltyúja
+    C: Tollakat növeszt
+    D: Páncélt növeszt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartozik a vízisikló?
+    A: Hüllők
+    B: Kétéltűek
+    C: Emlősök
+    D: Halak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartozik a vízisikló a hüllőkön belül?
+    A: Kígyók
+    B: Gyíkok
+    C: Teknősök
+    D: Krokodilok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi védi a vízisikló testét a kiszáradástól?
+    A: Száraz szarupikkely
+    B: Nyálkaréteg
+    C: Tollazat
+    D: Szőrzet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel szaporodik a vízisikló?
+    A: Tojással
+    B: Élő utódokkal
+    C: Petével
+    D: Ikrával
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hová rakja a nőstény vízisikló a lágy héjú tojásait?
+    A: A meleg talajba
+    B: A vízbe
+    C: A fészekbe
+    D: A kövek alá
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi kelti ki a vízisikló tojásait?
+    A: A Nap melege
+    B: A szülők ülnek rajtuk
+    C: A víz hője
+    D: A talaj nedvessége
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan fejlődnek a vízisikló utódai?
+    A: Átalakulás nélkül, a szüleikhez hasonlóan
+    B: Átalakulással
+    C: Bábozódással
+    D: Lárvaállapoton keresztül
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi borítja a mocsári teknős testét?
+    A: Vastag csontlemezekből és szaruból álló páncél
+    B: Száraz szarupikkely
+    C: Tollazat
+    D: Nyálkaréteg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tesz a mocsári teknős veszély esetén?
+    A: Visszahúzza fejét és végtagjait a páncélba
+    B: Elszalad
+    C: Víz alá bukik
+    D: Megtámad
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen vizekben él a mocsári teknős?
+    A: Iszapos, vízinövényekkel sűrűn benőtt állóvizekben
+    B: Gyors folyású hegyi patakokban
+    C: Sós tengervízben
+    D: Mély tavak nyílt vizében
+    Correct: A
+
+  - Type: word
+    Text: Milyen táplálkozású a mocsári teknős?
+    Answers: [vegyes]
+    Correct: [vegyes]
+
+  - Type: singlechoice
+    Text: Hogyan töltik a kétéltűek és hüllők a kedvezőtlen téli időszakot?
+    A: Téli álommal, nyugalmi állapotban
+    B: Délre költöznek
+    C: Folyamatosan táplálkoznak
+    D: Megfagynak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit égetnek el a téli álmot alvó állatok?
+    A: Az ősszel felhalmozott tartalék energiákat (zsírt)
+    B: A frissen fogyasztott táplálékot
+    C: A vizet a testükből
+    D: A csontjaik anyagát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a leggyakoribb vízimadár Magyarországon?
+    A: Tőkés réce
+    B: Fehér gólya
+    C: Fecske
+    D: Sirály
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen alakú a tőkés réce teste?
+    A: Csónak alakú
+    B: Gömb alakú
+    C: Lencse alakú
+    D: Cső alakú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen lába van a tőkés récének?
+    A: Úszóláb, ujjai között úszóhártyával
+    B: Gázlóláb
+    C: Karmokkal ellátott láb
+    D: Ugróláb
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen csőre van a tőkés récének?
+    A: Lemezes csőr
+    B: Horgas csőr
+    C: Hosszú hegyes csőr
+    D: Széles lapos csőr
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mivel keni be a tőkés réce a tollait, hogy ne ázzanak el?
+    Answers: [farkcsíkmirigy olajos váladéka, zsír]
+    Correct: [farkcsíkmirigy olajos váladéka]
+
+  - Type: singlechoice
+    Text: Milyen a tőkés réce hímjeinek tollazata?
+    A: Feltűnő
+    B: Barna
+    C: Fekete
+    D: Fehér
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tőkés réce tojójának tollazata?
+    A: Barna
+    B: Feltűnő, színes
+    C: Fekete-fehér
+    D: Kék
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színűek a fehér gólya szárnytollai?
+    A: Fekete
+    B: Fehér
+    C: Barna
+    D: Vörös
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol fészkel a fehér gólya?
+    A: Az ember környezetében
+    B: A sűrű erdőkben
+    C: A víz alatt
+    D: A barlangokban
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mivel táplálkozik a fehér gólya?
+    Answers: [halak, rovarok, békák, kisemlősök]
+    Correct: [halak, rovarok, békák, kisemlősök]
+
+  - Type: word
+    Text: Milyen lába van a fehér gólyának?
+    Answers: [gázlóláb]
+    Correct: [gázlóláb]
+
+  - Type: singlechoice
+    Text: Hol tölti a telet a fehér gólya?
+    A: Afrikában
+    B: Magyarországon
+    C: Európa északi részén
+    D: Ázsiában
+    Correct: A

@@ -1,0 +1,126 @@
+Quiz: A felszíni és felszín alatti vizek
+Question:
+  - Type: singlechoice
+    Text: Mi környezetünk egyik legfontosabb anyaga, az élet alapvető eleme?
+    A: Levegő
+    B: Víz
+    C: Talaj
+    D: Kőzet
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Hol fordulhat elő a víz a felszínen?
+    Answers: [patakok, folyók, tavak, tengerek, karsztvíz]
+    Correct: [patakok, folyók, tavak, tengerek]
+
+  - Type: multiplechoice
+    Text: Hol fordulhat elő a víz a felszín alatt?
+    Answers: [felszín alatti vizek, karsztvíz, patakok, tavak]
+    Correct: [felszín alatti vizek, karsztvíz, patakok, tavak]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a víz körforgásának állomásait!
+    Items:
+      - Párolgás
+      - Felhőképződés
+      - Csapadék
+      - Beszivárgás a talajba
+    Correct:
+      - Párolgás
+      - Felhőképződés
+      - Csapadék
+      - Beszivárgás a talajba
+
+  - Type: word
+    Text: Hogyan nevezzük a talajszemcsék felületén megkötődött vizet?
+    Answers: [talajnedvesség]
+    Correct: [talajnedvesség]
+
+  - Type: singlechoice
+    Text: Melyik víz raktározódik talajnedvesség formájában és nagyon fontos a növények számára?
+    A: A felszínre hulló csapadék beszivárgó része
+    B: A folyók vize
+    C: A tenger vize
+    D: A hévíz
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük azt a vizet, amely a mélyebb rétegekben teljesen kitölti a talajszemcsék közti teret?
+    Answers: [talajvíz]
+    Correct: [talajvíz]
+
+  - Type: singlechoice
+    Text: Miért káros a növényekre, ha túl magasan áll a talajvíz?
+    A: Mert túl sok vizet kapnak
+    B: Mert a gyökereiken keresztül nem jutnak levegőhöz és elhalnak
+    C: Mert a leveleik leégnek
+    D: Mert nem tudnak fotoszintetizálni
+    Correct: B
+
+  - Type: multiplechoice
+    Text: Mely kőzetek tartoznak a víztartó kőzetek közé?
+    Answers: [mészkő, homok, agyag, gránit]
+    Correct: [mészkő, homok]
+
+  - Type: word
+    Text: Melyik a vízzáró kőzet, amely elzárja a víz útját?
+    Answers: [agyag]
+    Correct: [agyag]
+
+  - Type: singlechoice
+    Text: Hogyan keletkezik az artézi víz?
+    A: Két vízzáró réteg közé zárt víztartó rétegből kerül a felszínre
+    B: A folyók hordalékából
+    C: A tengervíz párolgásából
+    D: A csapadékból közvetlenül
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik területen fontos az artézi víz az ivóvízellátásban?
+    A: Hegyvidéken
+    B: Az Alföldön
+    C: A tengerek partján
+    D: A sivatagokban
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mikor old magába több ásványi anyagot a felszín alatti víz?
+    A: Ha minél hosszabb utat tesz meg
+    B: Ha minél sekélyebben folyik
+    C: Ha minél gyorsabban áramlik
+    D: Ha a felszínhez közel van
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a gyógyító hatással rendelkező ásványvizet?
+    Answers: [gyógyvíz]
+    Correct: [gyógyvíz]
+
+  - Type: singlechoice
+    Text: Melyik vizet nevezzük hévíznek?
+    A: Amelyik 20 °C-nál melegebb a mélyből érkezik
+    B: Amelyik 10 °C-nál hidegebb
+    C: Amelyik a felszínen áll
+    D: Amelyik a folyókból származik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire használják energiaforrásként a hévizet?
+    A: Fűtésre (fóliasátrak, lakások, épületek)
+    B: Kizárólag ivásra
+    C: Hajózásra
+    D: Öntözésre csak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Hogyan szennyeződhetnek a felszín alatti vizek?
+    Answers: [gyári szennyvíz, nem megfelelően tárolt lakossági hulladék, csatornahiány, tiszta csapadékvíz]
+    Correct: [gyári szennyvíz, nem megfelelően tárolt lakossági hulladék, csatornahiány]
+
+  - Type: singlechoice
+    Text: Mit károsítanak a talajba kerülő szennyező anyagok?
+    A: A kutak vizét, a növényeket, a talajban élő állatokat és a felszíni vizeket
+    B: Kizárólag a levegőt
+    C: Csak a felszín alatti kőzeteket
+    D: Semmit sem
+    Correct: A

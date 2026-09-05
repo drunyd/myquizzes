@@ -1,0 +1,193 @@
+Quiz: A folyók
+Question:
+  - Type: singlechoice
+    Text: Milyen formában jut a felszínre a felszín alatti víz?
+    A: Források formájában
+    B: Eső formájában
+    C: Köd formájában
+    D: Hó formájában
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a vízfolyásokat nagyság szerint (kicsitől a nagyig)!
+    Items:
+      - Ér
+      - Csermely
+      - Patak
+      - Folyó
+      - Folyam
+    Correct:
+      - Ér
+      - Csermely
+      - Patak
+      - Folyó
+      - Folyam
+
+  - Type: multiplechoice
+    Text: Melyek a felszíni vízfolyások táplálói?
+    Answers: [forrás, lehulló csapadék, olvadó jég, olvadó hó, tó]
+    Correct: [forrás, lehulló csapadék, olvadó jég, olvadó hó, tó]
+
+  - Type: singlechoice
+    Text: Mi a vízgyűjtő terület?
+    A: A felszín azon területe, ahonnan egy folyó az összes felszíni vízfolyást magába gyűjti és elvezeti
+    B: A terület, ahová a folyó hordalékát lerakja
+    C: A folyó medrének mélyebb része
+    D: A folyó torkolatának környéke
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a vízgyűjtő terület legnagyobb folyóját?
+    Answers: [főfolyó]
+    Correct: [főfolyó]
+
+  - Type: word
+    Text: Hogyan nevezzük a főfolyóba torkolló kisebb folyókat?
+    Answers: [mellékfolyó]
+    Correct: [mellékfolyó]
+
+  - Type: singlechoice
+    Text: Mi választja el egymástól a vízgyűjtő területeket?
+    A: Vízválasztók
+    B: Delták
+    C: Zátonyok
+    D: Szigetek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol futnak általában a vízválasztók?
+    A: Hegygerinceken, kiemelkedéseken
+    B: A folyóvölgyek alján
+    C: A tavak közepén
+    D: A tengerpartokon
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely vízgyűjtő területhez tartoznak Magyarország felszíni vízfolyásai?
+    A: A Duna vízgyűjtő területéhez
+    B: A Tisza vízgyűjtő területéhez
+    C: A Dráva vízgyűjtő területéhez
+    D: A Balaton vízgyűjtő területéhez
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely hegységek a Duna vízgyűjtő területének vízválasztói hazánkban?
+    Answers: [Alpok, Kárpátok, Mecsek, Bükk]
+    Correct: [Alpok, Kárpátok]
+
+  - Type: word
+    Text: Melyik a Duna legnagyobb mellékfolyója Magyarországon?
+    Answers: [Tisza]
+    Correct: [Tisza]
+
+  - Type: singlechoice
+    Text: Honnan kezdik mérni a folyók hosszát?
+    A: Az eredéstől
+    B: A torkolattól
+    C: A vízválasztótól
+    D: A főfolyótól
+    Correct: B
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a bal oldalról érkező mellékfolyót, ha a főfolyó folyásirányába állunk?
+    A: Bal parti mellékfolyó
+    B: Jobb parti mellékfolyó
+    C: Főfolyó
+    D: Vízválasztó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Merre folynak mindig a folyók?
+    A: A magasabban fekvő területek felől az alacsonyabban fekvők felé
+    B: Az alacsonyabban fekvő területek felől a magasabban fekvők felé
+    C: Mindig északról délre
+    D: Mindig keletről nyugatra
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol a legnagyobb a folyók sebessége?
+    A: A hegyvidékek nagy lejtésű területein
+    B: A síkságokon
+    C: A torkolat közelében
+    D: A tavakban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit vájnak a gyors folyású hegyi folyók?
+    A: Mély, V alakú völgyeket
+    B: Széles, lapos völgyeket
+    C: Tavakat
+    D: Deltákat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik, ha a folyó a hegyekből kilépve lelassul?
+    A: Széles folyóvölgy alakul ki és a hordalékból zátonyokat, szigeteket épít
+    B: Mélyebb V alakú völgyet váj
+    C: Meredek falú szorosokat alakít ki
+    D: Vízgyűjtő területe jön létre
+    Correct: A
+
+  - Type: word
+    Text: Mi a neve a mederben lévő víz magasságának?
+    Answers: [vízállás]
+    Correct: [vízállás]
+
+  - Type: word
+    Text: Hogyan nevezzük a folyók vízállásának többé-kevésbé szabályszerű változását?
+    Answers: [vízjárás]
+    Correct: [vízjárás]
+
+  - Type: multiplechoice
+    Text: Mi befolyásolja a folyók vízjárását?
+    Answers: [a vízgyűjtő terület éghajlata, a lehulló csapadék időbeli eloszlása, a folyó hossza]
+    Correct: [a vízgyűjtő terület éghajlata, a lehulló csapadék időbeli eloszlása]
+
+  - Type: multiplechoice
+    Text: Mikor áradnak évente kétszer a magyarországi folyók?
+    Answers: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt, télen, ősszel]
+    Correct: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt]
+
+  - Type: word
+    Text: Melyik hegységben ered a Duna?
+    Answers: [Fekete-erdő]
+    Correct: [Fekete-erdő]
+
+  - Type: word
+    Text: Melyik országban ered a Duna?
+    Answers: [Németország]
+    Correct: [Németország]
+
+  - Type: singlechoice
+    Text: Melyik tengerbe ömlik a Duna?
+    A: Fekete-tenger
+    B: Balti-tenger
+    C: Északi-tenger
+    D: Adriai-tenger
+    Correct: A
+
+  - Type: word
+    Text: Milyen torkolata van a Dunának?
+    Answers: [delta]
+    Correct: [delta]
+
+  - Type: singlechoice
+    Text: Miért nevezik delta torkolatnak?
+    A: Mert a görög ABC delta betűjére hasonlít
+    B: Mert egy delta nevű szigeten van
+    C: Mert deltában fekszik
+    D: Mert a delta szó torkolatot jelent
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a lefolyástalan terület?
+    A: Olyan terület, ahonnan a folyók nem jutnak el a tengerig, óceánig
+    B: A folyók torkolatánál lévő terület
+    C: A vízválasztók közötti terület
+    D: A folyó forrásánál lévő terület
+    Correct: A
+
+  - Type: word
+    Text: Melyik terület a lefolyástalan terület példája?
+    Answers: [Okavango, Kalahári-medence]
+    Correct: [Kalahári-medence]

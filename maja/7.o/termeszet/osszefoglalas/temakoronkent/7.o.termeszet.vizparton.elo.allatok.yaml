@@ -1,0 +1,276 @@
+Quiz: Vízparton élő állatok
+Question:
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a kétéltűek?
+    A: Gerinces állatok
+    B: Gerinctelen állatok
+    C: Ízeltlábúak
+    D: Puhatestűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol éli élete első szakaszát a kétéltűek lárvája?
+    A: A vízben
+    B: A szárazföldön
+    C: A levegőben
+    D: A talajban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol folytatják életüket a kétéltűek az átalakulás után?
+    A: A szárazföldön
+    B: A vízben
+    C: A levegőben
+    D: A talaj alatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen védettségi állapotban vannak a hazai kétéltűek?
+    A: Védett fajok
+    B: Nem védett fajok
+    C: Kipusztult fajok
+    D: Kártevő fajok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állat az élővizek partjainak gyakori lakója, erős izmos ugrólábbal?
+    A: Kecskebéka
+    B: Vízisikló
+    C: Mocsári teknős
+    D: Tőkés réce
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi feszül a kecskebéka ujjai között?
+    A: Úszóhártya
+    B: Toll
+    C: Pikkely
+    D: Szőr
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Hogyan lélegzik a kecskebéka?
+    Answers: [tüdővel, bőrrel, kopoltyúval]
+    Correct: [tüdővel, bőrrel]
+
+  - Type: singlechoice
+    Text: Miért kell a kecskebéka bőrének mindig nedvesnek lennie?
+    A: Mert bőrlégzést végez
+    B: Mert így tud ugrani
+    C: Mert így védi a bőrét
+    D: Mert így jobban lát
+    Correct: A
+
+  - Type: word
+    Text: Milyen testhőmérsékletű a kecskebéka?
+    Answers: [változó]
+    Correct: [változó]
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a béka petéből kikelő lárváját?
+    A: Ebihal
+    B: Fióka
+    C: Lárva
+    D: Kopoltyú
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen jellemzői vannak az ebihalnak?
+    Answers: [úszóval mozog, kopoltyúval lélegzik, később kinőnek a lábai]
+    Correct: [úszóval mozog, kopoltyúval lélegzik, később kinőnek a lábai]
+
+  - Type: singlechoice
+    Text: Mi történik az ebihal fejlődése során?
+    A: Kinőnek a lábai, kialakul a tüdeje, úszói és kopoltyúja eltűnik
+    B: Megnő a farka és kopoltyúja
+    C: Tollakat növeszt
+    D: Páncélt növeszt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartozik a vízisikló?
+    A: Hüllők
+    B: Kétéltűek
+    C: Emlősök
+    D: Halak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartozik a vízisikló a hüllőkön belül?
+    A: Kígyók
+    B: Gyíkok
+    C: Teknősök
+    D: Krokodilok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi védi a vízisikló testét a kiszáradástól?
+    A: Száraz szarupikkely
+    B: Nyálkaréteg
+    C: Tollazat
+    D: Szőrzet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel szaporodik a vízisikló?
+    A: Tojással
+    B: Élő utódokkal
+    C: Petével
+    D: Ikrával
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hová rakja a nőstény vízisikló a lágy héjú tojásait?
+    A: A meleg talajba
+    B: A vízbe
+    C: A fészekbe
+    D: A kövek alá
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi kelti ki a vízisikló tojásait?
+    A: A Nap melege
+    B: A szülők ülnek rajtuk
+    C: A víz hője
+    D: A talaj nedvessége
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan fejlődnek a vízisikló utódai?
+    A: Átalakulás nélkül, a szüleikhez hasonlóan
+    B: Átalakulással
+    C: Bábozódással
+    D: Lárvaállapoton keresztül
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi borítja a mocsári teknős testét?
+    A: Vastag csontlemezekből és szaruból álló páncél
+    B: Száraz szarupikkely
+    C: Tollazat
+    D: Nyálkaréteg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tesz a mocsári teknős veszély esetén?
+    A: Visszahúzza fejét és végtagjait a páncélba
+    B: Elszalad
+    C: Víz alá bukik
+    D: Megtámad
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen vizekben él a mocsári teknős?
+    A: Iszapos, vízinövényekkel sűrűn benőtt állóvizekben
+    B: Gyors folyású hegyi patakokban
+    C: Sós tengervízben
+    D: Mély tavak nyílt vizében
+    Correct: A
+
+  - Type: word
+    Text: Milyen táplálkozású a mocsári teknős?
+    Answers: [vegyes]
+    Correct: [vegyes]
+
+  - Type: singlechoice
+    Text: Hogyan töltik a kétéltűek és hüllők a kedvezőtlen téli időszakot?
+    A: Téli álommal, nyugalmi állapotban
+    B: Délre költöznek
+    C: Folyamatosan táplálkoznak
+    D: Megfagynak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit égetnek el a téli álmot alvó állatok?
+    A: Az ősszel felhalmozott tartalék energiákat (zsírt)
+    B: A frissen fogyasztott táplálékot
+    C: A vizet a testükből
+    D: A csontjaik anyagát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a leggyakoribb vízimadár Magyarországon?
+    A: Tőkés réce
+    B: Fehér gólya
+    C: Fecske
+    D: Sirály
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen alakú a tőkés réce teste?
+    A: Csónak alakú
+    B: Gömb alakú
+    C: Lencse alakú
+    D: Cső alakú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen lába van a tőkés récének?
+    A: Úszóláb, ujjai között úszóhártyával
+    B: Gázlóláb
+    C: Karmokkal ellátott láb
+    D: Ugróláb
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen csőre van a tőkés récének?
+    A: Lemezes csőr
+    B: Horgas csőr
+    C: Hosszú hegyes csőr
+    D: Széles lapos csőr
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mivel keni be a tőkés réce a tollait, hogy ne ázzanak el?
+    Answers: [farkcsíkmirigy olajos váladéka, zsír]
+    Correct: [farkcsíkmirigy olajos váladéka]
+
+  - Type: singlechoice
+    Text: Milyen a tőkés réce hímjeinek tollazata?
+    A: Feltűnő
+    B: Barna
+    C: Fekete
+    D: Fehér
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tőkés réce tojójának tollazata?
+    A: Barna
+    B: Feltűnő, színes
+    C: Fekete-fehér
+    D: Kék
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színűek a fehér gólya szárnytollai?
+    A: Fekete
+    B: Fehér
+    C: Barna
+    D: Vörös
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol fészkel a fehér gólya?
+    A: Az ember környezetében
+    B: A sűrű erdőkben
+    C: A víz alatt
+    D: A barlangokban
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mivel táplálkozik a fehér gólya?
+    Answers: [halak, rovarok, békák, kisemlősök]
+    Correct: [halak, rovarok, békák, kisemlősök]
+
+  - Type: word
+    Text: Milyen lába van a fehér gólyának?
+    Answers: [gázlóláb]
+    Correct: [gázlóláb]
+
+  - Type: singlechoice
+    Text: Hol tölti a telet a fehér gólya?
+    A: Afrikában
+    B: Magyarországon
+    C: Európa északi részén
+    D: Ázsiában
+    Correct: A

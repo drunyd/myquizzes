@@ -1,0 +1,137 @@
+Quiz: A vízi és vízparti növények
+Question:
+  - Type: singlechoice
+    Text: Mi határozza meg elsősorban a vízi életközösségek kialakulását és az ott élő élőlények életmódját?
+    A: A víz áramlási sebessége és mélysége
+    B: A víz hőmérséklete és színe
+    C: A part növényzete
+    D: Az évszakok váltakozása
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az apró, úszó, lebegő élőlényeket, amelyek a legnagyobb egyedszámban fordulnak elő a vizekben?
+    Answers: [plankton]
+    Correct: [plankton]
+
+  - Type: singlechoice
+    Text: Mit csinálnak a növényi tulajdonsággal rendelkező planktonszervezetek?
+    A: Fotoszintetizálnak, zöld színtestet tartalmaznak
+    B: Csak lebegnek a vízben
+    C: A fenéken élnek
+    D: Más élőlényeket fognak be
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel növelik a növényi planktonszervezetek a vízben oldott oxigén mennyiségét?
+    A: Fotoszintézissel
+    B: Légzéssel
+    C: Bomlással
+    D: Párolgással
+    Correct: A
+
+  - Type: word
+    Text: Melyik növényi tulajdonságú plankton példája a zöldmoszat?
+    Answers: [zöldmoszat]
+    Correct: [zöldmoszat]
+
+  - Type: multiplechoice
+    Text: Mely élőlények rendelkeznek állati sajátosságokkal a planktonban?
+    Answers: [papucsállatka, amőba, zöld szemesostoros, békalencse]
+    Correct: [papucsállatka, amőba, zöld szemesostoros]
+
+  - Type: singlechoice
+    Text: Mivel mozog a papucsállatka?
+    A: Csillókkal
+    B: Állábbal
+    C: Ostorral
+    D: Úszólábbal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel mozog az amőba?
+    A: Állábbal
+    B: Csillókkal
+    C: Ostorral
+    D: Szárnnyal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi található a zöld szemesostoroson, ami a fény felé történő mozgást teszi lehetővé?
+    A: Piros szemfolt
+    B: Kék szemfolt
+    C: Zöld színtest
+    D: Csillók
+    Correct: A
+
+  - Type: word
+    Text: Mi a folyók, tavak mélyebb vizű részeinek jellemző növényzete?
+    Answers: [hínár]
+    Correct: [hínár]
+
+  - Type: singlechoice
+    Text: Melyik lebegő életmódot folytató vízinövény a madarak tápláléka?
+    A: Békalencse
+    B: Tündérrózsa
+    C: Nád
+    D: Gyékény
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik gyökerező hínárnövény levelei nagy felületűek, viaszosak és a víz felszínén úsznak?
+    A: Tündérrózsa
+    B: Békalencse
+    C: Nád
+    D: Mocsári zsurló
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Miért fontos a nádas a vízi világ számára?
+    Answers: [táplálkozóhely, szaporodóhely, búvóhely, díszítő funkció]
+    Correct: [táplálkozóhely, szaporodóhely, búvóhely]
+
+  - Type: singlechoice
+    Text: Hogyan segíti a nádas a vizek öntisztulását?
+    A: Megköti a szennyezőanyagokat, így azok nem jutnak ki a nyílt vízre
+    B: Elpárologtatja a szennyező anyagokat
+    C: Oxigént termel a szennyező anyagokból
+    D: Elfedi a szennyezést
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit akadályoznak meg a nádasok a partokon?
+    A: A partok pusztulását
+    B: A halak vándorlását
+    C: A víz párolgását
+    D: A csapadék lehullását
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely növények jellemzőek a nedves rétekre, a mocsárrétekre?
+    Answers: [mocsári zsurló, mocsári gólyahír, tölgy]
+    Correct: [mocsári zsurló, mocsári gólyahír]
+
+  - Type: singlechoice
+    Text: Melyik erdőtípus él közelebb a vízparthoz és bírja ki a több hetes víz alatt létet?
+    A: Puhafás ligeterdő
+    B: Keményfás ligeterdő
+    C: Fenyves
+    D: Akácos
+    Correct: A
+
+  - Type: word
+    Text: Mely fái jellemzőek a puhafás ligeterdőnek?
+    Answers: [füzek, nyárak]
+    Correct: [füzek, nyárak]
+
+  - Type: multiplechoice
+    Text: Mely fák jellemzőek a keményfás ligeterdőre?
+    Answers: [tölgy, kőris, szil, fűz]
+    Correct: [tölgy, kőris, szil]
+
+  - Type: singlechoice
+    Text: Melyik erdőtípusba jut el ritkán az árvíz?
+    A: Keményfás ligeterdő
+    B: Puhafás ligeterdő
+    C: Mocsárrét
+    D: Nádas
+    Correct: A

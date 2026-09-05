@@ -1,0 +1,226 @@
+Quiz: Vízben élő állatok
+Question:
+  - Type: singlechoice
+    Text: Mivel lélegeznek a vízben élő állatok?
+    A: A vízben oldott oxigénnel
+    B: A levegő oxigénjével
+    C: A talaj levegőjével
+    D: Nem lélegeznek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a leggyakoribb kagyló a magyarországi vizekben?
+    A: Tavi kagyló
+    B: Folyami kagyló
+    C: Tengeri kagyló
+    D: Éti kagyló
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a kagylók?
+    A: Puhatestűek
+    B: Ízeltlábúak
+    C: Gerincesek
+    D: Rovarok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből áll a kagyló külső meszes héja?
+    A: Két teknőből
+    B: Egy teknőből
+    C: Három teknőből
+    D: Négy teknőből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel lélegeznek a kagylók?
+    A: Kopoltyúval
+    B: Tüdővel
+    C: Bőrrel
+    D: Kültakaróval
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a kagylók?
+    A: A vízből kiszűrt apró törmelékkel és planktonszervezetekkel
+    B: Halakkal
+    C: Vízinövényekkel
+    D: Rovarokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel tisztítják a kagylók a vizeket?
+    A: A víz kiszűrésével
+    B: A víz megivásával
+    C: A víz felmelegítésével
+    D: A víz keverésével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a vízi rákok?
+    A: Ízeltlábúak
+    B: Puhatestűek
+    C: Gerincesek
+    D: Férgek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi szilárdítja meg a rákok kitinpáncélját?
+    A: Mész
+    B: Vas
+    C: Homok
+    D: Szaru
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivé módosult a rákok első pár lába?
+    A: Ollóvá
+    B: Úszólábbá
+    C: Csáppá
+    D: Szárnnyá
+    Correct: A
+
+  - Type: word
+    Text: Melyik védett rákfaj él a folyó- és állóvizekben?
+    Answers: [kecskerák]
+    Correct: [kecskerák]
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartozik a szitakötő?
+    A: Rovarok
+    B: Puhatestűek
+    C: Halak
+    D: Kétéltűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkozik a szitakötő?
+    A: Rovarzsákmánnyal (szúnyog, légy)
+    B: Halakkal
+    C: Vízinövényekkel
+    D: Planktonnal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hová rakják a szitakötők a petéiket?
+    A: A vízbe
+    B: A partra
+    C: A levelekre
+    D: A talajba
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel lélegeznek a szitakötő lárvái?
+    A: Kopoltyúval
+    B: Tüdővel
+    C: Bőrrel
+    D: Csövekkel
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük azt az egyedfejlődési formát, amikor a lárva bábozódás nélkül alakul át kifejlett állattá?
+    Answers: [átváltozás]
+    Correct: [átváltozás]
+
+  - Type: singlechoice
+    Text: Mi jellemzi az átváltozással fejlődő állatokat?
+    A: A petéből kibújó lárva bábozódás nélkül alakul át kifejlett állattá
+    B: A petéből közvetlenül a kifejlett állat bújik ki
+    C: A lárva bebábozódik és úgy alakul át
+    D: Az állat nem szaporodik petével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a nőstény szúnyogok?
+    A: Állandó testhőmérsékletű állatok, emberek vérével
+    B: Növények nedvével
+    C: Planktonnal
+    D: Virágporral
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a hím szúnyogok?
+    A: Növények nedvével
+    B: Állatok vérével
+    C: Emberek vérével
+    D: Rovarokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen egyedfejlődésű a szúnyog, amelynek lárvái vízben élnek?
+    A: Teljes átalakulás
+    B: Átváltozás
+    C: Közvetlen fejlődés
+    D: Bábozódás nélküli fejlődés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatcsoportba tartoznak a halak?
+    A: Vízben élő gerinces állatok
+    B: Vízben élő gerinctelen állatok
+    C: Ízeltlábúak
+    D: Puhatestűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért áramvonalas a halak testalkata?
+    A: Hogy kis ellenállással tudjanak úszni
+    B: Hogy jobban lássanak
+    C: Hogy könnyebben lélegezzenek
+    D: Hogy ne fázzanak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel csökkenti a halak bőrén lévő nyálkaréteg a súrlódást?
+    A: A vízben való mozgáskor
+    B: A levegőn
+    C: A szárazföldön
+    D: A homokban
+    Correct: A
+
+  - Type: word
+    Text: Milyen testhőmérsékletűek a halak?
+    Answers: [változó]
+    Correct: [változó]
+
+  - Type: singlechoice
+    Text: Melyik úszó található a hal testének végén és hajtja előre erőteljes csapásokkal?
+    A: Farokúszó
+    B: Hátúszó
+    C: Hasúszó
+    D: Mellúszó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire való a halak úszóhólyagja?
+    A: Gáztartalma szabályozható, így az állat lesüllyed vagy felemelkedik
+    B: A halak hangadására
+    C: A halak légzésére
+    D: A halak táplálkozására
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit fog fel a halak oldalvonala?
+    A: A víz áramlását és rezgéseit
+    B: A fényt
+    C: A hangokat a levegőben
+    D: A szagokat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a halak légzőszerve?
+    A: Kopoltyú
+    B: Tüdő
+    C: Bőr
+    D: Kültakaró
+    Correct: A
+
+  - Type: word
+    Text: Mivel szaporodnak a halak?
+    Answers: [ikra]
+    Correct: [ikra]
+
+  - Type: multiplechoice
+    Text: Melyek a halak testének jellemzői?
+    Answers: [áramvonalas test, nyálkaréteg, csontos pikkely, változó testhőmérséklet]
+    Correct: [áramvonalas test, nyálkaréteg, csontos pikkely, változó testhőmérséklet]

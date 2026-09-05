@@ -1,0 +1,175 @@
+Quiz: Összefoglalás 8 - A vizek témakör (dolgozat törzsanyaga)
+Question:
+  - Type: word
+    Text: Mi Magyarország főfolyója?
+    Answers: [Duna]
+    Correct: [Duna]
+
+  - Type: singlechoice
+    Text: Melyik a Duna legnagyobb mellékfolyója Magyarországon?
+    A: Tisza
+    B: Dráva
+    C: Száva
+    D: Mura
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a vízfolyások formáit nagyság szerint (kicsitől a nagyig)!
+    Items:
+      - Ér
+      - Patak
+      - Folyó
+      - Folyam
+    Correct:
+      - Ér
+      - Patak
+      - Folyó
+      - Folyam
+
+  - Type: word
+    Text: Mi a neve annak a helynek, ahol a felszín alatti víz a felszínre tör, és ahonnan a vízfolyás elindul?
+    Answers: [forrás]
+    Correct: [forrás]
+
+  - Type: word
+    Text: Mi az a terület, ahonnan egy folyó az összes felszíni vízfolyást magába gyűjti és elvezeti?
+    Answers: [vízgyűjtő terület]
+    Correct: [vízgyűjtő terület]
+
+  - Type: multiplechoice
+    Text: Mely torkolattípusokat kell felismerni?
+    Answers: [delta, tölcsér]
+    Correct: [delta, tölcsér]
+
+  - Type: singlechoice
+    Text: Milyen torkolata van a Dunának?
+    A: Delta
+    B: Tölcsér
+    C: Esztuárium
+    D: Lefolyástalan
+    Correct: A
+
+  - Type: word
+    Text: Melyik tengerbe ömlik a Duna?
+    Answers: [Fekete-tenger]
+    Correct: [Fekete-tenger]
+
+  - Type: singlechoice
+    Text: Mit csinál a folyó a hegyvidéken, ahol gyors a folyása?
+    A: Rombol, V alakú völgyet váj
+    B: Épít, zátonyokat rak le
+    C: Felhalmozza a hordalékot
+    D: Deltát épít
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit csinál a folyó a síkságon, ahol lelassul?
+    A: Épít, széles völgyet alakít ki, hordalékot rak le
+    B: Rombol, mélyíti a medret
+    C: Szorosokat váj
+    D: V alakú völgyet formál
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a vízállás?
+    A: A mederben lévő víz magasságát
+    B: A folyó hosszát
+    C: A folyó sebességét
+    D: A folyó mélységét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a vízjárás?
+    A: A folyók vízállásának többé-kevésbé szabályszerű változását
+    B: A folyó útját
+    C: A folyó táplálóit
+    D: A folyó torkolatát
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mikor áradnak a magyarországi folyók?
+    Answers: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt]
+    Correct: [kora tavasszal hóolvadáskor, nyár elején a sok csapadék miatt]
+
+  - Type: multiplechoice
+    Text: Milyen típusai vannak a tómedence kialakulásának?
+    Answers: [lesüllyedés, külső erők, holtág, emberi tevékenység]
+    Correct: [lesüllyedés, külső erők, holtág, emberi tevékenység]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a tó feltöltődésének fázisait!
+    Items:
+      - Vízinövények elszaporodása (fertő)
+      - Mocsarasodás
+      - A tó kiszáradása
+    Correct:
+      - Vízinövények elszaporodása (fertő)
+      - Mocsarasodás
+      - A tó kiszáradása
+
+  - Type: word
+    Text: Mi a neve az apró, lebegő élőlényeknek, amelyek a vizekben a legnagyobb egyedszámban fordulnak elő?
+    Answers: [plankton]
+    Correct: [plankton]
+
+  - Type: singlechoice
+    Text: Mi jellemzi a kagylókat és a rákokat?
+    A: Kemény külső váz védi őket, kopoltyúval lélegeznek
+    B: Tollazatuk van és repülnek
+    C: Szőrrel borított testük van
+    D: Tüdővel lélegeznek a szárazföldön
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen egyedfejlődés jellemzi a szitakötőt?
+    A: "Átváltozás: a lárva bábozódás nélkül alakul át"
+    B: Teljes átalakulás
+    C: Közvetlen fejlődés
+    D: Nincs egyedfejlődése
+    Correct: A
+
+  - Type: word
+    Text: Mi a halaknak az a szerve, amelynek gáztartalma szabályozható, és segítségével süllyednek vagy emelkednek?
+    Answers: [úszóhólyag]
+    Correct: [úszóhólyag]
+
+  - Type: word
+    Text: Melyik szerv fogja fel a halaknál a víz áramlását és rezgéseit?
+    Answers: [oldalvonal]
+    Correct: [oldalvonal]
+
+  - Type: word
+    Text: Hogyan nevezzük a béka lárváját?
+    Answers: [ebihal]
+    Correct: [ebihal]
+
+  - Type: singlechoice
+    Text: Hol él a mocsári teknős és mivel szaporodik?
+    A: Iszapos állóvizekben él, lágy héjú tojásokkal szaporodik
+    B: Gyors folyású folyókban él, elevenszülő
+    C: Tengerekben él, ikrával szaporodik
+    D: Erdőkben él, petével szaporodik
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a kétéltűek és hüllők téli nyugalmi állapotát?
+    Answers: [téli álom]
+    Correct: [téli álom]
+
+  - Type: singlechoice
+    Text: Mi a vízvirágzás?
+    A: A vízi növényzet gyors elszaporodása a műtrágyák bemosódása miatt
+    B: A víz megfagyása télen
+    C: A tavaszi hóolvadás
+    D: A halak tavaszi ívása
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük, amikor a gyárak a felmelegedett vizet engedik vissza a környezetbe?
+    Answers: [hőszennyezés]
+    Correct: [hőszennyezés]
+
+  - Type: multiplechoice
+    Text: Melyek a vízszennyezés megelőzésének módszerei?
+    Answers: [szennyvíztisztítás, csatornázás, ésszerű műtrágyázás, műtrágya túladagolás]
+    Correct: [szennyvíztisztítás, csatornázás, ésszerű műtrágyázás]
