@@ -331,14 +331,12 @@ Question:
     Correct: [felszín alatti vizek, karsztvíz, patakok, tavak]
 
   - Type: ordering
-    Text: Rendezd sorrendbe a víz körforgásának állomásait!
+    Text: A víz körforgása a párolgással kezdődik. Rendezd sorrendbe a párolgást követő állomásokat!
     Items:
       - Beszivárgás a talajba
       - Csapadék
-      - Párolgás
       - Felhőképződés
     Correct:
-      - Párolgás
       - Felhőképződés
       - Csapadék
       - Beszivárgás a talajba
