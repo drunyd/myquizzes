@@ -1,0 +1,145 @@
+Quiz: Önkényuralom és ellenállás
+Question:
+  - Type: word
+    Text: Melyik évben verték le a magyar szabadságharcot?
+    Answers: [1849]
+    Correct: [1849]
+
+  - Type: singlechoice
+    Text: Ki volt a szabadságharc leverése utáni megtorlás vezetője, aki rémuralmat vezetett?
+    A: Haynau
+    B: Bach
+    C: Windischgrätz
+    D: Schwarzenberg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor és hol végezték ki a tizenhárom vértanút?
+    A: 1849. október 6-án, Aradon
+    B: 1848. október 6-án, Pesten
+    C: 1850. március 15-én, Aradon
+    D: 1849. augusztus 13-án, Világosnál
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért hívták vissza Haynaut?
+    A: A nagy nemzetközi felháborodás miatt
+    B: Mert megbetegedett
+    C: Mert győzelmet aratott
+    D: Mert a magyarok kérték
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely évek között tartott a Bach-rendszer?
+    A: 1849–1850
+    B: 1850–1859
+    C: 1859–1867
+    D: 1848–1849
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik időszak volt a neoabszolutizmus (új önkényuralom)?
+    A: A Bach-rendszer
+    B: A Haynau-rémuralom
+    C: A kiegyezés
+    D: A szabadságharc
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány katonai kerületre osztották Magyarországot a Bach-rendszerben?
+    A: Háromra
+    B: Négyre
+    C: Ötre
+    D: Hatra
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely területeket választották le Magyarországról a Bach-rendszerben?
+    Answers: [Erdély, Horvátország, Felvidék, Délvidék]
+    Correct: [Erdély, Horvátország]
+
+  - Type: singlechoice
+    Text: Mi lett a hivatalos nyelv a Bach-rendszer idején?
+    A: A német
+    B: A magyar
+    C: A latin
+    D: Az olasz
+    Correct: A
+
+  - Type: word
+    Text: Milyen államot építettek ki, amely figyelte a lakosságot a Bach-rendszerben?
+    Answers: [rendőr- és besugóállam]
+    Correct: [rendőr- és besugóállam]
+
+  - Type: multiplechoice
+    Text: Milyen formái voltak az ellenállásnak a Bach-rendszer idején?
+    Answers: [nyílt ellenállás, külföldi emigráció, passzív ellenállás, fegyveres felkelés]
+    Correct: [nyílt ellenállás, külföldi emigráció, passzív ellenállás]
+
+  - Type: singlechoice
+    Text: Miért maradtak sikertelenek a nyílt ellenállás merényletei és összeesküvései?
+    A: A szigorú rendőrállam miatt
+    B: Mert a magyarok nem akartak harcolni
+    C: Mert a császár megbocsátott
+    D: Mert nem volt elég pénzük
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen eredménnyel járt Kossuth Lajos nemzetközi körútja?
+    A: Eredmény nélkül
+    B: Orosz segítséget szerzett
+    C: Francia szövetséget kötött
+    D: Anglia támogatását nyerte el
+    Correct: A
+
+  - Type: singlechoice
+    Text: Kik szervezték meg emigrációban a Magyar Nemzeti Igazgatóságot?
+    A: Teleki László és Klapka György
+    B: Deák Ferenc és Eötvös József
+    C: Kossuth Lajos és Széchenyi István
+    D: Petőfi Sándor és Jókai Mór
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki vezette a passzív ellenállást?
+    A: Deák Ferenc
+    B: Kossuth Lajos
+    C: Teleki László
+    D: Klapka György
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen módszerekkel éltek a passzív ellenállók?
+    Answers: [nem fizettek adót, nem vállaltak hivatalt, nem kereskedtek az osztrákokkal, fegyvert fogtak]
+    Correct: [nem fizettek adót, nem vállaltak hivatalt, nem kereskedtek az osztrákokkal]
+
+  - Type: singlechoice
+    Text: Mit értek el a magyarok a passzív ellenállással?
+    A: Gyengítették az osztrák hatalmat, ami végül a kiegyezéshez vezetett
+    B: Azonnali függetlenséget nyertek
+    C: Visszaállították a magyar nyelvet
+    D: Elűzték a Habsburgokat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik évben jött létre a kiegyezés, amelyhez a passzív ellenállás is hozzávezetett?
+    A: 1849
+    B: 1859
+    C: 1867
+    D: 1875
+    Correct: C
+
+  - Type: ordering
+    Text: Rendezd időrendbe az eseményeket a szabadságharc leverésétől!
+    Items:
+      - Az 1867-es kiegyezés létrejötte
+      - A szabadságharc leverése
+      - Haynau rémuralma, az aradi vértanúk kivégzése
+      - A Bach-rendszer időszaka
+      - A passzív ellenállás megszervezése
+    Correct:
+      - A szabadságharc leverése
+      - Haynau rémuralma, az aradi vértanúk kivégzése
+      - A Bach-rendszer időszaka
+      - A passzív ellenállás megszervezése
+      - Az 1867-es kiegyezés létrejötte
