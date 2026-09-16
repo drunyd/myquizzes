@@ -1,0 +1,174 @@
+Quiz: Az olasz és német egység
+Question:
+  - Type: singlechoice
+    Text: Melyik században indult meg a nacionalizmus terjedése?
+    A: XVIII. század
+    B: XIX. század
+    C: XX. század
+    D: XVII. század
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi vált fontosabbá a polgári jogok mellett a XIX. században?
+    A: A nemzeti hovatartozás
+    B: A vallási tartozás
+    C: A gazdasági erő
+    D: A katonai erő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol kezdődött el az egységmozgalom az osztrák és spanyol elnyomás miatt?
+    A: Itáliában
+    B: Németországban
+    C: Franciaországban
+    D: Spanyolországban
+    Correct: A
+
+  - Type: word
+    Text: Melyik királyság harcolt az osztrákok ellen 1859-ben III. Napóleon támogatásával?
+    Answers: [Szárd-Piemont]
+    Correct: [Szárd-Piemont]
+
+  - Type: word
+    Text: Melyik csata után szabadult fel É-Itália 1859-ben?
+    Answers: [Solferinói csata]
+    Correct: [Solferinói csata]
+
+  - Type: word
+    Text: Mi született a Solferinói csata után?
+    Answers: [Vörös Kereszt]
+    Correct: [Vörös Kereszt]
+
+  - Type: singlechoice
+    Text: Ki folytatta az egységesítést, amikor a franciák nem támogatták tovább?
+    A: Garibaldi
+    B: Viktor Emánuel
+    C: III. Napóleon
+    D: Bismarck
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel folytatta Garibaldi a harcot?
+    A: Nemzeti felkelőivel (magyar önkéntesek is)
+    B: Réguli sereggel
+    C: Flottával
+    D: Diplomáciával
+    Correct: A
+
+  - Type: word
+    Text: Hol szállt partra Garibaldi a Szicíliai expedíció során?
+    Answers: [Szicília]
+    Correct: [Szicília]
+
+  - Type: word
+    Text: Mikor egyesült Itália és született meg az Olasz Királyság?
+    Answers: [1861]
+    Correct: [1861]
+
+  - Type: word
+    Text: Ki lett az egyesült Olaszország királya?
+    Answers: [Viktor Emánuel]
+    Correct: [Viktor Emánuel]
+
+  - Type: word
+    Text: Mikor csatlakozott Róma az Olasz Királysághoz?
+    Answers: [1870]
+    Correct: [1870]
+
+  - Type: singlechoice
+    Text: Melyik kérdés merült fel a német egységnél?
+    A: Osztrák vagy Porosz vezetés
+    B: Francia vagy Orosz vezetés
+    C: Angol vagy Spanyol vezetés
+    D: Olasz vagy Magyar vezetés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik egységkoncepciót jelentette a Nagy Német Egység?
+    A: Osztrák vezetéssel
+    B: Porosz vezetéssel
+    C: Francia vezetéssel
+    D: Orosz vezetéssel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik egységkoncepciót jelentette a Kis Német Egység?
+    A: Porosz vezetéssel
+    B: Osztrák vezetéssel
+    C: Francia vezetéssel
+    D: Orosz vezetéssel
+    Correct: A
+
+  - Type: word
+    Text: Melyik csatában győzték le a poroszok az osztrákokat 1866-ban?
+    Answers: [Königgrátzi csata]
+    Correct: [Königgrátzi csata]
+
+  - Type: word
+    Text: Mi volt az oka a porosz győzelmének a Königgrátzi csatában?
+    Answers: [hátultöltős fegyverek]
+    Correct: [hátultöltős fegyverek]
+
+  - Type: word
+    Text: Mikor üzent hadat III. Napóleon a poroszoknak?
+    Answers: [1870]
+    Correct: [1870]
+
+  - Type: word
+    Text: Hol vesztettek a franciák a poroszok ellen?
+    Answers: [Sedán]
+    Correct: [Sedán]
+
+  - Type: singlechoice
+    Text: Mikor kikiáltották a Német Császárságot?
+    A: 1866. január 18.
+    B: 1870. január 18.
+    C: 1871. január 18.
+    D: 1871. június 8.
+    Correct: C
+
+  - Type: word
+    Text: Hol kikiáltották a Német Császárságot?
+    Answers: [Versailles]
+    Correct: [Versailles]
+
+  - Type: word
+    Text: Ki lett a Német Császárság császára?
+    Answers: [Vilmos porosz király]
+    Correct: [Vilmos porosz király]
+
+  - Type: singlechoice
+    Text: Kinek köszönheti Poroszország felemelkedését és megerősödését?
+    A: Bismarck kancellárnak
+    B: III. Napóleonnak
+    C: Viktor Emánuelnek
+    D: Garibaldi
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd időrendbe az olasz egység fontos eseményeit!
+    Items:
+      - Szicíliai partraszállás
+      - Solferinói csata
+      - Az Olasz Királyság kikiáltása
+      - Róma csatlakozása
+      - Szárd-Piemont harca az osztrákok ellen
+    Correct:
+      - Szárd-Piemont harca az osztrákok ellen
+      - Solferinói csata
+      - Szicíliai partraszállás
+      - Az Olasz Királyság kikiáltása
+      - Róma csatlakozása
+
+  - Type: ordering
+    Text: Rendezd időrendbe a német egység fontos eseményeit!
+    Items:
+      - A Német Császárság kikiáltása Versailles-ben
+      - Königgrátzi csata
+      - III. Napóleon hadüzenete a poroszoknak
+      - Sedáni vereség
+    Correct:
+      - Königgrátzi csata
+      - III. Napóleon hadüzenete a poroszoknak
+      - Sedáni vereség
+      - A Német Császárság kikiáltása Versailles-ben
