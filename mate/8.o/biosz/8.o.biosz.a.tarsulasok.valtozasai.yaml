@@ -1,0 +1,209 @@
+Quiz: A társulások változásai
+Question:
+  - Type: multiplechoice
+    Text: Mitől függ az élőhelyen a társulások összetétele, szintjeinek száma és mintázata?
+    Answers: [élő tényezőktől, élettelen tényezőktől, az évszaktól]
+    Correct: [élő tényezőktől, élettelen tényezőktől]
+
+  - Type: singlechoice
+    Text: Mit jelent a társulások mintázata?
+    A: Az egyes szinteken való elrendeződést
+    B: A társulás fajainak számát
+    C: A társulás korát
+    D: A társulás méretét
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a rövid idejű, ismétlődő változást a populációk életében?
+    Answers: [napi ritmus]
+    Correct: [napi ritmus]
+
+  - Type: singlechoice
+    Text: Mikor nyitja ki lepelleveleit a téltemető?
+    A: Csak a meleg délelőtti órákban
+    B: Csak éjszaka
+    C: Egész nap
+    D: Csak alkonyatkor
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor virágzik a csodatölcsérke?
+    A: Csak alkonyatkor
+    B: Csak hajnalban
+    C: Csak délelőtt
+    D: Egész nap
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor repül a fecskefarkú lepke?
+    A: Csak nappal
+    B: Csak éjszaka
+    C: Csak alkonyatkor
+    D: Csak hajnalban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor repül a bagolylepke?
+    A: Csak éjszaka
+    B: Csak nappal
+    C: Csak délben
+    D: Csak reggel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi befolyásolja még a közösségek életét a napi ritmus mellett?
+    A: Az évszakok változásai
+    B: Csak a hőmérséklet
+    C: Csak a csapadék
+    D: Csak a talaj
+    Correct: A
+
+  - Type: word
+    Text: Melyik erdő aljnövényzete példa az évszakok okozta változásra?
+    Answers: [bükkös]
+    Correct: [bükkös]
+
+  - Type: word
+    Text: Hogyan nevezzük az életközösségekre hosszabb ideig ható, a populációk kicserélődésével járó változást?
+    Answers: [szukcesszió]
+    Correct: [szukcesszió]
+
+  - Type: singlechoice
+    Text: Milyen folyamat a szukcesszió?
+    A: Egyirányú folyamat, de újra kezdődhet
+    B: Körforgásszerű, soha nem kezdődik újra
+    C: Rövid idejű, ismétlődő változás
+    D: Azonnal lezajló változás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a helyzet a futóhomokon a szukcesszió kezdetén?
+    A: Nincs életközösség
+    B: Már tölgyes erdő van
+    C: Már homokpusztarét van
+    D: Zárt homoki gyep borítja
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely növények a futóhomok pionír (úttörő) szervezetei?
+    Answers: [zuzmók, mohák, fák]
+    Correct: [zuzmók, mohák]
+
+  - Type: multiplechoice
+    Text: Milyen tulajdonságai vannak a pionír szervezeteknek?
+    Answers: [igénytelenek, tágtűrésűek, bírják a szárazságot, sok tápanyagot igényelnek]
+    Correct: [igénytelenek, tágtűrésűek, bírják a szárazságot]
+
+  - Type: singlechoice
+    Text: Mit tesznek a pionír növények gyökérszerű fonalai?
+    A: Savakat termelnek, amelyekkel mállasztják a homokszemeket, és felveszik a felszabaduló sókat
+    B: Vizet párologtatnak
+    C: Tápanyagot adnak a fáknak
+    D: Megkötik a nitrogént a levegőből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért telepedhetnek meg a pionír szervezetek után igényesebb növények?
+    A: Mert az elpusztult telepeik tápanyagot juttatnak a talajba
+    B: Mert a pionírok elzárják a napfényt
+    C: Mert a pionírok vizet vonzanak el
+    D: Mert a pionírok megvédik őket a széltől
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a nyílt homoki gyep elnevezése?
+    A: A foltjai között a talaj még szabadon látszik
+    B: A gyepet nem lehet átjárni
+    C: A gyepben nincsenek növények
+    D: A gyep egész évben zöld
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a zárt homoki gyepet?
+    A: Már nem látszik a talaj
+    B: Még látszik a talaj
+    C: Már fák nőnek rajta
+    D: Még nincsenek növények
+    Correct: A
+
+  - Type: word
+    Text: Melyik növény jellemző a homokpusztarétre?
+    Answers: [homoki árvalányhaj]
+    Correct: [homoki árvalányhaj]
+
+  - Type: singlechoice
+    Text: Mi jelenik meg a homokpusztaréten a gazdag tápanyag hatására?
+    A: Az első fák
+    B: Újra a mohák
+    C: A nád
+    D: A hínárnövények
+    Correct: A
+
+  - Type: word
+    Text: Melyik erdő alakul ki végül a futóhomok szukcessziója során?
+    Answers: [tölgyes erdő]
+    Correct: [tölgyes erdő]
+
+  - Type: singlechoice
+    Text: Mit jelent a zárótársulás?
+    A: Olyan társulás, amely már nem változik tovább
+    B: Olyan társulás, amely a legtöbb fajt tartalmazza
+    C: Olyan társulás, amely a szukcesszió kezdetén áll
+    D: Olyan társulás, amely emberi beavatkozásra jött létre
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a futóhomok szukcessziójának állomásait!
+    Items:
+      - Tölgyes erdő (zárótársulás)
+      - Zárt homoki gyep
+      - Zuzmók és mohák megtelepedése
+      - Homokpusztarét
+      - Nyílt homoki gyep
+    Correct:
+      - Zuzmók és mohák megtelepedése
+      - Nyílt homoki gyep
+      - Zárt homoki gyep
+      - Homokpusztarét
+      - Tölgyes erdő (zárótársulás)
+
+  - Type: multiplechoice
+    Text: Mi történik az állóvizek feltöltődése során?
+    Answers: [csökken a szabad vízfelület, csökken a víz mélysége, a part felől beljebb hatol a növényzet, nő a víz mélysége]
+    Correct: [csökken a szabad vízfelület, csökken a víz mélysége, a part felől beljebb hatol a növényzet]
+
+  - Type: singlechoice
+    Text: Mivel kezdődik az állóvizek feltöltődése?
+    A: Elhalt planktonok és más élőlények süllyednek a tó fenekére, megindul az iszaposodás
+    B: Azonnal megjelennek a fák
+    C: A nád benövi az egész tavat
+    D: A víz teljesen elpárolog
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi jelenik meg az iszaposodás után az állóvízben?
+    Answers: [algák, gyökerező hínárnövények, zuzmók]
+    Correct: [algák, gyökerező hínárnövények]
+
+  - Type: multiplechoice
+    Text: Mely növények jelennek meg a sekélyparton, amikor egyre több a tápanyag?
+    Answers: [nád, széleslevelű gyékény, fehér fűz]
+    Correct: [nád, széleslevelű gyékény]
+
+  - Type: word
+    Text: Melyik fa telepszik meg a feltöltődött állóvíz helyén?
+    Answers: [fehér fűz]
+    Correct: [fehér fűz]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az állóvíz feltöltődésének állomásait!
+    Items:
+      - A víz eltűnik, fák telepednek meg
+      - Algák és gyökerező hínárnövények megjelenése
+      - Elhalt planktonok lerakódása, iszaposodás
+      - Nád és széleslevelű gyékény megjelenése a sekélyparton
+    Correct:
+      - Elhalt planktonok lerakódása, iszaposodás
+      - Algák és gyökerező hínárnövények megjelenése
+      - Nád és széleslevelű gyékény megjelenése a sekélyparton
+      - A víz eltűnik, fák telepednek meg

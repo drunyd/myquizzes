@@ -1,0 +1,258 @@
+Quiz: Élettelen környezeti tényezők
+Question:
+  - Type: singlechoice
+    Text: Miért nélkülözhetetlen a fény az élőlények számára?
+    A: Mert szükséges a fotoszintézishez
+    B: Mert tápanyagot szállít
+    C: Mert megköti a vizet
+    D: Mert energiát ad a repüléshez
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol erősebb a fény a Földön?
+    A: Az Egyenlítő környékén és a magashegységekben
+    B: A sarkvidékeken
+    C: A tenger szintjén
+    D: Az erdők mélyén
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Hol gyengébb a fény a Földön?
+    Answers: [sarkvidékek, tenger szintje, magashegységek]
+    Correct: [sarkvidékek, tenger szintje]
+
+  - Type: singlechoice
+    Text: Hogyan befolyásolja a növényzet a fényt?
+    A: A tisztásokon több, az erdők mélyén kevesebb a fény
+    B: Mindenhol ugyanannyi fény van
+    C: Az erdők mélyén több a fény
+    D: A növényzet nem hat a fényre
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a fénykedvelő fajok a tananyag szerint?
+    Answers: [nyírfa, szeder, szagos müge]
+    Correct: [nyírfa, szeder]
+
+  - Type: word
+    Text: Melyik növény az árnyéktűrő faj példája?
+    Answers: [szagos müge]
+    Correct: [szagos müge]
+
+  - Type: singlechoice
+    Text: Melyik állat tevékenykedik nappal?
+    A: Fekete rigó
+    B: Szúnyog
+    C: Uhu
+    D: Nagy pápaszem lepke
+    Correct: A
+
+  - Type: word
+    Text: Melyik állat jelenik meg szürkületkor?
+    Answers: [szúnyog]
+    Correct: [szúnyog]
+
+  - Type: multiplechoice
+    Text: Mely állatok aktívak este?
+    Answers: [uhu, nagy pápaszem lepke, fekete rigó]
+    Correct: [uhu, nagy pápaszem lepke]
+
+  - Type: singlechoice
+    Text: Mi indul be a gímszarvasoknál a tavasszal hosszabbodó nappalok hatására?
+    A: Az agancsképzés
+    B: A téli álom
+    C: A vedlés
+    D: Az őszi vándorlás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért eltérő mértékű az élőhelyek felmelegedése a Földön?
+    A: Mert a napsugarak egyenlőtlenül oszlanak el a felszínen
+    B: Mert a levegő mindenhol ugyanolyan
+    C: Mert a talaj mindenhol egyforma
+    D: Mert a növényzet mindenhol azonos
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan változik az évi átlaghőmérséklet az Egyenlítőtől a sarkok felé haladva?
+    A: Csökken
+    B: Nő
+    C: Nem változik
+    D: Először nő, majd csökken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan változik az évi átlaghőmérséklet a hegységekben felfelé haladva?
+    A: Csökken
+    B: Nő
+    C: Nem változik
+    D: Csak nyáron nő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen élőlények élnek a trópusi helyeken?
+    A: Melegkedvelők
+    B: Hidegtűrők
+    C: Szárazságtűrők
+    D: Árnyéktűrők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tundra és a magashegységek növény- és állatvilága?
+    A: Hidegtűrő
+    B: Melegkedvelő
+    C: Nedvességkedvelő
+    D: Fénykedvelő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi befolyásolja a víz az élőlények elterjedését?
+    A: Az éves mennyiség és eloszlás
+    B: Csak a víz színe
+    C: Csak a víz hőmérséklete
+    D: Csak a víz mélysége
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek vízi élőlények a tananyag szerint?
+    Answers: [tengeri moszatok, halak, cetek, gímszarvas]
+    Correct: [tengeri moszatok, halak, cetek]
+
+  - Type: word
+    Text: Melyik zárvatermő növény gyökerezik a vízben?
+    Answers: [fehér tavirózsa]
+    Correct: [fehér tavirózsa]
+
+  - Type: singlechoice
+    Text: Milyen élőlények élnek a trópusi esőerdőkben?
+    A: Nedvességkedvelők
+    B: Szárazságtűrők
+    C: Hidegtűrők
+    D: Fénykerülők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen élőlények élnek a sivatagokban?
+    A: Szárazságtűrők
+    B: Nedvességkedvelők
+    C: Hidegtűrők
+    D: Árnyéktűrők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen élőhely a lombos erdő a víz szempontjából?
+    A: Átmeneti
+    B: Száraz
+    C: Nagyon nedves
+    D: Vízi
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit határoz meg elsősorban a talaj?
+    A: A rajta kialakuló növényvilágot
+    B: A levegő összetételét
+    C: A fény erősségét
+    D: Az évi átlaghőmérsékletet
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen a tápanyagban gazdag, sokszínű élővilágú talaj?
+    Answers: [szellős, megfelelő vízellátottságú, tápanyagban gazdag, magas sótartalmú]
+    Correct: [szellős, megfelelő vízellátottságú, tápanyagban gazdag]
+
+  - Type: multiplechoice
+    Text: Mely élőhelyeken található humusz?
+    Answers: [füves puszták, lombos erdők, tajga erdő]
+    Correct: [füves puszták, lombos erdők]
+
+  - Type: word
+    Text: Hogyan nevezzük a lehulló levelek és elpusztult élőlények lebontásából keletkező szerves anyagot?
+    Answers: [humusz]
+    Correct: [humusz]
+
+  - Type: multiplechoice
+    Text: Milyen szerepe van a humusznak?
+    Answers: [megköti a vizet, segíti a tápanyagfelvételt, maga is tápanyaggá bomlik le, szárítja a talajt]
+    Correct: [megköti a vizet, segíti a tápanyagfelvételt, maga is tápanyaggá bomlik le]
+
+  - Type: singlechoice
+    Text: Milyen a tajga erdő talaja?
+    A: Tápanyagban szegény
+    B: Tápanyagban gazdag
+    C: Magas sótartalmú
+    D: Szellős és humuszos
+    Correct: A
+
+  - Type: word
+    Text: Milyen a szikes talaj sótartalma?
+    Answers: [magas]
+    Correct: [magas]
+
+  - Type: multiplechoice
+    Text: Mi fontos a levegő esetében?
+    Answers: [összetétele, áramlása]
+    Correct: [összetétele, áramlása]
+
+  - Type: singlechoice
+    Text: Mennyi oxigén van a levegőben?
+    A: 21%
+    B: 78%
+    C: 0,03%
+    D: 50%
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi nitrogén van a levegőben?
+    A: 78%
+    B: 21%
+    C: 0,03%
+    D: 50%
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi szén-dioxid van a levegőben?
+    A: 0,03%
+    B: 21%
+    C: 78%
+    D: 3%
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi minden található meg a levegő összetételében?
+    Answers: [oxigén, nitrogén, szén-dioxid, egyéb gázok és vízgőz]
+    Correct: [oxigén, nitrogén, szén-dioxid, egyéb gázok és vízgőz]
+
+  - Type: singlechoice
+    Text: Miben segíti a levegő a növényeket?
+    A: Az elterjedésben és a beporzásban
+    B: A fotoszintézisben közvetlenül
+    C: A vízfelvételben
+    D: A tápanyagfelvételben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért lehet káros a levegő a növényekre?
+    A: A szárító hatása miatt
+    B: A nedvesítő hatása miatt
+    C: A hűtő hatása miatt
+    D: A melegítő hatása miatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire használják a levegőt energiaforrásként a madarak?
+    A: A repüléshez
+    B: A táplálkozáshoz
+    C: A fészeképítéshez
+    D: A szaporodáshoz
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd a levegő összetevőit arányuk szerint a legnagyobbtól a legkisebbig!
+    Items:
+      - Szén-dioxid
+      - Oxigén
+      - Nitrogén
+    Correct:
+      - Nitrogén
+      - Oxigén
+      - Szén-dioxid

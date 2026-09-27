@@ -1,0 +1,183 @@
+Quiz: Élő környezeti tényezők
+Question:
+  - Type: multiplechoice
+    Text: Mely élőlények alkotnak egy élőhelyen életközösséget?
+    Answers: [növények, állatok, gombák, mikroorganizmusok]
+    Correct: [növények, állatok, gombák, mikroorganizmusok]
+
+  - Type: singlechoice
+    Text: Milyen lehet a tagok közötti kölcsönhatás?
+    A: Közvetlen vagy közvetett
+    B: Csak közvetlen
+    C: Csak közvetett
+    D: Mindig azonos
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen lehet a kapcsolat jellege a kölcsönhatásokban?
+    Answers: [hátrányos, előnyös, semleges, mindig hátrányos]
+    Correct: [hátrányos, előnyös, semleges]
+
+  - Type: word
+    Text: Melyik jelet kapja az előnyös kapcsolat?
+    Answers: [+]
+    Correct: [+]
+
+  - Type: singlechoice
+    Text: Milyen a táplálkozási kapcsolat általában?
+    A: Az egyik fél számára előnyös, a másik számára hátrányos
+    B: Mindkét fél számára előnyös
+    C: Mindkét fél számára semleges
+    D: Mindkét fél számára hátrányos
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a növényevés példái a tananyag szerint?
+    Answers: [növény és őz, őz és farkas]
+    Correct: [növény és őz]
+
+  - Type: singlechoice
+    Text: Mi történik a zsákmányszerzés során?
+    A: A zsákmány elpusztul
+    B: A zsákmány csak károsodik
+    C: Mindkét fél előnyhöz jut
+    D: A zsákmány sértetlen marad
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miben különbözik az élősködés a zsákmányszerzéstől?
+    A: Az élősködésnél a zsákmány csak károsodik
+    B: Az élősködésnél a zsákmány elpusztul
+    C: Az élősködés mindkét félnek előnyös
+    D: Az élősködés semleges kapcsolat
+    Correct: A
+
+  - Type: word
+    Text: Melyik élőlény szívja el a növények tápanyagát az élősködés példájaként?
+    Answers: [levéltetvek]
+    Correct: [levéltetvek]
+
+  - Type: multiplechoice
+    Text: Mely élősködők táplálkoznak gerincesek vérével?
+    Answers: [kullancs, bögöly, levéltetű]
+    Correct: [kullancs, bögöly]
+
+  - Type: word
+    Text: Hogyan nevezzük a mindkét populáció számára előnyös együttélést?
+    Answers: [szimbiózis]
+    Correct: [szimbiózis]
+
+  - Type: singlechoice
+    Text: Milyen kapcsolat a szimbiózis?
+    A: Mindkét populáció számára előnyös
+    B: Az egyik számára előnyös, a másik számára hátrányos
+    C: Az egyik számára előnyös, a másik számára semleges
+    D: Mindkét populáció számára hátrányos
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a szimbiózis példái a tananyag szerint?
+    Answers: [lucerna és poszméh, orrszarvú és pásztorgém, növény és őz]
+    Correct: [lucerna és poszméh, orrszarvú és pásztorgém]
+
+  - Type: singlechoice
+    Text: Mi a kapcsolat a gomba és a fa gyökere között?
+    A: A gomba vizet és ásványi sókat ad, a fa gyökere kész tápanyagot ad
+    B: A gomba kész tápanyagot ad, a fa vizet
+    C: A gomba károsítja a fát
+    D: A kapcsolat semleges
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely élőlények együttélése hozott létre új szervezettípust?
+    A: Moszat és gomba (zuzmó)
+    B: Lucerna és poszméh
+    C: Növény és őz
+    D: Fa és orchidea
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen jelöléssel írható le az asztalközösség?
+    A: +,0
+    B: +,+
+    C: +,-
+    D: -,-
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen az asztalközösség?
+    A: Az egyik populáció számára előnyös, a másik számára semleges
+    B: Mindkét populáció számára előnyös
+    C: Mindkét populáció számára hátrányos
+    D: Az egyik számára előnyös, a másik számára hátrányos
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek az asztalközösség példái a tananyag szerint?
+    Answers: [oroszlánok maradékát megeszik a hiénák, az erdei fülesbagoly más madár fészkét használja, az orchidea a fán él]
+    Correct: [oroszlánok maradékát megeszik a hiénák, az erdei fülesbagoly más madár fészkét használja, az orchidea a fán él]
+
+  - Type: singlechoice
+    Text: Miért előnyös az orchidea számára a fa?
+    A: Vízhez és fényhez jut általa, de ez a fát nem zavarja
+    B: Tápanyagot szív el a fától
+    C: Károsítja a fa gyökereit
+    D: Megvédi a fát a kártevőktől
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a mindkét populáció számára hátrányos kölcsönhatást?
+    Answers: [versengés]
+    Correct: [versengés]
+
+  - Type: singlechoice
+    Text: Milyen kölcsönhatás a versengés?
+    A: Mindkét populációt érint, mindkettő számára hátrányos
+    B: Csak az egyik felet érinti
+    C: Mindkét fél számára előnyös
+    D: Semleges kapcsolat
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen korlátozott erőforrásokért versengenek a populációk?
+    Answers: [fény, víz, táplálék, költőhely]
+    Correct: [fény, víz, táplálék, költőhely]
+
+  - Type: singlechoice
+    Text: Mi történik a versengés során a kevésbé versenyképes fajjal?
+    A: Kiszorul a területről
+    B: Előnybe kerül
+    C: Nem történik vele semmi
+    D: Új szervezettípust hoz létre
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol zajlik még versengés a különböző fajok között?
+    A: Egy populáción belül, a fajtársak között is
+    B: Csak a ragadozók és zsákmányaik között
+    C: Csak a szimbiózisban élők között
+    D: Csak az élősködőknél
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a versengés fontos szabályozó tényezői?
+    Answers: [egyedszám, az élőlények térbeli eloszlása]
+    Correct: [egyedszám, az élőlények térbeli eloszlása]
+
+  - Type: multiplechoice
+    Text: Mely kölcsönhatások jelölése helyes?
+    Answers: ["táplálkozás: +/-", "szimbiózis: +/+", "asztalközösség: +/0", "versengés: +/+"]
+    Correct: ["táplálkozás: +/-", "szimbiózis: +/+", "asztalközösség: +/0"]
+
+  - Type: ordering
+    Text: Rendezd a kölcsönhatásokat aszerint, hogy a második fél számára milyen a hatás (a legkedvezőbbtől a legkedvezőtlenebbig)!
+    Items:
+      - Versengés (-,-)
+      - Szimbiózis (+,+)
+      - Táplálkozási kapcsolat (+,-)
+      - Asztalközösség (+,0)
+    Correct:
+      - Szimbiózis (+,+)
+      - Asztalközösség (+,0)
+      - Táplálkozási kapcsolat (+,-)
+      - Versengés (-,-)
