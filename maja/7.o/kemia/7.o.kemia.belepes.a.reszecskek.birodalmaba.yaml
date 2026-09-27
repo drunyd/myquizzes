@@ -1,0 +1,142 @@
+Quiz: Belépés a részecskék birodalmába
+Question:
+  - Type: singlechoice
+    Text: Melyik görög filozófus sejtette, hogy az anyagok sok apró részecskéből épülnek fel?
+    A: Démokritosz
+    B: Arisztotelész
+    C: Platón
+    D: Szókratész
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit feltételezett Démokritosz a részecskékről?
+    A: Nem bonthatóak és különböző alakú testecskékhez hasonlítanak
+    B: Folyamatosan változnak és semmiből keletkeznek
+    C: Csak a vízben találhatók meg
+    D: Minden anyagban egyformák
+    Correct: A
+
+  - Type: word
+    Text: Mit jelent az "atomosz" szó?
+    Answers: [oszthatatlan]
+    Correct: [oszthatatlan]
+
+  - Type: singlechoice
+    Text: Mik az atomok?
+    A: A legkisebb kémiai részecskék, amelyek egymástól méretükben és tömegükben különböznek
+    B: Több atomból álló elektromosan semleges részecskék
+    C: Csak a szilárd anyagokban előforduló részecskék
+    D: Az anyag legnagyobb építőegységei
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a vasatomok elrendeződése a vasszög belsejében?
+    A: Szabályos rendben, egymás mellett helyezkednek el
+    B: Véletlenszerűen szétszórva
+    C: Csak a felületen találhatók
+    D: Molekulákká kapcsolódnak
+    Correct: A
+
+  - Type: word
+    Text: Mi tartja össze a vasatomokat a vasszög belsejében?
+    Answers: [kémiai kötés]
+    Correct: [kémiai kötés]
+
+  - Type: multiplechoice
+    Text: Mely atomok alkotják a vízmolekulát?
+    Answers: [két hidrogénatom, egy oxigénatom, egy nitrogénatom]
+    Correct: [két hidrogénatom, egy oxigénatom]
+
+  - Type: word
+    Text: Hogyan kapcsolódnak össze a víz atomjai?
+    Answers: [kémiai kötéssel]
+    Correct: [kémiai kötéssel]
+
+  - Type: singlechoice
+    Text: Hány hidrogénatom és hány oxigénatom alkotja a vízmolekulát?
+    A: Két hidrogénatom és egy oxigénatom
+    B: Egy hidrogénatom és két oxigénatom
+    C: Két hidrogénatom és két oxigénatom
+    D: Egy hidrogénatom és egy oxigénatom
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mik a molekulák?
+    A: Több atom összekapcsolódásával kialakuló elektromosan semleges kémiai részecskék
+    B: Osztódással szaporodó sejtek
+    C: Csak egy atomból álló részecskék
+    D: Csak szilárd anyagokban előforduló szerkezetek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért önthető a víz?
+    A: Mert a molekulák elgördülnek egymáson
+    B: Mert a molekulák szilárdan összekapcsolódnak
+    C: Mert a vízben nincsenek molekulák
+    D: Mert a víz atomokból áll
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért párolog el a víz?
+    A: Mert a molekulák között nem olyan erős a kémiai kötés
+    B: Mert a molekulák elpusztulnak
+    C: Mert a molekulák atomokra esnek szét
+    D: Mert a molekulák megsokszorozódnak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen tulajdonságai vannak a levegő részecskéinek?
+    Answers: [gyorsak, gyakran ütköznek, sebességük és mozgásirányuk változik]
+    Correct: [gyorsak, gyakran ütköznek, sebességük és mozgásirányuk változik]
+
+  - Type: multiplechoice
+    Text: Mely molekulák találhatók meg a levegőben?
+    Answers: [nitrogénmolekula, oxigénmolekula, szén-dioxid molekula]
+    Correct: [nitrogénmolekula, oxigénmolekula, szén-dioxid molekula]
+
+  - Type: word
+    Text: Melyik nemesgáz atomként fordul elő a levegőben?
+    Answers: [argon]
+    Correct: [argon]
+
+  - Type: singlechoice
+    Text: Mire használjuk a modelleket a kémiában?
+    A: Egyszerűsítve mutatják be az adott anyagot vagy jelenséget
+    B: Pontosan lemásolják az anyag minden tulajdonságát
+    C: Helyettesítik a valódi kísérleteket
+    D: Megváltoztatják az anyag szerkezetét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit ábrázolunk a golyómodellben?
+    A: Az atomokat különböző méretű és színű golyókkal
+    B: A molekulákat vonalakkal
+    C: A kémiai kötéseket nyilakkal
+    D: Az anyag hőmérsékletét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan helyezkednek el az atomok vagy molekulák a szilárd anyagokban?
+    A: Szabályos rendben
+    B: Véletlenszerűen
+    C: Csak a felületen
+    D: Mindig mozgásban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen lehet a részecskék közötti kémiai kötés?
+    A: Erősebb vagy gyengébb
+    B: Mindig azonos erősségű
+    C: Csak erős
+    D: Csak gyenge
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az atomokra?
+    Answers: [oszthatatlanok, méretükben különböznek, tömegükben különböznek, elektromosan töltöttek]
+    Correct: [oszthatatlanok, méretükben különböznek, tömegükben különböznek]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a molekulákra?
+    Answers: [több atomból épülnek fel, elektromosan semlegesek, kémiai kötés kapcsolja össze az atomokat, mindig két atomból állnak]
+    Correct: [több atomból épülnek fel, elektromosan semlegesek, kémiai kötés kapcsolja össze az atomokat]

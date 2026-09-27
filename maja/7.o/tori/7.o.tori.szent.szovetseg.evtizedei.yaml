@@ -1,0 +1,130 @@
+Quiz: A Szent szövetség évtizedei
+Question:
+  - Type: singlechoice
+    Text: Mi ellen indult szabadságharc Görögországban 1821 és 1830 között?
+    A: A török elnyomás ellen
+    B: Az orosz elnyomás ellen
+    C: Az osztrák elnyomás ellen
+    D: A spanyol elnyomás ellen
+    Correct: A
+
+  - Type: word
+    Text: Melyik évben kezdődött a görög szabadságharc?
+    Answers: [1821]
+    Correct: [1821]
+
+  - Type: word
+    Text: Melyik évben fejeződött be a görög szabadságharc?
+    Answers: [1830]
+    Correct: [1830]
+
+  - Type: singlechoice
+    Text: Melyik évben szakította három részre Poroszország, Oroszország és Ausztria Lengyelországot?
+    A: 1793
+    B: 1821
+    C: 1830
+    D: 1831
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely birodalmak szakították három részre Lengyelországot 1793-ban?
+    Answers: [Poroszország, Oroszország, Ausztria, Franciaország]
+    Correct: [Poroszország, Oroszország, Ausztria]
+
+  - Type: word
+    Text: Hány részre szakították Lengyelországot 1793-ban?
+    Answers: [3, három]
+    Correct: [3]
+
+  - Type: singlechoice
+    Text: Mikor kezdődött a lengyel szabadságharc?
+    A: 1830-tól
+    B: 1821-től
+    C: 1793-tól
+    D: 1820-tól
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért maradt el a lengyel szabadságharc sikere?
+    A: Mert az orosz túlerő 1831-ben leverte
+    B: Mert 1830-ban győzött
+    C: Mert Franciaország segített
+    D: Mert Poroszország visszaadta a területeket
+    Correct: A
+
+  - Type: word
+    Text: Melyik évben verte le az orosz túlerő a lengyel szabadságharcot?
+    Answers: [1831]
+    Correct: [1831]
+
+  - Type: singlechoice
+    Text: Kik kerültek vissza a trónra Napóleon bukása után Franciaországban?
+    A: A Bourbonok
+    B: A Bonaparte-ok
+    C: A Capetingek
+    D: A Habsburgok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi vezetett az 1830-as francia forradalomhoz?
+    A: A Bourbonok nem tanultak hibáikból
+    B: Napóleon visszatérése
+    C: A lengyel szabadságharc
+    D: A görög szabadságharc
+    Correct: A
+
+  - Type: word
+    Text: Ki lett a francia király az 1830-as forradalom után?
+    Answers: [Lajos Fülöp]
+    Correct: [Lajos Fülöp]
+
+  - Type: singlechoice
+    Text: Milyen államformát vezetett be Lajos Fülöp?
+    A: Alkotmányos monarchiát
+    B: Abszolút monarchiát
+    C: Köztársaságot
+    D: Demokratikus szövetségi államot
+    Correct: A
+
+  - Type: word
+    Text: Melyik évben tört ki a francia forradalom, amely Lajos Fülöp trónra kerüléséhez vezetett?
+    Answers: [1830]
+    Correct: [1830]
+
+  - Type: singlechoice
+    Text: Mi történt a spanyol gyarmatokkal Latin-Amerikában 1820-tól?
+    A: Simon Bolívar vezetésével felszabadultak
+    B: Az oroszok elfoglalták őket
+    C: A Bourbonok uralma alá kerültek
+    D: Lengyelország részei lettek
+    Correct: A
+
+  - Type: word
+    Text: Ki vezette a latin-amerikai spanyol gyarmatok felszabadítását?
+    Answers: [Simon Bolívar]
+    Correct: [Simon Bolívar]
+
+  - Type: word
+    Text: Melyik évben kezdődött a spanyol gyarmatok felszabadítása Latin-Amerikában?
+    Answers: [1820]
+    Correct: [1820]
+
+  - Type: multiplechoice
+    Text: Mely országokban tört ki szabadságharc vagy forradalom a Szent szövetség évtizedeiben?
+    Answers: [Görögország, Lengyelország, Franciaország, Oroszország]
+    Correct: [Görögország, Lengyelország, Franciaország]
+
+  - Type: ordering
+    Text: Rendezd időrendbe a Szent szövetség évtizedeinek eseményeit!
+    Items:
+      - Az 1830-as francia forradalom
+      - Lengyelország három részre szakítása
+      - A latin-amerikai gyarmatok felszabadításának kezdete
+      - A görög szabadságharc kezdete
+      - A lengyel szabadságharc leverése
+    Correct:
+      - Lengyelország három részre szakítása
+      - A latin-amerikai gyarmatok felszabadításának kezdete
+      - A görög szabadságharc kezdete
+      - Az 1830-as francia forradalom
+      - A lengyel szabadságharc leverése

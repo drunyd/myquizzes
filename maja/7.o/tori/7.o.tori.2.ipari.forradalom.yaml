@@ -1,0 +1,147 @@
+Quiz: A 2. ipari forradalom
+Question:
+  - Type: singlechoice
+    Text: Mivel kezdődött a második ipari forradalom?
+    A: Az acélgyártással
+    B: A varrógép feltalálásával
+    C: A repülőgép megjelenésével
+    D: A telefon elterjedésével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Minek köszönhető a több és jobb gép, szerszám gyártása?
+    A: A Bessemer-féle oxigénbefúvásos acélkohónak, mert több acél készült
+    B: A rádió feltalálásának
+    C: A fényképezés elterjedésének
+    D: A futószalag megjelenésének
+    Correct: A
+
+  - Type: word
+    Text: Ki alkotta meg az oxigénbefúvásos acélkohót?
+    Answers: [Bessemer]
+    Correct: [Bessemer]
+
+  - Type: multiplechoice
+    Text: Mely területek fejlődtek a második ipari forradalomban?
+    Answers: [elektromosság, vegyipar, acélgyártás]
+    Correct: [elektromosság, vegyipar, acélgyártás]
+
+  - Type: word
+    Text: Ki találta fel a távírót 1837-ben?
+    Answers: [Morse]
+    Correct: [Morse]
+
+  - Type: word
+    Text: Melyik évben született meg a távíró?
+    Answers: [1837]
+    Correct: [1837]
+
+  - Type: word
+    Text: Ki találta fel a fonográfot és a villany izzót?
+    Answers: [Edison]
+    Correct: [Edison]
+
+  - Type: word
+    Text: Ki találta fel a telefont?
+    Answers: [Bell]
+    Correct: [Bell]
+
+  - Type: word
+    Text: Ki készítette el a telefonközpontot?
+    Answers: [Puskás Tivadar]
+    Correct: [Puskás Tivadar]
+
+  - Type: multiplechoice
+    Text: Kik találták fel a rádiót?
+    Answers: [Marconi, Popov, Bell, Edison]
+    Correct: [Marconi, Popov]
+
+  - Type: multiplechoice
+    Text: Kik alkották meg a dinamót?
+    Answers: [Jedlik Ányos, Siemens, Morse, Benz]
+    Correct: [Jedlik Ányos, Siemens]
+
+  - Type: word
+    Text: Ki találta fel a fényképezést?
+    Answers: [Daguerre]
+    Correct: [Daguerre]
+
+  - Type: word
+    Text: Ki fejlesztette ki a filmszalagot?
+    Answers: [Kodak]
+    Correct: [Kodak]
+
+  - Type: word
+    Text: Kik alkották meg a mozgófilmet?
+    Answers: [Lumiére fivérek]
+    Correct: [Lumiére fivérek]
+
+  - Type: word
+    Text: Ki készítette el az írógépet?
+    Answers: [Remington]
+    Correct: [Remington]
+
+  - Type: word
+    Text: Ki találta fel a varrógépet?
+    Answers: [Singer]
+    Correct: [Singer]
+
+  - Type: word
+    Text: Ki fedezte fel az X-sugarakat?
+    Answers: [Röntgen]
+    Correct: [Röntgen]
+
+  - Type: word
+    Text: Ki építette az első autómobilt?
+    Answers: [Benz]
+    Correct: [Benz]
+
+  - Type: word
+    Text: Ki alkotta meg a dízelmotort?
+    Answers: [Diesel]
+    Correct: [Diesel]
+
+  - Type: word
+    Text: Ki tervezte a léghajót?
+    Answers: [Zeppelin]
+    Correct: [Zeppelin]
+
+  - Type: word
+    Text: Kik építették az első repülőgépet 1903-ban?
+    Answers: [Wright testvérek]
+    Correct: [Wright testvérek]
+
+  - Type: word
+    Text: Melyik évben szállt fel az első repülőgép?
+    Answers: [1903]
+    Correct: [1903]
+
+  - Type: word
+    Text: Melyik magyar mérnökök alkották meg a transzformátort?
+    Answers: [Déri Miksa, Bláthy Ottó, Zipernowski Károly]
+    Correct: [Déri Miksa, Bláthy Ottó, Zipernowski Károly]
+
+  - Type: word
+    Text: Ki dolgozta ki a váltóáramot és a generátort?
+    Answers: [Nikola Tesla]
+    Correct: [Nikola Tesla]
+
+  - Type: word
+    Text: Kik alkották meg a porlasztót?
+    Answers: [Bánki Donát, Csonka János]
+    Correct: [Bánki Donát, Csonka János]
+
+  - Type: word
+    Text: Ki vezette be a futószalagot az autógyártásban?
+    Answers: [Ford]
+    Correct: [Ford]
+
+  - Type: word
+    Text: Ki tervezte a T-modellt?
+    Answers: [Galamb József]
+    Correct: [Galamb József]
+
+  - Type: multiplechoice
+    Text: Mely találmányok köthetők magyar feltalálókhoz?
+    Answers: [telefonközpont, dinamó, transzformátor, porlasztó]
+    Correct: [telefonközpont, dinamó, transzformátor, porlasztó]

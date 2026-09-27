@@ -1,0 +1,240 @@
+Quiz: Az élővilág szerveződése
+Question:
+  - Type: singlechoice
+    Text: Körülbelül hány éves a Föld?
+    A: 5 milliárd
+    B: 3,5 milliárd
+    C: 1 milliárd
+    D: 10 milliárd
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a Föld kialakulásának szakaszai?
+    Answers: [izzó bolygó szakasz, lassú kihűlési szakasz, jégkorszak szakasz]
+    Correct: [izzó bolygó szakasz, lassú kihűlési szakasz]
+
+  - Type: singlechoice
+    Text: Mi alakult ki a külső szilárd kőzetburok kialakulásával?
+    A: Az őslégkör
+    B: Az ősóceán
+    C: Az első sejtek
+    D: A bioszféra
+    Correct: A
+
+  - Type: singlechoice
+    Text: Minek a hatására csapódott ki a vízgőz az őslégkörből?
+    A: A további lehűlés hatására
+    B: A felmelegedés hatására
+    C: Az UV sugárzás hatására
+    D: A szél hatására
+    Correct: A
+
+  - Type: word
+    Text: Mi alakult ki a vízgőz kicsapódásából?
+    Answers: [ősóceán]
+    Correct: [ősóceán]
+
+  - Type: multiplechoice
+    Text: Mi tette lehetővé az élet megjelenését a további lehűlés során?
+    Answers: [kémiai változások, vegyületek megjelenése, fehérjék megjelenése]
+    Correct: [kémiai változások, vegyületek megjelenése, fehérjék megjelenése]
+
+  - Type: word
+    Text: Hány milliárd évvel ezelőtt jelentek meg a sejtek?
+    Answers: [3,5]
+    Correct: [3,5]
+
+  - Type: singlechoice
+    Text: Hol jelentek meg a legelső sejtek?
+    A: Az ősóceánok mélyebb rétegeiben
+    B: A felszíni tavakban
+    C: A szárazföldön
+    D: A légkörben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért az ősóceánok mélyén jöttek létre az első sejtek?
+    A: Mert ott az UV sugárzástól mentes hely volt
+    B: Mert ott volt a legmelegebb
+    C: Mert ott volt a legtöbb oxigén
+    D: Mert ott volt a legtöbb fény
+    Correct: A
+
+  - Type: word
+    Text: Milyen nagyságrendű volt a legelső sejtek mérete?
+    Answers: [mikron]
+    Correct: [mikron]
+
+  - Type: singlechoice
+    Text: Hogyan szaporodtak az első sejtek?
+    A: Osztódással
+    B: Petékkel
+    C: Ikrával
+    D: Magvakkal
+    Correct: A
+
+  - Type: word
+    Text: Melyik mai élőlény tekinthető az első sejtek képviselőjének?
+    Answers: [papucsállatka]
+    Correct: [papucsállatka]
+
+  - Type: singlechoice
+    Text: Miben különbözik a mai papucsállatka az őseitől?
+    A: Fejlettebb, de csak egyetlen sejt
+    B: Több sejtből áll
+    C: Nem tud osztódni
+    D: Nem él vízben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan alakultak ki a soksejtűek?
+    A: Az osztódó sejtek nem váltak szét
+    B: Több sejt összeolvadásával
+    C: A sejtek elpusztulásával
+    D: A sejtek egyesülésével a levegőben
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen munkamegosztás alakult ki a külső és belső sejtek között?
+    Answers: [tápanyagok felvétele, védelem, tápanyag feldolgozás]
+    Correct: [tápanyagok felvétele, védelem, tápanyag feldolgozás]
+
+  - Type: word
+    Text: Hogyan nevezzük az azonos működésű sejtcsoportokat?
+    Answers: [szövetek]
+    Correct: [szövetek]
+
+  - Type: singlechoice
+    Text: Melyik szövet végzi a növények anyagszállítását?
+    A: Szállítószövet
+    B: Izomszövet
+    C: Idegszövet
+    D: Hámzövet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik szövet felelős az állatok mozgásáért?
+    A: Izomszövet
+    B: Szállítószövet
+    C: Idegszövet
+    D: Támasztószövet
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a szervek példái a tananyag szerint?
+    Answers: [gyökér, levél, szív, tüdő]
+    Correct: [gyökér, levél, szív, tüdő]
+
+  - Type: singlechoice
+    Text: Mi jellemzi a szerveket?
+    A: Az életműködés hatékonyabb ellátására alkalmas szövet szerveződések
+    B: Azonos működésű sejtcsoportok
+    C: Egy időben egy helyen élő egyedek
+    D: Több szervrendszer egysége
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a szervek rendszereit a bonyolult életműködés megvalósítására?
+    Answers: [szervrendszerek]
+    Correct: [szervrendszerek]
+
+  - Type: multiplechoice
+    Text: Mi alkotja az emlősök anyagszállító szervrendszerét?
+    Answers: [szív, erek]
+    Correct: [szív, erek]
+
+  - Type: singlechoice
+    Text: Mi a szervezet?
+    A: Összehangolt működésű szervrendszerek egysége
+    B: Azonos működésű sejtcsoportok összessége
+    C: Egy időben egy helyen élő egyedek csoportja
+    D: A biomok összessége
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a szerveződési szinteket az alacsonyabbtól a fejlettebb felé!
+    Items:
+      - Szervrendszer
+      - Sejt
+      - Szervezet
+      - Szerv
+      - Szövet
+    Correct:
+      - Sejt
+      - Szövet
+      - Szerv
+      - Szervrendszer
+      - Szervezet
+
+  - Type: multiplechoice
+    Text: Mely élőlények példák az egysejtű, illetve soksejtű önálló egyedekre?
+    Answers: [papucsállatka, fűzfa, barna medve]
+    Correct: [papucsállatka, fűzfa, barna medve]
+
+  - Type: singlechoice
+    Text: Mi az egyed alatti szerveződési szintre példa?
+    A: A test szövetei és szervei
+    B: A populáció
+    C: A társulás
+    D: A bioszféra
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az egy időben egy helyen együtt élő egyedek csoportját?
+    Answers: [populáció]
+    Correct: [populáció]
+
+  - Type: multiplechoice
+    Text: Melyek populációpéldák egy erdőben?
+    Answers: [a bükkfák összessége, az összes őz, az erdő valamennyi növényfaja]
+    Correct: [a bükkfák összessége, az összes őz]
+
+  - Type: singlechoice
+    Text: Hány populáció él együtt egy helyen?
+    A: Annyi, ahányféle élőlény él együtt
+    B: Mindig csak egy
+    C: Mindig kettő
+    D: Annyi, ahány szervrendszer van
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az életközösségeket, amelyeket a populációk kapcsolatainak hálózatai szerveznek?
+    Answers: [társulások]
+    Correct: [társulások]
+
+  - Type: singlechoice
+    Text: Mi a társulás példája a tananyag szerint?
+    A: Az erdő
+    B: A papucsállatka
+    C: A szív
+    D: A fehérje
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi alkotják a biomokat?
+    A: A társulások együtt
+    B: A sejtek együtt
+    C: A szervek együtt
+    D: Az egyedek együtt
+    Correct: A
+
+  - Type: word
+    Text: Mi a biom példája a tananyag szerint?
+    Answers: [trópusi esőerdő]
+    Correct: [trópusi esőerdő]
+
+  - Type: singlechoice
+    Text: Mi a biomok legmagasabb szerveződési szintje a Földön?
+    A: A bioszféra
+    B: A populáció
+    C: A társulás
+    D: A szervezet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit foglal magába a bioszféra?
+    A: A Föld teljes élővilágát
+    B: Csak az erdőket
+    C: Csak az állatokat
+    D: Csak az óceánokat
+    Correct: A

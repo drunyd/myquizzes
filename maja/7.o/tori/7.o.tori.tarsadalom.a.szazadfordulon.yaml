@@ -1,0 +1,158 @@
+Quiz: Társadalom a századfordulón - politikai eszmék
+Question:
+  - Type: singlechoice
+    Text: Mi alakult át az ipari forradalom hatására az ipar és a tudomány mellett?
+    A: A társadalom és a lakóhelyek
+    B: Csak a közlekedés
+    C: Csak az egészségügy
+    D: Csak a mezőgazdaság
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a modern városi arculat elemeit összefoglalóan (utak, világítás, víz, csatorna, tömegközlekedés)?
+    Answers: [infrastruktúra]
+    Correct: [infrastruktúra]
+
+  - Type: multiplechoice
+    Text: Melyek a modern városi arculat elemei?
+    Answers: [szilárd utak, világítás, víz és csatorna, tömegközlekedés]
+    Correct: [szilárd utak, világítás, víz és csatorna, tömegközlekedés]
+
+  - Type: multiplechoice
+    Text: Minek köszönhetően javult az egészségügyi ellátás?
+    Answers: [kórházak, oltások, dráguló gyógyszerek]
+    Correct: [kórházak, oltások]
+
+  - Type: singlechoice
+    Text: Mi lett az egészségügy javulásának következménye?
+    A: Nőtt az átlagéletkor
+    B: Csökkent a lakosság száma
+    C: Csökkent az oltások száma
+    D: Megszűntek a kórházak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi terjedt el a közoktatás mellett?
+    A: A szociálpolitika, azaz a népjólét
+    B: A rabszolgaság
+    C: A céhrendszer
+    D: A jobbágyság
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a népjólét (szociálpolitika) elemei?
+    Answers: [betegbiztosítás, nyugdíj, hadkötelezettség]
+    Correct: [betegbiztosítás, nyugdíj]
+
+  - Type: singlechoice
+    Text: Ki volt az utópista szocialisták képviselője?
+    A: Robert Owen
+    B: Karl Marx
+    C: XIII. Leó pápa
+    D: Bismarck
+    Correct: A
+
+  - Type: word
+    Text: Mit hoztak létre az utópista szocialisták, például Robert Owen?
+    Answers: [termelő munkásközösségek]
+    Correct: [termelő munkásközösségek]
+
+  - Type: singlechoice
+    Text: Milyen eszközökkel harcolt a szociáldemokrácia?
+    A: Demokratikus eszközökkel
+    B: Fegyveres felkeléssel
+    C: Merényletekkel
+    D: Kizárólag sztrájkokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért harcolt a szociáldemokrácia?
+    A: A munkások jogaiért és életkörülményeinek javításáért
+    B: Az államhatalom megszüntetéséért
+    C: A nemesség visszaállításáért
+    D: A gyarmatok megszerzéséért
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki volt a marxizmus (kommunizmus) megalapozója?
+    A: Karl Marx
+    B: Robert Owen
+    C: XIII. Leó pápa
+    D: Adam Smith
+    Correct: A
+
+  - Type: word
+    Text: Mi Karl Marx fő művének a címe?
+    Answers: [A Tőke]
+    Correct: [A Tőke]
+
+  - Type: singlechoice
+    Text: Marx szerint honnan ered a tőkések haszna, a profit?
+    A: A proletárok kizsákmányolásából
+    B: A kereskedelemből
+    C: A gyarmatokból
+    D: Az adókból
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a marxizmus célja?
+    A: A munkásság hatalomra juttatása, akár erőszakkal is
+    B: Az állam megszüntetése
+    C: Az egyház megerősítése
+    D: A szabad kereskedelem
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit utasítanak el az anarchisták?
+    A: Az államhatalmat
+    B: A tulajdont csak
+    C: A vallást csak
+    D: A munkásjogokat
+    Correct: A
+
+  - Type: word
+    Text: Milyen eszközzel harcoltak az anarchisták?
+    Answers: [merényletek]
+    Correct: [merényletek]
+
+  - Type: singlechoice
+    Text: Ki indította a keresztényszocializmust?
+    A: XIII. Leó pápa
+    B: Karl Marx
+    C: Robert Owen
+    D: Viktor Emánuel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a keresztényszocializmus lényege?
+    A: Az egyház fellép a munkások helyzetének javításáért
+    B: Az egyház az államhatalom megszüntetését hirdeti
+    C: Az egyház a tőkések kizsákmányolását támogatja
+    D: Az egyház elutasít minden szociális kérdést
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit hirdet a liberalizmus?
+    A: Az állam nem szól bele a gazdaság és a társadalom irányításába
+    B: Az állam mindenbe beleszól
+    C: Az állam megszüntetését
+    D: A forradalmi harcot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a konzervativizmust?
+    A: Fontolva haladás, az állam beleszól a gazdaság és a társadalom irányításába
+    B: Az állam teljes kivonulása
+    C: Az állam megszüntetése
+    D: Az erőszakos forradalom hirdetése
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely irányzatok sorolhatók a munkásmozgalmak közé?
+    Answers: [utópista szocializmus, szociáldemokrácia, marxizmus, konzervativizmus]
+    Correct: [utópista szocializmus, szociáldemokrácia, marxizmus]
+
+  - Type: word
+    Text: Ki gyakorolja a hatalmat a marxizmus célja szerint?
+    Answers: [munkásság]
+    Correct: [munkásság]
