@@ -1,0 +1,245 @@
+Quiz: Alkalmazkodás és tűrőképesség
+Question:
+  - Type: singlechoice
+    Text: Hol képesek megélni és szaporodni az élőlények?
+    A: Ahol képesek alkalmazkodni a környezeti feltételekhez, vagy azok számukra kedvezőek
+    B: Bárhol, mert mindenhez alkalmazkodnak
+    C: Csak a trópusokon
+    D: Csak a mérsékelt övezetben
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek az élettelen környezeti adottságok?
+    Answers: [fénymennyiség, hőmérséklet, levegő oxigéntartalma, talaj összetétele]
+    Correct: [fénymennyiség, hőmérséklet, levegő oxigéntartalma, talaj összetétele]
+
+  - Type: singlechoice
+    Text: Mitől függ a fénymennyiség?
+    A: A napsugarak beesési szögétől
+    B: A talaj színétől
+    C: A levegő nedvességétől
+    D: A növények magasságától
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyit csökken a hőmérséklet a föld felszínén felfelé haladva?
+    A: 100 méterenként 1 °C-ot
+    B: 10 méterenként 1 °C-ot
+    C: 1000 méterenként 1 °C-ot
+    D: 1 méterenként 100 °C-ot
+    Correct: A
+
+  - Type: word
+    Text: Melyik gáz a levegő fontos környezeti tényezője?
+    Answers: [oxigén]
+    Correct: [oxigén]
+
+  - Type: multiplechoice
+    Text: Mitől függ a talaj termőképessége?
+    Answers: [talaj összetétele, talajtípus, humusztartalom, a levegő hőmérséklete]
+    Correct: [talaj összetétele, talajtípus, humusztartalom]
+
+  - Type: singlechoice
+    Text: Mi befolyásolja az eső mennyiségét?
+    A: Az óceáni területek, az esőerdők és a kontinensek belseje
+    B: Csak a talaj típusa
+    C: Csak a levegő oxigéntartalma
+    D: Csak a fény beesési szöge
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen kölcsönhatások vannak az egy helyen élő élőlények között?
+    Answers: [a növények elfogják egymás elől a napfényt, a növények elszívják egymás elől a vizet, az állatok egymással táplálkoznak]
+    Correct: [a növények elfogják egymás elől a napfényt, a növények elszívják egymás elől a vizet, az állatok egymással táplálkoznak]
+
+  - Type: singlechoice
+    Text: Mi határozza meg, hogy egy élőhelynek milyen összetételű az élővilága?
+    A: Az élettelen és az élő környezeti tényezők együtt
+    B: Kizárólag az élettelen tényezők
+    C: Kizárólag az élő tényezők
+    D: Csak a talaj
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az élőlények öröklött tulajdonságát, amely megmutatja az igényeiket egy környezeti tényezővel szemben?
+    Answers: [tűrőképesség]
+    Correct: [tűrőképesség]
+
+  - Type: singlechoice
+    Text: Melyik növény melegkedvelő a trópusokról?
+    A: Kaucsukfa
+    B: Lucfenyő
+    C: Tőzegmoha
+    D: Mocsári gólyahír
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a korallszigetek halaival kapcsolatban igaz?
+    A: Alacsonyabb hőmérsékleten képtelenek túlélni
+    B: Tág tűrésűek a hőmérsékletre
+    C: Hidegtűrők
+    D: Szárazságtűrők
+    Correct: A
+
+  - Type: word
+    Text: Melyik állat a hidegtűrő példa?
+    Answers: [császárpingvin]
+    Correct: [császárpingvin]
+
+  - Type: singlechoice
+    Text: Melyik növény nagy vízigényű?
+    A: Mocsári gólyahír
+    B: Kaktusz
+    C: Korallszirt hala
+    D: Császárpingvin
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növény viseli jól a szárazságot?
+    A: Kaktuszok
+    B: Mocsári gólyahír
+    C: Tőzegmoha
+    D: Lucfenyő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen értékhatárok között vannak az élőlények igényei?
+    A: Minden környezeti tényezőre nézve meghatározott értékhatárok között
+    B: Minden tényezőre nézve korlátlanok
+    C: Csak a hőmérsékletre vannak határok
+    D: Csak a vízre vannak határok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit olvashatunk le a tűrőképesség grafikon függőleges tengelyéről?
+    A: Hogy az élőlény mennyire érzi jól magát
+    B: A környezeti tényező értékeit
+    C: Az élőlény méretét
+    D: Az élőlény korát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit olvashatunk le a tűrőképesség grafikon vízszintes tengelyéről?
+    A: A környezeti tényező értékeit
+    B: Hogy az élőlény mennyire érzi jól magát
+    C: Az élőlény tömegét
+    D: Az élőlény sebességét
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az alsó értékhatárt, amely az élőlénynek még éppen elviselhető?
+    Answers: [minimumpont]
+    Correct: [minimumpont]
+
+  - Type: word
+    Text: Hogyan nevezzük a felső értékhatárt, amelyet az élőlények még képesek elviselni?
+    Answers: [maximumpont]
+    Correct: [maximumpont]
+
+  - Type: word
+    Text: Hogyan nevezzük azt az értéket, amely az élőlények számára a legkedvezőbb?
+    Answers: [optimumpont]
+    Correct: [optimumpont]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a tűrőképesség grafikon pontjait az érték növekedése szerint!
+    Items:
+      - Optimumpont
+      - Maximumpont
+      - Minimumpont
+    Correct:
+      - Minimumpont
+      - Optimumpont
+      - Maximumpont
+
+  - Type: singlechoice
+    Text: Milyen a grafikonok lefutása?
+    A: Minden környezeti tényezőre és minden fajra más
+    B: Minden fajra azonos
+    C: Minden tényezőre azonos
+    D: Mindig egyenes vonalú
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük azokat a fajokat, amelyek tűrőképessége egy tényezőre nézve tág határok között mozog?
+    Answers: [tág tűrésű]
+    Correct: [tág tűrésű]
+
+  - Type: singlechoice
+    Text: Milyen fajok a szűk tűrésűek?
+    A: Amelyeknek a minimum- és maximumpontja közel van egymáshoz
+    B: Amelyeknek a minimum- és maximumpontja távol van egymástól
+    C: Amelyek mindenhol megélnek
+    D: Amelyeknek nincs optimumpontjuk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen tűrésű a lucfenyő a hőmérsékletre nézve?
+    A: Tág tűrésű, mert a hideg és a mérsékelt övezetben is megél
+    B: Szűk tűrésű
+    C: Sehol nem él meg
+    D: Csak a trópusokon él meg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen tűrésűek a korallszirtek halai?
+    A: Szűk tűrésűek
+    B: Tág tűrésűek
+    C: Minden tényezőre közömbösek
+    D: Hidegtűrők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire nézve tág, illetve szűk tűrésű a foltos maláriaszúnyog?
+    A: A hőmérsékletre tág, a páratartalomra szűk tűrésű
+    B: A hőmérsékletre szűk, a páratartalomra tág tűrésű
+    C: Mindenre tág tűrésű
+    D: Mindenre szűk tűrésű
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a foltos maláriaszúnyog páratartalom-igényének minimuma?
+    A: 90%
+    B: 50%
+    C: 10%
+    D: 100%
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért nevezzük a szűk tűrésű fajokat indikátorszervezeteknek?
+    A: Mert előfordulási helyükön megmutatják egy-egy környezeti tényező értékhatárait
+    B: Mert mindenhol megtalálhatók
+    C: Mert nagyon nagyra nőnek
+    D: Mert minden környezeti tényezőt elviselnek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelez a tőzegmoha?
+    A: Savanyú talajt és savanyú vizű lápot
+    B: Lúgos talajt
+    C: Száraz sivatagot
+    D: Sós tengervizet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a több tényezőre nézve tág tűrésű fajokat?
+    A: Nagy területen fordulnak elő, nagy az elterjedési területük
+    B: Csak egyetlen helyen élnek
+    C: Mindig indikátorszervezetek
+    D: Mindig szűk tűrésűek
+    Correct: A
+
+  - Type: word
+    Text: Melyik állat a "nagy túlélők" példája a tananyag szerint?
+    Answers: [medveállatka]
+    Correct: [medveállatka]
+
+  - Type: multiplechoice
+    Text: Mit viselnek el a medveállatkák?
+    Answers: [570000 röntgen sugárdózist, fokozatos hűtés esetén -250 Celsius fokot]
+    Correct: [570000 röntgen sugárdózist, fokozatos hűtés esetén -250 Celsius fokot]
+
+  - Type: word
+    Text: Hány röntgen sugárdózis végzetes az ember számára?
+    Answers: [500]
+    Correct: [500]

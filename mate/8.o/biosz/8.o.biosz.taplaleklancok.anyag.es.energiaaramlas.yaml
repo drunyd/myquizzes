@@ -1,0 +1,245 @@
+Quiz: Táplálékláncok, anyag- és energiaáramlás
+Question:
+  - Type: singlechoice
+    Text: Mivel jutnak energiához és a testük felépítéséhez szükséges anyagokhoz az élőlények?
+    A: Táplálkozással
+    B: Fotoszintézissel
+    C: Párolgással
+    D: Osztódással
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a növényeket a táplálkozásban?
+    A: Fotoszintézist végeznek
+    B: Más állatokat fogyasztanak
+    C: Elpusztult élőlényeket bontanak le
+    D: Nem vesznek részt a táplálékláncban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit fogyasztanak az állatok?
+    A: Növényeket és állatokat
+    B: Csak ásványi anyagokat
+    C: Csak vizet
+    D: Csak napfényt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi alapján rendezhetők az élőlények táplálékláncokba?
+    A: Aszerint, hogy őket mi fogyasztja, illetve hogy ők mit fogyasztanak
+    B: Aszerint, hogy milyen nagyok
+    C: Aszerint, hogy hol élnek
+    D: Aszerint, hogy mennyit alszanak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen hosszúságúak lehetnek a táplálékláncok?
+    A: Különböző hosszúságúak
+    B: Mindig pontosan háromtagúak
+    C: Mindig kéttagúak
+    D: Mindig öttagúak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a rövid tápláléklánc példái a tananyag szerint?
+    Answers: [növény – mezei pocok – egerészölyv, vándorsáska – varangy – fehér gólya]
+    Correct: [növény – mezei pocok – egerészölyv, vándorsáska – varangy – fehér gólya]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a hosszú tápláléklánc tagjait!
+    Items:
+      - Madarak
+      - Orchidea
+      - Jaguár
+      - Nektárfogyasztó rovar
+      - Majom
+    Correct:
+      - Orchidea
+      - Nektárfogyasztó rovar
+      - Madarak
+      - Majom
+      - Jaguár
+
+  - Type: singlechoice
+    Text: Mivel kezdődik közösen minden tápláléklánc?
+    A: Egy növénnyel
+    B: Egy ragadozóval
+    C: Egy lebontóval
+    D: Egy gombával
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel folytatódnak a táplálékláncok a növény után?
+    A: Növényevőkkel
+    B: Lebontókkal
+    C: Csúcsragadozókkal
+    D: Gombákkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel zárulnak a táplálékláncok?
+    A: Ragadozókkal
+    B: Növényekkel
+    C: Lebontókkal
+    D: Növényevőkkel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jön létre, ha egy növény vagy állat több láncnak is tagja?
+    A: Táplálkozási hálózat
+    B: Táplálékpiramis
+    C: Életközösség
+    D: Szimbiózis
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely élőlények a termelő szervezetek?
+    A: A zöld növények
+    B: A növényevő állatok
+    C: A ragadozók
+    D: A lebontók
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből állítanak elő a zöld növények cukrot?
+    A: Víz, szén-dioxid és a nap fényenergiája segítségével
+    B: Oxigén és nitrogén segítségével
+    C: Ásványi sók és víz segítségével
+    D: Humusz segítségével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a cukor a fotoszintézis során?
+    A: Energiában gazdag szerves anyag
+    B: Ásványi anyag
+    C: Gáz
+    D: Vízkészlet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért a termelő szervezetek a tápláléklánc első tagjai?
+    A: Mert ők állítják elő a szerves anyagot
+    B: Mert ők a legnagyobbak
+    C: Mert ők fogyasztják a többi élőlényt
+    D: Mert ők bontják le az elpusztult szervezeteket
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük azokat a szervezeteket, amelyek a termelőket fogyasztják?
+    Answers: [elsődleges fogyasztók]
+    Correct: [elsődleges fogyasztók]
+
+  - Type: singlechoice
+    Text: Kik az elsődleges fogyasztók?
+    A: A növényevő állatok
+    B: A ragadozók
+    C: A lebontók
+    D: A zöld növények
+    Correct: A
+
+  - Type: word
+    Text: Kik a másodlagos fogyasztók?
+    Answers: [állatevő állatok]
+    Correct: [állatevő állatok]
+
+  - Type: singlechoice
+    Text: Mit esznek a másodlagos fogyasztók?
+    A: Az elsődleges fogyasztókat
+    B: A termelőket
+    C: A lebontókat
+    D: Csak növényeket
+    Correct: A
+
+  - Type: word
+    Text: Milyen ragadozók a harmadlagos fogyasztók?
+    Answers: [másodlagos fogyasztókkal táplálkozók]
+    Correct: [másodlagos fogyasztókkal táplálkozók]
+
+  - Type: word
+    Text: Hogyan nevezzük a tápláléklánc utolsó tagját, amelynek nincs természetes fogyasztója?
+    Answers: [csúcsragadozó]
+    Correct: [csúcsragadozó]
+
+  - Type: singlechoice
+    Text: Mi jellemzi a csúcsragadozót?
+    A: A tápláléklánc utolsó tagja, nincs természetes fogyasztója az életközösségben
+    B: Mindig növényevő
+    C: Mindig lebontó
+    D: A tápláléklánc első tagja
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a zöld növények által előállított anyag egy részével?
+    A: Eljut a fogyasztókon keresztül a csúcsragadozókig
+    B: Teljes egészében a levegőbe kerül
+    C: Teljes egészében elpárolog
+    D: Azonnal lebontókhoz kerül
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely élőlények a lebontó szervezetek példái?
+    Answers: [rovar, gomba, baktérium, keselyű]
+    Correct: [rovar, gomba, baktérium, keselyű]
+
+  - Type: singlechoice
+    Text: Mit hasznosítanak a lebontó szervezetek?
+    A: Az elpusztuló szervezetekben rekedt anyagokat
+    B: A napfény energiáját
+    C: A levegő oxigénjét
+    D: A frissen képződött cukrot
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az anyagok körforgását az életközösségben!
+    Items:
+      - A lebontók újra elérhetővé teszik az anyagokat a növények számára
+      - A termelők szerves anyagot állítanak elő
+      - Az anyag eljut a fogyasztókon át a csúcsragadozókig
+      - Az élőlények elpusztulnak
+    Correct:
+      - A termelők szerves anyagot állítanak elő
+      - Az anyag eljut a fogyasztókon át a csúcsragadozókig
+      - Az élőlények elpusztulnak
+      - A lebontók újra elérhetővé teszik az anyagokat a növények számára
+
+  - Type: singlechoice
+    Text: Milyen az energia áramlása az életközösségben?
+    A: Egyirányú
+    B: Körforgásszerű
+    C: Oda-vissza váltakozó
+    D: Nincs áramlás
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi okozza az energiaveszteséget minden szinten?
+    Answers: [az élőlények saját maguk felhasználják az energiát, hőleadás]
+    Correct: [az élőlények saját maguk felhasználják az energiát, hőleadás]
+
+  - Type: singlechoice
+    Text: Mi pótolja az energiaveszteséget az életközösségben?
+    A: A Nap sugárzó energiája
+    B: A talaj ásványi anyagai
+    C: A lebontó szervezetek
+    D: A víz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a termelő szervezetektől a csúcsragadozókig haladva?
+    A: Az egyedszám csökken, a testméret nő
+    B: Az egyedszám nő, a testméret csökken
+    C: Mindkettő nő
+    D: Mindkettő csökken
+    Correct: A
+
+  - Type: word
+    Text: Mivel lehet ábrázolni az egyedszám és a testméret mennyiségi összefüggését?
+    Answers: [táplálékpiramis]
+    Correct: [táplálékpiramis]
+
+  - Type: singlechoice
+    Text: Milyen piramis a táplálékpiramis?
+    A: Anyag- és energiapiramis is egyben
+    B: Csak anyagpiramis
+    C: Csak energiapiramis
+    D: Csak egyedszám-piramis
+    Correct: A
