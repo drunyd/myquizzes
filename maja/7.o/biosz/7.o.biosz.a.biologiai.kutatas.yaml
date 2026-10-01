@@ -1,0 +1,278 @@
+Quiz: A biológiai kutatás
+Question:
+  - Type: word
+    Text: Hogyan nevezzük a felvetődő probléma magyarázataként megfogalmazott feltételezést?
+    Answers: [hipotézis]
+    Correct: [hipotézis]
+
+  - Type: singlechoice
+    Text: Miért alkalmazunk kutatási módszert?
+    A: A hipotézis igazolására vagy elvetésére
+    B: A hipotézis megfogalmazására
+    C: Az eredmények eltitkolására
+    D: A kísérlet megismétlésének elkerülésére
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a legrégebbi kutatási módszer?
+    A: A megfigyelés
+    B: A kísérletezés
+    C: A modellkészítés
+    D: A szimuláció
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mit figyelhetünk meg a megfigyelés módszerével?
+    Answers: [madarak viselkedését, biológiai folyamatok biokémiai változásait]
+    Correct: [madarak viselkedését, biológiai folyamatok biokémiai változásait]
+
+  - Type: singlechoice
+    Text: Mi a kísérletezés előnye?
+    A: Tetszés szerint megismételhető, és nagy a bizonyító ereje
+    B: Nem kell hozzá feltétel
+    C: Mindig olcsóbb, mint a megfigyelés
+    D: Nem kell értékelni az eredményeit
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért ismételhető meg a kísérlet tetszés szerint?
+    A: A pontosan meghatározott feltételek miatt
+    B: Mert nem kell hozzá eszköz
+    C: Mert a természetben játszódik le
+    D: Mert a kutató nem avatkozik be
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kísérletezés közös jellemzője?
+    A: A kutató teremti meg a vizsgált folyamat végbemenetelének feltételeit
+    B: A folyamat magától zajlik le
+    C: A kutató nem avatkozik be
+    D: Mindig a szabadban végzik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány tényezőt változtat meg a kutató a kísérlet során?
+    A: Egyetlen tényezőt
+    B: Kettőt
+    C: Hármat
+    D: Az összeset
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért fontos, hogy a kísérletben egyetlen tényezőt változtatunk?
+    A: Így egyértelműen megállapíthatók az összefüggések
+    B: Így gyorsabb a kísérlet
+    C: Így nem kell kontrollcsoport
+    D: Így nem kell eredményt értékelni
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit mutat meg a kontrollcsoport?
+    A: Az eredeti állapotot
+    B: A megváltoztatott állapotot
+    C: A kísérlet eredményét
+    D: A hipotézist
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a modellkészítés?
+    A: A valóságban lezajló folyamatokat utánozzuk mesterséges körülmények között
+    B: A természetben figyeljük meg a folyamatokat
+    C: Egyetlen tényezőt változtatunk meg
+    D: Az eredeti állapotot mutatjuk meg
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük egy későbbi várható változás előidézését modell alkalmazásával?
+    Answers: [szimuláció]
+    Correct: [szimuláció]
+
+  - Type: singlechoice
+    Text: Kik végzik az eredmények értékelését?
+    A: A kutatók
+    B: A szakfolyóiratok szerkesztői
+    C: A Wikipédia szerkesztői
+    D: A kísérletben részt vevő állatok
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen módon lehet értékelni az eredményeket?
+    Answers: [grafikusan, matematikai módszerekkel, táblázatban]
+    Correct: [grafikusan, matematikai módszerekkel, táblázatban]
+
+  - Type: multiplechoice
+    Text: Hol teszik közzé az eredményeket a kutatók?
+    Answers: [szakfolyóiratokban, tudományos közleményekben, közösségi oldalakon]
+    Correct: [szakfolyóiratokban, tudományos közleményekben]
+
+  - Type: singlechoice
+    Text: Miért kérdéses az internet és a Wikipédia hitelessége?
+    A: Mert nem feltétlenül ellenőrzött, hiteles forrás
+    B: Mert csak tudósok írhatják
+    C: Mert nem érhető el mindenki számára
+    D: Mert csak biológiáról szól
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a legrégebben használt kutatási eszköz?
+    A: A nagyító
+    B: A fénymikroszkóp
+    C: Az elektronmikroszkóp
+    D: A távcső
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány szoros nagyításra képes a nagyító?
+    A: 2–25-szörös
+    B: 100-szoros
+    C: 2500-szoros
+    D: 100000-szeres
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből készül a nagyító lencséje?
+    A: 2x domborúra csiszolt üvegből vagy műanyagból
+    B: Sík üvegből
+    C: Fémből
+    D: Kvarcból
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mire alkalmas a nagyító?
+    Answers: [kisebb rovar megfigyelésére, virágrész megfigyelésére, madártoll megfigyelésére]
+    Correct: [kisebb rovar megfigyelésére, virágrész megfigyelésére, madártoll megfigyelésére]
+
+  - Type: singlechoice
+    Text: Melyik században indult a sejtkutatás a fénymikroszkóppal?
+    A: A XVII. században
+    B: A XV. században
+    C: A XIX. században
+    D: A XX. században
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora a mai fénymikroszkópok legnagyobb nagyítása?
+    A: 2500x
+    B: 250x
+    C: 25x
+    D: 100000x
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi javult a fénymikroszkópoknál a nagyítás mellett?
+    A: A felbontóképesség (részletgazdagság)
+    B: A színe
+    C: A mérete
+    D: Az ára
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel világítják meg és képezik le a tárgyat az elektronmikroszkópban?
+    A: Elektronsugarakkal
+    B: Fénysugarakkal
+    C: Röntgensugarakkal
+    D: Ultrahanggal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora az elektronmikroszkóp nagyítása?
+    A: 100000x
+    B: 2500x
+    C: 25x
+    D: 500x
+    Correct: A
+
+  - Type: word
+    Text: Hány nanométer az elektronmikroszkóp felbontóképessége?
+    Answers: [0,3]
+    Correct: [0,3]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a mikroszkópokat növekvő nagyításuk szerint!
+    Items:
+      - Elektronmikroszkóp
+      - Nagyító
+      - Fénymikroszkóp
+    Correct:
+      - Nagyító
+      - Fénymikroszkóp
+      - Elektronmikroszkóp
+
+  - Type: singlechoice
+    Text: Mi a fénymikroszkóp talpának a szerepe?
+    A: Tartja a berendezést
+    B: A preparátumot tartja
+    C: A képet nagyítja
+    D: Az élességet állítja
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mihez csatlakozik a fénymikroszkóp állványa?
+    A: A talphoz
+    B: Az okulárhoz
+    C: Az objektívhez
+    D: A tárgyasztalhoz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi hordozza a fénymikroszkóp tubusát?
+    A: Az állvány
+    B: A talp
+    C: A tárgyasztal
+    D: Az okulár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol található az okulár?
+    A: A tubus felső végén
+    B: A tubus alján
+    C: Az állványon
+    D: A tárgyasztalon
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az okulár?
+    A: Cserélhető szemlencse
+    B: Tárgylencse
+    C: A preparátum tartója
+    D: Élességállító csavar
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol található az objektív (tárgylencse)?
+    A: A tubus alján
+    B: A tubus felső végén
+    C: A talpon
+    D: Az állvány tetején
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire helyezzük a preparátumot a fénymikroszkópnál?
+    A: A tárgyasztalra
+    B: A tubusba
+    C: Az okulárba
+    D: A talpra
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit állítunk be az élességállító csavarokkal?
+    A: A preparátum és az objektív egymástól való távolságát
+    B: A fény erősségét
+    C: A nagyítás mértékét
+    D: Az okulár helyzetét
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a biológiai kutatás folyamatának lépéseit!
+    Items:
+      - Az eredmények közzététele hiteles forrásban
+      - A hipotézis felállítása
+      - A kutatási módszer alkalmazása
+      - Probléma, jelenség felvetődése
+      - Az eredmények értékelése
+    Correct:
+      - Probléma, jelenség felvetődése
+      - A hipotézis felállítása
+      - A kutatási módszer alkalmazása
+      - Az eredmények értékelése
+      - Az eredmények közzététele hiteles forrásban

@@ -1,0 +1,319 @@
+Quiz: Az első sejtek
+Question:
+  - Type: singlechoice
+    Text: Milyen volt az első élőlények felépítése?
+    A: Nagyon egyszerű
+    B: Nagyon bonyolult
+    C: Több sejtből álló
+    D: Sejt nélküli
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely mai élőlények hasonlítanak legjobban az első élőlényekhez?
+    A: A baktériumok
+    B: A gombák
+    C: A növények
+    D: Az állatok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány sejtből áll a baktérium?
+    A: Egyetlen sejtből
+    B: Két sejtből
+    C: Sok sejtből
+    D: Sejtmagból
+    Correct: A
+
+  - Type: word
+    Text: Mi határolja a baktériumot?
+    Answers: [sejthártya]
+    Correct: [sejthártya]
+
+  - Type: singlechoice
+    Text: Mit termel a sejthártya kifelé?
+    A: Sejtfalat
+    B: Sejtplazmát
+    C: DNS-t
+    D: Fehérjét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a sejtfal szerepe?
+    A: Védi a sejtet
+    B: Nagyítja a sejtet
+    C: Mozgatja a sejtet
+    D: Táplálja a sejtet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi lehet még a sejtfal mellett?
+    A: Nyálkás burok
+    B: Második sejtmag
+    C: Klorofill
+    D: Csilló
+    Correct: A
+
+  - Type: word
+    Text: Mi tölti ki a baktérium belsejét?
+    Answers: [sejtplazma]
+    Correct: [sejtplazma]
+
+  - Type: multiplechoice
+    Text: Milyen tulajdonságai vannak a sejtplazmának?
+    Answers: [nagy víztartalmú, kocsonyás, összetett vegyületeket tartalmaz]
+    Correct: [nagy víztartalmú, kocsonyás, összetett vegyületeket tartalmaz]
+
+  - Type: singlechoice
+    Text: Ki állítja elő a sejtplazma összetett vegyületeit?
+    A: A sejt önmaga
+    B: A környezet
+    C: Egy másik sejt
+    D: A Nap
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi jellemzi még a baktérium sejtjét?
+    Answers: [gazdag fehérjékben, tartalmaz DNS-t, van sejtmagja]
+    Correct: [gazdag fehérjékben, tartalmaz DNS-t]
+
+  - Type: singlechoice
+    Text: Milyen élőlények a baktériumok sejtmag szempontjából?
+    A: Sejtmag nélküli élőlények
+    B: Egy sejtmaggal rendelkező élőlények
+    C: Két sejtmaggal rendelkező élőlények
+    D: Több sejtmaggal rendelkező élőlények
+    Correct: A
+
+  - Type: word
+    Text: Minek nevezzük a sejt örökítőanyagát?
+    Answers: [DNS]
+    Correct: [DNS]
+
+  - Type: singlechoice
+    Text: Mit hordoz a DNS a szerkezetében?
+    A: A sejt felépítésére és működésére vonatkozó utasításokat
+    B: A sejt energiaforrását
+    C: A sejt táplálékát
+    D: A sejt méretét
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az örökítőanyagban található utasításokat?
+    Answers: [gének]
+    Correct: [gének]
+
+  - Type: singlechoice
+    Text: Mi a DNS a gének szempontjából?
+    A: A gének láncolata
+    B: Egyetlen gén
+    C: A gének ellentéte
+    D: A gének energiája
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi hajtja végre a génekbe foglalt biológiai információkat?
+    A: A fehérjék
+    B: A cukrok
+    C: A zsírok
+    D: A víz
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a sejtek anyagai?
+    Answers: [cukrok, zsírok, fehérjék, örökítőanyag]
+    Correct: [cukrok, zsírok, fehérjék, örökítőanyag]
+
+  - Type: singlechoice
+    Text: Milyen elemet tartalmaznak a szerves vegyületek?
+    A: Szenet
+    B: Vasat
+    C: Aranyat
+    D: Héliumot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az életfolyamat feltétele a sejtekben?
+    A: Az anyagcsere megvalósulása
+    B: A sejt mérete
+    C: A sejt színe
+    D: A sejt kora
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi szükséges az életben maradáshoz és a szaporodáshoz?
+    A: Tápanyag és energia
+    B: Csak víz
+    C: Csak fény
+    D: Csak oxigén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből jut energiához a sejt?
+    A: A szerves vegyületek lebontásából
+    B: A szerves vegyületek felépítéséből
+    C: A sejtfal termeléséből
+    D: A nyálkás burok képzéséből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a nyílt rendszer a sejteknél?
+    A: A környezettel anyag- és energia kicserélődés megy végbe
+    B: A sejt zárt, semmit nem vesz fel
+    C: A sejt csak energiát ad le
+    D: A sejt csak anyagot vesz fel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely élőlények nyílt rendszerek?
+    A: Minden élőlény
+    B: Csak a baktériumok
+    C: Csak a növények
+    D: Csak az állatok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi alapján csoportosították az ősi egysejtűek anyagcseréjét?
+    A: Mi volt a szén- és energiaforrás
+    B: Milyen nagyok voltak
+    C: Hol éltek
+    D: Hány sejtből álltak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi volt az első anyagcseretípus energiaforrása?
+    A: A Nap sugárzó energiája
+    B: A kész szerves anyagok
+    C: A légkör oxigénje
+    D: A talaj ásványi anyagai
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi volt az első anyagcseretípus szénforrása?
+    A: A légkör szén-dioxid tartalma
+    B: A kész szerves anyagok
+    C: A víz
+    D: A talaj
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi keletkezett az első anyagcseretípusnál szén-dioxidból, vízből és napenergiából?
+    A: Cukor
+    B: Oxigén
+    C: Fehérje
+    D: Zsír
+    Correct: A
+
+  - Type: word
+    Text: Mi volt az első anyagcseretípus mellékterméke, amely a környezetbe került?
+    Answers: [oxigén]
+    Correct: [oxigén]
+
+  - Type: singlechoice
+    Text: Minek volt a kiindulási vegyülete a cukor az első típusnál?
+    A: A többi szerves vegyület előállításához
+    B: Az oxigén előállításához
+    C: A sejtfal felépítéséhez
+    D: A DNS kialakításához
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik mai élőlény képviseli az első anyagcseretípust?
+    A: A kékbaktérium (vizek, nedves talaj)
+    B: A kórokozó baktériumok
+    C: A gombák
+    D: Az ember
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi volt a második anyagcseretípus szénforrása?
+    A: Kész szerves anyagok
+    B: A légkör szén-dioxidja
+    C: A víz
+    D: A napfény
+    Correct: A
+
+  - Type: singlechoice
+    Text: Honnan származtak a második típus kész szerves anyagai?
+    A: Élő vagy már elpusztult más egysejtűekből
+    B: A légkörből
+    C: A talajból
+    D: A Nap energiájából
+    Correct: A
+
+  - Type: singlechoice
+    Text: Kik képviselik ma a második anyagcseretípust?
+    A: A mai kórokozó baktériumok
+    B: A kékbaktériumok
+    C: A növények
+    D: Az ember
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent az autotrof anyagcsere?
+    A: Nem szorul rá más élő szervezetre a testfelépítéséhez
+    B: Kész szerves anyagot használ
+    C: Csak oxigén nélkül él
+    D: Csak más élőlényekből épül fel
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi jellemzi a növények anyagcseréjét?
+    Answers: [napfény energiáját használja, szén-dioxidot használ, vízből építkezik, oxigént bocsát ki]
+    Correct: [napfény energiáját használja, szén-dioxidot használ, vízből építkezik, oxigént bocsát ki]
+
+  - Type: word
+    Text: Hogyan nevezzük a növények anyagcseréjét?
+    Answers: [fotoszintézis]
+    Correct: [fotoszintézis]
+
+  - Type: singlechoice
+    Text: Mit jelent a heterotrof anyagcsere?
+    A: Kész szerves anyagot használ szén- és energiaforrásul
+    B: Saját maga állítja elő a szerves anyagot
+    C: Nem használ szenet
+    D: Csak fényből él
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely élőlényekre jellemző a heterotrof anyagcsere?
+    Answers: [állat, ember]
+    Correct: [állat, ember]
+
+  - Type: word
+    Text: Hogyan nevezzük azt az anyagcserét, amikor a sejt energiát szabadít fel szerves vegyületek lebontásával?
+    Answers: [lebontó anyagcsere]
+    Correct: [lebontó anyagcsere]
+
+  - Type: singlechoice
+    Text: Mit használ fel a sejt a légzés során a lebontáshoz?
+    A: Oxigént
+    B: Cukrot
+    C: Fehérjét
+    D: Zsírt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi az erjedést?
+    A: A lebontás oxigén nélkül megy végbe
+    B: A lebontás oxigénnel megy végbe
+    C: Csak növényeknél fordul elő
+    D: Csak állatoknál fordul elő
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely élőlényeknél fordul elő erjedés?
+    Answers: [gomba, baktérium]
+    Correct: [gomba, baktérium]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az első anyagcseretípus folyamatának lépéseit!
+    Items:
+      - Cukor keletkezése
+      - Oxigén leadása a környezetbe
+      - Szén-dioxid és víz felvétele
+      - Napenergia felhasználása
+    Correct:
+      - Szén-dioxid és víz felvétele
+      - Napenergia felhasználása
+      - Cukor keletkezése
+      - Oxigén leadása a környezetbe

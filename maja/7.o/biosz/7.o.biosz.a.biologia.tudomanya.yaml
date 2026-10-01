@@ -1,0 +1,158 @@
+Quiz: A biológia tudománya
+Question:
+  - Type: singlechoice
+    Text: Mivel foglalkozik a biológia?
+    A: Az élőlényekkel
+    B: Az ásványokkal
+    C: A csillagokkal
+    D: Az anyagok szerkezetével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tesz lehetővé az élő és élettelen megkülönböztetése?
+    A: Az életjelenségek vizsgálata
+    B: Az anyagok színe
+    C: Az élőlények mérete
+    D: Az élőlények mozgása
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az élőlényre jellemző tulajdonságot?
+    Answers: [életjelenség]
+    Correct: [életjelenség]
+
+  - Type: singlechoice
+    Text: Mit jelent az anyagcsere?
+    A: Anyagok kicserélődését a környezet és az élőlény, valamint a sejtek és a sejtek környezete között
+    B: Csak az elfogyasztott táplálék mennyiségét
+    C: Az élőlény hőmérsékletének változását
+    D: Az élőlény szaporodását
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely folyamatokban nyilvánulnak meg az életműködések?
+    Answers: [légzés, aktív mozgás, növekedés, fejlődés]
+    Correct: [légzés, aktív mozgás, növekedés, fejlődés]
+
+  - Type: singlechoice
+    Text: Mit jelent a növekedés?
+    A: Mennyiségi változást
+    B: Minőségi változást
+    C: A környezethez való alkalmazkodást
+    D: Az anyagok kicserélődését
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a fejlődés?
+    A: Minőségi változást, új tulajdonság vagy képesség megjelenését
+    B: Mennyiségi változást
+    C: Az anyagok kicserélődését
+    D: Az élőlény tömegének növekedését
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent az ingerlékenység?
+    A: A környezethez való alkalmazkodást
+    B: Az élőlény növekedését
+    C: Az anyagok kicserélődését
+    D: A légzést
+    Correct: A
+
+  - Type: word
+    Text: Melyik életműködés példája a levegő felvétele és leadása?
+    Answers: [légzés]
+    Correct: [légzés]
+
+  - Type: multiplechoice
+    Text: Mely területek tartoznak a biológia tudományágai közé?
+    Answers: [rendszertan, szervezettan, élettan, csillagászat]
+    Correct: [rendszertan, szervezettan, élettan]
+
+  - Type: singlechoice
+    Text: Mivel foglalkozik a rendszertan?
+    A: Az élőlények elnevezésével és osztályozásával
+    B: A szervek működésével
+    C: Az öröklődéssel
+    D: A viselkedéssel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miben segít a rendszertan?
+    A: Eligazodni a világ sokszínűségében
+    B: Megérteni a sejtek működését
+    C: Feltárni az öröklődést
+    D: Megfigyelni az állatok viselkedését
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely élőlénycsoportokat nevezett el és osztályozott a rendszertan?
+    Answers: [növények, állatok]
+    Correct: [növények, állatok]
+
+  - Type: singlechoice
+    Text: Mivel foglalkozik a szervezettan?
+    A: Azzal, hogy az élőlények teste milyen szervekből, szövetekből és sejtekből áll
+    B: A szervek működésével
+    C: Az élőlények elnevezésével
+    D: Az élőlények és a környezet kapcsolatával
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel foglalkozik az élettan?
+    A: A szervek működésével
+    B: Az élőlények osztályozásával
+    C: Az élőlények testének felépítésével
+    D: Az öröklődéssel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Minek a felfedezése tette lehetővé a mikrobiológiát és a sejtbiológiát?
+    A: A mikroszkóp felfedezése
+    B: A távcső felfedezése
+    C: A kémia fejlődése
+    D: A genetika kialakulása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Minek a fejlődése hozta létre a molekuláris biológiát?
+    A: A kémia fejlődése
+    B: A mikroszkóp felfedezése
+    C: Az örökléstan kialakulása
+    D: A viselkedéskutatás
+    Correct: A
+
+  - Type: word
+    Text: Melyik tudományág foglalkozik az örökléstannal?
+    Answers: [genetika]
+    Correct: [genetika]
+
+  - Type: word
+    Text: Melyik tudományág tanulmányozza az élőlények viselkedését?
+    Answers: [etológia]
+    Correct: [etológia]
+
+  - Type: singlechoice
+    Text: Mi a magatartás-biológia másik neve?
+    A: Etológia
+    B: Ökológia
+    C: Genetika
+    D: Élettan
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel foglalkozik az ökológia?
+    A: Az élőlények és a környezetük kölcsönhatásával
+    B: A szervek működésével
+    C: Az élőlények elnevezésével
+    D: Az öröklődéssel
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely területek tartoznak az alkalmazott biológiához?
+    Answers: [orvostudomány, állattenyésztés, növénytermesztés, biotechnológia]
+    Correct: [orvostudomány, állattenyésztés, növénytermesztés, biotechnológia]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a növekedésre és a fejlődésre?
+    Answers: [a növekedés mennyiségi változás, a fejlődés minőségi változás, a fejlődés új tulajdonság megjelenését jelenti, a növekedés minőségi változás]
+    Correct: [a növekedés mennyiségi változás, a fejlődés minőségi változás, a fejlődés új tulajdonság megjelenését jelenti]
