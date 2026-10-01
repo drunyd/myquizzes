@@ -113,13 +113,10 @@ Question:
     D: A genetika kialakulása
     Correct: A
 
-  - Type: singlechoice
-    Text: Minek a fejlődése hozta létre a molekuláris biológiát?
-    A: A kémia fejlődése
-    B: A mikroszkóp felfedezése
-    C: Az örökléstan kialakulása
-    D: A viselkedéskutatás
-    Correct: A
+  - Type: multiplechoice
+    Text: Mely tudományterületek fejlődésének eredményeként alakult ki a molekuláris biológia?
+    Answers: [a genetika, a biokémia, a mikroszkóp fejlődése, a csillagászat]
+    Correct: [a genetika, a biokémia, a mikroszkóp fejlődése]
 
   - Type: word
     Text: Melyik tudományág foglalkozik az örökléstannal?
