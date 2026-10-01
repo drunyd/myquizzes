@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Társadalom a századfordulón</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Társadalom a századfordulón</h1>
+
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A társadalom átalakulása</h2>
+            <ul>
+              <li>Az ipari forradalom hatására nem csak az ipar és a tudomány alakult át, hanem a társadalom és a lakóhelyek is.</li>
+              <li>Kialakul a modern városi arculat: szilárd utak, világítás, víz és csatorna, tömegközlekedés stb. = <strong>infrastruktúra</strong>.</li>
+              <li>Egészségügyben javul az ellátás: kórházak és oltások ⟹ nő az átlagéletkor.</li>
+              <li>Közoktatás elterjed.</li>
+              <li>Szociálpolitika = népjólét: betegbiztosítás, nyugdíj.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Munkásmozgalmak és politikai eszmék</h2>
+            <ol>
+              <li><strong>Utópista szocialisták:</strong> Robert Owen, termelő munkásközösségek.</li>
+              <li><strong>Szociáldemokrácia:</strong> demokratikus eszközökkel harcoltak a munkások jogai és életkörülményeinek javításáért.</li>
+              <li><strong>Marxizmus (kommunizmus):</strong> Karl Marx, „A Tőke”. A tőkések haszna a profit, a proletárok kizsákmányolásából ered! Cél a munkásság hatalomra juttatása, akár erőszakkal is.</li>
+              <li><strong>Anarchisták:</strong> az államhatalom elutasítása. Merényletekkel harcoltak.</li>
+              <li><strong>Keresztényszocializmus:</strong> XIII. Leó pápa indítja. Az egyház fellép a munkások helyzetének javításáért.</li>
+              <li><strong>Liberalizmus:</strong> az állam nem szól bele a gazdaság és a társadalom irányításába.</li>
+              <li><strong>Konzervativizmus:</strong> fontolva haladás. Az állam beleszól a gazdaság és a társadalom irányításába.</li>
+            </ol>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A 19. század végén a gépek átformálták nem csak a gyárakat, hanem az egész társadalmat: tömegek költöztek a városokba, és új kérdés lett, hogy <strong>ki védje meg a munkásokat</strong>. Erre születtek a különböző eszmék. <a href="https://hu.wikipedia.org/wiki/Ipari_forradalom" target="_blank" rel="noopener">Ipari forradalom</a></p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A nagyvárosokban robbanásszerűen nőtt a lakosság, ezért lett szükség csatornára, világításra és tömegközlekedésre.</li>
+                <li>Az oltások és a jobb kórházak miatt az átlagéletkor Európában jelentősen megnőtt.</li>
+                <li>1883-ban Németországban vezették be az első állami betegbiztosítást.</li>
+              </ul>
+            </div>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Maquina_vapor_Watt_ETSIIM.jpg?width=800" class="figure-img img-fluid rounded" alt="Watt gőzgépe">
+              <figcaption class="figure-caption">Watt gőzgépe — a gép, amely elindította az ipari forradalmat. <a href="https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Munkásmozgalmak — „ki mit akar?”</h2>
+            <ul class="def">
+              <li><span class="term">Utópista szocialisták:</span> békés, mintaközösségeket akartak létrehozni (Robert Owen).</li>
+              <li><span class="term">Szociáldemokrácia:</span> békés, demokratikus út: szavazás, szakszervezet, sztrájk.</li>
+              <li><span class="term">Marxizmus:</span> a munkásosztály vegye át a hatalmat; Marx szerint a tőke profitja a munkások kizsákmányolásából származik.</li>
+              <li><span class="term">Anarchizmus:</span> nincs szükség államra; néhányan erőszakos támadásokat is végrehajtottak.</li>
+              <li><span class="term">Keresztényszocializmus:</span> az egyház is segítsen a munkásokon.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Marx%20by%20John%20Jabez%20Edwin%20Mayall%201875%20-%20Restored%20%26%20Adjusted%20%283x4%20cropped%20b%29.png?width=800" class="figure-img img-fluid rounded" alt="Karl Marx">
+              <figcaption class="figure-caption">Karl Marx (1818–1883), „A Tőke” szerzője. <a href="https://hu.wikipedia.org/wiki/Karl_Marx" target="_blank" rel="noopener">Karl Marx</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az egyház és a munkások</h2>
+            <p>XIII. Leó pápa 1891-ben adta ki a <em>Rerum Novarum</em> kezdetű körlevelét, amely elsőként foglalkozott átfogóan a munkások helyzetével. <a href="https://hu.wikipedia.org/wiki/XIII._Le%C3%B3_p%C3%A1pa" target="_blank" rel="noopener">XIII. Leó</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Papa%20Leone%20XIII%20%281898%29.jpg?width=800" class="figure-img img-fluid rounded" alt="XIII. Leó pápa">
+              <figcaption class="figure-caption">XIII. Leó pápa (1810–1903). <a href="https://commons.wikimedia.org/wiki/File:Papa_Leone_XIII_(1898).jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Liberalizmus vagy konzervativizmus?</h2>
+            <ul>
+              <li><strong>Liberalizmus:</strong> minél szabadabb a gazdaság, annál jobb; az állam ne avatkozzon be. Klasszikus képviselője Adam Smith. <a href="https://hu.wikipedia.org/wiki/Liberalizmus" target="_blank" rel="noopener">Liberalizmus</a></li>
+              <li><strong>Konzervativizmus:</strong> „fontolva haladás” — ne változtassunk túl gyorsan, az állam viszont szabályozhat. <a href="https://hu.wikipedia.org/wiki/Konzervativizmus" target="_blank" rel="noopener">Konzervativizmus</a></li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Adamsmithout.jpg?width=800" class="figure-img img-fluid rounded" alt="Adam Smith">
+              <figcaption class="figure-caption">Adam Smith, a szabadpiac egyik első teoretikusa. <a href="https://hu.wikipedia.org/wiki/Adam_Smith" target="_blank" rel="noopener">Adam Smith</a></figcaption>
+            </figure>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Kérdezd meg a szüleidet: szerintük az államnak mennyit szabad beleszólnia a gazdaságba? Melyik eszme áll hozzád közelebb?</p>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
