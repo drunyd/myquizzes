@@ -128,23 +128,76 @@ that knowledge.
   where the source has tabular data. If the source is a simple text file, format it
   nicely with a clear structure.
 - **Language:** Hungarian, same as the source.
-- **Self-contained:** one `.html` file with embedded `<style>` (and inline SVG/emoji if
-  needed). No build step and no local assets; only the Google Fonts link is allowed.
+- **Single file:** one `.html` file. It may reference only the shared `/static/style.css`
+  and the CDN links listed under "Theme" (Poppins, Bootstrap, Font Awesome); all other
+  styling stays in a small inline `<style>` block.
 - Escape `<`, `>`, `&` in the source text as `&lt;`, `&gt;`, `&amp;`.
 - Use the quiz title as the page `<h1>`.
 
-### Theme (match the quiz app)
+### Theme (inherit the quiz app's live theme)
 
-- Font: `'Poppins', sans-serif` via
-  `https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap`
-- Page background: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`, `min-height: 100vh`
-- Content card: white background, `border-radius: 15px`,
-  `box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1)`, generous padding (`2rem`)
-- Main title: white, `font-weight: 700`, `text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)`
-- Accent gradient: `linear-gradient(45deg, #667eea, #764ba2)`
-- Question-type accent colors (for badges/links): singlechoice `#ff6b6b`,
-  multiplechoice `#4ecdc4`, word `#45b7d1`, ordering `#9c27b0`
-- Mobile friendly and readable on a phone.
+The wiki page is served by the quiz app through its `/source/...` route, so it runs on
+the same origin as the app and can reuse the app's stylesheet and saved theme. Do **not**
+hardcode theme colors or gradients: the app's `/static/style.css` already themes every
+element for all four themes (`original`, `dark`, `glass`, `glass-dark`).
+
+The page `<head>` must be exactly this (only `<title>` changes):
+
+```html
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>…quiz title…</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+```
+
+The anti-flash `<script>` is copied from the app's `templates/base.html`; it reads
+`localStorage['quiz-theme']` and sets `data-theme` on `<html>` before first paint.
+
+Use this body structure, reusing the app's already-themed classes:
+
+```html
+  <body>
+    <div class="container py-4">
+      <div class="quiz-container p-4 p-md-5">
+        <h1 class="quiz-title display-5 mb-4">…quiz title…</h1>
+        <div class="card mb-4"><div class="card-body">…article section…</div></div>
+        …
+      </div>
+    </div>
+  </body>
+```
+
+Requirements:
+
+- Remove every hardcoded theme color/gradient from the generated page: do not set the
+  body background, card background/shadow, or title color/shadow yourself.
+  `/static/style.css` supplies these for all four themes.
+- Keep a small page-specific `<style>` block only for article-specific typography/layout
+  that `style.css` does not cover (e.g. `max-width`, definition blocks, tables). Any
+  custom color must have `[data-theme="dark"]`, `[data-theme="glass"]` and
+  `[data-theme="glass-dark"]` variants, or be avoided entirely.
+- Use `quiz-title` for the `<h1>`, and `card` / `card-body` blocks for content sections.
+  Use Bootstrap utilities for spacing/layout.
+- Do not include a theme chooser; the wiki just inherits the user's saved theme.
+- The page stays one `.html` file except for the shared `/static/style.css` and the CDN
+  links above.
+- **Limitation:** the page is always opened through the app's `/source/...` route (that is
+  why `/static/style.css` resolves). If opened directly from disk it will be unstyled.
+- **Verification:** after generating, open a wiki page through the app and confirm it
+  looks right under all four themes (original, dark, glass, glass-dark).
 
 ### File name
 

@@ -1,112 +1,122 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Élettelen környezeti tényezők</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-    * { box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; padding: 2.5rem 1rem 4rem; color: #333; }
-    .page { max-width: 860px; margin: 0 auto; }
-    .main-title { color: #fff; font-weight: 700; font-size: 2rem; text-align: center; margin: 0 0 1.75rem; text-shadow: 2px 2px 4px rgba(0,0,0,.3); }
-    .card { background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,.1); padding: 2rem; margin-bottom: 1.5rem; }
-    h2 { color: #333; font-size: 1.35rem; font-weight: 600; margin: 0 0 1rem; padding-bottom: .5rem; border-bottom: 3px solid transparent; border-image: linear-gradient(45deg, #667eea, #764ba2) 1; }
-    h3 { font-size: 1.05rem; font-weight: 600; color: #4a4a6a; margin: 1.25rem 0 .6rem; }
-    p { line-height: 1.7; margin: .6rem 0; }
-    ul { margin: .5rem 0; padding-left: 1.4rem; }
-    li { line-height: 1.7; margin-bottom: .4rem; }
-    ul ul { margin-top: .4rem; }
-    table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
-    th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid #e9ecef; }
-    th { background: #f8f9fa; font-weight: 600; color: #3b3b5c; }
-    @media (max-width: 600px) { body { padding: 1.5rem .75rem 3rem; } .main-title { font-size: 1.5rem; } .card { padding: 1.35rem; } }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Élettelen környezeti tényezők</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+  </style>
 </head>
 <body>
-<div class="page">
-    <h1 class="main-title">Élettelen környezeti tényezők</h1>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+        <h1 class="quiz-title display-5 mb-4">Élettelen környezeti tényezők</h1>
 
-    <div class="card">
-        <h2>A fény és a hőmérséklet</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A fény és a hőmérséklet</h2>
+          <ul>
             <li>A <strong>fény</strong> azért fontos, mert nélkülözhetetlen a fotoszintézishez.</li>
             <li>Nem egyformán oszlik el a Földön:
-                <ul>
-                    <li><strong>erősebb:</strong> az Egyenlítő környéke, magashegységek;</li>
-                    <li><strong>gyengébb:</strong> sarkvidékek, tenger szintje.</li>
-                </ul>
+              <ul>
+                <li><strong>erősebb:</strong> az Egyenlítő környéke, magashegységek;</li>
+                <li><strong>gyengébb:</strong> sarkvidékek, tenger szintje.</li>
+              </ul>
             </li>
             <li>A növényzet befolyásoló hatása: a tisztásokon több, az erdők mélyén kevesebb a fény.</li>
-        </ul>
+          </ul>
 
-        <h3>Fénykedvelő és árnyéktűrő fajok</h3>
-        <ul>
+          <h3>Fénykedvelő és árnyéktűrő fajok</h3>
+          <ul>
             <li><strong>Fénykedvelő fajok</strong> (a fényben gazdag területeken élnek): nyírfa, szeder.</li>
             <li><strong>Árnyéktűrők</strong> (a fényben szegény területet kedvelik): szagos müge.</li>
-        </ul>
+          </ul>
 
-        <h3>Fényben aktív állatok</h3>
-        <ul>
+          <h3>Fényben aktív állatok</h3>
+          <ul>
             <li>Nappal tevékenykednek: fekete rigó.</li>
             <li>Szürkületkor megjelenő állatok: szúnyog.</li>
             <li>Este aktív állatok: uhu, nagy pápaszem lepke.</li>
-        </ul>
-        <p>Tavasszal a hosszabbodó nappalok hatására beindul a gímszarvasok agancsképzése.</p>
-    </div>
+          </ul>
+          <p>Tavasszal a hosszabbodó nappalok hatására beindul a gímszarvasok agancsképzése.</p>
+        </div></div>
 
-    <div class="card">
-        <h2>Fény és hőmérséklet</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>Fény és hőmérséklet</h2>
+          <ul>
             <li>Az élőhelyek felmelegedése eltérő mértékű a Földön, mivel a napsugarak is egyenlőtlenül oszlanak el a felszínén.</li>
             <li>Az Egyenlítőtől a sarkok felé haladva csökken az évi átlaghőmérséklet.</li>
             <li>A hegységekben felfelé haladva szintén csökken az évi átlaghőmérséklet.</li>
             <li>Ezért a trópusi helyeken élő állatok melegkedvelők, míg a tundra és a magashegységek növény- és állatvilága hidegtűrő.</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A víz</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A víz</h2>
+          <ul>
             <li>Nélkülözhetetlen környezeti tényező.</li>
             <li>Az éves mennyiség és eloszlás befolyásolja az élőlények elterjedését.</li>
             <li>A víz mint tartózkodási közeg.</li>
             <li>Vízi élőlények: tengeri moszatok, hínár (fehér tavirózsa – a vízben gyökerezik, zárvatermő), halak, cetek.</li>
             <li>Élőhelyek víz szerint: trópusi esőerdők (nedvességkedvelők), sivatagok (szárazságtűrők), lombos erdők (átmeneti).</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A talaj</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A talaj</h2>
+          <ul>
             <li>Meghatározza a rajta kialakuló növényvilágot.</li>
             <li>Sokszínű élővilág: tápanyagban gazdag, szellős, megfelelő vízellátottságú talaj.</li>
             <li>Füves puszták, lombos erdők (humusz).</li>
             <li><strong>Humusz:</strong> szerves anyag, amely a lehulló levelek és elpusztult élőlények lebontásából jön létre; megköti a vizet, segíti a tápanyagfelvételt, majd maga is tápanyaggá bomlik le.</li>
             <li>Tajga erdő: tápanyagban szegény talaj.</li>
             <li>Szikes talaj: magas a sótartalma.</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A levegő</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A levegő</h2>
+          <ul>
             <li>Az összetétele és az áramlása is fontos.</li>
             <li>Összetétele:</li>
-        </ul>
-        <table>
-            <tr><th>Összetevő</th><th>Arány</th></tr>
-            <tr><td>Nitrogén</td><td>78%</td></tr>
-            <tr><td>Oxigén</td><td>21%</td></tr>
-            <tr><td>Szén-dioxid</td><td>0,03%</td></tr>
-            <tr><td>Egyéb gázok, vízgőz</td><td>nyomokban</td></tr>
-        </table>
-        <ul>
+          </ul>
+          <table class="table table-sm align-middle">
+            <thead>
+              <tr><th>Összetevő</th><th>Arány</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Nitrogén</td><td>78%</td></tr>
+              <tr><td>Oxigén</td><td>21%</td></tr>
+              <tr><td>Szén-dioxid</td><td>0,03%</td></tr>
+              <tr><td>Egyéb gázok, vízgőz</td><td>nyomokban</td></tr>
+            </tbody>
+          </table>
+          <ul class="mt-3">
             <li>Segíti a növények elterjedését és a beporzást is.</li>
             <li>A szárító hatása káros lehet.</li>
             <li>Energiaforrás a madarak számára: repülés.</li>
-        </ul>
+          </ul>
+        </div></div>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>

@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A társulások változásai</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-    * { box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; padding: 2.5rem 1rem 4rem; color: #333; }
-    .page { max-width: 860px; margin: 0 auto; }
-    .main-title { color: #fff; font-weight: 700; font-size: 2rem; text-align: center; margin: 0 0 1.75rem; text-shadow: 2px 2px 4px rgba(0,0,0,.3); }
-    .card { background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,.1); padding: 2rem; margin-bottom: 1.5rem; }
-    h2 { color: #333; font-size: 1.35rem; font-weight: 600; margin: 0 0 1rem; padding-bottom: .5rem; border-bottom: 3px solid transparent; border-image: linear-gradient(45deg, #667eea, #764ba2) 1; }
-    h3 { font-size: 1.05rem; font-weight: 600; color: #4a4a6a; margin: 1.25rem 0 .6rem; }
-    p { line-height: 1.7; margin: .6rem 0; }
-    ul { margin: .5rem 0; padding-left: 1.4rem; }
-    li { line-height: 1.7; margin-bottom: .4rem; }
-    ul ul { margin-top: .4rem; }
-    .def { list-style: none; padding-left: 0; margin: .5rem 0; }
-    .def > li { background: #f8f9fa; border: 2px solid #e9ecef; border-left: 5px solid #667eea; border-radius: 10px; padding: .65rem .9rem; margin-bottom: .55rem; }
-    .def .term { font-weight: 600; color: #3b3b5c; }
-    .steps { list-style: none; padding-left: 0; counter-reset: step; }
-    .steps > li { counter-increment: step; position: relative; background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 10px; padding: .6rem .9rem .6rem 3rem; margin-bottom: .5rem; }
-    .steps > li::before { content: counter(step); position: absolute; left: .8rem; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; border-radius: 50%; background: linear-gradient(45deg, #667eea, #764ba2); color: #fff; font-weight: 600; font-size: .85rem; display: flex; align-items: center; justify-content: center; }
-    @media (max-width: 600px) { body { padding: 1.5rem .75rem 3rem; } .main-title { font-size: 1.5rem; } .card { padding: 1.35rem; } }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A társulások változásai</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .steps { list-style: none; padding-left: 0; counter-reset: step; margin: .5rem 0 0; }
+    .steps > li { counter-increment: step; position: relative; padding-left: 2.4rem; margin-bottom: .5rem; }
+    .steps > li::before {
+      content: counter(step);
+      position: absolute; left: 0; top: 0;
+      width: 1.6rem; height: 1.6rem;
+      display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--bs-border-color); border-radius: 50%;
+      font-size: .85rem; font-weight: 600;
+    }
+  </style>
 </head>
 <body>
-<div class="page">
-    <h1 class="main-title">A társulások változásai</h1>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+        <h1 class="quiz-title display-5 mb-4">A társulások változásai</h1>
 
-    <div class="card">
-        <h2>Kölcsönhatások kialakulása, típusai</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>Kölcsönhatások kialakulása, típusai</h2>
+          <ul>
             <li>Az élő és élettelen tényezőktől függ az élőhelyen a társulások összetétele, a társulások szintjeinek száma, valamint a társulások mintázata (az egyes szinteken való elrendeződés).</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A populációk napi és éves ritmusa</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A populációk napi és éves ritmusa</h2>
+          <ul>
             <li><strong>Napi ritmus:</strong> rövid idejű, ismétlődő változás. Például:
-                <ul>
-                    <li><strong>téltemető:</strong> csak a meleg délelőtti órákban nyitja ki a lepelleveleit;</li>
-                    <li><strong>csodatölcsérke:</strong> csak alkonyatkor virágzik;</li>
-                    <li><strong>fecskefarkú lepke:</strong> csak nappal repül;</li>
-                    <li><strong>bagolylepke:</strong> csak éjszaka repül.</li>
-                </ul>
+              <ul>
+                <li><strong>téltemető:</strong> csak a meleg délelőtti órákban nyitja ki a lepelleveleit;</li>
+                <li><strong>csodatölcsérke:</strong> csak alkonyatkor virágzik;</li>
+                <li><strong>fecskefarkú lepke:</strong> csak nappal repül;</li>
+                <li><strong>bagolylepke:</strong> csak éjszaka repül.</li>
+              </ul>
             </li>
             <li>Az évszakok változásai is befolyásolják a közösségek életét: például a bükkös aljnövényzete. Ugyanez megtalálható az állatoknál is.</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A populációk egyirányú változásai — Szukcesszió / Futóhomok</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A populációk egyirányú változásai — Szukcesszió / Futóhomok</h2>
+          <ul>
             <li><strong>Szukcesszió:</strong> az életközösségekre olyan hosszabb ideig ható változás, amely az őket felépítő populációk kicserélődésével jár. Egyirányú folyamat, de újra kezdődhet.</li>
             <li>Például a futóhomokon kezdetben nincs életközösség.</li>
             <li><strong>Pionír (úttörő) szervezetek:</strong> az első növények a zuzmók és a mohák. Igénytelenek, tágtűrésűek, bírják a szárazságot és a kevés tápanyagot. Gyökérszerű fonalaik savakat termelnek, amelyekkel mállasztják a homokszemeket, és a felszabaduló sókat felveszik.</li>
             <li>A pionír szervezetek telepei lassan szaporodnak. Tárolják a csapadékvizet, elpusztult telepeik tápanyagot juttatnak a talajba — így megteremtik a lehetőséget igényesebb növények térhódítására.</li>
-        </ul>
+          </ul>
 
-        <h3>A futóhomok szukcessziójának szakaszai</h3>
-        <ol class="steps">
+          <h3>A futóhomok szukcessziójának szakaszai</h3>
+          <ol class="steps">
             <li>Zuzmók és mohák (pionír szervezetek) megtelepedése.</li>
             <li>Nyílt homoki gyep — „nyílt”, mert a foltjai között a talaj még szabadon látszik.</li>
             <li>Zárt homoki gyep — további növények telepednek meg, a talaj már nem látszik.</li>
             <li>Homokpusztarét (homoki árvalányhaj) — a talaj már olyan gazdag tápanyagban, hogy megjelennek az első fák.</li>
             <li>Tölgyes erdő — a <strong>zárótársulás</strong>, mert nem változik tovább.</li>
-        </ol>
-    </div>
+          </ol>
+        </div></div>
 
-    <div class="card">
-        <h2>A populációk egyirányú változásai — Szukcesszió / Állóvizek feltöltődése</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A populációk egyirányú változásai — Szukcesszió / Állóvizek feltöltődése</h2>
+          <ul>
             <li>Egyre kisebb lesz a szabad vízfelület, és csökken a víz mélysége is.</li>
             <li>A part felől egyre beljebb hatol a növényzet, és végezetül erdő alakul ki.</li>
             <li>Először elhalt planktonok és más élőlények süllyednek le a tó fenekére, és elkezdődik a lassú iszaposodás.</li>
             <li>Majd megjelennek az algák és egyéb gyökerező hínárnövények, ezért csökken a szabad vízfelület.</li>
             <li>Megjelenik a nád és a széleslevelű gyékény a sekélyparton, hiszen egyre több a tápanyag.</li>
             <li>A végén eltűnik a víz, és megtelepülnek a fák. Pl.: fehér fűz.</li>
-        </ul>
+          </ul>
+        </div></div>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>

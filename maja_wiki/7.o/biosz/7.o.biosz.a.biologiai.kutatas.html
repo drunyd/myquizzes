@@ -1,96 +1,99 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A biológiai kutatás</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-    * { box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; padding: 2.5rem 1rem 4rem; color: #333; }
-    .page { max-width: 860px; margin: 0 auto; }
-    .main-title { color: #fff; font-weight: 700; font-size: 2rem; text-align: center; margin: 0 0 1.75rem; text-shadow: 2px 2px 4px rgba(0,0,0,.3); }
-    .card { background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,.1); padding: 2rem; margin-bottom: 1.5rem; }
-    h2 { color: #333; font-size: 1.35rem; font-weight: 600; margin: 0 0 1rem; padding-bottom: .5rem; border-bottom: 3px solid transparent; border-image: linear-gradient(45deg, #667eea, #764ba2) 1; }
-    h3 { font-size: 1.05rem; font-weight: 600; color: #4a4a6a; margin: 1.25rem 0 .6rem; }
-    p { line-height: 1.7; margin: .6rem 0; }
-    ul { margin: .5rem 0; padding-left: 1.4rem; }
-    li { line-height: 1.7; margin-bottom: .4rem; }
-    ul ul { margin-top: .4rem; }
-    .def { list-style: none; padding-left: 0; margin: .5rem 0; }
-    .def > li { background: #f8f9fa; border: 2px solid #e9ecef; border-left: 5px solid #667eea; border-radius: 10px; padding: .65rem .9rem; margin-bottom: .55rem; }
-    .def .term { font-weight: 600; color: #3b3b5c; }
-    .note { background: #fff3cd; border: 1px solid #ffe08a; border-radius: 10px; padding: .5rem .9rem; display: inline-block; font-size: .95rem; }
-    table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
-    th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid #e9ecef; }
-    th { background: #f8f9fa; font-weight: 600; color: #3b3b5c; }
-    @media (max-width: 600px) { body { padding: 1.5rem .75rem 3rem; } .main-title { font-size: 1.5rem; } .card { padding: 1.35rem; } }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A biológiai kutatás</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+  </style>
 </head>
 <body>
-<div class="page">
-    <h1 class="main-title">A biológiai kutatás</h1>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+        <h1 class="quiz-title display-5 mb-4">A biológiai kutatás</h1>
 
-    <div class="card">
-        <h2>A biológiai kutatás módszerei</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A biológiai kutatás módszerei</h2>
+          <ul>
             <li>Egy felvetődő probléma vagy jelenség magyarázataként <strong>hipotézist</strong> (feltételezést) állítunk fel.</li>
             <li>A hipotézis igazolására vagy elvetésére <strong>kutatási módszert</strong> alkalmazunk (olyat, amely szerintünk megfelelő).</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>Kutatási módszerek</h2>
-        <ul class="def">
+        <div class="card mb-4"><div class="card-body">
+          <h2>Kutatási módszerek</h2>
+          <ul class="def">
             <li><span class="term">Megfigyelés:</span> a legrégebbi módszer. Megfigyeljük például a madarak viselkedését, vagy biológiai folyamatok során bekövetkező biokémiai változásokat.</li>
             <li><span class="term">Kísérletezés:</span> sokféle létezik; tetszés szerint megismételhető (a pontosan meghatározott feltételek miatt), és nagy bizonyító ereje van.
-                <ul>
-                    <li>Közös jellemzője: a kutató teremti meg a vizsgált folyamat végbemenetelének feltételeit.</li>
-                    <li>A kísérlet során egyetlen tényezőt változtat meg, így egyértelműen megállapíthatók az összefüggések.</li>
-                    <li><strong>Kontrollcsoport:</strong> az eredeti állapotot mutatja meg.</li>
-                </ul>
+              <ul>
+                <li>Közös jellemzője: a kutató teremti meg a vizsgált folyamat végbemenetelének feltételeit.</li>
+                <li>A kísérlet során egyetlen tényezőt változtat meg, így egyértelműen megállapíthatók az összefüggések.</li>
+                <li><strong>Kontrollcsoport:</strong> az eredeti állapotot mutatja meg.</li>
+              </ul>
             </li>
             <li><span class="term">Modellkészítés:</span> a valóságban lezajló folyamatokat utánozzuk mesterséges körülmények között.</li>
             <li><span class="term">Szimuláció:</span> egy későbbi várható változás bekövetkezésének előidézése modell alkalmazásával.</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>Eredmények értékelése</h2>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>Eredmények értékelése</h2>
+          <ul>
             <li>A kutatók végzik.</li>
             <li>Többféle módon lehetséges: grafikusan, matematikai módszerekkel, táblázatban.</li>
             <li>Az eredményeket hiteles forrásban teszik közzé: szakfolyóiratokban, tudományos közleményekben.</li>
-            <li>Kérdés: az internet és a Wikipédia hiteles forrás-e? <span class="note">Internet hiteles forrás??? Wikipédia????</span></li>
-        </ul>
-    </div>
+            <li>Kérdés: az internet és a Wikipédia hiteles forrás-e? <span class="badge bg-warning text-dark">Internet hiteles forrás??? Wikipédia????</span></li>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A biológiai kutatás eszközei</h2>
-        <h3>Nagyító</h3>
-        <ul>
+        <div class="card mb-4"><div class="card-body">
+          <h2>A biológiai kutatás eszközei</h2>
+          <h3>Nagyító</h3>
+          <ul>
             <li>A legrégebben használt eszköz.</li>
             <li>2–25-szörös nagyítás.</li>
             <li>2x domborúra csiszolt üveg- vagy műanyag lencse.</li>
             <li>Alkalmas kisebb rovar, virágrész, madártoll megfigyelésére.</li>
-        </ul>
+          </ul>
 
-        <h3>Fénymikroszkóp</h3>
-        <ul>
+          <h3>Fénymikroszkóp</h3>
+          <ul>
             <li>A XVII. században a sejtkutatás eszköze.</li>
             <li>Mai nagyítása 2500x, a felbontóképesség (részletgazdagság) is javult.</li>
-        </ul>
+          </ul>
 
-        <h3>Elektronmikroszkóp</h3>
-        <ul>
+          <h3>Elektronmikroszkóp</h3>
+          <ul>
             <li>A tárgyat elektronsugarak világítják meg és képezik le.</li>
             <li>100000x nagyítás, felbontóképessége 0,3 nanométer.</li>
-        </ul>
-    </div>
+          </ul>
+        </div></div>
 
-    <div class="card">
-        <h2>A fénymikroszkóp részei</h2>
-        <ul class="def">
+        <div class="card mb-4"><div class="card-body">
+          <h2>A fénymikroszkóp részei</h2>
+          <ul class="def">
             <li><span class="term">Talp:</span> tartja a berendezést.</li>
             <li><span class="term">Állvány:</span> a talphoz csatlakozik.</li>
             <li><span class="term">Tubus:</span> az állvány hordozza.</li>
@@ -98,8 +101,10 @@
             <li><span class="term">Objektív (tárgylencse):</span> a tubus alján található.</li>
             <li><span class="term">Tárgyasztal:</span> az állványhoz kapcsolódik, ide helyezzük a preparátumot.</li>
             <li><span class="term">Élességállító csavarok:</span> a preparátum és az objektív egymástól való távolságát állítjuk be velük (képélesség).</li>
-        </ul>
+          </ul>
+        </div></div>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>
