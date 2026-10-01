@@ -26,85 +26,156 @@
     .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
     .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
     .def .term { font-weight: 600; }
+    .steps { list-style: none; padding-left: 0; counter-reset: step; margin: .5rem 0 0; }
+    .steps > li { counter-increment: step; position: relative; padding-left: 2.4rem; margin-bottom: .5rem; }
+    .steps > li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 1.6rem; height: 1.6rem; display: flex; align-items: center; justify-content: center; border: 1px solid var(--bs-border-color); border-radius: 50%; font-size: .85rem; font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">A biológiai kutatás</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A biológiai kutatás módszerei</h2>
-          <ul>
-            <li>Egy felvetődő probléma vagy jelenség magyarázataként <strong>hipotézist</strong> (feltételezést) állítunk fel.</li>
-            <li>A hipotézis igazolására vagy elvetésére <strong>kutatási módszert</strong> alkalmazunk (olyat, amely szerintünk megfelelő).</li>
-          </ul>
-        </div></div>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A biológiai kutatás módszerei</h2>
+            <ul>
+              <li>Egy felvetődő probléma vagy jelenség magyarázataként <strong>hipotézist</strong> (feltételezést) állítunk fel.</li>
+              <li>A hipotézis igazolására vagy elvetésére <strong>kutatási módszert</strong> alkalmazunk (olyat, amely szerintünk megfelelő).</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Kutatási módszerek</h2>
-          <ul class="def">
-            <li><span class="term">Megfigyelés:</span> a legrégebbi módszer. Megfigyeljük például a madarak viselkedését, vagy biológiai folyamatok során bekövetkező biokémiai változásokat.</li>
-            <li><span class="term">Kísérletezés:</span> sokféle létezik; tetszés szerint megismételhető (a pontosan meghatározott feltételek miatt), és nagy bizonyító ereje van.
-              <ul>
-                <li>Közös jellemzője: a kutató teremti meg a vizsgált folyamat végbemenetelének feltételeit.</li>
-                <li>A kísérlet során egyetlen tényezőt változtat meg, így egyértelműen megállapíthatók az összefüggések.</li>
-                <li><strong>Kontrollcsoport:</strong> az eredeti állapotot mutatja meg.</li>
-              </ul>
-            </li>
-            <li><span class="term">Modellkészítés:</span> a valóságban lezajló folyamatokat utánozzuk mesterséges körülmények között.</li>
-            <li><span class="term">Szimuláció:</span> egy későbbi várható változás bekövetkezésének előidézése modell alkalmazásával.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kutatási módszerek</h2>
+            <ul class="def">
+              <li><span class="term">Megfigyelés:</span> a legrégebbi módszer. Megfigyeljük például a madarak viselkedését, vagy biológiai folyamatok során bekövetkező biokémiai változásokat.</li>
+              <li><span class="term">Kísérletezés:</span> sokféle létezik; tetszés szerint megismételhető (a pontosan meghatározott feltételek miatt), és nagy bizonyító ereje van.
+                <ul>
+                  <li>Közös jellemzője: a kutató teremti meg a vizsgált folyamat végbemenetelének feltételeit.</li>
+                  <li>A kísérlet során egyetlen tényezőt változtat meg, így egyértelműen megállapíthatók az összefüggések.</li>
+                  <li><strong>Kontrollcsoport:</strong> az eredeti állapotot mutatja meg.</li>
+                </ul>
+              </li>
+              <li><span class="term">Modellkészítés:</span> a valóságban lezajló folyamatokat utánozzuk mesterséges körülmények között.</li>
+              <li><span class="term">Szimuláció:</span> egy későbbi várható változás bekövetkezésének előidézése modell alkalmazásával.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Eredmények értékelése</h2>
-          <ul>
-            <li>A kutatók végzik.</li>
-            <li>Többféle módon lehetséges: grafikusan, matematikai módszerekkel, táblázatban.</li>
-            <li>Az eredményeket hiteles forrásban teszik közzé: szakfolyóiratokban, tudományos közleményekben.</li>
-            <li>Kérdés: az internet és a Wikipédia hiteles forrás-e? <span class="badge bg-warning text-dark">Internet hiteles forrás??? Wikipédia????</span></li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Eredmények értékelése</h2>
+            <ul>
+              <li>A kutatók végzik.</li>
+              <li>Többféle módon lehetséges: grafikusan, matematikai módszerekkel, táblázatban.</li>
+              <li>Az eredményeket hiteles forrásban teszik közzé: szakfolyóiratokban, tudományos közleményekben.</li>
+              <li>Kérdés: az internet és a Wikipédia hiteles forrás-e? <span class="badge bg-warning text-dark">Internet hiteles forrás??? Wikipédia????</span></li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A biológiai kutatás eszközei</h2>
-          <h3>Nagyító</h3>
-          <ul>
-            <li>A legrégebben használt eszköz.</li>
-            <li>2–25-szörös nagyítás.</li>
-            <li>2x domborúra csiszolt üveg- vagy műanyag lencse.</li>
-            <li>Alkalmas kisebb rovar, virágrész, madártoll megfigyelésére.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A biológiai kutatás eszközei</h2>
+            <h3>Nagyító</h3>
+            <ul>
+              <li>A legrégebben használt eszköz.</li>
+              <li>2–25-szörös nagyítás.</li>
+              <li>2x domborúra csiszolt üveg- vagy műanyag lencse.</li>
+              <li>Alkalmas kisebb rovar, virágrész, madártoll megfigyelésére.</li>
+            </ul>
+            <h3>Fénymikroszkóp</h3>
+            <ul>
+              <li>A XVII. században a sejtkutatás eszköze.</li>
+              <li>Mai nagyítása 2500x, a felbontóképesség (részletgazdagság) is javult.</li>
+            </ul>
+            <h3>Elektronmikroszkóp</h3>
+            <ul>
+              <li>A tárgyat elektronsugarak világítják meg és képezik le.</li>
+              <li>100000x nagyítás, felbontóképessége 0,3 nanométer.</li>
+            </ul>
+          </div></div>
 
-          <h3>Fénymikroszkóp</h3>
-          <ul>
-            <li>A XVII. században a sejtkutatás eszköze.</li>
-            <li>Mai nagyítása 2500x, a felbontóképesség (részletgazdagság) is javult.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A fénymikroszkóp részei</h2>
+            <ul class="def">
+              <li><span class="term">Talp:</span> tartja a berendezést.</li>
+              <li><span class="term">Állvány:</span> a talphoz csatlakozik.</li>
+              <li><span class="term">Tubus:</span> az állvány hordozza.</li>
+              <li><span class="term">Okulár:</span> cserélhető szemlencse, a tubus felső végén található.</li>
+              <li><span class="term">Objektív (tárgylencse):</span> a tubus alján található.</li>
+              <li><span class="term">Tárgyasztal:</span> az állványhoz kapcsolódik, ide helyezzük a preparátumot.</li>
+              <li><span class="term">Élességállító csavarok:</span> a preparátum és az objektív egymástól való távolságát állítjuk be velük (képélesség).</li>
+            </ul>
+          </div></div>
+        </div>
 
-          <h3>Elektronmikroszkóp</h3>
-          <ul>
-            <li>A tárgyat elektronsugarak világítják meg és képezik le.</li>
-            <li>100000x nagyítás, felbontóképessége 0,3 nanométer.</li>
-          </ul>
-        </div></div>
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Így dolgozik egy kutató</h2>
+            <p class="mb-2">A tudomány nem „vélemény”: van egy lépéssora, amit bárki megismételhet. <a href="https://hu.wikipedia.org/wiki/Tudom%C3%A1nyos_m%C3%B3dszer" target="_blank" rel="noopener">Tudományos módszer</a></p>
+            <ol class="steps">
+              <li>Megfigyelés — valami érdekeset látok.</li>
+              <li>Kérdés — miért történik ez?</li>
+              <li>Hipotézis — kitalálok egy magyarázatot.</li>
+              <li>Kísérlet — letesztelem.</li>
+              <li>Értékelés — az adatok megerősítik vagy cáfolják.</li>
+              <li>Közzététel — mások is megismételhetik.</li>
+            </ol>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A fénymikroszkóp részei</h2>
-          <ul class="def">
-            <li><span class="term">Talp:</span> tartja a berendezést.</li>
-            <li><span class="term">Állvány:</span> a talphoz csatlakozik.</li>
-            <li><span class="term">Tubus:</span> az állvány hordozza.</li>
-            <li><span class="term">Okulár:</span> cserélhető szemlencse, a tubus felső végén található.</li>
-            <li><span class="term">Objektív (tárgylencse):</span> a tubus alján található.</li>
-            <li><span class="term">Tárgyasztal:</span> az állványhoz kapcsolódik, ide helyezzük a preparátumot.</li>
-            <li><span class="term">Élességállító csavarok:</span> a preparátum és az objektív egymástól való távolságát állítjuk be velük (képélesség).</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tudtad? — egy véletlen felfedezés</h2>
+            <p>1928-ban Alexander Fleming észrevette, hogy egy penészgomba elpusztítja a baktériumokat a tányérján. Ebből lett a <strong>penicillin</strong>, az első széles körben használt antibiotikum. <a href="https://hu.wikipedia.org/wiki/Alexander_Fleming" target="_blank" rel="noopener">Fleming</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Synthetic%20Production%20of%20Penicillin%20TR1468%20crop.jpg?width=800" class="figure-img img-fluid rounded" alt="Penicillin">
+              <figcaption class="figure-caption">Penicillin — az orvostudomány egyik legnagyobb felfedezése. <a href="https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468_crop.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A jó kísérlet titka</h2>
+            <p>Csak <strong>egy</strong> tényezőt változtatunk, és kell egy <strong>kontrollcsoport</strong>, ami mindenben ugyanolyan, csak abban nem, amit vizsgálunk.</p>
+            <p class="mb-0"><em>Példa:</em> növényeket nevelünk. Az egyik csoport kap fényt, a másik nem — minden más (föld, víz, hőmérséklet) azonos. Így biztosan tudjuk, hogy a fény volt a hatás.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Eszközök a laborban</h2>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Scientists%20are%20working%20in%20the%20lab.9.jpg?width=800" class="figure-img img-fluid rounded" alt="Kutatók a laborban">
+              <figcaption class="figure-caption">A biológiai kutatás nem csak mikroszkópból áll — kémia, adatelemzés és csapatmunka is kell hozzá. <a href="https://commons.wikimedia.org/wiki/File:Scientists_are_working_in_the_lab.9.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az elektronmikroszkóp felbontása 0,3 nanométer — vagyis akár egy nagy molekulát is „lát”.</div>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

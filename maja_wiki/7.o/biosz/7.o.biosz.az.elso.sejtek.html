@@ -23,106 +23,168 @@
     .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
     .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
     .wiki-article li { margin-bottom: .35rem; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">Az első sejtek</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Az ősi sejtek felépítése</h2>
-          <ul>
-            <li>Az első élőlények felépítése nagyon egyszerű volt.</li>
-            <li>Ma is élnek olyan élőlények, amelyek nagyon hasonlítanak őseikhez — ilyenek a baktériumok.</li>
-            <li>A <strong>baktérium</strong>:
-              <ul>
-                <li>egyetlen sejtből áll;</li>
-                <li>sejthártya határolja;</li>
-                <li>a sejthártya kifelé sejtfalat termel, ez védi a sejtet; lehet rajta nyálkás burok is;</li>
-                <li>belsejét sejtplazma tölti ki.</li>
-              </ul>
-            </li>
-            <li>A <strong>sejtplazma</strong> nagy víztartalmú, kocsonyás, összetett vegyületeket tartalmaz, amelyeket a sejt önmaga állít elő. Gazdag fehérjékben, és tartalmaz <strong>DNS-t</strong> (örökítőanyagot). A baktériumok sejtmag nélküli élőlények.</li>
-          </ul>
-        </div></div>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az ősi sejtek felépítése</h2>
+            <ul>
+              <li>Az első élőlények felépítése nagyon egyszerű volt.</li>
+              <li>Ma is élnek olyan élőlények, amelyek nagyon hasonlítanak őseikhez — ilyenek a baktériumok.</li>
+              <li>A <strong>baktérium</strong>:
+                <ul>
+                  <li>egyetlen sejtből áll;</li>
+                  <li>sejthártya határolja;</li>
+                  <li>a sejthártya kifelé sejtfalat termel, ez védi a sejtet; lehet rajta nyálkás burok is;</li>
+                  <li>belsejét sejtplazma tölti ki.</li>
+                </ul>
+              </li>
+              <li>A <strong>sejtplazma</strong> nagy víztartalmú, kocsonyás, összetett vegyületeket tartalmaz, amelyeket a sejt önmaga állít elő. Gazdag fehérjékben, és tartalmaz <strong>DNS-t</strong> (örökítőanyagot). A baktériumok sejtmag nélküli élőlények.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>DNS</h2>
-          <ul>
-            <li>Az örökítőanyag.</li>
-            <li>Szerkezetében hordozza a sejt felépítésére és működésére vonatkozó utasításokat — ezek a <strong>gének</strong>.</li>
-            <li>A DNS tehát a gének láncolata.</li>
-            <li>A génekbe foglalt biológiai információkat a <strong>fehérjék</strong> hajtják végre a sejtekben.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>DNS</h2>
+            <ul>
+              <li>Az örökítőanyag.</li>
+              <li>Szerkezetében hordozza a sejt felépítésére és működésére vonatkozó utasításokat — ezek a <strong>gének</strong>.</li>
+              <li>A DNS tehát a gének láncolata.</li>
+              <li>A génekbe foglalt biológiai információkat a <strong>fehérjék</strong> hajtják végre a sejtekben.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Szerves vegyületek</h2>
-          <ul>
-            <li>A sejtek energia felhasználásával maguk állítják elő őket.</li>
-            <li>A sejtek anyagai: cukrok, zsírok, fehérjék, örökítőanyag.</li>
-            <li>Tartalmaznak <strong>szenet</strong>!</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Szerves vegyületek</h2>
+            <ul>
+              <li>A sejtek energia felhasználásával maguk állítják elő őket.</li>
+              <li>A sejtek anyagai: cukrok, zsírok, fehérjék, örökítőanyag.</li>
+              <li>Tartalmaznak <strong>szenet</strong>!</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A sejtek mint nyílt rendszerek</h2>
-          <ul>
-            <li>Az életfolyamat feltétele az anyagcsere megvalósulása.</li>
-            <li>Tápanyag és energia szükséges az életben maradáshoz és a szaporodáshoz.</li>
-            <li>Ezek felhasználásával felépítik saját testanyagaikat, és energiát raktároznak szerves vegyületek formájában.</li>
-            <li>A szerves vegyületek lebontásával jut energiához a sejt.</li>
-            <li>Nyersanyag felvétele és leadása a környezetből.</li>
-            <li><strong>Nyílt rendszer:</strong> a környezettel anyag- és energia-kicserélődés megy végbe.</li>
-            <li><strong>Minden élőlény nyílt rendszer.</strong></li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A sejtek mint nyílt rendszerek</h2>
+            <ul>
+              <li>Az életfolyamat feltétele az anyagcsere megvalósulása.</li>
+              <li>Tápanyag és energia szükséges az életben maradáshoz és a szaporodáshoz.</li>
+              <li>Ezek felhasználásával felépítik saját testanyagaikat, és energiát raktároznak szerves vegyületek formájában.</li>
+              <li>A szerves vegyületek lebontásával jut energiához a sejt.</li>
+              <li>Nyersanyag felvétele és leadása a környezetből.</li>
+              <li><strong>Nyílt rendszer:</strong> a környezettel anyag- és energia-kicserélődés megy végbe.</li>
+              <li><strong>Minden élőlény nyílt rendszer.</strong></li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Az anyagcsere típusai az ősi egysejtűeknél</h2>
-          <p>Csoportosítás szempontja: mi volt a szén- és energiaforrás.</p>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az anyagcsere típusai az ősi egysejtűeknél</h2>
+            <p>Csoportosítás szempontja: mi volt a szén- és energiaforrás.</p>
+            <h3>Első típus</h3>
+            <ul>
+              <li>Energiaforrás: a Nap sugárzó energiája.</li>
+              <li>Szénforrás: a légkör szén-dioxid tartalma.</li>
+              <li>Cukor = szén-dioxid + víz + a Nap energiája. Melléktermék: oxigén, amely a környezetnek kerül leadásra.</li>
+              <li>A cukor volt a kiindulási vegyület a többi szerves vegyület előállításához.</li>
+              <li>Képviselőjük ma: a kékbaktérium (vizek, nedves talaj).</li>
+            </ul>
+            <h3>Második típus</h3>
+            <ul>
+              <li>Szénforrás: kész szerves anyagok (élő vagy már elpusztult más egysejtűekből származnak).</li>
+              <li>Ezeket az anyagokat alakították át a saját szükségletükre.</li>
+              <li>Mai képviselőik: a kórokozó baktériumok.</li>
+            </ul>
+          </div></div>
 
-          <h3>Első típus</h3>
-          <ul>
-            <li>Energiaforrás: a Nap sugárzó energiája.</li>
-            <li>Szénforrás: a légkör szén-dioxid tartalma.</li>
-            <li>Cukor = szén-dioxid + víz + a Nap energiája. Melléktermék: oxigén, amely a környezetnek kerül leadásra.</li>
-            <li>A cukor volt a kiindulási vegyület a többi szerves vegyület előállításához.</li>
-            <li>Képviselőjük ma: a kékbaktérium (vizek, nedves talaj).</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Mai élővilág — felépítő és lebontó anyagcsere</h2>
+            <h3>Növények</h3>
+            <ul>
+              <li>Szerves vegyületeik: napfény energiája + szén-dioxid + víz, oxigén kibocsátása mellett — vagyis <strong>fotoszintézis</strong>.</li>
+              <li><strong>Autotrof anyagcsere:</strong> nem szorul rá más élő szervezetre a testfelépítéséhez.</li>
+            </ul>
+            <h3>Állat, ember</h3>
+            <ul>
+              <li><strong>Heterotróf:</strong> kész szerves anyagot használ szénforrásul (energiaforrásul).</li>
+            </ul>
+            <h3>Valamennyi élőlényre jellemző</h3>
+            <ul>
+              <li>Energia felszabadítása (a sejtekben szerves vegyület formájában) a sejtek ellátása érdekében — ez a <strong>lebontó anyagcsere</strong>.</li>
+              <li><strong>Légzés:</strong> a lebontáshoz a sejt oxigént használ fel.</li>
+              <li><strong>Erjedés:</strong> a lebontás oxigén nélkül megy végbe (gomba, baktérium).</li>
+            </ul>
+          </div></div>
+        </div>
 
-          <h3>Második típus</h3>
-          <ul>
-            <li>Szénforrás: kész szerves anyagok (élő vagy már elpusztult más egysejtűekből származnak).</li>
-            <li>Ezeket az anyagokat alakították át a saját szükségletükre.</li>
-            <li>Mai képviselőik: a kórokozó baktériumok.</li>
-          </ul>
-        </div></div>
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élet hajnalán</h2>
+            <p class="mb-2">Az első élőlények egyetlen sejtből álltak, sejtmag nélkül — ilyenek ma is a <strong>baktériumok</strong>. A sejtmagos (eukarióta) sejtek sokkal később jelentek meg. <a href="https://hu.wikipedia.org/wiki/Sejt" target="_blank" rel="noopener">Sejt</a></p>
+            <ul class="def">
+              <li><span class="term">Prokarióta (sejtmag nélküli):</span> baktériumok — egyszerűbb, kisebb.</li>
+              <li><span class="term">Eukarióta (sejtmagos):</span> növények, állatok, gombák — bonyolultabb, nagyobb.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Mai élővilág — felépítő és lebontó anyagcsere</h2>
-          <h3>Növények</h3>
-          <ul>
-            <li>Szerves vegyületeik: napfény energiája + szén-dioxid + víz, oxigén kibocsátása mellett — vagyis <strong>fotoszintézis</strong>.</li>
-            <li><strong>Autotrof anyagcsere:</strong> nem szorul rá más élő szervezetre a testfelépítéséhez.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tudtad? — az oxigén története</h2>
+            <p>A kékbaktériumok (cianobaktériumok) végezték az első fotoszintézist, és ők termelték a légkör első oxigénjét. Ez tette lehetővé, hogy később állatok is megjelenjenek. <a href="https://hu.wikipedia.org/wiki/Cianobakt%C3%A9riumok" target="_blank" rel="noopener">Cianobaktériumok</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/CyanobacteriaColl1.jpg?width=800" class="figure-img img-fluid rounded" alt="Cianobaktériumok">
+              <figcaption class="figure-caption">Cianobaktériumok — a Föld első „oxigéntermelői”. <a href="https://commons.wikimedia.org/wiki/File:CyanobacteriaColl1.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
 
-          <h3>Állat, ember</h3>
-          <ul>
-            <li><strong>Heterotróf:</strong> kész szerves anyagot használ szénforrásul (energiaforrásul).</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A DNS mint kód</h2>
+            <p>Képzeld el így: a <strong>DNS</strong> a könyv, a <strong>gén</strong> egy utasítás a könyvben, a <strong>fehérje</strong> pedig a munkás, aki végrehajtja. <a href="https://hu.wikipedia.org/wiki/DNS" target="_blank" rel="noopener">DNS</a></p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A baktériumok sejtje kb. 1000-szer kisebb, mint egy emberi hajszál átmérője — mégis önállóan élnek.</div>
+          </div></div>
 
-          <h3>Valamennyi élőlényre jellemző</h3>
-          <ul>
-            <li>Energia felszabadítása (a sejtekben szerves vegyület formájában) a sejtek ellátása érdekében — ez a <strong>lebontó anyagcsere</strong>.</li>
-            <li><strong>Légzés:</strong> a lebontáshoz a sejt oxigént használ fel.</li>
-            <li><strong>Erjedés:</strong> a lebontás oxigén nélkül megy végbe (gomba, baktérium).</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Autotrof vagy heterotrof?</h2>
+            <ul>
+              <li><strong>Autotrof:</strong> maga készíti az ételt (növények, fotoszintézis).</li>
+              <li><strong>Heterotrof:</strong> kész szerves anyagot fogyaszt (állatok, ember, gombák, sok baktérium).</li>
+            </ul>
+            <p class="mb-0">Légzés vs. erjedés: <strong>légzés</strong> = oxigénnel, <strong>erjedés</strong> = oxigén nélkül (pl. kovászos uborka, sajt).</p>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

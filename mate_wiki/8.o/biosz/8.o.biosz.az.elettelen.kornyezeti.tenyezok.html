@@ -23,100 +23,159 @@
     .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
     .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
     .wiki-article li { margin-bottom: .35rem; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">Élettelen környezeti tényezők</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A fény és a hőmérséklet</h2>
-          <ul>
-            <li>A <strong>fény</strong> azért fontos, mert nélkülözhetetlen a fotoszintézishez.</li>
-            <li>Nem egyformán oszlik el a Földön:
-              <ul>
-                <li><strong>erősebb:</strong> az Egyenlítő környéke, magashegységek;</li>
-                <li><strong>gyengébb:</strong> sarkvidékek, tenger szintje.</li>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A fény és a hőmérséklet</h2>
+            <ul>
+              <li>A <strong>fény</strong> azért fontos, mert nélkülözhetetlen a fotoszintézishez.</li>
+              <li>Nem egyformán oszlik el a Földön:
+                <ul>
+                  <li><strong>erősebb:</strong> az Egyenlítő környéke, magashegységek;</li>
+                  <li><strong>gyengébb:</strong> sarkvidékek, tenger szintje.</li>
+                </ul>
+              </li>
+              <li>A növényzet befolyásoló hatása: a tisztásokon több, az erdők mélyén kevesebb a fény.</li>
+            </ul>
+            <h3>Fénykedvelő és árnyéktűrő fajok</h3>
+            <ul>
+              <li><strong>Fénykedvelő fajok</strong> (a fényben gazdag területeken élnek): nyírfa, szeder.</li>
+              <li><strong>Árnyéktűrők</strong> (a fényben szegény területet kedvelik): szagos müge.</li>
+            </ul>
+            <h3>Fényben aktív állatok</h3>
+            <ul>
+              <li>Nappal tevékenykednek: fekete rigó.</li>
+              <li>Szürkületkor megjelenő állatok: szúnyog.</li>
+              <li>Este aktív állatok: uhu, nagy pápaszem lepke.</li>
+            </ul>
+            <p>Tavasszal a hosszabbodó nappalok hatására beindul a gímszarvasok agancsképzése.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fény és hőmérséklet</h2>
+            <ul>
+              <li>Az élőhelyek felmelegedése eltérő mértékű a Földön, mivel a napsugarak is egyenlőtlenül oszlanak el a felszínén.</li>
+              <li>Az Egyenlítőtől a sarkok felé haladva csökken az évi átlaghőmérséklet.</li>
+              <li>A hegységekben felfelé haladva szintén csökken az évi átlaghőmérséklet.</li>
+              <li>Ezért a trópusi helyeken élő állatok melegkedvelők, míg a tundra és a magashegységek növény- és állatvilága hidegtűrő.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A víz</h2>
+            <ul>
+              <li>Nélkülözhetetlen környezeti tényező.</li>
+              <li>Az éves mennyiség és eloszlás befolyásolja az élőlények elterjedését.</li>
+              <li>A víz mint tartózkodási közeg.</li>
+              <li>Vízi élőlények: tengeri moszatok, hínár (fehér tavirózsa – a vízben gyökerezik, zárvatermő), halak, cetek.</li>
+              <li>Élőhelyek víz szerint: trópusi esőerdők (nedvességkedvelők), sivatagok (szárazságtűrők), lombos erdők (átmeneti).</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A talaj</h2>
+            <ul>
+              <li>Meghatározza a rajta kialakuló növényvilágot.</li>
+              <li>Sokszínű élővilág: tápanyagban gazdag, szellős, megfelelő vízellátottságú talaj.</li>
+              <li>Füves puszták, lombos erdők (humusz).</li>
+              <li><strong>Humusz:</strong> szerves anyag, amely a lehulló levelek és elpusztult élőlények lebontásából jön létre; megköti a vizet, segíti a tápanyagfelvételt, majd maga is tápanyaggá bomlik le.</li>
+              <li>Tajga erdő: tápanyagban szegény talaj.</li>
+              <li>Szikes talaj: magas a sótartalma.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A levegő</h2>
+            <ul>
+              <li>Az összetétele és az áramlása is fontos.</li>
+              <li>Összetétele:</li>
+            </ul>
+            <table class="table table-sm align-middle">
+              <thead><tr><th>Összetevő</th><th>Arány</th></tr></thead>
+              <tbody>
+                <tr><td>Nitrogén</td><td>78%</td></tr>
+                <tr><td>Oxigén</td><td>21%</td></tr>
+                <tr><td>Szén-dioxid</td><td>0,03%</td></tr>
+                <tr><td>Egyéb gázok, vízgőz</td><td>nyomokban</td></tr>
+              </tbody>
+            </table>
+            <ul class="mt-3">
+              <li>Segíti a növények elterjedését és a beporzást is.</li>
+              <li>A szárító hatása káros lehet.</li>
+              <li>Energiaforrás a madarak számára: repülés.</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az éghajlat szabja meg, hol mi él</h2>
+            <p class="mb-2">A fény, a hőmérséklet, a víz, a talaj és a levegő együtt dönti el, milyen élőhely alakul ki. Ezért van más növényzet az esőerdőben, a sivatagban és a tundrán. <a href="https://hu.wikipedia.org/wiki/%C3%89ghajlat" target="_blank" rel="noopener">Éghajlat</a></p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A növények <strong>nappal</strong> fotoszintetizálnak (oxigént adnak), éjjel viszont csak lélegeznek.</li>
+                <li>100 méterenként kb. 1 °C-kal csökken a hőmérséklet felfelé — ezért van hó a hegycsúcsokon.</li>
               </ul>
-            </li>
-            <li>A növényzet befolyásoló hatása: a tisztásokon több, az erdők mélyén kevesebb a fény.</li>
-          </ul>
+            </div>
+          </div></div>
 
-          <h3>Fénykedvelő és árnyéktűrő fajok</h3>
-          <ul>
-            <li><strong>Fénykedvelő fajok</strong> (a fényben gazdag területeken élnek): nyírfa, szeder.</li>
-            <li><strong>Árnyéktűrők</strong> (a fényben szegény területet kedvelik): szagos müge.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A fény és a fotoszintézis</h2>
+            <p class="mb-0">A zöld növények a fény energiájával cukrot készítenek: víz + szén-dioxid → cukor + oxigén. Ez a táplálékláncok „motorja”. <a href="https://hu.wikipedia.org/wiki/Fotoszint%C3%A9zis" target="_blank" rel="noopener">Fotoszintézis</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Photosynthesis%20hu.svg?width=800" class="figure-img img-fluid rounded" alt="Fotoszintézis">
+              <figcaption class="figure-caption">A fotoszintézis folyamata. <a href="https://commons.wikimedia.org/wiki/File:Photosynthesis_hu.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
 
-          <h3>Fényben aktív állatok</h3>
-          <ul>
-            <li>Nappal tevékenykednek: fekete rigó.</li>
-            <li>Szürkületkor megjelenő állatok: szúnyog.</li>
-            <li>Este aktív állatok: uhu, nagy pápaszem lepke.</li>
-          </ul>
-          <p>Tavasszal a hosszabbodó nappalok hatására beindul a gímszarvasok agancsképzése.</p>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A talaj és a humusz</h2>
+            <p class="mb-0">A humusz „szivacs”: megköti a vizet és a tápanyagot. Minél vastagabb a humuszréteg, annál termékenyebb a talaj. <a href="https://hu.wikipedia.org/wiki/Humusz" target="_blank" rel="noopener">Humusz</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Soil%20profile.jpg?width=800" class="figure-img img-fluid rounded" alt="Talajszelvény">
+              <figcaption class="figure-caption">Talajszelvény — a felső sötét réteg a humuszban gazdag szint. <a href="https://commons.wikimedia.org/wiki/File:Soil_profile.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+        </div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Fény és hőmérséklet</h2>
-          <ul>
-            <li>Az élőhelyek felmelegedése eltérő mértékű a Földön, mivel a napsugarak is egyenlőtlenül oszlanak el a felszínén.</li>
-            <li>Az Egyenlítőtől a sarkok felé haladva csökken az évi átlaghőmérséklet.</li>
-            <li>A hegységekben felfelé haladva szintén csökken az évi átlaghőmérséklet.</li>
-            <li>Ezért a trópusi helyeken élő állatok melegkedvelők, míg a tundra és a magashegységek növény- és állatvilága hidegtűrő.</li>
-          </ul>
-        </div></div>
-
-        <div class="card mb-4"><div class="card-body">
-          <h2>A víz</h2>
-          <ul>
-            <li>Nélkülözhetetlen környezeti tényező.</li>
-            <li>Az éves mennyiség és eloszlás befolyásolja az élőlények elterjedését.</li>
-            <li>A víz mint tartózkodási közeg.</li>
-            <li>Vízi élőlények: tengeri moszatok, hínár (fehér tavirózsa – a vízben gyökerezik, zárvatermő), halak, cetek.</li>
-            <li>Élőhelyek víz szerint: trópusi esőerdők (nedvességkedvelők), sivatagok (szárazságtűrők), lombos erdők (átmeneti).</li>
-          </ul>
-        </div></div>
-
-        <div class="card mb-4"><div class="card-body">
-          <h2>A talaj</h2>
-          <ul>
-            <li>Meghatározza a rajta kialakuló növényvilágot.</li>
-            <li>Sokszínű élővilág: tápanyagban gazdag, szellős, megfelelő vízellátottságú talaj.</li>
-            <li>Füves puszták, lombos erdők (humusz).</li>
-            <li><strong>Humusz:</strong> szerves anyag, amely a lehulló levelek és elpusztult élőlények lebontásából jön létre; megköti a vizet, segíti a tápanyagfelvételt, majd maga is tápanyaggá bomlik le.</li>
-            <li>Tajga erdő: tápanyagban szegény talaj.</li>
-            <li>Szikes talaj: magas a sótartalma.</li>
-          </ul>
-        </div></div>
-
-        <div class="card mb-4"><div class="card-body">
-          <h2>A levegő</h2>
-          <ul>
-            <li>Az összetétele és az áramlása is fontos.</li>
-            <li>Összetétele:</li>
-          </ul>
-          <table class="table table-sm align-middle">
-            <thead>
-              <tr><th>Összetevő</th><th>Arány</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Nitrogén</td><td>78%</td></tr>
-              <tr><td>Oxigén</td><td>21%</td></tr>
-              <tr><td>Szén-dioxid</td><td>0,03%</td></tr>
-              <tr><td>Egyéb gázok, vízgőz</td><td>nyomokban</td></tr>
-            </tbody>
-          </table>
-          <ul class="mt-3">
-            <li>Segíti a növények elterjedését és a beporzást is.</li>
-            <li>A szárító hatása káros lehet.</li>
-            <li>Energiaforrás a madarak számára: repülés.</li>
-          </ul>
-        </div></div>
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

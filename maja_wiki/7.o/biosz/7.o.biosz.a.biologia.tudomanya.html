@@ -26,48 +26,121 @@
     .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
     .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
     .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">A biológia tudománya</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Az élőlények</h2>
-          <ul>
-            <li>A biológia az élőlényekkel foglalkozó tudományág.</li>
-            <li>Megkülönböztetés: élő, élettelen <span class="badge bg-warning text-dark">Magok??</span></li>
-            <li>Élőlény:
-              <ul>
-                <li><strong>Életjelenség:</strong> rá jellemző tulajdonság.</li>
-                <li><strong>Anyagcsere:</strong> anyagok kicserélődése (környezet–élőlény, sejtek–sejtek környezete között).</li>
-                <li>Különböző életműködésben nyilvánulnak meg: légzés.</li>
-                <li><strong>Aktív mozgás</strong>, <strong>növekedés</strong> (mennyiségi változás), <strong>fejlődés</strong> (minőségi változás: új tulajdonság, képesség), <strong>ingerlékenység</strong> (környezethez való alkalmazkodás).</li>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élőlények</h2>
+            <ul>
+              <li>A biológia az élőlényekkel foglalkozó tudományág.</li>
+              <li>Megkülönböztetés: élő, élettelen <span class="badge bg-warning text-dark">Magok??</span></li>
+              <li>Élőlény:
+                <ul>
+                  <li><strong>Életjelenség:</strong> rá jellemző tulajdonság.</li>
+                  <li><strong>Anyagcsere:</strong> anyagok kicserélődése (környezet–élőlény, sejtek–sejtek környezete között).</li>
+                  <li>Különböző életműködésben nyilvánulnak meg: légzés.</li>
+                  <li><strong>Aktív mozgás</strong>, <strong>növekedés</strong> (mennyiségi változás), <strong>fejlődés</strong> (minőségi változás: új tulajdonság, képesség), <strong>ingerlékenység</strong> (környezethez való alkalmazkodás).</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Biológia területei</h2>
+            <ul class="def">
+              <li><span class="term">Rendszertan:</span> segít eligazodni a világ sokszínűségében. Elnevezte és osztályozta az élőlényeket. Pl.: növények, állatok.</li>
+              <li><span class="term">Szervezettan:</span> az élőlények teste milyen szervekből, szövetekből, a szövetek milyen sejtekből állnak.</li>
+              <li><span class="term">Élettan:</span> szervek működésével foglalkozik.</li>
+              <li><span class="term">Mikrobiológia, sejtbiológia:</span> a mikroszkóp felfedezése tette lehetővé.</li>
+              <li><span class="term">Molekuláris biológia:</span> a kémia fejlődésével alakult ki.</li>
+              <li><span class="term">Genetika:</span> örökléstan.</li>
+              <li><span class="term">Magatartás-biológia (etológia):</span> a viselkedést tanulmányozza.</li>
+              <li><span class="term">Ökológia:</span> az élőlények és a környezetük kölcsönhatását vizsgálja.</li>
+            </ul>
+            <h3>Alkalmazott biológia</h3>
+            <p>Orvostudomány, állattenyésztés, növénytermesztés, biotechnológia.</p>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A biológia nem csak felsorolja az élőlényeket: megmagyarázza, <strong>hogyan működik az élet</strong> — a sejtektől az egész bioszféráig. <a href="https://hu.wikipedia.org/wiki/Biol%C3%B3gia" target="_blank" rel="noopener">Biológia</a></p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>Az élő és élettelen legjobb „tesztje” az <strong>anyagcsere</strong>: az élő anyagot vesz fel a környezetéből és ad le oda.</li>
+                <li>A mai biológia kémia, fizika és számítógépes elemzés nélkül már nem működne.</li>
               </ul>
-            </li>
-          </ul>
-        </div></div>
+            </div>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Biológia területei</h2>
-          <ul class="def">
-            <li><span class="term">Rendszertan:</span> segít eligazodni a világ sokszínűségében. Elnevezte és osztályozta az élőlényeket. Pl.: növények, állatok.</li>
-            <li><span class="term">Szervezettan:</span> az élőlények teste milyen szervekből, szövetekből, a szövetek milyen sejtekből állnak.</li>
-            <li><span class="term">Élettan:</span> szervek működésével foglalkozik.</li>
-            <li><span class="term">Mikrobiológia, sejtbiológia:</span> a mikroszkóp felfedezése tette lehetővé.</li>
-            <li><span class="term">Molekuláris biológia:</span> a kémia fejlődésével alakult ki.</li>
-            <li><span class="term">Genetika:</span> örökléstan.</li>
-            <li><span class="term">Magatartás-biológia (etológia):</span> a viselkedést tanulmányozza.</li>
-            <li><span class="term">Ökológia:</span> az élőlények és a környezetük kölcsönhatását vizsgálja.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élőlények ismérvei</h2>
+            <ul>
+              <li><strong>Anyagcsere:</strong> épít és bont, közben energiát használ.</li>
+              <li><strong>Növekedés:</strong> mennyiségi változás (több sejt, nagyobb test).</li>
+              <li><strong>Fejlődés:</strong> minőségi változás (új képesség, pl. a béka lábai).</li>
+              <li><strong>Ingerlékenység:</strong> reagál a fényre, hőre, érintésre.</li>
+              <li><strong>Szaporodás:</strong> utódokat hoz létre.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Honeybee%20landing%20on%20milkthistle02.jpg?width=800" class="figure-img img-fluid rounded" alt="Méh virágon">
+              <figcaption class="figure-caption">Az élet mindenütt jelen van — a biológia ezt kutatja. <a href="https://commons.wikimedia.org/wiki/File:Honeybee_landing_on_milkthistle02.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
 
-          <h3>Alkalmazott biológia</h3>
-          <p>Orvostudomány, állattenyésztés, növénytermesztés, biotechnológia.</p>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Biológia területei — egy-egy mondatban</h2>
+            <ul class="def">
+              <li><span class="term">Rendszertan:</span> rendszerezi és elnevezi az élőlényeket (faj, nem, család…).</li>
+              <li><span class="term">Szervezettan:</span> felépítés: sejt → szövet → szerv.</li>
+              <li><span class="term">Élettan:</span> hogyan dolgoznak a szervek.</li>
+              <li><span class="term">Mikrobiológia:</span> láthatatlan élőlények (baktériumok, vírusok).</li>
+              <li><span class="term">Genetika:</span> miért hasonlítunk a szüleinkre.</li>
+              <li><span class="term">Etológia:</span> miért viselkedik így az állat.</li>
+              <li><span class="term">Ökológia:</span> ki kit eszik, és hogyan hatnak egymásra.</li>
+            </ul>
+            <p class="mb-0">Alkalmazott biológia: gyógyszerek, oltások, nemesített növények, biotechnológia. <a href="https://hu.wikipedia.org/wiki/Biol%C3%B3gia" target="_blank" rel="noopener">Bővebben</a></p>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

@@ -26,105 +26,165 @@
     .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
     .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
     .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">Alkalmazkodás és tűrőképesség</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Környezeti feltételek</h2>
-          <ul>
-            <li>Az élőlények csak ott képesek megélni és szaporodni, ahol képesek alkalmazkodni a környezeti feltételekhez, vagy azok számukra kedvezőek.</li>
-          </ul>
-        </div></div>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Környezeti feltételek</h2>
+            <ul>
+              <li>Az élőlények csak ott képesek megélni és szaporodni, ahol képesek alkalmazkodni a környezeti feltételekhez, vagy azok számukra kedvezőek.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Környezeti feltételek — élettelen és élő</h2>
-          <h3>Élettelen (földrajzi, fizikai és kémiai) adottságok</h3>
-          <ul>
-            <li><strong>Fénymennyiség:</strong> a napsugarak beesési szöge.</li>
-            <li><strong>Hőmérséklet:</strong> a föld felszíne (100 méterenként 1 °C csökkenés), a szín jelentősége.</li>
-            <li><strong>Levegő:</strong> oxigén.</li>
-            <li><strong>Talaj összetétele:</strong> termőképesség, talajtípusok, humusz.</li>
-            <li><strong>Eső mennyisége:</strong> óceáni területek, esőerdő, a kontinensek belseje.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Környezeti feltételek — élettelen és élő</h2>
+            <h3>Élettelen (földrajzi, fizikai és kémiai) adottságok</h3>
+            <ul>
+              <li><strong>Fénymennyiség:</strong> a napsugarak beesési szöge.</li>
+              <li><strong>Hőmérséklet:</strong> a föld felszíne (100 méterenként 1 °C csökkenés), a szín jelentősége.</li>
+              <li><strong>Levegő:</strong> oxigén.</li>
+              <li><strong>Talaj összetétele:</strong> termőképesség, talajtípusok, humusz.</li>
+              <li><strong>Eső mennyisége:</strong> óceáni területek, esőerdő, a kontinensek belseje.</li>
+            </ul>
+            <h3>Élő adottságok</h3>
+            <ul>
+              <li>Ugyanakkor az egy helyen élő élőlények között kölcsönhatás van: a növények elfogják egymás elől a napfényt, elszívják a vizet; az állatok egymással táplálkoznak.</li>
+            </ul>
+            <p>Az élettelen és az élő környezeti tényezők együtt határozzák meg, hogy egy élőhelynek milyen összetételű az élővilága.</p>
+          </div></div>
 
-          <h3>Élő adottságok</h3>
-          <ul>
-            <li>Ugyanakkor az egy helyen élő élőlények között kölcsönhatás van: a növények elfogják egymás elől a napfényt, elszívják a vizet; az állatok egymással táplálkoznak.</li>
-          </ul>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A tűrőképesség</h2>
+            <ul>
+              <li>Az élőlények öröklött tulajdonsága, hogy egy-egy környezeti tényezővel szemben milyenek az igényeik. Ez más néven a <strong>tűrőképesség</strong>.</li>
+              <li>Például:
+                <ul>
+                  <li><strong>melegkedvelők:</strong> kaucsukfa (trópusok), a korallszigetek halai — alacsonyabb hőmérsékleten képtelenek túlélni;</li>
+                  <li><strong>hidegtűrők:</strong> császárpingvin;</li>
+                  <li>a mocsári gólyahír nagy vízigényű, a kaktuszok a szárazságot jól viselik.</li>
+                </ul>
+              </li>
+              <li>Az élőlények igényei minden környezeti tényezőre nézve meghatározott értékhatárok között vannak.</li>
+            </ul>
+          </div></div>
 
-          <p>Az élettelen és az élő környezeti tényezők együtt határozzák meg, hogy egy élőhelynek milyen összetételű az élővilága.</p>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tűrőképesség-grafikonok</h2>
+            <ul>
+              <li>A grafikus ábrázolás grafikonokon történik.</li>
+              <li>A függőleges tengelyről azt tudjuk leolvasni, hogy az élőlény mennyire érzi jól magát.</li>
+              <li>A vízszintes tengelyről pedig a környezeti tényező értékeit tudjuk leolvasni.</li>
+            </ul>
+            <ul class="def">
+              <li><span class="term">Alsó értékhatár (minimumpont):</span> amely az élőlénynek még éppen elviselhető környezeti tényezőnek felel meg.</li>
+              <li><span class="term">Felső értékhatár (maximumpont):</span> amit az élőlények még képesek elviselni.</li>
+              <li><span class="term">Optimumpont:</span> az élőlények számára a legkedvezőbb érték.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A tűrőképesség</h2>
-          <ul>
-            <li>Az élőlények öröklött tulajdonsága, hogy egy-egy környezeti tényezővel szemben milyenek az igényeik. Ez más néven a <strong>tűrőképesség</strong>.</li>
-            <li>Például:
-              <ul>
-                <li><strong>melegkedvelők:</strong> kaucsukfa (trópusok), a korallszigetek halai — alacsonyabb hőmérsékleten képtelenek túlélni;</li>
-                <li><strong>hidegtűrők:</strong> császárpingvin;</li>
-                <li>a mocsári gólyahír nagy vízigényű, a kaktuszok a szárazságot jól viselik.</li>
-              </ul>
-            </li>
-            <li>Az élőlények igényei minden környezeti tényezőre nézve meghatározott értékhatárok között vannak.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tűrőképesség-grafikonok — tág és szűk tűrés</h2>
+            <ul>
+              <li>A grafikonok lefutása minden környezeti tényezőre és minden fajra más.</li>
+              <li>Azok a fajok, amelyek tűrőképessége egy környezeti tényezőre nézve tág határok között mozog, arra az adott tényezőre <strong>tág tűrésűek</strong>.</li>
+              <li>Amelyeknek a minimum- és maximumpontja közel van egymáshoz, <strong>szűk tűrésűek</strong>.</li>
+              <li>Példa:
+                <ul>
+                  <li><strong>lucfenyő:</strong> hőmérsékletre tág tűrésű, mert a hideg és a mérsékelt övezetben is megél;</li>
+                  <li><strong>korallszirtek halai:</strong> szűk tűrésűek.</li>
+                </ul>
+              </li>
+              <li>Sok faj egy-egy tényezőre szűk tűrésű, más tényezőkre nézve pedig tág tűrésű.</li>
+              <li>Például a <strong>foltos maláriaszúnyog</strong>: hőmérsékletre nézve tág tűrésű (trópusi terület + mérsékelt övezet), páratartalomra szűk tűrésű (minimum 90%).</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Tűrőképesség-grafikonok</h2>
-          <ul>
-            <li>A grafikus ábrázolás grafikonokon történik.</li>
-            <li>A függőleges tengelyről azt tudjuk leolvasni, hogy az élőlény mennyire érzi jól magát.</li>
-            <li>A vízszintes tengelyről pedig a környezeti tényező értékeit tudjuk leolvasni.</li>
-          </ul>
-          <ul class="def">
-            <li><span class="term">Alsó értékhatár (minimumpont):</span> amely az élőlénynek még éppen elviselhető környezeti tényezőnek felel meg.</li>
-            <li><span class="term">Felső értékhatár (maximumpont):</span> amit az élőlények még képesek elviselni.</li>
-            <li><span class="term">Optimumpont:</span> az élőlények számára a legkedvezőbb érték.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Indikátorszervezetek</h2>
+            <ul>
+              <li>A szűk tűrésű fajok előfordulási helyükön megmutatják egy-egy környezeti tényező értékhatárait, ezért <strong>jelző- vagy indikátorszervezetek</strong>.</li>
+              <li>Például a <strong>tőzegmoha</strong> csak savanyú talajon, savanyú vizű lápon él meg. Ezért ha ilyen növényt találunk, tudjuk a talaj kémhatását.</li>
+              <li>A több tényezőre nézve tág tűrésű fajok nagy területen fordulnak elő, vagyis nagy az elterjedési területük.</li>
+              <li><strong>Nagy túlélők:</strong> a medveállatkák 570000 röntgen sugárdózist is túlélnek (az embernek 500 dózis végzetes), és fokozatos hűtés esetén −250 Celsius-fokot viselnek el.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Tűrőképesség-grafikonok — tág és szűk tűrés</h2>
-          <ul>
-            <li>A grafikonok lefutása minden környezeti tényezőre és minden fajra más.</li>
-            <li>Azok a fajok, amelyek tűrőképessége egy környezeti tényezőre nézve tág határok között mozog, arra az adott tényezőre <strong>tág tűrésűek</strong>.</li>
-            <li>Amelyeknek a minimum- és maximumpontja közel van egymáshoz, <strong>szűk tűrésűek</strong>.</li>
-            <li>Példa:
-              <ul>
-                <li><strong>lucfenyő:</strong> hőmérsékletre tág tűrésű, mert a hideg és a mérsékelt övezetben is megél;</li>
-                <li><strong>korallszirtek halai:</strong> szűk tűrésűek.</li>
-              </ul>
-            </li>
-            <li>Sok faj egy-egy tényezőre szűk tűrésű, más tényezőkre nézve pedig tág tűrésű.</li>
-            <li>Például a <strong>foltos maláriaszúnyog</strong>: hőmérsékletre nézve tág tűrésű (trópusi terület + mérsékelt övezet), páratartalomra szűk tűrésű (minimum 90%).</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Megoldandó feladatok</h2>
+            <ul>
+              <li>Munkafüzet 62. oldal, 1. feladat.</li>
+              <li>Munkafüzet 63. oldal, 2., 3., 4. feladat.</li>
+            </ul>
+          </div></div>
+        </div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Indikátorszervezetek</h2>
-          <ul>
-            <li>A szűk tűrésű fajok előfordulási helyükön megmutatják egy-egy környezeti tényező értékhatárait, ezért <strong>jelző- vagy indikátorszervezetek</strong>.</li>
-            <li>Például a <strong>tőzegmoha</strong> csak savanyú talajon, savanyú vizű lápon él meg. Ezért ha ilyen növényt találunk, tudjuk a talaj kémhatását.</li>
-            <li>A több tényezőre nézve tág tűrésű fajok nagy területen fordulnak elő, vagyis nagy az elterjedési területük.</li>
-            <li><strong>Nagy túlélők:</strong> a medveállatkák 570000 röntgen sugárdózist is túlélnek (az embernek 500 dózis végzetes), és fokozatos hűtés esetén −250 Celsius-fokot viselnek el.</li>
-          </ul>
-        </div></div>
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Minden fajnak megvannak a határai</h2>
+            <p class="mb-2">A tűrőképesség azt mutatja meg, mekkora „tartományban” érzi jól magát egy faj. Ha egy tényező a minimum alá vagy a maximum fölé esik, az élőlény nem tud életben maradni. <a href="https://hu.wikipedia.org/wiki/T%C5%B1r%C5%91k%C3%A9pess%C3%A9g" target="_blank" rel="noopener">Tűrőképesség</a></p>
+            <ul>
+              <li><strong>Minimum</strong> — a legkevesebb, amit még kibír.</li>
+              <li><strong>Optimum</strong> — ahol a legjobban érzi magát.</li>
+              <li><strong>Maximum</strong> — a legtöbb, amit még kibír.</li>
+            </ul>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Minél <strong>szűkebb</strong> egy faj tűrése, annál jobb „jelző”: pontosan megmutatja, milyen az élőhely (pl. a tőzegmoha savanyú lápot jelez).</div>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Megoldandó feladatok</h2>
-          <ul>
-            <li>Munkafüzet 62. oldal, 1. feladat.</li>
-            <li>Munkafüzet 63. oldal, 2., 3., 4. feladat.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A Föld legszívósabb lénye</h2>
+            <p class="mb-0">A medveállatka (tardigrada) −250 °C-ot, vákuumot és nagy sugárdózist is kibír. Ez a „nagy túlélő”. <a href="https://hu.wikipedia.org/wiki/Medve%C3%A1llatk%C3%A1k" target="_blank" rel="noopener">Medveállatkák</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/SEM%20image%20of%20Milnesium%20tardigradum%20in%20active%20state%20-%20journal.pone.0045682.g001-2.png?width=800" class="figure-img img-fluid rounded" alt="Medveállatka">
+              <figcaption class="figure-caption">Medveállatka pásztázó elektronmikroszkóppal. <a href="https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Hidegtűrő bajnok: a császárpingvin</h2>
+            <p class="mb-0">Az Antarktisz −40 °C-os telén is szaporodik: tollazata és zsírrétege, valamint a csoportos „összebújás” védi a hidegtől.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aptenodytes%20forsteri%20-Snow%20Hill%20Island%2C%20Antarctica%20-adults%20and%20juvenile-8.jpg?width=800" class="figure-img img-fluid rounded" alt="Császárpingvinek">
+              <figcaption class="figure-caption">Császárpingvinek — a hidegtűrés mesterei. <a href="https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

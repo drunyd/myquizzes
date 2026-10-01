@@ -134,6 +134,48 @@ that knowledge.
 - Escape `<`, `>`, `&` in the source text as `&lt;`, `&gt;`, `&amp;`.
 - Use the quiz title as the page `<h1>`.
 
+### Two views: Original and Extended
+
+Every wiki page must have a small toggle at the top with two views (default: **Original**):
+
+- **Original** — the exact, one-to-one source content described above. It must not change.
+- **Extended** — a short, kid-friendly enrichment of the SAME topic. Do a little research
+  (Wikipedia/web) so every added fact is correct. It should roughly keep the original
+  section structure, but explain things in whole sentences and add value:
+  - a short intro ("Miről is van szó?") and 1–2 "Tudtad?" boxes
+  - a few extra, accurate facts or examples — keep it short, do not turn it into a textbook
+  - helpful images and links to Hungarian Wikipedia / Wikimedia Commons
+  - occasional prompts to observe or think (e.g. "Figyeld meg…")
+
+Markup: wrap the views in `#view-original` and `#view-extended` (`class="d-none"`), add the
+toggle buttons, and a tiny inline `showView()` script. Example:
+
+```html
+<div class="view-toggle d-flex justify-content-center mb-4">
+  <div class="btn-group" role="group" aria-label="Nézetváltó">
+    <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')">Eredeti</button>
+    <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')">Kibővített</button>
+  </div>
+</div>
+<h1 class="quiz-title display-5 mb-4">…quiz title…</h1>
+<div id="view-original"> …exact source content… </div>
+<div id="view-extended" class="d-none"> …richer version… </div>
+<script>
+  function showView(view) {
+    var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+    var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+    var ext = view === 'extended';
+    o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+    bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+    bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+  }
+</script>
+```
+
+Images: hotlink from Wikimedia Commons with
+`https://commons.wikimedia.org/wiki/Special:FilePath/<FileName>?width=800` (verify the URL
+returns 200). Always add a caption and a source link. No hardcoded colors (see Theme).
+
 ### Theme (inherit the quiz app's live theme)
 
 The wiki page is served by the quiz app through its `/source/...` route, so it runs on
@@ -254,6 +296,7 @@ Question:
 - **All text must be in Hungarian** (questions, answers, titles, filenames).
 - **Exactly 50 questions** per YAML file.
 - **Generate the companion HTML wiki page** for every quiz (themed, one-to-one with the source).
+- **Every wiki page has an Original / Extended toggle** (default Original); the Extended view is a short, researched, kid-friendly enrichment.
 - **Add the `Source:` attribute** directly after `Quiz:`, pointing at the wiki HTML page.
 - **Follow the formatting of existing YAML files** in the project — no extra blank lines between `Type`/`Text`/options, exactly 1 blank line between questions.
 - `Correct` field for `multiplechoice` and `word` uses YAML inline list syntax `[...]`.

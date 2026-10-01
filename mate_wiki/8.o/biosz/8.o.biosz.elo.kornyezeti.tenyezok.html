@@ -23,85 +23,147 @@
     .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
     .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
     .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">Élő környezeti tényezők</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Kölcsönhatások kialakulása, típusai</h2>
-          <ul>
-            <li>Növények, állatok, gombák, mikroorganizmusok élnek egy-egy élőhelyen, életközösségként.</li>
-            <li>Általában a tagok kölcsönhatással vannak egymásra.</li>
-            <li>Ez a hatás lehet közvetlen vagy közvetett.</li>
-            <li>A kapcsolat lehet:
-              <ul>
-                <li><strong>hátrányos:</strong> <span class="badge bg-danger">−</span></li>
-                <li><strong>előnyös:</strong> <span class="badge bg-success">+</span></li>
-                <li><strong>semleges:</strong> <span class="badge bg-secondary">0</span></li>
-              </ul>
-            </li>
-          </ul>
-        </div></div>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kölcsönhatások kialakulása, típusai</h2>
+            <ul>
+              <li>Növények, állatok, gombák, mikroorganizmusok élnek egy-egy élőhelyen, életközösségként.</li>
+              <li>Általában a tagok kölcsönhatással vannak egymásra.</li>
+              <li>Ez a hatás lehet közvetlen vagy közvetett.</li>
+              <li>A kapcsolat lehet:
+                <ul>
+                  <li><strong>hátrányos:</strong> <span class="badge bg-danger">−</span></li>
+                  <li><strong>előnyös:</strong> <span class="badge bg-success">+</span></li>
+                  <li><strong>semleges:</strong> <span class="badge bg-secondary">0</span></li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Kölcsönhatások típusai: <span class="badge bg-success">+</span> <span class="badge bg-danger">−</span></h2>
-          <ul>
-            <li>Általánosságban a kölcsönhatás az egyik fél számára előnyös (+), ám a másik fél számára hátrányos (−). Ilyen a táplálkozási kapcsolat.</li>
-            <li>Például:
-              <ul>
-                <li><strong>növényevés</strong> (növény – őz);</li>
-                <li><strong>zsákmányszerzés</strong> — a zsákmány elpusztul (őz – farkas).</li>
-              </ul>
-            </li>
-            <li><strong>Élősködés:</strong> a zsákmány csak károsodik.
-              <ul>
-                <li><strong>levéltetvek:</strong> a növények tápanyagát szívják el;</li>
-                <li><strong>kullancs, bögöly:</strong> gerincesek vére.</li>
-              </ul>
-            </li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kölcsönhatások típusai: <span class="badge bg-success">+</span> <span class="badge bg-danger">−</span></h2>
+            <ul>
+              <li>Általánosságban a kölcsönhatás az egyik fél számára előnyös (+), ám a másik fél számára hátrányos (−). Ilyen a táplálkozási kapcsolat.</li>
+              <li>Például:
+                <ul>
+                  <li><strong>növényevés</strong> (növény – őz);</li>
+                  <li><strong>zsákmányszerzés</strong> — a zsákmány elpusztul (őz – farkas).</li>
+                </ul>
+              </li>
+              <li><strong>Élősködés:</strong> a zsákmány csak károsodik.
+                <ul>
+                  <li><strong>levéltetvek:</strong> a növények tápanyagát szívják el;</li>
+                  <li><strong>kullancs, bögöly:</strong> gerincesek vére.</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Kölcsönhatások típusai: <span class="badge bg-success">+</span> <span class="badge bg-success">+</span> vagyis együttélés — szimbiózis</h2>
-          <ul>
-            <li>A kölcsönhatás mindkét populáció számára előnyös.</li>
-            <li>Például: lucerna – poszméh; orrszarvú – pásztorgém.</li>
-            <li>Szoros kapcsolat is kialakulhat az ilyen kölcsönhatások során. Például: gomba (vizet és ásványi sókat ad) – fa gyökere (kész tápanyagot ad).</li>
-            <li><strong>Zuzmók:</strong> a moszat és a gomba együttélése olyan szoros, hogy egy új szervezettípus megjelenését eredményezte.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kölcsönhatások típusai: <span class="badge bg-success">+</span> <span class="badge bg-success">+</span> vagyis együttélés — szimbiózis</h2>
+            <ul>
+              <li>A kölcsönhatás mindkét populáció számára előnyös.</li>
+              <li>Például: lucerna – poszméh; orrszarvú – pásztorgém.</li>
+              <li>Szoros kapcsolat is kialakulhat az ilyen kölcsönhatások során. Például: gomba (vizet és ásványi sókat ad) – fa gyökere (kész tápanyagot ad).</li>
+              <li><strong>Zuzmók:</strong> a moszat és a gomba együttélése olyan szoros, hogy egy új szervezettípus megjelenését eredményezte.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Kölcsönhatások típusai: <span class="badge bg-success">+</span> <span class="badge bg-secondary">0</span> vagyis asztalközösség</h2>
-          <ul>
-            <li>Az egyik populáció számára előnyös, a másik számára semleges.</li>
-            <li>Például:
-              <ul>
-                <li>az oroszlánok maradékát megeszik a foltos hiénák vagy a keselyűk;</li>
-                <li>az erdei fülesbagoly nem épít fészket, más madarak előző évben megépített fészkét használja;</li>
-                <li>a trópusi esőerdőkben az orchidea vízhez és fényhez jut a fa által, de ez a fát nem zavarja.</li>
-              </ul>
-            </li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kölcsönhatások típusai: <span class="badge bg-success">+</span> <span class="badge bg-secondary">0</span> vagyis asztalközösség</h2>
+            <ul>
+              <li>Az egyik populáció számára előnyös, a másik számára semleges.</li>
+              <li>Például:
+                <ul>
+                  <li>az oroszlánok maradékát megeszik a foltos hiénák vagy a keselyűk;</li>
+                  <li>az erdei fülesbagoly nem épít fészket, más madarak előző évben megépített fészkét használja;</li>
+                  <li>a trópusi esőerdőkben az orchidea vízhez és fényhez jut a fa által, de ez a fát nem zavarja.</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Kölcsönhatások típusai: <span class="badge bg-danger">−</span> <span class="badge bg-danger">−</span> versengés</h2>
-          <ul>
-            <li>Minden populációt érint.</li>
-            <li>Az életközösségekben minden populáció harcot vív a korlátozott erőforrásokért (fény, víz, táplálék, költőhely).</li>
-            <li>A versenyképesebb faj előnybe kerül, a kevésbé versenyképes kiszorul a területről.</li>
-            <li>A versengés egy populáción belül, a fajtársak között is zajlik.</li>
-            <li>Fontos szabályozó tényező: az egyedszám és az élőlények térbeli eloszlása.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kölcsönhatások típusai: <span class="badge bg-danger">−</span> <span class="badge bg-danger">−</span> versengés</h2>
+            <ul>
+              <li>Minden populációt érint.</li>
+              <li>Az életközösségekben minden populáció harcot vív a korlátozott erőforrásokért (fény, víz, táplálék, költőhely).</li>
+              <li>A versenyképesebb faj előnybe kerül, a kevésbé versenyképes kiszorul a területről.</li>
+              <li>A versengés egy populáción belül, a fajtársak között is zajlik.</li>
+              <li>Fontos szabályozó tényező: az egyedszám és az élőlények térbeli eloszlása.</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ki kivel? — a kölcsönhatások nevei</h2>
+            <p class="mb-0">A fajok nem elszigetelten élnek: minden kapcsolat valakinek jó, valakinek rossz, vagy éppen mindegy. Íme a „szakszavak”:</p>
+            <ul class="def">
+              <li><span class="term">Predáció (+/−):</span> a ragadozó megeszi a zsákmányt.</li>
+              <li><span class="term">Parazitizmus (+/−):</span> az élősködő a gazdából él, de nem öli meg azonnal — hiszen neki az az érdeke, hogy a gazda éljen. <a href="https://hu.wikipedia.org/wiki/Parazitizmus" target="_blank" rel="noopener">Parazitizmus</a></li>
+              <li><span class="term">Szimbiózis / mutualizmus (+/+):</span> mindkettő jól jár. <a href="https://hu.wikipedia.org/wiki/Szimbi%C3%B3zis" target="_blank" rel="noopener">Szimbiózis</a></li>
+              <li><span class="term">Kommenzalizmus (+/0):</span> az egyik jár jól, a másiknak mindegy.</li>
+              <li><span class="term">Versengés (−/−):</span> mindkettő rosszul jár, mert ugyanazért az erőforrásért küzdenek.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tudtad? — bohóchal és tengeri rózsa</h2>
+            <p>A bohóchal a tengeri rózsa csalánsejtjei között él, ahol más halak nem maradnának életben. Cserébe tisztítja és „eteti” a rózsát — ez szimbiózis. <a href="https://hu.wikipedia.org/wiki/Boh%C3%B3chal" target="_blank" rel="noopener">Bohóchal</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Common%20clownfish.jpg?width=800" class="figure-img img-fluid rounded" alt="Bohóchal">
+              <figcaption class="figure-caption">Bohóchal a tengeri rózsa között — mindkettő jól jár. <a href="https://commons.wikimedia.org/wiki/File:Common_clownfish.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miért fontos a versengés?</h2>
+            <p class="mb-0">A versengés szabályozza a populációk méretét: aki jobb, az több utódot nevel. Így alakul ki az, hogy egy élőhelyen hosszú távon a legjobban alkalmazkodó fajok maradnak meg.</p>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

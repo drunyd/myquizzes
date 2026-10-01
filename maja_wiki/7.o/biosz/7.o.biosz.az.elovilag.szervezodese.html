@@ -27,95 +27,158 @@
     .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
     .def .term { font-weight: 600; }
     .levels { text-align: center; font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">Az élővilág szerveződése</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A Föld kialakulása</h2>
-          <ul>
-            <li>Közel 5 milliárd éves.</li>
-            <li>Kialakulásának szakaszai:
-              <ul>
-                <li>izzó bolygó szakasz;</li>
-                <li>lassú kihűlési szakasz.</li>
-              </ul>
-            </li>
-            <li>A külső szilárd kőzetburok kialakulása → az őslégkör megszületése.</li>
-            <li>A lehűlés folytatódása → ennek hatására a vízgőz kicsapódása az őslégkörből, kialakul az ősóceán.</li>
-            <li>A további lehűlés megteremtette az élet megjelenésének lehetőségét (kémiai változások, vegyületek, fehérjék megjelenése).</li>
-          </ul>
-        </div></div>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A Föld kialakulása</h2>
+            <ul>
+              <li>Közel 5 milliárd éves.</li>
+              <li>Kialakulásának szakaszai:
+                <ul>
+                  <li>izzó bolygó szakasz;</li>
+                  <li>lassú kihűlési szakasz.</li>
+                </ul>
+              </li>
+              <li>A külső szilárd kőzetburok kialakulása → az őslégkör megszületése.</li>
+              <li>A lehűlés folytatódása → ennek hatására a vízgőz kicsapódása az őslégkörből, kialakul az ősóceán.</li>
+              <li>A további lehűlés megteremtette az élet megjelenésének lehetőségét (kémiai változások, vegyületek, fehérjék megjelenése).</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Az élet születése</h2>
-          <h3>Sejtek</h3>
-          <ul>
-            <li>3,5 milliárd évvel ezelőtt jelentek meg.</li>
-            <li>Az ősóceánok mélyebb rétegeiben, UV sugárzástól mentes helyen.</li>
-            <li>Méretük: a milliméter ezred része (mikron).</li>
-            <li>Osztódással szaporodtak.</li>
-            <li>Mai képviselőjük a papucsállatka (fejlettebb, mint az ősei, de csak egyetlen sejt).</li>
-          </ul>
-          <h3>Soksejtűek</h3>
-          <ul>
-            <li>Az osztódó sejtek nem váltak szét — így alakultak ki.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élet születése</h2>
+            <h3>Sejtek</h3>
+            <ul>
+              <li>3,5 milliárd évvel ezelőtt jelentek meg.</li>
+              <li>Az ősóceánok mélyebb rétegeiben, UV sugárzástól mentes helyen.</li>
+              <li>Méretük: a milliméter ezred része (mikron).</li>
+              <li>Osztódással szaporodtak.</li>
+              <li>Mai képviselőjük a papucsállatka (fejlettebb, mint az ősei, de csak egyetlen sejt).</li>
+            </ul>
+            <h3>Soksejtűek</h3>
+            <ul>
+              <li>Az osztódó sejtek nem váltak szét — így alakultak ki.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Soksejtűek</h2>
-          <ul>
-            <li>A soksejtűek kialakították a sajátos rendszerüket.</li>
-            <li>Munkamegosztás a külső és a belső sejtek között (tápanyagok felvétele, védelem, tápanyag-feldolgozás).</li>
-            <li><strong>Szövetek:</strong> azonos működésű sejtcsoportok.
-              <ul>
-                <li><strong>szállítószövet:</strong> a növények anyagszállítása;</li>
-                <li><strong>izomszövet:</strong> az állatok mozgása.</li>
-              </ul>
-            </li>
-            <li><strong>Szervek:</strong> az életműködés hatékonyabb ellátására alkalmas szövetszerveződések. Pl.: gyökér, levél, szív, tüdő.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Soksejtűek</h2>
+            <ul>
+              <li>A soksejtűek kialakították a sajátos rendszerüket.</li>
+              <li>Munkamegosztás a külső és a belső sejtek között (tápanyagok felvétele, védelem, tápanyag-feldolgozás).</li>
+              <li><strong>Szövetek:</strong> azonos működésű sejtcsoportok.
+                <ul>
+                  <li><strong>szállítószövet:</strong> a növények anyagszállítása;</li>
+                  <li><strong>izomszövet:</strong> az állatok mozgása.</li>
+                </ul>
+              </li>
+              <li><strong>Szervek:</strong> az életműködés hatékonyabb ellátására alkalmas szövetszerveződések. Pl.: gyökér, levél, szív, tüdő.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Szervrendszerek, szervezet</h2>
-          <ul class="def">
-            <li><span class="term">Szervrendszerek:</span> a fejlett állatokban a szervek rendszereket alkotnak a bonyolult életműködés megvalósítására. Pl.: az emlősök anyagszállító szervrendszere: szív + erek.</li>
-            <li><span class="term">Szervezet:</span> összehangolt működésű szervrendszerek egysége.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Szervrendszerek, szervezet</h2>
+            <ul class="def">
+              <li><span class="term">Szervrendszerek:</span> a fejlett állatokban a szervek rendszereket alkotnak a bonyolult életműködés megvalósítására. Pl.: az emlősök anyagszállító szervrendszere: szív + erek.</li>
+              <li><span class="term">Szervezet:</span> összehangolt működésű szervrendszerek egysége.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Szerveződési szintek</h2>
-          <div class="levels border rounded p-3 mb-3">Sejt → szövet → szerv → szervrendszer → szervezet</div>
-          <ul>
-            <li><strong>Egysejtűek:</strong> a papucsállatka önálló egyed.</li>
-            <li><strong>Soksejtű szervezetek:</strong> fűzfa, barna medve — önálló egyedek. Testük szövetekből, szervekből tevődik össze (egyed alatti szerveződési szint).</li>
-            <li><strong>Populációk:</strong> egy időben egy helyen együtt élő egyedek.
-              <ul>
-                <li>Egy erdőben a bükkfák összessége, az összes őz stb.</li>
-                <li>Annyi populáció van, ahányféle élőlény él együtt.</li>
-                <li>A populációk bonyolult kapcsolatban élnek egymással.</li>
-              </ul>
-            </li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Szerveződési szintek</h2>
+            <div class="levels border rounded p-3 mb-3">Sejt → szövet → szerv → szervrendszer → szervezet</div>
+            <ul>
+              <li><strong>Egysejtűek:</strong> a papucsállatka önálló egyed.</li>
+              <li><strong>Soksejtű szervezetek:</strong> fűzfa, barna medve — önálló egyedek. Testük szövetekből, szervekből tevődik össze (egyed alatti szerveződési szint).</li>
+              <li><strong>Populációk:</strong> egy időben egy helyen együtt élő egyedek.
+                <ul>
+                  <li>Egy erdőben a bükkfák összessége, az összes őz stb.</li>
+                  <li>Annyi populáció van, ahányféle élőlény él együtt.</li>
+                  <li>A populációk bonyolult kapcsolatban élnek egymással.</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Egyed feletti szerveződési szintek</h2>
-          <ul class="def">
-            <li><span class="term">Társulások:</span> életközösségek. A populációkat a kapcsolatok hálózatai szervezik társulássá. Valamennyi populáció ide tartozik, amely együtt él. Pl.: erdő.</li>
-            <li><span class="term">Biomok:</span> a társulások együtt alkotják. Pl.: egy biom valamennyi trópusi esőerdő.</li>
-            <li><span class="term">Bioszféra:</span> a biomok legmagasabb szerveződési szintje a Földön, amely egységes rendszerként működik. Magába foglalja a Föld teljes élővilágát.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Egyed feletti szerveződési szintek</h2>
+            <ul class="def">
+              <li><span class="term">Társulások:</span> életközösségek. A populációkat a kapcsolatok hálózatai szervezik társulássá. Valamennyi populáció ide tartozik, amely együtt él. Pl.: erdő.</li>
+              <li><span class="term">Biomok:</span> a társulások együtt alkotják. Pl.: egy biom valamennyi trópusi esőerdő.</li>
+              <li><span class="term">Bioszféra:</span> a biomok legmagasabb szerveződési szintje a Földön, amely egységes rendszerként működik. Magába foglalja a Föld teljes élővilágát.</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A sejttől a bioszféráig</h2>
+            <p class="mb-2">Az élővilág lépcsőkben épül fel: minden szint az alatta lévőkből áll. A sejt az alapkő; a bioszféra a „legnagyobb épület”.</p>
+            <ol class="steps">
+              <li><strong>Sejt</strong> — pl. a papucsállatka egyetlen sejtből áll.</li>
+              <li><strong>Szövet</strong> — azonos működésű sejtek csoportja.</li>
+              <li><strong>Szerv</strong> — pl. levél, szív.</li>
+              <li><strong>Szervrendszer</strong> — pl. szív + erek.</li>
+              <li><strong>Szervezet (egyed)</strong> — egy élőlény.</li>
+              <li><strong>Populáció</strong> — egy faj együtt élő egyedei.</li>
+              <li><strong>Társulás</strong> — a populációk hálózata (pl. erdő).</li>
+              <li><strong>Biom</strong> — pl. valamennyi trópusi esőerdő.</li>
+              <li><strong>Bioszféra</strong> — a Föld teljes élővilága.</li>
+            </ol>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Animal%20cell%20structure%20hu.svg?width=800" class="figure-img img-fluid rounded" alt="Állati sejt felépítése">
+              <figcaption class="figure-caption">Egy állati sejt felépítése — minden élőlény sejtekből épül fel. <a href="https://hu.wikipedia.org/wiki/Sejt" target="_blank" rel="noopener">Sejt</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A legnagyobb szint: a bioszféra</h2>
+            <p>A bioszféra óriási hálózat, amelyben minden összefügg: a levegő, a víz, a talaj és az élőlények együtt működnek.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Biosphere%20CZCS%20NDVI.jpg?width=800" class="figure-img img-fluid rounded" alt="Bioszféra űrből">
+              <figcaption class="figure-caption">A Föld élővilága műholdképen (növényzet). <a href="https://hu.wikipedia.org/wiki/Bioszf%C3%A9ra" target="_blank" rel="noopener">Bioszféra</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Eddig kb. 1,5 millió fajt írtak le, de a kutatók szerint ennél jóval több létezik — sok még felfedezésre vár.</div>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>

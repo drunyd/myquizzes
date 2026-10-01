@@ -23,83 +23,140 @@
     .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
     .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
     .wiki-article li { margin-bottom: .35rem; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
   </style>
 </head>
 <body>
   <div class="container py-4">
     <div class="quiz-container p-4 p-md-5">
       <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
         <h1 class="quiz-title display-5 mb-4">Táplálékláncok, anyag- és energiaáramlás</h1>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Táplálékláncok – táplálkozási hálózatok</h2>
-          <ul>
-            <li>Az élőlények egy életközösségen belül táplálkoznak.</li>
-            <li>A növények fotoszintézist végeznek.</li>
-            <li>Az állatok növényeket, illetve állatokat fogyasztanak.</li>
-            <li>Így jutnak energiához és a testük felépítéséhez szükséges anyagokhoz.</li>
-            <li>Aszerint, hogy őket mi fogyasztja, illetve hogy ők mit fogyasztanak, táplálékláncokba rendezhetők.</li>
-            <li>A táplálékláncok különböző hosszúságúak lehetnek:
-              <ul>
-                <li>rövid: <span class="badge bg-light text-dark">növény – mezei pocok – egerészölyv</span> <span class="badge bg-light text-dark">vándorsáska – varangy – fehér gólya</span></li>
-                <li>hosszú: <span class="badge bg-light text-dark">orchidea – nektárfogyasztó rovar – madarak – majom – jaguár</span></li>
-              </ul>
-            </li>
-            <li>Közös mindegyikben, hogy egy növénnyel kezdődik, majd növényevőkkel folytatódik, végül ragadozókkal zárul.</li>
-            <li>Egy növény vagy állat többféle láncnak is a tagja lehet, így a láncok táplálkozási hálózattá kapcsolódnak össze.</li>
-          </ul>
-        </div></div>
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Táplálékláncok – táplálkozási hálózatok</h2>
+            <ul>
+              <li>Az élőlények egy életközösségen belül táplálkoznak.</li>
+              <li>A növények fotoszintézist végeznek.</li>
+              <li>Az állatok növényeket, illetve állatokat fogyasztanak.</li>
+              <li>Így jutnak energiához és a testük felépítéséhez szükséges anyagokhoz.</li>
+              <li>Aszerint, hogy őket mi fogyasztja, illetve hogy ők mit fogyasztanak, táplálékláncokba rendezhetők.</li>
+              <li>A táplálékláncok különböző hosszúságúak lehetnek:
+                <ul>
+                  <li>rövid: <span class="badge bg-light text-dark">növény – mezei pocok – egerészölyv</span> <span class="badge bg-light text-dark">vándorsáska – varangy – fehér gólya</span></li>
+                  <li>hosszú: <span class="badge bg-light text-dark">orchidea – nektárfogyasztó rovar – madarak – majom – jaguár</span></li>
+                </ul>
+              </li>
+              <li>Közös mindegyikben, hogy egy növénnyel kezdődik, majd növényevőkkel folytatódik, végül ragadozókkal zárul.</li>
+              <li>Egy növény vagy állat többféle láncnak is a tagja lehet, így a láncok táplálkozási hálózattá kapcsolódnak össze.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A táplálékláncok tagjai — Termelő szervezetek</h2>
-          <ul>
-            <li>Zöld növények: víz + CO₂ + a Nap fényenergiája = cukor, energiában gazdag szerves anyag.</li>
-            <li>A cukrot ezután más szerves vegyületté képesek átalakítani.</li>
-            <li>A növények állítják elő a szerves anyagot, ezért ők a tápláléklánc első tagjai: a <strong>termelő szervezetek</strong>.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A táplálékláncok tagjai — Termelő szervezetek</h2>
+            <ul>
+              <li>Zöld növények: víz + CO₂ + a Nap fényenergiája = cukor, energiában gazdag szerves anyag.</li>
+              <li>A cukrot ezután más szerves vegyületté képesek átalakítani.</li>
+              <li>A növények állítják elő a szerves anyagot, ezért ők a tápláléklánc első tagjai: a <strong>termelő szervezetek</strong>.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A táplálékláncok tagjai — Fogyasztók</h2>
-          <ul>
-            <li>A növényeket a növényevők fogyasztják el, belőlük építik a saját testüket. Ők már <strong>fogyasztók</strong>.</li>
-            <li><strong>Elsődleges fogyasztók:</strong> a termelőket fogyasztják — növényevő állatok.</li>
-            <li><strong>Másodlagos fogyasztók:</strong> az elsődleges fogyasztókat eszik meg — állatevő állatok.</li>
-            <li><strong>Harmadlagos fogyasztók:</strong> olyan ragadozók, amelyek másodlagos fogyasztókkal táplálkoznak.</li>
-            <li><strong>Csúcsragadozók:</strong> a tápláléklánc utolsó tagja, nincs természetes fogyasztója az adott életközösségben.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A táplálékláncok tagjai — Fogyasztók</h2>
+            <ul>
+              <li>A növényeket a növényevők fogyasztják el, belőlük építik a saját testüket. Ők már <strong>fogyasztók</strong>.</li>
+              <li><strong>Elsődleges fogyasztók:</strong> a termelőket fogyasztják — növényevő állatok.</li>
+              <li><strong>Másodlagos fogyasztók:</strong> az elsődleges fogyasztókat eszik meg — állatevő állatok.</li>
+              <li><strong>Harmadlagos fogyasztók:</strong> olyan ragadozók, amelyek másodlagos fogyasztókkal táplálkoznak.</li>
+              <li><strong>Csúcsragadozók:</strong> a tápláléklánc utolsó tagja, nincs természetes fogyasztója az adott életközösségben.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>A táplálékláncok tagjai — Lebontó szervezetek</h2>
-          <p>A zöld növények által előállított anyagok felhasználása:</p>
-          <ul>
-            <li>Egy része a fogyasztókon keresztül eljut a csúcsragadozókig.</li>
-            <li>Egy része az életműködés fenntartásához szükséges.</li>
-            <li>Egy része pedig az elpusztuló szervezetekben reked.</li>
-          </ul>
-          <p>Az elpusztuló szervezetekben rekedt anyagokat a <strong>lebontó szervezetek</strong> hasznosítják. Például: rovar, gomba, baktérium, keselyűk.</p>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>A táplálékláncok tagjai — Lebontó szervezetek</h2>
+            <p>A zöld növények által előállított anyagok felhasználása:</p>
+            <ul>
+              <li>Egy része a fogyasztókon keresztül eljut a csúcsragadozókig.</li>
+              <li>Egy része az életműködés fenntartásához szükséges.</li>
+              <li>Egy része pedig az elpusztuló szervezetekben reked.</li>
+            </ul>
+            <p>Az elpusztuló szervezetekben rekedt anyagokat a <strong>lebontó szervezetek</strong> hasznosítják. Például: rovar, gomba, baktérium, keselyűk.</p>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Az anyagok körforgása és az energiaáramlás</h2>
-          <ul>
-            <li>A termelők által előállított anyag eljut egy irányban a csúcsragadozókig, majd az elpusztult élőlények testanyagait a lebontók újra elérhetővé teszik a növények számára. Ez a <strong>körforgás</strong>.</li>
-            <li>A környezetből érkező energia (a Nap fényenergiája) <strong>egyirányúan</strong> áramlik. Minden szinten veszteség lép fel belőle (saját maguk felhasználják, a maradék új táplálékszintre kerül, ahol megint fogy belőle; hőleadás miatt minden szinten csökken a mennyisége). Ezért a növénynek újra fel kell vennie a környezetből.</li>
-            <li>A veszteséget a Nap sugárzó energiája pótolja.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az anyagok körforgása és az energiaáramlás</h2>
+            <ul>
+              <li>A termelők által előállított anyag eljut egy irányban a csúcsragadozókig, majd az elpusztult élőlények testanyagait a lebontók újra elérhetővé teszik a növények számára. Ez a <strong>körforgás</strong>.</li>
+              <li>A környezetből érkező energia (a Nap fényenergiája) <strong>egyirányúan</strong> áramlik. Minden szinten veszteség lép fel belőle (saját maguk felhasználják, a maradék új táplálékszintre kerül, ahol megint fogy belőle; hőleadás miatt minden szinten csökken a mennyisége). Ezért a növénynek újra fel kell vennie a környezetből.</li>
+              <li>A veszteséget a Nap sugárzó energiája pótolja.</li>
+            </ul>
+          </div></div>
 
-        <div class="card mb-4"><div class="card-body">
-          <h2>Táplálékpiramisok</h2>
-          <ul>
-            <li>Az életközösségekben a termelő szervezetektől a csúcsragadozókig az egyedszám csökken, a testméret pedig nő.</li>
-            <li>Ezt a mennyiségi összefüggést táplálékpiramisokkal lehet ábrázolni.</li>
-            <li>A táplálékpiramis anyag- és energiapiramis is egyben.</li>
-          </ul>
-        </div></div>
+          <div class="card mb-4"><div class="card-body">
+            <h2>Táplálékpiramisok</h2>
+            <ul>
+              <li>Az életközösségekben a termelő szervezetektől a csúcsragadozókig az egyedszám csökken, a testméret pedig nő.</li>
+              <li>Ezt a mennyiségi összefüggést táplálékpiramisokkal lehet ábrázolni.</li>
+              <li>A táplálékpiramis anyag- és energiapiramis is egyben.</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A tápláléklánc: energiaszalag</h2>
+            <p class="mb-0">A Nap energiája a növényekbe kerül, onnan az állatokba. Minden „szinten” csak a energia egy része jut tovább — a nagy része hővé alakul. Ezért van az, hogy sok növény, kevesebb növényevő és még kevesebb ragadozó él egy helyen. <a href="https://hu.wikipedia.org/wiki/T%C3%A1pl%C3%A1l%C3%A9kl%C3%A1nc" target="_blank" rel="noopener">Tápláléklánc</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/FoodChain.svg?width=800" class="figure-img img-fluid rounded" alt="Tápláléklánc">
+              <figcaption class="figure-caption">Egy egyszerű tápláléklánc. <a href="https://commons.wikimedia.org/wiki/File:FoodChain.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A „10%-os szabály” szerint minden szinten csak kb. 10% energia jut tovább a következőre. Ezért egy csúcsragadozónak rengeteg zsákmányra van szüksége.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Növényevők — az első fogyasztók</h2>
+            <p class="mb-0">Ők alakítják át a növények energiáját állati testté. Az egész hálózat tőlük függ.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/White-tailed%20deer%20%28Odocoileus%20virginianus%29%20grazing%20-%2020050809.jpg?width=800" class="figure-img img-fluid rounded" alt="Legelő szarvas">
+              <figcaption class="figure-caption">Legelő szarvas — elsődleges fogyasztó. <a href="https://commons.wikimedia.org/wiki/File:White-tailed_deer_(Odocoileus_virginianus)_grazing_-_20050809.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miért „hálózat” és nem „lánc”?</h2>
+            <p class="mb-0">A valóságban egy faj több láncnak is a tagja: az őz ehet füvet, de a farkas is megeheti, és a keselyű is. Ezért a láncok <strong>táplálkozási hálózattá</strong> fonódnak össze. Ha egy faj eltűnik, az egész hálózat felborulhat.</p>
+          </div></div>
+        </div>
+
       </div>
     </div>
   </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
 </body>
 </html>
