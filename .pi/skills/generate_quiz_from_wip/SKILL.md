@@ -196,7 +196,7 @@ that knowledge.
   nicely with a clear structure.
 - **Language:** Hungarian, same as the source.
 - **Single file:** one `.html` file. It may reference only the shared `/static/style.css`
-  and the CDN links listed under "Theme" (Poppins, Bootstrap, Font Awesome); all other
+  and the CDN links listed under "Theme" (Poppins, Anton, Rajdhani, Bootstrap, Font Awesome); all other
   styling stays in a small inline `<style>` block.
 - Escape `<`, `>`, `&` in the source text as `&lt;`, `&gt;`, `&amp;`.
 - Use the quiz title as the page `<h1>`.
@@ -248,7 +248,7 @@ returns 200). Always add a caption and a source link. No hardcoded colors (see T
 The wiki page is served by the quiz app through its `/source/...` route, so it runs on
 the same origin as the app and can reuse the app's stylesheet and saved theme. Do **not**
 hardcode theme colors or gradients: the app's `/static/style.css` already themes every
-element for all four themes (`original`, `dark`, `glass`, `glass-dark`).
+element for all five themes (`original`, `dark`, `glass`, `glass-dark`, `valorant`).
 
 The page `<head>` must be exactly this (only `<title>` changes):
 
@@ -267,6 +267,7 @@ The page `<head>` must be exactly this (only `<title>` changes):
     })();
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="/static/style.css">
@@ -293,11 +294,11 @@ Requirements:
 
 - Remove every hardcoded theme color/gradient from the generated page: do not set the
   body background, card background/shadow, or title color/shadow yourself.
-  `/static/style.css` supplies these for all four themes.
+  `/static/style.css` supplies these for all five themes.
 - Keep a small page-specific `<style>` block only for article-specific typography/layout
   that `style.css` does not cover (e.g. `max-width`, definition blocks, tables). Any
-  custom color must have `[data-theme="dark"]`, `[data-theme="glass"]` and
-  `[data-theme="glass-dark"]` variants, or be avoided entirely.
+  custom color must have `[data-theme="dark"]`, `[data-theme="glass"]`,
+  `[data-theme="glass-dark"]` and `[data-theme="valorant"]` variants, or be avoided entirely.
 - Use `quiz-title` for the `<h1>`, and `card` / `card-body` blocks for content sections.
   Use Bootstrap utilities for spacing/layout.
 - Do not include a theme chooser; the wiki just inherits the user's saved theme.
@@ -306,7 +307,7 @@ Requirements:
 - **Limitation:** the page is always opened through the app's `/source/...` route (that is
   why `/static/style.css` resolves). If opened directly from disk it will be unstyled.
 - **Verification:** after generating, open a wiki page through the app and confirm it
-  looks right under all four themes (original, dark, glass, glass-dark).
+  looks right under all five themes (original, dark, glass, glass-dark, valorant).
 
 ### File name
 
