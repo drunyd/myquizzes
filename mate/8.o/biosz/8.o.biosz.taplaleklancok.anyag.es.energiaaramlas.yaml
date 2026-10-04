@@ -244,3 +244,24 @@ Question:
     C: Csak energiapiramis
     D: Csak egyedszám-piramis
     Correct: A
+
+  - Type: pairing
+    Text: Párosítsd a tápláléklánc tagjait a meghatározásukkal!
+    LeftTitle: Tag
+    RightTitle: Meghatározás
+    Pairs:
+      - [Termelő szervezetek, zöld növények amelyek szerves anyagot állítanak elő]
+      - [Elsődleges fogyasztók, a termelőket fogyasztó növényevő állatok]
+      - [Másodlagos fogyasztók, az elsődleges fogyasztókat evő állatevő állatok]
+      - [Harmadlagos fogyasztók, másodlagos fogyasztókkal táplálkozó ragadozók]
+      - [Csúcsragadozók, a tápláléklánc utolsó tagja]
+      - [Lebontó szervezetek, az elpusztult szervezetek anyagait hasznosítják]
+
+  - Type: pairing
+    Text: Párosítsd az anyag- és energiaáramlás fogalmait a meghatározásukkal!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [Anyagok körforgása, az anyag a lebontók segítségével újra elérhetővé válik]
+      - [Energiaáramlás, a Nap energiája egyirányúan áramlik és veszteség lép fel]
+      - [Táplálékpiramis, a termelőktől a csúcsragadozókig csökken az egyedszám és nő a testméret]

@@ -3,7 +3,7 @@ name: generate_quiz_from_wip
 description: >
   Processes PDF or text files in the wip/ folder, reads their content, and generates
   50-question YAML quiz files in the appropriate 6.o/<subject>/ or 7.o/<subject>/
-  folder. Supports singlechoice, multichoice, word, and ordering question types.
+  folder. Supports singlechoice, multichoice, word, ordering, and pairing question types.
   All questions are in Hungarian. Multiple wip/ files produce multiple YAML files.
   For every quiz it also generates a themed HTML wiki page from the same source and
   stores the wiki page path in the quiz's Source: attribute.
@@ -52,6 +52,10 @@ Question:
   - Type: multiplechoice
     ...
   - Type: word
+    ...
+  - Type: ordering
+    ...
+  - Type: pairing
     ...
 ```
 
@@ -112,6 +116,23 @@ Put items in the correct order (e.g., chronological, sequential, size):
 - `Items` lists the items in shuffled (display) order.
 - `Correct` lists them in the proper order.
 - Use only when the source material naturally supports ordering (timelines, sequences, processes, size comparisons, etc.).
+
+### Question Type: `pairing`
+Match items between two columns (e.g., term ↔ definition, cause ↔ effect):
+```yaml
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [sejtmag, az örökítőanyagot tartalmazza]
+      - [sejthártya, elválasztja a sejtet a környezetétől]
+      - [citoplazma, itt zajlik az anyagcsere]
+```
+- `Pairs` is a list of `[left, right]` pairs: the first items form the left column, the second items the right column, and the pair itself is the solution.
+- **Minimum 2 pairs** per question (so at least 2 items in each column). 3–6 pairs is the practical sweet spot.
+- Left values must be unique and right values must be unique, so every match is unambiguous.
+- Use only when the source material naturally supports matching pairs (definitions, causes, examples, symbols, etc.).
 
 ## HTML Wiki Page
 
@@ -290,6 +311,7 @@ Question:
 | `multiplechoice` | ~10-15 | Lists with multiple correct options |
 | `word` | ~5-10 | Specific facts: years, names, numbers, formulas |
 | `ordering` | ~5-8 | Timelines, sequences, processes — only if material supports it |
+| `pairing` | ~3-5 | Term ↔ definition, cause ↔ effect — only if the material has natural pairs |
 
 ## Rules
 
@@ -303,6 +325,7 @@ Question:
 - `Answers` in `multiplechoice` contains plausible distractors plus the correct ones.
 - `Correct` in `singlechoice` is a single capital letter (A, B, C, or D).
 - `<` and `>` in question text must be escaped as `&lt;` and `&gt;` in YAML.
+- **Pairing questions:** put each pair under `Pairs:` as an inline `[left, right]` list; at least 2 pairs, with unique values within each column.
 - If the target folder does not exist, create it.
 - After generation, verify the YAML is well-formed by reading it back.
 

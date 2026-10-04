@@ -244,3 +244,27 @@ Question:
     Text: Hány röntgen sugárdózis végzetes az ember számára?
     Answers: [500]
     Correct: [500]
+
+  - Type: pairing
+    Text: Párosítsd a tűrőképesség fogalmait a meghatározásukkal!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [Alsó értékhatár, a még éppen elviselhető környezeti tényező értéke]
+      - [Felső értékhatár, amit az élőlény még képes elviselni]
+      - [Optimumpont, az élőlény számára legkedvezőbb érték]
+      - [Tág tűrés, a tűrőképesség széles határok között mozog]
+      - [Szűk tűrés, a minimum- és maximumpont közel van egymáshoz]
+      - [Indikátorszervezet, szűk tűrésű faj amely jelzi egy tényező értékhatárait]
+
+  - Type: pairing
+    Text: Párosítsd az élőlényeket a tűrőképességükkel!
+    LeftTitle: Élőlény
+    RightTitle: Tűrőképesség
+    Pairs:
+      - [lucfenyő, hőmérsékletre tág tűrésű]
+      - [korallszirtek halai, szűk tűrésűek]
+      - [foltos maláriaszúnyog, hőmérsékletre tág és páratartalomra szűk tűrésű]
+      - [császárpingvin, hidegtűrő]
+      - [kaucsukfa, melegkedvelő]
+      - [tőzegmoha, csak savanyú talajon és savanyú vizű lápon él meg]

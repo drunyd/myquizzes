@@ -277,3 +277,24 @@ Question:
       - A kutatási módszer alkalmazása
       - Az eredmények értékelése
       - Az eredmények közzététele hiteles forrásban
+
+  - Type: pairing
+    Text: Párosítsd a kutatási módszereket a jellemzőjükkel!
+    LeftTitle: Módszer
+    RightTitle: Jellemző
+    Pairs:
+      - [Megfigyelés, a legrégebbi módszer]
+      - [Kísérletezés, tetszés szerint megismételhető és nagy bizonyító ereje van]
+      - [Modellkészítés, valós folyamatok utánzása mesterséges körülmények között]
+      - [Szimuláció, későbbi várható változás előidézése modell segítségével]
+
+  - Type: pairing
+    Text: Párosítsd a fénymikroszkóp részeit a feladatukkal!
+    LeftTitle: Rész
+    RightTitle: Feladat
+    Pairs:
+      - [Talp, tartja a berendezést]
+      - [Okulár, cserélhető szemlencse a tubus felső végén]
+      - [Objektív, tárgylencse a tubus alján]
+      - [Tárgyasztal, ide helyezzük a preparátumot]
+      - [Élességállító csavarok, a preparátum és az objektív távolságát állítják be]

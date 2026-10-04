@@ -239,3 +239,23 @@ Question:
     C: Csak az állatokat
     D: Csak az óceánokat
     Correct: A
+
+  - Type: pairing
+    Text: Párosítsd a szerveződési szinteket a meghatározásukkal!
+    LeftTitle: Szint
+    RightTitle: Meghatározás
+    Pairs:
+      - [Szövet, azonos működésű sejtek csoportja]
+      - [Szerv, az életműködést hatékonyabban ellátó szövetszerveződés]
+      - [Populáció, egy időben egy helyen együtt élő egyedek]
+      - [Társulás, a populációkat kapcsolatok hálózatai szervezik életközösséggé]
+      - [Biom, a társulások együttese]
+      - [Bioszféra, a biomok legmagasabb szerveződési szintje a Földön]
+
+  - Type: pairing
+    Text: Párosítsd a szövettípusokat a szerepükkel!
+    LeftTitle: Szövet
+    RightTitle: Szerep
+    Pairs:
+      - [szállítószövet, a növények anyagszállítása]
+      - [izomszövet, az állatok mozgása]

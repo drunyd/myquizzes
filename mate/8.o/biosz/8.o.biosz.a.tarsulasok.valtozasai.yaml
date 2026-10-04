@@ -208,3 +208,24 @@ Question:
       - Algák és gyökerező hínárnövények megjelenése
       - Nád és széleslevelű gyékény megjelenése a sekélyparton
       - A víz eltűnik, fák telepednek meg
+
+  - Type: pairing
+    Text: Párosítsd a növényeket és állatokat a napi ritmusukkal!
+    LeftTitle: Élőlény
+    RightTitle: Napi ritmus
+    Pairs:
+      - [téltemető, csak a meleg délelőtti órákban nyitja ki a lepelleveleit]
+      - [csodatölcsérke, csak alkonyatkor virágzik]
+      - [fecskefarkú lepke, csak nappal repül]
+      - [bagolylepke, csak éjszaka repül]
+
+  - Type: pairing
+    Text: Párosítsd a szukcesszió fogalmait a meghatározásukkal!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [Szukcesszió, egyirányú változás amely a populációk kicserélődésével jár]
+      - [Pionír szervezetek, zuzmók és mohák amelyek elsőként telepednek meg]
+      - [Zárótársulás, a szukcesszió végső és tovább nem változó állapota]
+      - [Tölgyes erdő, a futóhomok szukcessziójának zárótársulása]
+      - [Fehér fűz, az állóvíz feltöltődésekor megtelepedő fa]

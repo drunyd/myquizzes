@@ -182,3 +182,25 @@ Question:
       - Asztalközösség (+,0)
       - Táplálkozási kapcsolat (+,-)
       - Versengés (-,-)
+
+  - Type: pairing
+    Text: Párosítsd a kölcsönhatás típusát a példájával!
+    LeftTitle: Kölcsönhatás
+    RightTitle: Példa
+    Pairs:
+      - [Növényevés, növény és őz]
+      - [Zsákmányszerzés, őz és farkas]
+      - [Élősködés, levéltetvek és a növények]
+      - [Szimbiózis, lucerna és poszméh]
+      - [Asztalközösség, oroszlán maradéka és foltos hiéna]
+      - [Versengés, harc a korlátozott erőforrásokért]
+
+  - Type: pairing
+    Text: Párosítsd a kölcsönhatás jelét a jelentésével!
+    LeftTitle: Jel
+    RightTitle: Jelentés
+    Pairs:
+      - [+ −, az egyik félnek előnyös a másiknak hátrányos]
+      - [+ +, mindkét fél számára előnyös]
+      - [+ 0, az egyik félnek előnyös a másiknak semleges]
+      - [− −, mindkét fél számára hátrányos]

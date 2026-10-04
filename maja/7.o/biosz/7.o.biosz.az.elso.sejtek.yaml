@@ -318,3 +318,25 @@ Question:
       - Napenergia felhasználása
       - Cukor keletkezése
       - Oxigén leadása a környezetbe
+
+  - Type: pairing
+    Text: Párosítsd a baktérium részeit a jellemzőjükkel!
+    LeftTitle: Rész
+    RightTitle: Jellemző
+    Pairs:
+      - [Sejthártya, határolja a sejtet]
+      - [Sejtfal, védi a sejtet és a sejthártya termeli]
+      - [Sejtplazma, kocsonyás anyag amely kitölti a sejt belsejét]
+      - [DNS, az örökítőanyag és a gének láncolata]
+      - [Gének, a sejt felépítésére és működésére vonatkozó utasítások]
+
+  - Type: pairing
+    Text: Párosítsd az anyagcsere fogalmait a meghatározásukkal!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [Autotrof anyagcsere, nem szorul rá más élő szervezetre a testfelépítéséhez]
+      - [Heterotrof anyagcsere, kész szerves anyagot használ szén- és energiaforrásként]
+      - [Légzés, a lebontáshoz a sejt oxigént használ fel]
+      - [Erjedés, a lebontás oxigén nélkül megy végbe]
+      - [Nyílt rendszer, a környezettel anyag- és energia-kicserélődés megy végbe]

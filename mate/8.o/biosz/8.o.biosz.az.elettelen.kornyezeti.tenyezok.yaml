@@ -257,3 +257,26 @@ Question:
       - Nitrogén
       - Oxigén
       - Szén-dioxid
+
+  - Type: pairing
+    Text: Párosítsd az élőlényeket a fényhez való viszonyukkal vagy aktivitásukkal!
+    LeftTitle: Élőlény
+    RightTitle: Jellemző
+    Pairs:
+      - [nyírfa, fénykedvelő faj]
+      - [szagos müge, árnyéktűrő faj]
+      - [fekete rigó, nappal tevékenykedik]
+      - [szúnyog, szürkületkor jelenik meg]
+      - [uhu, este aktív]
+
+  - Type: pairing
+    Text: Párosítsd a talaj és a levegő fogalmait a jellemzőjükkel!
+    LeftTitle: Fogalom
+    RightTitle: Jellemző
+    Pairs:
+      - [Humusz, a lebomló szerves anyag amely megköti a vizet]
+      - [Szikes talaj, magas a sótartalma]
+      - [Tajga erdő, tápanyagban szegény talaj]
+      - [Nitrogén, a levegő 78 százaléka]
+      - [Oxigén, a levegő 21 százaléka]
+      - [Szén-dioxid, a levegő 0.03 százaléka]

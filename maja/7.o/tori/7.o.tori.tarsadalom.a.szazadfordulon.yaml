@@ -157,3 +157,25 @@ Question:
     Text: Ki gyakorolja a hatalmat a marxizmus célja szerint?
     Answers: [munkásság]
     Correct: [munkásság]
+
+  - Type: pairing
+    Text: Párosítsd a politikai eszméket a jellemzőjükkel!
+    LeftTitle: Eszme
+    RightTitle: Jellemző
+    Pairs:
+      - [Utópista szocializmus, Robert Owen és a termelő munkásközösségek]
+      - [Szociáldemokrácia, demokratikus eszközökkel harcolt a munkások jogaiért]
+      - [Marxizmus, Karl Marx és a munkásság hatalomra juttatása]
+      - [Anarchizmus, az államhatalom elutasítása és merényletek]
+      - [Liberalizmus, az állam nem szól bele a gazdaság irányításába]
+      - [Konzervativizmus, fontolva haladás és állami beleszólás az irányításba]
+
+  - Type: pairing
+    Text: Párosítsd a társadalmi változásokat a példájukkal!
+    LeftTitle: Változás
+    RightTitle: Példa
+    Pairs:
+      - [Infrastruktúra, szilárd utak világítás víz és csatorna]
+      - [Egészségügy, kórházak és oltások]
+      - [Szociálpolitika, betegbiztosítás és nyugdíj]
+      - [Közoktatás, elterjed az iskoláztatás]

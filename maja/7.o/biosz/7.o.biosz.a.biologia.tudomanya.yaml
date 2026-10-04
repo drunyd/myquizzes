@@ -154,3 +154,25 @@ Question:
     Text: Mely állítások igazak a növekedésre és a fejlődésre?
     Answers: [a növekedés mennyiségi változás, a fejlődés minőségi változás, a fejlődés új tulajdonság megjelenését jelenti, a növekedés minőségi változás]
     Correct: [a növekedés mennyiségi változás, a fejlődés minőségi változás, a fejlődés új tulajdonság megjelenését jelenti]
+
+  - Type: pairing
+    Text: Párosítsd a biológia részterületeit a vizsgálati területükkel!
+    LeftTitle: Részterület
+    RightTitle: Mit vizsgál
+    Pairs:
+      - [Rendszertan, az élőlények elnevezése és osztályozása]
+      - [Szervezettan, a test felépítése sejtekből szövetekből és szervekből]
+      - [Élettan, a szervek működése]
+      - [Genetika, az örökléstan]
+      - [Etológia, a viselkedés tanulmányozása]
+      - [Ökológia, az élőlények és a környezetük kölcsönhatása]
+
+  - Type: pairing
+    Text: Párosítsd az életjelenségeket a meghatározásukkal!
+    LeftTitle: Életjelenség
+    RightTitle: Meghatározás
+    Pairs:
+      - [Anyagcsere, anyagok kicserélődése az élőlény és a környezete között]
+      - [Növekedés, mennyiségi változás]
+      - [Fejlődés, minőségi változás új tulajdonság vagy képesség megjelenésével]
+      - [Ingerlékenység, alkalmazkodás a környezet ingereihez]
