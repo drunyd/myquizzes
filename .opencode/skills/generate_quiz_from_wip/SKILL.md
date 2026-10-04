@@ -70,6 +70,7 @@ One correct answer from four options (A/B/C/D):
     D: Arany
     Correct: B
 ```
+- **Never the longest option:** the correct answer must not be the longest option by character count. Keep the distractors a similar length — lengthen a distractor rather than shortening a correct answer.
 
 ### Question Type: `multiplechoice`
 Multiple correct answers from a list:
@@ -324,6 +325,7 @@ Question:
 - `Correct` field for `multiplechoice` and `word` uses YAML inline list syntax `[...]`.
 - `Answers` in `multiplechoice` contains plausible distractors plus the correct ones.
 - `Correct` in `singlechoice` is a single capital letter (A, B, C, or D).
+- **Answer length (singlechoice):** the correct option must never be the longest by character count; keep all four options similar in length so length is not a clue.
 - `<` and `>` in question text must be escaped as `&lt;` and `&gt;` in YAML.
 - **Pairing questions:** put each pair under `Pairs:` as an inline `[left, right]` list; at least 2 pairs, with unique values within each column.
 - If the target folder does not exist, create it.

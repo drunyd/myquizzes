@@ -126,6 +126,7 @@ One correct answer from four options (A/B/C/D):
     D: Arany
     Correct: B
 ```
+- **Never the longest option:** the correct answer must not be the longest option by character count. Keep the distractors a similar length — lengthen a distractor rather than shortening a correct answer.
 
 #### multichoice
 Multiple correct answers from a list:
@@ -368,6 +369,7 @@ Question:
 - **Add the `Source:` attribute** directly after `Quiz:`, pointing at the wiki HTML page
 - `Correct` field for `multichoice` and `word` uses YAML inline list syntax `[...]`
 - `Correct` in `singlechoice` is a single capital letter (A, B, C, or D)
+- **Answer length (singlechoice):** the correct option must never be the longest by character count; keep all four options similar in length so length is not a clue
 - `<` and `>` in question text must be escaped as `&lt;` and `&gt;` in YAML
 - **Ordering questions:** list `Items:` in a shuffled display order and put the true order in `Correct:`; never leave `Items` already in the correct order
 - **Pairing questions:** put each pair under `Pairs:` as an inline `[left, right]` list; at least 2 pairs, with unique values within each column
