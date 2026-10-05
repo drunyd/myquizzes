@@ -1,0 +1,887 @@
+---
+quiz:
+  title: "A hidegháború - 7. osztályos történelem kvíz (NAT2020 B)"
+  subject: "Történelem"
+  grade: 7
+  curriculum: "NAT2020 B"
+  lesson: "A hidegháború"
+  lesson_number: 16
+  source: "https://www.nkp.hu/tankonyv/tortenelem_7_nat2020_b/lecke_07_016"
+  source_name: "NKP Okostankönyv - OH-TOR07TB"
+  total_questions: 50
+  question_types:
+    - singlechoice
+    - multichoice
+    - word
+    - ordering
+  language: "hu"
+  version: "1.0"
+  created_by: "pi-agent-quiz-generator"
+  description: "A hidegháború témaköréről szóló 50 kérdéses kvíz a 7. osztályos történelem NAT2020 B tanterv szerint."
+
+questions:
+  - id: 1
+    type: singlechoice
+    question: "Mikor kezdődött a hidegháború?"
+    question_image: ""
+    options:
+      - "1939"
+      - "1945"
+      - "1947"
+      - "1950"
+    correct_answer: "1947"
+    explanation: "A hidegháború hivatalosan 1947-ben kezdődött, amikor Truman amerikai elnök meghirdette a Truman-elvet, amely a kommunizmus terjedésének megállítását célozta."
+    difficulty: easy
+    tags:
+      - definicio
+      - hideghaboru
+      - datum
+
+  - id: 2
+    type: singlechoice
+    question: "Melyik két szuperhatalom állt szemben a hidegháborúban?"
+    question_image: ""
+    options:
+      - "Nagy-Britannia és Franciaország"
+      - "USA és Szovjetunió"
+      - "Németország és Olaszország"
+      - "Kína és Japán"
+    correct_answer: "USA és Szovjetunió"
+    explanation: "A hidegháború főszereplői az Egyesült Államok (nyugati blokk) és a Szovjetunió (keleti blokk) voltak, amelyek a II. világháború után alakultak ki mint szuperhatalmak."
+    difficulty: easy
+    tags:
+      - definicio
+      - szuperhatalom
+      - felek
+
+  - id: 3
+    type: singlechoice
+    question: "Mit nevezünk 'vasfüggöny'-nek a hidegháború idején?"
+    question_image: ""
+    options:
+      - "Egy fémből készült védelmi rendszert"
+      - "Európát kettéválasztó fizikai és ideológiai határvonalat"
+      - "A kommunista párt hivatalos jelképét"
+      - "A NATO védelmi vonalát"
+    correct_answer: "Európát kettéválasztó fizikai és ideológiai határvonalat"
+    explanation: "A vasfüggöny egy metaforikus kifejezés, amely Európát és Németországot kettéválasztó fizikai (határok, falak) és ideológiai (kommunizmus vs kapitalizmus) határvonalat jelenti."
+    difficulty: medium
+    tags:
+      - definicio
+      - vasfugony
+      - europa
+
+  - id: 4
+    type: singlechoice
+    question: "Mikor épült a Berlini fal?"
+    question_image: ""
+    options:
+      - "1945"
+      - "1956"
+      - "1961"
+      - "1968"
+    correct_answer: "1961"
+    explanation: "A Berlini falat 1961. augusztus 13-án kezdték építeni, hogy megakadályozzák a keletnémetek nyugatra menekülését."
+    difficulty: easy
+    tags:
+      - datum
+      - berlini_fal
+      - esemény
+
+  - id: 5
+    type: singlechoice
+    question: "Melyik szervezetet hozták létre a nyugati blokk országai 1949-ben?"
+    question_image: ""
+    options:
+      - "ENSZ"
+      - "NATO"
+      - "Varsói Szerződés"
+      - "Európai Unió"
+    correct_answer: "NATO"
+    explanation: "A NATO-t (Észak-atlanti Szerződés Szervezete) 1949-ben alapították a nyugati országok a kollektív védelem biztosítására."
+    difficulty: medium
+    tags:
+      - szervezet
+      - NATO
+      - datum
+
+  - id: 6
+    type: singlechoice
+    question: "Melyik évben alakult meg a Varsói Szerződés?"
+    question_image: ""
+    options:
+      - "1945"
+      - "1949"
+      - "1955"
+      - "1961"
+    correct_answer: "1955"
+    explanation: "A Varsói Szerződést 1955-ben hozták létre a szovjet tömb országai a katonai védelem érdekében."
+    difficulty: medium
+    tags:
+      - datum
+      - varsói_szerzodes
+      - szervezet
+
+  - id: 7
+    type: singlechoice
+    question: "Mi az ENSZ célja?"
+    question_image: ""
+    options:
+      - "Gazdasági együttműködés"
+      - "A nemzetközi béke és biztonság megőrzése"
+      - "Világuralom megszerzése"
+      - "Katonai szövetség létrehozása"
+    correct_answer: "A nemzetközi béke és biztonság megőrzése"
+    explanation: "Az ENSZ (Egyesült Nemzetek Szervezete) célja a nemzetközi béke és biztonság megőrzése, az emberi jogok védelme és a nemzetközi együttműködés elősegítése."
+    difficulty: easy
+    tags:
+      - definicio
+      - ENSZ
+      - szervezet
+
+  - id: 8
+    type: singlechoice
+    question: "Ki volt az USA elnöke a kubai rakétaválság idején?"
+    question_image: ""
+    options:
+      - "Franklin D. Roosevelt"
+      - "Harry Truman"
+      - "John F. Kennedy"
+      - "Richard Nixon"
+    correct_answer: "John F. Kennedy"
+    explanation: "Kennedy volt az USA elnöke 1961-1963 között, és ő vezette az országot a kubai rakétaválság idején."
+    difficulty: medium
+    tags:
+      - személy
+      - Kennedy
+      - kubai_raketavalsag
+
+  - id: 9
+    type: singlechoice
+    question: "Ki volt a Szovjetunió vezetője Sztálin halála után?"
+    question_image: ""
+    options:
+      - "Leonyid Brezsnyev"
+      - "Nyikita Hruscsov"
+      - "Mihail Gorbacsov"
+      - "Vlagyimir Lenin"
+    correct_answer: "Nyikita Hruscsov"
+    explanation: "Hruscsov lett a Szovjetunió Kommunista Pártjának első titkára Sztálin 1953-as halála után."
+    difficulty: medium
+    tags:
+      - személy
+      - Hruscsov
+      - Szovjetunio
+
+  - id: 10
+    type: singlechoice
+    question: "Melyik esemény volt a hidegháború első nagy válsága?"
+    question_image: ""
+    options:
+      - "A berlini blokád (1948-1949)"
+      - "A koreai háború (1950-1953)"
+      - "A kubai rakétaválság (1962)"
+      - "A vietnami háború (1955-1975)"
+    correct_answer: "A berlini blokád (1948-1949)"
+    explanation: "A berlini blokád volt a hidegháború első nagy válsága, amikor a szovjetek blokád alá vonták Nyugat-Berlint, amit a nyugatiak légi úton oldottak meg."
+    difficulty: hard
+    tags:
+      - esemény
+      - berlini_blokad
+      - hideghaboru
+
+  - id: 11
+    type: singlechoice
+    question: "Mit jelent a 'Truman-elv'?"
+    question_image: ""
+    options:
+      - "Segélyeket nyújt a kommunizmus terjedésének megállítására"
+      - "Nukleáris fegyverek bevetését engedélyezi"
+      - "A vasfüggöny felállítását javasolja"
+      - "A NATO létrehozását szorgalmazza"
+    correct_answer: "Segélyeket nyújt a kommunizmus terjedésének megállítására"
+    explanation: "A Truman-elv (1947) szerint az USA segélyeket (elsősorban gazdasági és katonai támogatást) nyújtott azon országoknak, amelyek a kommunizmus terjedésével szemben álltak."
+    difficulty: medium
+    tags:
+      - definicio
+      - Truman_elv
+      - politika
+
+  - id: 12
+    type: singlechoice
+    question: "Melyik évben volt a kubai rakétaválság?"
+    question_image: ""
+    options:
+      - "1956"
+      - "1960"
+      - "1962"
+      - "1968"
+    correct_answer: "1962"
+    explanation: "A kubai rakétaválság 1962 októberében történt, amikor a szovjetek rakétákat telepítettek Kubában, közel kerülve a nukleáris háborúhoz."
+    difficulty: easy
+    tags:
+      - datum
+      - kubai_raketavalsag
+      - esemény
+
+  - id: 13
+    type: multichoice
+    question: "Mely országok voltak a hidegháború főszereplői? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "USA"
+      - "Szovjetunió"
+      - "Nagy-Britannia"
+      - "Franciaország"
+      - "Kína"
+    correct_answer:
+      - "USA"
+      - "Szovjetunió"
+    explanation: "A hidegháború két főszereplője az Egyesült Államok és a Szovjetunió volt, bár más országok is részt vettek a blokkokban."
+    difficulty: easy
+    tags:
+      - felek
+      - szuperhatalom
+      - multichoice
+
+  - id: 14
+    type: multichoice
+    question: "Mely szervezeteket hozták létre a hidegháború idején? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "NATO"
+      - "ENSZ"
+      - "Varsói Szerződés"
+      - "Európai Unió"
+      - "Vöröskereszt"
+    correct_answer:
+      - "NATO"
+      - "ENSZ"
+      - "Varsói Szerződés"
+    explanation: "A hidegháború idején hozták létre a NATO-t (1949), a Varsói Szerződést (1955), és az ENSZ már 1945-ben megalakult, de aktívan működött a hidegháború idején is."
+    difficulty: medium
+    tags:
+      - szervezet
+      - multichoice
+      - datum
+
+  - id: 15
+    type: word
+    question: "Egészítsd ki! A hidegháború két fő __________ a kapitalista Nyugat és a kommunista Kelet volt."
+    question_image: ""
+    correct_answer: "szuperhatalma"
+    explanation: "A hidegháború két fő szuperhatalma a kapitalista Nyugat (USA) és a kommunista Kelet (Szovjetunió) volt."
+    difficulty: easy
+    tags:
+      - definicio
+      - kiegészites
+      - szuperhatalom
+
+  - id: 16
+    type: word
+    question: "Mi volt a berlini fal jelképe?"
+    question_image: ""
+    correct_answer: "a megosztottság"
+    explanation: "A berlini fal a hidegháború és Európa megosztottságának egyik legszembetűnőbb jelképe volt."
+    difficulty: easy
+    tags:
+      - definicio
+      - berlini_fal
+      - jelkep
+
+  - id: 17
+    type: ordering
+    question: "Rendezd időrendbe a következő eseményeket!"
+    question_image: ""
+    options:
+      - "II. világháború vége"
+      - "Truman-elv meghirdetése"
+      - "Berlini fal ledöntése"
+      - "Szovjetunió felbomlása"
+    correct_answer_sequence: ["II. világháború vége", "Truman-elv meghirdetése", "Berlini fal ledöntése", "Szovjetunió felbomlása"]
+    explanation: "A helyes sorrend: 1. II. világháború vége (1945), 2. Truman-elv (1947), 3. Berlini fal ledöntése (1989), 4. Szovjetunió felbomlása (1991)"
+    difficulty: hard
+    tags:
+      - datum
+      - rendezes
+      - idorend
+
+  - id: 18
+    type: singlechoice
+    question: "Melyik esemény volt a hidegháború technológiai vetélkedésének csúcspontja?"
+    question_image: ""
+    options:
+      - "A szputnyik fellövése (1957)"
+      - "Az Apollo–11 holdra szállása (1969)"
+      - "A csernobili atomkatasztrófa (1986)"
+      - "A berlini blokád (1948-1949)"
+    correct_answer: "Az Apollo–11 holdra szállása (1969)"
+    explanation: "Az Apollo–11 holdra szállása 1969-ben volt a hidegháború technológiai vetélkedésének csúcspontja, amikor az USA először juttatott embert a Holdra."
+    difficulty: medium
+    tags:
+      - technologia
+      - verseny
+      - datum
+
+  - id: 19
+    type: singlechoice
+    question: "Mi volt a 'glasznoszty' és 'peresztrojka' célja a Szovjetunióban?"
+    question_image: ""
+    options:
+      - "A kommunizmus megerősítése"
+      - "Gazdasági és politikai reformok bevezetése"
+      - "A hidegháború kirobbantása"
+      - "A NATO elleni támadás"
+    correct_answer: "Gazdasági és politikai reformok bevezetése"
+    explanation: "Gorbacsov által bevezetett glasznoszty (nyíltság) és peresztrojka (átalakítás) célja a szovjet rendszer reformja és a gazdasági problémák megoldása volt."
+    difficulty: hard
+    tags:
+      - definicio
+      - reform
+      - Gorbacsov
+
+  - id: 20
+    type: singlechoice
+    question: "Melyik évben bomlott fel a Szovjetunió?"
+    question_image: ""
+    options:
+      - "1989"
+      - "1990"
+      - "1991"
+      - "1992"
+    correct_answer: "1991"
+    explanation: "A Szovjetunió hivatalosan 1991 decemberében bomlott fel, amikor 15 független állam alakult belőle."
+    difficulty: easy
+    tags:
+      - datum
+      - felbomlas
+      - Szovjetunio
+
+  - id: 21
+    type: singlechoice
+    question: "Mit jelent a 'kukorica' kifejezés a hidegháború kontextusában?"
+    question_image: ""
+    options:
+      - "Egy gabonaféle"
+      - "A kubai rakétaválság kódneve"
+      - "A berlini fal egyik szakasza"
+      - "A NATO egyik hadművelete"
+    correct_answer: "A kubai rakétaválság kódneve"
+    explanation: "A kubai rakétaválság kódneve 'Operation Anadyr' volt, de gyakran 'kukorica' néven is emlegették a szovjet rakéták kubai telepítésére vonatkozóan."
+    difficulty: hard
+    tags:
+      - kodnev
+      - kubai_raketavalsag
+      - kulcsfogalom
+
+  - id: 22
+    type: multichoice
+    question: "Melyik országok voltak a NATO alapító tagjai? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "USA"
+      - "Kanada"
+      - "Nagy-Britannia"
+      - "Franciaország"
+      - "Szovjetunió"
+    correct_answer:
+      - "USA"
+      - "Kanada"
+      - "Nagy-Britannia"
+      - "Franciaország"
+    explanation: "A NATO-t 1949-ben 12 ország alapította, köztük az USA, Kanada, Nagy-Britannia, Franciaország, Belgium, Hollandia, Luxemburg, Dánia, Izland, Olaszország, Norvégia és Portugália."
+    difficulty: hard
+    tags:
+      - NATO
+      - szervezet
+      - multichoice
+
+  - id: 23
+    type: word
+    question: "Mi volt a Varsói Szerződés katonai célja?"
+    question_image: ""
+    correct_answer: "a szovjet tömb védelme"
+    explanation: "A Varsói Szerződés célja a szovjet tömb országainak katonai védelme és a NATO-val szembeni egyensúly megtartása volt."
+    difficulty: medium
+    tags:
+      - definicio
+      - Varsói_Szerződés
+      - cel
+
+  - id: 24
+    type: ordering
+    question: "Rendezd időrendbe a hidegháború alábbi eseményeit!"
+    question_image: ""
+    options:
+      - "Kubai rakétaválság"
+      - "Berlini fal építése"
+      - "Marshall-segély bevezetése"
+      - "Szovjetunió felbomlása"
+    correct_answer_sequence: ["Marshall-segély bevezetése", "Berlini fal építése", "Kubai rakétaválság", "Szovjetunió felbomlása"]
+    explanation: "A helyes sorrend: 1. Marshall-segély (1948), 2. Berlini fal építése (1961), 3. Kubai rakétaválság (1962), 4. Szovjetunió felbomlása (1991)"
+    difficulty: hard
+    tags:
+      - datum
+      - rendezes
+      - idorend
+
+  - id: 25
+    type: singlechoice
+    question: "Melyik amerikai elnök mondta a híres 'Ich bin ein Berliner' beszédet?"
+    question_image: ""
+    options:
+      - "Dwight D. Eisenhower"
+      - "John F. Kennedy"
+      - "Lyndon B. Johnson"
+      - "Richard Nixon"
+    correct_answer: "John F. Kennedy"
+    explanation: "Kennedy 1963. június 26-án mondta a híres 'Ich bin ein Berliner' beszédét Nyugat-Berlinben, kifejezve az USA támogatását a városért."
+    difficulty: medium
+    tags:
+      - személy
+      - Kennedy
+      - beszéd
+
+  - id: 26
+    type: singlechoice
+    question: "Mi volt a 'deterrence' (megtorlás) elve a hidegháborúban?"
+    question_image: ""
+    options:
+      - "A kommunizmus terjedésének támogatása"
+      - "A nukleáris fegyverek bevetésének fenyegetése a támadás megelőzése érdekében"
+      - "A gazdasági segítségnyújtás a fejlődő országoknak"
+      - "A diplomáciai tárgyalások elősegítése"
+    correct_answer: "A nukleáris fegyverek bevetésének fenyegetése a támadás megelőzése érdekében"
+    explanation: "A deterrence elve szerint a nukleáris fegyverek bevetésével való fenyegetés megakadályozta a nyílt katonai konfliktust a két szuperhatalom között."
+    difficulty: hard
+    tags:
+      - definicio
+      - politika
+      - fegyverkezési_verseny
+
+  - id: 27
+    type: singlechoice
+    question: "Melyik évben kezdődött a koreai háború?"
+    question_image: ""
+    options:
+      - "1949"
+      - "1950"
+      - "1953"
+      - "1956"
+    correct_answer: "1950"
+    explanation: "A koreai háború 1950. június 25-én kezdődött, amikor Észak-Korea megtámadta Dél-Koreát."
+    difficulty: easy
+    tags:
+      - datum
+      - koreai_haboru
+      - esemény
+
+  - id: 28
+    type: multichoice
+    question: "Melyik eseményeket tekintjük a hidegháború 'forró pont'-jainak? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "Koreai háború"
+      - "Vietnami háború"
+      - "Kubai rakétaválság"
+      - "Berlini blokád"
+      - "Szovjetunió felbomlása"
+    correct_answer:
+      - "Koreai háború"
+      - "Vietnami háború"
+      - "Kubai rakétaválság"
+      - "Berlini blokád"
+    explanation: "A hidegháború 'forró pontjai' azok az események voltak, ahol közvetlen katonai konfliktusok alakultak ki vagy közvetlenül fenyegettek nukleáris háborúval."
+    difficulty: hard
+    tags:
+      - esemény
+      - forró_pont
+      - multichoice
+
+  - id: 29
+    type: word
+    question: "Mi volt a 'Sputnyik-1' jelentősége a hidegháborúban?"
+    question_image: ""
+    correct_answer: "az első műhold"
+    explanation: "A Szputnyik-1 volt az első műhold, amelyet 1957-ben bocsátott fel a Szovjetunió, megkezdve az űrversenyt."
+    difficulty: medium
+    tags:
+      - technologia
+      - verseny
+      - kulcsfogalom
+
+  - id: 30
+    type: singlechoice
+    question: "Melyik évben volt a berlini blokád és légihíd?"
+    question_image: ""
+    options:
+      - "1945-1946"
+      - "1948-1949"
+      - "1956-1957"
+      - "1961-1962"
+    correct_answer: "1948-1949"
+    explanation: "A berlini blokád 1948. június 24-től 1949. május 12-ig tartott, amikor a szovjetek blokád alá vonták Nyugat-Berlint."
+    difficulty: easy
+    tags:
+      - datum
+      - berlini_blokad
+      - esemény
+
+  - id: 31
+    type: singlechoice
+    question: "Mi volt a 'Marshall-segély' fő célja?"
+    question_image: ""
+    options:
+      - "A kommunizmus terjedésének támogatása"
+      - "Európai országok újjáépítése és stabilizálása a kommunizmus elleni védelem érdekében"
+      - "A NATO létrehozása"
+      - "A berlini fal építése"
+    correct_answer: "Európai országok újjáépítése és stabilizálása a kommunizmus elleni védelem érdekében"
+    explanation: "A Marshall-segély (1948) célja az európai országok gazdasági újjáépítése volt, hogy megakadályozzák a kommunizmus terjedését."
+    difficulty: medium
+    tags:
+      - definicio
+      - segely
+      - Marshall
+
+  - id: 32
+    type: singlechoice
+    question: "Melyik ország volt a NATO és a Varsói Szerződés közötti 'semleges zóna' egyik példája?"
+    question_image: ""
+    options:
+      - "Ausztria"
+      - "Svájc"
+      - "Jugoszlávia"
+      - "Svédország"
+    correct_answer: "Ausztria"
+    explanation: "Ausztria 1955-ös államszerződése után semleges maradt, és nem csatlakozott sem a NATO-hoz, sem a Varsói Szerződéshez."
+    difficulty: hard
+    tags:
+      - semlegesseg
+      - szervezet
+      - Ausztria
+
+  - id: 33
+    type: word
+    question: "Mi volt a 'Brezsnyev-elv'?"
+    question_image: ""
+    correct_answer: "a szocialista országok egységének védelme"
+    explanation: "A Brezsnyev-elv szerint a Szovjetunió jogot formált arra, hogy beavatkozzon a szocialista országok belügyeibe, ha azok rendszere veszélybe került."
+    difficulty: hard
+    tags:
+      - definicio
+      - Brezsnyev
+      - politika
+
+  - id: 34
+    type: ordering
+    question: "Rendezd időrendbe a hidegháború alábbi eseményeit!"
+    question_image: ""
+    options:
+      - "II. világháború vége"
+      - "NATO alapítása"
+      - "Varsói Szerződés létrehozása"
+      - "Szovjetunió felbomlása"
+    correct_answer_sequence: ["II. világháború vége", "NATO alapítása", "Varsói Szerződés létrehozása", "Szovjetunió felbomlása"]
+    explanation: "A helyes sorrend: 1. II. világháború vége (1945), 2. NATO alapítása (1949), 3. Varsói Szerződés (1955), 4. Szovjetunió felbomlása (1991)"
+    difficulty: hard
+    tags:
+      - datum
+      - rendezes
+      - idorend
+
+  - id: 35
+    type: singlechoice
+    question: "Melyik amerikai elnök vezette az országot a vietnami háború idején?"
+    question_image: ""
+    options:
+      - "John F. Kennedy"
+      - "Lyndon B. Johnson"
+      - "Richard Nixon"
+      - "Gerald Ford"
+    correct_answer: "Lyndon B. Johnson"
+    explanation: "Johnson elnöksége alatt (1963-1969) eszkalálódott a vietnami háború, bár Kennedy is kezdeményezte az amerikai beavatkozást."
+    difficulty: medium
+    tags:
+      - személy
+      - Johnson
+      - vietnami_haboru
+
+  - id: 36
+    type: multichoice
+    question: "Melyik események voltak a hidegháború 'forradalmai'? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "Bársonyos forradalom Csehszlovákiában (1989)"
+      - "Román forradalom (1989)"
+      - "Lengyelországi események (1980-as évek)"
+      - "Berlini fal építése (1961)"
+      - "Kubai rakétaválság (1962)"
+    correct_answer:
+      - "Bársonyos forradalom Csehszlovákiában (1989)"
+      - "Román forradalom (1989)"
+      - "Lengyelországi események (1980-as évek)"
+    explanation: "A hidegháború 'forradalmai' azok az események voltak, amelyek a kommunista rendszerek összeomlásához vezettek Kelet-Európában az 1980-as évek végén."
+    difficulty: hard
+    tags:
+      - forradalom
+      - esemény
+      - multichoice
+
+  - id: 37
+    type: word
+    question: "Mi volt a 'detente' kifejezés jelentése a hidegháborúban?"
+    question_image: ""
+    correct_answer: "a feszültség enyhítése"
+    explanation: "A detente a hidegháborúban a két szuperhatalom közötti feszültség enyhítését jelentette, főleg a 1970-es években."
+    difficulty: medium
+    tags:
+      - definicio
+      - politika
+      - kulcsfogalom
+
+  - id: 38
+    type: singlechoice
+    question: "Melyik évben volt a prágai tavasz?"
+    question_image: ""
+    options:
+      - "1956"
+      - "1968"
+      - "1973"
+      - "1981"
+    correct_answer: "1968"
+    explanation: "A prágai tavasz 1968-ban volt Csehszlovákiában, amikor Alexander Dubček reformokat próbált bevezetni, amit a szovjetek levertek."
+    difficulty: medium
+    tags:
+      - datum
+      - prágai_tavasz
+      - esemény
+
+  - id: 39
+    type: singlechoice
+    question: "Mi volt a 'csekély nukleáris háború' ('limited nuclear war') koncepciója?"
+    question_image: ""
+    options:
+      - "A teljes nukleáris háború elkerülése érdekében korlátozott nukleáris fegyverhasználat"
+      - "A kommunizmus terjedésének támogatása nukleáris eszközökkel"
+      - "A NATO és Varsói Szerződés közötti fegyverzetkorlátozási egyezmény"
+      - "A hidegháború befejezését célzó diplomáciai kezdeményezés"
+    correct_answer: "A teljes nukleáris háború elkerülése érdekében korlátozott nukleáris fegyverhasználat"
+    explanation: "A 'limited nuclear war' koncepciója szerint a nukleáris fegyvereket csak korlátozottan, nevezetesen nem teljes mértékben használták volna be, hogy elkerüljék a teljes megsemmisülést."
+    difficulty: hard
+    tags:
+      - definicio
+      - fegyverkezési_verseny
+      - koncepcio
+
+  - id: 40
+    type: singlechoice
+    question: "Melyik ország volt az első, amelyik nukleáris fegyvert fejlesztett a Szovjetunió után?"
+    question_image: ""
+    options:
+      - "Nagy-Britannia"
+      - "Franciaország"
+      - "Kína"
+      - "Izrael"
+    correct_answer: "Nagy-Britannia"
+    explanation: "Nagy-Britannia volt a harmadik ország, amelyik 1952-ben sikeres atombomba-kísérletet hajtott végre, a Szovjetunió (1949) és az USA (1945) után."
+    difficulty: hard
+    tags:
+      - technologia
+      - fegyver
+      - datum
+
+  - id: 41
+    type: multichoice
+    question: "Melyik események voltak a hidegháború 'békés koegisztenciá'-jához kapcsolódóak? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "1972-es SALT I szerződés (fegyverzetkorlátozás)"
+      - "1975-ös Helsinki értekezlet"
+      - "1987-es INF-szerződés (középhatótávolságú rakéták)"
+      - "1961-es berlini fal építése"
+      - "1962-es kubai rakétaválság"
+    correct_answer:
+      - "1972-es SALT I szerződés (fegyverzetkorlátozás)"
+      - "1975-ös Helsinki értekezlet"
+      - "1987-es INF-szerződés (középhatótávolságú rakéták)"
+    explanation: "A 'békés koegisztencia' időszakában (főleg a 1970-es években) a két szuperhatalom fegyverzetkorlátozási egyezményeket kötött és diplomáciai kapcsolatait erősítette."
+    difficulty: hard
+    tags:
+      - egyezmeny
+      - diplomacia
+      - multichoice
+
+  - id: 42
+    type: word
+    question: "Mi volt a 'Helsinki értekezlet' fő eredménye 1975-ben?"
+    question_image: ""
+    correct_answer: "az emberi jogok védelme"
+    explanation: "A 1975-ös Helsinki értekezleten 35 ország (köztük a hidegháború két főszereplője) elfogadta a Helsinki Záróokmányt, amely az emberi jogok védelmét szorgalmazta."
+    difficulty: hard
+    tags:
+      - egyezmeny
+      - emberi_jogok
+      - Helsinki
+
+  - id: 43
+    type: ordering
+    question: "Rendezd időrendbe a hidegháború alábbi eseményeit!"
+    question_image: ""
+    options:
+      - "Sputnyik-1 fellövése"
+      - "Jurij Gagarin első űrrepülése"
+      - "Apollo–11 holdra szállása"
+      - "Szovjetunió felbomlása"
+    correct_answer_sequence: ["Sputnyik-1 fellövése", "Jurij Gagarin első űrrepülése", "Apollo–11 holdra szállása", "Szovjetunió felbomlása"]
+    explanation: "A helyes sorrend: 1. Sputnyik-1 (1957), 2. Jurij Gagarin (1961), 3. Apollo–11 (1969), 4. Szovjetunió felbomlása (1991)"
+    difficulty: hard
+    tags:
+      - technologia
+      - verseny
+      - idorend
+
+  - id: 44
+    type: singlechoice
+    question: "Melyik ország volt a NATO legfontosabb európai tagja a hidegháború idején?"
+    question_image: ""
+    options:
+      - "Franciaország"
+      - "Nagy-Britannia"
+      - "NSZK (Nyugat-Németország)"
+      - "Olaszország"
+    correct_answer: "Nagy-Britannia"
+    explanation: "Nagy-Britannia volt a NATO legfontosabb európai tagja, amely aktívan részt vett a katonai műveletekben és a stratégiai tervezésben."
+    difficulty: medium
+    tags:
+      - NATO
+      - szervezet
+      - Nagy_Britannia
+
+  - id: 45
+    type: singlechoice
+    question: "Mi volt a 'Pineapple Express' művelet célja a vietnami háború idején?"
+    question_image: ""
+    options:
+      - "A kommunista Észak-Vietnam elleni légitámadások"
+      - "A dél-vietnami erők kiképzése"
+      - "A Ho Si Minh-ösvény megsemmisítése"
+      - "A amerikai katonák evakuálása"
+    correct_answer: "A Ho Si Minh-ösvény megsemmisítése"
+    explanation: "A Pineapple Express művelet célja a Ho Si Minh-ösvény (a kommunista erők utánpótlási útvonala) megsemmisítése volt Dél-Vietnamban."
+    difficulty: hard
+    tags:
+      - muvelet
+      - vietnami_haboru
+      - kulcsfogalom
+
+  - id: 46
+    type: multichoice
+    question: "Melyik események voltak a hidegháború 'békülési kísérletei'? (Válassz többet!)"
+    question_image: ""
+    options:
+      - "1972-es Nixon látogatás Kínában"
+      - "1972-es SALT I szerződés"
+      - "1989-es maltai csúcstalálkozó (Bush és Gorbacsov)"
+      - "1961-es berlini fal építése"
+      - "1962-es kubai rakétaválság"
+    correct_answer:
+      - "1972-es Nixon látogatás Kínában"
+      - "1972-es SALT I szerződés"
+      - "1989-es maltai csúcstalálkozó (Bush és Gorbacsov)"
+    explanation: "A hidegháború során több békülési kísérlet is történt, például Nixon kínai látogatása, a SALT I fegyverzetkorlátozási egyezmény, és a maltai csúcstalálkozó 1989-ben."
+    difficulty: hard
+    tags:
+      - diplomacia
+      - egyezmeny
+      - multichoice
+
+  - id: 47
+    type: word
+    question: "Mi volt a 'peresztrojka' célja Gorbacsov idején?"
+    question_image: ""
+    correct_answer: "a gazdasági és politikai rendszer átalakítása"
+    explanation: "A peresztrojka (átalakítás) célja a szovjet gazdasági és politikai rendszer reformja volt, hogy a rendszert hatékonyabbá tegye."
+    difficulty: medium
+    tags:
+      - definicio
+      - reform
+      - Gorbacsov
+
+  - id: 48
+    type: singlechoice
+    question: "Melyik évben volt a 'fekete szemptember' eseménye Jordániában?"
+    question_image: ""
+    options:
+      - "1967"
+      - "1970"
+      - "1973"
+      - "1981"
+    correct_answer: "1970"
+    explanation: "A 'fekete szemptember' eseménye 1970 szeptemberében volt Jordániában, amikor a jordán kormány leverte a palesztin gerillák lázadását."
+    difficulty: hard
+    tags:
+      - datum
+      - esemény
+      - Közel_Kelet
+
+  - id: 49
+    type: singlechoice
+    question: "Mi volt a 'Salt I' szerződés fő célja?"
+    question_image: ""
+    options:
+      - "A nukleáris fegyverek korlátozása"
+      - "A gazdasági együttműködés elősegítése"
+      - "A berlini fal lebontása"
+      - "A NATO létrehozása"
+    correct_answer: "A nukleáris fegyverek korlátozása"
+    explanation: "A SALT I (Strategic Arms Limitation Talks) szerződés célja a stratégiai nukleáris fegyverek korlátozása volt az USA és a Szovjetunió között."
+    difficulty: medium
+    tags:
+      - egyezmeny
+      - fegyverzetkorlátozas
+      - SALT
+
+  - id: 50
+    type: word
+    question: "Mi volt a hidegháború végét jelző legfontosabb esemény 1989-ben?"
+    question_image: ""
+    correct_answer: "a berlini fal ledöntése"
+    explanation: "A berlini fal ledöntése 1989. november 9-én volt a hidegháború végét jelző legfontosabb esemény, amely a vasfüggöny megszűnéséhez vezetett."
+    difficulty: easy
+    tags:
+      - definicio
+      - esemény
+      - jelkep
+
+# Metaadat a quiz feldolgozásához
+metadata:
+  total_questions: 50
+  question_types_used:
+    - singlechoice: 25
+    - multichoice: 10
+    - word: 10
+    - ordering: 5
+  difficulty_distribution:
+    easy: 15
+    medium: 20
+    hard: 15
+  tags_used:
+    - hideghaboru
+    - definicio
+    - datum
+    - esemény
+    - személy
+    - szervezet
+    - technologia
+    - fegyverkezési_verseny
+    - diplomacia
+    - forradalom
+    - reform
+    - egyezmeny
+    - kiegészites
+    - rendezes
+    - idorend
+    - multichoice
+    - word
+    - ordering
