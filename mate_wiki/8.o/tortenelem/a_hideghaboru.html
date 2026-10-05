@@ -1,237 +1,507 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A hidegháború - 7. osztályos történelem wiki</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-            color: #333;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A hidegháború</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
         }
-        header {
-            background-color: #1a3e72;
-            color: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        h2 {
-            color: #1a3e72;
-            border-bottom: 2px solid #1a3e72;
-            padding-bottom: 10px;
-            margin-top: 30px;
-        }
-        h3 {
-            color: #333;
-            margin-top: 25px;
-        }
-        .quiz-info {
-            background-color: #e8f4f8;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            border-left: 4px solid #1a3e72;
-        }
-        .question-type {
-            display: inline-block;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            font-weight: bold;
-            margin: 5px;
-        }
-        .singlechoice { background-color: #d4edda; color: #155724; }
-        .multichoice { background-color: #fff3cd; color: #856404; }
-        .word { background-color: #f8d7da; color: #721c24; }
-        .ordering { background-color: #d1ecf1; color: #0c5460; }
-        .difficulty {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 15px;
-            font-size: 0.85em;
-            margin: 3px;
-            font-weight: bold;
-        }
-        .easy { background-color: #d4edda; color: #155724; }
-        .medium { background-color: #fff3cd; color: #856404; }
-        .hard { background-color: #f8d7da; color: #721c24; }
-        .source {
-            font-style: italic;
-            color: #666;
-            margin-top: 20px;
-            font-size: 0.9em;
-        }
-        .toc {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .toc h3 {
-            margin-top: 0;
-        }
-        .toc ul {
-            padding-left: 20px;
-        }
-        .toc li {
-            margin: 10px 0;
-        }
-        .highlight {
-            background-color: #fff3cd;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 15px 0;
-            border-left: 4px solid #ffc107;
-        }
-        .image-placeholder {
-            background-color: #ddd;
-            height: 300px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #999;
-            margin: 20px 0;
-            font-style: italic;
-        }
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #666;
-            font-size: 0.9em;
-        }
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #1a3e72;
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-            z-index: 1000;
-        }
-    </style>
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>A hidegháború</h1>
-        <p>7. osztályos történelem kvíz wiki - NAT2020 B tanterv</p>
-    </header>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
 
-    <div class="toc">
-        <h3>Tartalomjegyzék</h3>
-        <ul>
-            <li><a href="#bevezetes">Bevezetés</a></li>
-            <li><a href="#fofogalmak">Főbb fogalmak és definíciók</a></li>
-            <li><a href="#kulcsegyeni">Kiemelt személyek</a></li>
-            <li><a href="#fontosegyuttmukodes">Fontosabb szervezetek</a></li>
-            <li><a href="#kulcsevenetek">Kulcsfontosságú események időrendben</a></li>
-            <li><a href="#ideologia">Ideológiai szembenállás</a></li>
-            <li><a href="#fegyverkezes">Fegyverkezési verseny</a></li>
-            <li><a href="#forradalmak">A hidegháború forradalmai</a></li>
-            <li><a href="#vege">A hidegháború vége</a></li>
-            <li><a href="#kerdesek">Kérdések és válaszok</a></li>
-            <li><a href="#forrasok">Források és további olvasmányok</a></li>
-        </ul>
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A hidegháború</h1>
+
+        <!-- ============================ ORIGINAL ============================ -->
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A lecke adatai</h2>
+            <ul class="def">
+              <li><span class="term">Tárgy:</span> Történelem</li>
+              <li><span class="term">Osztály:</span> 7. osztály</li>
+              <li><span class="term">Tanterv:</span> NAT2020 B változat</li>
+              <li><span class="term">Témakör:</span> A megosztott világ (VII. fejezet)</li>
+              <li><span class="term">Lecke címe:</span> A hidegháború</li>
+              <li><span class="term">Forrás:</span> NKP Okostankönyv – OH-TOR07TB</li>
+              <li><span class="term">Lecke száma:</span> 16.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Főbb fogalmak és definíciók</h2>
+
+            <h3>1. Hidegháború</h3>
+            <ul>
+              <li><strong>Definíció:</strong> A II. világháború után kialakult, nyílt katonai összecsapás nélküli, de fegyverkezési versennyel és ideológiai harccal járó konfliktus.</li>
+              <li><strong>Két fő fél:</strong> Tőkés Nyugat (USA) vs. Kommunista Kelet (Szovjetunió).</li>
+              <li><strong>Időszak:</strong> 1947–1991.</li>
+            </ul>
+
+            <h3>2. Szuperhatalom</h3>
+            <ul>
+              <li><strong>Definíció:</strong> Kiemelkedő katonai, gazdasági és politikai befolyással rendelkező állam.</li>
+              <li><strong>Példák:</strong>
+                <ul>
+                  <li>USA (nyugati blokk)</li>
+                  <li>Szovjetunió (keleti blokk)</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3>3. Vasfüggöny</h3>
+            <ul>
+              <li><strong>Definíció:</strong> Európát és Németországot kettéválasztó fizikai és ideológiai határvonal.</li>
+              <li><strong>Kialakulása:</strong> 1945–1946 körül.</li>
+              <li><strong>Jelentősége:</strong> A hidegháború egyik szimbóluma.</li>
+            </ul>
+
+            <h3>4. Berlini fal</h3>
+            <ul>
+              <li><strong>Építés dátuma:</strong> 1961. augusztus 13.</li>
+              <li><strong>Helyszín:</strong> Kettéosztott Berlin.</li>
+              <li><strong>Jelentősége:</strong> A hidegháború és a megosztottság jelképe.</li>
+              <li><strong>Bontása:</strong> 1989. november 9.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fontos szervezetek</h2>
+
+            <h3>1. NATO (Észak-atlanti Szerződés Szervezete)</h3>
+            <ul>
+              <li><strong>Alapítás éve:</strong> 1949</li>
+              <li><strong>Tagországok:</strong> Nyugat-európai és észak-amerikai országok</li>
+              <li><strong>Célja:</strong> Kollektív védelem biztosítása</li>
+              <li><strong>Székhely:</strong> Brüsszel</li>
+            </ul>
+
+            <h3>2. Varsói Szerződés</h3>
+            <ul>
+              <li><strong>Alapítás éve:</strong> 1955</li>
+              <li><strong>Tagországok:</strong> Szovjetunió és a keleti blokk országai</li>
+              <li><strong>Célja:</strong> A szovjet tömb katonai védelme</li>
+              <li><strong>Székhely:</strong> Varsó</li>
+            </ul>
+
+            <h3>3. ENSZ (Egyesült Nemzetek Szervezete)</h3>
+            <ul>
+              <li><strong>Alapítás éve:</strong> 1945</li>
+              <li><strong>Célja:</strong> A nemzetközi béke és biztonság megőrzése</li>
+              <li><strong>Tagországok száma:</strong> 193 (2024-ben)</li>
+              <li><strong>Székhely:</strong> New York</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kiemelt személyek</h2>
+
+            <h3>1. J. F. Kennedy</h3>
+            <ul>
+              <li><strong>Szerepe:</strong> Az USA elnöke (1961–1963)</li>
+              <li><strong>Fontos esemény:</strong> Kubai rakétaválság (1962)</li>
+              <li><strong>Kijelentése:</strong> „Ich bin ein Berliner” (1963)</li>
+            </ul>
+
+            <h3>2. Nyikita Hruscsov</h3>
+            <ul>
+              <li><strong>Szerepe:</strong> A Szovjetunió Kommunista Pártjának első titkára (1953–1964)</li>
+              <li><strong>Fontos események:</strong>
+                <ul>
+                  <li>Sztálin halála utáni időszak</li>
+                  <li>Kubai rakétaválság</li>
+                  <li>Berlini fal építése</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kulcsfontosságú események</h2>
+
+            <h3>1. A II. világháború vége (1945)</h3>
+            <ul>
+              <li><strong>Következmény:</strong> Európa megosztottsága Kelet és Nyugat között.</li>
+              <li><strong>Hatása:</strong> A hidegháború kezdete.</li>
+            </ul>
+
+            <h3>2. Truman-elv (1947)</h3>
+            <ul>
+              <li><strong>Tartalma:</strong> Az USA segélyeket nyújt a kommunizmus terjedésének megállítására.</li>
+              <li><strong>Célországok:</strong> Görögország, Törökország.</li>
+            </ul>
+
+            <h3>3. Marshall-segély (1948)</h3>
+            <ul>
+              <li><strong>Összeg:</strong> 13 milliárd dollár.</li>
+              <li><strong>Célja:</strong> Európai országok újjáépítése.</li>
+              <li><strong>Feltétele:</strong> Demokratikus reformok.</li>
+            </ul>
+
+            <h3>4. Berlini blokád és légihíd (1948–1949)</h3>
+            <ul>
+              <li><strong>Ok:</strong> A szovjetek blokád alá vonták Nyugat-Berlint.</li>
+              <li><strong>Megoldás:</strong> Nyugat-Berlin ellátása légi úton.</li>
+              <li><strong>Eredmény:</strong> A blokád feloldása, Nyugat-Németország létrejötte.</li>
+            </ul>
+
+            <h3>5. Koreai háború (1950–1953)</h3>
+            <ul>
+              <li><strong>Két oldal:</strong> Észak-Korea (kommunista) vs. Dél-Korea (nyugati támogatással).</li>
+              <li><strong>Végeredmény:</strong> Status quo ante bellum.</li>
+            </ul>
+
+            <h3>6. Kubai rakétaválság (1962)</h3>
+            <ul>
+              <li><strong>Ok:</strong> Szovjet rakéták telepítése Kubában.</li>
+              <li><strong>Veszély:</strong> Közel került a nukleáris háború.</li>
+              <li><strong>Megoldás:</strong> Kennedy és Hruscsov tárgyalásai.</li>
+              <li><strong>Eredmény:</strong> Szovjet rakéták kivonása Kubából, az USA rakétáinak kivonása Törökországból.</li>
+            </ul>
+
+            <h3>7. Vietnami háború (1955–1975)</h3>
+            <ul>
+              <li><strong>Két oldal:</strong> Észak-Vietnam (kommunista) vs. Dél-Vietnam (nyugati támogatással).</li>
+              <li><strong>Végeredmény:</strong> Észak-Vietnam győzelme, az ország egyesítése.</li>
+            </ul>
+
+            <h3>8. Apollo–11 holdra szállás (1969)</h3>
+            <ul>
+              <li><strong>Fontossága:</strong> Az USA technológiai fölénye a világűrben.</li>
+              <li><strong>Hatása:</strong> A hidegháború technológiai vetélkedésének csúcspontja.</li>
+            </ul>
+
+            <h3>9. A Szovjetunió felbomlása (1991)</h3>
+            <ul>
+              <li><strong>Ok:</strong> Gazdasági problémák, politikai reformok (Gorbacsov: glasznoszty, peresztrojka).</li>
+              <li><strong>Végeredmény:</strong> A hidegháború vége.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ideológiai szembenállás</h2>
+            <table class="table table-bordered align-middle mb-0">
+              <thead>
+                <tr>
+                  <th>Szempont</th>
+                  <th>Nyugati blokk (USA vezetésével)</th>
+                  <th>Keleti blokk (Szovjetunió vezetésével)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Gazdasági rendszer</strong></td>
+                  <td>Kapitalizmus</td>
+                  <td>Tervgazdaság</td>
+                </tr>
+                <tr>
+                  <td><strong>Politikai rendszer</strong></td>
+                  <td>Demokratikus államok</td>
+                  <td>Egypártrendszer (a kommunista párt uralma)</td>
+                </tr>
+                <tr>
+                  <td><strong>Életmód</strong></td>
+                  <td>Szabad piac, szólásszabadság</td>
+                  <td>Állami kontroll, cenzúra</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fegyverkezési verseny</h2>
+
+            <h3>1. Nukleáris fegyverek</h3>
+            <ul>
+              <li><strong>Első atombomba:</strong> USA (1945, Hiroshima)</li>
+              <li><strong>Első szovjet atombomba:</strong> 1949</li>
+              <li><strong>Hidrogénbomba:</strong> USA (1952), Szovjetunió (1953)</li>
+            </ul>
+
+            <h3>2. Űrverseny</h3>
+            <ul>
+              <li><strong>Szputnyik-1:</strong> szovjet műhold (1957)</li>
+              <li><strong>Jurij Gagarin:</strong> az első ember a világűrben (1961)</li>
+              <li><strong>Holdra szállás:</strong> USA (1969, Apollo–11)</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A hidegháború vége (1989–1991)</h2>
+
+            <h3>1. 1989: A vasfüggöny megszűnése</h3>
+            <ul>
+              <li><strong>Poznańi események:</strong> Lengyelországban.</li>
+              <li><strong>A berlini fal ledöntése:</strong> 1989. november 9.</li>
+              <li><strong>Csehszlovákia:</strong> Bársonyos forradalom.</li>
+              <li><strong>Románia:</strong> Forradalom és Ceaușescu kivégzése.</li>
+            </ul>
+
+            <h3>2. 1991: A Szovjetunió felbomlása</h3>
+            <ul>
+              <li><strong>Utolsó szovjet vezető:</strong> Mihail Gorbacsov.</li>
+              <li><strong>Ok:</strong> Gazdasági válság, a politikai reformok sikertelensége.</li>
+              <li><strong>Következmény:</strong> 15 független állam létrejötte.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Térképek és vizualizációk</h2>
+            <ul>
+              <li>Európa megosztottsága a hidegháború idején</li>
+              <li>A berlini fal és a határzónák</li>
+              <li>A NATO és a Varsói Szerződés tagországai</li>
+              <li>A kubai rakétaválság térképe</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ellenőrző kérdések</h2>
+
+            <h3>Egyszerű választás</h3>
+            <ol>
+              <li>Mikor kezdődött a hidegháború?
+                <ul>
+                  <li>a) 1939</li>
+                  <li>b) 1945</li>
+                  <li>c) 1947</li>
+                  <li>d) 1950</li>
+                </ul>
+              </li>
+              <li>Mi volt a berlini fal célja?
+                <ul>
+                  <li>a) Megakadályozni a keletnémetek nyugatra menekülését</li>
+                  <li>b) Védeni Nyugat-Berlint a szovjet támadástól</li>
+                  <li>c) Elválasztani a két német államot</li>
+                  <li>d) Mindhárom fentiek</li>
+                </ul>
+              </li>
+            </ol>
+
+            <h3>Többszörös választás</h3>
+            <ol>
+              <li>Mely országok voltak a hidegháború főszereplői?
+                <ul>
+                  <li>a) USA</li>
+                  <li>b) Egyesült Királyság</li>
+                  <li>c) Szovjetunió</li>
+                  <li>d) Franciaország</li>
+                  <li>e) Kína</li>
+                </ul>
+              </li>
+              <li>Mely szervezeteket hozták létre a hidegháború idején?
+                <ul>
+                  <li>a) NATO</li>
+                  <li>b) ENSZ</li>
+                  <li>c) Varsói Szerződés</li>
+                  <li>d) Európai Unió</li>
+                </ul>
+              </li>
+            </ol>
+
+            <h3>Igaz/Hamis</h3>
+            <ol>
+              <li>A hidegháború nyílt katonai összecsapás volt a két szuperhatalom között.</li>
+              <li>A berlini fal 1989-ben épült.</li>
+              <li>A NATO-t 1949-ben alapították.</li>
+              <li>A kubai rakétaválság 1962-ben történt.</li>
+            </ol>
+
+            <h3>Párosítás</h3>
+            <ol>
+              <li>Vasfüggöny – Európát kettéválasztó határvonal</li>
+              <li>Truman-elv – Segélyek a kommunizmus megállítására</li>
+              <li>Marshall-segély – Európai újjáépítés</li>
+              <li>ENSZ – Nemzetközi békefenntartás</li>
+            </ol>
+
+            <h3>Szókiegészítés</h3>
+            <ol>
+              <li>A __________ blokád (1948–1949) idején Nyugat-Berlint légi úton látták el.</li>
+              <li>A hidegháború két fő __________ az USA és a Szovjetunió volt.</li>
+              <li>A berlini fal ledöntésének dátuma: __________.</li>
+              <li>A NATO székhelye __________-ban található.</li>
+            </ol>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Források és további olvasmányok</h2>
+            <ul>
+              <li>NKP Okostankönyv: <a href="https://www.nkp.hu/tankonyv/tortenelem_7_nat2020_b/lecke_07_016" target="_blank" rel="noopener">A hidegháború</a></li>
+              <li>Tankönyv: Történelem 7. osztály, OH-TOR07TB, NAT2020 B változat</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <!-- ============================ EXTENDED ============================ -->
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>A II. világháború után a győztes nagyhatalmak barátsága gyorsan megromlott. Két szuperhatalom – az Egyesült Államok és a Szovjetunió – állt egymással szemben, és a világ két táborra szakadt. Fegyvert nem nagyon használtak egymás ellen, ezért hívták ezt „hideg” háborúnak: a küzdelem a fegyverkezésben, a kémszervezetekben és a politikában folyt.</p>
+            <p class="mb-0">Kiindulópont: <a href="https://hu.wikipedia.org/wiki/Hidegh%C3%A1bor%C3%BAt" target="_blank" rel="noopener">Hidegháború (Wikipédia)</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Iron%20Curtain%20map.svg?width=800" class="figure-img img-fluid rounded" alt="A vasfüggöny térképe">
+              <figcaption class="figure-caption">A vasfüggöny térképe: Európa kettéosztva. <a href="https://commons.wikimedia.org/wiki/File:Iron_Curtain_map.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az „Iron Curtain” (vasfüggöny) kifejezést Winston Churchill brit miniszterelnök tette híressé 1946-os fultoni beszédében.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Két világ, két rendszer</h2>
+            <p>Ne csak a térképet figyeld: a két oldalon egészen másfajta hétköznapok voltak!</p>
+            <table class="table table-bordered align-middle">
+              <thead>
+                <tr>
+                  <th>Szempont</th>
+                  <th>Nyugat (USA)</th>
+                  <th>Kelet (Szovjetunió)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>Gazdaság</strong></td><td>Szabad piac, magánvállalkozások</td><td>Tervgazdaság, állami tulajdon</td></tr>
+                <tr><td><strong>Politika</strong></td><td>Többpártrendszer, választások</td><td>Egypártrendszer, cenzúra</td></tr>
+                <tr><td><strong>Mindennapok</strong></td><td>Utazás, szabad sajtó</td><td>Korlátozások, állami ellenőrzés</td></tr>
+              </tbody>
+            </table>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A két nagy szövetség neve <strong>NATO</strong> (1949, nyugat) és <strong>Varsói Szerződés</strong> (1955, kelet) volt – a Varsói Szerződés egészen az 1991-es felbomlásig létezett.</div>
+            <figure class="figure wiki-figure text-center w-100 mt-3">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cold%20War%20Map%201959.png?width=800" class="figure-img img-fluid rounded" alt="A világ a hidegháború idején, 1959-ben">
+              <figcaption class="figure-caption">A világ 1959-ben: kékkel a nyugati, pirossal a keleti szövetség. <a href="https://commons.wikimedia.org/wiki/File:Cold_War_Map_1959.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A két szövetség jelképei</h2>
+            <p>A katonai szövetségek lobogói és emblémái máig jól felismerhető jelképek. <a href="https://hu.wikipedia.org/wiki/NATO" target="_blank" rel="noopener">NATO</a> · <a href="https://hu.wikipedia.org/wiki/Vars%C3%B3i_Szerz%C5%91d%C3%A9s" target="_blank" rel="noopener">Varsói Szerződés</a></p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20NATO.svg?width=800" class="figure-img img-fluid rounded" alt="A NATO zászlaja">
+                  <figcaption class="figure-caption">A NATO zászlaja. <a href="https://commons.wikimedia.org/wiki/File:Flag_of_NATO.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Warsaw%20Pact%20Logo.svg?width=800" class="figure-img img-fluid rounded" alt="A Varsói Szerződés emblémája">
+                  <figcaption class="figure-caption">A Varsói Szerződés emblémája. <a href="https://commons.wikimedia.org/wiki/File:Warsaw_Pact_Logo.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A megosztottság jelképe: a berlini fal</h2>
+            <p>1961-ben Berlin közepén fal épült, hogy senki ne szökhessen át nyugatra. A fal 1989. november 9-én dőlt le, és ezzel jelképesen véget ért a megosztottság. <a href="https://hu.wikipedia.org/wiki/Berlini_fal" target="_blank" rel="noopener">Berlini fal (Wikipédia)</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Berlinermauer.jpg?width=800" class="figure-img img-fluid rounded" alt="A berlini fal">
+              <figcaption class="figure-caption">A berlini fal egy betonos szakasza. <a href="https://commons.wikimedia.org/wiki/File:Berlinermauer.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A fal hossza kb. 155 km volt, és a rajta átkelni próbálók közül legalább 140 ember vesztette életét.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A két szuperhatalom vezetői</h2>
+            <p>Kennedy és Hruscsov 1961-ben Bécsben találkoztak, 1962-ben pedig együtt kerülték el a nukleáris háborút. <a href="https://hu.wikipedia.org/wiki/John_F._Kennedy" target="_blank" rel="noopener">Kennedy</a> · <a href="https://hu.wikipedia.org/wiki/Nyikita_Hruscsov" target="_blank" rel="noopener">Hruscsov</a></p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/John%20F.%20Kennedy%2C%20White%20House%20color%20photo%20portrait.jpg?width=800" class="figure-img img-fluid rounded" alt="John F. Kennedy">
+                  <figcaption class="figure-caption">John F. Kennedy, az USA elnöke. <a href="https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nikita%20Khrushchev%201962.jpg?width=800" class="figure-img img-fluid rounded" alt="Nyikita Hruscsov">
+                  <figcaption class="figure-caption">Nyikita Hruscsov, a Szovjetunió vezetője. <a href="https://commons.wikimedia.org/wiki/File:Nikita_Khrushchev_1962.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Kennedy 1963-ban Berlinben ezt mondta: „Ich bin ein Berliner” – vagyis „berlininek érzem magam”.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az űrverseny: Szputnyiktól a Holdig</h2>
+            <p>A hidegháború egyik leglátványosabb csatája az űrben zajlott. 1957-ben a szovjet Szputnyik-1 volt az első műhold, 1961-ben Jurij Gagarin az első ember az űrben, 1969-ben pedig az amerikai Apollo–11 juttatta Holdra az első embereket. <a href="https://hu.wikipedia.org/wiki/%C5%B0rverseny" target="_blank" rel="noopener">Űrverseny (Wikipédia)</a></p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sputnik%20asm.jpg?width=800" class="figure-img img-fluid rounded" alt="A Szputnyik-1 műhold">
+                  <figcaption class="figure-caption">A Szputnyik-1 – az első műhold (1957). <a href="https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aldrin%20Apollo%2011.jpg?width=800" class="figure-img img-fluid rounded" alt="Buzz Aldrin a Holdon">
+                  <figcaption class="figure-caption">Buzz Aldrin a Holdon (Apollo–11, 1969). <a href="https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A Szputnyik kicsi volt (mindössze 58 cm átmérőjű), mégis az egész világot meglepte – az USA azonnal felgyorsította a saját űrprogramját.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>1989–1991: a hidegháború vége</h2>
+            <p>1989-ben sorra dőltek le a keleti blokk rendszerei, 1991-ben pedig maga a Szovjetunió is felbomlott 15 független államra. Ezzel ért véget a 44 évig tartó szembenállás. <a href="https://hu.wikipedia.org/wiki/Vasf%C3%BCgg%C3%B6ny" target="_blank" rel="noopener">Vasfüggöny (Wikipédia)</a></p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A hidegháború csúcspontján a két szuperhatalom együtt több tízezer nukleáris robbanófejjel rendelkezett – elég volt ahhoz, hogy többször is elpusztítsa a világot.</div>
+          </div></div>
+
+        </div>
+
+      </div>
     </div>
+  </div>
 
-    <section id="bevezetes">
-        <h2>Bevezetés</h2>
-        <p>A hidegháború a II. világháború után kialakult, nyílt katonai összecsapás nélküli, de intenzív fegyverkezési versennyel és ideológiai harccal járó konfliktus volt a tőkés Nyugat (vezető hatalma: Egyesült Államok) és a kommunista Kelet (vezető hatalma: Szovjetunió) között.</p>
-        
-        <div class="highlight">
-            <strong>Időszak:</strong> 1947-1991
-            <br><strong>Fő jellemzők:</strong> Fegyverkezési verseny, kémkedés, propagandaháború, helyi háborúk ( Koreai háború, Vietnami háború), űrverseny
-        </div>
-        
-        <p>Ez a wiki a NAT2020 B tanterv szerinti 7. osztályos történelem anyagot foglalja össze, és 50 kérdéses kvíz formájában teszi számon a tananyagot.</p>
-    </section>
-
-    <section id="fofogalmak">
-        <h2>Főbb fogalmak és definíciók</h2>
-        
-        <h3>1. Hidegháború</h3>
-        <p><strong>Definíció:</strong> A II. világháború után kialakult, nyílt katonai összecsapás nélküli, de fegyverkezési versennyel és ideológiai harccal járó konfliktus a tőkés Nyugat (USA) és a kommunista Kelet (Szovjetunió) között.</p>
-        <p><strong>Jellemzői:</strong></p>
-        <ul>
-            <li>Nukleáris fegyverek fejlesztése</li>
-            <li>Kémkedés és hírszerzés (CIA vs KGB)</li>
-            <li>Propaganda és dezinformáció</li>
-            <li>Gazdasági verseny (Marshall-segély vs KGST)</li>
-            <li>Kulturális és sportversenyek (olimpia, űrverseny)</li>
-        </ul>
-
-        <h3>2. Szuperhatalom</h3>
-        <p><strong>Definíció:</strong> Kiemelkedő katonai, gazdasági és politikai befolyással rendelkező állam.</p>
-        <p><strong>Példák a hidegháborúból:</strong></p>
-        <ul>
-            <li><strong>USA:</strong> Kapitalista gazdaság, demokrácia, szabad piac</li>
-            <li><strong>Szovjetunió:</strong> Tervgazdaság, egypártrendszer, kommunista ideológia</li>
-        </ul>
-
-        <h3>3. Vasfüggöny</h3>
-        <p><strong>Definíció:</strong> Európát és Németországot kettéválasztó fizikai és ideológiai határvonal, amelyet Winston Churchill brit miniszterelnök nevezett el 1946-ban.</p>
-        <p><strong>Példák:</strong></p>
-        <ul>
-            <li>Berlini fal (1961-1989)</li>
-            <li>Határzárások Kelet- és Nyugat-Németország között</li>
-            <li>Csehszlovákia és Magyarország határának lezárása</li>
-        </ul>
-
-        <h3>4. Berlini fal</h3>
-        <p><strong>Építés dátuma:</strong> 1961. augusztus 13.</p>
-        <p><strong>Bontása:</strong> 1989. november 9.</p>
-        <p><strong>Jelentősége:</strong> A hidegháború és Európa megosztottságának egyik legszembetűnőbb jelképe volt. Célja a keletnémetek nyugatra menekülésének megakadályozása volt.</p>
-        <p><strong>Érdekesség:</strong> A fal hossza kb. 155 km volt, és legalább 140 ember vesztette életét, miközben megpróbált átjutni rajta.</p>
-
-        <div class="image-placeholder">
-            [Berlini fal - kép a NKP oldalról]
-            <p>Forrás: NKP Okostankönyv</p>
-        </div>
-    </section>
-
-    <section id="kulcsegyeni">
-        <h2>Kiemelt személyek</h2>
-        
-        <h3>John F. Kennedy (1917-1963)</h3>
-        <p><strong>Szerepe:</strong> Az Egyesült Államok 35. elnöke (1961-1963)</p>
-        <p><strong>Fontosabb események:</strong></p>
-        <ul>
-            <li>Kubai rakétaválság (1962) - a hidegháború legsúlyosabb válsága</li>
-            <li>"Ich bin ein Berliner" beszéd (1963) - Nyugat-Berlin támogatása</li>
-            <li>Apollo-program indítása (1961) - űrverseny felerősödése</li>
-            <li>Bécsi csúcstalálkozó Hruscsovval (1961)</li>
-        </ul>
-        <p><strong>Halála:</strong> 1963. november 22-én Dallasban merénylet áldozata lett.</p>
-
-        <h3>Nyikita Hruscsov (1894-1971)</h3>
-        <p><strong>Szerepe:</strong> A Szovjetunió Kommunista Pártjának első titkára (1953-1964)</p>
-        <p><strong>Fontosabb események:</strong></p>
-        <ul>
-            <li>Sztálin halála utáni hatalomátvétel (1953)</li>
-            <li>Szputnyik-1 fellövése (1957) - az űrverseny kezdete</li>
-            <li>Berlini fal építése (1961)</li>
-            <li>Kubai rakétaválság (1962)</li>
-            <li>Kubába küldte a rakétákat, ami a kubai rakétaválsághoz vezetett</li>
-        </ul>
-        <p><strong>Politikája:</strong> A 
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
