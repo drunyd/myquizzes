@@ -1,0 +1,142 @@
+Quiz: Az USA polgárháborúja
+Source: maja_wiki/7.o/tori/7.o.tori.usa.polgarhaboru.html
+Question:
+  - Type: singlechoice
+    Text: Mikor volt az USA polgárháborúja?
+    A: 1861–1865
+    B: 1776–1783
+    C: 1848–1849
+    D: 1914–1918
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemezte az USA terjeszkedését a függetlenségi háború után?
+    A: Egyre több területet hódított
+    B: Feloszlatta a saját unióját
+    C: Visszaadta gyarmatait Angliának
+    D: Leállította a bevándorlást
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi kísérte az USA terjeszkedését a függetlenségi háború után?
+    Answers: [indiánok kiirtása, vasútépítési láz, bevándorlás, gyarmatosítás Afrikában]
+    Correct: [indiánok kiirtása, vasútépítési láz, bevándorlás]
+
+  - Type: singlechoice
+    Text: Mi jellemezte az északi államokat?
+    A: Ipar és farmgazdálkodás
+    B: Ültetvényes rabszolgatartás
+    C: Alacsony vámok igénylése
+    D: Rabszolgapártiság
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek jellemzők az északi államokra?
+    Answers: [ipar, farmgazdálkodás, rabszolgaellenesség, magas vámok igénylése, ültetvényes gazdálkodás]
+    Correct: [ipar, farmgazdálkodás, rabszolgaellenesség, magas vámok igénylése]
+
+  - Type: singlechoice
+    Text: Mi jellemezte a déli államokat?
+    A: Ültetvényes rabszolgatartás
+    B: Fejlett ipar és kereskedelem
+    C: Magas vámok igénylése
+    D: Rabszolgaellenes politika
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek jellemzők a déli államokra?
+    Answers: [ültetvényes rabszolgatartás, alacsony vámok igénye, fejlett ipar, rabszolgaellenesség]
+    Correct: [ültetvényes rabszolgatartás, alacsony vámok igénye]
+
+  - Type: word
+    Text: Ki lett 1860-ban az USA elnöke?
+    Answers: [Abraham Lincoln]
+    Correct: [Abraham Lincoln]
+
+  - Type: singlechoice
+    Text: Milyen álláspontot képviselt Lincoln a rabszolgaságról?
+    A: Rabszolgaellenes volt
+    B: Rabszolgapárti volt
+    C: Teljesen semleges volt
+    D: Nem foglalkozott vele
+    Correct: A
+
+  - Type: word
+    Text: Hány déli állam lépett ki az unióból 1861-ben?
+    Answers: [11]
+    Correct: [11]
+
+  - Type: singlechoice
+    Text: Mi következett abból, hogy 11 déli állam kilépett az unióból?
+    A: Kitört a polgárháború
+    B: Lincoln lemondott
+    C: Megszűnt a rabszolgaság
+    D: Az északi államok is kiléptek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Kik álltak kezdetben nyerésre a polgárháborúban?
+    A: A déli államok
+    B: Az északi államok
+    C: Egyik fél sem
+    D: A britek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik fél győzött végül a polgárháborúban?
+    A: A fejlettebb Észak
+    B: A rabszolgatartó Dél
+    C: A britek
+    D: Egyik fél sem
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Miért volt modern háború az USA polgárháborúja?
+    Answers: [hátultöltős és ismétlő fegyverek, páncélozott hadihajók, tengeralattjáró, fényképezés, gőzmozdony]
+    Correct: [hátultöltős és ismétlő fegyverek, páncélozott hadihajók, tengeralattjáró, fényképezés]
+
+  - Type: word
+    Text: Milyen új típusú kézi fegyverek jelentek meg a polgárháborúban?
+    Answers: [hátultöltős és ismétlő fegyverek]
+    Correct: [hátultöltős és ismétlő fegyverek]
+
+  - Type: multiplechoice
+    Text: Milyen új technikák jelentek meg a polgárháborúban?
+    Answers: [páncélozott hadihajók, tengeralattjáró, fényképezés, repülőgép]
+    Correct: [páncélozott hadihajók, tengeralattjáró, fényképezés]
+
+  - Type: singlechoice
+    Text: Mi történt a polgárháború után?
+    A: Gyorsult a Nyugat benépesítése
+    B: Jelentősen lassult az ipari fejlődés
+    C: Megszűnt a bevándorlás
+    D: Az ország kettészakadt
+    Correct: A
+
+  - Type: pairing
+    Text: Párosítsd a fogalmakat a magyarázatukkal!
+    LeftTitle: Fogalom
+    RightTitle: Magyarázat
+    Pairs:
+      - [Észak gazdasága, farmgazdálkodás és magas vámok]
+      - [Dél gazdasága, ültetvényes rabszolgatartás]
+      - [Lincoln elnöksége, az 1860-as választás]
+      - [Kilépés az unióból, 11 déli állam 1861-ben]
+
+  - Type: ordering
+    Text: Rendezd időrendbe a polgárháború eseményeit!
+    Items:
+      - 11 déli állam kilép az unióból
+      - Lincoln elnökké választása
+      - A polgárháború kezdete
+      - Az Észak győzelme
+    Correct:
+      - Lincoln elnökké választása
+      - 11 déli állam kilép az unióból
+      - A polgárháború kezdete
+      - Az Észak győzelme
+
+  - Type: word
+    Text: Melyik évben ért véget az USA polgárháborúja?
+    Answers: [1865]
+    Correct: [1865]

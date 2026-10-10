@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az USA polgárháborúja</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az USA polgárháborúja</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az USA terjeszkedése</h2>
+            <ul>
+              <li>A függetlenségi háború után az USA fokozatosan meghódítja az egész észak-amerikai területet.</li>
+              <li>Ezt kísérte az indiánok kiirtása, a vasútépítési láz és a bevándorlás.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Észak és Dél szembenállása</h2>
+            <ul>
+              <li><strong>Északon:</strong> ipar és farmgazdálkodás, rabszolgaellenesség, magas vámok igénylése.</li>
+              <li><strong>Délen:</strong> ültetvényes rabszolgatartó gazdálkodás, alacsony vámok igénye.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A polgárháború (1861–1865)</h2>
+            <ul>
+              <li>1860-ban Abraham Lincoln lesz az elnök, aki rabszolgaellenes.</li>
+              <li>1861-ben 11 déli állam kilép az unióból, és ezzel kezdetét veszi a polgárháború.</li>
+              <li>Kezdetben a déliek állnak nyerésre, de végül a fejlettebb Észak győz.</li>
+              <li>Ez már modern háború: hátultöltős és ismétlő fegyverek, páncélozott hadihajók, tengeralattjáró, fényképezés stb.</li>
+              <li>A háború után felgyorsul a Nyugat benépesítése és az ipari fejlődés.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">Az Amerikai Egyesült Államok északi és déli része egyre jobban eltért egymástól: az északon ipar és farmok voltak, délen pedig rabszolgákkal működtetett ültetvények. Amikor 1860-ban a rabszolgaellenes Lincoln lett az elnök, a déli államok kiléptek az unióból, és kitört a polgárháború. <a href="https://hu.wikipedia.org/wiki/Amerikai_polg%C3%A1rh%C3%A1bor%C3%BA" target="_blank" rel="noopener">Amerikai polgárháború</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Abraham%20Lincoln%20O-77%20matte%20collodion%20print.jpg?width=800" class="figure-img img-fluid rounded" alt="Abraham Lincoln">
+              <figcaption class="figure-caption">Abraham Lincoln, az USA elnöke (1861–1865). <a href="https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Lincoln 1863-ban kiadta az emancipációs kiáltványt, amely felszabadította a lázadó déli államok rabszolgáit.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az ország kettészakad</h2>
+            <p>A déli államok kiválása után az ország két részre szakadt: az Unióra (Észak) és a Konföderációra (Dél). <a href="https://hu.wikipedia.org/wiki/Rabszolgas%C3%A1g" target="_blank" rel="noopener">Rabszolgaság</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/US%20Secession%20map%201861.svg?width=800" class="figure-img img-fluid rounded" alt="Az USA kettészakadása 1861-ben">
+              <figcaption class="figure-caption">Az Unió (kék) és a kivált déli államok (piros) 1861-ben. <a href="https://commons.wikimedia.org/wiki/File:US_Secession_map_1861.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A polgárháború kezdete</h2>
+            <p>A háború 1861 áprilisában a dél-karolinai Fort Sumter ostromával kezdődött. <a href="https://hu.wikipedia.org/wiki/Amerikai_polg%C3%A1rh%C3%A1bor%C3%BA" target="_blank" rel="noopener">Amerikai polgárháború</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bombardment%20of%20Fort%20Sumter.jpg?width=800" class="figure-img img-fluid rounded" alt="Fort Sumter ostroma">
+              <figcaption class="figure-caption">Fort Sumter ostroma — itt kezdődött a polgárháború. <a href="https://commons.wikimedia.org/wiki/File:Bombardment_of_Fort_Sumter.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Modern háború</h2>
+            <p>Az USA polgárháborúja az első „modern” háborúk egyike volt: új fegyverek és technikák jelentek meg benne.</p>
+            <ul class="def">
+              <li><span class="term">Hátultöltős és ismétlő fegyverek:</span> gyorsabb és pontosabb tüzelés a gyalogságnál.</li>
+              <li><span class="term">Páncélozott hadihajók:</span> a Monitor és a Merrimack párharca új korszakot nyitott a tengeri hadviselésben.</li>
+              <li><span class="term">Tengeralattjáró:</span> a víz alatti támadás lehetősége.</li>
+              <li><span class="term">Fényképezés:</span> a háború borzalmai először kerültek tömegesen fényképre.</li>
+            </ul>
+            <div class="row g-3 mt-2">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20Monitor%20and%20Merrimac.jpg?width=800" class="figure-img img-fluid rounded" alt="A Monitor és a Merrimack párharca">
+                  <figcaption class="figure-caption">A Monitor és a Merrimack párharca (1862). <a href="https://commons.wikimedia.org/wiki/File:The_Monitor_and_Merrimac.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Gettysburg%2C%20by%20Currier%20and%20Ives.png?width=800" class="figure-img img-fluid rounded" alt="A gettysburgi csata">
+                  <figcaption class="figure-caption">A gettysburgi csata (1863), a háború fordulópontja. <a href="https://commons.wikimedia.org/wiki/File:Battle_of_Gettysburg,_by_Currier_and_Ives.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A polgárháborúban több amerikai katona halt meg, mint az összes többi amerikai háborúban együttvéve a 20. századig.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A háború után</h2>
+            <p>A fejlettebb Észak győzelme után felgyorsult az ország nyugati benépesítése és az ipari fejlődés; a rabszolgaságot eltörölték (1865). <a href="https://hu.wikipedia.org/wiki/Amerikai_Egyes%C3%BClt_%C3%81llamok" target="_blank" rel="noopener">Amerikai Egyesült Államok</a></p>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: a háború előtt az északi és déli gazdaság érdekei mennyire eltértek — vajon mindig háborúhoz vezetnek az ilyen ellentétek?</p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

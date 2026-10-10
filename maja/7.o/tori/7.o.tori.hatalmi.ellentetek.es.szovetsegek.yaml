@@ -1,0 +1,129 @@
+Quiz: Hatalmi ellentétek és hatalmi szövetségek a XX. század kezdetén
+Source: maja_wiki/7.o/tori/7.o.tori.hatalmi.ellentetek.es.szovetsegek.html
+Question:
+  - Type: singlechoice
+    Text: Miben voltak érdekeltek a nemzetközi monopolkapitalista nagyvállalatok?
+    A: Gyarmatok szerzésében
+    B: A fegyverkezés csökkentésében
+    C: A gyarmatok felszabadításában
+    D: A vámok eltörlésében
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek voltak a gyarmatosítás fő céljai a nagyvállalatok számára?
+    Answers: [nyersanyag, munkaerő, piac, vallás]
+    Correct: [nyersanyag, munkaerő, piac]
+
+  - Type: singlechoice
+    Text: Melyik két ország uralta a gyarmatok nagy többségét?
+    A: Anglia és Franciaország
+    B: Németország és Oroszország
+    C: Olaszország és az OMM
+    D: Az USA és Japán
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért volt nehéz Németország helyzete a gyarmatok megszerzésében?
+    A: Csak erőszakkal szerezhetett
+    B: Nem volt szüksége nyersanyagra
+    C: Már túl sok gyarmata volt
+    D: Szövetségben volt Angliával
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük a nagyhatalmak egymás elleni katonai felkészülését?
+    Answers: [fegyverkezési verseny]
+    Correct: [fegyverkezési verseny]
+
+  - Type: singlechoice
+    Text: Mi történt a balkáni országokkal?
+    A: Felszabadultak a török uralom alól
+    B: Németország gyarmatai lettek
+    C: Anglia fennhatósága alá kerültek
+    D: Egyetlen nagy állammá alakultak át
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely nagyhatalmak akartak befolyást szerezni a Balkánon?
+    Answers: [Oroszország, Osztrák–Magyar Monarchia, Németország, Franciaország]
+    Correct: [Oroszország, Osztrák–Magyar Monarchia]
+
+  - Type: word
+    Text: Melyik évben szenvedett vereséget Franciaország Németországtól?
+    Answers: [1871]
+    Correct: [1871]
+
+  - Type: singlechoice
+    Text: Miért akart Franciaország visszavágást?
+    A: Az 1871-es vereség miatt
+    B: A gyarmatai elvesztése miatt
+    C: A balkáni területek miatt
+    D: A török elnyomás miatt
+    Correct: A
+
+  - Type: pairing
+    Text: Párosítsd a katonai szövetségeket a tagjaikkal!
+    LeftTitle: Szövetség
+    RightTitle: Tagok
+    Pairs:
+      - [Hármas szövetség, Németország – Osztrák–Magyar Monarchia – Olaszország]
+      - [Antant, Anglia – Franciaország – Oroszország]
+
+  - Type: multiplechoice
+    Text: Kik alkották a Hármas szövetséget?
+    Answers: [Németország, Osztrák–Magyar Monarchia, Olaszország, Oroszország]
+    Correct: [Németország, Osztrák–Magyar Monarchia, Olaszország]
+
+  - Type: singlechoice
+    Text: Hogyan nevezték a Hármas szövetség országait?
+    A: Központi hatalmak
+    B: Antant
+    C: Semleges államok
+    D: Gyarmati hatalmak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Kik alkották az Antantot?
+    Answers: [Anglia, Franciaország, Oroszország, Olaszország]
+    Correct: [Anglia, Franciaország, Oroszország]
+
+  - Type: word
+    Text: Melyik évben jött létre az Antant?
+    Answers: [1904]
+    Correct: [1904]
+
+  - Type: pairing
+    Text: Párosítsd az okokat a magyarázatukkal!
+    LeftTitle: Ok
+    RightTitle: Magyarázat
+    Pairs:
+      - [Gyarmatosítási érdek, nyersanyag, munkaerő és piac]
+      - [Fegyverkezési verseny, a nagyhatalmak katonai felkészülése]
+      - [Balkáni feszültség, a török uralom alól felszabadult országok]
+      - [Francia visszavágás, az 1871-es vereség miatti bosszú]
+
+  - Type: singlechoice
+    Text: Miért volt hatással a nagyvállalatok a kormányokra?
+    A: A gyarmatosítás érdekelte őket
+    B: Békét akartak teremteni
+    C: Csökkentették volna a hadsereget
+    D: Ellenezték a gyarmatosítást
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelentett a „Központi hatalmak” elnevezés?
+    A: A Hármas szövetség tagjait
+    B: Az Antant nyugati országait
+    C: A háborúban semleges országokat
+    D: A gyarmati területek lakóit
+    Correct: A
+
+  - Type: word
+    Text: Melyik nagyhatalom uralta a gyarmatok nagy többségét Anglia mellett?
+    Answers: [Franciaország]
+    Correct: [Franciaország]
+
+  - Type: multiplechoice
+    Text: Mely tényezők vezettek a nagy háború kirobbanásához?
+    Answers: [gyarmatosítási verseny, fegyverkezési verseny, balkáni feszültségek, francia visszavágás, a rabszolgaság eltörlése]
+    Correct: [gyarmatosítási verseny, fegyverkezési verseny, balkáni feszültségek, francia visszavágás]
