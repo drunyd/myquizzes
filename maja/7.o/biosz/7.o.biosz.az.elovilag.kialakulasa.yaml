@@ -1,0 +1,227 @@
+Quiz: Az élővilág kialakulása
+Source: maja_wiki/7.o/biosz/7.o.biosz.az.elovilag.kialakulasa.html
+Question:
+  - Type: singlechoice
+    Text: Mi történt a Föld élővilágával az évmilliárdok során?
+    A: Nagy változáson ment keresztül
+    B: Teljesen és tökéletesen változatlan maradt
+    C: Fokozatosan eltűnt
+    D: Egyszerre jött létre
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből alakultak ki a többsejtű élőlények?
+    A: Ősi egysejtűekből
+    B: A gombákból
+    C: A növényekből
+    D: A mai állatok őseiből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük a hosszantartó fejlődési folyamatot?
+    A: Biológiai evolúció
+    B: Természetes kiválasztódás
+    C: Fotoszintézis
+    D: Szelekció
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki fogalmazta meg és bizonyította először az evolúciót?
+    A: Charles Darwin
+    B: Gregor Johann Mendel
+    C: Louis Pasteur
+    D: Carl Linné
+    Correct: A
+
+  - Type: word
+    Text: Mi a biológiai evolúció másik neve?
+    Answers: [törzsfejlődés]
+    Correct: [törzsfejlődés]
+
+  - Type: singlechoice
+    Text: Mi az evolúció belső rugója?
+    A: Az élőlények változékonysága
+    B: A külső környezet állandó változása
+    C: A napsugárzás erősségének ingadozása
+    D: A tengervíz hőmérsékletének változása
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mi tartozik az evolúció belső rugói közé?
+    Answers: [az élőlények változékonysága, a szülőktől örökölt tulajdonságok, az örökítőanyag kismértékű változása, a légkör gázösszetételének változása]
+    Correct: [az élőlények változékonysága, a szülőktől örökölt tulajdonságok, az örökítőanyag kismértékű változása]
+
+  - Type: word
+    Text: Melyik anyagban kódolódnak az örökölt információk?
+    Answers: [DNS]
+    Correct: [DNS]
+
+  - Type: multiplechoice
+    Text: Mi tartozik az evolúció külső rugói közé?
+    Answers: [a tengervíz átlaghőmérsékletének változása, a légkör gázösszetételének változása, a napsugárzás ereje, az örökítőanyag változása]
+    Correct: [a tengervíz átlaghőmérsékletének változása, a légkör gázösszetételének változása, a napsugárzás ereje]
+
+  - Type: singlechoice
+    Text: Mit nevezünk természetes kiválasztódásnak?
+    A: Azt, hogy a legrátermettebb szaporodik el
+    B: Azt, hogy minden élőlény egyformán szaporodik
+    C: Azt, hogy az élőlények nem változnak
+    D: Azt, hogy az ember választja ki az élőlényeket
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki tud elszaporodni a természetes kiválasztódás során?
+    A: A legrátermettebb és alkalmazkodóbb
+    B: A leggyengébb és legkisebb
+    C: Aki nem képes alkalmazkodni
+    D: Aki a leglassabb és legkisebb egyed
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik azzal, aki nem képes alkalmazkodni?
+    A: Utód nélkül eltűnik a területről
+    B: Átvándorol egy teljesen másik élőhelyre
+    C: Az egész faj rögtön kipusztul
+    D: Semmilyen változás nem történik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel magyarázható az élőlények kipusztulása?
+    A: A természetes kiválasztódással
+    B: Kizárólag a fotoszintézissel
+    C: Az örökítőanyag kismértékű változásával
+    D: Csak a napsugárzással
+    Correct: A
+
+  - Type: singlechoice
+    Text: Meddig tart a biológiai evolúció?
+    A: A mai napig tart
+    B: Az ember megjelenéséig tartott
+    C: A földtörténet kezdetéig tartott
+    D: Már nem tart
+    Correct: A
+
+  - Type: singlechoice
+    Text: Van-e meghatározott célja az evolúciónak?
+    A: Nincs, a változások véletlenszerűek
+    B: Igen, az ember létrehozása a fő cél
+    C: Igen, a legnagyobb test elérése
+    D: Igen, a kipusztulás elkerülése
+    Correct: A
+
+  - Type: pairing
+    Text: Párosítsd az ősi egysejtűek fejlődési irányát a belőle kialakult élővilággal!
+    LeftTitle: Fejlődési irány
+    RightTitle: Belőle kialakult élővilág
+    Pairs:
+      - [autotróf egysejtű, növényvilág őse]
+      - [heterotróf egysejtű (gomba), gombák őse]
+      - [heterotróf egysejtű (állat), állatvilág őse]
+
+  - Type: singlechoice
+    Text: Mely élőlények alakultak ki az autotróf egysejtűekből?
+    A: A növényvilág ősei
+    B: A gombák ősei
+    C: Az állatvilág ősei
+    D: A baktériumok ősei
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely élőlények alakultak ki a heterotróf egysejtűekből?
+    A: A gombák és az állatvilág
+    B: Kizárólag a zöld növényvilág
+    C: Kizárólag a baktériumok
+    D: Kizárólag a vízinövények
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen hatással volt a fotoszintézis az őslégkörre?
+    A: Oxigént termelt
+    B: Szén-dioxidot termelt
+    C: Nitrogént termelt
+    D: Vizet termelt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi alakult ki az oxigén hatására az őslégkörben?
+    A: Az ózonréteg
+    B: A vízgőz
+    C: A szén-dioxid
+    D: A nitrogén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nyeli el az ózonréteg?
+    A: Az ultraibolya (UV) sugarakat
+    B: A látható fény minden színét
+    C: Az infravörös hősugárzást
+    D: A röntgensugarakat és a gammát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért tudott az élet kilépni a szárazföldre?
+    A: Az ózonréteg védelme miatt
+    B: A víz elpárolgása miatt
+    C: A lehűlés miatt
+    D: A napsugárzás növekedése miatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen gyorsak a természetben zajló evolúciós folyamatok?
+    A: Lassúak
+    B: Nagyon gyorsak
+    C: Pillanatszerűek
+    D: Mozdulatlanok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire képes az ember az evolúcióval kapcsolatban?
+    A: Felgyorsíthatja a folyamatot
+    B: Egyáltalán semmilyen hatással nincs rá
+    C: Teljesen meg tudja állítani
+    D: Mindig vissza tudja fordítani
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek példák az ember tudatos kiválasztására?
+    Answers: [kutya tenyésztése, almanemesítés, az ózonréteg kialakulása, a fotoszintézis]
+    Correct: [kutya tenyésztése, almanemesítés]
+
+  - Type: word
+    Text: Mi a neve az ember által végzett tudatos kiválasztásnak például a kutyáknál?
+    Answers: [tenyésztés]
+    Correct: [tenyésztés]
+
+  - Type: singlechoice
+    Text: Mi jellemzi az ember által végzett kiválasztást?
+    A: Tudatosan, meghatározott céllal
+    B: Teljesen véletlenszerűen
+    C: Mindig jelentősen lelassítja a folyamatot
+    D: Csak a növényeknél működik
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd időrendbe az élővilág kialakulásának lépéseit!
+    Items:
+      - az ózonréteg kialakulása
+      - az első egysejtűek megjelenése
+      - a többsejtű élőlények kialakulása
+      - az élet kilépése a szárazföldre
+    Correct:
+      - az első egysejtűek megjelenése
+      - a többsejtű élőlények kialakulása
+      - az ózonréteg kialakulása
+      - az élet kilépése a szárazföldre
+
+  - Type: singlechoice
+    Text: Melyik példa utal a belső rugóra?
+    A: A testvérek hasonlósága
+    B: A tengervíz hőmérséklete
+    C: A napsugárzás ereje
+    D: A légkör gázösszetétele
+    Correct: A
+
+  - Type: word
+    Text: Mi a neve a természetes kiválasztódásnak egy szóval?
+    Answers: [szelekció]
+    Correct: [szelekció]

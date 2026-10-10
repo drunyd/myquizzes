@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az élővilág kialakulása</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az élővilág kialakulása</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A biológiai evolúció</h2>
+            <ul>
+              <li>A Föld élővilága nagy változáson ment keresztül az évmilliárdok során.</li>
+              <li>Az egysejtűekből egyre bonyolultabb felépítésű többsejtű élőlények alakultak ki, amíg a mai fejlettségi szintet el nem érte a folyamat.</li>
+              <li>Így kialakult a mai élővilág, amit ismerünk.</li>
+              <li>Ez a hosszantartó folyamat a biológiai evolúció, vagyis törzsfejlődés.</li>
+              <li>Charles Darwin fogalmazta meg és bizonyította először.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az evolúció mozgatórugói – belső rugó</h2>
+            <ul>
+              <li>A biológiai evolúció alapja az élőlények változékonysága.</li>
+              <li>Például: testvérek hasonlósága.</li>
+              <li>Szülőktől örökölt tulajdonságok (az információk örökítőanyagban, azaz DNS-ben való kódolása).</li>
+              <li>Az örökítőanyag kismértékű változása.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az evolúció mozgatórugói – külső rugó</h2>
+            <ul>
+              <li>Külső körülmények változása.</li>
+              <li>A tengervíz átlaghőmérsékletének változása.</li>
+              <li>A légkör gázösszetételének változása.</li>
+              <li>A napsugárzás ereje.</li>
+              <li>A terület vízellátottsága.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Természetes kiválasztódás (szelekció)</h2>
+            <ul>
+              <li>Az élőlények adottságai eltérőek, ezért az alkalmazkodó képességük is változó.</li>
+              <li>Az tud elszaporodni, akinek a környezet jobban megfelel, és a legrátermettebb.</li>
+              <li>Aki nem képes alkalmazkodni, utód nélkül eltűnik a területről.</li>
+              <li>Ez a folyamat a természetes kiválasztódás, vagyis szelekció.</li>
+              <li>Az élőlények kipusztulása ezzel magyarázható.</li>
+              <li>A biológiai evolúció a mai napig tart.</li>
+              <li>Nincs meghatározott célja, véletlenszerűen létrejövő változások alakítják.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az ősi egysejtűek fejlődési iránya</h2>
+            <ul>
+              <li>Három irány alakult ki:
+                <ul>
+                  <li><strong>Autotróf egysejtűek:</strong> növényvilág.</li>
+                  <li><strong>Heterotróf egysejtűek:</strong> gombák.</li>
+                  <li><strong>Heterotróf egysejtűek:</strong> állatvilág.</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élőlények hatása a környezetükre</h2>
+            <ul>
+              <li>Az élővilág korai képviselői hatással voltak a környezetükre.</li>
+              <li>Fotoszintézis: oxigéntermelés – őslégkör – ózonréteg kialakulása.</li>
+              <li>Az ózonréteg elnyeli a napsugárzás életre káros ultraibolya (UV) sugarait.</li>
+              <li>Az élet így ki tudott lépni a szárazföldre.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az emberek hatása az evolúcióra</h2>
+            <ul>
+              <li>A természetben zajló evolúciós folyamatok lassúak.</li>
+              <li>Az ember képes befolyásolni a folyamatot, képes felgyorsítani.</li>
+              <li>A kiválasztást az ember tudatosan, egy cél elérése érdekében végzi, így a változások felgyorsulnak.</li>
+              <li>Kutya tenyésztés.</li>
+              <li>Almanemesítés.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">Az élővilág nem egyszerre jött létre mai formájában: évmilliárdok alatt, apró változások és a környezethez való alkalmazkodás során alakult ki. Ezt a folyamatot nevezzük biológiai evolúciónak, azaz törzsfejlődésnek. <a href="https://hu.wikipedia.org/wiki/Evol%C3%BAci%C3%B3" target="_blank" rel="noopener">Evolúció</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20seated%20crop.jpg?width=800" class="figure-img img-fluid rounded" alt="Charles Darwin">
+              <figcaption class="figure-caption">Charles Darwin (1809–1882), az evolúció első bizonyítója. <a href="https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Darwin 1831 és 1836 között a Beagle hajóval utazta körbe a világot, és az ott gyűjtött megfigyelései vezették el az evolúció gondolatához. <a href="https://hu.wikipedia.org/wiki/Charles_Darwin" target="_blank" rel="noopener">Charles Darwin</a></div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A természetes kiválasztódás bizonyítéka</h2>
+            <p>Darwin a Galápagos-szigetek pintyeit figyelte meg: a szigetenként kicsit más csőrű madarak mind egy közös ős leszármazottai. Aki az adott szigeten jobb csőrrel született, az több táplálékhoz jutott, és több utódot hagyott hátra. <a href="https://hu.wikipedia.org/wiki/Term%C3%A9szetes_kiv%C3%A1laszt%C3%B3d%C3%A1s" target="_blank" rel="noopener">Természetes kiválasztódás</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Darwin's%20finches.jpeg?width=800" class="figure-img img-fluid rounded" alt="Darwin pintyei">
+              <figcaption class="figure-caption">Darwin pintyei – a csőr alakja az élőhelyhez alkalmazkodott. <a href="https://commons.wikimedia.org/wiki/File:Darwin%27s_finches.jpeg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az öröklődés anyaga: a DNS</h2>
+            <p>Az örökölt tulajdonságokat a sejtekben található DNS (dezoxiribonukleinsav) tárolja. Az evolúció belső rugója éppen a DNS apró, véletlenszerű változása (mutáció), amely új tulajdonságokat hozhat létre. <a href="https://hu.wikipedia.org/wiki/DNS" target="_blank" rel="noopener">DNS</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/DNA%20Overview2.png?width=800" class="figure-img img-fluid rounded" alt="A DNS szerkezete">
+              <figcaption class="figure-caption">A DNS kettős spirálja: az örökítő információ hordozója. <a href="https://commons.wikimedia.org/wiki/File:DNA_Overview2.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A testvérek hasonlósága is mutatja, hogy a szülők tulajdonságai öröklődnek – de minden utód kicsit más, mert a DNS nem másolódik tökéletesen.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élővilág és a légkör</h2>
+            <p>A korai élőlények fotoszintézissel oxigént termeltek, és ez megváltoztatta az őslégkör összetételét. Az oxigénből kialakult az ózonréteg, amely elnyeli a káros ultraibolya sugarakat. <a href="https://hu.wikipedia.org/wiki/%C3%93zonr%C3%A9teg" target="_blank" rel="noopener">Ózonréteg</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere%20layers-en.svg?width=800" class="figure-img img-fluid rounded" alt="A légkör rétegei">
+              <figcaption class="figure-caption">A légkör rétegei; az ózonréteg a sztratoszférában található. <a href="https://commons.wikimedia.org/wiki/File:Atmosphere_layers-en.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az ózonréteg nélkül a Nap ultraibolya sugárzása elpusztítaná a szárazföldi élőlényeket – ezért volt kulcsfontosságú az élet „partraszállása”.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az élet fája</h2>
+            <p>A törzsfejlődést gyakran egy faágaihoz hasonlítják: a közös ősökből idővel egyre több, egymástól különböző élőlénycsoport ágazott le.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tree%20of%20life%20by%20Haeckel.jpg?width=800" class="figure-img img-fluid rounded" alt="Az élet fája">
+              <figcaption class="figure-caption">Az élet fája – a törzsfejlődés egy korai ábrázolása. <a href="https://commons.wikimedia.org/wiki/File:Tree_of_life_by_Haeckel.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: az ember is ennek a fának az egyik ágán helyezkedik el – nem a „célja”, hanem az egyik eredménye az evolúciónak.</p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
