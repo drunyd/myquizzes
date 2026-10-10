@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A kémiai jelölések változása - a misztikustól a logikusig</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .vegytabla td, .vegytabla th { padding: .35rem .5rem; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A kémiai jelölések változása – a misztikustól a logikusig</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai jelölések evolúciója</h2>
+            <ul>
+              <li>A középkori alkimisták is lejegyzetelték, milyen kísérletet végeztek, milyen anyaggal, és mi volt a tapasztalat.</li>
+              <li>Misztikus jeleket használtak. Az alkotón kívül senki nem tudta, mit jelentenek.</li>
+              <li>A modern természettudományban olyan kémiai jelrendszert használunk, amelyet a világ minden részén elfogadtak és alkalmaznak.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai jelrendszer kialakulása</h2>
+            <ul>
+              <li>Az ókorban és a középkorban sokkal kevesebb anyagot ismertek, de már jeleket használtak a megkülönböztetésükre. Főként asztrológiai motívumok.</li>
+              <li>Sokféle szimbólumot használtak a vegyületek, elemek, keverékek jelölésére.</li>
+              <li>Például a hét fém jelölésére az égitestek szolgáltak.</li>
+              <li>A világ megismerésével együtt nőtt a bonyolult jelképek száma is.</li>
+              <li>Ez a jelenség magával hozta az egységes jelrendszer kialakítására az igényt.</li>
+              <li>Az egységesítés irányába az első nagy lépést az 1800-as években John Dalton tette. Az atomokat ábrázolta rajzos jelekkel.</li>
+              <li>Igazi áttörést Jöns Jacob Berzelius svéd tudós érte el.</li>
+              <li>Javaslata: az elemek jelölése a latin nevük kezdőbetűjével, a vegyületek jelölése pedig ezen betűk kombinációjával.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A vegyjel</h2>
+            <ul>
+              <li>Az atomok, illetve az elemek jelképszerű, egy vagy két betűből álló jele, amely általában a latin vagy görög megnevezésből származik.</li>
+              <li>Amennyiben az elemek kezdőbetűje megegyezik, akkor a név egy másik betűjét is felhasználjuk a vegyjel megalkotásában (bór B, berillium Be, bróm Br).</li>
+              <li>A vegyjel első betűje mindig NAGY, a második – ha van – mindig kicsi.</li>
+              <li>Napjainkban 110 elemet ismerünk, így a vegyjelek száma is ennyi.</li>
+              <li>Az atomok vegyjelét a periódusos rendszer tartalmazza.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A képlet</h2>
+            <ul>
+              <li>A vegyületek és a molekulákból felépülő elemek jelölésére használjuk.</li>
+              <li>A molekulák képletében feltüntetjük az alkotó atomok vegyjelét, és jobb alsó indexben a számát is.</li>
+              <li>Amennyiben megszámlálhatatlanul sok atom építi fel a molekulát, akkor alsó indexben az alkotó atomok számarányát tüntetjük fel.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Elsajátítandó vegyjelek</h2>
+            <div class="table-responsive">
+              <table class="table table-sm table-bordered align-middle vegytabla mb-0">
+                <thead>
+                  <tr>
+                    <th>Megnevezés</th><th>Vegyjel</th>
+                    <th>Megnevezés</th><th>Vegyjel</th>
+                    <th>Megnevezés</th><th>Vegyjel</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Hidrogén</td><td>H</td><td>Oxigén</td><td>O</td><td>Foszfor</td><td>P</td></tr>
+                  <tr><td>Hélium</td><td>He</td><td>Fluor</td><td>F</td><td>Kén</td><td>S</td></tr>
+                  <tr><td>Lítium</td><td>Li</td><td>Neon</td><td>Ne</td><td>Klór</td><td>Cl</td></tr>
+                  <tr><td>Berillium</td><td>Be</td><td>Nátrium</td><td>Na</td><td>Argon</td><td>Ar</td></tr>
+                  <tr><td>Bór</td><td>B</td><td>Magnézium</td><td>Mg</td><td>Kálium</td><td>K</td></tr>
+                  <tr><td>Szén</td><td>C</td><td>Alumínium</td><td>Al</td><td>Kálcium</td><td>Ca</td></tr>
+                  <tr><td>Nitrogén</td><td>N</td><td>Szilícium</td><td>Si</td><td>Bróm</td><td>Br</td></tr>
+                  <tr><td>Vas</td><td>Fe</td><td>Réz</td><td>Cu</td><td>Ezüst</td><td>Ag</td></tr>
+                  <tr><td>Arany</td><td>Au</td><td>Higany</td><td>Hg</td><td>Cink</td><td>Zn</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai jelölések alkalmazása</h2>
+            <ul>
+              <li>Egyszerűen, gyorsan, pontosan jelölhetjük a jelrendszer ismeretében az anyagokat.</li>
+              <li>Nyelvtől, nemzettől független.</li>
+              <li>Például: H2O (víz), CO2 (szén-dioxid), C6H12O6 (szőlőcukor), O2 (oxigén).</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A kémikusok ma mindenhol ugyanazokat a jeleket használják: a H a hidrogént, az O az oxigént jelenti. Ez nem mindig volt így — a középkori alkimisták titkos jelekkel dolgoztak, amelyeket rajtuk kívül senki sem értett. <a href="https://hu.wikipedia.org/wiki/Vegyjel" target="_blank" rel="noopener">Vegyjel</a> · <a href="https://hu.wikipedia.org/wiki/Alk%C3%ADmia" target="_blank" rel="noopener">Alkímia</a></p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az alkimisták a hét ismert fémet a hét égitesttel jelölték: például az arany a Naphoz, az ezüst a Holdhoz tartozott.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az út a rajzos jelektől a vegyjelekig</h2>
+            <p>John Dalton (1766–1844) angol tudós az atomokat kis körökkel és pöttyökkel rajzolta le. Később Jöns Jacob Berzelius (1779–1848) svéd kémikus javasolta a ma is használt betűs jelölést: az elemek latin nevének kezdőbetűjét.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/John%20Dalton%20by%20Charles%20Turner.jpg?width=800" class="figure-img img-fluid rounded" alt="John Dalton portréja">
+                  <figcaption class="figure-caption">John Dalton, az atomok rajzos ábrázolója. <a href="https://commons.wikimedia.org/wiki/File:John_Dalton_by_Charles_Turner.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B6ns%20Jacob%20Berzelius.jpg?width=800" class="figure-img img-fluid rounded" alt="Jöns Jacob Berzelius portréja">
+                  <figcaption class="figure-caption">Jöns Jacob Berzelius, a vegyjelek atyja. <a href="https://commons.wikimedia.org/wiki/File:J%C3%B6ns_Jacob_Berzelius.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: a nátrium vegyjele Na — a latin <em>natrium</em> szóból. Tudsz még ilyen „meglepő” vegyjelet?</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A periódusos rendszer</h2>
+            <p>Minden elem vegyjele megtalálható a periódusos rendszerben, amelyet Mengyelejev orosz kémikus alkotott meg 1869-ben. <a href="https://hu.wikipedia.org/wiki/Peri%C3%B3dusos_rendszer" target="_blank" rel="noopener">Periódusos rendszer</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Periodic%20table%20large.svg?width=800" class="figure-img img-fluid rounded" alt="A periódusos rendszer">
+              <figcaption class="figure-caption">A periódusos rendszer: minden elem vegyjelével. <a href="https://commons.wikimedia.org/wiki/File:Periodic_table_large.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A víz képlete</h2>
+            <p>A képlet megmutatja, miből és mennyiből áll egy molekula. A víz képlete H2O: két hidrogénatom és egy oxigénatom. <a href="https://hu.wikipedia.org/wiki/K%C3%A9miai_k%C3%A9plet" target="_blank" rel="noopener">Kémiai képlet</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Water-3D-balls.png?width=800" class="figure-img img-fluid rounded" alt="A vízmolekula modellje">
+              <figcaption class="figure-caption">A vízmolekula (H2O) golyómodellje. <a href="https://commons.wikimedia.org/wiki/File:Water-3D-balls.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A szőlőcukor képlete C6H12O6 — hat szén-, tizenkét hidrogén- és hat oxigénatom alkotja.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

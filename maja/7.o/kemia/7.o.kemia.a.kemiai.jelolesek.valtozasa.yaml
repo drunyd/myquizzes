@@ -1,0 +1,223 @@
+Quiz: A kémiai jelölések változása - a misztikustól a logikusig
+Source: maja_wiki/7.o/kemia/7.o.kemia.a.kemiai.jelolesek.valtozasa.html
+Question:
+  - Type: singlechoice
+    Text: Milyen jeleket használtak a középkori alkimisták?
+    A: Misztikus jeleket
+    B: Modern vegyjeleket
+    C: Arab számjegyeket
+    D: Görög betűjeleket
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jegyzeteltek le a középkori alkimisták?
+    A: Milyen kísérletet végeztek és mi lett az eredmény
+    B: Kizárólag a saját nevüket és a pontos dátumot
+    C: Csak az időjárás mindenkori alakulását jegyezték fel
+    D: A többi tudós és mester munkáit
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelentett a misztikus jelek használata?
+    A: Az alkotón kívül senki sem értette
+    B: Mindenki számára egyértelműek voltak
+    C: Csak a papok értették meg őket
+    D: A tudósok egységesen használták
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen jelrendszert használunk a modern természettudományban?
+    A: Amelyet világszerte elfogadtak
+    B: Amelyet csak Magyarországon használnak
+    C: Amelyet csak a középkorban ismertek
+    D: Amelyet titokban tartanak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely anyagok jelölésére használtak sokféle szimbólumot az ókorban és a középkorban?
+    Answers: [elemek, vegyületek, keverékek, molekulák]
+    Correct: [elemek, vegyületek, keverékek]
+
+  - Type: singlechoice
+    Text: Minek a jelölésére szolgáltak az égitestek?
+    A: A hét fém jelölésére
+    B: A keverékek jelölésére
+    C: A molekulák jelölésére
+    D: A vegyületek jelölésére
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért nőtt a bonyolult jelképek száma?
+    A: Mert egyre több anyagot ismertek meg
+    B: Mert az alkimisták egyáltalán nem szerettek írni
+    C: Mert egyre kevesebb anyagot ismertek
+    D: Mert betiltották a régi betűket
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért volt szükség egységes jelrendszerre?
+    A: Mert a jelképek száma egyre nőtt
+    B: Mert senki sem használt semmilyen jelet
+    C: Mert betiltották a rajzos jelölést
+    D: Mert még nem ismertek elemeket
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki tette meg az első nagy lépést az egységesítés felé?
+    A: John Dalton
+    B: Jöns Jacob Berzelius
+    C: Démokritosz
+    D: Arisztotelész
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit ábrázolt John Dalton rajzos jelekkel?
+    A: Az atomokat
+    B: A molekulákat
+    C: Az elemek nevét
+    D: A kísérleteket
+    Correct: A
+
+  - Type: word
+    Text: Melyik században tette meg Dalton az első nagy lépést az egységesítés felé?
+    Answers: [19. század]
+    Correct: [19. század]
+
+  - Type: singlechoice
+    Text: Ki érte el az igazi áttörést a vegyjelek kialakításában?
+    A: Berzelius
+    B: John Dalton
+    C: Démokritosz
+    D: Lavoisier
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit javasolt Berzelius az elemek jelölésére?
+    A: A latin nevük kezdőbetűjét
+    B: A görög nevük utolsó betűjét
+    C: Az atomok darabszámát
+    D: Az asztrológiai jeleket
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Miből származik általában a vegyjel?
+    Answers: [latin névből, görög névből, magyar névből, angol névből]
+    Correct: [latin névből, görög névből]
+
+  - Type: singlechoice
+    Text: Mikor használunk második betűt is a vegyjelben?
+    A: Ha a kezdőbetűjük megegyezik
+    B: Ha a nevük túl hosszú lenne
+    C: Ha így sokkal szebb a jelölés
+    D: Ha túl kevés betű van a nevekben
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely elemek kezdőbetűje egyezik meg, ezért kaptak második betűt?
+    Answers: [bór és berillium, bór és bróm, vas és réz, cink és kálium]
+    Correct: [bór és berillium, bór és bróm]
+
+  - Type: singlechoice
+    Text: Milyen a vegyjel első betűje?
+    A: Mindig nagy
+    B: Mindig kicsi
+    C: Mindig szám
+    D: Mindig jel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a vegyjel második betűje, ha van?
+    A: Mindig kicsi
+    B: Mindig nagy betű
+    C: Mindig számjegy
+    D: Mindig jelkép
+    Correct: A
+
+  - Type: word
+    Text: Hány elemet ismerünk napjainkban?
+    Answers: [110]
+    Correct: [110]
+
+  - Type: singlechoice
+    Text: Hol találjuk az atomok vegyjelét?
+    A: A periódusos rendszerben
+    B: A kémiai képlet belsejében
+    C: A molekulamodellben
+    D: A tankönyv végén
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely anyagokat jelölhetjük képlettel?
+    Answers: [vegyületek, molekulákból felépülő elemek, atomok, keverékek]
+    Correct: [vegyületek, molekulákból felépülő elemek]
+
+  - Type: singlechoice
+    Text: Mit tüntetünk fel a képletben a vegyjel jobb alsó indexében?
+    A: Az atomok számát
+    B: A molekula tömegét
+    C: Az atomok színét
+    D: A kötés fajtáját
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit írunk az alsó indexbe, ha megszámlálhatatlanul sok atom alkotja a molekulát?
+    A: Az atomok számarányát
+    B: Az atomok pontos számát
+    C: A molekula hosszát méterben
+    D: Az atomok színét és méretét
+    Correct: A
+
+  - Type: pairing
+    Text: Párosítsd a vegyjelet az elem nevével!
+    LeftTitle: Vegyjel
+    RightTitle: Elem
+    Pairs:
+      - [H, hidrogén]
+      - [O, oxigén]
+      - [Fe, vas]
+      - [Cu, réz]
+      - [Au, arany]
+      - [Ag, ezüst]
+
+  - Type: pairing
+    Text: Párosítsd a képletet az anyag nevével!
+    LeftTitle: Képlet
+    RightTitle: Anyag
+    Pairs:
+      - [H2O, víz]
+      - [CO2, szén-dioxid]
+      - [O2, oxigén]
+      - [C6H12O6, szőlőcukor]
+
+  - Type: ordering
+    Text: Rendezd időrendbe a jelrendszer fejlődésének lépéseit!
+    Items:
+      - Berzelius javaslata
+      - John Dalton rajzos atomjelei
+      - A középkori alkimisták misztikus jelei
+      - A mai egységes jelrendszer
+    Correct:
+      - A középkori alkimisták misztikus jelei
+      - John Dalton rajzos atomjelei
+      - Berzelius javaslata
+      - A mai egységes jelrendszer
+
+  - Type: word
+    Text: Írd le a víz képletét!
+    Answers: [H2O]
+    Correct: [H2O]
+
+  - Type: word
+    Text: Írd le a szén-dioxid képletét!
+    Answers: [CO2]
+    Correct: [CO2]
+
+  - Type: word
+    Text: Mi a szőlőcukor képlete?
+    Answers: [C6H12O6]
+    Correct: [C6H12O6]
+
+  - Type: multiplechoice
+    Text: Melyek a kémiai jelrendszer előnyei?
+    Answers: [gyors jelölés, pontos jelölés, nyelvtől független, csak magyarul használható]
+    Correct: [gyors jelölés, pontos jelölés, nyelvtől független]

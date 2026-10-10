@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az anyagok csoportosítása</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az anyagok csoportosítása</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kémiailag tiszta anyagok</h2>
+            <ul>
+              <li>Kémiailag akkor tiszta egy anyag, ha csak egyféle anyagból áll.</li>
+              <li>Tisztaság a hétköznapokban: például szennyvíz – víz – ivóvíz.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az elemek</h2>
+            <ul>
+              <li>Kémiailag tiszta anyagok.</li>
+              <li>Csak egyféle atomból épülnek fel.</li>
+              <li>Alkothatnak molekulákat (jód, oxigén).</li>
+              <li>Vagy összeállhatnak megszámlálhatatlanul sok atomból álló kristályráccsá (gyémánt, vas).</li>
+              <li>110 féle elemet tudunk megkülönböztetni.</li>
+              <li>Periódusos rendszer.</li>
+              <li>Kémiai módszerekkel egyszerűbb anyagokra nem bontható.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fémek</h2>
+            <ul>
+              <li>Az elemek közel 80%-a fém.</li>
+              <li>Szürke színűek.</li>
+              <li>Csillogó felületűek.</li>
+              <li>Vezetik az elektromos áramot, a hőt.</li>
+              <li>Szilárdak.</li>
+              <li>Kivételek: higany, arany, ezüst.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Nemfémes elemek</h2>
+            <ul>
+              <li>Számuk lényegesen kevesebb.</li>
+              <li>Tulajdonságaik mégis nagyon változatosak.</li>
+              <li>Lehet színtelen (hidrogén), színes (kén).</li>
+              <li>Szobahőmérsékleten lehet: gáz (klór), szilárd (jód), folyadék (bróm).</li>
+              <li>Lehet szagtalan (nitrogén), szagos (bróm).</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Vegyületek</h2>
+            <ul>
+              <li>Többféle atomból felépülő kémiailag tiszta anyagok, amelyek egyszerűbb anyagokra (elemekre) bonthatóak.</li>
+              <li>Több millió vegyületet ismerünk: szén-dioxid, kvarc, konyhasó.</li>
+              <li>Tudományos nevük az őket alkotó elemek nevéből származik.</li>
+              <li>Csoportosításuk:
+                <ul>
+                  <li><strong>Szervetlen vegyületek:</strong> élettelen környezetet alkotó vegyületek.</li>
+                  <li><strong>Szerves vegyületek:</strong> élő szervezetben megtalálhatóak, illetve a kőolaj és földgáz összetevői.</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Keverékek</h2>
+            <ul>
+              <li>Többféle elemet vagy vegyületet tartalmazó anyagok.</li>
+              <li>Komponensek, vagyis összetevők aránya változó, és ezeket el lehet választani egymástól; ekkor kémiailag tiszta anyagokhoz jutunk.</li>
+              <li>Csoportosításuk halmazállapot alapján:
+                <ul>
+                  <li><strong>Szilárd anyagok keveréke:</strong> puskapor (kénpor, szénpor, salétrom).</li>
+                  <li><strong>Folyékony anyagok keveréke:</strong> bor (alkohol és víz, egyéb vegyületek).</li>
+                  <li><strong>Gázelegyek:</strong> gázok keverékei (levegő).</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A kémiában mindent két nagy kérdés szerint rendezünk el: egyféle anyagból áll-e (tiszta anyag), vagy több anyag keveréke-e? A tiszta anyag lehet elem vagy vegyület, a keveréket pedig összetevőire lehet bontani. <a href="https://hu.wikipedia.org/wiki/K%C3%A9miai_elem" target="_blank" rel="noopener">Kémiai elem</a> · <a href="https://hu.wikipedia.org/wiki/Vegy%C3%BClet" target="_blank" rel="noopener">Vegyület</a></p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A levegő nem tiszta anyag, hanem gázelegy: főleg nitrogénből és oxigénből áll.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Elemek: egyféle atomból</h2>
+            <p>Az elemeket a periódusos rendszer foglalja össze. Egyes elemek molekulákat alkotnak (például az oxigén O2), mások hatalmas kristályrácsot (például a gyémánt vagy a vas).</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Diamond%20cuboctahedron.jpg?width=800" class="figure-img img-fluid rounded" alt="Gyémánt">
+                  <figcaption class="figure-caption">A gyémánt a szén kristályrácsa. <a href="https://commons.wikimedia.org/wiki/File:Diamond_cuboctahedron.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Iron%20electrolytic%20and%201cm3%20cube.jpg?width=800" class="figure-img img-fluid rounded" alt="Vas">
+                  <figcaption class="figure-caption">A vas szintén kristályrácsot alkot. <a href="https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Periodic%20table%20large.svg?width=800" class="figure-img img-fluid rounded" alt="A periódusos rendszer">
+              <figcaption class="figure-caption">A periódusos rendszer: 110 elem, amelyet ma ismerünk. <a href="https://commons.wikimedia.org/wiki/File:Periodic_table_large.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fémek és nemfémek</h2>
+            <p>A fémek többsége szürke, csillogó és vezeti az áramot. A nemfémek között viszont színtelen és színes, szagtalan és szagos anyagok is akadnak — halmazállapotuk is nagyon változatos.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hg%20Mercury.jpg?width=800" class="figure-img img-fluid rounded" alt="Higany">
+                  <figcaption class="figure-caption">A higany az egyetlen folyékony fém szobahőmérsékleten. <a href="https://commons.wikimedia.org/wiki/File:Hg_Mercury.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bromine.jpg?width=800" class="figure-img img-fluid rounded" alt="Bróm">
+                  <figcaption class="figure-caption">A bróm vörösbarna, szagos folyadék. <a href="https://commons.wikimedia.org/wiki/File:Bromine.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Iodine%20crystals.jpg?width=800" class="figure-img img-fluid rounded" alt="Jódkristályok">
+                  <figcaption class="figure-caption">A jód szobahőmérsékleten szilárd. <a href="https://commons.wikimedia.org/wiki/File:Iodine_crystals.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chlorine%20ampoule.jpg?width=800" class="figure-img img-fluid rounded" alt="Klór">
+                  <figcaption class="figure-caption">A klór sárgászöld gáz. <a href="https://commons.wikimedia.org/wiki/File:Chlorine_ampoule.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Bár a fémek többsége szilárd, a higany szobahőmérsékleten folyékony — ezért használták régen a hőmérőkben.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Vegyületek és keverékek</h2>
+            <ul class="def">
+              <li><span class="term">Vegyület:</span> többféle atomból álló tiszta anyag, amely egyszerűbb anyagokra bontható (például víz, konyhasó).</li>
+              <li><span class="term">Szervetlen vegyület:</span> az élettelen környezetet alkotja (például kvarc).</li>
+              <li><span class="term">Szerves vegyület:</span> élő szervezetben vagy kőolajban, földgázban fordul elő.</li>
+              <li><span class="term">Keverék:</span> több anyag változó arányú együttese, amelyet el lehet választani (például levegő, bor, puskapor).</li>
+            </ul>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: a szennyvíz és az ivóvíz közül melyik a „tisztább” kémiai értelemben? A válasz nem mindig az, amit elsőre gondolnál!</p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

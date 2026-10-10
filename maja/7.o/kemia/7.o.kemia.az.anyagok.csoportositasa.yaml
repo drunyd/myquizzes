@@ -1,0 +1,263 @@
+Quiz: Az anyagok csoportosítása
+Source: maja_wiki/7.o/kemia/7.o.kemia.az.anyagok.csoportositasa.html
+Question:
+  - Type: singlechoice
+    Text: Mikor kémiailag tiszta egy anyag?
+    A: Ha csak egyféle anyagból áll
+    B: Ha többféle anyag keveréke
+    C: Ha teljesen színtelen és szagtalan
+    D: Ha csak szilárd halmazállapotú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a hétköznapi tisztaság példája a forrás szerint?
+    A: Szennyvíz – víz – ivóvíz
+    B: Levegő – oxigén – ózon
+    C: Bor – víz – alkohol
+    D: Puskapor – kén – salétrom
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből épülnek fel az elemek?
+    A: Csak egyféle atomból
+    B: Többféle különböző atomból
+    C: Csak molekulákból
+    D: Csak kristályokból
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen formában épülhetnek fel az elemek?
+    Answers: [molekulák, kristályrácsok, vegyületek, keverékek]
+    Correct: [molekulák, kristályrácsok]
+
+  - Type: word
+    Text: Hányféle elemet tudunk megkülönböztetni?
+    Answers: [110]
+    Correct: [110]
+
+  - Type: singlechoice
+    Text: Mit nem lehet az elemekkel kémiai módszerekkel tenni?
+    A: Egyszerűbb anyagokra bontani
+    B: Molekulákká alakítani
+    C: Szabályos kristályrácsba rendezni
+    D: Vegyületté alakítani
+    Correct: A
+
+  - Type: singlechoice
+    Text: Az elemek hány százaléka fém?
+    A: Kb. 80%
+    B: Kb. 20%
+    C: Kb. 50%
+    D: Kb. 10%
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a fémek jellemzői?
+    Answers: [szürke szín, csillogó felület, vezetik az áramot és a hőt, szobahőmérsékleten folyékony]
+    Correct: [szürke szín, csillogó felület, vezetik az áramot és a hőt]
+
+  - Type: singlechoice
+    Text: Melyik fém fordul elő szobahőmérsékleten folyékony halmazállapotban?
+    A: A higany
+    B: Az arany
+    C: Az ezüst
+    D: A vas
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemfémes elem folyékony szobahőmérsékleten?
+    A: Bróm
+    B: Jód
+    C: Klór
+    D: Nitrogén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemfémes elem gáz szobahőmérsékleten?
+    A: Klór
+    B: Jód
+    C: Bróm
+    D: Kén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemfémes elem szilárd szobahőmérsékleten?
+    A: Jód
+    B: Klór
+    C: Bróm
+    D: Nitrogén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a kén?
+    A: Színes, sárga
+    B: Teljesen színtelen
+    C: Mindig fekete
+    D: Mindig kék
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen szagú a nitrogén?
+    A: Szagtalan
+    B: Szagos
+    C: Erős szagú
+    D: Kellemetlen szagú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemfémes elemnek van szaga?
+    A: Bróm
+    B: Nitrogén
+    C: Hidrogén
+    D: Oxigén
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely halmazállapotú lehet egy nemfémes elem szobahőmérsékleten?
+    Answers: [gáz, szilárd, folyadék, plazma]
+    Correct: [gáz, szilárd, folyadék]
+
+  - Type: singlechoice
+    Text: Miből épülnek fel a vegyületek?
+    A: Többféle atomból
+    B: Egyféle atomból
+    C: Kizárólag molekulákból
+    D: Csak ionokból
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire bonthatóak a vegyületek?
+    A: Egyszerűbb anyagokra
+    B: Csak különálló atomokra
+    C: Csak kisebb molekulákra
+    D: Semmilyen más anyagra
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből származik a vegyületek tudományos neve?
+    A: Az alkotó elemek nevéből
+    B: A felfedező tudós nevéből
+    C: A külső színükből
+    D: A halmazállapotukból
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a szervetlen vegyületeket?
+    A: Az élettelen környezet vegyületei
+    B: Az élő szervezetben megtalálhatók
+    C: A kőolaj összetevői
+    D: A földgáz összetevői
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a szerves vegyületeket?
+    A: Élő szervezetben és kőolajban
+    B: Kizárólag az élettelen környezetben
+    C: Kizárólag a vízben
+    D: Kizárólag a levegőben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mik a keverékek?
+    A: Elemet és vegyületet is tartalmazhat
+    B: Mindig csak egyféle anyagból állnak
+    C: Kizárólag egyféle atomból épülnek fel
+    D: Minden esetben kémiailag tiszták
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a keverékek komponenseinek arányát?
+    A: Változó
+    B: Állandó
+    C: Mindig 1:1
+    D: Mindig azonos
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tehetünk a keverékek összetevőivel?
+    A: Elválaszthatjuk őket egymástól
+    B: Semmilyen módon nem választhatók el
+    C: Csak hevítéssel lehet szétválasztani
+    D: Csak oldással lehet szétválasztani
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a szilárd anyagok keverékének példája?
+    A: A puskapor
+    B: A bor
+    C: A levegő
+    D: A tiszta ivóvíz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből áll a puskapor?
+    A: Kénporból, szénporból, salétromból
+    B: Kizárólag alkoholból és tiszta vízből
+    C: Csak oxigénből és nitrogénből
+    D: Csak vasból és szénből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a folyékony anyagok keverékének példája?
+    A: Bor
+    B: Puskapor
+    C: Levegő
+    D: Vas
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a gázelegy példája?
+    A: Levegő
+    B: Bor
+    C: Puskapor
+    D: Ivóvíz
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek kémiailag tiszta anyagok?
+    Answers: [elemek, vegyületek, keverékek, oldatok]
+    Correct: [elemek, vegyületek]
+
+  - Type: multiplechoice
+    Text: Melyek a keverékek fajtái halmazállapot szerint?
+    Answers: [szilárd anyagok keveréke, folyékony anyagok keveréke, gázelegyek, vegyületek]
+    Correct: [szilárd anyagok keveréke, folyékony anyagok keveréke, gázelegyek]
+
+  - Type: pairing
+    Text: Párosítsd az anyagot a csoportjával!
+    LeftTitle: Anyag
+    RightTitle: Csoport
+    Pairs:
+      - [puskapor, szilárd keverék]
+      - [bor, folyékony keverék]
+      - [levegő, gázelegy]
+      - [konyhasó, vegyület]
+
+  - Type: pairing
+    Text: Párosítsd a nemfémes elemet a halmazállapotával!
+    LeftTitle: Elem
+    RightTitle: Halmazállapot
+    Pairs:
+      - [klór, gáz]
+      - [jód, szilárd]
+      - [bróm, folyékony]
+
+  - Type: word
+    Text: Melyik fém folyékony szobahőmérsékleten?
+    Answers: [higany]
+    Correct: [higany]
+
+  - Type: word
+    Text: Melyik nemfémes elem folyékony szobahőmérsékleten?
+    Answers: [bróm]
+    Correct: [bróm]
+
+  - Type: word
+    Text: Melyik nemfémes elem szilárd szobahőmérsékleten?
+    Answers: [jód]
+    Correct: [jód]
+
+  - Type: word
+    Text: Mi a szén-dioxid, a kvarc és a konyhasó közös csoportja?
+    Answers: [vegyületek]
+    Correct: [vegyületek]
