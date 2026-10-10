@@ -1,0 +1,151 @@
+Quiz: Egyenlőségek a kémiában
+Source: mate_wiki/8.o/kemia/8.o.kemia.egyenlosegek.a.kemiaban.html
+Question:
+  - Type: singlechoice
+    Text: Mit mond ki a tömegmegmaradás törvénye?
+    A: A kiindulási anyagok és a termékek tömege egyenlő
+    B: A termékek tömege mindig nagyobb a kiindulási anyagokénál
+    C: A reakció során az anyagok tömege csökken
+    D: A tömeg csak fizikai változásnál marad meg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kémiai egyenlet?
+    A: Az átalakulás minőségi és mennyiségi leírása
+    B: Csak az anyag külső színének leírása
+    C: A reakció hőmérsékletének és nyomásának leírása
+    D: Csak a kiindulási anyagok felsorolása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért elfogadott a kémiai egyenlet világszerte?
+    A: Mert nyelvektől független
+    B: Mert csak egy országban használják
+    C: Mert mindig magyarul írják
+    D: Mert egyáltalán nem használják
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mire vonatkozik az egyenlőség a kémiai egyenletben?
+    Answers: [az atomok számára, az átalakuló anyagok tömegére, a keletkező anyagok tömegére, az anyagok színére]
+    Correct: [az atomok számára, az átalakuló anyagok tömegére, a keletkező anyagok tömegére]
+
+  - Type: singlechoice
+    Text: Mi a kémiai egyenletírás első lépése?
+    A: Ismerni a kiindulási és a termékanyagokat
+    B: Ki kell számolni a reakció pontos hőmérsékletét
+    C: Meg kell mérni az anyagok színét
+    D: Fel kell írni az együtthatókat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kiindulási anyag?
+    A: A reakcióba lépő anyagok
+    B: A reakció során keletkezett anyagok
+    C: A reakció termékei
+    D: Az egyenlet együtthatói
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a termék?
+    A: A reakcióban keletkezett anyagok
+    B: A reakcióba lépő kiindulási anyagok
+    C: Az oldat
+    D: Az együttható
+    Correct: A
+
+  - Type: word
+    Text: Mi a neve a képletek elé írt számoknak?
+    Answers: [együttható]
+    Correct: [együttható]
+
+  - Type: singlechoice
+    Text: Mit jelent, ha egy képlet előtt nincs szám?
+    A: Egyet
+    B: Nullát
+    C: Kettőt
+    D: Végtelent
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen együtthatókkal írjuk fel az egyenletet?
+    A: A legkisebb pozitív egészekkel
+    B: A lehető legnagyobb számokkal
+    C: Törtszámokkal és negatív számokkal
+    D: Negatív számokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nem változtatunk meg az egyenletrendezés során?
+    A: A vegyjeleket és a képleteket
+    B: Az együtthatókat és a számokat
+    C: A nyilak irányát
+    D: A reakció nevét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a hidrogén égésének helyes egyenlete?
+    A: 2 H2 + O2 = 2 H2O
+    B: H2 + O2 = H2O
+    C: H2 + 2 O2 = H2O
+    D: 2 H2 + 2 O2 = H2O
+    Correct: A
+
+  - Type: word
+    Text: Mi a hidrogén elemmolekulájának képlete?
+    Answers: [H2]
+    Correct: [H2]
+
+  - Type: word
+    Text: Mi az oxigén elemmolekulájának képlete?
+    Answers: [O2]
+    Correct: [O2]
+
+  - Type: word
+    Text: Mi a víz képlete?
+    Answers: [H2O]
+    Correct: [H2O]
+
+  - Type: multiplechoice
+    Text: Melyek jelölhetők vegyjellel az atomrácsos elemek és a fémek közül?
+    Answers: [C, Fe, Cu, H2]
+    Correct: [C, Fe, Cu]
+
+  - Type: multiplechoice
+    Text: Melyek molekulákból felépülő vegyületek képletei?
+    Answers: [CO2, NH3, CH4, NaCl]
+    Correct: [CO2, NH3, CH4]
+
+  - Type: singlechoice
+    Text: Hogyan jelöljük az atom- vagy ionrácsos vegyületeket?
+    A: Anyagképlettel
+    B: Elemmolekula képletével
+    C: Csak vegyjellel
+    D: Csak szóval
+    Correct: A
+
+  - Type: word
+    Text: Melyik vegyület képlete a NaCl?
+    Answers: [konyhasó]
+    Correct: [konyhasó]
+
+  - Type: singlechoice
+    Text: Melyik anyag képlete a CO2?
+    A: A szén-dioxid
+    B: A víz
+    C: Az ammónia nevű gáz
+    D: A metán
+    Correct: A
+
+  - Type: ordering
+    Text: Rendezd a kémiai egyenletírás lépéseit helyes sorrendbe!
+    Items:
+      - az egyenlet rendezése
+      - a kiindulási anyag és a termék ismerete
+      - a kiindulási anyagok és a termékek képleteinek ismerete
+      - a helyes együtthatók ellenőrzése
+    Correct:
+      - a kiindulási anyag és a termék ismerete
+      - a kiindulási anyagok és a termékek képleteinek ismerete
+      - az egyenlet rendezése
+      - a helyes együtthatók ellenőrzése

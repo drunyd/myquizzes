@@ -1,0 +1,147 @@
+Quiz: A kémiai reakciók csoportosítása
+Source: mate_wiki/8.o/kemia/8.o.kemia.a.kemiai.reakciok.csoportositasa.html
+Question:
+  - Type: singlechoice
+    Text: Mi a bomlás?
+    A: Egyféle anyagból kettő- vagy többféle anyag keletkezik
+    B: Két- vagy többféle anyagból egyféle új anyag keletkezik
+    C: Egy anyag halmazállapot-változása
+    D: Két oldat összeöntése
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az egyesülés?
+    A: Két- vagy többféle anyagból egyféle anyag keletkezik
+    B: Egyféle anyagból kettő- vagy többféle anyag keletkezik
+    C: Egy anyag szétesése atomokra
+    D: Egy anyag megolvadása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az exoterm reakció?
+    A: Hőtermelő reakció
+    B: Hőelnyelő reakció
+    C: Fényt elnyelő reakció
+    D: Gázfejlődéssel járó reakció
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi az exoterm reakciót?
+    A: A rendszer energiája csökken, a környezeté nő
+    B: A rendszer energiája nő, a környezeté csökken
+    C: Az energia nem változik
+    D: Csak fény keletkezik, hő nem
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az endoterm reakció?
+    A: Hőelnyelő reakció
+    B: Hőtermelő reakció
+    C: Csapadékképző reakció
+    D: Pillanatreakció
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi az endoterm reakciót?
+    A: A rendszer energiája nő, a környezeté csökken
+    B: A rendszer energiája csökken, a környezeté nő
+    C: Az energia nem változik
+    D: Csak hő keletkezik, fény nem
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely szempontok szerint csoportosítjuk a kémiai reakciókat?
+    Answers: [a kiindulási anyagok és termékek száma, az energiaváltozás, a reakció sebessége, az anyagok színe]
+    Correct: [a kiindulási anyagok és termékek száma, az energiaváltozás, a reakció sebessége]
+
+  - Type: singlechoice
+    Text: Mi jellemzi a gázfejlődéssel járó reakciót?
+    A: Szilárd anyagokból gáz keletkezik
+    B: Gázokból szilárd anyag keletkezik
+    C: Folyadékból szilárd anyag keletkezik
+    D: Szilárd anyagból folyadék lesz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a csapadék?
+    A: Vízben rosszul oldódó szilárd anyag
+    B: Vizes oldatban keletkező gázhalmazállapot
+    C: A reakció kiindulási anyaga
+    D: A vízben jól oldódó anyag
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a csapadékképződés során?
+    A: Az oldatból szilárd anyag válik ki
+    B: Az oldatból gáz távozik el gyorsan
+    C: Az oldat azonnal felforr
+    D: Az oldat megfagy
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az időreakció?
+    A: Hosszabb időt igénybe vevő
+    B: Szinte azonnal lejátszódó
+    C: Csapadékot képző reakció
+    D: Gázfejlődéssel járó reakció
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a pillanatreakció?
+    A: Szinte mérhetetlenül gyors reakció
+    B: Nagyon hosszú időt igénybe vevő reakció
+    C: Csapadékot képző reakció
+    D: Hőelnyelő reakció
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mivel befolyásolható egy reakció ideje?
+    Answers: [katalizátorral, a hőmérséklet megválasztásával, a körülmények megválasztásával, az anyag színével]
+    Correct: [katalizátorral, a hőmérséklet megválasztásával, a körülmények megválasztásával]
+
+  - Type: pairing
+    Text: Párosítsd a reakciótípusokat a jellemzőjükkel!
+    LeftTitle: Reakciótípus
+    RightTitle: Jellemző
+    Pairs:
+      - [Bomlás, egyféle anyagból több anyag keletkezik]
+      - [Egyesülés, több anyagból egyféle anyag keletkezik]
+      - [Exoterm reakció, hő termelődik, a rendszer energiája csökken]
+      - [Endoterm reakció, hő elnyelődik, a rendszer energiája nő]
+
+  - Type: singlechoice
+    Text: Melyik reakció játszódik le szinte azonnal?
+    A: Pillanatreakció
+    B: Időreakció
+    C: Bomlás
+    D: Csapadékképződés
+    Correct: A
+
+  - Type: word
+    Text: Milyen anyag keletkezik vizes oldatban, amely vízben rosszul oldódik?
+    Answers: [csapadék]
+    Correct: [csapadék]
+
+  - Type: singlechoice
+    Text: Minek a jele a hőfelszabadulás?
+    A: Exoterm reakció
+    B: Endoterm reakció
+    C: Bomlás
+    D: Egyesülés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik példa az egyesülésre?
+    A: Több anyagból egy anyag lesz
+    B: Egy anyagból két vagy több anyag lesz
+    C: Egy anyag megolvad
+    D: Egy oldat felforr
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik példa a bomlásra?
+    A: Egy anyagból több anyag lesz
+    B: Több anyagból egy anyag lesz
+    C: Két oldat összeöntése
+    D: Egy anyag megfagy
+    Correct: A

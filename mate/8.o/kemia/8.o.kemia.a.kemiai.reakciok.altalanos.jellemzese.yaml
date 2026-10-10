@@ -1,0 +1,151 @@
+Quiz: A kémiai reakciók általános jellemzése
+Source: mate_wiki/8.o/kemia/8.o.kemia.a.kemiai.reakciok.altalanos.jellemzese.html
+Question:
+  - Type: singlechoice
+    Text: Mik a kémiai reakciók?
+    A: Olyan változások, amelyek során új anyag keletkezik
+    B: Olyan változások, amelyek során csak a halmazállapot változik
+    C: Olyan folyamatok, amelyek során nem keletkezik új anyag
+    D: Olyan folyamatok, amelyek csak fizikai változást jelentenek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miben térnek el a termékek a kiindulási anyagoktól?
+    A: Kémiai minőségükben és tulajdonságaikban
+    B: Kizárólag a tömegükben és a külső alakjukban
+    C: Kizárólag a színükben
+    D: Semmiben, teljesen azonosak maradnak
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek példák kémiai reakcióra?
+    Answers: [a magnézium szalag égetése, a kénlap égetése, a víz megfagyása, az üveg összetörése]
+    Correct: [a magnézium szalag égetése, a kénlap égetése]
+
+  - Type: word
+    Text: Mi keletkezik a magnézium szalag égetésekor?
+    Answers: [MgO]
+    Correct: [MgO]
+
+  - Type: word
+    Text: Mi keletkezik a kénlap égetésekor?
+    Answers: [SO2]
+    Correct: [SO2]
+
+  - Type: multiplechoice
+    Text: Mely feltételek szükségesek a reakció végbemeneteléhez?
+    Answers: [a részecskék ütközése, a megfelelő irány, a megfelelő energia, a nagy nyomás]
+    Correct: [a részecskék ütközése, a megfelelő irány, a megfelelő energia]
+
+  - Type: singlechoice
+    Text: Hogyan nevezzük, ha a feltételek együttesen megvalósulnak?
+    A: Hatásos ütközés
+    B: Véletlen találkozás
+    C: Kémiai egyensúly
+    D: Lassú égés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik, ha valamelyik feltétel hiányzik?
+    A: A kémiai átalakulás elmarad
+    B: A reakció mindenképpen végbemegy
+    C: Az anyagok azonnal szétesnek
+    D: Új anyag keletkezik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a katalizátor?
+    A: Növeli a reakció sebességét, de nem fogy el
+    B: A reakció során teljesen elfogy és átalakul
+    C: Teljesen leállítja a kémiai reakció lefolyását
+    D: Minden esetben jelentős hőt termel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a katalizátorral a reakció végén?
+    A: Változatlanul visszamarad
+    B: Teljesen elfogy a reakció során
+    C: Más anyaggá alakul át
+    D: Elpárolog a levegőbe
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen módon gyorsítható a hidrogén-peroxid bomlása?
+    Answers: [melegítéssel, barnakőporral, hűtéssel, hígítással]
+    Correct: [melegítéssel, barnakőporral]
+
+  - Type: word
+    Text: Mi a barnakőpor kémiai neve?
+    Answers: [mangán-dioxid]
+    Correct: [mangán-dioxid]
+
+  - Type: word
+    Text: Mi a barnakőpor vegyjele?
+    Answers: [MnO2]
+    Correct: [MnO2]
+
+  - Type: singlechoice
+    Text: Mely anyagok keletkeznek a hidrogén-peroxid bomlásakor?
+    A: Oxigén és víz
+    B: Hidrogén és víz
+    C: Szén-dioxid és víz
+    D: Nitrogén és oxigén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért lassú a hidrogén-peroxid bomlása vizes oldatban?
+    A: Kevés részecske elég energikus
+    B: Mert nincs benne oxigén
+    C: Mert túl sok benne a katalizátor
+    D: Mert túl magas a hőmérséklete
+    Correct: A
+
+  - Type: word
+    Text: Hogyan nevezzük az élő szervezetben működő katalizátorokat?
+    Answers: [enzimek]
+    Correct: [enzimek]
+
+  - Type: singlechoice
+    Text: Melyik enzim található meg a nyálban?
+    A: Az amiláz
+    B: A kataláz
+    C: A pepszin
+    D: A lipáz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit segít az amiláz enzim?
+    A: A tápanyagok lebontását
+    B: A tápanyagok felépítését
+    C: Az oxigén szállítását
+    D: A vér alvadását
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért van szükség katalizátorra az élőlényekben?
+    A: Hogy megfelelő sebességgel játszódjanak le
+    B: Mert az élőlények nem termelnek hőt
+    C: Mert egyáltalán nincs bennük elegendő víz soha
+    D: Mert a reakciók mindig azonnal lezajlanak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol játszódik le a kémiai reakciók jelentős része?
+    A: Magas hőmérsékleten és nyomáson
+    B: Szobahőmérsékleten és légköri nyomáson
+    C: Csak vákuumban
+    D: Csak fény jelenlétében
+    Correct: A
+
+  - Type: word
+    Text: Mi a hidrogén-peroxid képlete?
+    Answers: [H2O2]
+    Correct: [H2O2]
+
+  - Type: singlechoice
+    Text: Mire példa a gyufa meggyújtása?
+    A: A reakcióhoz feltételek kellenek
+    B: A reakció mindig magától lejátszódik
+    C: A hősem befolyásol semmit
+    D: A gyufa egyáltalán nem éghető
+    Correct: A

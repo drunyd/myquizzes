@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A kémiai reakciók csoportosítása</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A kémiai reakciók csoportosítása</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kiindulási anyagok és a termékek száma alapján</h2>
+            <ul>
+              <li><strong>Bomlás:</strong> egyféle anyagból kettő- vagy többféle anyag keletkezik.</li>
+              <li><strong>Egyesülés:</strong> két- vagy többféle anyagból egyféle anyag keletkezik.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Energiaváltozás alapján</h2>
+            <ul>
+              <li><strong>Exoterm (hőtermelő) reakció:</strong> a rendszer energiája csökken, a környezet energiája nő.</li>
+              <li><strong>Endoterm (hőelnyelő) reakció:</strong> a rendszer energiája nő, a környezet energiája csökken.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Gázfejlődéssel / csapadékképződéssel járó reakciók</h2>
+            <ul>
+              <li><strong>Gázfejlődéssel járó kémiai reakciók:</strong> azok a kémiai átalakulások, amelyek során a nem gáz halmazállapotú kiindulási anyagokból gáz halmazállapotú termék keletkezik.</li>
+              <li><strong>Csapadék:</strong> vizes oldatban keletkező, vízben rosszul oldódó szilárd anyag.</li>
+              <li><strong>Csapadékképződéssel járó kémiai reakciók:</strong> azok a kémiai reakciók, amelyek során egy oldatból kémiai reakció következményeként szilárd halmazállapotú anyag válik ki.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Pillanatreakció / időreakció</h2>
+            <ul>
+              <li>Sebesség alapú besorolás.</li>
+              <li><strong>Időreakció:</strong> azon kémiai változások, amelyek végbemenetele hosszabb időt vesz igénybe.</li>
+              <li><strong>Pillanatreakciók:</strong> gyorsan, szinte mérhetetlenül rövid idő alatt játszódnak le.</li>
+              <li>Az idő befolyásolása: katalizátor, a körülmények célnak megfelelő megválasztása, például a hőmérséklet befolyásolása.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A kémiai reakciókat többféle szempont szerint csoportosíthatjuk: hány anyagból hány anyag lesz, jár-e hőváltozással, keletkezik-e gáz vagy csapadék, és milyen gyorsan játszódik le. <a href="https://hu.wikipedia.org/wiki/K%C3%A9miai_reakci%C3%B3" target="_blank" rel="noopener">Kémiai reakció</a></p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A szódabikarbóna és az ecet összeöntése gázfejlődéssel járó reakció: a keletkező szén-dioxid pezsegve távozik.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Gázfejlődés a konyhában</h2>
+            <p>A szódabikarbóna (nátrium-hidrogén-karbonát) és az ecet (ecetsav) reakciója során szén-dioxid gáz keletkezik. Ezért használják a sütéshez is: a gáz felfújja a tésztát.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Baking%20soda%20and%20vinegar.jpg?width=800" class="figure-img img-fluid rounded" alt="Szódabikarbóna és ecet reakciója">
+              <figcaption class="figure-caption">Szódabikarbóna és ecet: gázfejlődéssel járó reakció. <a href="https://commons.wikimedia.org/wiki/File:Baking_soda_and_vinegar.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Csapadékképződés</h2>
+            <p>Ha két oldatot összeöntünk, néha a keletkező anyag vízben rosszul oldódik, ezért szilárd formában kiválik — ez a csapadék. Ilyen például az ezüst-klorid fehér csapadéka. <a href="https://hu.wikipedia.org/wiki/Csapad%C3%A9k" target="_blank" rel="noopener">Csapadék</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Precipitation.jpg?width=800" class="figure-img img-fluid rounded" alt="Csapadékképződés">
+              <figcaption class="figure-caption">Csapadékképződés: szilárd anyag válik ki az oldatból. <a href="https://commons.wikimedia.org/wiki/File:Precipitation.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A csapadék mindig szilárd, és vízben rosszul oldódó anyag — ez különbözteti meg az oldat többi részétől.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Hőtermelő reakció: az exoterm</h2>
+            <p>Az exoterm reakciókban hő szabadul fel, ezért a környezet melegszik. Látványos példa a termitreakció, amelynél nagyon magas hőmérséklet keletkezik. <a href="https://hu.wikipedia.org/wiki/Termit" target="_blank" rel="noopener">Termit</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Thermite.jpg?width=800" class="figure-img img-fluid rounded" alt="Termitreakció">
+              <figcaption class="figure-caption">A termitreakció heves, erősen exoterm folyamat. <a href="https://commons.wikimedia.org/wiki/File:Thermite.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az élőlények anyagcseréje is exoterm folyamatokra épül: a szervezetünk hője is kémiai reakciókból származik.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A kémiai reakciók általános jellemzése</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A kémiai reakciók általános jellemzése</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Felkészülünk a kémiai változásra</h2>
+            <ul>
+              <li>A kémiai reakciók olyan változások, amelyek során új anyag keletkezik.</li>
+              <li>A reakciók termékei kémiai minőségükben, tulajdonságaikban is eltérnek a kiindulási anyagoktól.</li>
+              <li>Például:
+                <ul>
+                  <li>magnézium szalag égetése (MgO)</li>
+                  <li>kénlap égetése (SO2)</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Végbemegy vagy nem megy végbe?</h2>
+            <ul>
+              <li>Feltételek: a reakciópartnerek részecskéinek
+                <ul>
+                  <li>ütközése,</li>
+                  <li>megfelelő iránya,</li>
+                  <li>megfelelő energiája.</li>
+                </ul>
+              </li>
+              <li>Ha a tényezők együttesen megvalósulnak, hatásos ütközésről beszélünk.</li>
+              <li>Amennyiben valamelyik tényező hiányzik (nincs megfelelő hőmérséklet), a kémiai átalakulás elmarad.</li>
+              <li>Például: gyufa meggyújtása.</li>
+              <li>A hidrogén és a jód reakciója (H2 + I2 = 2 HI) nem minden esetben vezet reakcióhoz, csak a megfelelő irány esetén.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Segít, gyorsít, megmarad – a katalizátor</h2>
+            <ul>
+              <li>A kémiai reakciók jelentős része magas hőmérsékleten és nyomáson megy végbe.</li>
+              <li>Sokszor nem lehetséges ezeknek a feltételeknek a biztosítása (élő szervezet).</li>
+              <li>Példa: a hidrogén-peroxid (H2O2) bomlása. Megfelelő körülmények között O2 és H2O keletkezik. Vizes oldatában csak kevés részecske rendelkezik elég energiával a bomláshoz.</li>
+              <li>A reakció gyorsítása lehetséges:
+                <ul>
+                  <li>melegítés,</li>
+                  <li>barnakőpor (mangán-dioxid, MnO2).</li>
+                </ul>
+              </li>
+              <li>Azokat az anyagokat, amelyek megnövelik egy reakció sebességét, de a reakció végén változatlan mennyiségben és kémiai minőségben visszamaradnak, katalizátoroknak nevezzük.</li>
+              <li>A kémiai reakciók jelentős részéhez szükséges: vegyipar.</li>
+              <li>Az élőlényekben lejátszódó kémiai folyamatok jelentős részéhez szükséges a katalizátor (megfelelő sebesség). Ezek az enzimek.</li>
+              <li>Például emésztőenzim: az amiláz enzim, amely a nyálban található meg, és segíti a tápanyagok lebontását.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A kémiai reakciók során a kiindulási anyagokból új anyagok lesznek — ezt láthatjuk például akkor, amikor a magnézium szalag vakító fénnyel elég, és fehér por (magnézium-oxid) marad utána. <a href="https://hu.wikipedia.org/wiki/K%C3%A9miai_reakci%C3%B3" target="_blank" rel="noopener">Kémiai reakció</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Magnesium%20ribbon%20burning.jpg?width=800" class="figure-img img-fluid rounded" alt="Égő magnéziumszalag">
+              <figcaption class="figure-caption">Égő magnéziumszalag — látványos kémiai reakció. <a href="https://commons.wikimedia.org/wiki/File:Magnesium_ribbon_burning.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A „hatásos ütközés” azt jelenti, hogy a részecskék megfelelő irányban és elegendő energiával találkoznak. Ha csak az egyik feltétel teljesül, nem indul be a reakció.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A katalizátor a gyakorlatban</h2>
+            <p>A hidrogén-peroxid lassan bomlik, de egy kis barnakőpor (MnO2) hatására hirtelen felgyorsul: sok oxigéngáz keletkezik. Ezt a látványos kísérletet „elefántfogkrémnek” is nevezik. <a href="https://hu.wikipedia.org/wiki/Kataliz%C3%A1tor" target="_blank" rel="noopener">Katalizátor</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20toothpaste.jpg?width=800" class="figure-img img-fluid rounded" alt="Elefántfogkrém kísérlet">
+              <figcaption class="figure-caption">Az „elefántfogkrém” kísérlet: a H2O2 gyors bomlása. <a href="https://commons.wikimedia.org/wiki/File:Elephant_toothpaste.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A katalizátor a reakció végén változatlanul visszamarad — vagyis nem fogy el, csak „segít”. Ezért már egy kis mennyiség is elég belőle.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az enzimek: katalizátorok az élő szervezetben</h2>
+            <p>Az élőlényekben a kémiai folyamatoknak megfelelő sebességgel kell lejátszódniuk, ezért ott enzimek dolgoznak katalizátorként. Az amiláz például a nyálban található, és már a szánkban elkezdi bontani a keményítőt. <a href="https://hu.wikipedia.org/wiki/Enzim" target="_blank" rel="noopener">Enzim</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Catalase.jpg?width=800" class="figure-img img-fluid rounded" alt="Kataláz enzim">
+              <figcaption class="figure-caption">A kataláz enzim is bontja a hidrogén-peroxidot. <a href="https://commons.wikimedia.org/wiki/File:Catalase.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: ha a sebesült bőrre hidrogén-peroxidot öntünk, az pezsegni kezd — ezt a vérben lévő kataláz enzim gyorsítja.</p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

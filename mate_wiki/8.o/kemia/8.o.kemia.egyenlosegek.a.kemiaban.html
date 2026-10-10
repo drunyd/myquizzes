@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egyenlőségek a kémiában</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Egyenlőségek a kémiában</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A tömegmegmaradás törvénye</h2>
+            <ul>
+              <li>Akár fizikai, akár kémiai reakció történik, az átalakuló anyagok együttes tömege megegyezik a termékek együttes tömegével.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai egyenlet</h2>
+            <ul>
+              <li>Olyan rendszer, amely a világ minden táján elfogadott, és ugyanazt jelenti, nyelvektől függetlenül.</li>
+              <li><strong>Kémiai egyenlet:</strong> az anyag átalakulásának minőségi és mennyiségi leírása.</li>
+              <li>Az egyenlőség vonatkozik:
+                <ul>
+                  <li>az atomok számára,</li>
+                  <li>az átalakuló és a keletkező anyagok tömegére.</li>
+                </ul>
+              </li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai egyenletírás lépései</h2>
+            <ol>
+              <li>Tudni kell, hogy milyen kiindulási anyagból milyen termék keletkezik.
+                <ul>
+                  <li><strong>Kiindulási anyag:</strong> egymással reakcióba lépő anyagok.</li>
+                  <li><strong>Termékek:</strong> a keletkezett anyagok.</li>
+                  <li>Példa: a hidrogén gázt meggyújtom, az oxigénnel egyesül és vízzé ég el. Hidrogén + oxigén = víz.</li>
+                </ul>
+              </li>
+              <li>Ismerni kell a kiindulási anyagok és a termékek kémiai jelét (vegyjel, képlet). H2 + O2 = H2O.</li>
+              <li>A reakcióegyenleteket rendezni kell. A vegyjelek és a képletek elé olyan számokat írunk (együtthatók, szorzótényezők), amelyeknek megfelelően a reakcióegyenlet két oldalán az azonos atomok száma megegyezik (anyagmegmaradás és tömegmegmaradás elve). 2 H2 + O2 = 2 H2O.</li>
+            </ol>
+            <h3>Figyelem!</h3>
+            <ul>
+              <li>A vegyjeleket és a képleteket az egyenletrendezés során nem változtatjuk meg.</li>
+              <li>Az egyes együtthatót nem írjuk ki (ha nincs szám, az egyet jelent).</li>
+              <li>Balról jobbra haladunk az értelmezésben.</li>
+              <li>Az egyenleteket a lehető legkisebb pozitív egész együtthatókkal írjuk fel.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Hogyan jelöljük a reakcióegyenletben</h2>
+            <ul>
+              <li><strong>Molekulákból felépülő elemek:</strong> elemmolekulák képlete: H2, O2, Cl2, S.</li>
+              <li><strong>Molekulákból felépülő vegyületek:</strong> vegyületmolekula képlete: CO2, NH3, CH4.</li>
+              <li><strong>Atomrácsos elemek és a fémek:</strong> vegyjel: C, Fe, Cu, Sn, Pb, Au.</li>
+              <li><strong>Atom- vagy ionrácsos vegyületek:</strong> anyagképlet: SiO2, NaCl, CaCO3.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A kémiai egyenlet olyan „nyelv”, amelyet a világ minden vegyésze ugyanúgy értelmez. Segítségével pontosan leírjuk, milyen anyagokból mi keletkezik — és azt is, mennyi. <a href="https://hu.wikipedia.org/wiki/K%C3%A9miai_egyenlet" target="_blank" rel="noopener">Kémiai egyenlet</a></p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A kémiai egyenlet nyelve független az emberi nyelvektől: egy magyar, egy német és egy japán vegyész ugyanazt olvassa ki a 2 H2 + O2 = 2 H2O egyenletből.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A tömegmegmaradás törvénye</h2>
+            <p>Ha egy mérlegen lemérnénk a kiindulási anyagokat és a keletkezett termékeket, ugyanannyit kapnánk. A zárt rendszerben az anyag nem tűnik el és nem keletkezik a semmiből — csak átalakul.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Balance.jpg?width=800" class="figure-img img-fluid rounded" alt="Kétkarú mérleg">
+              <figcaption class="figure-caption">A tömegmegmaradás törvénye: a két oldal tömege egyenlő. <a href="https://commons.wikimedia.org/wiki/File:Balance.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Példa: a víz keletkezése</h2>
+            <p>A hidrogén és az oxigén egyesüléséből víz lesz. A képlet megmutatja, miből és mennyiből áll a vízmolekula: H2O, vagyis két hidrogénatom és egy oxigénatom. <a href="https://hu.wikipedia.org/wiki/V%C3%ADz" target="_blank" rel="noopener">Víz</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Water-3D-balls.png?width=800" class="figure-img img-fluid rounded" alt="A vízmolekula modellje">
+              <figcaption class="figure-caption">A vízmolekula (H2O) golyómodellje. <a href="https://commons.wikimedia.org/wiki/File:Water-3D-balls.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Vegyjelek és képletek</h2>
+            <p>A reakcióegyenlet megírásához ismerni kell az elemek vegyjelét és a vegyületek képletét. Ezeket a periódusos rendszer foglalja össze.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Periodic%20table%20large.svg?width=800" class="figure-img img-fluid rounded" alt="A periódusos rendszer">
+              <figcaption class="figure-caption">A periódusos rendszer: minden elem vegyjelével. <a href="https://commons.wikimedia.org/wiki/File:Periodic_table_large.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: az egyenlet mindkét oldalán ugyanannyi atomnak kell lennie. Számold meg a 2 H2 + O2 = 2 H2O egyenletben a hidrogén- és oxigénatomokat! </p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

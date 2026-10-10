@@ -1,0 +1,147 @@
+Quiz: Az égés
+Source: mate_wiki/8.o/kemia/8.o.kemia.az.eges.html
+Question:
+  - Type: multiplechoice
+    Text: Mi az égés három feltétele?
+    Answers: [oxigén, éghető anyag, gyulladási hőmérséklet, víz]
+    Correct: [oxigén, éghető anyag, gyulladási hőmérséklet]
+
+  - Type: singlechoice
+    Text: Mivel való reakció az égés?
+    A: Oxigénnel
+    B: Nitrogénnel
+    C: Vízgőzzel
+    D: Szén-dioxiddal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen energiaváltozással jár az égés legtöbbször?
+    A: Hőfelszabadulással
+    B: Hőelnyelődéssel jár
+    C: Hőváltozás nélkül
+    D: Mindig lehűléssel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a gyors égést?
+    A: Fényjelenséggel is jár
+    B: Fényjelenség nélkül zajlik
+    C: Gyulladási hőmérséklet alatt zajlik
+    D: Nagyon lassan zajlik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a lassú égést?
+    A: A gyulladási hőmérséklet alatt zajlik
+    B: Mindig nagyon erős fényjelenséggel jár
+    C: Szinte azonnal lejátszódik
+    D: Mindig robbanással jár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a tökéletes égés?
+    A: A termékek tovább már nem éghetőek
+    B: Az égés termékei tovább is éghetőek
+    C: Az égéshez nincs elég oxigén
+    D: Az égés fényjelenség nélkül zajlik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a tökéletlen égés oka?
+    A: Nincs elég oxigén
+    B: Túl sok az oxigén
+    C: Túl alacsony a hőmérséklet
+    D: Nincs éghető anyag
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a legáltalánosabb tűzoltó szer?
+    A: A víz
+    B: A homok
+    C: A benzin
+    D: Az olaj
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mivel nem oltható vízzel a tűz?
+    Answers: [kőolaj, benzin, étolaj, papír]
+    Correct: [kőolaj, benzin, étolaj]
+
+  - Type: singlechoice
+    Text: Miért nem oltható vízzel az étolaj?
+    A: A sűrűsége miatt
+    B: Mert nem éghető
+    C: Mert túl hideg
+    D: Mert nincs oxigén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért nem szabad vizet használni elektromos berendezés tüzénél?
+    A: Az áramütés veszélye miatt
+    B: Mert a víz egyáltalán nem olthat
+    C: Mert a víz maga is ég
+    D: Mert nincs elég víz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit kell tenni elektromos tűz esetén először?
+    A: Áramtalanítani
+    B: Víz alá tartani
+    C: Megszagolni
+    D: Ablakot nyitni
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Milyen anyagokat használnak a tűzoltó készülékekben?
+    Answers: [por, hab, szén-dioxid, homok]
+    Correct: [por, hab, szén-dioxid]
+
+  - Type: singlechoice
+    Text: Mi a tűzoltó készülékek hátránya olajtűznél?
+    A: A nyomás szétfröccsenti az olajt
+    B: Egyáltalán nem oltják el a tüzet
+    C: Több oxigént visznek a tűzbe
+    D: Nagyon drágák
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel oltjuk az égő embert vagy az égő benzint?
+    A: Pokróccal
+    B: Vízzel
+    C: Homokkal
+    D: Szén-dioxiddal
+    Correct: A
+
+  - Type: word
+    Text: Mi a tűzoltóság telefonszáma?
+    Answers: [105]
+    Correct: [105]
+
+  - Type: multiplechoice
+    Text: Mit kell jelenteni tűz esetén?
+    Answers: [a tűz pontos helyét, a bejelentő nevét és telefonszámát, hogy mi ég és mekkora területen, az időjárást]
+    Correct: [a tűz pontos helyét, a bejelentő nevét és telefonszámát, hogy mi ég és mekkora területen]
+
+  - Type: singlechoice
+    Text: Mi a tűzoltás lényege?
+    A: Megszüntetjük az égés egyik feltételét
+    B: Növeljük az éghető anyag mennyiségét gyorsan
+    C: Több oxigént juttatunk a tűzbe
+    D: Emeljük a gyulladási hőmérsékletet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért fontos tudni, hogy mi ég?
+    A: Mert ez határozza meg a tűzoltó szert
+    B: Mert így sokkal több oxigén kerül a tűzbe
+    C: Mert csak a színtől függ
+    D: Mert semmit nem befolyásol
+    Correct: A
+
+  - Type: singlechoice
+    Text: Tűz esetén hova kell telefonálni?
+    A: A tűzoltósághoz, a 105-ös számon
+    B: A rendőrséghez, a 107-es telefonszámon
+    C: A mentőkhöz, a 104-es számon
+    D: Az iskolába
+    Correct: A
