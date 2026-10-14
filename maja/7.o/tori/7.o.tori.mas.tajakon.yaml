@@ -1,0 +1,355 @@
+Quiz: Más tájakon
+Source: maja_wiki/7.o/tori/7.o.tori.mas.tajakon.html
+Question:
+  - Type: singlechoice
+    Text: Miben versenyeztek a nagy hatalmak a XIX. században?
+    A: A meghódítható területekért
+    B: A béke megőrzéséért
+    C: A rabszolgaság eltörléséért
+    D: A tudományos felfedezésekért
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemzet nyomására vetettek véget Japán elzárkózásának?
+    A: Az USA
+    B: Anglia és Franciaország
+    C: Németország és Olaszország
+    D: Oroszország
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország nyomására nyitotta meg Kína a határait?
+    A: Anglia
+    B: Franciaország és Németország
+    C: Az USA
+    D: Oroszország és Japán
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi lett Kína sorsa az ópiumháború következtében?
+    A: Félgyarmat lett
+    B: Független nagyhatalom lett
+    C: Japán gyarmata lett
+    D: Anglia teljes gyarmata lett
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik két ország volt Afrika fő gyarmatosítója?
+    A: Anglia és Franciaország
+    B: Németország és Olaszország
+    C: Az USA és Japán
+    D: Oroszország és az Osztrák–Magyar Monarchia
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország gyarmata lett Egyiptom?
+    A: Anglia
+    B: Franciaország
+    C: Németország
+    D: Olaszország
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért volt stratégiailag fontos Egyiptom?
+    A: A szuezi-csatorna miatt
+    B: Az ópiumkereskedelem miatt
+    C: A börtönszigetek miatt
+    D: A japán piac miatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely nyersanyagok miatt volt fontos Dél-Afrika?
+    A: Gyémánt és arany
+    B: Ópium és tea
+    C: Kőolaj, földgáz és kősó
+    D: Szén és vasérc
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen céllal indult Ausztrália az angolok számára?
+    A: Börtönszigetként
+    B: Katonai támaszpontként
+    C: Kereskedelmi központként
+    D: Gyémántbányaként
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi indította el Ausztrália gyors fejlődését?
+    A: Az arany felfedezése
+    B: Az ópiumkereskedelem fellendülése
+    C: A börtönök bezárása
+    D: A japán befektetések
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi lett az ausztráliai fejlődés következménye?
+    A: Bevándorlás indult meg
+    B: A gyarmat megszűnt
+    C: Japán megszállta
+    D: Németország gyarmata lett
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország emelkedett a világ vezető hatalmai közé a fejlődése nyomán?
+    A: Japán
+    B: Kína és India
+    C: Az Oszmán Birodalom
+    D: Az Osztrák–Magyar Monarchia
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik esemény tette Kínát félgyarmattá?
+    A: Az ópiumháború
+    B: A japán–kínai háború
+    C: Az 1912-es forradalom
+    D: A szuezi válság
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország indult angol börtönszigetként?
+    A: Ausztrália
+    B: Új-Zéland és India
+    C: Dél-Afrika
+    D: Egyiptom
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi volt a gyarmatosítás egyik célja a forrás szerint?
+    A: Katonai támaszpont szerzése
+    B: A béke megőrzése a világon
+    C: A gyarmatok iparosítása
+    D: Az ópiumkereskedelem betiltása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelentett a „fehér civilizáció” terjesztése?
+    A: A gyarmatosítás egyik célját
+    B: A gyarmatok függetlenségét
+    C: Az elzárkózás megszüntetésének okát
+    D: A kereskedelem betiltását
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik földrészen volt Anglia és Franciaország a fő gyarmatosító?
+    A: Afrikában
+    B: Ausztráliában és Japánban
+    C: Kínában és Indiában
+    D: Európában
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik terület volt angol gyarmat a forrás szerint?
+    A: Dél-Afrika
+    B: Japán és Kína
+    C: Az USA nyugati része
+    D: Új-Zéland és Kína
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért nyitotta meg Kína a határait?
+    A: Angol nyomásra
+    B: Japán támadása miatt
+    C: Az USA nyomására
+    D: Orosz fenyegetés miatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történt Japánban 1867 után?
+    A: Gyors fejlődés indult meg
+    B: Az elzárkózás folytatódott
+    C: Anglia gyarmata lett
+    D: Polgárháború tört ki
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért váltak fontossá a gyarmatok a nagy hatalmak számára?
+    A: Nyersanyagforrást és piacot jelentettek
+    B: Mert a helyi lakosság önként csatlakozott hozzájuk
+    C: Mert ott nem volt szükség katonai támaszpontra
+    D: Mert segítettek az elzárkózás fenntartásában
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen két dolog miatt volt fontos Egyiptom és Dél-Afrika?
+    A: Stratégiai fekvés és nyersanyagok
+    B: Az ópiumtermelés és a tea
+    C: A börtönök és a hajógyárak
+    D: Az elzárkózás és a kereskedelem szabadsága
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik államban indult meg 1867-től a gyors fejlesztés?
+    A: Japánban
+    B: Kínában és Indiában
+    C: Egyiptomban
+    D: Ausztráliában
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország lett 1912-ben köztársaság?
+    A: Kína
+    B: Japán és Korea
+    C: Egyiptom
+    D: Új-Zéland
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik cél nem szerepelt a gyarmatosítás céljai között?
+    A: A gyarmatok függetlensége
+    B: Nyersanyagforrás és piac szerzése
+    C: Katonai támaszpont létesítése
+    D: Erőfitogtatás és a fehér civilizáció terjesztése
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország gyarmata lett Dél-Afrika?
+    A: Anglia
+    B: Franciaország és Németország
+    C: Japán
+    D: Az USA
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek voltak a gyarmatosítás céljai a forrás szerint?
+    Answers: [nyersanyagforrás és piac, katonai támaszpont, erőfitogtatás, a „fehér civilizáció” terjesztése, a gyarmatok függetlensége]
+    Correct: [nyersanyagforrás és piac, katonai támaszpont, erőfitogtatás, a „fehér civilizáció” terjesztése]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Kínára?
+    Answers: [Angol nyomásra megnyitotta a határait, Az ópiumháború után félgyarmat lett, 1912-ben köztársaság lett, 1867-től gyors fejlődés indult meg]
+    Correct: [Angol nyomásra megnyitotta a határait, Az ópiumháború után félgyarmat lett, 1912-ben köztársaság lett]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Japánra?
+    Answers: [Az USA nyomására véget ért az elzárkózás, 1867-től gyors fejlődés indult meg, A világ vezető hatalmai közé emelkedett, Anglia gyarmata lett]
+    Correct: [Az USA nyomására véget ért az elzárkózás, 1867-től gyors fejlődés indult meg, A világ vezető hatalmai közé emelkedett]
+
+  - Type: multiplechoice
+    Text: Mely országok voltak Afrika fő gyarmatosítói?
+    Answers: [Anglia, Franciaország, Japán, Oroszország]
+    Correct: [Anglia, Franciaország]
+
+  - Type: multiplechoice
+    Text: Mely országok lettek angol gyarmatok a forrás szerint?
+    Answers: [Egyiptom, Dél-Afrika, Ausztrália, Kína]
+    Correct: [Egyiptom, Dél-Afrika, Ausztrália]
+
+  - Type: multiplechoice
+    Text: Mely nyersanyagok miatt volt fontos Dél-Afrika?
+    Answers: [gyémánt, arany, ópium, tea]
+    Correct: [gyémánt, arany]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Ausztráliára és Új-Zélandra?
+    Answers: [Angol börtönszigetként indult, A nyersanyagai miatt gyorsan fejlődött, Bevándorlás indult meg, Az USA gyarmata volt]
+    Correct: [Angol börtönszigetként indult, A nyersanyagai miatt gyorsan fejlődött, Bevándorlás indult meg]
+
+  - Type: multiplechoice
+    Text: Miben nyilvánult meg a nagy hatalmak versengése?
+    Answers: [területszerzés, katonai támaszpontok létesítése, erőfitogtatás, a kereskedelem teljes beszüntetése]
+    Correct: [területszerzés, katonai támaszpontok létesítése, erőfitogtatás]
+
+  - Type: multiplechoice
+    Text: Mely évszámok szerepelnek a forrásban Kínával és Japánnal kapcsolatban?
+    Answers: [1853, 1867, 1912, 1904]
+    Correct: [1853, 1867, 1912]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Egyiptomra?
+    Answers: [Angol gyarmat lett, A szuezi-csatorna miatt stratégiailag fontos volt, Dél-Afrika része volt, Japán elfoglalta]
+    Correct: [Angol gyarmat lett, A szuezi-csatorna miatt stratégiailag fontos volt]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Kína és Japán megnyitására?
+    Answers: [Anglia nyitotta meg Kínát, Az USA nyitotta meg Japánt, Franciaország nyitotta meg Japánt, Oroszország nyitotta meg Kínát]
+    Correct: [Anglia nyitotta meg Kínát, Az USA nyitotta meg Japánt]
+
+  - Type: multiplechoice
+    Text: Mely országok nem voltak Afrika fő gyarmatosítói?
+    Answers: [Japán, Oroszország, Anglia, Franciaország]
+    Correct: [Japán, Oroszország]
+
+  - Type: word
+    Text: Melyik évben vetettek véget Japán elzárkózásának?
+    Answers: [1853]
+    Correct: [1853]
+
+  - Type: word
+    Text: Melyik évben kezdődött Japán gyors fejlődése?
+    Answers: [1867]
+    Correct: [1867]
+
+  - Type: word
+    Text: Melyik évben lett Kínából köztársaság?
+    Answers: [1912]
+    Correct: [1912]
+
+  - Type: word
+    Text: Melyik ország nyomására nyitotta meg Japán a kapuit?
+    Answers: [USA]
+    Correct: [USA]
+
+  - Type: word
+    Text: Mi lett Kína sorsa az ópiumháború következtében?
+    Answers: [félgyarmat]
+    Correct: [félgyarmat]
+
+  - Type: word
+    Text: Melyik csatorna tette stratégiailag fontossá Egyiptomot?
+    Answers: [szuezi-csatorna]
+    Correct: [szuezi-csatorna]
+
+  - Type: word
+    Text: Milyen felfedezés indította el Ausztrália gyors fejlődését?
+    Answers: [arany]
+    Correct: [arany]
+
+  - Type: word
+    Text: Hogyan indult Ausztrália és Új-Zéland az angolok számára?
+    Answers: [börtönszigetként]
+    Correct: [börtönszigetként]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a gyarmatosítás céljait, ahogy a forrás felsorolja!
+    Items:
+      - erőfitogtatás
+      - nyersanyagforrás és piac
+      - a „fehér civilizáció” terjesztése
+      - katonai támaszpont
+    Correct:
+      - nyersanyagforrás és piac
+      - katonai támaszpont
+      - erőfitogtatás
+      - a „fehér civilizáció” terjesztése
+
+  - Type: ordering
+    Text: Rendezd időrendbe a forrásban szereplő eseményeket!
+    Items:
+      - 1867 – Japán gyors fejlődésének kezdete
+      - 1912 – Kínából köztársaság lesz
+      - 1853 – véget ér Japán elzárkózása
+    Correct:
+      - 1853 – véget ér Japán elzárkózása
+      - 1867 – Japán gyors fejlődésének kezdete
+      - 1912 – Kínából köztársaság lesz
+
+  - Type: pairing
+    Text: Párosítsd össze a területeket a hozzájuk tartozó jellemzővel!
+    LeftTitle: Terület
+    RightTitle: Jellemző
+    Pairs:
+      - [Kína, angol nyomásra megnyitotta a határait, majd félgyarmat lett]
+      - [Japán, 1867-től gyors fejlődésnek indult]
+      - [Egyiptom, angol gyarmat lett]
+      - [Dél-Afrika, gyémánt és arany miatt volt fontos]
+      - [Ausztrália és Új-Zéland, angol börtönszigetként indult]
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [ópiumháború, ezt követően Kína félgyarmat lett]
+      - [elzárkózás, Japán politikája 1853 előtt]
+      - [szuezi-csatorna, stratégiailag fontos víziút Egyiptomban]
+      - [arany, Ausztrália gyors fejlődésének indító oka]

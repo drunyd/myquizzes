@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Más tájakon</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .goal-list li { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Más tájakon</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A gyarmatosítás céljai</h2>
+            <p class="mb-2">A XIX. században a nagy hatalmak versenyeztek a meghódítható területekért. Céljuk:</p>
+            <ol>
+              <li>Nyersanyagforrás és piac.</li>
+              <li>Katonai támaszpont.</li>
+              <li>Erőfitogtatás.</li>
+              <li>A „fehér civilizáció” terjesztése.</li>
+            </ol>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kína</h2>
+            <p class="mb-0">Angol nyomásra kénytelen megnyitni határait és az ópium háború következtében félgyarmat lesz. 1912-ben köztársaság lesz.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Japán</h2>
+            <p class="mb-0">Az elzárkózásnak USA nyomásra véget vetnek (1853) és 1867-től gyors fejlesztésbe kezdenek. A világ vezető hatalmai közé emelkednek.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Afrika</h2>
+            <p class="mb-0">Anglia és Franciaország a fő gyarmatosító. Egyiptom és D-Afrika angol gyarmat. (Stratégiailag fontos pl. szuezi-csatorna, nyersanyag miatt fontos pl. gyémánt, arany.)</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ausztrália és Új-Zéland</h2>
+            <p class="mb-0">Angol börtönszigetként indul, de nyersanyagai miatt (arany) gyors fejlődésnek indul = bevándorlás.</p>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A 19. században a nagy hatalmak szinte az egész világot felosztották egymás között: megjelentek Ázsiában, Afrikában és a Csendes-óceán térségében is. A „más tájak” népei közben sokszor elveszítették a függetlenségüket, néhány ország viszont gyorsan megerősödött — például Japán. Az egész verseny hátteréről a <a href="https://hu.wikipedia.org/wiki/Gyarmatos%C3%ADt%C3%A1s" target="_blank" rel="noopener">gyarmatosítás</a> szócikkben olvashatsz.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Scramble-for-Africa-1880-1913.png?width=800" class="figure-img img-fluid rounded" alt="Afrika felosztása 1880 és 1913 között">
+              <figcaption class="figure-caption">Afrika felosztása 1880 és 1913 között. <a href="https://commons.wikimedia.org/wiki/File:Scramble-for-Africa-1880-1913.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> 1884–85-ben a nagyhatalmak <a href="https://hu.wikipedia.org/wiki/Berlini_konferencia" target="_blank" rel="noopener">berlini konferencián</a> ültek össze, és ott szinte vonalzóval osztották fel Afrikát. A mai országhatárok egy része is ekkor született.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kína és Japán: kétféle út</h2>
+            <p><a href="https://hu.wikipedia.org/wiki/%C3%93piumh%C3%A1bor%C3%BA" target="_blank" rel="noopener">Kínát</a> az angolok nyomták rá az ópiumkereskedelemre: az 1839–42-es első ópiumháború után, a nankingi szerződésben kellett megnyitnia kikötőit. 1911 végén forradalom tört ki, és 1912. január 1-jén kikiáltották a <a href="https://hu.wikipedia.org/wiki/K%C3%ADnai_K%C3%B6zt%C3%A1rsas%C3%A1g" target="_blank" rel="noopener">kínai köztársaságot</a>, amelynek első ideiglenes elnöke Szun Jat-szen lett.</p>
+            <p>Japán másképp járt: 1853-ban <a href="https://hu.wikipedia.org/wiki/Matthew_C._Perry" target="_blank" rel="noopener">Matthew C. Perry</a> amerikai hajói kikényszerítették az ország megnyitását, majd az 1868-as <a href="https://hu.wikipedia.org/wiki/Meidzsi-restaur%C3%A1ci%C3%B3" target="_blank" rel="noopener">Meidzsi-restauráció</a> után Japán gyorsan iparosodott, és néhány évtized alatt nagyhatalommá vált.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Opium%20War%20(cropped).jpg?width=800" class="figure-img img-fluid rounded" alt="Az ópiumháború illusztrációja">
+                  <figcaption class="figure-caption">Ópiumháború Kínában — a brit hajók és a kínai partok harca. <a href="https://commons.wikimedia.org/wiki/File:Opium_War_(cropped).jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Black%20and%20white%20portrait%20of%20emperor%20Meiji%20of%20Japan.jpg?width=800" class="figure-img img-fluid rounded" alt="Meidzsi japán császár portréja">
+                  <figcaption class="figure-caption">Meidzsi császár (Mucuhito), aki alatt Japán modern nagyhatalommá vált. <a href="https://commons.wikimedia.org/wiki/File:Black_and_white_portrait_of_emperor_Meiji_of_Japan.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> Kína és Japán ugyanabban az időben került kapcsolatba a nyugati hatalmakkal, a végeredmény mégis egészen más lett: Kína félgyarmat lett, Japán viszont maga is gyarmatosító hatalommá vált.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Afrika: stratégia és nyersanyag</h2>
+            <p>Afrika fő gyarmatosítói Anglia és Franciaország voltak. Angliának Egyiptom azért kellett, mert 1869-ben megnyílt a <a href="https://hu.wikipedia.org/wiki/Szuezi-csatorna" target="_blank" rel="noopener">szuezi-csatorna</a>, a Földközi-tengert a Vörös-tengerrel összekötő víziút; 1882-ben az ország a brit befolyás alá került. Dél-Afrikát a gyémánt és az arany tette értékessé: <a href="https://hu.wikipedia.org/wiki/Kimberley_(D%C3%A9l-afrikai_K%C3%B6zt%C3%A1rsas%C3%A1g)" target="_blank" rel="noopener">Kimberley</a> gyémántbányái és a witwatersrandi aranylelőhelyek miatt robbant ki a második búr háború is.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Suez%20Canal%201882.JPG?width=800" class="figure-img img-fluid rounded" alt="A Szuezi-csatorna 1882-ben">
+              <figcaption class="figure-caption">A Szuezi-csatorna 1882-ben — Nagy-Britannia legfontosabb tengeri útvonalainak egyike. <a href="https://commons.wikimedia.org/wiki/File:Suez_Canal_1882.JPG" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kimberley%20Diamond%20Mine%20-%206069373400.jpg?width=800" class="figure-img img-fluid rounded" alt="A kimberleyi gyémántbánya">
+              <figcaption class="figure-caption">A hatalmas kimberleyi gyémántbánya Dél-Afrikában. <a href="https://commons.wikimedia.org/wiki/File:Kimberley_Diamond_Mine_-_6069373400.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A szuezi-csatorna 193 km hosszú, és 1869-es megnyitása után sokkal rövidebb lett az út Európa és Ázsia között, mint Afrika megkerülésével.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ausztrália és Új-Zéland</h2>
+            <p><a href="https://hu.wikipedia.org/wiki/Ausztr%C3%A1lia" target="_blank" rel="noopener">Ausztrália</a> angol börtönszigetként indult: 1788-tól szállították ide a brit elítélteket. Később az arany felfedezése indított be óriási bevándorlást, és az ország 1901-ben önálló államszövetség lett. <a href="https://hu.wikipedia.org/wiki/%C3%9Aj-Z%C3%A9land" target="_blank" rel="noopener">Új-Zéland</a> hasonló utat járt be: brit gyarmatból erős, önálló országgá fejlődött.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/First%20Fleet%20entering%20Sydney%201788%20Bradley.jpg?width=800" class="figure-img img-fluid rounded" alt="Az első flotta Sydney kikötőjébe érkezik 1788-ban">
+                  <figcaption class="figure-caption">Az első brit flotta Sydney kikötőjébe érkezik 1788-ban. <a href="https://commons.wikimedia.org/wiki/File:First_Fleet_entering_Sydney_1788_Bradley.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Edward%20Roper%20-%20Gold%20diggings%2C%20Ararat%2C%201854.jpg?width=800" class="figure-img img-fluid rounded" alt="Ausztrál aranyásók 1854-ben">
+                  <figcaption class="figure-caption">Ausztrál aranyásók 1854-ben — az arany sokakat vonzott a világ minden tájáról. <a href="https://commons.wikimedia.org/wiki/File:Edward_Roper_-_Gold_diggings,_Ararat,_1854.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <p class="mb-2">Az aranylázra az <a href="https://hu.wikipedia.org/wiki/Aranyl%C3%A1z" target="_blank" rel="noopener">Aranyláz</a> szócikkben találsz több részletet.</p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> Ugyanaz a nyersanyag, az arany egyszerre volt Dél-Afrikában a háború és Ausztráliában a gyors fejlődés oka. A vagyoni érték mindig magával hozta a versengést is.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
