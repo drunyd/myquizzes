@@ -120,10 +120,10 @@ Question:
   - Type: ordering
     Text: Rendezd időrendbe a következő eseményeket!
     Items:
-      - II. világháború vége
-      - Truman-elv meghirdetése
       - Berlini fal ledöntése
+      - II. világháború vége
       - Szovjetunió felbomlása
+      - Truman-elv meghirdetése
     Correct:
       - II. világháború vége
       - Truman-elv meghirdetése
@@ -251,10 +251,10 @@ Question:
   - Type: ordering
     Text: Rendezd időrendbe a hidegháború alábbi eseményeit!
     Items:
-      - II. világháború vége
-      - NATO alapítása
       - Varsói Szerződés létrehozása
       - Szovjetunió felbomlása
+      - II. világháború vége
+      - NATO alapítása
     Correct:
       - II. világháború vége
       - NATO alapítása
@@ -316,10 +316,10 @@ Question:
   - Type: ordering
     Text: Rendezd időrendbe a hidegháború alábbi eseményeit!
     Items:
-      - Sputnyik-1 fellövése
-      - Jurij Gagarin első űrrepülése
       - Apollo–11 holdra szállása
+      - Sputnyik-1 fellövése
       - Szovjetunió felbomlása
+      - Jurij Gagarin első űrrepülése
     Correct:
       - Sputnyik-1 fellövése
       - Jurij Gagarin első űrrepülése
