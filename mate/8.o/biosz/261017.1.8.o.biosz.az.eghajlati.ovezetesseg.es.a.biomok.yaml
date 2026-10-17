@@ -1,0 +1,357 @@
+Quiz: Az éghajlati övezetesség és a biomok
+Source: mate_wiki/8.o/biosz/261017.1.8.o.biosz.az.eghajlati.ovezetesseg.es.a.biomok.html
+Question:
+  - Type: singlechoice
+    Text: Mit figyelhetünk meg a hasonló éghajlatú területeken?
+    A: Az erdők ugyanolyan megjelenésűek
+    B: Az élővilág mindenhol teljesen azonos
+    C: Csak a csapadék mennyisége azonos
+    D: Egyáltalán nincsenek erdők ezeken a tájakon
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mitől alakulnak ki eltérő éghajlatú területek a Földön?
+    A: A Nap melege és fénye, valamint a csapadék
+    B: Kizárólag az éves csapadék mennyiségétől és a szelektől
+    C: A talaj színétől és a növényzettől
+    D: A tengervíz sótartalmától és színétől
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a tundra éves csapadéka?
+    A: 200–400 mm hó
+    B: 400–600 mm eső
+    C: 1500 mm eső
+    D: 2000–10000 mm eső
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit követnek a biomok?
+    A: Az éghajlati övezetességet
+    B: A kontinensek alakját
+    C: Az emberi településeket
+    D: A folyók vízgyűjtő területeit
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a csapadék éves mennyisége a trópusi esőerdőkben?
+    A: 2000–10000 mm
+    B: 1500–2000 mm között
+    C: 400–600 mm
+    D: 200–500 mm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi az évi középhőmérséklet a trópusi esőerdőkben?
+    A: 25–29 °C
+    B: 24–26 °C
+    C: 10 °C körül
+    D: -30 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jelenik meg a szavannán az Egyenlítőtől távolabb?
+    A: Esős és száraz évszak
+    B: Állandó hó és jégborítottság
+    C: Szinte mindennapos esőzés
+    D: Négy évszak váltakozása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a szavanna csapadéka az esős évszakban?
+    A: 1500 mm
+    B: 2000–10000 mm
+    C: 200–500 mm
+    D: 400–600 mm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a szavanna évi középhőmérséklete?
+    A: 24–26 °C
+    B: 10 °C körül
+    C: 20 °C
+    D: -30 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a sivatag éves csapadéka?
+    A: 200 mm alatt
+    B: 400–600 mm
+    C: 1500 mm
+    D: 2000–10000 mm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a sivatag évi középhőmérséklete?
+    A: 20 °C
+    B: 10 °C körül
+    C: 25–29 °C
+    D: -30 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora hőingás lehet a sivatagban?
+    A: 40 °C is lehet
+    B: Legfeljebb 10 °C
+    C: Csak néhány fok
+    D: Semekkora, mert állandó a hőmérséklet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik övezetre jellemző a négy évszak?
+    A: A mérsékelt övezetre
+    B: A trópusi övezetre
+    C: A hideg övezetre
+    D: A sarkvidékek területére
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a mérsékelt övezet évi középhőmérséklete?
+    A: 10 °C körül
+    B: 25–29 °C
+    C: 20 °C körül alakul
+    D: -30 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mitől függ a mérsékelt övezetben az évi közepes hőingás és a csapadék?
+    A: Az óceánoktól való távolságtól
+    B: A tengervíz sótartalmától és hőmérsékletétől
+    C: A talaj színétől
+    D: A növények magasságától
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen erdőtípus jellemző a mérsékelt övezet partokhoz közeli részén?
+    A: Lombhullató erdő
+    B: Trópusi esőerdő
+    C: Tűlevelű erdő
+    D: Keménylombú babérlombú erdő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen talaj jellemző a mérsékelt övezeti lombhullató erdőkre?
+    A: Barna erdőtalaj
+    B: Fekete öntéstalaj
+    C: Vörös agyagtalaj
+    D: Homokos sivatagi talaj
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a füves puszták éves csapadéka?
+    A: 200–500 mm
+    B: 400–600 mm
+    C: 1500 mm
+    D: 2000–10000 mm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely biomok találhatók a kontinensek belsejében?
+    A: Mérsékelt övezeti sivatagok
+    B: Trópusi esőerdők és szavannák
+    C: Tundrák
+    D: Sarkvidéki jégmezők és örök fagy birodalma
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol találhatók a keménylombú és babérlombú erdők?
+    A: A mérsékelt övezet trópusok felé eső szakaszán
+    B: A hideg övezet határán, a sarkkörök közvetlen közelében
+    C: Az Egyenlítő mentén
+    D: A sarkvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol találhatók a tűlevelű erdők?
+    A: A mérsékelt övezet hideg övezet felé eső részén
+    B: A trópusi övezetben, közvetlenül az Egyenlítő mentén
+    C: A kontinensek meleg belsejében
+    D: A mérsékelt övezet trópusok felé eső részén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a tűlevelű erdők évi középhőmérséklete?
+    A: 0 °C
+    B: 10 °C körül
+    C: 20 °C
+    D: 25–29 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a tűlevelű erdők éves csapadéka?
+    A: 400–600 mm
+    B: 200–500 mm
+    C: 1500 mm
+    D: 2000–10000 mm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a sarkvidéki területek biomjára?
+    A: Állandó hó és jégborítottság
+    B: Négy évszak és lombhullató erdők
+    C: Szinte mindennapos trópusi esőzés
+    D: Száraz és esős évszak váltakozása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a sarkvidékek évi középhőmérséklete?
+    A: -30 °C
+    B: 0 °C
+    C: 10 °C körül
+    D: 25–29 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a szavanna hőingására a trópusi esőerdőkéhez képest?
+    A: Nagyobb
+    B: Kisebb
+    C: Ugyanakkora
+    D: Egyáltalán nincs hőingás
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyik három nagy éghajlati övezet alakult ki az Egyenlítőtől északra és délre?
+    Answers: [trópusi, mérsékelt, hideg, egyenlítői]
+    Correct: [trópusi, mérsékelt, hideg]
+
+  - Type: multiplechoice
+    Text: Mely tényezők alakítják ki az eltérő éghajlatú területeket?
+    Answers: [a Nap melege, a Nap fénye, a csapadék mennyisége, a talaj színe]
+    Correct: [a Nap melege, a Nap fénye, a csapadék mennyisége]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a biomra?
+    Answers: [a populációk társulásokká szerveződése, nagy kiterjedésű életközösség, az éghajlati övezetességet követi, minden kontinensen ugyanazok a fajok élnek]
+    Correct: [a populációk társulásokká szerveződése, nagy kiterjedésű életközösség, az éghajlati övezetességet követi]
+
+  - Type: multiplechoice
+    Text: Mely biomok tartoznak a trópusi övezethez?
+    Answers: [trópusi esőerdő, szavanna, sivatag, tundra]
+    Correct: [trópusi esőerdő, szavanna, sivatag]
+
+  - Type: multiplechoice
+    Text: Mely adatok jellemzik a trópusi esőerdőket?
+    Answers: [2000–10000 mm csapadék, 25–29 °C évi középhőmérséklet, szinte minden nap esik az eső, esős és száraz évszak váltakozik]
+    Correct: [2000–10000 mm csapadék, 25–29 °C évi középhőmérséklet, szinte minden nap esik az eső]
+
+  - Type: multiplechoice
+    Text: Mely adatok jellemzik a szavannát?
+    Answers: [1500 mm csapadék az esős évszakban, 24–26 °C évi középhőmérséklet, esős és száraz évszak, szinte mindennapos esőzés]
+    Correct: [1500 mm csapadék az esős évszakban, 24–26 °C évi középhőmérséklet, esős és száraz évszak]
+
+  - Type: multiplechoice
+    Text: Mely adatok jellemzik a sivatagot?
+    Answers: [200 mm alatti csapadék, 20 °C évi középhőmérséklet, nagy hőingás, állandó hótakaró]
+    Correct: [200 mm alatti csapadék, 20 °C évi középhőmérséklet, nagy hőingás]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a mérsékelt övezetre?
+    Answers: [négy évszak, 10 °C körüli évi középhőmérséklet, a csapadék az óceánoktól való távolságtól függ, szinte minden nap esik az eső]
+    Correct: [négy évszak, 10 °C körüli évi középhőmérséklet, a csapadék az óceánoktól való távolságtól függ]
+
+  - Type: multiplechoice
+    Text: Mely biomok találhatók a mérsékelt övezetben?
+    Answers: [lombhullató erdő, füves puszta, tűlevelű erdő, trópusi esőerdő]
+    Correct: [lombhullató erdő, füves puszta, tűlevelű erdő]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a keménylombú és babérlombú erdőkre?
+    Answers: [enyhe tél, forró nyár, rövid tavasz és rövid ősz, a mérsékelt övezet trópusok felé eső szakaszán élnek, állandó hó borítja]
+    Correct: [enyhe tél, forró nyár, rövid tavasz és rövid ősz, a mérsékelt övezet trópusok felé eső szakaszán élnek]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a tűlevelű erdőkre?
+    Answers: [0 °C évi középhőmérséklet, 400–600 mm csapadék, rövid meleg nyár és nagyon hideg hosszú tél, tavasz és ősz egy-két hét, négy hosszú évszak]
+    Correct: [0 °C évi középhőmérséklet, 400–600 mm csapadék, rövid meleg nyár és nagyon hideg hosszú tél, tavasz és ősz egy-két hét]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a hideg övezetre?
+    Answers: [a sarkkörök területén tundra található, a tundra csapadéka 200–400 mm hó, a sarkvidékeken állandó a hó és a jég, a tundrán négy évszak váltakozik]
+    Correct: [a sarkkörök területén tundra található, a tundra csapadéka 200–400 mm hó, a sarkvidékeken állandó a hó és a jég]
+
+  - Type: word
+    Text: Hogyan nevezzük a populációk társulásokká szerveződésével kialakuló nagy kiterjedésű életközösségeket?
+    Answers: [biom]
+    Correct: [biom]
+
+  - Type: word
+    Text: Hogyan nevezzük az éghajlati övezetességet követő biomokat?
+    Answers: [zonális biomok]
+    Correct: [zonális biomok]
+
+  - Type: word
+    Text: Melyik válaszvonalról indulva alakult ki északra és délre is három nagy övezet?
+    Answers: [Egyenlítő]
+    Correct: [Egyenlítő]
+
+  - Type: word
+    Text: Hány nagy éghajlati övezet alakult ki az Egyenlítőtől északra és délre?
+    Answers: [3]
+    Correct: [3]
+
+  - Type: word
+    Text: Milyen irányú övezetesség figyelhető meg az Egyenlítőtől a sarkokig?
+    Answers: [vízszintes]
+    Correct: [vízszintes]
+
+  - Type: word
+    Text: Melyik biom található a sarkkörök területén?
+    Answers: [tundra]
+    Correct: [tundra]
+
+  - Type: word
+    Text: Melyik éghajlati övezetben találhatók a füves puszták?
+    Answers: [mérsékelt]
+    Correct: [mérsékelt]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a trópusi övezet biomjait aszerint, ahogy az Egyenlítőtől távolodunk!
+    Items:
+      - sivatag
+      - trópusi esőerdő
+      - szavanna
+    Correct:
+      - trópusi esőerdő
+      - szavanna
+      - sivatag
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a nagy éghajlati övezeteket az Egyenlítőtől a sarkok felé!
+    Items:
+      - hideg övezet
+      - trópusi övezet
+      - mérsékelt övezet
+    Correct:
+      - trópusi övezet
+      - mérsékelt övezet
+      - hideg övezet
+
+  - Type: pairing
+    Text: Párosítsd össze a biomokat a rájuk jellemző csapadékadatokat!
+    LeftTitle: Biom
+    RightTitle: Csapadék
+    Pairs:
+      - [trópusi esőerdő, 2000–10000 mm évente]
+      - [szavanna, 1500 mm az esős évszakban]
+      - [sivatag, 200 mm alatt]
+      - [tűlevelű erdő, 400–600 mm évente]
+
+  - Type: pairing
+    Text: Párosítsd össze a biomokat az élőhelyükkel!
+    LeftTitle: Biom
+    RightTitle: Élőhely
+    Pairs:
+      - [tundra, a sarkkörök területe]
+      - [füves puszta, "mérsékelt övezet, a partoktól távolabb"]
+      - [keménylombú erdő, "mérsékelt övezet, a trópusok felé eső szakasz"]
+      - [sarkvidéki biom, az örök fagy birodalma]
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [övezetesség, hasonló éghajlatú területeken hasonló megjelenésű erdők]
+      - [biom, nagy kiterjedésű életközösség]
+      - [zonális biom, az éghajlati övezetességet követő biom]
+      - [vízszintes övezetesség, az Egyenlítőtől a sarkokig megfigyelhető változás]

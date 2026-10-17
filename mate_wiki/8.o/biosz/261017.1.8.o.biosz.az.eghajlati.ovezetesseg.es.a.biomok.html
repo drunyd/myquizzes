@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az éghajlati övezetesség és a biomok</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .data-table td, .data-table th { padding: .35rem .6rem; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az éghajlati övezetesség és a biomok</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Övezetesség</h2>
+            <h3>Megfigyelés</h3>
+            <ul>
+              <li>Hasonló éghajlatú területeken az élővilág más és más, de az erdők ugyanolyan megjelenésűek.</li>
+            </ul>
+            <h3>Eltérő éghajlatú területek</h3>
+            <ul>
+              <li>A Nap melege, fénye máshogyan éri a Föld felszínét.</li>
+              <li>Eltérő a csapadék mennyisége.</li>
+            </ul>
+            <p class="mb-0">Az Egyenlítő a válaszvonal: innen északra és délre is 3 nagy övezet alakult ki: <strong>trópusi</strong>, <strong>mérsékelt</strong>, <strong>hideg övezet</strong>.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Övezetesség</h2>
+            <ul>
+              <li>Különböző éghajlat: eltérő növény- és állatvilág.</li>
+              <li><strong>Biom:</strong> a populációk társulásokká szerveződése, nagy kiterjedésű életközösségek.</li>
+              <li>A biomok az éghajlati övezetességet követik: <strong>zonális biomok</strong>.</li>
+              <li>Az Egyenlítőtől a sarkokig vízszintes övezetesség figyelhető meg.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Trópusi övezet</h2>
+            <h3>Trópusi esőerdők biomja</h3>
+            <ul>
+              <li>Az Egyenlítő mentén szinte minden nap esik az eső.</li>
+              <li>Csapadék éves mennyisége: 2000–10000 mm.</li>
+              <li>Évi középhőmérséklet: 25–29 °C.</li>
+            </ul>
+            <h3>Szavanna biomja</h3>
+            <ul>
+              <li>Az Egyenlítőtől távolabb csökken a csapadék mennyisége.</li>
+              <li>Megjelenik az esős és a száraz évszak.</li>
+              <li>Csapadék éves mennyisége: 1500 mm (esős évszak).</li>
+              <li>Évi középhőmérséklet: 24–26 °C, de a hőingás nagyobb.</li>
+            </ul>
+            <h3>Sivatag biomja</h3>
+            <ul>
+              <li>A csapadék mennyisége lecsökken évi 200 mm alá.</li>
+              <li>Évi középhőmérséklet: 20 °C, a hőingás nagyon nagy (40 °C is lehet).</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mérsékelt övezet</h2>
+            <ul>
+              <li>Négy évszak jellemző.</li>
+              <li>Évi középhőmérséklet: 10 °C körüli.</li>
+              <li>Az évi közepes hőingás és a csapadék mennyisége az óceánok távolságától függ.</li>
+            </ul>
+            <h3>Partok közelében jellemzően</h3>
+            <ul>
+              <li>Csapadék átlagos mennyisége: 500–800 mm (van ahol 1000 mm).</li>
+              <li>A nyár meleg, a tél hűvös.</li>
+              <li>Lombhullató erdők.</li>
+              <li>Barna erdőtalaj.</li>
+            </ul>
+            <h3>A partoktól távolabb: füves puszták</h3>
+            <ul>
+              <li>Csökken a csapadék mennyisége: 200–500 mm/év.</li>
+              <li>Nyár: meleg, száraz.</li>
+              <li>Tél: hideg, fagyos, hótakaró jelenik meg.</li>
+              <li>A csapadék főleg nyár elején és ősszel hullik.</li>
+              <li>Nagyobb a hőmérséklet ingadozása.</li>
+            </ul>
+            <h3>A kontinensek belsejében: mérsékelt övezeti sivatagok</h3>
+            <ul>
+              <li>Az éves csapadék mennyisége: 200 mm alatt.</li>
+              <li>A hőingás nagy.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mérsékelt övezet</h2>
+            <h3>Keménylombú erdők, babérlombú erdők</h3>
+            <ul>
+              <li>A mérsékelt övezet trópusok felé eső szakaszain találhatóak meg.</li>
+              <li>Négy évszak jellemzi: enyhe tél, forró nyár, rövid tavasz, rövid ősz.</li>
+            </ul>
+            <h3>Tűlevelű erdők</h3>
+            <ul>
+              <li>A mérsékelt övezet hideg övezet felé eső részén találhatóak.</li>
+              <li>Évi középhőmérséklet: 0 °C.</li>
+              <li>Éves csapadék mennyisége: 400–600 mm.</li>
+              <li>Nyár: rövid, meleg.</li>
+              <li>Tél: nagyon hideg, hosszú.</li>
+              <li>Tavasz, ősz: egy-két hét.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Hideg övezet</h2>
+            <h3>Sarkörök területe: tundra</h3>
+            <ul>
+              <li>Éves középhőmérséklet nem éri el a 0 °C-t sem.</li>
+              <li>Csapadék évi mennyisége: 200–400 mm (hó).</li>
+              <li>Évszakok száma: 2 — hosszú, hideg, szeles tél és rövid, hűvös nyár.</li>
+            </ul>
+            <h3>Sarkvidéki területek: sarkvidékek biomja, az örök fagy birodalma</h3>
+            <ul>
+              <li>Éves középhőmérséklet: -30 °C.</li>
+              <li>Állandó hó-, jégborítottság.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A Földön nem mindenhol ugyanolyan az éghajlat, ezért más-más növény- és állatvilág alakult ki. A hasonló éghajlatú területeken viszont hasonló megjelenésű erdők és életközösségek találhatók — ezeket nevezzük biomoknak. A biomok az <a href="https://hu.wikipedia.org/wiki/%C3%89ghajlati_%C3%B6vezetek" target="_blank" rel="noopener">éghajlati övezeteket</a> követik, ezért zonális biomoknak hívjuk őket.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Biomes%20of%20the%20world.svg?width=800" class="figure-img img-fluid rounded" alt="A Föld szárazföldi biomjainak térképe">
+              <figcaption class="figure-caption">A Föld fő biomjai: az Egyenlítőtől a sarkok felé haladva más-más életközösségek követik egymást. <a href="https://commons.wikimedia.org/wiki/File:Biomes_of_the_world.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az övezetesség fő oka, hogy a Nap sugarai a trópusokon meredekebben, a sarkok felé egyre laposabb szögben érik a felszínt. Ráadásul a Föld tengelye 23,5°-kal meg van dőlve — ezért alakulnak ki az évszakok.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A trópusi övezet biomjai</h2>
+            <p>Az Egyenlítő mentén, ahol a legtöbb a csapadék és a meleg, a <a href="https://hu.wikipedia.org/wiki/Es%C5%91erd%C5%91" target="_blank" rel="noopener">trópusi esőerdő</a> díszlik. Az Egyenlítőtől távolabb már váltakozik az esős és a száraz évszak: ez a <a href="https://hu.wikipedia.org/wiki/Szavanna" target="_blank" rel="noopener">szavanna</a>. Ahol a csapadék évi 200 mm alá esik, ott már csak a <a href="https://hu.wikipedia.org/wiki/Sivatag" target="_blank" rel="noopener">sivatag</a> marad meg.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20primary%20tropical%20rainforest%2C%20southern%20Thailand.jpg?width=800" class="figure-img img-fluid rounded" alt="Trópusi esőerdő lombkoronája">
+                  <figcaption class="figure-caption">Trópusi esőerdő: szinte minden nap esik az eső. <a href="https://commons.wikimedia.org/wiki/File:Khao_Sok_primary_tropical_rainforest,_southern_Thailand.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Acacia%20Kenya%20Savannah.jpg?width=800" class="figure-img img-fluid rounded" alt="Szavanna akácfákkal Kenyában">
+                  <figcaption class="figure-caption">Szavanna: esős és száraz évszak váltakozik. <a href="https://commons.wikimedia.org/wiki/File:Acacia_Kenya_Savannah.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sand%20dune%20in%20the%20desert%2C%20Sahara%20Desert%2C%20Egypt.jpg?width=800" class="figure-img img-fluid rounded" alt="Homokdűne a Szahara sivatagban">
+              <figcaption class="figure-caption">Sivatag: évi 200 mm alatti csapadék, nagy hőingás. <a href="https://commons.wikimedia.org/wiki/File:Sand_dune_in_the_desert,_Sahara_Desert,_Egypt.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> 1 mm csapadék azt jelenti, hogy egy négyzetméternyi felületre 1 liter víznek megfelelő eső hullott. A trópusi esőerdőben ez évente akár 10 000 liter is lehet négyzetméterenként.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mérsékelt övezet</h2>
+            <p>A <a href="https://hu.wikipedia.org/wiki/M%C3%A9rs%C3%A9kelt_%C3%B6v" target="_blank" rel="noopener">mérsékelt övben</a> négy évszak váltakozik, és attól függően alakul a növényzet, hogy milyen messze vagyunk az óceánoktól. A partok közelében lombhullató erdők és barna erdőtalaj, a partoktól távolabb füves puszták, a kontinensek belsejében pedig mérsékelt övezeti sivatagok találhatók. A hideg övezet felé haladva tűlevelű erdők jelennek meg — ezek az úgynevezett <a href="https://hu.wikipedia.org/wiki/Tajga" target="_blank" rel="noopener">tajgák</a>.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ergaki%2C%20Taiga%20in%20Siberia%2C%20Coniferous%20forest%2C%20Sayan%20Mountains%2C%20Siberia%2C%20Russia.jpg?width=800" class="figure-img img-fluid rounded" alt="Tűlevelű erdő Szibériában">
+              <figcaption class="figure-caption">Tűlevelű erdő (tajga) Szibériában: rövid, meleg nyár és hosszú, nagyon hideg tél. <a href="https://commons.wikimedia.org/wiki/File:Ergaki,_Taiga_in_Siberia,_Coniferous_forest,_Sayan_Mountains,_Siberia,_Russia.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A mérsékelt övezetben a csapadék mennyisége 2000 mm-től (partok közelében) 200 mm alá (a kontinensek belsejében) csökkenhet. Ugyanabban az övezetben is többféle biom lehet, ha más a csapadék.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A hideg övezet</h2>
+            <p>A sarkkörök területén a <a href="https://hu.wikipedia.org/wiki/Tundra" target="_blank" rel="noopener">tundra</a> jellemző: az éves középhőmérséklet még a 0 °C-ot sem éri el, a csapadék pedig 200–400 mm, többnyire hó formájában. Csak két évszak van: hosszú, hideg, szeles tél és rövid, hűvös nyár. A sarkvidékeken állandó a hó- és jégborítottság, az évi középhőmérséklet pedig -30 °C körül van.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20and%20tundra%20landscape%20in%20Ivvavik%20National%20Park%2C%20YT.jpg?width=800" class="figure-img img-fluid rounded" alt="Tundra táj nyáron">
+              <figcaption class="figure-caption">Tundra nyáron: nincsenek fák, csak alacsony növényzet. <a href="https://commons.wikimedia.org/wiki/File:Mountain_and_tundra_landscape_in_Ivvavik_National_Park,_YT.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az övezetesség nemcsak vízszintesen működik: ha egy hegyre felmászunk, a magassággal ugyanúgy változik a növényzet, mintha az Egyenlítőtől a sarkok felé utaznánk. Ezt hívják magassági (függőleges) övezetességnek. Magyarország a mérsékelt övezetben van, ezért nálunk lombhullató erdők a jellemzők.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

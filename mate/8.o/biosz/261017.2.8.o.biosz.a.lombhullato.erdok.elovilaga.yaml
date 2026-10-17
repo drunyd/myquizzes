@@ -1,0 +1,354 @@
+Quiz: A lombhullató erdők élővilága
+Source: mate_wiki/8.o/biosz/261017.2.8.o.biosz.a.lombhullato.erdok.elovilaga.html
+Question:
+  - Type: singlechoice
+    Text: Hol jellemző a lombhullató erdők biomja?
+    A: Hazánk jelentős részén is
+    B: Csak a trópusokon
+    C: Csak a sarkkörökön
+    D: Kizárólag a trópusi sivatagokban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi váltja ki a lombhullató fák leveleinek őszi lehullását?
+    A: A csapadékhiány
+    B: A tavaszi fagyok
+    C: A nyári hőség
+    D: Az erdei állatok rágása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a lombhullató erdők fajszámát?
+    A: Fajszegényebb, alig néhány fa alkot egy állományt
+    B: Rendkívül fajgazdag, több száz fafaj alkotja a lombkoronát
+    C: Csak egyetlen fafaj él benne
+    D: Csak cserjék alkotják
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány lombkoronaszintje lehet a lombhullató erdőknek?
+    A: Egy vagy kettő
+    B: Három vagy négy
+    C: Öt vagy hat
+    D: Nincs lombkoronaszintje
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miről nevezik el az erdőket?
+    A: A többségben előforduló fákról
+    B: A bennük élő állatokról
+    C: A talaj típusáról
+    D: A környék legmagasabb hegycsúcsáról
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol jellemzőek a tölgyes erdők?
+    A: Alföldön, dombvidéken
+    B: Csak a magashegységekben
+    C: A tengerpartokon
+    D: A sarkvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik tölgyfaj jellemző az alföldre?
+    A: Kocsányos tölgy
+    B: Kocsánytalan tölgy
+    C: Csertölgy
+    D: Bükkfa
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik tölgyfaj jellemző 200 méter fölött?
+    A: Kocsánytalan tölgy
+    B: Kocsányos tölgy
+    C: Bükkfa
+    D: Közönséges gyertyánfa
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen magasra nőhet a tölgy?
+    A: 30 méterre is
+    B: Legfeljebb 5 méterre
+    C: 15 méterre
+    D: 60 méterre
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tölgy levele?
+    A: Karéjos
+    B: Fűrészfogas
+    C: Ép, szegélye fogazatlan
+    D: Tűlevél
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tölgy termése?
+    A: Makk
+    B: Barka
+    C: Toboz
+    D: Bogyó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a tölgy kérge?
+    A: Repedezett
+    B: Ezüstszürke
+    C: Vörös csíkozású
+    D: Sima, zöldes
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért fejlett a tölgyes cserje- és gyepszintje?
+    A: Mert a lombkorona laza, átsüt rajta a fény
+    B: Mert a lombkorona teljesen zárt, alig jut be fény
+    C: Mert nincsenek benne fák
+    D: Mert a talaj mindig nedves
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol jellemző a vegyes erdőtípus?
+    A: Hűvösebb alföldeken és 400 méter felett
+    B: A legmelegebb, legszárazabb alföldi területeken
+    C: A sivatagok szélén
+    D: A tengerparton
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik fa jelenik meg a tölgyek között a vegyes erdőben?
+    A: Közönséges gyertyán
+    B: Csak fenyőfajok
+    C: Csak bükkfa
+    D: Nyárfa, fűzfa és égerfa
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a gyertyán kérge?
+    A: Szürke, vöröses csíkozással
+    B: Sima fehér, hosszanti csíkok nélkül
+    C: Repedezett, sötétbarna
+    D: Ezüstszürke
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a gyertyán levele?
+    A: Ép, fűrészfogas szélű
+    B: Karéjos, mint a tölgyé
+    C: Tűlevél
+    D: Kerek, teljesen sima szélű levél
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol jellemzőek a bükkös erdők?
+    A: Óceánokhoz közeli hűvös alföldeken és 600 méter felett
+    B: A legmelegebb és legszárazabb alföldi homokterületeken és szikeseken
+    C: Az Egyenlítő mentén
+    D: A sarkvidékeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a bükkfa törzse?
+    A: Ezüstszürke
+    B: Repedezett, sötétbarna
+    C: Vöröses csíkozású
+    D: Fehér, papírszerű
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a bükk levele?
+    A: Ép, szegélye sem fogazott
+    B: Karéjos, mint a tölgy levele
+    C: Fűrészfogas szélű
+    D: Tűlevél, amely télen is a fán marad
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a bükkös lombkoronájára?
+    A: Zárt, kevés fény jut át
+    B: Nagyon laza, ezért bőven átsüt rajta a napfény
+    C: Nincs lombkoronája
+    D: Két szintből áll
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor virágos a bükkös gyepszintje?
+    A: Tavasszal
+    B: Nyáron
+    C: Ősszel és télen
+    D: Egész évben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyenek a lombhullató erdők fáinak virágai?
+    A: Egyivarúak
+    B: Kétivarúak
+    C: Nincs viráguk
+    D: Csak termős virágaik vannak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik virágzatot alkotják a porzós virágok?
+    A: Barkavirágzatot
+    B: Füzérvirágzatot
+    C: Ernyővirágzatot
+    D: Fészekvirágzatot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan porzódnak a lombhullató erdők fái?
+    A: Szélbeporzásúak
+    B: Rovarok porozzák be őket
+    C: Madarak porozzák be őket
+    D: Önbeporzásúak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik védett bogár él a bükkösökben?
+    A: Havasi cincér
+    B: Kékfutrinka
+    C: Orrszarvúbogár
+    D: Erdei sikló
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely fafajok alkotják a tölgyes erdőket?
+    Answers: [kocsányos tölgy, kocsánytalan tölgy, csertölgy, bükkfa]
+    Correct: [kocsányos tölgy, kocsánytalan tölgy, csertölgy]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a tölgyre?
+    Answers: [30 méterre is megnőhet, repedezett a kérge, karéjos levele és makktermése van, ezüstszürke a törzse]
+    Correct: [30 méterre is megnőhet, repedezett a kérge, karéjos levele és makktermése van]
+
+  - Type: multiplechoice
+    Text: Hol fordulnak elő tölgyes erdők?
+    Answers: [alföldön, dombvidéken, alacsonyabb hegyvidéken, a magashegységek csúcsain]
+    Correct: [alföldön, dombvidéken, alacsonyabb hegyvidéken]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a gyertyánra?
+    Answers: [szürke kérge vöröses és fekete csíkozású, levelei épek, de fűrészfogas szélűek, a tölgyek között jelenik meg a vegyes erdőben, tűlevelei vannak]
+    Correct: [szürke kérge vöröses és fekete csíkozású, levelei épek, de fűrészfogas szélűek, a tölgyek között jelenik meg a vegyes erdőben]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a bükkösökre?
+    Answers: [zárt lombkorona, cserjeszintjük hiányos, gyepszintjük csak tavasszal virágos, a legmelegebb alföldeken találhatók]
+    Correct: [zárt lombkorona, cserjeszintjük hiányos, gyepszintjük csak tavasszal virágos]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a lombhullató erdők fáinak virágaira?
+    Answers: [egyivarúak, a porzós virágok barkavirágzatot alkotnak, szélbeporzásúak, a termős virágok nagyok és feltűnőek]
+    Correct: [egyivarúak, a porzós virágok barkavirágzatot alkotnak, szélbeporzásúak]
+
+  - Type: multiplechoice
+    Text: Mely állatok élnek a lágyszárú aljnövényzetben vagy az avarban?
+    Answers: [kerti csiga, erdei béka, rigó, kék cinke]
+    Correct: [kerti csiga, erdei béka, rigó]
+
+  - Type: multiplechoice
+    Text: Mely madarak osztják fel egymás között a táplálékszerző helyeket?
+    Answers: [rigó, csuszka, kék cinke, nagy fakopáncs, uhu]
+    Correct: [rigó, csuszka, kék cinke, nagy fakopáncs]
+
+  - Type: multiplechoice
+    Text: Mely ragadozó madarak vadásznak nappal?
+    Answers: [karvaly, héja, erdei fülesbagoly, uhu]
+    Correct: [karvaly, héja]
+
+  - Type: multiplechoice
+    Text: Mely menyétfélék élnek a lombhullató erdőkben?
+    Answers: [menyét, nyuszt, nyest, hiúz]
+    Correct: [menyét, nyuszt, nyest]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a hiúzra?
+    Answers: [kuvasz méretű, egérre, szarvasra, őzborjúra és nyúlra vadászik, a fák ágai között nappal vadászik, 300 kg-os teste van]
+    Correct: [kuvasz méretű, egérre, szarvasra, őzborjúra és nyúlra vadászik]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a barna medvére?
+    Answers: [tömege 300 kg is lehet, vegyes táplálkozású, téli álmot nem alszik, kizárólag növényekkel táplálkozik]
+    Correct: [tömege 300 kg is lehet, vegyes táplálkozású, téli álmot nem alszik]
+
+  - Type: word
+    Text: Mi váltja ki a lombhullató fák leveleinek őszi lehullását?
+    Answers: [csapadékhiány]
+    Correct: [csapadékhiány]
+
+  - Type: word
+    Text: Milyen termése van a tölgynek?
+    Answers: [makk]
+    Correct: [makk]
+
+  - Type: word
+    Text: Melyik a legkisebb menyétéle a lombhullató erdőkben?
+    Answers: [menyét]
+    Correct: [menyét]
+
+  - Type: word
+    Text: Melyik menyétéle vadászik nappal a fák ágain?
+    Answers: [nyuszt]
+    Correct: [nyuszt]
+
+  - Type: word
+    Text: Melyik menyétéle vadászik éjszaka, és a városokban is megtalálható?
+    Answers: [nyest]
+    Correct: [nyest]
+
+  - Type: word
+    Text: Melyik ragadozó madár vadászik éjszaka az uhu mellett?
+    Answers: [erdei fülesbagoly]
+    Correct: [erdei fülesbagoly]
+
+  - Type: word
+    Text: Melyik ragadozó kuvasz méretű?
+    Answers: [hiúz]
+    Correct: [hiúz]
+
+  - Type: word
+    Text: Hány bocsot hoz világra a barna medve tél végén?
+    Answers: [2-3]
+    Correct: [2-3]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a fafajokat a tengerszinttől felfelé haladva!
+    Items:
+      - bükkös erdő (kb. 600 méter felett)
+      - tölgyes erdő (alföld, dombvidék)
+      - vegyes erdő (kb. 400 méter felett)
+    Correct:
+      - tölgyes erdő (alföld, dombvidék)
+      - vegyes erdő (kb. 400 méter felett)
+      - bükkös erdő (kb. 600 méter felett)
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az állatokat a legkisebbtől a legnagyobbig!
+    Items:
+      - hiúz
+      - menyét
+      - barna medve
+      - nyuszt
+    Correct:
+      - menyét
+      - nyuszt
+      - hiúz
+      - barna medve
+
+  - Type: pairing
+    Text: Párosítsd össze a fákat a rájuk jellemző tulajdonsággal!
+    LeftTitle: Fa
+    RightTitle: Jellemző
+    Pairs:
+      - [kocsányos tölgy, az alföld jellemző tölgye]
+      - [csertölgy, 200 méter fölött jelenik meg]
+      - [közönséges gyertyán, szürke kérge vöröses-fekete csíkozással]
+      - [bükkfa, "ezüstszürke törzs, zárt lombkorona"]
+
+  - Type: pairing
+    Text: Párosítsd össze a madarakat a táplálékszerző helyükkel!
+    LeftTitle: Madár
+    RightTitle: Táplálékszerző hely
+    Pairs:
+      - [rigó, az avarban keresgél]
+      - [csuszka, a fák kéregrepedései]
+      - [kék cinke, az ágakon]
+      - [nagy fakopáncs, "a kéreg alól, a fatörzs belsejéből"]
