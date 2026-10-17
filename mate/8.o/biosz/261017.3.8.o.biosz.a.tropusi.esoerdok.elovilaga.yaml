@@ -1,0 +1,356 @@
+Quiz: A trópusi esőerdők élővilága
+Source: mate_wiki/8.o/biosz/261017.3.8.o.biosz.a.tropusi.esoerdok.elovilaga.html
+Question:
+  - Type: singlechoice
+    Text: Hol helyezkednek el a trópusi esőerdők?
+    A: Az Egyenlítő mentén
+    B: A sarkkörök közelében
+    C: A mérsékelt övezetben
+    D: A kontinensek belsejében
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik a legnagyobb összefüggő esőerdő-állomány?
+    A: Az Amazonas medencéé
+    B: A Kongó vidékéé
+    C: A Délkelet-Ázsiai szigeteké
+    D: A Földközi-tenger partvidékéé
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik folyó vidékén vannak nagy kiterjedésű afrikai esőerdők?
+    A: A Kongó vidékén
+    B: A Nílus vidékén
+    C: A Niger vidékén
+    D: A Zambezi vidékén
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik térségben találhatók esőerdők szigeteken és szárazulatokon?
+    A: Délkelet-Ázsiában
+    B: Európában és Észak-Amerikában
+    C: Észak-Amerikában
+    D: Ausztráliában
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyenek a trópusi esőerdők fáinak levelei?
+    A: Örökzöldek, folyamatosan cserélődnek
+    B: Ősszel minden évben lehullanak
+    C: Tűlevelek, és télen is a fán maradnak
+    D: Csak tavasszal jelennek meg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért rendeződnek szintekbe a fák koronái?
+    A: Mert a fényért küzdenek
+    B: Mert így könnyebb a szélnek
+    C: Mert az állatok így építik őket
+    D: Mert a talaj szintenként más
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen magasak a legmagasabb esőerdei fák?
+    A: 50–60 méteresek
+    B: 20–30 méteresek
+    C: 10–15 méteresek
+    D: 80–100 méteresek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány szintbe rendeződnek a fák koronái a forrás szerint?
+    A: Három szintbe
+    B: Két szintbe
+    C: Négy szintbe
+    D: Öt vagy annál is több szintbe
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen magasak a középső szint fái?
+    A: 20–30 méteresek
+    B: 10–15 méteresek
+    C: 50–60 méteresek
+    D: Legfeljebb 5 méteresek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen magasak a legalsó faszint fái?
+    A: 10–15 méteresek
+    B: 20–30 méteresek
+    C: 50–60 méteresek
+    D: Legfeljebb 2–4 méteresek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen fényviszony uralkodik a lombkorona alatt?
+    A: Szinte mindig félhomály
+    B: Állandó, erős napsütés
+    C: Teljes sötétség
+    D: Váltakozó fény és sötétség
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi borítja az esőerdő talaját?
+    A: Harasztok és mohák
+    B: Dús virágos növényzet
+    C: Száraz avar
+    D: Füves gyep
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan jutnak napfényhez a virágos lágyszárú növények?
+    A: A fák törzsén és ágain telepednek meg
+    B: A talajban, a fák sűrű gyökerei között nőnek
+    C: A víz felszínén lebegnek
+    D: A fák alatt, árnyékban virágoznak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növény termése a kakaóbab?
+    A: A kakaófa
+    B: A kaucsukfa
+    C: Az ébenfa
+    D: Az orchidea
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik fűszerféle nő liánnövényként Délkelet-Ázsiában?
+    A: A bors
+    B: A kakaó
+    C: A kávé
+    D: A vanília
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növényt említi a forrás szobanövényként?
+    A: Az orchidea
+    B: A kakaófa
+    C: A bors
+    D: A kakaófa és az ébenfa
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol zajlik az esőerdők állatvilágának élete?
+    A: A fák koronájában
+    B: A talajszinten
+    C: A talajban
+    D: A folyók vizében és a talajban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen hosszú is lehet az arapapagáj?
+    A: 90 cm
+    B: 30 cm
+    C: 150 cm
+    D: 50 cm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel táplálkoznak a kolibrik?
+    A: A virágok nektárjával
+    B: Magvakkal és gyümölcsökkel
+    C: Rovarokkal és csigákkal
+    D: Fák leveleivel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkorák a legkisebb kolibrik?
+    A: Cserebogár méretűek
+    B: Körülbelül veréb méretűek
+    C: Galamb méretűek
+    D: Tyúk méretűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állat él az ázsiai esőerdőkben?
+    A: A tigris
+    B: A jaguár
+    C: A tapír
+    D: A góliátbogár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állat él az afrikai esőerdőkben?
+    A: A gorilla
+    B: A jaguár
+    C: A lajhár
+    D: A kolibri és a lajhár
+    Correct: A
+
+  - Type: singlechoice
+    Text: A szárazföld hány százalékát fedik le a trópusi esőerdők?
+    A: 7%-át
+    B: 17%-át
+    C: 27%-át
+    D: 47%-át
+    Correct: A
+
+  - Type: singlechoice
+    Text: Az összes faj hány részének ad otthont a trópusi esőerdő?
+    A: Több mint felének
+    B: Kb. negyedének
+    C: Kb. tizedének
+    D: Kevesebb mint 5%-ának
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért irtják az emberek az esőerdőket?
+    A: Művelésre alkalmas földterület kialakításáért
+    B: Hogy több oxigén kerüljön a levegőbe
+    C: Hogy új, gyorsan növő fafajokat telepíthessenek
+    D: Hogy növeljék az esőerdők kiterjedését
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért nem igazán alkalmasak az esőerdők talajai művelésre?
+    A: Tápanyagban szegények, sekélyek, és az esőzések lemossák őket
+    B: Túl mélyek, ezért a növények gyökerei nem érik el a talajvizet
+    C: Túl sok bennük az ásványi anyag és a humusz
+    D: Mindig fagyottak, ezért nem lehet megművelni
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely térségekben vannak trópusi esőerdők?
+    Answers: [Dél-Amerika, Afrika, Délkelet-Ázsia, Európa]
+    Correct: [Dél-Amerika, Afrika, Délkelet-Ázsia]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az esőerdők fáira?
+    Answers: [örökzöldek, leveleik folyamatosan cserélődnek, koronáik szintekbe rendeződnek, tűleveleik vannak]
+    Correct: [örökzöldek, leveleik folyamatosan cserélődnek, koronáik szintekbe rendeződnek]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a lombkoronára és az alatta lévő szintekre?
+    Answers: [a legmagasabb fák 50–60 méteresek, a koronák szinte teljesen felfogják a napfényt, alattuk félhomály uralkodik, a talajszinten dús virágos növényzet él]
+    Correct: [a legmagasabb fák 50–60 méteresek, a koronák szinte teljesen felfogják a napfényt, alattuk félhomály uralkodik]
+
+  - Type: multiplechoice
+    Text: Mely növényeket említi a forrás?
+    Answers: [kaucsukfa, kakaófa, ébenfa, bükkfa]
+    Correct: [kaucsukfa, kakaófa, ébenfa]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a papagájokra?
+    Answers: [színesek, zajosak, odúlakók, magokat és gyümölcsöket esznek, hosszú lábuk van]
+    Correct: [színesek, zajosak, odúlakók, magokat és gyümölcsöket esznek]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a kolibrikre?
+    Answers: [színesek, a virágok nektárjával táplálkoznak, a legkisebbek cserebogár méretűek, odúban költenek]
+    Correct: [színesek, a virágok nektárjával táplálkoznak, a legkisebbek cserebogár méretűek]
+
+  - Type: multiplechoice
+    Text: Mely állatokat említi a forrás Dél-Amerika esőerdeiből?
+    Answers: [azúrlepke, óriáscincér, háromujjú lajhár, góliátbogár]
+    Correct: [azúrlepke, óriáscincér, háromujjú lajhár]
+
+  - Type: multiplechoice
+    Text: Mely állatok élnek az afrikai esőerdőkben?
+    Answers: [góliátbogár, okapi, törpevíziló, gorilla, jaguár]
+    Correct: [góliátbogár, okapi, törpevíziló, gorilla]
+
+  - Type: multiplechoice
+    Text: Mely állatok élnek az ázsiai esőerdőkben?
+    Answers: [cerkóf, orángután, paradicsommadár, pettyes szarvas, tigris, jaguár]
+    Correct: [cerkóf, orángután, paradicsommadár, pettyes szarvas, tigris]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az esőerdők állatvilágára?
+    Answers: [nagyon gazdag, az élet a fák koronájában zajlik, a talajszinten nagytestű növényevők élnek, a legtöbb állat a talajszinten él]
+    Correct: [nagyon gazdag, az élet a fák koronájában zajlik, a talajszinten nagytestű növényevők élnek]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az esőerdők irtására?
+    Answers: [művelésre alkalmas földterületet akarnak kialakítani, a talaj tápanyagban szegény, a talaj sekély, a növényzet hiányában az esőzések lemossák a talajt, a talaj rendkívül termékeny]
+    Correct: [művelésre alkalmas földterületet akarnak kialakítani, a talaj tápanyagban szegény, a talaj sekély, a növényzet hiányában az esőzések lemossák a talajt]
+
+  - Type: multiplechoice
+    Text: Miért fontosak az esőerdők a bioszférában?
+    Answers: [oxigént termelnek, az összes faj több mint fele itt él, a szárazföld 7%-át fedik le, a Föld legszárazabb területei]
+    Correct: [oxigént termelnek, az összes faj több mint fele itt él, a szárazföld 7%-át fedik le]
+
+  - Type: word
+    Text: Melyik gyökérzet támasztja meg a legmagasabb esőerdei fákat?
+    Answers: [palánkgyökér]
+    Correct: [palánkgyökér]
+
+  - Type: word
+    Text: Melyik növény adja a nyersgumi alapanyagát?
+    Answers: [kaucsukfa]
+    Correct: [kaucsukfa]
+
+  - Type: word
+    Text: Melyik fát használják bútorkészítésre?
+    Answers: [ébenfa]
+    Correct: [ébenfa]
+
+  - Type: word
+    Text: Melyik nagytestű növényevő él az esőerdők talajszintjén?
+    Answers: [tapír]
+    Correct: [tapír]
+
+  - Type: word
+    Text: Melyik macskaféle él a dél-amerikai esőerdőkben?
+    Answers: [jaguár]
+    Correct: [jaguár]
+
+  - Type: word
+    Text: Melyik afrikai bogár lehet ökölnyi nagyságú?
+    Answers: [góliátbogár]
+    Correct: [góliátbogár]
+
+  - Type: word
+    Text: Melyik majomfaj él az ázsiai esőerdőkben?
+    Answers: [orángután]
+    Correct: [orángután]
+
+  - Type: word
+    Text: Melyik liánnövény termését használjuk fűszerként?
+    Answers: [bors]
+    Correct: [bors]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a fák szintjeit a legalacsonyabbtól a legmagasabbig!
+    Items:
+      - 50–60 méteres fák
+      - 10–15 méteres fák
+      - 20–30 méteres fák
+    Correct:
+      - 10–15 méteres fák
+      - 20–30 méteres fák
+      - 50–60 méteres fák
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a jellemző növényeket a forrás felsorolása szerint!
+    Items:
+      - orchidea
+      - kaucsukfa
+      - ébenfa
+      - kakaófa
+      - bors
+    Correct:
+      - kaucsukfa
+      - kakaófa
+      - ébenfa
+      - bors
+      - orchidea
+
+  - Type: pairing
+    Text: Párosítsd össze a növényeket a hasznukkal!
+    LeftTitle: Növény
+    RightTitle: Haszon
+    Pairs:
+      - [kaucsukfa, a nyersgumi alapanyaga]
+      - [kakaófa, a kakaóbabot adja]
+      - [ébenfa, bútorkészítésre használják]
+      - [orchidea, szobanövényként tartják]
+
+  - Type: pairing
+    Text: Párosítsd össze az állatokat azzal, amit a forrás róluk mond!
+    LeftTitle: Állat
+    RightTitle: Jellemző
+    Pairs:
+      - [arapapagáj, 90 cm hosszú is lehet]
+      - [kolibri, a legkisebbek cserebogár méretűek]
+      - [bőgőmajom, hangját a torkában lévő hanghólyag erősíti fel]
+      - [lajhár, háromujjú]

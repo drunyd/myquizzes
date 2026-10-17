@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A trópusi esőerdők élővilága</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A trópusi esőerdők élővilága</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Területi elhelyezkedése</h2>
+            <ul>
+              <li>Az Egyenlítő mentén.</li>
+              <li>A legnagyobb összefüggő állomány: Dél-Amerika, Amazonas medence.</li>
+              <li>Afrika: nagy kiterjedésű esőerdők, például Kongó.</li>
+              <li>Délkelet-Ázsia: szigetek, szárazulatok.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az esőerdők növényvilága</h2>
+            <ul>
+              <li>Növényzete rendkívül dús, sokféle fa található benne.</li>
+              <li>A fák jellemzői: örökzöldek, lombosak, leveleik folyamatosan cserélődnek.</li>
+              <li>Koronáik a fényért küzdenek, ezért szintekbe rendeződnek.</li>
+              <li>Legmagasabbak 50–60 méteresek: palánkgyökér (támasztás).</li>
+              <li>Következő két szint: 20–30 méteres fák, 10–15 méteres fák.</li>
+              <li>A fák koronái a napfényt szinte teljesen felfogják, ezért alattuk szinte mindig félhomály uralkodik.</li>
+              <li>Virágos növényzet nincs.</li>
+              <li>A talajt harasztok, mohák borítják.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az esőerdők növényvilága</h2>
+            <ul>
+              <li>Virágos lágyszárú növények: a fák törzsén, ágain telepednek meg, így jutnak napfényhez.</li>
+            </ul>
+            <h3>Jellemző növények</h3>
+            <ul class="mb-0">
+              <li><strong>Kaucsukfa:</strong> a nyersgumi alapanyaga.</li>
+              <li><strong>Kakaófa:</strong> kakaóbab.</li>
+              <li><strong>Ébenfa:</strong> bútorkészítés.</li>
+              <li><strong>Bors:</strong> liánnövény (Délkelet-Ázsia).</li>
+              <li><strong>Orchidea:</strong> szobanövény.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az esőerdők állatvilága</h2>
+            <ul>
+              <li>Nagyon gazdag.</li>
+              <li>Az élet a fák koronájában zajlik.</li>
+            </ul>
+            <h3>Képviselőik: Dél-Amerika</h3>
+            <ul>
+              <li>Azúrlepkék, óriáscincér.</li>
+              <li><strong>Papagáj:</strong> színesek, zajosak, odúlakók. Az arapapagáj 90 cm hosszú is lehet; csőre felső kávája erős, kampós, lábuk rövid, magokat és gyümölcsöket esznek.</li>
+              <li><strong>Kolibri:</strong> színesek, a virágok nektárjával táplálkoznak; a legkisebbek cserebogár méretűek.</li>
+              <li><strong>Emlősök:</strong> háromujjú lajhár; bőgőmajom — lármásak, hangjukat a torkukban lévő hanghólyag felerősíti.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az esőerdők állatvilága</h2>
+            <ul>
+              <li>Talajszint: nagytestű növényevők — tapír.</li>
+              <li>Macskafélék: jaguár.</li>
+            </ul>
+            <h3>Afrikai esőerdők állatvilága</h3>
+            <ul>
+              <li>Bogarak: góliátbogár (ökölnyi nagyságú).</li>
+              <li>Emlősök: okapi, törpevíziló, gorilla.</li>
+            </ul>
+            <h3>Ázsiai esőerdők</h3>
+            <ul class="mb-0">
+              <li>Majmok képviselői: cerkóf, orángután.</li>
+              <li>Madarak: paradicsommadár.</li>
+              <li>Emlősök: pettyes szarvas, tigris.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A trópusi esőerdők jelentősége a bioszférában</h2>
+            <ul class="mb-0">
+              <li>A szárazföld 7%-át fedik le.</li>
+              <li>Az összes faj több mint fele itt él.</li>
+              <li>Oxigéntermelők.</li>
+              <li>A mai méret 750 000 hektár körül van.</li>
+              <li>Az esőerdőirtás oka: művelésre alkalmas földterület kialakítása — pedig nem igazán alkalmas erre a célra, mert tápanyagban szegény, sekély, és a növényzet hiányában az esőzések lemossák a talajt.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A <a href="https://hu.wikipedia.org/wiki/Tr%C3%B3pusi_es%C5%91erd%C5%91" target="_blank" rel="noopener">trópusi esőerdők</a> az Egyenlítő mentén alakultak ki, ott, ahol egész évben meleg van és szinte minden nap esik az eső. A legnagyobb összefüggő állomány az <a href="https://hu.wikipedia.org/wiki/Amazonas" target="_blank" rel="noopener">Amazonas</a> medencéjében található, de vannak nagy esőerdők Afrikában (például a <a href="https://hu.wikipedia.org/wiki/Kong%C3%B3_(foly%C3%B3)" target="_blank" rel="noopener">Kongó</a> vidékén) és <a href="https://hu.wikipedia.org/wiki/D%C3%A9lkelet-%C3%81zsia" target="_blank" rel="noopener">Délkelet-Ázsiában</a> is.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20the%20Amazon%20Rainforest.jpg?width=800" class="figure-img img-fluid rounded" alt="Az Amazonas-medence esőerdője madártávlatból">
+              <figcaption class="figure-caption">Az Amazonas-medence esőerdője madártávlatból — a Föld legnagyobb összefüggő esőerdő-állománya. <a href="https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Amazon_Rainforest.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A trópusi esőerdők a szárazföldnek csak mintegy 7%-át borítják, mégis az ismert fajok több mint fele itt él — ezért ezek a Föld leggazdagabb <a href="https://hu.wikipedia.org/wiki/Biodiverzit%C3%A1s" target="_blank" rel="noopener">biodiverzitású</a> élőhelyei.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Három szint: a fényért folyó verseny</h2>
+            <p>A fák örökzöldek, leveleiket folyamatosan cserélik. Mivel mindenki a fényhez akar jutni, a koronák szintekbe rendeződnek: a legmagasabbak 50–60 méteresek, és a <strong>palánkgyökér</strong> támasztja meg őket; alattuk 20–30 méteres, majd 10–15 méteres fák alkotnak szintet. A lombkorona a napfényt szinte teljesen felfogja, ezért odalent szinte mindig félhomály van, a talajt pedig harasztok és mohák borítják.</p>
+            <p class="mb-2">A virágos lágyszárú növények trükkel oldják meg a fényhiányt: a fák törzsén, ágain telepednek meg — ők az <a href="https://hu.wikipedia.org/wiki/Epifiton" target="_blank" rel="noopener">epifitonok</a>. Gazdaságilag is fontos növények élnek itt:</p>
+            <ul class="def">
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/Kaucsukfa" target="_blank" rel="noopener">Kaucsukfa</a></span> — a nyersgumi alapanyaga.</li>
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/Kaka%C3%B3_(n%C3%B6v%C3%A9nyfaj)" target="_blank" rel="noopener">Kakaófa</a></span> — a kakaóbabot adja.</li>
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/%C3%89benfa" target="_blank" rel="noopener">Ébenfa</a></span> — bútorkészítésre használják.</li>
+              <li><span class="term">Bors</span> — Délkelet-Ázsiában liánként nő.</li>
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/Kosborf%C3%A9l%C3%A9k" target="_blank" rel="noopener">Orchidea</a></span> — szobanövényként tartják.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100 mt-3">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cacao%20fruits%20on%20tree%20-%20Guadeloupe.JPG?width=800" class="figure-img img-fluid rounded" alt="Kakaófa termései a törzsön">
+              <figcaption class="figure-caption">A kakaófa termései szinte a törzsön nőnek — a kakaóbab alapanyagából készül a csokoládé. <a href="https://commons.wikimedia.org/wiki/File:Cacao_fruits_on_tree_-_Guadeloupe.JPG" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> Az esőerdőben három „emelet” van: a napfényben fürdő legfelső koronaszint, a középső szint, és a félhomályos alsó szint. Minden szinten más állatok és növények érzik jól magukat.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az állatvilág: az élet a koronában zajlik</h2>
+            <p>Az esőerdők állatvilága nagyon gazdag, és az élet nagy része a fák koronájában zajlik. Dél-Amerikában élnek az azúrlepkék és az óriáscincér, valamint a színes <a href="https://hu.wikipedia.org/wiki/Ara_(%C3%A1llatnem)" target="_blank" rel="noopener">arapapagáj</a> (90 cm hosszú is lehet) és a <a href="https://hu.wikipedia.org/wiki/Kolibrif%C3%A9l%C3%A9k" target="_blank" rel="noopener">kolibri</a>, amely a virágok nektárjával táplálkozik — a legkisebbek alig cserebogár méretűek. A <a href="https://hu.wikipedia.org/wiki/B%C5%91g%C5%91majomform%C3%A1k" target="_blank" rel="noopener">bőgőmajmok</a> lármásak: hangjukat a torkukban lévő hanghólyag erősíti fel. A talajszinten nagytestű növényevők, például a <a href="https://hu.wikipedia.org/wiki/K%C3%B6z%C3%B6ns%C3%A9ges_tap%C3%ADr" target="_blank" rel="noopener">tapír</a> járnak, a macskafélék közül pedig a <a href="https://hu.wikipedia.org/wiki/Jagu%C3%A1r" target="_blank" rel="noopener">jaguár</a> a legismertebb.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20(Panthera%20onca%20palustris)%20male%20Three%20Brothers%20River.JPG?width=800" class="figure-img img-fluid rounded" alt="Jaguár a folyóparton">
+                  <figcaption class="figure-caption">Jaguár — az esőerdők legnagyobb macskaféléje. <a href="https://commons.wikimedia.org/wiki/File:Jaguar_(Panthera_onca_palustris)_male_Three_Brothers_River.JPG" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Scarlet%20macaw%20(Ara%20macao%20macao)%20Yasuni.jpg?width=800" class="figure-img img-fluid rounded" alt="Arapapagáj">
+                  <figcaption class="figure-caption">Arapapagáj: színes, zajos, odúlakó madár. <a href="https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_macao)_Yasuni.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rufous-tailed%20Hummingbird%20(23540580394).jpg?width=800" class="figure-img img-fluid rounded" alt="Kolibri virágon">
+                  <figcaption class="figure-caption">Kolibri: a virágok nektárjával táplálkozik. <a href="https://commons.wikimedia.org/wiki/File:Rufous-tailed_Hummingbird_(23540580394).jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Goliath%20beetle.jpg?width=800" class="figure-img img-fluid rounded" alt="Góliátbogár">
+                  <figcaption class="figure-caption">Góliátbogár: akár ökölnyi nagyságú is lehet. <a href="https://commons.wikimedia.org/wiki/File:Goliath_beetle.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <p class="mt-3 mb-2">Afrika esőerdeiben él a <a href="https://hu.wikipedia.org/wiki/G%C3%B3li%C3%A1tbog%C3%A1r" target="_blank" rel="noopener">góliátbogár</a>, az okapi, a törpevíziló és a <a href="https://hu.wikipedia.org/wiki/Gorilla" target="_blank" rel="noopener">gorilla</a>; Ázsiában a cerkóf, az <a href="https://hu.wikipedia.org/wiki/Orangut%C3%A1n" target="_blank" rel="noopener">orángután</a>, a paradicsommadár, a pettyes szarvas és a tigris.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Western%20lowland%20gorilla%20(Gorilla%20gorilla%20gorilla)%20closeup%20eating.jpg?width=800" class="figure-img img-fluid rounded" alt="Nyugati síkvidéki gorilla">
+              <figcaption class="figure-caption">Gorilla — az afrikai esőerdők lakója. <a href="https://commons.wikimedia.org/wiki/File:Western_lowland_gorilla_(Gorilla_gorilla_gorilla)_closeup_eating.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miért fontosak — és miért fogynak?</h2>
+            <p>Az esőerdők óriási szerepet játszanak a bioszférában: rengeteg oxigént termelnek <a href="https://hu.wikipedia.org/wiki/Fotoszint%C3%A9zis" target="_blank" rel="noopener">fotoszintézissel</a>, és az összes faj több mint fele itt él. Mégis folyamatosan irtják őket, hogy művelésre alkalmas földterületet alakítsanak ki — pedig erre a talaj nem igazán alkalmas: tápanyagban szegény, sekély, és amikor a növényzet eltűnik, az erős esőzések gyorsan lemossák.</p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Az esőerdőirtás „ördögi kör”: a kivágott terület néhány évig termő lehet, aztán a tápanyagok kimosódnak, és a gazdálkodóknak újabb erdőrészt kell kivágniuk. Az <a href="https://hu.wikipedia.org/wiki/Erd%C5%91irt%C3%A1s" target="_blank" rel="noopener">erdőirtás</a> miatt az esőerdők területe évről évre csökken.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
