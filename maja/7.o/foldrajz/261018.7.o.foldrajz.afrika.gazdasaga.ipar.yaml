@@ -1,0 +1,351 @@
+Quiz: Afrika gazdasága – az ipar
+Source: maja_wiki/7.o/foldrajz/261018.7.o.foldrajz.afrika.gazdasaga.ipar.html
+Question:
+  - Type: singlechoice
+    Text: Mi jellemzi Afrika iparát a forrás szerint?
+    A: Főként kitermelés és alapanyaggyártás
+    B: Főként csúcstechnológiai termékek gyártása
+    C: Főként idegenforgalom és szolgáltatás
+    D: Főként mezőgazdasági gépek exportja
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért épül az afrikai ipar főként a kitermelésre és az alapanyaggyártásra?
+    A: Az elmaradottság miatt
+    B: A túl sok gyár miatt
+    C: A magas technológiai színvonal miatt
+    D: A kedvezőtlen éghajlat miatt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miben gazdag Afrika a forrás szerint?
+    A: Ásványkincsekben
+    B: Műtrágyákban és növényvédő szerekben
+    C: Gépjárművekben
+    D: Gyógyszerekben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban van kőolaj a forrás szerint?
+    A: Líbia
+    B: Marokkó
+    C: Guinea
+    D: Kongói Demokratikus Köztársaság
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország feketeszén-lelőhelye?
+    A: A Dél-afrikai Köztársaság
+    B: Marokkó
+    C: Kongói Demokratikus Köztársaság és Guinea
+    D: Nigéria
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország foszfátlelőhelye?
+    A: Marokkó
+    B: Guinea
+    C: Líbia
+    D: Kongói Demokratikus Köztársaság
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország bauxitlelőhelye?
+    A: Guinea
+    B: Marokkó
+    C: Líbia
+    D: Kongói Demokratikus Köztársaság
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország uránérclelőhelye?
+    A: A Dél-afrikai Köztársaság
+    B: Marokkó
+    C: Kongói Demokratikus Köztársaság és Guinea
+    D: Nigéria
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban bányásznak gyémántot az általunk tanult lelőhelyek között?
+    A: A Dél-afrikai Köztársaság
+    B: Marokkó
+    C: Kongói Demokratikus Köztársaság és Guinea
+    D: Nigéria
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban van vasérc?
+    A: Guinea
+    B: Marokkó
+    C: Líbia
+    D: Nigéria
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban van rézérc?
+    A: A Kongói Demokratikus Köztársaság
+    B: Marokkó
+    C: Líbia
+    D: Nigéria, Algéria, Marokkó és Guinea
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország az első számú arany-, platina-, króm- és vanádiumtermelő?
+    A: A Dél-afrikai Köztársaság
+    B: Marokkó
+    C: Guinea
+    D: Kongói Demokratikus Köztársaság és Guinea
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország nem szerepel a kőolaj- és földgázlelőhelyek között?
+    A: Marokkó
+    B: Líbia
+    C: Algéria
+    D: Nigéria és Algéria
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik folyó nem szerepel a forrásban?
+    A: Niger
+    B: Nílus
+    C: Kongó
+    D: Zambézi
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik megújuló energiaforrást említi a forrás?
+    A: A nap és a szél
+    B: A geotermikus energia
+    C: A biomassza
+    D: Az árapály energia
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik energiahordozót használják főként?
+    A: Szénhidrogéneket
+    B: Napenergiát és szélenergiát
+    C: Szélenergiát
+    D: Vízenergiát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért használnak főként szénhidrogéneket?
+    A: A technológiai korlátok miatt
+    B: Mert egyáltalán nincs más energiaforrás
+    C: Mert a napenergia túl olcsó
+    D: Mert a vízenergia túl drága
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban van bauxit és vasérc is?
+    A: Guinea
+    B: Marokkó
+    C: Líbia
+    D: Nigéria
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban van feketeszén és uránérc is?
+    A: A Dél-afrikai Köztársaság
+    B: Marokkó
+    C: Kongói Demokratikus Köztársaság és Guinea
+    D: Líbia
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik országban van gyémánt és rézérc is?
+    A: A Kongói Demokratikus Köztársaság
+    B: Marokkó
+    C: Guinea
+    D: A Dél-afrikai Köztársaság és Guinea
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország neve szerepel a leggyakrabban a forrásban?
+    A: A Dél-afrikai Köztársaság
+    B: Marokkó
+    C: Líbia
+    D: Kongói Demokratikus Köztársaság és Guinea
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ásványkincscsoport jellemző Afrikára?
+    A: Nehézfémek, színes ércek, nemesfémek
+    B: Csak nemesgázok és kősó
+    C: Csak építőanyagok
+    D: Csak fosszilis energiahordozók és építőanyagok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik kontinens ásványkincsekben gazdag a forrás szerint?
+    A: Afrika
+    B: Európa
+    C: Ázsia
+    D: Amerika
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ásványkincs található Guineában a vasérc mellett?
+    A: Bauxit
+    B: Foszfát
+    C: Feketeszén
+    D: Uránérc
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely országokban van kőolaj és földgáz?
+    Answers: [Líbia, Algéria, Nigéria, Marokkó]
+    Correct: [Líbia, Algéria, Nigéria]
+
+  - Type: multiplechoice
+    Text: Mely országokban van vasérc?
+    Answers: [Dél-afrikai Köztársaság, Guinea, Marokkó, Líbia]
+    Correct: [Dél-afrikai Köztársaság, Guinea]
+
+  - Type: multiplechoice
+    Text: Mely országokban van rézérc?
+    Answers: [Dél-afrikai Köztársaság, Kongói Demokratikus Köztársaság, Guinea, Nigéria]
+    Correct: [Dél-afrikai Köztársaság, Kongói Demokratikus Köztársaság]
+
+  - Type: multiplechoice
+    Text: Mely országokban bányásznak gyémántot?
+    Answers: [Dél-afrikai Köztársaság, Kongói Demokratikus Köztársaság, Marokkó, Algéria]
+    Correct: [Dél-afrikai Köztársaság, Kongói Demokratikus Köztársaság]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek találhatók a Dél-afrikai Köztársaságban?
+    Answers: [feketeszén, uránérc, arany, platina, króm, vanádium, gyémánt, vasérc, rézérc, bauxit]
+    Correct: [feketeszén, uránérc, arany, platina, króm, vanádium, gyémánt, vasérc, rézérc]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek találhatók Guineában?
+    Answers: [bauxit, vasérc, arany, uránérc]
+    Correct: [bauxit, vasérc]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek találhatók a Kongói Demokratikus Köztársaságban?
+    Answers: [gyémánt, rézérc, foszfát, bauxit]
+    Correct: [gyémánt, rézérc]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek találhatók Marokkóban?
+    Answers: [foszfát, kőolaj, gyémánt, vasérc]
+    Correct: [foszfát]
+
+  - Type: multiplechoice
+    Text: Mely folyókon van nagy vízenergia-lehetőség a forrás szerint?
+    Answers: [Nílus, Kongó, Zambézi, Niger]
+    Correct: [Nílus, Kongó, Zambézi]
+
+  - Type: multiplechoice
+    Text: Melyek a megújuló energiaforrások a forrás szerint?
+    Answers: [nap, szél, kőolaj, földgáz]
+    Correct: [nap, szél]
+
+  - Type: multiplechoice
+    Text: Mi jellemzi az afrikai ipart?
+    Answers: [kitermelés, alapanyaggyártás, magas szintű feldolgozóipar, elmaradottság]
+    Correct: [kitermelés, alapanyaggyártás, elmaradottság]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincs-csoportok jellemzők Afrikában?
+    Answers: [nehézfémek, színes ércek, nemesfémek, műanyagok]
+    Correct: [nehézfémek, színes ércek, nemesfémek]
+
+  - Type: multiplechoice
+    Text: Mely energiahordozókat használják főként?
+    Answers: [kőolaj, földgáz, napenergia, szélenergia]
+    Correct: [kőolaj, földgáz]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Afrika energiagazdaságára?
+    Answers: [nagy vízenergia-lehetőségek vannak a folyókon, a nap és a szél megújuló lehetőség, a technológiai korlátok miatt főként szénhidrogéneket használnak, minden energiaigényt vízerőművekkel fedeznek]
+    Correct: [nagy vízenergia-lehetőségek vannak a folyókon, a nap és a szél megújuló lehetőség, a technológiai korlátok miatt főként szénhidrogéneket használnak]
+
+  - Type: word
+    Text: Melyik ásványkincs található Marokkóban?
+    Answers: [foszfát]
+    Correct: [foszfát]
+
+  - Type: word
+    Text: Melyik ásványkincs található Guineában?
+    Answers: [bauxit]
+    Correct: [bauxit]
+
+  - Type: word
+    Text: Melyik ásványkincs található a Kongói Demokratikus Köztársaságban a gyémánt mellett?
+    Answers: [rézérc]
+    Correct: [rézérc]
+
+  - Type: word
+    Text: Melyik energiahordozó található Líbiában?
+    Answers: [kőolaj]
+    Correct: [kőolaj]
+
+  - Type: word
+    Text: Hány országot sorol fel a forrás a kőolaj és a földgáz lelőhelyeinél?
+    Answers: [3]
+    Correct: [3]
+
+  - Type: word
+    Text: Hány folyót sorol fel a forrás a vízenergia-lehetőségeknél?
+    Answers: [3]
+    Correct: [3]
+
+  - Type: word
+    Text: Melyik megújuló energiaforrás szerepel a forrásban a nap mellett?
+    Answers: [szél]
+    Correct: [szél]
+
+  - Type: word
+    Text: Melyik ország termelése az első számú arany, platina, króm és vanádium esetében?
+    Answers: [Dél-afrikai Köztársaság]
+    Correct: [Dél-afrikai Köztársaság]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az ásványkincseket a forrás felsorolása szerint!
+    Items:
+      - foszfát
+      - kőolaj és földgáz
+      - vasérc
+      - feketeszén
+      - rézérc
+    Correct:
+      - kőolaj és földgáz
+      - feketeszén
+      - foszfát
+      - vasérc
+      - rézérc
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a folyókat a forrás felsorolása szerint!
+    Items:
+      - Zambézi
+      - Nílus
+      - Kongó
+    Correct:
+      - Nílus
+      - Kongó
+      - Zambézi
+
+  - Type: pairing
+    Text: Párosítsd össze az országokat a jellemző ásványkincsükkel!
+    LeftTitle: Ország
+    RightTitle: Ásványkincs
+    Pairs:
+      - [Marokkó, foszfát]
+      - [Guinea, bauxit]
+      - [Líbia, kőolaj és földgáz]
+      - [Dél-afrikai Köztársaság, feketeszén és uránérc]
+      - [Kongói Demokratikus Köztársaság, gyémánt és rézérc]
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [szénhidrogének, a főként használt energiahordozók]
+      - [vízenergia, "a Nílus, a Kongó és a Zambézi lehetősége"]
+      - [megújuló energia, a nap és a szél]
+      - [bányászat, az ásványkincsek kitermelése]

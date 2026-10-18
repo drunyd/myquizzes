@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrika gazdasága – az ipar</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Afrika gazdasága – az ipar</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az ipar</h2>
+            <p class="mb-0">Főként kitermelés és alapanyaggyártás jellemzi az elmaradottság miatt.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>1. Bányászat</h2>
+            <p>Ásványkincsekben gazdag kontinens, főleg a nehézfémek, színes ércek, nemesfémek.</p>
+            <div class="table-responsive">
+              <table class="table table-sm align-middle mb-0">
+                <thead><tr><th>Ásványkincs</th><th>Lelőhely</th></tr></thead>
+                <tbody>
+                  <tr><td>Kőolaj és földgáz</td><td>Líbia, Algéria, Nigéria</td></tr>
+                  <tr><td>Feketeszén</td><td>Dél-afrikai Köztársaság</td></tr>
+                  <tr><td>Foszfát</td><td>Marokkó</td></tr>
+                  <tr><td>Vasérc</td><td>Dél-afrikai Köztársaság, Guinea</td></tr>
+                  <tr><td>Rézérc</td><td>Dél-afrikai Köztársaság, Kongói Demokratikus Köztársaság</td></tr>
+                  <tr><td>Bauxit</td><td>Guinea</td></tr>
+                  <tr><td>Uránérc</td><td>Dél-afrikai Köztársaság</td></tr>
+                  <tr><td>Arany, platina, króm, vanádium</td><td>Dél-afrikai Köztársaság (No1)</td></tr>
+                  <tr><td>Gyémánt</td><td>Dél-afrikai Köztársaság, Kongói Demokratikus Köztársaság</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>2. Energia</h2>
+            <ul class="mb-0">
+              <li>Nagy vízenergia-lehetőségek a Nílus, a Kongó és a Zambézi folyókon.</li>
+              <li>Megújuló energiaforrások: nap és szél.</li>
+              <li>A technológiai korlátok miatt főként szénhidrogéneket használnak.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2"><a href="https://hu.wikipedia.org/wiki/Afrika" target="_blank" rel="noopener">Afrika</a> ásványkincsekben rendkívül gazdag kontinens, iparára azonban főként a <a href="https://hu.wikipedia.org/wiki/B%C3%A1ny%C3%A1szat" target="_blank" rel="noopener">bányászat</a> és az alapanyaggyártás jellemző. Az elmaradottság miatt a nyersanyagokat sokszor feldolgozatlanul adják el, és kevés a magas színvonalú feldolgozóipar. A második nagy terület az energia: a folyókban hatalmas vízenergia rejlik, mégis sokat használnak a szénhidrogénekből.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/DRC%20mineral%20resources%20-%20en%20version.png?width=800" class="figure-img img-fluid rounded" alt="A Kongói Demokratikus Köztársaság ásványkincsei">
+              <figcaption class="figure-caption">A Kongói Demokratikus Köztársaság ásványkincsei — réz, gyémánt, arany és kobalt is található itt. <a href="https://commons.wikimedia.org/wiki/File:DRC_mineral_resources_-_en_version.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A „No1” jelölés arra utal, hogy a <a href="https://hu.wikipedia.org/wiki/D%C3%A9l-afrikai_K%C3%B6zt%C3%A1rsas%C3%A1g" target="_blank" rel="noopener">Dél-afrikai Köztársaság</a> termelése aranyban, platinában, krómban és vanádiumban világelső. A <a href="https://hu.wikipedia.org/wiki/Platina" target="_blank" rel="noopener">platina</a> esetében a világ termelésének kétharmada innen származik.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A bányászat országonként</h2>
+            <ul class="def">
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/D%C3%A9l-afrikai_K%C3%B6zt%C3%A1rsas%C3%A1g" target="_blank" rel="noopener">Dél-afrikai Köztársaság</a>:</span> <a href="https://hu.wikipedia.org/wiki/Feketek%C5%91sz%C3%A9n" target="_blank" rel="noopener">feketeszén</a>, <a href="https://hu.wikipedia.org/wiki/Ur%C3%A1n" target="_blank" rel="noopener">uránérc</a>, <a href="https://hu.wikipedia.org/wiki/Vas%C3%A9rc" target="_blank" rel="noopener">vasérc</a>, <a href="https://hu.wikipedia.org/wiki/Arany_(k%C3%A9miai_elem)" target="_blank" rel="noopener">arany</a>, <a href="https://hu.wikipedia.org/wiki/Platina" target="_blank" rel="noopener">platina</a>, <a href="https://hu.wikipedia.org/wiki/Kr%C3%B3m" target="_blank" rel="noopener">króm</a>, <a href="https://hu.wikipedia.org/wiki/Van%C3%A1dium" target="_blank" rel="noopener">vanádium</a>, <a href="https://hu.wikipedia.org/wiki/Gy%C3%A9m%C3%A1nt" target="_blank" rel="noopener">gyémánt</a>.</li>
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/Guinea" target="_blank" rel="noopener">Guinea</a>:</span> <a href="https://hu.wikipedia.org/wiki/Bauxit" target="_blank" rel="noopener">bauxit</a> és vasérc.</li>
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/Marokk%C3%B3" target="_blank" rel="noopener">Marokkó</a>:</span> foszfát — a világ egyik legnagyobb foszfátlelőhelye.</li>
+              <li><span class="term"><a href="https://hu.wikipedia.org/wiki/Kong%C3%B3i_Demokratikus_K%C3%B6zt%C3%A1rsas%C3%A1g" target="_blank" rel="noopener">Kongói Demokratikus Köztársaság</a>:</span> gyémánt és rézérc.</li>
+              <li><span class="term">Kőolaj és földgáz:</span> <a href="https://hu.wikipedia.org/wiki/L%C3%ADbia" target="_blank" rel="noopener">Líbia</a>, <a href="https://hu.wikipedia.org/wiki/Alg%C3%A9ria" target="_blank" rel="noopener">Algéria</a>, <a href="https://hu.wikipedia.org/wiki/Nig%C3%A9ria" target="_blank" rel="noopener">Nigéria</a>.</li>
+            </ul>
+            <div class="row g-3 mt-2">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Robinson%20Deep%20Gold%20Mine%20near%20Johannesburg.%20Photograph%20by%20Barnett%2C%20South%20Africa%2C%201896.jpg?width=800" class="figure-img img-fluid rounded" alt="Aranybánya Johannesburg mellett 1896-ban">
+                  <figcaption class="figure-caption">Aranybánya Johannesburg mellett (1896) — a dél-afrikai aranybányászat régi hagyománya. <a href="https://commons.wikimedia.org/wiki/File:Robinson_Deep_Gold_Mine_near_Johannesburg._Photograph_by_Barnett,_South_Africa,_1896.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Phosphate%20mines%20in%20Morocco.PNG?width=800" class="figure-img img-fluid rounded" alt="Foszfátbányák Marokkóban">
+                  <figcaption class="figure-caption">Foszfátbányák Marokkóban. <a href="https://commons.wikimedia.org/wiki/File:Phosphate_mines_in_Morocco.PNG" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Forcados%20offshore%20Nigeria%2C%20shell%20oil%20field.jpg?width=800" class="figure-img img-fluid rounded" alt="Tengeri olajmező Nigéria partjainál">
+              <figcaption class="figure-caption">Tengeri olajmező Nigéria partjainál — a kőolajkitermelés egyik afrikai központja. <a href="https://commons.wikimedia.org/wiki/File:Forcados_offshore_Nigeria,_shell_oil_field.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Energia: víz, nap, szél — és mégis szénhidrogén</h2>
+            <p>Afrikában a folyókban hatalmas <a href="https://hu.wikipedia.org/wiki/V%C3%ADzenergia" target="_blank" rel="noopener">vízenergia</a> rejlik: a <a href="https://hu.wikipedia.org/wiki/N%C3%ADlus" target="_blank" rel="noopener">Nílus</a>, a <a href="https://hu.wikipedia.org/wiki/Kong%C3%B3_(foly%C3%B3)" target="_blank" rel="noopener">Kongó</a> és a <a href="https://hu.wikipedia.org/wiki/Zamb%C3%A9zi" target="_blank" rel="noopener">Zambézi</a> vízenergiáját lehetne hasznosítani. A megújuló energiaforrások közül a <a href="https://hu.wikipedia.org/wiki/Napenergia" target="_blank" rel="noopener">napenergia</a> és a <a href="https://hu.wikipedia.org/wiki/Sz%C3%A9lenergia" target="_blank" rel="noopener">szélenergia</a> jöhet szóba. A technológiai korlátok miatt azonban az országok többsége mégis a <a href="https://hu.wikipedia.org/wiki/Sz%C3%A9nhidrog%C3%A9nek" target="_blank" rel="noopener">szénhidrogéneket</a> (kőolajat, földgázt) használja.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20Inga%20dams%20barrage%2C%20Zaire's%20largest%20source%20of%20electricity%2C%20on%20the%20lower%20Congo%20River%20near%20Matadi.jpg?width=800" class="figure-img img-fluid rounded" alt="Az Inga-vízerőmű a Kongó folyón">
+                  <figcaption class="figure-caption">Az Inga-vízerőmű a Kongó folyón — Afrika egyik legnagyobb vízenergia-lehetősége. <a href="https://commons.wikimedia.org/wiki/File:The_Inga_dams_barrage,_Zaire%27s_largest_source_of_electricity,_on_the_lower_Congo_River_near_Matadi.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/KaribaDam.jpg?width=800" class="figure-img img-fluid rounded" alt="A Kariba-gát a Zambézi folyón">
+                  <figcaption class="figure-caption">A Kariba-gát a Zambézi folyón. <a href="https://commons.wikimedia.org/wiki/File:KaribaDam.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> Kevesen tudják, hogy a Kongó folyó vízenergia-potenciálja a világ egyik legnagyobbika, mégis Afrikában sokan fával és olajjal főznek. A lehetőség és a kihasználás nem ugyanaz — ezt nevezi a tananyag „technológiai korlátnak”.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
