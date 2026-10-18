@@ -1,0 +1,359 @@
+Quiz: Románia
+Source: mate_wiki/8.o/foldrajz/261018.8.o.foldrajz.romania.html
+Question:
+  - Type: singlechoice
+    Text: Milyen államforma jellemzi Romániát?
+    A: Köztársaság
+    B: Királyság
+    C: Szövetségi állam
+    D: Hercegség
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemzetközi szervezetnek tagja Románia a forrás szerint?
+    A: Az Európai Uniónak
+    B: Az Eurázsiai Gazdasági Uniónak
+    C: A Délkelet-ázsiai Szerződés Szervezetének
+    D: Az Arab Ligának
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik alföld található Romániában?
+    A: Román-alföld
+    B: Bécsi-medence alföldje
+    C: Lengyel-alföld
+    D: Pó-alföld
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik medence található Romániában?
+    A: Erdélyi-medence
+    B: Cseh-medence
+    C: Bécsi-medence
+    D: Pannon-medence és a Bécsi-medence
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik középhegység található Romániában?
+    A: Erdélyi-középhegység
+    B: Cseh-középhegység
+    C: Német-középhegység
+    D: Lengyel- és Német-középhegység
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik folyó szerepel Románia folyói között a forrás szerint?
+    A: A Maros
+    B: A Rajna
+    C: A Visztula
+    D: A Moldva
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nemesfém fordul elő ásványkincsként Romániában?
+    A: Arany
+    B: Platina
+    C: Ezüst
+    D: Palládium
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik só ásványkincsét bányásszák Romániában?
+    A: Kősó
+    B: Kálium-só
+    C: Glaubersó
+    D: Ammónium-só
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik energiahordozó fordul elő Románia ásványkincsei között?
+    A: Kőolaj
+    B: Tőzeg
+    C: Uránérc
+    D: Grafit
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik szénféle szerepel Románia ásványkincsei között?
+    A: Feketeszén
+    B: Barnaszén és lignit
+    C: Lignit
+    D: Tőzeg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik érc fordul elő ásványkincsként Romániában?
+    A: Vasérc
+    B: Uránérc
+    C: Bauxit
+    D: Ezüst
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik gabonafélét termesztik Romániában?
+    A: Kukorica
+    B: Rizs
+    C: Cirok
+    D: Köles és cirok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik olajnövény termesztése jellemző Romániában?
+    A: Napraforgó
+    B: Kókuszdió és olajpálma
+    C: Szezám
+    D: Földimogyoró
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely állatokat tartják Románia hegyvidéki területein?
+    A: Juhot és szarvasmarhát
+    B: Sertést és baromfit
+    C: Tevét és bivalyt
+    D: Rénszarvast, jakot és bivalyt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely állatokat tartják a Román-alföldön?
+    A: Sertést és baromfit
+    B: Juhot és szarvasmarhát
+    C: Rénszarvast és jakot
+    D: Pulykát és kacsát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város Románia fővárosa?
+    A: Bukarest
+    B: Ploiesti
+    C: Brassó
+    D: Kolozsvár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város a kőolaj-bányászati központ?
+    A: Ploiesti
+    B: Konstanca
+    C: Arad
+    D: Kolozsvár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város dunai kikötő és kohászati központ?
+    A: Galati
+    B: Brassó
+    C: Arad
+    D: Kolozsvár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város szerepel a forrásban kikötőként?
+    A: Konstanca
+    B: Brassó
+    C: Arad
+    D: Kolozsvár és Brassó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik városban gyártanak repülőgépeket is a gépgyártás mellett?
+    A: Brassó
+    B: Arad
+    C: Kolozsvár
+    D: Konstanca
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik városban van gépjárműgyártás?
+    A: Arad
+    B: Konstanca
+    C: Galati
+    D: Nagyszeben
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város nem szerepel a forrásban?
+    A: Nagyvárad és Temesvár
+    B: Brassó, Arad és Kolozsvár
+    C: Arad
+    D: Kolozsvár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik folyó partján fekszik Galati kikötője?
+    A: A Duna
+    B: A Maros
+    C: Az Olt
+    D: A Prut
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik városban gyártják a Renault-Dacia autókat?
+    A: Bukarest
+    B: Brassó
+    C: Arad
+    D: Ploiesti és Konstanca
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány tájat sorol fel a forrás Romániánál?
+    A: Ötöt
+    B: Hármat
+    C: Hetet
+    D: Kilencet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány folyót sorol fel a forrás Romániánál?
+    A: Négyet
+    B: Kettőt vagy hármat
+    C: Ötöt
+    D: Hatot
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely tájak szerepelnek a forrásban Románia tájai között?
+    Answers: [Keleti-Kárpátok, Déli-Kárpátok, Erdélyi-medence, Erdélyi-középhegység, Román-alföld, Bécsi-medence]
+    Correct: [Keleti-Kárpátok, Déli-Kárpátok, Erdélyi-medence, Erdélyi-középhegység, Román-alföld]
+
+  - Type: multiplechoice
+    Text: Mely folyók szerepelnek a forrásban Románia folyói között?
+    Answers: [Duna, Maros, Olt, Prut, Tisza]
+    Correct: [Duna, Maros, Olt, Prut]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek találhatók Romániában a forrás szerint?
+    Answers: [kőolaj, földgáz, arany, réz, kősó, kén, feketeszén, vasérc, gyémánt]
+    Correct: [kőolaj, földgáz, arany, réz, kősó, kén, feketeszén, vasérc]
+
+  - Type: multiplechoice
+    Text: Mely növényeket termesztik Romániában?
+    Answers: [kukorica, búza, napraforgó, cukorrépa, zöldség-gyümölcs, burgonya, rizs]
+    Correct: [kukorica, búza, napraforgó, cukorrépa, zöldség-gyümölcs, burgonya]
+
+  - Type: multiplechoice
+    Text: Mely állatokat tartják a hegyekben?
+    Answers: [juh, szarvasmarha, sertés, baromfi]
+    Correct: [juh, szarvasmarha]
+
+  - Type: multiplechoice
+    Text: Mely állatokat tartják az alföldön?
+    Answers: [sertés, baromfi, juh, szarvasmarha]
+    Correct: [sertés, baromfi]
+
+  - Type: multiplechoice
+    Text: Mely iparágak jellemzők Romániára a forrás szerint?
+    Answers: [bányászat, kohászat, gép- és járműgyártás, vegyipar, fa- és papíripar, űripar]
+    Correct: [bányászat, kohászat, gép- és járműgyártás, vegyipar, fa- és papíripar]
+
+  - Type: multiplechoice
+    Text: Mely városokban van gépjárműgyártás?
+    Answers: [Bukarest, Arad, Konstanca, Kolozsvár]
+    Correct: [Bukarest, Arad]
+
+  - Type: multiplechoice
+    Text: Mely városok szerepelnek a forrásban kikötőként?
+    Answers: [Konstanca, Galati, Brassó, Arad]
+    Correct: [Konstanca, Galati]
+
+  - Type: multiplechoice
+    Text: Mi jellemző Ploiestire a forrás szerint?
+    Answers: [kőolaj-bányászati központ, vegyipar, gépgyártás, repülőgyártás]
+    Correct: [kőolaj-bányászati központ, vegyipar, gépgyártás]
+
+  - Type: multiplechoice
+    Text: Mi jellemző Brassóra a forrás szerint?
+    Answers: [gépgyártás, repülőgyártás, kőolaj-bányászat, kohászat]
+    Correct: [gépgyártás, repülőgyártás]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Romániára?
+    Answers: [köztársaság, az Európai Unió tagja, területén vannak Kárpátok, nincs kőolaja]
+    Correct: [köztársaság, az Európai Unió tagja, területén vannak Kárpátok]
+
+  - Type: word
+    Text: Melyik ország fővárosa Bukarest?
+    Answers: [Románia]
+    Correct: [Románia]
+
+  - Type: word
+    Text: Melyik autómárkát gyártják Bukarestben?
+    Answers: [Dacia]
+    Correct: [Dacia]
+
+  - Type: word
+    Text: Melyik növényből készül a cukor, és termesztik Romániában?
+    Answers: [cukorrépa]
+    Correct: [cukorrépa]
+
+  - Type: word
+    Text: Melyik folyó szerepel még a forrásban a Duna, a Maros és az Olt mellett?
+    Answers: [Prut]
+    Correct: [Prut]
+
+  - Type: word
+    Text: Melyik gabonafélét termesztik Romániában a kukorica mellett?
+    Answers: [búza]
+    Correct: [búza]
+
+  - Type: word
+    Text: Melyik sárga színű, nem fémes ásványkincs szerepel a forrásban?
+    Answers: [kén]
+    Correct: [kén]
+
+  - Type: word
+    Text: Hány várost sorol fel a forrás Romániánál?
+    Answers: [7]
+    Correct: [7]
+
+  - Type: word
+    Text: Hány ásványkincset sorol fel a forrás Romániánál?
+    Answers: [8]
+    Correct: [8]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a folyókat a forrás felsorolása szerint!
+    Items:
+      - Olt
+      - Duna
+      - Prut
+      - Maros
+    Correct:
+      - Duna
+      - Maros
+      - Olt
+      - Prut
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a tájakat a forrás felsorolása szerint!
+    Items:
+      - Erdélyi-medence
+      - Román-alföld
+      - Keleti-Kárpátok
+      - Erdélyi-középhegység
+      - Déli-Kárpátok
+    Correct:
+      - Keleti-Kárpátok
+      - Déli-Kárpátok
+      - Erdélyi-medence
+      - Erdélyi-középhegység
+      - Román-alföld
+
+  - Type: pairing
+    Text: Párosítsd össze a városokat a jellemzőjükkel!
+    LeftTitle: Város
+    RightTitle: Jellemző
+    Pairs:
+      - [Ploiesti, kőolaj-bányászati központ]
+      - [Konstanca, kikötő]
+      - [Galati, dunai kikötő és kohászat]
+      - [Brassó, gép- és repülőgyártás]
+      - [Arad, gépjárműgyártás]
+
+  - Type: pairing
+    Text: Párosítsd össze a tájakat a típusukkal!
+    LeftTitle: Táj
+    RightTitle: Típus
+    Pairs:
+      - [Román-alföld, alföld]
+      - [Erdélyi-medence, medence]
+      - [Erdélyi-középhegység, középhegység]
+      - [Keleti-Kárpátok, hegység]

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Románia</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Románia</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Románia</h2>
+            <ul class="mb-0">
+              <li>Köztársaság, az EU tagja.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tájai</h2>
+            <ul class="mb-0">
+              <li>Keleti-Kárpátok</li>
+              <li>Déli-Kárpátok</li>
+              <li>Erdélyi-medence</li>
+              <li>Erdélyi-középhegység</li>
+              <li>Román-alföld</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Folyói</h2>
+            <ul class="mb-0">
+              <li>Duna</li>
+              <li>Maros</li>
+              <li>Olt</li>
+              <li>Prut</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ásványkincsei</h2>
+            <ul class="mb-0">
+              <li>Kőolaj</li>
+              <li>Földgáz</li>
+              <li>Arany</li>
+              <li>Réz</li>
+              <li>Kősó</li>
+              <li>Kén</li>
+              <li>Feketeszén</li>
+              <li>Vasérc</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Mezőgazdasága</h2>
+            <ul class="mb-0">
+              <li>Növénytermesztés: kukorica, búza, napraforgó, cukorrépa, zöldség-gyümölcs, burgonya.</li>
+              <li>A hegyekben: juh, szarvasmarha.</li>
+              <li>Az alföldön: sertés, baromfi.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ipara</h2>
+            <ul class="mb-0">
+              <li>Bányászat</li>
+              <li>Kohászat</li>
+              <li>Gép- és járműgyártás</li>
+              <li>Vegyipar</li>
+              <li>Fa- és papíripar</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Városai</h2>
+            <ul class="mb-0">
+              <li><strong>Bukarest:</strong> főváros, gépjármű- és gépgyártás (Renault-Dacia)</li>
+              <li><strong>Ploiesti:</strong> kőolaj-bányászati központ, vegyipar és gépgyártás</li>
+              <li><strong>Konstanca:</strong> kikötő</li>
+              <li><strong>Galati:</strong> dunai kikötő, kohászat</li>
+              <li><strong>Brassó:</strong> gép- és repülőgyártás</li>
+              <li><strong>Arad:</strong> gépjárműgyártás</li>
+              <li><strong>Kolozsvár:</strong> gépgyártás</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2"><a href="https://hu.wikipedia.org/wiki/Rom%C3%A1nia" target="_blank" rel="noopener">Románia</a> Magyarország keleti szomszédja, köztársaság, 2007 óta az Európai Unió tagja. Területe mintegy 238 000 km², lakóinak száma nagyjából 19 millió. Az ország földrajzát három nagy egység határozza meg: a Kárpátok koszorúja, a középen fekvő Erdélyi-medence és a délen elterülő Román-alföld.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Palace%20of%20the%20Parliament%20in%20Bucharest%20(51878975552).jpg?width=800" class="figure-img img-fluid rounded" alt="A bukaresti Parlament épülete">
+              <figcaption class="figure-caption">A bukaresti Parlament épülete — a világ egyik legnagyobb középülete. <a href="https://commons.wikimedia.org/wiki/File:Palace_of_the_Parliament_in_Bucharest_(51878975552).jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> Románia 2004-ben lett a NATO, 2007-ben pedig az Európai Unió tagja. Fővárosa, <a href="https://hu.wikipedia.org/wiki/Bukarest" target="_blank" rel="noopener">Bukarest</a> a Román-alföldön fekszik.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A Kárpátok és a tájak</h2>
+            <p>A <a href="https://hu.wikipedia.org/wiki/K%C3%A1rp%C3%A1tok" target="_blank" rel="noopener">Kárpátok</a> Romániában három részre tagolódik: északon és keleten a Keleti-Kárpátok, délen a Déli-Kárpátok, köztük pedig az Erdélyi-középhegység húzódik. A hegyek koszorújában terül el az <a href="https://hu.wikipedia.org/wiki/Erd%C3%A9lyi-medence" target="_blank" rel="noopener">Erdélyi-medence</a>, az ország déli részén pedig a nagy mezőgazdasági terület, a <a href="https://hu.wikipedia.org/wiki/Rom%C3%A1n-alf%C3%B6ld" target="_blank" rel="noopener">Román-alföld</a>.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Southern%20Carpathians%2C%20Piatra%20Craiului%20-%20Romania%20-%20Landscape%20photography%20(36831093712).jpg?width=800" class="figure-img img-fluid rounded" alt="A Déli-Kárpátok hegyvidéke">
+              <figcaption class="figure-caption">A Déli-Kárpátok (Piatra Craiului) — meredek, sziklás hegyvidék. <a href="https://commons.wikimedia.org/wiki/File:Southern_Carpathians,_Piatra_Craiului_-_Romania_-_Landscape_photography_(36831093712).jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A medencében és a hegyek között más-más a gazdálkodás: a hegyvidéken a juh- és szarvasmarhatartás jellemző, az alföldön a szántóföldi növénytermesztés és a sertés, baromfi tartása.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A Duna és a többi folyó</h2>
+            <p>A <a href="https://hu.wikipedia.org/wiki/Duna" target="_blank" rel="noopener">Duna</a> Románia legfontosabb folyója: délen áttöri a Déli-Kárpátokat (ez a Vaskapu-szoros), majd deltát alkotva ömlik a Fekete-tengerbe. Mellette a <a href="https://hu.wikipedia.org/wiki/Maros" target="_blank" rel="noopener">Maros</a>, az Olt és a <a href="https://hu.wikipedia.org/wiki/Prut" target="_blank" rel="noopener">Prut</a> szerepel a tananyagban.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Iron%20Gate%20(Serbia-Romania)%20in%202016%20-%2001.jpg?width=800" class="figure-img img-fluid rounded" alt="A Vaskapu-szoros a Dunán">
+              <figcaption class="figure-caption">A Vaskapu-szoros: itt töri át a Duna a Déli-Kárpátokat. <a href="https://commons.wikimedia.org/wiki/File:Iron_Gate_(Serbia-Romania)_in_2016_-_01.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A Duna mellett más folyók is fontosak: az Olt Erdélyben folyik északról délre, a Maros pedig az Erdélyi-medencét szeli át, mielőtt a Tiszába ömlik.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ásványkincsek és ipar</h2>
+            <p>Románia ásványkincsekben gazdag: van <a href="https://hu.wikipedia.org/wiki/K%C5%91olaj" target="_blank" rel="noopener">kőolaj</a>, <a href="https://hu.wikipedia.org/wiki/F%C3%B6ldg%C3%A1z" target="_blank" rel="noopener">földgáz</a>, <a href="https://hu.wikipedia.org/wiki/Feketek%C5%91sz%C3%A9n" target="_blank" rel="noopener">feketekőszén</a>, <a href="https://hu.wikipedia.org/wiki/Vas%C3%A9rc" target="_blank" rel="noopener">vasérc</a>, réz, <a href="https://hu.wikipedia.org/wiki/K%C5%91s%C3%B3" target="_blank" rel="noopener">kősó</a>, kén és arany is. Ezért alakult ki a bányászat, a kohászat, a vegyipar, valamint a gép- és járműgyártás. Az erdők miatt jelentős a fa- és papíripar.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20the%20Vega%20refinery%2C%20Ploie%C8%99ti.jpg?width=800" class="figure-img img-fluid rounded" alt="Kőolajfinomító Ploiești mellett">
+              <figcaption class="figure-caption">Kőolajfinomító Ploiești mellett — a város a román kőolaj-bányászat központja. <a href="https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Vega_refinery,_Ploie%C8%99ti.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A <a href="https://hu.wikipedia.org/wiki/Dacia_(aut%C3%B3m%C3%A1rka)" target="_blank" rel="noopener">Dacia</a> a Renault romániai autómárkája; a tananyag szerint Bukarestben folyik gépjármű- és gépgyártás.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A városok</h2>
+            <p>A főváros <a href="https://hu.wikipedia.org/wiki/Bukarest" target="_blank" rel="noopener">Bukarest</a>, ahol gépjármű- és gépgyártás is van. <a href="https://hu.wikipedia.org/wiki/Ploie%C8%99ti" target="_blank" rel="noopener">Ploiești</a> a kőolaj-bányászat központja, vegyiparral és gépgyártással. <a href="https://hu.wikipedia.org/wiki/Konstanca" target="_blank" rel="noopener">Konstanca</a> a Fekete-tenger partján fekvő kikötő, <a href="https://hu.wikipedia.org/wiki/Gala%C8%9Bi" target="_blank" rel="noopener">Galați</a> dunai kikötő kohászattal. <a href="https://hu.wikipedia.org/wiki/Brass%C3%B3" target="_blank" rel="noopener">Brassóban</a> gép- és repülőgyártás folyik, <a href="https://hu.wikipedia.org/wiki/Arad_(Rom%C3%A1nia)" target="_blank" rel="noopener">Aradon</a> gépjárműgyártás, <a href="https://hu.wikipedia.org/wiki/Kolozsv%C3%A1r" target="_blank" rel="noopener">Kolozsváron</a> pedig gépgyártás.</p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Constanta-romania-may-2017-port-0012.jpg?width=800" class="figure-img img-fluid rounded" alt="A konstancai kikötő">
+                  <figcaption class="figure-caption">A konstancai kikötő a Fekete-tenger partján. <a href="https://commons.wikimedia.org/wiki/File:Constanta-romania-may-2017-port-0012.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Old%20City%20-%20Brasov%20-%20Romania%20-%20panoramio%20(4).jpg?width=800" class="figure-img img-fluid rounded" alt="Brassó óvárosa">
+                  <figcaption class="figure-caption">Brassó óvárosa — gép- és repülőgyártás központja. <a href="https://commons.wikimedia.org/wiki/File:Old_City_-_Brasov_-_Romania_-_panoramio_(4).jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
