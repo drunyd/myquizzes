@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mivel foglalkozik a kémia?</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .flow li { list-style: none; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Mivel foglalkozik a kémia?</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kezdetek</h2>
+            <ul>
+              <li>Egyiptom (Chemi – fekete)</li>
+              <li>Középkor: bölcsek köve, lombik, lepárlás, kristályosítás, ötvözés</li>
+            </ul>
+            <p class="mb-0"><strong>Kémia:</strong> az anyagok szerkezetével, összetételével, tulajdonságaival, változásával foglalkozik.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A természettudományos megismerés lépései</h2>
+            <ul>
+              <li><strong>Kíváncsiság:</strong> Miért??</li>
+              <li><strong>Kísérletezés:</strong> kreativitás, gondolkodás, ötletek, kivitelezés</li>
+              <li><strong>Tapasztalat:</strong> látjuk, halljuk, érezzük — az érzékszervek fontos szerepe</li>
+              <li><strong>Magyarázat:</strong> a már meglévő ismereteink alapján adjuk</li>
+            </ul>
+            <h3>A folyamat</h3>
+            <ol class="flow mb-0">
+              <li>megfigyelés →</li>
+              <li>kérdésfelvetés →</li>
+              <li>tervkészítés →</li>
+              <li>kísérletezés →</li>
+              <li>megfigyelés →</li>
+              <li>következtetés</li>
+            </ol>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A vegyipar</h2>
+            <ul class="mb-0">
+              <li>Iparági gyűjtőnév.</li>
+              <li>Termékek kerülnek előállításra.</li>
+              <li>Anyag átalakításra kerül.</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A <a href="https://hu.wikipedia.org/wiki/K%C3%A9mia" target="_blank" rel="noopener">kémia</a> az anyagokkal foglalkozó természettudomány: azt vizsgálja, miből épülnek fel az anyagok, milyen tulajdonságaik vannak, és hogyan változnak meg. A kémia útja az ókori Egyiptomtól a középkori műhelyeken át vezet a mai vegyiparig.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/An%20alchemist%20in%20his%20laboratory.%20Oil%20painting.%20Wellcome%20L0008818.jpg?width=800" class="figure-img img-fluid rounded" alt="Alkimista a laboratóriumában (festmény)">
+              <figcaption class="figure-caption">Egy alkimista a laboratóriumában — a középkori „kémia” elsősorban a bölcsek kövének keresése és a fémek átalakítása körül forgott. <a href="https://commons.wikimedia.org/wiki/File:An_alchemist_in_his_laboratory._Oil_painting._Wellcome_L0008818.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A kémia egyik elődje az alkímia volt, amelyben a kísérletezés és a megfigyelés már fontos szerepet kapott. A középkori műhelyekben ismerték a <a href="https://hu.wikipedia.org/wiki/Desztill%C3%A1ci%C3%B3" target="_blank" rel="noopener">lepárlást</a>, a <a href="https://hu.wikipedia.org/wiki/Krist%C3%A1lyosod%C3%A1s" target="_blank" rel="noopener">kristályosítást</a> és az <a href="https://hu.wikipedia.org/wiki/%C3%96tv%C3%B6zet" target="_blank" rel="noopener">ötvözést</a>, a legfontosabb eszközük pedig a <a href="https://hu.wikipedia.org/wiki/Lombik" target="_blank" rel="noopener">lombik</a> volt.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A megismerés lépései</h2>
+            <p>A <a href="https://hu.wikipedia.org/wiki/Term%C3%A9szettudom%C3%A1ny" target="_blank" rel="noopener">természettudomány</a> módszere a kérdezés és a kísérletezés: minden a kíváncsisággal kezdődik („Miért?”), majd jön a kísérletezés, a tapasztalat és végül a magyarázat. A folyamatábra szerint a rendszeres út ez:</p>
+            <ol class="flow">
+              <li>1. megfigyelés →</li>
+              <li>2. kérdésfelvetés →</li>
+              <li>3. tervkészítés →</li>
+              <li>4. kísérletezés →</li>
+              <li>5. megfigyelés →</li>
+              <li>6. következtetés</li>
+            </ol>
+            <p class="mb-0">A tapasztalatnál az érzékszerveink segítenek: látjuk, halljuk, érezzük, ami történik. A magyarázatot pedig mindig a már meglévő ismereteinkre alapozzuk.</p>
+            <div class="alert alert-info mb-0 mt-3"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A megfigyelés kétszer szerepel a folyamatban: egyszer a legelején, egyszer pedig a kísérlet után. Az első megfigyelésből lesz a kérdés, a másodikból pedig a következtetés.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A vegyipar</h2>
+            <p>A <a href="https://hu.wikipedia.org/wiki/Vegyipar" target="_blank" rel="noopener">vegyipar</a> iparági gyűjtőnév: sok különböző gyár tartozik bele, amelyek anyagokat alakítanak át és termékeket állítanak elő. A vegyipar termékei között vannak például a műtrágyák, a gyógyszerek, a tisztítószerek és a műanyagok is.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Grangemouth%20Chemical%20Plant%20-%20geograph.org.uk%20-%205621703.jpg?width=800" class="figure-img img-fluid rounded" alt="Nagy vegyipari üzem">
+              <figcaption class="figure-caption">Nagy vegyipari üzem: itt az anyagokat átalakítva termékeket állítanak elő. <a href="https://commons.wikimedia.org/wiki/File:Grangemouth_Chemical_Plant_-_geograph.org.uk_-_5621703.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A kémia nemcsak a tudósoké: a mindennapokban is kémiai folyamatokkal találkozunk, amikor sütünk, mosunk vagy éppen szódabikarbónát használunk. A kémia célja, hogy ezeket a folyamatokat megértsük, ne csak „varázslatként” lássuk.</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

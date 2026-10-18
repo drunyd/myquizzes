@@ -1,0 +1,356 @@
+Quiz: Mivel foglalkozik a kémia?
+Source: maja_wiki/7.o/kemia/260901.1.7.o.kemia.mivel.foglalkozik.a.kemia.html
+Question:
+  - Type: singlechoice
+    Text: Mivel foglalkozik a kémia?
+    A: Az anyagok szerkezetével és változásaival
+    B: Az élőlények felépítésével és működésével
+    C: A csillagok mozgásával és a világegyetemmel
+    D: A Föld kőzeteivel és az ásványok keletkezésével
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ország nevéből eredhet a kémia szó a forrás szerint?
+    A: Egyiptom
+    B: Görögország
+    C: Olaszország
+    D: Kína
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent a „Chemi” szó a forrás szerint?
+    A: Fekete
+    B: Arany
+    C: Vörös
+    D: Fém és ásvány
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit kerestek a középkori kémikusok?
+    A: A bölcsek kövét
+    B: A repülőgép feltalálásának módját
+    C: Az elektromosság termelésének titkát
+    D: A mikroorganizmusok felépítését
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszközt ismerték már a középkorban?
+    A: A lombikot
+    B: A mikroszkópot
+    C: A centrifugát
+    D: A spektrométert
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik művelet szerepel a középkori ismeretek között?
+    A: Lepárlás
+    B: Elektrolízis
+    C: Fotoszintézis
+    D: Radioaktivitás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik műveletet ismerték már a középkorban?
+    A: Kristályosítás
+    B: Szublimáció
+    C: Titrálás
+    D: Gázkromatográfia és titrálás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik művelettel készülnek fémkeverékek?
+    A: Ötvözés
+    B: Hegesztés
+    C: Galvanizálás
+    D: Polimerizáció
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a természettudományos megismerés első lépése?
+    A: A kíváncsiság
+    B: A következtetés
+    C: A magyarázat
+    D: A tapasztalat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi segít a kísérletezés során a forrás szerint?
+    A: A kreativitás és a gondolkodás
+    B: A szerencse és a hosszas találgatás
+    C: A számítógép és az internet
+    D: A memorizálás és a másolás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Minek van fontos szerepe a tapasztalat során?
+    A: Az érzékszerveknek
+    B: A zsebszámológépnek és a vonalzónak
+    C: A mérőműszereknek
+    D: A tankönyveknek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire alapozzuk a magyarázatot?
+    A: A már meglévő ismereteinkre
+    B: A véletlen, megalapozatlan találgatásokra
+    C: A barátaink véleményére
+    D: A könyvek borítójára
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a folyamatábra első lépése?
+    A: A megfigyelés
+    B: A tervkészítés
+    C: A kísérletezés
+    D: A következtetés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi következik a megfigyelés után a folyamatábrán?
+    A: Kérdésfelvetés
+    B: Következtetés
+    C: Magyarázat
+    D: Tapasztalat és magyarázat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi következik a kérdésfelvetés után?
+    A: Tervkészítés
+    B: Kísérletezés
+    C: Következtetés
+    D: Megfigyelés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi következik a tervkészítés után?
+    A: Kísérletezés
+    B: Kérdésfelvetés
+    C: Következtetés
+    D: Megfigyelés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a folyamatábra utolsó lépése?
+    A: Következtetés
+    B: Kísérletezés
+    C: Tervkészítés
+    D: Kérdésfelvetés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a vegyipar?
+    A: Iparági gyűjtőnév
+    B: Egyetlen nagy gyár neve
+    C: Egy kémiai elem neve
+    D: Egy laboratóriumi eszköz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit állít elő a vegyipar?
+    A: Termékeket
+    B: Alapanyagokat
+    C: Ásványkincseket
+    D: Villamos energiát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tesz a vegyipar az anyagokkal?
+    A: Átalakítja őket
+    B: Csak raktározza őket
+    C: Csak szállítja őket
+    D: Megsemmisíti őket
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik terület foglalkozik az anyagok átalakításával és termékek előállításával?
+    A: A vegyipar
+    B: A csillagászat
+    C: A nyelvészet
+    D: A régészet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik lépés nem szerepel a megismerés folyamatábráján?
+    A: Pénzgyűjtés
+    B: Megfigyelés
+    C: Tervkészítés
+    D: Kísérletezés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik művelet nem szerepel a középkori ismeretek között?
+    A: Elektrolízis
+    B: Lepárlás
+    C: Kristályosítás
+    D: Ötvözés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik anyagjellemzővel foglalkozik a kémia?
+    A: Az anyagok összetétele
+    B: Az anyagok ára
+    C: Az anyagok tulajdonosa
+    D: Az anyagok szállítási ideje
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit vizsgál a kémia az anyagokon a szerkezet mellett?
+    A: A tulajdonságokat és a változásokat
+    B: A beszerzési árukat és a hasznukat
+    C: A gyártók nevét és a származási helyüket
+    D: A szállítási módokat és az eltarthatóságukat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért fontos a kísérletezés a megismerésben?
+    A: Mert tapasztalatot ad
+    B: Mert pénzt hoz
+    C: Mert gyorsabb az olvasásnál
+    D: Mert nem kell hozzá gondolkodás
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek tartoznak a középkori kémia ismeretei közé?
+    Answers: [bölcsek köve, lombik, lepárlás, kristályosítás, ötvözés, számítógépes modellezés]
+    Correct: [bölcsek köve, lombik, lepárlás, kristályosítás, ötvözés]
+
+  - Type: multiplechoice
+    Text: Mivel foglalkozik a kémia?
+    Answers: [az anyagok szerkezete, az anyagok összetétele, az anyagok tulajdonságai, az anyagok változásai, az élőlények viselkedése]
+    Correct: [az anyagok szerkezete, az anyagok összetétele, az anyagok tulajdonságai, az anyagok változásai]
+
+  - Type: multiplechoice
+    Text: Melyek a természettudományos megismerés lépései a forrás szerint?
+    Answers: [kíváncsiság, kísérletezés, tapasztalat, magyarázat, találgatás]
+    Correct: [kíváncsiság, kísérletezés, tapasztalat, magyarázat]
+
+  - Type: multiplechoice
+    Text: Mi kell a kísérletezéshez?
+    Answers: [kreativitás, gondolkodás, ötletek, kivitelezés, szerencse]
+    Correct: [kreativitás, gondolkodás, ötletek, kivitelezés]
+
+  - Type: multiplechoice
+    Text: Mely lépések szerepelnek a megismerés folyamatábráján?
+    Answers: [megfigyelés, kérdésfelvetés, tervkészítés, kísérletezés, következtetés, találgatás]
+    Correct: [megfigyelés, kérdésfelvetés, tervkészítés, kísérletezés, következtetés]
+
+  - Type: multiplechoice
+    Text: Mit használunk a tapasztalás során?
+    Answers: [látás, hallás, érzés, érzékszervek, számológép]
+    Correct: [látás, hallás, érzés, érzékszervek]
+
+  - Type: multiplechoice
+    Text: Mi jellemző a vegyiparra?
+    Answers: [iparági gyűjtőnév, termékeket állít elő, anyagot alakít át, csak élelmiszert gyárt]
+    Correct: [iparági gyűjtőnév, termékeket állít elő, anyagot alakít át]
+
+  - Type: multiplechoice
+    Text: Mely anyagjellemzőkkel foglalkozik a kémia?
+    Answers: [szerkezet, összetétel, tulajdonság, változás, ár]
+    Correct: [szerkezet, összetétel, tulajdonság, változás]
+
+  - Type: multiplechoice
+    Text: Mi kapcsolódik a kémia kezdeteihez?
+    Answers: [Egyiptom, Chemi, bölcsek köve, lombik, lepárlás, mobiltelefon]
+    Correct: [Egyiptom, Chemi, bölcsek köve, lombik, lepárlás]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a kémia kezdeteire?
+    Answers: [Egyiptomban a Chemi szó a feketére utal, a középkorban a bölcsek kövét keresték, a középkorban ismerték a lepárlást, a középkorban már volt elektronmikroszkóp]
+    Correct: [Egyiptomban a Chemi szó a feketére utal, a középkorban a bölcsek kövét keresték, a középkorban ismerték a lepárlást]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a természettudományos megismerésre?
+    Answers: [kíváncsisággal kezdődik, a kísérletezéshez kreativitás kell, a tapasztalatban fontos az érzékszervek szerepe, a magyarázathoz nem kell semmilyen ismeret]
+    Correct: [kíváncsisággal kezdődik, a kísérletezéshez kreativitás kell, a tapasztalatban fontos az érzékszervek szerepe]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a kémia vizsgálódására?
+    Answers: [az anyagok szerkezetét vizsgálja, az anyagok összetételét vizsgálja, az anyagok tulajdonságait vizsgálja, az anyagok változásait vizsgálja, az emberek érzelmeit vizsgálja]
+    Correct: [az anyagok szerkezetét vizsgálja, az anyagok összetételét vizsgálja, az anyagok tulajdonságait vizsgálja, az anyagok változásait vizsgálja]
+
+  - Type: word
+    Text: Hogyan nevezték az egyiptomiak a kémiát a forrás szerint?
+    Answers: [Chemi]
+    Correct: [Chemi]
+
+  - Type: word
+    Text: Mit jelent a Chemi szó?
+    Answers: [fekete]
+    Correct: [fekete]
+
+  - Type: word
+    Text: Melyik eszközt említi a forrás a középkorból?
+    Answers: [lombik]
+    Correct: [lombik]
+
+  - Type: word
+    Text: Minek a keresése volt a középkori kémia egyik célja?
+    Answers: [bölcsek köve]
+    Correct: [bölcsek köve]
+
+  - Type: word
+    Text: Hogyan nevezzük az iparágak gyűjtőnevét, amely termékeket állít elő?
+    Answers: [vegyipar]
+    Correct: [vegyipar]
+
+  - Type: word
+    Text: Hány lépésből áll a megismerés folyamatábrája?
+    Answers: [6]
+    Correct: [6]
+
+  - Type: word
+    Text: Melyik művelettel készülnek fémkeverékek?
+    Answers: [ötvözés]
+    Correct: [ötvözés]
+
+  - Type: word
+    Text: Milyen kérdéssel indul a kíváncsiság a forrás szerint?
+    Answers: [miért]
+    Correct: [miért]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a természettudományos megismerés lépéseit!
+    Items:
+      - kísérletezés
+      - megfigyelés
+      - tervkészítés
+      - kérdésfelvetés
+      - következtetés
+    Correct:
+      - megfigyelés
+      - kérdésfelvetés
+      - tervkészítés
+      - kísérletezés
+      - következtetés
+
+  - Type: ordering
+    Text: Rendezd időrendbe a kémia történetének állomásait!
+    Items:
+      - a mai vegyipar
+      - a középkori kémia
+      - az egyiptomi kezdetek
+    Correct:
+      - az egyiptomi kezdetek
+      - a középkori kémia
+      - a mai vegyipar
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [Chemi, az egyiptomiak szava a feketére]
+      - [bölcsek köve, középkori keresett anyag]
+      - [lombik, középkori eszköz]
+      - [ötvözés, középkori fémkezelő művelet]
+
+  - Type: pairing
+    Text: Párosítsd össze a megismerés lépéseit a hozzájuk tartozó feladattal!
+    LeftTitle: Lépés
+    RightTitle: Feladat
+    Pairs:
+      - [kíváncsiság, "a Miért? kérdés felvetése"]
+      - [kísérletezés, ötletek és a kivitelezés]
+      - [tapasztalat, "látás, hallás, érzés"]
+      - [magyarázat, a már meglévő ismeretek alapján]

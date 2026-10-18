@@ -1,0 +1,358 @@
+Quiz: Kísérleti eszközök és rendszabályok
+Source: maja_wiki/7.o/kemia/260901.2.7.o.kemia.kiserleti.eszkozok.es.rendszabalyok.html
+Question:
+  - Type: singlechoice
+    Text: Mi a kísérletezés a kémiában?
+    A: A kémia módszere
+    B: A kémia egyik terméke
+    C: A kémia egyik eszköze
+    D: A kémia egyik ásványkincse
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mik a vegyszerek a forrás szerint?
+    A: A laboratóriumban lévő minden anyag
+    B: Csak a mérgező anyagok
+    C: Csak a folyékony anyagok
+    D: Csak a háztartási tisztítószerek és a savak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző gyakran a vegyszerekre?
+    A: Mérgezők és irritálók
+    B: Mindig teljesen veszélytelenek
+    C: Mindig ehetők és ihatók
+    D: Mindig szagtalanok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nem teszünk a vegyszerekkel?
+    A: Nem esszük meg őket
+    B: Nem öntjük ki a kijelölt edénybe
+    C: Nem jelöljük meg a nevüket
+    D: Nem használunk hozzájuk védőfelszerelést
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik üvegeszköz melegíthető?
+    A: A kémcső
+    B: A mérőhenger
+    C: Az óraüveg
+    D: A hőmérő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik lombikfajta szerepel a forrásban?
+    A: Erlenmeyer-lombik
+    B: Retorta- és mérőlombik
+    C: Kémcső-lombik
+    D: Mérőlombik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik üvegeszközt nem melegítjük?
+    A: A mérőhengert
+    B: A kémcsövet
+    C: A főzőpoharat
+    D: Az álló lombikot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszköz készül porcelánból?
+    A: A dörzsmozsár
+    B: A vasháromláb
+    C: A kémcsőállvány
+    D: A fogó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszköz készül fából?
+    A: A kémcsőállvány
+    B: A dörzsmozsár
+    C: A vasháromláb
+    D: A mérőhenger és a hőmérő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszköz készül fémből?
+    A: A vasháromláb
+    B: A kémcső
+    C: Az óraüveg
+    D: A dörzsmozsár és az óraüveg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszköz készül műanyagból?
+    A: A desztillált vizes palack
+    B: A főzőpohár, a tölcsér és a kémcső
+    C: A tölcsér
+    D: A kémcső
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszköz készül fából a kémcsőállvány mellett?
+    A: A kémcsőfogó csipesz
+    B: A vasháromláb és a fogó
+    C: A fogó
+    D: A dörzsmozsár
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a borszeszégő hőmérséklete a forrás szerint?
+    A: 400–500 °C
+    B: 1000–1200 °C
+    C: 100–200 °C
+    D: 2000–3000 °C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a Bunsen-égő hőmérséklete a forrás szerint?
+    A: 1000–1200 °C
+    B: 400–500 °C
+    C: 200–300 °C
+    D: 5000–6000 °C között
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszközzel melegítünk a laboratóriumban?
+    A: A borszeszégővel
+    B: A dörzsmozsárral és a fogóval
+    C: A mérőhengerrel
+    D: Az üvegbottal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a laboratóriumi munka első szabálya?
+    A: Rend és fegyelem
+    B: A leggyorsabb munka
+    C: A csend és a sötétség
+    D: A vegyszerek kóstolgatása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit teszünk cselekvés előtt?
+    A: Előbb gondolkodunk
+    B: Előbb kiabálunk
+    C: Előbb szaladgálunk és kiabálunk
+    D: Előbb eszünk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit teszünk, ha nem értünk valamit?
+    A: Kérdezünk
+    B: Találgatunk
+    C: Otthagyjuk a feladatot
+    D: Saját kísérletbe kezdünk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik védőfelszerelés szerepel a forrásban?
+    A: A gumikesztyű
+    B: A bőrkesztyű
+    C: A munkavédelmi sisak
+    D: A fülvédő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit veszünk fel a hosszú hajra?
+    A: Hajgumit
+    B: Sisakot
+    C: Kesztyűt
+    D: Szemüveget
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan szagoljuk meg a vegyszereket?
+    A: Legyezünk
+    B: Közvetlenül az edény fölé hajolunk
+    C: Az edény száját az orrunkhoz érintjük
+    D: Erősen belélegzünk az edényből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mivel vesszük ki a vegyszert az edényből?
+    A: Vegyszeres kanállal
+    B: Puszta kézzel, kesztyű nélkül
+    C: Üvegbottal
+    D: Kémcsővel
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit teszünk a maradékokkal?
+    A: Gyűjtjük őket
+    B: A mosogatóba öntjük
+    C: A padlóra öntjük
+    D: Hazavisszük őket
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nem viszünk haza a laboratóriumból?
+    A: Semmilyen vegyszert
+    B: A saját füzetünket és a tollunkat
+    C: A saját tollunkat
+    D: A saját táskánkat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszközt nem melegítjük?
+    A: A hőmérőt
+    B: A kémcsövet
+    C: A főzőpoharat
+    D: A gömb-lombikot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik eszköz készül fémből és vegyszer adagolására való?
+    A: A vegyszeres kanál
+    B: A dörzsmozsár és a kémcső
+    C: A kémcsőállvány
+    D: A mérőhenger
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely tulajdonságok jellemzők gyakran a vegyszerekre?
+    Answers: [mérgező, irritáló, kellemetlen szagú, tűzveszélyes, iható]
+    Correct: [mérgező, irritáló, kellemetlen szagú, tűzveszélyes]
+
+  - Type: multiplechoice
+    Text: Mely eszközök melegíthetők?
+    Answers: [kémcső, főzőpohár, álló lombik, gömb-lombik, Erlenmeyer-lombik, mérőhenger]
+    Correct: [kémcső, főzőpohár, álló lombik, gömb-lombik, Erlenmeyer-lombik]
+
+  - Type: multiplechoice
+    Text: Mely üvegeszközöket nem melegítjük?
+    Answers: [mérőhenger, óraüveg, tölcsér, üvegbot, üvegkád, kémcső]
+    Correct: [mérőhenger, óraüveg, tölcsér, üvegbot, üvegkád]
+
+  - Type: multiplechoice
+    Text: Mely eszközök készülnek fémből?
+    Answers: [fogók, vasháromláb, kémcsőállvány, dörzsmozsár]
+    Correct: [fogók, vasháromláb]
+
+  - Type: multiplechoice
+    Text: Mely eszközök készülnek fából?
+    Answers: [kémcsőfogó csipesz, kémcsőállvány, dörzsmozsár, vasháromláb]
+    Correct: [kémcsőfogó csipesz, kémcsőállvány]
+
+  - Type: multiplechoice
+    Text: Mely védőfelszerelések szerepelnek a forrásban?
+    Answers: [gumikesztyű, szemüveg, köpeny, hajgumi, papucs]
+    Correct: [gumikesztyű, szemüveg, köpeny, hajgumi]
+
+  - Type: multiplechoice
+    Text: Mely szabályok igazak a laboratóriumban?
+    Answers: [nem eszünk, nem iszunk, nem kóstolgatunk, legyezzük a szagot, közvetlenül szagolunk]
+    Correct: [nem eszünk, nem iszunk, nem kóstolgatunk, legyezzük a szagot]
+
+  - Type: multiplechoice
+    Text: Mely eszközök készülnek üvegből?
+    Answers: [kémcső, főzőpohár, lombik, hőmérő, mérőhenger, dörzsmozsár]
+    Correct: [kémcső, főzőpohár, lombik, hőmérő, mérőhenger]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a laboratóriumi munkára?
+    Answers: [a kísérletezés a kémia módszere, a vegyszerek gyakran veszélyesek, a laboratóriumban rend és fegyelem van, a vegyszereket meg lehet kóstolni]
+    Correct: [a kísérletezés a kémia módszere, a vegyszerek gyakran veszélyesek, a laboratóriumban rend és fegyelem van]
+
+  - Type: multiplechoice
+    Text: Mely eszközök anyaga fa vagy porcelán?
+    Answers: [kémcsőállvány, kémcsőfogó csipesz, dörzsmozsár, vasháromláb]
+    Correct: [kémcsőállvány, kémcsőfogó csipesz, dörzsmozsár]
+
+  - Type: multiplechoice
+    Text: Mely szabályok vonatkoznak a vegyszerekre?
+    Answers: [vegyszeres kanállal vesszük ki, nem szagoljuk közvetlenül, a maradékokat gyűjtjük, hazavihetjük őket]
+    Correct: [vegyszeres kanállal vesszük ki, nem szagoljuk közvetlenül, a maradékokat gyűjtjük]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a melegítésre?
+    Answers: [a borszeszégő 400–500 °C-ot ad, a Bunsen-égő 1000–1200 °C-ot ad, a kémcső melegíthető, a mérőhengert is melegítjük]
+    Correct: [a borszeszégő 400–500 °C-ot ad, a Bunsen-égő 1000–1200 °C-ot ad, a kémcső melegíthető]
+
+  - Type: word
+    Text: Mi a kémia módszere a forrás szerint?
+    Answers: [kísérletezés]
+    Correct: [kísérletezés]
+
+  - Type: word
+    Text: Hogyan nevezzük a laboratóriumban lévő anyagokat?
+    Answers: [vegyszerek]
+    Correct: [vegyszerek]
+
+  - Type: word
+    Text: Melyik eszközzel melegítünk 400–500 °C-on?
+    Answers: [borszeszégő]
+    Correct: [borszeszégő]
+
+  - Type: word
+    Text: Melyik eszközzel érhetünk el 1000–1200 °C-ot?
+    Answers: [Bunsen-égő]
+    Correct: [Bunsen-égő]
+
+  - Type: word
+    Text: Melyik eszközben törjük össze a szilárd anyagokat?
+    Answers: [dörzsmozsár]
+    Correct: [dörzsmozsár]
+
+  - Type: word
+    Text: Melyik eszközzel mérjük a folyadék térfogatát?
+    Answers: [mérőhenger]
+    Correct: [mérőhenger]
+
+  - Type: word
+    Text: Milyen kesztyűt használunk védőfelszerelésként?
+    Answers: [gumikesztyű]
+    Correct: [gumikesztyű]
+
+  - Type: word
+    Text: Hány Celsius-fok a Bunsen-égő maximuma a forrás szerint?
+    Answers: [1200]
+    Correct: [1200]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az üvegeszközöket a forrás felsorolása szerint (ezeket nem melegítjük)!
+    Items:
+      - üvegkád
+      - mérőhenger
+      - tölcsér
+      - óraüveg
+      - üvegbot
+    Correct:
+      - mérőhenger
+      - óraüveg
+      - tölcsér
+      - üvegbot
+      - üvegkád
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a laboratóriumi szabályokat a forrás sorrendje szerint!
+    Items:
+      - maradékok gyűjtése
+      - rend és fegyelem
+      - kérdezz
+      - védőfelszerelés használata
+    Correct:
+      - rend és fegyelem
+      - kérdezz
+      - védőfelszerelés használata
+      - maradékok gyűjtése
+
+  - Type: pairing
+    Text: Párosítsd össze az eszközöket az anyagukkal!
+    LeftTitle: Eszköz
+    RightTitle: Anyag
+    Pairs:
+      - [kémcső, üveg (melegíthető)]
+      - [mérőhenger, üveg (nem melegítjük)]
+      - [vasháromláb, fém]
+      - [kémcsőállvány, fa]
+      - [dörzsmozsár, porcelán]
+      - [desztillált vizes palack, műanyag]
+
+  - Type: pairing
+    Text: Párosítsd össze a melegítőeszközöket a hőmérsékletükkel!
+    LeftTitle: Eszköz
+    RightTitle: Hőmérséklet
+    Pairs:
+      - [borszeszégő, 400–500 °C]
+      - [Bunsen-égő, 1000–1200 °C]

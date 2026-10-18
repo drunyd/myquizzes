@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kísérleti eszközök és rendszabályok</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .picto img { max-height: 110px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Kísérleti eszközök és rendszabályok</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A laboratóriumi munka anyagai</h2>
+            <ul class="mb-0">
+              <li><strong>Kísérletezés:</strong> a kémia módszere.</li>
+              <li><strong>Vegyszerek:</strong> a laboratóriumban lévő minden anyag! Megehetjük???</li>
+              <li>Gyakran mérgező, irritáló, kellemetlen szagú, tűzveszélyes.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Piktogramok</h2>
+            <p class="mb-0">A vegyszeres edényeken lévő piktogramok figyelmeztetnek a veszélyekre.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A laboratóriumi munka eszközei</h2>
+            <div class="table-responsive">
+              <table class="table table-sm align-middle mb-0">
+                <thead><tr><th>Anyag</th><th>Eszközök</th></tr></thead>
+                <tbody>
+                  <tr><td>Üveg (melegíthető)</td><td>kémcső, főzőpohár, lombik (álló, gömb, Erlenmeyer)</td></tr>
+                  <tr><td>Üveg (nem melegítjük)</td><td>mérőhenger, óraüveg, tölcsér, üvegbot, üvegkád, kristályosító csésze, hőmérő</td></tr>
+                  <tr><td>Fém</td><td>fogók, vasháromláb, vegyszeres kanál</td></tr>
+                  <tr><td>Fa</td><td>kémcsőfogó csipesz, kémcsőállvány</td></tr>
+                  <tr><td>Műanyag</td><td>desztillált vizes palack, vegyszeres kanál</td></tr>
+                  <tr><td>Porcelán</td><td>dörzsmozsár</td></tr>
+                  <tr><td>Melegítés</td><td>borszeszégő (400–500 °C), Bunsen-égő (1000–1200 °C)</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Szabályok</h2>
+            <ul class="mb-0">
+              <li>Rend és fegyelem!</li>
+              <li>Előbb gondolkozz, aztán cselekedj!</li>
+              <li>Kérdezz!</li>
+              <li>Védőfelszerelés használata! (gumikesztyű, szemüveg, köpeny, hajgumi)</li>
+              <li>Nem eszünk, iszunk, nem kóstolgatunk!</li>
+              <li>Vegyszeres kanál használata!</li>
+              <li>Nem szagolgatjuk közvetlenül a vegyszereket! Legyezünk!</li>
+              <li>Maradékok gyűjtése!</li>
+              <li>Nem viszünk haza semmit!</li>
+              <li>Hosszú haj!</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p class="mb-2">A <a href="https://hu.wikipedia.org/wiki/Laborat%C3%B3rium" target="_blank" rel="noopener">laboratóriumban</a> a kísérletezés a kémia módszere: itt anyagokat vizsgálunk, változtatunk meg és figyelünk meg. Közben két dologra kell nagyon figyelni: az <strong>eszközökre</strong> (mit mivel szabad csinálni) és a <strong>szabályokra</strong> (hogy ne történjen baleset).</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Schott%20Duran%20glassware.jpg?width=800" class="figure-img img-fluid rounded" alt="Laboratóriumi üvegeszközök">
+              <figcaption class="figure-caption">Laboratóriumi üvegeszközök: főzőpoharak és lombikok. <a href="https://commons.wikimedia.org/wiki/File:Schott_Duran_glassware.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A vegyszer nemcsak azt jelenti, hogy „veszélyes”: a laboratóriumban minden anyag vegyszernek számít — még a desztillált víz is. A veszélyes anyagokat viszont piktogramok jelölik az edényükön.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Eszközök anyag szerint</h2>
+            <p>Az eszközök anyaga meghatározza, mire használhatjuk őket. Az üvegeszközök közül csak a <a href="https://hu.wikipedia.org/wiki/K%C3%A9mcs%C5%91" target="_blank" rel="noopener">kémcsövet</a>, a <a href="https://hu.wikipedia.org/wiki/F%C5%91z%C5%91poh%C3%A1r" target="_blank" rel="noopener">főzőpoharat</a> és a <a href="https://hu.wikipedia.org/wiki/Lombik" target="_blank" rel="noopener">lombikokat</a> szabad melegíteni. A mérőhengert, az óraüveget, a tölcsért, az üvegbotot, az üvegkádakat, a kristályosító csészét és a hőmérőt nem melegítjük!</p>
+            <ul class="def">
+              <li><span class="term">Mérőhenger</span> — a folyadék térfogatának mérésére; nem melegíthető.</li>
+              <li><span class="term">Óraüveg</span> — kis mennyiségű anyag tartására; nem melegítjük.</li>
+              <li><span class="term">Dörzsmozsár</span> — porcelánból készül, ebben törjük össze a szilárd anyagokat.</li>
+              <li><span class="term">Vasháromláb, fogók, kémcsőfogó csipesz</span> — fém és fa eszközök a meleg edények megfogására.</li>
+              <li><span class="term">Kémcsőállvány</span> — fából, a kémcsövek tartására.</li>
+            </ul>
+            <div class="row g-3 mt-2">
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mortar%20porcelain%20hg.jpg?width=800" class="figure-img img-fluid rounded" alt="Porcelán dörzsmozsár">
+                  <figcaption class="figure-caption">Porcelán dörzsmozsár — ebben törjük össze a szilárd anyagokat. <a href="https://commons.wikimedia.org/wiki/File:Mortar_porcelain_hg.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <figure class="figure wiki-figure text-center w-100">
+                  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bunsen%20burner%20flame%20types.jpg?width=800" class="figure-img img-fluid rounded" alt="Bunsen-égő lángjai">
+                  <figcaption class="figure-caption">Bunsen-égő: a láng színét és alakját is szabályozni lehet. <a href="https://commons.wikimedia.org/wiki/File:Bunsen_burner_flame_types.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Melegítés: borszeszégő és Bunsen-égő</h2>
+            <p>A <a href="https://hu.wikipedia.org/wiki/Borszesz%C3%A9g%C5%91" target="_blank" rel="noopener">borszeszégő</a> 400–500 °C-ot ad, a <a href="https://hu.wikipedia.org/wiki/Bunsen-%C3%A9g%C5%91" target="_blank" rel="noopener">Bunsen-égő</a> ennél sokkal melegebb, 1000–1200 °C-ot is elér. Ezért a melegítésnél mindig a megfelelő eszközt kell választani, és a meleg edényt fogóval vagy csipesszel kell megfogni.</p>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> Ha a lángot a levegő hozzávezetésével szabályozzuk, a Bunsen-égő lángja forróbb és kékebb lesz — ilyenkor használjuk, ha nagyobb hőmérséklet kell. A borszeszégő lángja sárgás és hűvösebb.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Piktogramok: a veszélyek jelei</h2>
+            <p>A veszélyes vegyszerek edényén piktogramok mutatják meg, milyen veszély leselkedik ránk. A legismertebbek közül néhány:</p>
+            <div class="row g-3 picto">
+              <div class="col-6 col-md-3 text-center">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/GHS-pictogram-flamme.svg?width=800" class="img-fluid rounded" alt="Tűzveszély piktogram">
+                <div class="small mt-2">Tűzveszélyes</div>
+              </div>
+              <div class="col-6 col-md-3 text-center">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/GHS-pictogram-skull.svg?width=800" class="img-fluid rounded" alt="Mérgező piktogram">
+                <div class="small mt-2">Mérgező</div>
+              </div>
+              <div class="col-6 col-md-3 text-center">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/GHS-pictogram-exclam.svg?width=800" class="img-fluid rounded" alt="Irritáló piktogram">
+                <div class="small mt-2">Irritáló</div>
+              </div>
+            </div>
+            <div class="alert alert-info mb-0 mt-3"><strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong> A piktogramok nemzetközileg egységesek: fehér háromszögben piros keret jelzi a veszélyt, alatta pedig egy-egy ábra (láng, koponya, felkiáltójel) mutatja, mire kell vigyázni.</div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A legfontosabb szabályok</h2>
+            <p>A laboratóriumi munka alapja a rend és a fegyelem. Mielőtt bármit csinálunk, gondolkodjunk, és ha valamit nem értünk, kérdezzünk! Védőfelszerelés nélkül nem szabad dolgozni: kell a gumikesztyű, a szemüveg, a köpeny, és a hosszú hajat hajgumival meg kell kötni.</p>
+            <ul>
+              <li>Nem eszünk, nem iszunk, és a vegyszereket nem kóstolgatjuk.</li>
+              <li>A vegyszert mindig vegyszeres kanállal vesszük ki.</li>
+              <li>A vegyszert nem szagoljuk közvetlenül: legyezünk, és úgy visszük az orrunkhoz a szagot.</li>
+              <li>A maradékokat gyűjtjük, és semmit nem viszünk haza.</li>
+            </ul>
+            <div class="alert alert-info mb-0"><strong><i class="fas fa-lightbulb me-1"></i>Figyeld meg!</strong> A legtöbb baleset nem a veszélyes anyag miatt történik, hanem figyelmetlenségből. Ezért a legfontosabb szabály: előbb gondolkozz, aztán cselekedj!</div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
