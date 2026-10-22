@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A 19. század sodrásában – idővonal</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css"
+        onerror="document.documentElement.classList.add('tl-standalone')">
+  <style>
+    /* ---------- Fallback, ha a /static/style.css nem érhető el ---------- */
+    html.tl-standalone body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    html.tl-standalone .quiz-container {
+      background: rgba(255, 255, 255, .96);
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    }
+    html.tl-standalone[data-theme="dark"] body,
+    html.tl-standalone[data-theme="glass-dark"] body {
+      background: linear-gradient(135deg, #14141f 0%, #1b2035 100%);
+      color: #e4e6eb;
+    }
+    html.tl-standalone[data-theme="dark"] .quiz-container,
+    html.tl-standalone[data-theme="glass-dark"] .quiz-container {
+      background: #1f212b;
+    }
+    html.tl-standalone[data-theme="glass"] body {
+      background:
+        radial-gradient(60% 50% at 12% 12%, rgba(102, 126, 234, .38) 0%, transparent 60%),
+        radial-gradient(55% 50% at 82% 92%, rgba(14, 165, 233, .30) 0%, transparent 60%),
+        linear-gradient(160deg, #eef2ff 0%, #fdf2f8 50%, #eff6ff 100%);
+      color: #23273a;
+    }
+    html.tl-standalone[data-theme="glass"] .quiz-container {
+      background: rgba(255, 255, 255, .45);
+      border: 1px solid rgba(255, 255, 255, .6);
+      backdrop-filter: blur(18px);
+    }
+    html.tl-standalone[data-theme="valorant"] body {
+      background:
+        radial-gradient(1100px 520px at 12% -8%, rgba(255, 70, 85, .20) 0%, transparent 60%),
+        linear-gradient(160deg, #0f1923 0%, #0b131b 55%, #131e28 100%);
+      color: #ece8e1;
+    }
+    html.tl-standalone[data-theme="valorant"] .quiz-container {
+      background: #1b2733;
+    }
+
+    /* ---------- Idővonal színvilág ---------- */
+    .tl-page {
+      --tl-ink: #22243a;
+      --tl-muted: #6b7186;
+      --tl-faint: #8b90a5;
+      --tl-card: #ffffff;
+      --tl-card-soft: #f6f7fc;
+      --tl-border: rgba(34, 36, 58, .12);
+      --tl-line: rgba(34, 36, 58, .18);
+      --tl-label-bg: #ffffff;
+      --tl-shadow: 0 10px 26px rgba(30, 32, 80, .09);
+      --tl-shadow-hover: 0 16px 38px rgba(30, 32, 80, .16);
+      --tl-dot-border: #ffffff;
+
+      --c-social: #7c5cff;
+      --c-social-soft: rgba(124, 92, 255, .13);
+      --c-usa: #2f7de1;
+      --c-usa-soft: rgba(47, 125, 225, .13);
+      --c-colony: #1f9d75;
+      --c-colony-soft: rgba(31, 157, 117, .13);
+      --c-war: #d64550;
+      --c-war-soft: rgba(214, 69, 80, .13);
+    }
+
+    html[data-theme="dark"] .tl-page,
+    html[data-theme="glass-dark"] .tl-page {
+      --tl-ink: #e6e8f0;
+      --tl-muted: #a6acbd;
+      --tl-faint: #838a9c;
+      --tl-card: #272a38;
+      --tl-card-soft: #21242f;
+      --tl-border: rgba(255, 255, 255, .10);
+      --tl-line: rgba(255, 255, 255, .18);
+      --tl-label-bg: #272a38;
+      --tl-shadow: 0 12px 30px rgba(0, 0, 0, .38);
+      --tl-shadow-hover: 0 18px 44px rgba(0, 0, 0, .52);
+      --tl-dot-border: #1f212b;
+
+      --c-social: #a58bff;
+      --c-social-soft: rgba(165, 139, 255, .18);
+      --c-usa: #6aa8f5;
+      --c-usa-soft: rgba(106, 168, 245, .18);
+      --c-colony: #4fd1a5;
+      --c-colony-soft: rgba(79, 209, 165, .18);
+      --c-war: #ff7b84;
+      --c-war-soft: rgba(255, 123, 132, .18);
+    }
+
+    html[data-theme="glass"] .tl-page {
+      --tl-card: rgba(255, 255, 255, .62);
+      --tl-label-bg: rgba(255, 255, 255, .78);
+      --tl-shadow: 0 10px 26px rgba(30, 32, 80, .10);
+      --tl-dot-border: rgba(245, 245, 255, .95);
+    }
+
+    html[data-theme="valorant"] .tl-page {
+      --tl-ink: #ece8e1;
+      --tl-muted: #a9b6c3;
+      --tl-faint: #8494a3;
+      --tl-card: #1b2733;
+      --tl-card-soft: #22303d;
+      --tl-border: #2a3947;
+      --tl-line: #2a3947;
+      --tl-label-bg: #0f1923;
+      --tl-shadow: 0 12px 30px rgba(0, 0, 0, .5);
+      --tl-shadow-hover: 0 18px 44px rgba(0, 0, 0, .62);
+      --tl-dot-border: #0f1923;
+
+      --c-social: #b39dff;
+      --c-social-soft: rgba(179, 157, 255, .16);
+      --c-usa: #5aa9ff;
+      --c-usa-soft: rgba(90, 169, 255, .16);
+      --c-colony: #00e0c8;
+      --c-colony-soft: rgba(0, 224, 200, .16);
+      --c-war: #ff4655;
+      --c-war-soft: rgba(255, 70, 85, .18);
+    }
+
+    /* ---------- Fejléc ---------- */
+    .tl-progress {
+      position: fixed;
+      inset: 0 auto auto 0;
+      height: 4px;
+      width: 0;
+      z-index: 2000;
+      border-radius: 0 4px 4px 0;
+      background: linear-gradient(90deg, #7c5cff, #2f7de1, #1f9d75, #e5a13a, #d64550);
+      transition: width .08s linear;
+      pointer-events: none;
+    }
+
+    .tl-page { max-width: 1060px; margin: 0 auto; color: var(--tl-ink); }
+
+    .tl-hero { text-align: center; padding: .25rem 0 1.4rem; }
+
+    .tl-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .45rem;
+      font-size: .74rem;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: #6b4dfb;
+      background: rgba(124, 92, 255, .11);
+      border: 1px solid rgba(124, 92, 255, .22);
+      padding: .4rem .85rem;
+      border-radius: 999px;
+      margin-bottom: .9rem;
+    }
+    html[data-theme="dark"] .tl-eyebrow,
+    html[data-theme="glass-dark"] .tl-eyebrow {
+      color: #c3b2ff;
+      background: rgba(165, 139, 255, .14);
+      border-color: rgba(165, 139, 255, .3);
+    }
+    html[data-theme="valorant"] .tl-eyebrow {
+      color: #00e0c8;
+      background: rgba(0, 224, 200, .1);
+      border-color: rgba(0, 224, 200, .3);
+    }
+
+    .tl-title {
+      font-weight: 800;
+      font-size: clamp(1.9rem, 4.6vw, 3rem);
+      line-height: 1.08;
+      letter-spacing: -.02em;
+      margin: 0 0 .7rem;
+      color: var(--tl-ink);
+    }
+    .tl-title .tl-title-accent {
+      background: linear-gradient(120deg, #7c5cff 0%, #2f7de1 45%, #1f9d75 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .tl-lead {
+      max-width: 660px;
+      margin: 0 auto;
+      color: var(--tl-muted);
+      font-size: .98rem;
+      line-height: 1.65;
+    }
+
+    .tl-stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .5rem;
+      margin-top: 1.2rem;
+    }
+    .tl-stat {
+      display: inline-flex;
+      align-items: baseline;
+      gap: .35rem;
+      font-size: .78rem;
+      font-weight: 500;
+      color: var(--tl-muted);
+      background: var(--tl-card-soft);
+      border: 1px solid var(--tl-border);
+      border-radius: 999px;
+      padding: .38rem .8rem;
+    }
+    .tl-stat b { font-size: .92rem; font-weight: 700; color: var(--tl-ink); }
+
+    /* ---------- Vezérlők ---------- */
+    .tl-controls {
+      position: sticky;
+      top: .5rem;
+      z-index: 60;
+      background: var(--tl-label-bg);
+      border: 1px solid var(--tl-border);
+      border-radius: 16px;
+      box-shadow: var(--tl-shadow);
+      padding: .7rem .75rem;
+      margin: .4rem 0 1.1rem;
+      backdrop-filter: blur(10px);
+    }
+    html[data-theme="glass"] .tl-controls { background: rgba(255, 255, 255, .8); }
+
+    .tl-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .45rem;
+      justify-content: center;
+    }
+
+    .tl-chip {
+      --chip: #5b6178;
+      --chip-soft: rgba(91, 97, 120, .10);
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      font-family: inherit;
+      font-size: .82rem;
+      font-weight: 600;
+      line-height: 1;
+      color: var(--tl-muted);
+      background: transparent;
+      border: 1px solid var(--tl-border);
+      border-radius: 999px;
+      padding: .5rem .8rem;
+      cursor: pointer;
+      transition: color .16s ease, background .16s ease, border-color .16s ease, transform .16s ease;
+    }
+    .tl-chip:hover { color: var(--chip); border-color: var(--chip); transform: translateY(-1px); }
+    .tl-chip:focus-visible { outline: 3px solid var(--chip-soft); outline-offset: 2px; }
+    .tl-chip.is-active {
+      color: #fff;
+      background: var(--chip);
+      border-color: var(--chip);
+      box-shadow: 0 4px 14px var(--chip-soft);
+    }
+    .tl-chip i { font-size: .8em; }
+    .tl-count {
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .16rem .4rem;
+      border-radius: 999px;
+      background: var(--chip-soft);
+      color: inherit;
+    }
+    .tl-chip.is-active .tl-count { background: rgba(255, 255, 255, .22); }
+
+    .tl-chip--all { --chip: #3d4266; --chip-soft: rgba(61, 66, 102, .16); }
+    html[data-theme="dark"] .tl-chip--all,
+    html[data-theme="glass-dark"] .tl-chip--all { --chip: #8e97b8; --chip-soft: rgba(142, 151, 184, .18); }
+    html[data-theme="valorant"] .tl-chip--all { --chip: #ff4655; --chip-soft: rgba(255, 70, 85, .2); }
+
+    .tl-chip--social { --chip: var(--c-social); --chip-soft: var(--c-social-soft); }
+    .tl-chip--usa { --chip: var(--c-usa); --chip-soft: var(--c-usa-soft); }
+    .tl-chip--colony { --chip: var(--c-colony); --chip-soft: var(--c-colony-soft); }
+    .tl-chip--war { --chip: var(--c-war); --chip-soft: var(--c-war-soft); }
+
+    .tl-result {
+      margin-top: .6rem;
+      text-align: center;
+      font-size: .76rem;
+      color: var(--tl-faint);
+    }
+    .tl-result b { color: var(--tl-ink); }
+
+    /* ---------- Korszak-navigáció ---------- */
+    .tl-eras-nav {
+      display: flex;
+      gap: .4rem;
+      overflow-x: auto;
+      padding: .15rem .1rem .5rem;
+      margin-bottom: .8rem;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
+    }
+    .tl-eras-nav a {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      font-size: .76rem;
+      font-weight: 600;
+      color: var(--tl-muted);
+      text-decoration: none;
+      border: 1px dashed var(--tl-border);
+      border-radius: 999px;
+      padding: .38rem .7rem;
+      transition: color .15s ease, border-color .15s ease, background .15s ease;
+      white-space: nowrap;
+    }
+    .tl-eras-nav a:hover {
+      color: var(--tl-ink);
+      border-style: solid;
+      border-color: var(--tl-muted);
+      background: var(--tl-card-soft);
+    }
+    .tl-eras-nav a .dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--era, #7c5cff);
+    }
+
+    /* ---------- Idővonal ---------- */
+    .tl {
+      position: relative;
+      padding: .25rem 0 1rem;
+    }
+    .tl::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 12px;
+      width: 3px;
+      border-radius: 3px;
+      background: linear-gradient(to bottom,
+        rgba(124, 92, 255, .05),
+        rgba(124, 92, 255, .55) 8%,
+        rgba(47, 125, 225, .55) 30%,
+        rgba(31, 157, 117, .55) 55%,
+        rgba(229, 161, 58, .55) 78%,
+        rgba(214, 69, 80, .55) 93%,
+        rgba(214, 69, 80, .05));
+    }
+
+    .tl-era { position: relative; }
+    .tl-era.is-hidden { display: none; }
+
+    .tl-era-head {
+      position: relative;
+      z-index: 2;
+      margin: 1.6rem 0 1.1rem;
+      padding-left: 2.2rem;
+    }
+    .tl-era-label {
+      display: inline-block;
+      background: var(--tl-label-bg);
+      border: 1px solid var(--tl-border);
+      border-radius: 14px;
+      padding: .55rem .9rem;
+      box-shadow: var(--tl-shadow);
+      max-width: 100%;
+    }
+    .tl-era-range {
+      display: block;
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--era, #7c5cff);
+      margin-bottom: .12rem;
+    }
+    .tl-era-name {
+      display: block;
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: var(--tl-ink);
+      line-height: 1.25;
+    }
+    .tl-era-sub {
+      display: block;
+      font-size: .78rem;
+      color: var(--tl-muted);
+      margin-top: .12rem;
+    }
+
+    .tl-event {
+      position: relative;
+      width: 100%;
+      padding: 0 0 1.5rem 2.2rem;
+    }
+    .tl-event.is-hidden { display: none; }
+
+    .tl-event::before {
+      content: "";
+      position: absolute;
+      top: 1.15rem;
+      left: 5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--topic, #7c5cff);
+      border: 3px solid var(--tl-dot-border);
+      box-shadow: 0 0 0 3px var(--topic-soft, rgba(124, 92, 255, .16));
+      z-index: 2;
+    }
+
+    .tl-event::after {
+      /* összekötő vonal a pont és a kártya között */
+      content: "";
+      position: absolute;
+      top: 1.72rem;
+      left: 20px;
+      width: 12px;
+      height: 2px;
+      background: var(--topic, #7c5cff);
+      opacity: .35;
+    }
+
+    .t-social { --topic: var(--c-social); --topic-soft: var(--c-social-soft); }
+    .t-usa { --topic: var(--c-usa); --topic-soft: var(--c-usa-soft); }
+    .t-colony { --topic: var(--c-colony); --topic-soft: var(--c-colony-soft); }
+    .t-war { --topic: var(--c-war); --topic-soft: var(--c-war-soft); }
+
+    .tl-card {
+      position: relative;
+      overflow: hidden;
+      background: var(--tl-card);
+      border: 1px solid var(--tl-border);
+      border-radius: 15px;
+      padding: .95rem 1.05rem .9rem 1.15rem;
+      box-shadow: var(--tl-shadow);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .tl-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 4px;
+      background: linear-gradient(to bottom, var(--topic, #7c5cff), var(--topic-soft, rgba(124, 92, 255, .2)));
+    }
+    .tl-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--tl-shadow-hover);
+      border-color: var(--topic, #7c5cff);
+    }
+    .tl-card:focus-within { border-color: var(--topic, #7c5cff); }
+
+    .tl-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .45rem .6rem;
+      margin-bottom: .35rem;
+    }
+    .tl-year {
+      font-weight: 800;
+      font-size: 1.32rem;
+      line-height: 1;
+      letter-spacing: -.01em;
+      color: var(--topic, #7c5cff);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .tl-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-size: .66rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--topic, #7c5cff);
+      background: var(--topic-soft, rgba(124, 92, 255, .12));
+      border-radius: 999px;
+      padding: .24rem .5rem;
+      white-space: nowrap;
+    }
+
+    .tl-event-title {
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin: 0 0 .3rem;
+      color: var(--tl-ink);
+    }
+    .tl-desc {
+      font-size: .87rem;
+      line-height: 1.6;
+      color: var(--tl-muted);
+      margin: 0;
+    }
+    .tl-src {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      margin-top: .55rem;
+      font-size: .75rem;
+      font-weight: 600;
+      color: var(--topic, #7c5cff);
+      text-decoration: none;
+      border-bottom: 1px dashed transparent;
+    }
+    .tl-src:hover, .tl-src:focus-visible { color: var(--topic, #7c5cff); border-bottom-color: currentColor; }
+    .tl-src i { font-size: .78em; }
+
+    /* Belépő animáció */
+    html.tl-anim .tl-event {
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity .45s ease, transform .45s ease;
+    }
+    html.tl-anim .tl-event.is-in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      html.tl-anim .tl-event { opacity: 1; transform: none; transition: none; }
+      .tl-card, .tl-chip { transition: none; }
+    }
+
+    /* ---------- Lábléc ---------- */
+    .tl-foot {
+      margin-top: 1.6rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--tl-border);
+    }
+    .tl-foot h2 {
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--tl-faint);
+      margin-bottom: .6rem;
+    }
+    .tl-sources {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: .5rem;
+      margin-bottom: 1rem;
+    }
+    .tl-sources a {
+      display: block;
+      padding: .6rem .75rem;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--tl-ink);
+      text-decoration: none;
+      background: var(--tl-card-soft);
+      border: 1px solid var(--tl-border);
+      border-radius: 10px;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    .tl-sources a:hover { border-color: #7c5cff; transform: translateY(-1px); }
+    .tl-sources a span { display: block; font-weight: 400; font-size: .74rem; color: var(--tl-faint); margin-top: .1rem; }
+
+    .tl-note {
+      display: flex;
+      gap: .65rem;
+      align-items: flex-start;
+      font-size: .82rem;
+      line-height: 1.6;
+      color: var(--tl-muted);
+      background: var(--tl-card-soft);
+      border: 1px dashed var(--tl-border);
+      border-radius: 12px;
+      padding: .8rem .9rem;
+    }
+    .tl-note i { color: #7c5cff; margin-top: .15rem; }
+
+    /* ---------- Nagyobb képernyő: váltakozó idővonal ---------- */
+    @media (min-width: 768px) {
+      .tl::before { left: 50%; }
+      .tl-era-head {
+        margin: 2.2rem 0 1.5rem;
+        padding-left: 0;
+        text-align: center;
+      }
+      .tl-era-label { padding: .6rem 1.1rem; }
+      .tl-era-name { font-size: 1.12rem; }
+
+      .tl-event { width: 50%; padding: 0 2.2rem 1.9rem 0; }
+      .tl-event:nth-of-type(odd) { margin-left: 50%; padding: 0 0 1.9rem 2.2rem; }
+      .tl-event:nth-of-type(odd)::before { left: -7px; }
+      .tl-event:nth-of-type(even)::before { left: auto; right: -7px; }
+      .tl-event:nth-of-type(odd)::after { left: 8px; }
+      .tl-event:nth-of-type(even)::after { left: auto; right: 8px; }
+      .tl-event:nth-of-type(even) .tl-card { border-radius: 15px; }
+      .tl-desc { font-size: .88rem; }
+    }
+
+    @media (max-width: 576px) {
+      .tl-stats { gap: .35rem; }
+      .tl-stat { font-size: .72rem; padding: .32rem .65rem; }
+      .tl-card { padding: .85rem .85rem .8rem 1rem; }
+      .tl-year { font-size: 1.18rem; }
+      .tl-event-title { font-size: .95rem; }
+    }
+
+    @media print {
+      .tl-progress, .tl-controls, .tl-eras-nav { display: none !important; }
+      .tl-event, .tl-era { opacity: 1 !important; transform: none !important; break-inside: avoid; }
+      .tl-card { box-shadow: none; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="tl-progress" id="tl-progress" aria-hidden="true"></div>
+
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="tl-page">
+
+        <header class="tl-hero">
+          <span class="tl-eyebrow"><i class="fas fa-hourglass-half"></i> 7. osztály &middot; Történelem</span>
+          <h1 class="tl-title">A 19. század <span class="tl-title-accent">sodrásában</span></h1>
+          <p class="tl-lead">
+            Az ipari forradalomtól az első világháborúig &ndash; a történelemórák eseményei egy idővonalon,
+            hogy könnyebb legyen eligazodni az évszámok között. Válassz témát, és kövesd a szálakat!
+          </p>
+          <div class="tl-stats">
+            <span class="tl-stat"><b>27</b> esemény</span>
+            <span class="tl-stat"><b>145</b> év</span>
+            <span class="tl-stat"><b>4</b> témakör</span>
+            <span class="tl-stat"><b>5</b> korszak</span>
+          </div>
+        </header>
+
+        <div class="tl-controls">
+          <div class="tl-filters" role="group" aria-label="Szűrés témakör szerint">
+            <button type="button" class="tl-chip tl-chip--all is-active" data-topic="all" aria-pressed="true">
+              <i class="fas fa-layer-group"></i> Mind <span class="tl-count">27</span>
+            </button>
+            <button type="button" class="tl-chip tl-chip--social" data-topic="social" aria-pressed="false">
+              <i class="fas fa-lightbulb"></i> Társadalom &amp; eszmék <span class="tl-count">6</span>
+            </button>
+            <button type="button" class="tl-chip tl-chip--usa" data-topic="usa" aria-pressed="false">
+              <i class="fas fa-flag"></i> USA <span class="tl-count">6</span>
+            </button>
+            <button type="button" class="tl-chip tl-chip--colony" data-topic="colony" aria-pressed="false">
+              <i class="fas fa-earth-africa"></i> Gyarmatosítás <span class="tl-count">11</span>
+            </button>
+            <button type="button" class="tl-chip tl-chip--war" data-topic="war" aria-pressed="false">
+              <i class="fas fa-shield-halved"></i> Nagy háború <span class="tl-count">4</span>
+            </button>
+          </div>
+          <p class="tl-result"><b id="tl-visible">27</b> esemény látható</p>
+        </div>
+
+        <nav class="tl-eras-nav" aria-label="Ugrás korszakhoz">
+          <a href="#era-1"><span class="dot" style="--era:#7c5cff"></span>1769&ndash;1788</a>
+          <a href="#era-2"><span class="dot" style="--era:#5b6fd8"></span>1818&ndash;1842</a>
+          <a href="#era-3"><span class="dot" style="--era:#2f7de1"></span>1853&ndash;1868</a>
+          <a href="#era-4"><span class="dot" style="--era:#1f9d75"></span>1869&ndash;1902</a>
+          <a href="#era-5"><span class="dot" style="--era:#d64550"></span>1902&ndash;1914</a>
+        </nav>
+
+        <div class="tl" id="timeline">
+
+          <!-- ================= 1. KORSZAK ================= -->
+          <section class="tl-era" id="era-1" style="--era:#7c5cff">
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1769&ndash;1788 &middot; 1. korszak</span>
+                <span class="tl-era-name">A gépek kora</span>
+                <span class="tl-era-sub">Az ipari forradalom és az új eszmék elindulnak.</span>
+              </div>
+            </div>
+
+            <article class="tl-event t-social">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1769</span>
+                  <span class="tl-tag"><i class="fas fa-lightbulb"></i> Társadalom</span>
+                </div>
+                <h3 class="tl-event-title">Watt gőzgépe</h3>
+                <p class="tl-desc">A gőzgép nagyteljesítményű változata elindítja az ipari forradalmat: a gépek átformálják az ipart, a városokat és az egész társadalmat.</p>
+                <a class="tl-src" href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html"><i class="fas fa-book-open"></i> Társadalom a századfordulón</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-social">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1776</span>
+                  <span class="tl-tag"><i class="fas fa-lightbulb"></i> Társadalom</span>
+                </div>
+                <h3 class="tl-event-title">Adam Smith: A nemzetek gazdagsága</h3>
+                <p class="tl-desc">A liberalizmus alapműve: a gazdaságot a szabad piac és a verseny irányítsa, az állam lehetőleg ne avatkozzon bele.</p>
+                <a class="tl-src" href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html"><i class="fas fa-book-open"></i> Társadalom a századfordulón</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-usa">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1776</span>
+                  <span class="tl-tag"><i class="fas fa-flag"></i> USA</span>
+                </div>
+                <h3 class="tl-event-title">Az USA függetlenségi háborúja</h3>
+                <p class="tl-desc">A függetlenség kivívása után az Egyesült Államok fokozatosan meghódítja az egész észak-amerikai területet.</p>
+                <a class="tl-src" href="261010.7.o.tori.usa.polgarhaboru.html"><i class="fas fa-book-open"></i> Az USA polgárháborúja</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1788</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Az első brit flotta Sydneyben</h3>
+                <p class="tl-desc">Ausztrália angol börtönszigetként indul; később az arany és a bevándorlás hozza a gyors fejlődést.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+          </section>
+
+          <!-- ================= 2. KORSZAK ================= -->
+          <section class="tl-era" id="era-2" style="--era:#5b6fd8">
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1818&ndash;1842 &middot; 2. korszak</span>
+                <span class="tl-era-name">A világ megnyílik</span>
+                <span class="tl-era-sub">Új eszmék születnek, Kína kapui erővel nyílnak meg.</span>
+              </div>
+            </div>
+
+            <article class="tl-event t-social">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1818</span>
+                  <span class="tl-tag"><i class="fas fa-lightbulb"></i> Társadalom</span>
+                </div>
+                <h3 class="tl-event-title">Karl Marx születése</h3>
+                <p class="tl-desc">A későbbi marxizmus megalkotója. „A Tőke” a kapitalizmus bírálatának alapműve lesz.</p>
+                <a class="tl-src" href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html"><i class="fas fa-book-open"></i> Társadalom a századfordulón</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1839&ndash;1842</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Az első ópiumháború</h3>
+                <p class="tl-desc">Angol nyomásra Kína kénytelen megnyitni kikötőit (nankingi szerződés), és félgyarmati helyzetbe kerül.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+          </section>
+
+          <!-- ================= 3. KORSZAK ================= -->
+          <section class="tl-era" id="era-3" style="--era:#2f7de1">
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1853&ndash;1868 &middot; 3. korszak</span>
+                <span class="tl-era-name">Forradalom és háború</span>
+                <span class="tl-era-sub">Japán modernizálódik, az USA polgárháborúba sodródik.</span>
+              </div>
+            </div>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1853</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Perry megnyitja Japánt</h3>
+                <p class="tl-desc">Az amerikai hajók kikényszerítik Japán elzárkózásának végét; az ország ezután gyorsan iparosodik.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1854</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Aranyláz Ausztráliában</h3>
+                <p class="tl-desc">Az arany felfedezése bevándorlók tömegeit vonzza; az ország 1901-ben önálló államszövetség lesz.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-usa">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1860</span>
+                  <span class="tl-tag"><i class="fas fa-flag"></i> USA</span>
+                </div>
+                <h3 class="tl-event-title">Lincolnt elnökké választják</h3>
+                <p class="tl-desc">A rabszolgaellenes Lincoln győzelme után a déli államok úgy érzik: nincs más út, mint a kiválás.</p>
+                <a class="tl-src" href="261010.7.o.tori.usa.polgarhaboru.html"><i class="fas fa-book-open"></i> Az USA polgárháborúja</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-usa">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1861</span>
+                  <span class="tl-tag"><i class="fas fa-flag"></i> USA</span>
+                </div>
+                <h3 class="tl-event-title">Fort Sumter és a polgárháború</h3>
+                <p class="tl-desc">11 déli állam kilép az unióból; áprilisban a Fort Sumter ostromával kezdetét veszi a polgárháború.</p>
+                <a class="tl-src" href="261010.7.o.tori.usa.polgarhaboru.html"><i class="fas fa-book-open"></i> Az USA polgárháborúja</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-usa">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1862</span>
+                  <span class="tl-tag"><i class="fas fa-flag"></i> USA</span>
+                </div>
+                <h3 class="tl-event-title">A Monitor és a Merrimack párharca</h3>
+                <p class="tl-desc">Páncélozott hadihajók első összecsapása: új korszak kezdődik a tengeri hadviselésben.</p>
+                <a class="tl-src" href="261010.7.o.tori.usa.polgarhaboru.html"><i class="fas fa-book-open"></i> Az USA polgárháborúja</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-usa">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1863</span>
+                  <span class="tl-tag"><i class="fas fa-flag"></i> USA</span>
+                </div>
+                <h3 class="tl-event-title">Emancipációs kiáltvány és Gettysburg</h3>
+                <p class="tl-desc">Lincoln felszabadítja a lázadó déli államok rabszolgáit; Gettysburgnél fordul a háború menete.</p>
+                <a class="tl-src" href="261010.7.o.tori.usa.polgarhaboru.html"><i class="fas fa-book-open"></i> Az USA polgárháborúja</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-usa">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1865</span>
+                  <span class="tl-tag"><i class="fas fa-flag"></i> USA</span>
+                </div>
+                <h3 class="tl-event-title">A polgárháború vége</h3>
+                <p class="tl-desc">Az Észak győz, a rabszolgaságot eltörlik; felgyorsul az ipari fejlődés és a Nyugat benépesítése.</p>
+                <a class="tl-src" href="261010.7.o.tori.usa.polgarhaboru.html"><i class="fas fa-book-open"></i> Az USA polgárháborúja</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-social">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1867</span>
+                  <span class="tl-tag"><i class="fas fa-lightbulb"></i> Társadalom</span>
+                </div>
+                <h3 class="tl-event-title">Marx: A Tőke</h3>
+                <p class="tl-desc">Marx szerint a profit a munkások kizsákmányolásából származik, ezért a munkásosztálynak át kell vennie a hatalmat.</p>
+                <a class="tl-src" href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html"><i class="fas fa-book-open"></i> Társadalom a századfordulón</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1868</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Meidzsi-restauráció</h3>
+                <p class="tl-desc">Japán a császár köré szerveződve, nyugati mintára modernizálódik, és néhány évtized alatt nagyhatalommá válik.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+          </section>
+
+          <!-- ================= 4. KORSZAK ================= -->
+          <section class="tl-era" id="era-4" style="--era:#1f9d75">
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1869&ndash;1902 &middot; 4. korszak</span>
+                <span class="tl-era-name">A nagyhatalmi verseny</span>
+                <span class="tl-era-sub">Gyarmatok, szövetségek és az első szociális törvények.</span>
+              </div>
+            </div>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1869</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Megnyílik a Szuezi-csatorna</h3>
+                <p class="tl-desc">A Földközi- és a Vörös-tengert összekötő víziút nagyban lerövidíti az utat Európa és Ázsia között; 1882-ben Egyiptom brit befolyás alá kerül.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-war">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1871</span>
+                  <span class="tl-tag"><i class="fas fa-shield-halved"></i> Nagy háború</span>
+                </div>
+                <h3 class="tl-event-title">Franciaország veresége</h3>
+                <p class="tl-desc">Franciaország elveszíti Elzászt és Lotaringiát Németországgal szemben, és évtizedekig visszavágásra készül.</p>
+                <a class="tl-src" href="261014.2.7.o.tori.a.nagy.haboru.okai.html"><i class="fas fa-book-open"></i> A nagy háború okai</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-war">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1882</span>
+                  <span class="tl-tag"><i class="fas fa-shield-halved"></i> Nagy háború</span>
+                </div>
+                <h3 class="tl-event-title">Létrejön a Hármas szövetség</h3>
+                <p class="tl-desc">Németország, az Osztrák&ndash;Magyar Monarchia és Olaszország szövetsége &ndash; a háborúban ők lesznek a Központi hatalmak.</p>
+                <a class="tl-src" href="261014.2.7.o.tori.a.nagy.haboru.okai.html"><i class="fas fa-book-open"></i> A nagy háború okai</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1882</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Egyiptom brit befolyás alatt</h3>
+                <p class="tl-desc">A Szuezi-csatorna miatt stratégiailag fontos Egyiptom Nagy-Britannia ellenőrzése alá kerül.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-social">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1883</span>
+                  <span class="tl-tag"><i class="fas fa-lightbulb"></i> Társadalom</span>
+                </div>
+                <h3 class="tl-event-title">Az első állami betegbiztosítás</h3>
+                <p class="tl-desc">Németországban vezetik be; a szociálpolitika, a népjólét része lesz a betegbiztosítás és a nyugdíj is.</p>
+                <a class="tl-src" href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html"><i class="fas fa-book-open"></i> Társadalom a századfordulón</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1884&ndash;1885</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Berlini konferencia</h3>
+                <p class="tl-desc">A nagyhatalmak gyakorlatilag vonalzóval osztják fel Afrikát; a mai országhatárok egy része is ekkor születik.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-social">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1891</span>
+                  <span class="tl-tag"><i class="fas fa-lightbulb"></i> Társadalom</span>
+                </div>
+                <h3 class="tl-event-title">XIII. Leó: Rerum Novarum</h3>
+                <p class="tl-desc">A pápa körlevele elsőként foglalkozik átfogóan a munkások helyzetével &ndash; innen indul a keresztényszocializmus.</p>
+                <a class="tl-src" href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html"><i class="fas fa-book-open"></i> Társadalom a századfordulón</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1899&ndash;1902</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">A második búr háború</h3>
+                <p class="tl-desc">Dél-Afrikában a gyémánt és az arany miatt robban ki a háború &ndash; a vagyoni érték mindig magával hozza a versengést.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+          </section>
+
+          <!-- ================= 5. KORSZAK ================= -->
+          <section class="tl-era" id="era-5" style="--era:#d64550">
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1900&ndash;1914 &middot; 5. korszak</span>
+                <span class="tl-era-name">A szakadék szélén</span>
+                <span class="tl-era-sub">Két szövetség, egy szikra &ndash; és kitör a világháború.</span>
+              </div>
+            </div>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1901</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Megszületik az Ausztrál Államszövetség</h3>
+                <p class="tl-desc">A börtönszigetből és aranyásók országából önálló államszövetség lesz.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-war">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1904</span>
+                  <span class="tl-tag"><i class="fas fa-shield-halved"></i> Nagy háború</span>
+                </div>
+                <h3 class="tl-event-title">Megszületik az Antant</h3>
+                <p class="tl-desc">Az angol&ndash;francia megegyezéssel induló szövetséghez Oroszország is csatlakozik &ndash; szemben a Hármas szövetséggel.</p>
+                <a class="tl-src" href="261014.2.7.o.tori.a.nagy.haboru.okai.html"><i class="fas fa-book-open"></i> A nagy háború okai</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-colony">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1912</span>
+                  <span class="tl-tag"><i class="fas fa-earth-africa"></i> Gyarmatosítás</span>
+                </div>
+                <h3 class="tl-event-title">Kikiáltják a kínai köztársaságot</h3>
+                <p class="tl-desc">Az 1911-es forradalom után január 1-jén kikiáltják a köztársaságot; első ideiglenes elnöke Szun Jat-szen.</p>
+                <a class="tl-src" href="261014.1.7.o.tori.mas.tajakon.html"><i class="fas fa-book-open"></i> Más tájakon</a>
+              </div>
+            </article>
+
+            <article class="tl-event t-war">
+              <div class="tl-card">
+                <div class="tl-meta">
+                  <span class="tl-year">1914</span>
+                  <span class="tl-tag"><i class="fas fa-shield-halved"></i> Nagy háború</span>
+                </div>
+                <h3 class="tl-event-title">Szarajevó és az első világháború</h3>
+                <p class="tl-desc">A merénylet csak a szikra: a gyarmatverseny, a fegyverkezés és a szövetségi rendszer láncreakciója világháborúhoz vezet.</p>
+                <a class="tl-src" href="261014.2.7.o.tori.a.nagy.haboru.okai.html"><i class="fas fa-book-open"></i> A nagy háború okai</a>
+              </div>
+            </article>
+          </section>
+
+        </div>
+
+        <footer class="tl-foot">
+          <h2><i class="fas fa-bookmark me-1"></i> A négy fejezet, amelyből ez az idővonal készült</h2>
+          <div class="tl-sources">
+            <a href="260927.3.7.o.tori.tarsadalom.a.szazadfordulon.html">Társadalom a századfordulón<span>Eszmék, munkásmozgalmak, szociálpolitika</span></a>
+            <a href="261010.7.o.tori.usa.polgarhaboru.html">Az USA polgárháborúja<span>Észak és Dél, 1861&ndash;1865</span></a>
+            <a href="261014.1.7.o.tori.mas.tajakon.html">Más tájakon<span>Kína, Japán, Afrika, Ausztrália</span></a>
+            <a href="261014.2.7.o.tori.a.nagy.haboru.okai.html">A nagy háború okai<span>Gyarmatok, szövetségek, Szarajevó</span></a>
+          </div>
+          <div class="tl-note">
+            <i class="fas fa-lightbulb"></i>
+            <div>
+              <strong>Hogyan használd?</strong> A felső gombokkal témakörre szűrhetsz &ndash; így például csak a gyarmatosítás
+              történetét látod. A kártyákon a <em>wikioldal</em> hivatkozás visz a részletes leckéhez. Az évszámok a
+              wikioldalak alapján készültek; ahol a forrás csak közelítő dátumot ad, ott az szerepel.
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      var progress = document.getElementById('tl-progress');
+      var visibleCount = document.getElementById('tl-visible');
+      var chips = Array.prototype.slice.call(document.querySelectorAll('.tl-chip'));
+      var events = Array.prototype.slice.call(document.querySelectorAll('.tl-event'));
+      var eras = Array.prototype.slice.call(document.querySelectorAll('.tl-era'));
+
+      /* ---- témakör szűrő ---- */
+      function applyFilter(topic) {
+        chips.forEach(function (chip) {
+          var active = chip.getAttribute('data-topic') === topic;
+          chip.classList.toggle('is-active', active);
+          chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+
+        var shown = 0;
+        events.forEach(function (ev) {
+          var match = topic === 'all' || ev.classList.contains('t-' + topic);
+          ev.classList.toggle('is-hidden', !match);
+          if (match) { shown++; ev.classList.add('is-in'); }
+        });
+
+        eras.forEach(function (era) {
+          var any = era.querySelector('.tl-event:not(.is-hidden)');
+          era.classList.toggle('is-hidden', !any);
+        });
+
+        if (visibleCount) { visibleCount.textContent = shown; }
+      }
+
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          applyFilter(chip.getAttribute('data-topic'));
+        });
+      });
+
+      /* ---- olvasási folyamatjelző ---- */
+      function updateProgress() {
+        if (!progress) { return; }
+        var doc = document.documentElement;
+        var max = doc.scrollHeight - window.innerHeight;
+        var ratio = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+        progress.style.width = (ratio * 100) + '%';
+      }
+      window.addEventListener('scroll', updateProgress, { passive: true });
+      window.addEventListener('resize', updateProgress);
+      updateProgress();
+
+      /* ---- kártyák megjelenítése görgetéskor ---- */
+      var reduceMotion = window.matchMedia &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (!reduceMotion && 'IntersectionObserver' in window) {
+        document.documentElement.classList.add('tl-anim');
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-in');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+
+        events.forEach(function (ev) { observer.observe(ev); });
+      } else {
+        events.forEach(function (ev) { ev.classList.add('is-in'); });
+      }
+
+      /* ---- korszakhoz ugrás: szűrő törlése, hogy az ugrás működjön ---- */
+      document.querySelectorAll('.tl-eras-nav a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          applyFilter('all');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -333,6 +333,19 @@ Examples:
 
 Create the wiki folder if it does not exist.
 
+### Part folders
+
+Some subject folders are split into parts (e.g. `maja/7.o/tori/1.resz`,
+`maja/7.o/tori/2.resz`). When the target subject has part subfolders, put new quizzes
+**and** their wiki pages in the matching part folder, and make `Source:` point at that
+path. Do not put new files directly into the subject folder.
+
+- `maja/7.o/tori/1.resz` is closed (first part).
+- `maja/7.o/tori/2.resz` is the active part for new material; its wiki counterpart is
+  `maja_wiki/7.o/tori/2.resz`.
+- Example: `maja/7.o/tori/2.resz/261101.7.o.tori.uj.tema.yaml` with
+  `Source: maja_wiki/7.o/tori/2.resz/261101.7.o.tori.uj.tema.html`.
+
 ## Source Attribute
 
 - The quiz YAML must contain a `Source:` attribute directly after `Quiz:`.
