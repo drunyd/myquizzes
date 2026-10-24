@@ -1,0 +1,369 @@
+Quiz: A dualista gazdaság fejlődése
+Source: maja_wiki/7.o/tori/2.resz/261024.7.o.tori.a.dualista.gazdasag.fejlodese.html
+Question:
+  - Type: singlechoice
+    Text: Mit teremtett meg a kiegyezés a gazdasági fejlődéshez?
+    A: Katonai szövetségeket és hadsereget
+    B: Politikai, jogi, társadalmi alapokat
+    C: Gyarmatokat és tengeri kikötőket
+    D: Új vallási és oktatási intézményeket
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik ágazat indul el elsőként, és lesz a fejlődés húzóágazata?
+    A: A bányászat és a kohászat
+    B: A gépgyártás és a vegyipar
+    C: A mezőgazdaság
+    D: A közlekedés és a kereskedelem
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik új növényt említi a forrás a mezőgazdaság fejlődésénél?
+    A: A cukorrépa
+    B: A rizs és a búza
+    C: A kukorica
+    D: A burgonya
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik gépet említi a forrás a gépesítés példájaként?
+    A: A cséplőgép
+    B: Az aratógép és a vetőgép
+    C: A gőzeke és a szántógép
+    D: A lóvontatta eke
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik iparág épült a mezőgazdaság termékeire?
+    A: A textil- és ruházati ipar
+    B: Az élelmiszeripar
+    C: A bányászat és a kohászat
+    D: A hadi- és hajóipar
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mely közlekedési beruházásokat említi a forrás?
+    A: Autópályák és repülőterek építését
+    B: Tengeri kikötők és hajóutak építését
+    C: Vasút- és csatornaépítést
+    D: Hegyi vasutak és alagutak építését
+    Correct: C
+
+  - Type: singlechoice
+    Text: Mennyi volt a közlekedési hálózat hossza a fejlődés előtt a forrás szerint?
+    A: 2120 km
+    B: 222 km
+    C: 1222 km
+    D: 21200 km
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mire nőtt a közlekedési hálózat hossza a forrás szerint?
+    A: 2 120 km
+    B: 12 200 km
+    C: 212 000 km
+    D: 21 200 km
+    Correct: D
+
+  - Type: singlechoice
+    Text: Melyik tartozik a nehézipar ágai közé a forrás felsorolásában?
+    A: A vaskohászat
+    B: Az élelmiszeripar
+    C: A textilipar
+    D: A vegyipar
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ágazatot említi még a forrás az ipar mellett?
+    A: Az erdőgazdálkodás
+    B: A bányászat
+    C: A halászat
+    D: Az idegenforgalom
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mit tett lehetővé a Mechwart-féle acél hengerszék?
+    A: A liszt korszerű őrlését
+    B: Az acél gyorsabb termelését
+    C: A cukorrépa feldolgozását
+    D: A villamosenergia-termelést
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi lett Magyarország az acél hengerszéknek köszönhetően?
+    A: Acél- és szénnagyhatalom
+    B: Cukor- és szesznagyhatalom
+    C: Búza- és lisztnagyhatalom
+    D: Gép- és hajónagyhatalom
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik új tudományágban került az élvonalba az ország?
+    A: Az űrkutatásban
+    B: Az atomfizikában
+    C: Az elektromosságban
+    D: A tengerbiológiában
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik új iparágat említi még a forrás?
+    A: A textilipart
+    B: A vegyipart
+    C: Az élelmiszeripart
+    D: A hajóipart
+    Correct: B
+
+  - Type: singlechoice
+    Text: Ki készített villanymozdonyt?
+    A: Puskás Tivadar
+    B: Kandó Kálmán
+    C: Csonka János
+    D: Ganz Ábrahám
+    Correct: B
+
+  - Type: singlechoice
+    Text: Ki készített telefonközpontot?
+    A: Kandó Kálmán
+    B: Eötvös Lóránd
+    C: Mechwart András
+    D: Puskás Tivadar
+    Correct: D
+
+  - Type: singlechoice
+    Text: Kik készítettek transzformátort?
+    A: Déri, Bláthy, Zipernovszky
+    B: Kandó Kálmán és Ganz Ábrahám
+    C: Puskás Tivadar és Csonka János
+    D: Eötvös Loránd és Mechwart András
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ki készített porlasztót?
+    A: Kandó Kálmán
+    B: Puskás Tivadar
+    C: Csonka János
+    D: Ganz Ábrahám
+    Correct: C
+
+  - Type: singlechoice
+    Text: Ki készített kéregöntésű vasúti kereket?
+    A: Csonka János
+    B: Kandó Kálmán
+    C: Eötvös Lóránd
+    D: Ganz Ábrahám
+    Correct: D
+
+  - Type: singlechoice
+    Text: Ki készített torziós ingát?
+    A: Eötvös Lóránd
+    B: Ganz Ábrahám
+    C: Puskás Tivadar
+    D: Csonka János
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik találmány kapcsolódik Kandó Kálmánhoz?
+    A: A telefonközpont
+    B: A villanymozdony
+    C: A transzformátor
+    D: A porlasztó
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik találmány kapcsolódik Puskás Tivadarhoz?
+    A: A villanymozdony
+    B: A torziós inga
+    C: A telefonközpont
+    D: Az acél hengerszék
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik találmány kapcsolódik Ganz Ábrahámhoz?
+    A: Az acél hengerszék és őrlőgép
+    B: A telefonközpont és hírmondó
+    C: A villanymozdony és transzformátor
+    D: A kéregöntésű vasúti kerék
+    Correct: D
+
+  - Type: singlechoice
+    Text: Melyik találmány kapcsolódik Eötvös Lórándhoz?
+    A: A porlasztó
+    B: A transzformátor
+    C: A torziós inga
+    D: A cséplőgép
+    Correct: C
+
+  - Type: singlechoice
+    Text: Melyik eszköz kapcsolódik Mechwart nevéhez?
+    A: Az acél hengerszék
+    B: A torziós inga
+    C: A telefonközpont
+    D: A kéregöntésű kerék
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik két termékben lett világhatalom Magyarország?
+    A: Acél és szén
+    B: Cukor és szesz
+    C: Búza és liszt
+    D: Gép és hajó
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Melyek a mezőgazdaság fejlődésének jelei a forrás szerint?
+    Answers: [új növények termesztése, gépesítés, élelmiszeripar kialakulása, mezőgazdasági gépgyártás, repülőgépgyártás]
+    Correct: [új növények termesztése, gépesítés, élelmiszeripar kialakulása, mezőgazdasági gépgyártás]
+
+  - Type: multiplechoice
+    Text: Mely új növényeket említi a forrás?
+    Answers: [cukorrépa, dohány, takarmánynövények, rizs, kukorica]
+    Correct: [cukorrépa, dohány, takarmánynövények]
+
+  - Type: multiplechoice
+    Text: Mely élelmiszeripari ágakat említi a forrás?
+    Answers: [cukorgyártás, szeszgyártás, konzervgyárak, textilgyárak, hajógyárak]
+    Correct: [cukorgyártás, szeszgyártás, konzervgyárak]
+
+  - Type: multiplechoice
+    Text: Mely közlekedési fejlesztéseket említi a forrás?
+    Answers: [vasútépítés, csatornaépítés, folyamszabályozás, repülőtér-építés, autópálya-építés]
+    Correct: [vasútépítés, csatornaépítés, folyamszabályozás]
+
+  - Type: multiplechoice
+    Text: Mely iparágak fejlődtek a forrás szerint?
+    Answers: [gépgyártás, vaskohászat, bányászat, űripar, biotechnológia]
+    Correct: [gépgyártás, vaskohászat, bányászat]
+
+  - Type: multiplechoice
+    Text: Mely új tudományágak és iparágak említődnek a forrásban?
+    Answers: [elektromosság, vegyipar, űrkutatás, atomenergia, robotika]
+    Correct: [elektromosság, vegyipar]
+
+  - Type: multiplechoice
+    Text: Kik készítettek transzformátort a forrás szerint?
+    Answers: [Déri Miksa, Bláthy Ottó Titusz, Zipernovszky Károly, Kandó Kálmán, Puskás Tivadar]
+    Correct: [Déri Miksa, Bláthy Ottó Titusz, Zipernovszky Károly]
+
+  - Type: multiplechoice
+    Text: Mely találmányok szerepelnek a forrás felsorolásában?
+    Answers: [villanymozdony, telefonközpont, transzformátor, porlasztó, gőzmozdony, rádió]
+    Correct: [villanymozdony, telefonközpont, transzformátor, porlasztó]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a mezőgazdaságra a forrás szerint?
+    Answers: [ez lesz a húzóágazat, új növényeket termesztettek, gépesítették, csak a bányászatra épült, semmi sem változott]
+    Correct: [ez lesz a húzóágazat, új növényeket termesztettek, gépesítették]
+
+  - Type: multiplechoice
+    Text: Mely feltaláló–találmány párok helyesek a forrás szerint?
+    Answers: [Kandó Kálmán – villanymozdony, Puskás Tivadar – telefonközpont, Ganz Ábrahám – vasúti kerék, Eötvös Lóránd – porlasztó, Csonka János – transzformátor]
+    Correct: [Kandó Kálmán – villanymozdony, Puskás Tivadar – telefonközpont, Ganz Ábrahám – vasúti kerék]
+
+  - Type: multiplechoice
+    Text: Mely alapokat teremtette meg a kiegyezés a gazdasági fejlődéshez?
+    Answers: [politikai alapokat, jogi alapokat, társadalmi alapokat, katonai alapokat, vallási alapokat]
+    Correct: [politikai alapokat, jogi alapokat, társadalmi alapokat]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a közlekedés fejlődésére a forrás szerint?
+    Answers: [vasutakat építettek, csatornákat ástak, folyókat szabályoztak, a hálózat hossza nem változott, csak légi közlekedés volt]
+    Correct: [vasutakat építettek, csatornákat ástak, folyókat szabályoztak]
+
+  - Type: word
+    Text: Melyik ágazat lesz a fejlődés húzóágazata?
+    Answers: [mezőgazdaság]
+    Correct: [mezőgazdaság]
+
+  - Type: word
+    Text: Mi a neve a Mechwart-féle eszköznek?
+    Answers: [acél hengerszék]
+    Correct: [acél hengerszék]
+
+  - Type: word
+    Text: Melyik feltaláló nevéhez fűződik a villanymozdony?
+    Answers: [Kandó Kálmán]
+    Correct: [Kandó Kálmán]
+
+  - Type: word
+    Text: Melyik feltaláló készített telefonközpontot?
+    Answers: [Puskás Tivadar]
+    Correct: [Puskás Tivadar]
+
+  - Type: word
+    Text: Melyik feltaláló készített porlasztót?
+    Answers: [Csonka János]
+    Correct: [Csonka János]
+
+  - Type: word
+    Text: Melyik tudós készített torziós ingát?
+    Answers: [Eötvös Lóránd]
+    Correct: [Eötvös Lóránd]
+
+  - Type: word
+    Text: Hány kilométerről nőtt a közlekedési hálózat 21 200 km-re?
+    Answers: [222]
+    Correct: [222]
+
+  - Type: word
+    Text: Mi lett Magyarország a búza és a liszt tekintetében a forrás szerint?
+    Answers: [világhatalom]
+    Correct: [világhatalom]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az ágazatokat a forrás felsorolása szerint!
+    Items:
+      - vaskohászat
+      - mezőgazdaság
+      - közlekedés
+      - bányászat
+      - élelmiszeripar
+      - gépgyártás
+      - mezőgazdasági gépgyártás
+    Correct:
+      - mezőgazdaság
+      - élelmiszeripar
+      - mezőgazdasági gépgyártás
+      - közlekedés
+      - gépgyártás
+      - vaskohászat
+      - bányászat
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a találmányokat, ahogy a forrás felsorolja őket!
+    Items:
+      - transzformátor
+      - torziós inga
+      - villanymozdony
+      - porlasztó
+      - kéregöntésű vasúti kerék
+      - telefonközpont
+    Correct:
+      - villanymozdony
+      - telefonközpont
+      - transzformátor
+      - porlasztó
+      - kéregöntésű vasúti kerék
+      - torziós inga
+
+  - Type: pairing
+    Text: Párosítsd össze a feltalálókat a találmányaikkal!
+    LeftTitle: Feltaláló
+    RightTitle: Találmány
+    Pairs:
+      - [Kandó Kálmán, villanymozdony]
+      - [Puskás Tivadar, telefonközpont]
+      - [Déri–Bláthy–Zipernovszky, transzformátor]
+      - [Csonka János, porlasztó]
+      - [Ganz Ábrahám, kéregöntésű vasúti kerék]
+      - [Eötvös Lóránd, torziós inga]
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [húzóágazat, a mezőgazdaság]
+      - [acél hengerszék, a Mechwart-féle eszköz]
+      - [világhatalom, a búza és a liszt]
+      - [transzformátor, Déri–Bláthy–Zipernovszky találmánya]
+      - [torziós inga, Eötvös Lóránd eszköze]

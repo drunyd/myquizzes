@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A dualista gazdaság fejlődése</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A dualista gazdaság fejlődése</h1>
+
+        <div id="view-original">
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kiegyezés szerepe</h2>
+            <p class="mb-0">A kiegyezés megteremtette a gazdasági fejlődés politikai, jogi és társadalmi alapjait.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mezőgazdaság – a húzóágazat</h2>
+            <p class="mb-2">A fejlődés a mezőgazdaságban indul, ez lesz a húzóágazat!</p>
+            <ul class="mb-0">
+              <li>új növények (pl. cukorrépa, dohány, takarmánynövények)</li>
+              <li>gépesítés (pl. cséplőgép)</li>
+              <li>élelmiszeripar (cukor, szesz, konzervgyárak)</li>
+              <li>mezőgazdasági gépgyártás</li>
+              <li>közlekedés (vasút és csatornák építése, folyamszabályozás stb. 222 km-ről 21 200 km-re)</li>
+              <li>gépgyártás</li>
+              <li>vaskohászat</li>
+              <li>bányászat</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az acél hengerszék</h2>
+            <p class="mb-0">Az acél hengerszék (Mechwart-féle) segítségével búza- és lisztvilághatalom leszünk.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Új tudományok és iparágak</h2>
+            <p class="mb-2">Az új tudományok, illetve iparágak területén – például az elektromosságban és a vegyiparban – az élvonalba kerülünk.</p>
+            <ul class="mb-0">
+              <li><strong>Kandó Kálmán:</strong> villanymozdony</li>
+              <li><strong>Puskás Tivadar:</strong> telefonközpont</li>
+              <li><strong>Déri, Bláthy, Zipernovszky:</strong> transzformátor</li>
+              <li><strong>Csonka János:</strong> porlasztó</li>
+              <li><strong>Ganz Ábrahám:</strong> kéregöntésű vasúti kerék</li>
+              <li><strong>Eötvös Lóránd:</strong> torziós inga</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>A kiegyezés (1867) után a Magyar Királyság gazdasága gyorsan átalakult: a mezőgazdaság termékei és a malmok húzták a fejlődést, majd egyre nagyobb szerepet kaptak a gépek, a vasút és az új iparágak. Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>Ganz Ábrahám budai gyárában 1853-tól készültek kéregöntésű vasúti kerekek – a vasútépítés korában ez hatalmas üzlet volt.</li>
+                <li>A zárt vasmagú transzformátort 1885-ben szabadalmaztatta a Ganz gyár három mérnöke: Déri Miksa, Bláthy Ottó Titusz és Zipernovszky Károly.</li>
+                <li>Budapest az 1890-es évekig a világ legnagyobb malomipari központja volt; a magyar lisztet sok országba szállították.</li>
+              </ul>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mezőgazdaságtól a malomiparig</h2>
+            <p>A gazdaság első motorja a mezőgazdaság volt. Új növényeket – cukorrépát, dohányt és takarmánynövényeket – kezdtek termeszteni, a munkát pedig gépek, például cséplőgépek segítették. A termények feldolgozására cukor-, szesz- és konzervgyárak épültek, és megindult a mezőgazdasági gépek gyártása is.</p>
+            <p>A legnagyobb nemzetközi sikert a malomipar hozta. A Mechwart András nevéhez fűződő acél hengerszék finomabb lisztet tudott előállítani, mint a régi malmok, és a magyar búza hamarosan világszerte keresett lett. <a href="https://hu.wikipedia.org/wiki/Mechwart_Andr%C3%A1s" target="_blank" rel="noopener">Mechwart András</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mechwart%20hengersz%C3%A9k.jpg?width=800" class="figure-img img-fluid rounded" alt="Mechwart-féle hengerszék">
+              <figcaption class="figure-caption">Mechwart-féle hengerszék – ezzel vált világhírűvé a magyar malomipar. <a href="https://commons.wikimedia.org/wiki/File:Mechwart_hengersz%C3%A9k.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Vasút, csatornák, folyók</h2>
+            <p>A fejlődés másik alapja a közlekedés volt: vasutakat és csatornákat építettek, a folyókat szabályozták. A forrás szerint a hálózat hossza 222 km-ről 21 200 km-re nőtt – ez érzékelteti, milyen hatalmas építkezés zajlott. A vasút összekötötte a termőföldeket a malmokkal és a piacokkal, így a mezőgazdasági termékek gyorsan eljutottak a feldolgozóhelyekre és külföldre is.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kand%C3%B3%20K%C3%A1lm%C3%A1n.jpg?width=800" class="figure-img img-fluid rounded" alt="Kandó Kálmán portréja">
+              <figcaption class="figure-caption">Kandó Kálmán (1869–1931), a villamos vontatás úttörője. <a href="https://hu.wikipedia.org/wiki/Kand%C3%B3_K%C3%A1lm%C3%A1n" target="_blank" rel="noopener">Kandó Kálmán</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Villamosság és vegyipar</h2>
+            <p>A század végén az elektromosság és a vegyipar lett a két új, gyorsan fejlődő terület. A Ganz gyár mérnökei világszínvonalú megoldásokat alkottak: a transzformátorral messzire lehetett szállítani az elektromos áramot, Kandó Kálmán pedig a vasút villamosításán dolgozott. A porlasztó a belső égésű motorok egyik kulcsalkatrésze lett.</p>
+            <p>A vegyipar és a villamosipar fejlődése nemcsak új gyárakat, hanem új szakmákat és iskolákat is hozott – egyre több mérnökre és képzett szakmunkásra volt szükség.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A feltalálók és találmányaik</h2>
+            <ul class="def">
+              <li><span class="term">Kandó Kálmán:</span> villanymozdony. A Ganz gyárban készült Kandó-mozdony (V40) 1932-ben állt forgalomba. <a href="https://hu.wikipedia.org/wiki/Kand%C3%B3_K%C3%A1lm%C3%A1n" target="_blank" rel="noopener">Kandó Kálmán</a></li>
+              <li><span class="term">Puskás Tivadar:</span> telefonközpont. Nevéhez fűződik a telefonközpont ötlete; az első budapesti központ 1881-ben kezdte meg működését. <a href="https://hu.wikipedia.org/wiki/Pusk%C3%A1s_Tivadar" target="_blank" rel="noopener">Puskás Tivadar</a></li>
+              <li><span class="term">Déri, Bláthy, Zipernovszky:</span> transzformátor. A három Ganz-mérnök 1885-ben szabadalmaztatta a zárt vasmagú transzformátort. <a href="https://hu.wikipedia.org/wiki/Transzform%C3%A1tor" target="_blank" rel="noopener">Transzformátor</a></li>
+              <li><span class="term">Csonka János:</span> porlasztó. Bánki Donáttal közösen fejlesztette ki a Bánki–Csonka-féle porlasztót, amelyet 1893-ban szabadalmaztattak. <a href="https://hu.wikipedia.org/wiki/Csonka_J%C3%A1nos" target="_blank" rel="noopener">Csonka János</a></li>
+              <li><span class="term">Ganz Ábrahám:</span> kéregöntésű vasúti kerék. 1853-tól gyártott ilyen kerekeket budai üzemében. <a href="https://hu.wikipedia.org/wiki/Ganz_%C3%81brah%C3%A1m" target="_blank" rel="noopener">Ganz Ábrahám</a></li>
+              <li><span class="term">Eötvös Lóránd:</span> torziós inga. Az Eötvös-inga a gravitáció mérésére szolgáló, rendkívül érzékeny eszköz; Eötvös Loránd 1890-ben készítette el az első változatát. <a href="https://hu.wikipedia.org/wiki/E%C3%B6tv%C3%B6s_Lor%C3%A1nd" target="_blank" rel="noopener">Eötvös Loránd</a></li>
+            </ul>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: a forrásban néhány feltaláló neve mellett csak a találmány szerepel. Keress utána, melyik találmány melyik iparág fejlődését segítette a legjobban!</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miért volt mindez fontos?</h2>
+            <p class="mb-0">A dualista gazdaság fejlődése egyszerre támaszkodott a mezőgazdaságra és az iparra. A mezőgazdaság adta az élelmiszert és a nyersanyagot, a malmok és gyárak feldolgozták, a vasút pedig szállította ezeket. Az új találmányok és a mérnökök munkája miatt Magyarország néhány évtized alatt több területen Európa élvonalába került.</p>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>
