@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A növények törzsfejlődése</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A növények törzsfejlődése</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A sejtmagvas egysejtűek</h2>
+            <ul class="mb-0">
+              <li>2,5 milliárd évvel ezelőtt jelentek meg az olyan egysejtűek, amelyeknek sejtmagjuk is volt.</li>
+              <li><strong>Sejtmag:</strong> kis térfogatra összesűrített örökítőanyag + fehérje, amelyet vékony hártya vesz körül, és elválaszt a sejtplazmától.</li>
+              <li>Az örökítőanyag ebben a formában hatékonyabban tud működni.</li>
+              <li>Ezek voltak a mai növényvilág ősei.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A növényi sejt</h2>
+            <h3>Sejtfal</h3>
+            <ul>
+              <li>Kívülről rugalmas, porózus, szilárdítja a sejtet.</li>
+            </ul>
+
+            <h3>Sejthártya</h3>
+            <ul>
+              <li>A sejtfalat termeli.</li>
+              <li>Elválasztja, egyben össze is köti a sejtet a környezetével.</li>
+              <li>Féligáteresztő tulajdonsággal rendelkezik: a kis méretű részecskékből álló anyagok (víz) mindkét irányba könnyen átjutnak rajta, a nagyobb méretű részecskékből álló anyagok (fehérje, oldott cukrok) nem jutnak ki a sejtből.</li>
+            </ul>
+
+            <h3>Sejtplazma</h3>
+            <ul>
+              <li>Belső kocsonyás alapállomány, ebben helyezkedik el a sejtmag.</li>
+            </ul>
+
+            <h3>Sejtmag</h3>
+            <ul>
+              <li>Sejtmaghártya határolja.</li>
+              <li>Örökítőanyagból és fehérjéből áll.</li>
+              <li>Irányítja a sejt működését.</li>
+            </ul>
+
+            <h3>Sejtszervecskék (sejtalkotók)</h3>
+            <ul class="mb-0">
+              <li>A plazmában találhatók, a sejtek életműködése zajlik bennük.</li>
+              <li><strong>Zöld színtestek:</strong> fotoszintézis.</li>
+              <li><strong>Mitokondrium:</strong> az energiaszükséglet biztosítása.</li>
+              <li><strong>Sejtüreg:</strong> folyadékkal telt rész, kristályok.</li>
+              <li>Például az illóolajok a sérült sejtek sejtüregeiből kerülnek a levegőbe.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mai növényvilág kifejlődése</h2>
+            <ul>
+              <li>A legelső növények egymás mellett elhelyezkedő sejtekből álló <strong>sejtfonalak</strong> voltak, például a békanyál.</li>
+              <li>Később egyre nagyobb és bonyolultabb szerveződésű növények alakultak ki.</li>
+              <li>A sejtek térben való osztódásával:
+                <ul>
+                  <li><strong>kétirányú osztódás</strong> → lapszerű formák (lemezes telep);</li>
+                  <li><strong>háromirányú osztódás</strong> → teleptestes formák jöttek létre.</li>
+                </ul>
+              </li>
+              <li>Ezek mai képviselői a különböző moszatok.</li>
+              <li><strong>Zöldmoszat:</strong> apálykor rendszeresen kikerül a víz alól. Így kezdődött a szárazföldi élethez való alkalmazkodás, a növényi szervek és szövetek kialakulásával.</li>
+              <li>Mai napig élnek olyan növények a szárazföldön, amelyeknek nincsenek szöveteik: a <strong>mohák</strong>.</li>
+              <li><strong>Telepes növények:</strong> nincsenek szöveteik, élhetnek a vízben és a szárazföldön.</li>
+              <li><strong>Hajtásos növények:</strong> szövetekkel és szervekkel rendelkeznek: harasztok, nyitvatermők, zárvatermők.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A növények szaporodása</h2>
+            <p class="mb-2">Kétféle forma alakult ki.</p>
+            <h3>Első típus – ivartalan szaporodás</h3>
+            <ul>
+              <li>Egy sejtből apró szaporítósejtek szabadulnak ki.</li>
+              <li>Ezek a <strong>spórák</strong>.</li>
+              <li>Ezekből fejlődik ki az új növény.</li>
+              <li>Ivartalan szaporodás, mert nem előzi meg a szaporodást az ivarsejtek egyesülése.</li>
+            </ul>
+
+            <h3>Második típus – ivaros szaporodás</h3>
+            <ul class="mb-0">
+              <li>A növény kétféle szaporító sejtet termel.</li>
+              <li>Ezek a hím- és a női ivarsejtek.</li>
+              <li>Az ellentétes ivarsejtek egyesülnek.</li>
+              <li>Ez az ivaros szaporodás.</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div id="view-extended" class="d-none">
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>A növények törzsfejlődése azt mutatja meg, hogyan lettek a 2,5 milliárd évvel ezelőtti sejtmagvas egysejtűekből előbb sejtfonalak, majd telepes növények, később pedig szövetekkel és szervekkel rendelkező hajtásos növények. A sejt felépítése közben végig kulcsszerepet játszik: a sejtfal, a sejthártya és a sejtalkotók teszik lehetővé, hogy a növény alkalmazkodni tudjon a környezetéhez.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A növényi sejtfal legfontosabb építőanyaga a cellulóz, amely szilárd, mégis rugalmas burkot ad a sejtnek.</li>
+                <li>A zöld színtestek klorofillt tartalmaznak; ez a zöld festék fogja meg a fényt a fotoszintézishez.</li>
+                <li>A mohák a szárazföldre lépés egyik korai lépcsőjét képviselik: valódi szállítószövetük nincs, ezért főleg nedves helyeken élnek.</li>
+                <li>A békanyál fonalas zöldmoszat: a sejtjei egymás mellett helyezkednek el, és hosszú fonalat alkotnak.</li>
+              </ul>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A növényi sejt – kívülről befelé</h2>
+            <p>A sejtet kívülről a <strong>sejtfal</strong> veszi körül, amely rugalmas és porózus, mégis szilárdítja a sejtet. Alatta található a <strong>sejthártya</strong>, amely termeli a sejtfalat, és féligáteresztő módon szabályozza, mi jut be a sejtbe és mi marad bent. Belül a kocsonyás <strong>sejtplazma</strong> tölti ki a teret; ebben helyezkedik el a <strong>sejtmag</strong>, amely az örökítőanyagot tartalmazza, és irányítja a sejt működését.</p>
+            <p>A plazmában lévő sejtalkotók közül a <strong>zöld színtestek</strong> végzik a fotoszintézist, a <strong>mitokondriumok</strong> biztosítják az energiát, a <strong>sejtüreg</strong> pedig folyadékot és kristályokat tartalmaz. A növényi sejt felépítését jól mutatja az alábbi ábra. <a href="https://hu.wikipedia.org/wiki/N%C3%B6v%C3%A9nyi_sejt" target="_blank" rel="noopener">Növényi sejt</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Plant%20cell%20structure%20svg%20hu.svg?width=800" class="figure-img img-fluid rounded" alt="A növényi sejt felépítése">
+              <figcaption class="figure-caption">A növényi sejt felépítése – a sejtfaltól a sejtmagig. <a href="https://commons.wikimedia.org/wiki/File:Plant_cell_structure_svg_hu.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A sejtfonalaktól a hajtásos növényekig</h2>
+            <p>A legelső növények egyszerű sejtfonalak voltak, mint a békanyál. A sejtek osztódása aztán új formákat hozott létre: a kétirányú osztódásból lemezes telep, a háromirányúból teleptest lett. A moszatok mai képviselői még ezeket a telepes formákat idézik.</p>
+            <p>A szárazföld felé vezető út a zöldmoszatokkal kezdődött: apálykor rendszeresen kikerültek a víz alól, és alkalmazkodniuk kellett. Eközben alakultak ki a növényi szervek és szövetek. A moháknak még nincsenek szöveteik, a harasztoknak, nyitvatermőknek és zárvatermőknek viszont már vannak – ők a hajtásos növények. <a href="https://hu.wikipedia.org/wiki/Z%C3%B6ldmoszatok" target="_blank" rel="noopener">Zöldmoszatok</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20freshwater%20alga%20Spirogyra.jpg?width=800" class="figure-img img-fluid rounded" alt="Fonalas zöldmoszat">
+              <figcaption class="figure-caption">Fonalas zöldmoszat – a sejtek itt egymás mellett sorakoznak. <a href="https://commons.wikimedia.org/wiki/File:The_freshwater_alga_Spirogyra.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <figure class="figure wiki-figure text-center w-100 mb-0">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_moss_Polytrichum_commune%2C_Burrafirth_-_geograph.org.uk_-_4040144.jpg?width=800" class="figure-img img-fluid rounded" alt="Moha">
+              <figcaption class="figure-caption">Moha – a szárazföldön él, de még nincsenek szövetei. <a href="https://hu.wikipedia.org/wiki/Moh%C3%A1k" target="_blank" rel="noopener">Mohák</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Spórák és ivarsejtek</h2>
+            <p>A növények kétféleképpen szaporodhatnak. Az <strong>ivartalan szaporodásnál</strong> egy sejtből apró szaporítósejtek, <strong>spórák</strong> szabadulnak ki, és ezekből fejlődik ki az új növény. Ilyenkor nem egyesülnek ivarsejtek. Az <strong>ivaros szaporodásnál</strong> a növény hím- és női ivarsejteket termel, amelyek egyesülnek – így jön létre az utód.</p>
+            <p class="mb-0"><i class="fas fa-pen me-1"></i>Figyeld meg: a mohák még szövetek nélkül is meg tudnak élni a szárazföldön. Vajon miért van szükségük a nagyobb növényeknek szövetekre és szervekre?</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kapcsolódó olvasmányok</h2>
+            <ul class="mb-0">
+              <li><a href="https://hu.wikipedia.org/wiki/Sejtfal" target="_blank" rel="noopener">Sejtfal</a></li>
+              <li><a href="https://hu.wikipedia.org/wiki/Fotoszint%C3%A9zis" target="_blank" rel="noopener">Fotoszintézis</a></li>
+              <li><a href="https://hu.wikipedia.org/wiki/Harasztok" target="_blank" rel="noopener">Harasztok</a></li>
+              <li><a href="https://hu.wikipedia.org/wiki/Nyitvaterm%C5%91k" target="_blank" rel="noopener">Nyitvatermők</a> és <a href="https://hu.wikipedia.org/wiki/Z%C3%A1rvaterm%C5%91k" target="_blank" rel="noopener">zárvatermők</a></li>
+              <li><a href="https://hu.wikipedia.org/wiki/Sp%C3%B3ra" target="_blank" rel="noopener">Spóra</a></li>
+              <li><a href="https://hu.wikipedia.org/wiki/Ivaros_szaporod%C3%A1s" target="_blank" rel="noopener">Ivaros szaporodás</a></li>
+            </ul>
+          </div></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var original = document.getElementById('view-original');
+      var extended = document.getElementById('view-extended');
+      var btnOriginal = document.getElementById('btn-original');
+      var btnExtended = document.getElementById('btn-extended');
+      if (view === 'extended') {
+        original.classList.add('d-none'); extended.classList.remove('d-none');
+        btnOriginal.classList.remove('active'); btnExtended.classList.add('active');
+        btnOriginal.setAttribute('aria-pressed', 'false'); btnExtended.setAttribute('aria-pressed', 'true');
+      } else {
+        extended.classList.add('d-none'); original.classList.remove('d-none');
+        btnExtended.classList.remove('active'); btnOriginal.classList.add('active');
+        btnExtended.setAttribute('aria-pressed', 'false'); btnOriginal.setAttribute('aria-pressed', 'true');
+      }
+    }
+  </script>
+</body>
+</html>

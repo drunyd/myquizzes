@@ -1,0 +1,359 @@
+Quiz: A növények törzsfejlődése
+Source: maja_wiki/7.o/biosz/261024.7.o.biosz.a.novenyek.torzsefejlodese.html
+Question:
+  - Type: singlechoice
+    Text: Mikor jelentek meg az első sejtmagvas egysejtűek?
+    A: 2,5 milliárd évvel ezelőtt
+    B: 250 millió évvel ezelőtt
+    C: 25 millió évvel ezelőtt
+    D: körülbelül 2,5 millió évvel ezelőtt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből áll a sejtmag?
+    A: Örökítőanyagból és fehérjéből
+    B: Csak vízből és ásványi anyagokból
+    C: Sejtfalból és sejthártyából
+    D: Zöld színtestekből és cukrokból
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi veszi körül a sejtmagot?
+    A: Vékony hártya
+    B: Kemény sejtfal
+    C: Kocsonyás plazma
+    D: Zöld színtest
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a sejtmag feladata?
+    A: A sejt működését irányítja
+    B: A fotoszintézis elvégzése
+    C: Az örökítőanyag kijuttatása
+    D: A sejtfal kialakítása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Kik voltak a mai növényvilág ősei?
+    A: A sejtmagvas egysejtűek
+    B: A mohák és a harasztok
+    C: A zöldmoszatok és a békanyál
+    D: A gombák és az állatok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit mond a forrás a sejtfal tulajdonságairól?
+    A: Kívülről rugalmas, porózus és szilárd
+    B: Féligáteresztő és örökítőanyagot tartalmaz
+    C: Kocsonyás, folyadékkal telt rész
+    D: Zöld színű és fotoszintetizál
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit termel a sejthártya?
+    A: Sejtfalat
+    B: Sejtmagot
+    C: Zöld színtestet
+    D: Mitokondriumot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tesz a sejthártya a sejttel és a környezetével?
+    A: Elválasztja és össze is köti
+    B: Teljesen elzárja a külvilágtól
+    C: Csak a sejtfalat termeli
+    D: Örökítőanyagot juttat ki
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit jelent, hogy a sejthártya féligáteresztő?
+    A: A víz átjut, a fehérjék nem
+    B: Minden anyag szabadon átjut rajta
+    C: Semmilyen anyag nem jut át rajta
+    D: Csak a fehérjék jutnak át rajta
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a sejtplazma?
+    A: Kocsonyás alapállomány
+    B: A sejt külső, merev burka
+    C: A sejtmagban lévő hártya
+    D: A zöld színtestek összessége
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik sejtalkotó végzi a fotoszintézist?
+    A: A zöld színtest
+    B: A mitokondrium belseje
+    C: A sejtüreg
+    D: A sejtmag
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a mitokondrium feladata?
+    A: Energiát biztosít
+    B: A fotoszintézis elvégzése
+    C: Az örökítőanyag tárolása
+    D: A sejtfal kialakítása
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi található a sejtüregben?
+    A: Folyadék és kristályok
+    B: Örökítőanyag és fehérje
+    C: Zöld színtestek
+    D: Csak levegő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Honnan kerülnek az illóolajok a levegőbe?
+    A: Sérült sejtek sejtüregeiből
+    B: A sejtmagból és a sejtfalból
+    C: A mitokondriumok belsejéből
+    D: A zöld színtestekből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen formából álltak a legelső növények?
+    A: Sejtfonalakból
+    B: Szövetekkel rendelkező hajtásból
+    C: Virágokból és termésekből
+    D: Egyetlen nagy sejtből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növény példa a sejtfonalra?
+    A: A békanyál
+    B: A moha
+    C: A haraszt
+    D: A nyitvatermő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen forma jön létre a sejtek kétirányú osztódásával?
+    A: Lemezes telep
+    B: Teleptest
+    C: Sejtfonal
+    D: Hajtásos növény
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen forma jön létre a sejtek háromirányú osztódásával?
+    A: Teleptest
+    B: Lemezes telep
+    C: Sejtfonal
+    D: Zöld színtest
+    Correct: A
+
+  - Type: singlechoice
+    Text: Kik a teleptestes formák mai képviselői?
+    A: A különböző moszatok
+    B: A mohák és a harasztok
+    C: A nyitvatermők
+    D: A zárvatermők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növény kerül apálykor rendszeresen a víz alól ki?
+    A: A zöldmoszat
+    B: A moha és a haraszt
+    C: A békanyál
+    D: A nyitvatermő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növénynek nincsenek szövetei, mégis a szárazföldön él?
+    A: A mohák
+    B: A harasztok
+    C: A nyitvatermők
+    D: A zárvatermők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növénycsoport élhet vízben és szárazföldön is, szövetek nélkül?
+    A: A telepes növények
+    B: A hajtásos növények
+    C: A nyitvatermők
+    D: A zárvatermők
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a hajtásos növényekre?
+    A: Szöveteik és szerveik vannak
+    B: Nincsenek szöveteik és szerveik
+    C: Csak vízben tudnak élni
+    D: Csak egyetlen sejtből állnak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyek a hajtásos növények?
+    A: A harasztok, nyitvatermők, zárvatermők
+    B: A mohák, a zöldmoszatok és a békanyál
+    C: Csak a békanyál és a különböző moszatok
+    D: A gombák és az egysejtűek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző az ivartalan szaporodásra?
+    A: Nincs ivarsejt-egyesülés
+    B: Hím és női ivarsejtek egyesülnek
+    C: Kétféle szaporítósejt termelődik
+    D: Mindig virágokban történik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző az ivaros szaporodásra?
+    A: Ivarsejtek egyesülnek
+    B: Csak spórák szabadulnak ki
+    C: Nincs ivarsejt-egyesülés
+    D: Egyetlen sejt osztódik
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a sejtmag jellemzői?
+    Answers: [örökítőanyagot tartalmaz, fehérjét tartalmaz, vékony hártya veszi körül, sejtfalat termel, fotoszintetizál]
+    Correct: [örökítőanyagot tartalmaz, fehérjét tartalmaz, vékony hártya veszi körül]
+
+  - Type: multiplechoice
+    Text: Melyek a sejtfal jellemzői?
+    Answers: [rugalmas, porózus, szilárdítja a sejtet, féligáteresztő, örökítőanyagot tartalmaz]
+    Correct: [rugalmas, porózus, szilárdítja a sejtet]
+
+  - Type: multiplechoice
+    Text: Mely anyagok jutnak könnyen át a sejthártyán?
+    Answers: [víz, fehérje, oldott cukrok, kis méretű részecskék, nagy méretű részecskék]
+    Correct: [víz, kis méretű részecskék]
+
+  - Type: multiplechoice
+    Text: Mely sejtalkotó–feladat párok helyesek?
+    Answers: [zöld színtest – fotoszintézis, mitokondrium – energiaszükséglet, sejtüreg – folyadék és kristályok, sejtfal – örökítőanyag, sejtmag – sejtfal termelése]
+    Correct: [zöld színtest – fotoszintézis, mitokondrium – energiaszükséglet, sejtüreg – folyadék és kristályok]
+
+  - Type: multiplechoice
+    Text: Melyek a növényi sejt részei a forrás szerint?
+    Answers: [sejtfal, sejthártya, sejtplazma, sejtmag, csontváz]
+    Correct: [sejtfal, sejthártya, sejtplazma, sejtmag]
+
+  - Type: multiplechoice
+    Text: Mely növények tartoznak a hajtásos növények közé?
+    Answers: [harasztok, nyitvatermők, zárvatermők, mohák, moszatok]
+    Correct: [harasztok, nyitvatermők, zárvatermők]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a mohákra a forrás szerint?
+    Answers: [szárazföldön élnek, nincsenek szöveteik, vannak szöveteik, virágot nevelnek, vízben élnek]
+    Correct: [szárazföldön élnek, nincsenek szöveteik]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a zöldmoszatra?
+    Answers: [apálykor kikerül a víz alól, a szárazföldi alkalmazkodás kezdete, vannak szövetei, virágos növény, moha]
+    Correct: [apálykor kikerül a víz alól, a szárazföldi alkalmazkodás kezdete]
+
+  - Type: multiplechoice
+    Text: Mely szaporodási formák alakultak ki a növényeknél?
+    Answers: [spórás szaporodás, ivaros szaporodás, csak ivartalan szaporodás, csak ivaros szaporodás, bimbózás]
+    Correct: [spórás szaporodás, ivaros szaporodás]
+
+  - Type: multiplechoice
+    Text: Melyek az ivaros szaporodás jellemzői?
+    Answers: [kétféle szaporítósejt, hím és női ivarsejt, ellentétes ivarsejtek egyesülése, spórák szabadulnak ki, nincs ivarsejt-egyesülés]
+    Correct: [kétféle szaporítósejt, hím és női ivarsejt, ellentétes ivarsejtek egyesülése]
+
+  - Type: multiplechoice
+    Text: Melyek az ivartalan szaporodás jellemzői?
+    Answers: [spórák, egy sejtből szaporítósejtek, nincs ivarsejt-egyesülés, hím és női ivarsejt, ivarsejtek egyesülése]
+    Correct: [spórák, egy sejtből szaporítósejtek, nincs ivarsejt-egyesülés]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a növényvilág kifejlődésére?
+    Answers: [a legelső növények sejtfonalak voltak, a békanyál sejtfonal, a kétirányú osztódás lemezes telepet hoz létre, a háromirányú osztódás sejtfonalat hoz létre, a moszatok hajtásos növények]
+    Correct: [a legelső növények sejtfonalak voltak, a békanyál sejtfonal, a kétirányú osztódás lemezes telepet hoz létre]
+
+  - Type: word
+    Text: Hány milliárd évvel ezelőtt jelentek meg a sejtmagvas egysejtűek?
+    Answers: [2,5]
+    Correct: [2,5]
+
+  - Type: word
+    Text: Miből áll a sejtmag az örökítőanyag mellett?
+    Answers: [fehérje]
+    Correct: [fehérje]
+
+  - Type: word
+    Text: Melyik sejtalkotóban zajlik a fotoszintézis?
+    Answers: [zöld színtest]
+    Correct: [zöld színtest]
+
+  - Type: word
+    Text: Melyik sejtalkotó biztosítja az energiát?
+    Answers: [mitokondrium]
+    Correct: [mitokondrium]
+
+  - Type: word
+    Text: Mi a fonalas növény példája a forrás szerint?
+    Answers: [békanyál]
+    Correct: [békanyál]
+
+  - Type: word
+    Text: Milyen növények a harasztok, a nyitvatermők és a zárvatermők?
+    Answers: [hajtásos növények]
+    Correct: [hajtásos növények]
+
+  - Type: word
+    Text: Mi a neve az apró szaporítósejteknek?
+    Answers: [spórák]
+    Correct: [spórák]
+
+  - Type: word
+    Text: Melyik szaporodási formánál egyesülnek a hím és a női ivarsejtek?
+    Answers: [ivaros szaporodás]
+    Correct: [ivaros szaporodás]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a növényi szerveződés formáit a forrás szerint!
+    Items:
+      - teleptest
+      - sejtfonal
+      - hajtásos növények
+      - lemezes telep
+    Correct:
+      - sejtfonal
+      - lemezes telep
+      - teleptest
+      - hajtásos növények
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a növényi sejt részeit kívülről befelé!
+    Items:
+      - sejtplazma
+      - sejtfal
+      - sejtmag
+      - sejthártya
+    Correct:
+      - sejtfal
+      - sejthártya
+      - sejtplazma
+      - sejtmag
+
+  - Type: pairing
+    Text: Párosítsd össze a sejtalkotókat a feladataikkal!
+    LeftTitle: Sejtalkotó
+    RightTitle: Feladat
+    Pairs:
+      - [sejtfal, rugalmas és porózus]
+      - [sejthártya, féligáteresztő]
+      - [sejtplazma, kocsonyás alapállomány]
+      - [sejtmag, a sejt működését irányítja]
+      - [zöld színtest, fotoszintézis]
+      - [mitokondrium, energiaszükséglet]
+
+  - Type: pairing
+    Text: Párosítsd össze a növénycsoportokat a jellemzőikkel!
+    LeftTitle: Növénycsoport
+    RightTitle: Jellemző
+    Pairs:
+      - [mohák, szövetek nélkül élnek a szárazföldön]
+      - [zöldmoszat, apálykor kikerül a víz alól]
+      - [telepes növények, vízben és szárazföldön is élhetnek]
+      - [hajtásos növények, szöveteik és szerveik vannak]
+      - [moszatok, a teleptestes formák mai képviselői]
