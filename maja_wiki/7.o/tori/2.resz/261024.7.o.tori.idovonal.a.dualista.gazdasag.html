@@ -11,6 +11,9 @@
         if (theme && theme !== 'original') {
           document.documentElement.setAttribute('data-theme', theme);
         }
+        if (localStorage.getItem('tl-world-col') === 'off') {
+          document.documentElement.classList.add('tl-world-off');
+        }
       } catch (e) {}
     })();
   </script>
@@ -155,6 +158,11 @@
     }
 
     .tl-page { max-width: 1060px; margin: 0 auto; color: var(--tl-ink); }
+
+    /* szélesebb lap, ha a világ-idősáv be van kapcsolva */
+    @media (min-width: 1200px) {
+      html:not(.tl-world-off) .tl-page { max-width: 1240px; }
+    }
 
     .tl-hero { text-align: center; padding: .25rem 0 1.4rem; }
 
@@ -306,6 +314,64 @@
       color: var(--tl-faint);
     }
     .tl-result b { color: var(--tl-ink); }
+
+    /* ---------- Világ-idősáv kapcsoló ---------- */
+    .tl-world-toggle {
+      display: flex;
+      justify-content: center;
+      margin-top: .55rem;
+    }
+    .tl-toggle {
+      --w: #b07a12;
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-family: inherit;
+      font-size: .78rem;
+      font-weight: 600;
+      line-height: 1;
+      color: var(--tl-muted);
+      background: transparent;
+      border: 1px solid var(--tl-border);
+      border-radius: 999px;
+      padding: .45rem .8rem;
+      cursor: pointer;
+      transition: color .16s ease, border-color .16s ease, background .16s ease;
+    }
+    html[data-theme="dark"] .tl-toggle,
+    html[data-theme="glass-dark"] .tl-toggle { --w: #e3ab4c; }
+    html[data-theme="valorant"] .tl-toggle { --w: #ffb454; }
+    .tl-toggle:hover { color: var(--w); border-color: var(--w); }
+    .tl-toggle:focus-visible { outline: 3px solid var(--w); outline-offset: 2px; }
+    .tl-toggle[aria-pressed="true"] {
+      color: var(--w);
+      border-color: var(--w);
+      background: color-mix(in srgb, var(--w) 12%, transparent);
+    }
+
+    .tl-toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 30px;
+      height: 16px;
+      border-radius: 999px;
+      background: var(--tl-border);
+      transition: background .16s ease;
+      flex: 0 0 auto;
+    }
+    .tl-toggle-knob {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--tl-label-bg);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+      transition: transform .16s ease;
+    }
+    .tl-toggle[aria-pressed="true"] .tl-toggle-switch { background: var(--w); }
+    .tl-toggle[aria-pressed="true"] .tl-toggle-knob { transform: translateX(14px); }
 
     /* ---------- Korszak-navigáció ---------- */
     .tl-eras-nav {
@@ -539,6 +605,137 @@
       .tl-card, .tl-chip { transition: none; }
     }
 
+    /* ---------- Világ-idősáv (bal oldali, ki-be kapcsolható oszlop) ---------- */
+    .tl-layout { display: block; }
+
+    .tl-world {
+      --w: #b07a12;
+      --w-soft: rgba(176, 122, 18, .12);
+      position: relative;
+      background: var(--tl-card-soft);
+      border: 1px solid var(--tl-border);
+      border-radius: 16px;
+      padding: .9rem .9rem 1rem;
+      box-shadow: var(--tl-shadow);
+    }
+    html[data-theme="dark"] .tl-world,
+    html[data-theme="glass-dark"] .tl-world {
+      --w: #e3ab4c;
+      --w-soft: rgba(227, 171, 76, .16);
+    }
+    html[data-theme="valorant"] .tl-world {
+      --w: #ffb454;
+      --w-soft: rgba(255, 180, 84, .16);
+    }
+    .tl-world.is-hidden { display: none !important; }
+
+    .tl-world-head { margin-bottom: .75rem; }
+    .tl-world-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--w);
+      background: var(--w-soft);
+      border-radius: 999px;
+      padding: .3rem .6rem;
+      margin-bottom: .5rem;
+    }
+    .tl-world-lead {
+      font-size: .78rem;
+      line-height: 1.55;
+      color: var(--tl-muted);
+      margin: 0;
+    }
+
+    .tl-w-era {
+      font-size: .66rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--tl-faint);
+      margin: .85rem 0 .4rem;
+      padding-bottom: .25rem;
+      border-bottom: 1px dashed var(--tl-border);
+    }
+
+    .tl-w-item {
+      position: relative;
+      padding: .1rem 0 .1rem .85rem;
+      margin-bottom: .6rem;
+      border-left: 2px dashed var(--w-soft);
+    }
+    .tl-w-item::before {
+      content: "";
+      position: absolute;
+      left: -4px;
+      top: .45rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--w);
+      opacity: .75;
+    }
+    .tl-w-year {
+      display: block;
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .02em;
+      color: var(--w);
+      font-variant-numeric: tabular-nums;
+      line-height: 1.2;
+    }
+    .tl-w-title {
+      font-size: .82rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin: .1rem 0 .15rem;
+      color: var(--tl-ink);
+    }
+    .tl-w-desc {
+      font-size: .75rem;
+      line-height: 1.5;
+      color: var(--tl-muted);
+      margin: 0;
+    }
+
+    @media (min-width: 1200px) {
+      .tl-layout {
+        display: grid;
+        grid-template-columns: 280px minmax(0, 1fr);
+        gap: 1.5rem;
+        align-items: start;
+      }
+      .tl-world {
+        position: sticky;
+        top: 5.4rem;
+        max-height: calc(100vh - 6.4rem);
+        overflow-y: auto;
+        scrollbar-width: thin;
+      }
+      html.tl-world-off .tl-layout { display: block; }
+    }
+
+    @media (max-width: 1199px) {
+      .tl-layout { display: flex; flex-direction: column; }
+      .tl-world { order: 1; margin-bottom: 1rem; }
+      .tl { order: 2; }
+      .tl-w-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 0 .9rem;
+      }
+      .tl-w-era { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 767px) {
+      /* mobilon a magyar idővonal legyen elöl */
+      .tl-world { order: 3; margin: .6rem 0 0; }
+    }
+
     /* ---------- Lábléc ---------- */
     .tl-foot {
       margin-top: 1.6rem;
@@ -618,7 +815,7 @@
     }
 
     @media print {
-      .tl-progress, .tl-controls, .tl-eras-nav { display: none !important; }
+      .tl-progress, .tl-controls, .tl-eras-nav, .tl-world { display: none !important; }
       .tl-event, .tl-era { opacity: 1 !important; transform: none !important; break-inside: avoid; }
       .tl-card { box-shadow: none; break-inside: avoid; }
     }
@@ -639,7 +836,8 @@
             Válassz témát, és kövesd a gazdaság, a közlekedés és a technika fejlődését!
           </p>
           <div class="tl-stats">
-            <span class="tl-stat"><b>9</b> esemény</span>
+            <span class="tl-stat"><b>9</b> magyar esemény</span>
+            <span class="tl-stat"><b>14</b> világesemény</span>
             <span class="tl-stat"><b>79</b> év</span>
             <span class="tl-stat"><b>3</b> témakör</span>
             <span class="tl-stat"><b>3</b> korszak</span>
@@ -661,6 +859,14 @@
               <i class="fas fa-bolt"></i> Villamosság és technika <span class="tl-count">4</span>
             </button>
           </div>
+          <div class="tl-world-toggle">
+            <button type="button" class="tl-toggle" id="tl-world-toggle" aria-pressed="true"
+                    aria-controls="tl-world" title="Világtörténelmi párhuzamok ki-/bekapcsolása">
+              <span class="tl-toggle-switch" aria-hidden="true"><span class="tl-toggle-knob"></span></span>
+              <i class="fas fa-globe"></i>
+              <span id="tl-world-toggle-label">Világ-idősáv be</span>
+            </button>
+          </div>
           <p class="tl-result"><b id="tl-visible">9</b> esemény látható</p>
         </div>
 
@@ -670,7 +876,108 @@
           <a href="#era-3"><span class="dot" style="--era:#1f9d75"></span>1890&ndash;1932</a>
         </nav>
 
-        <div class="tl" id="timeline">
+        <div class="tl-layout" id="tl-layout">
+
+          <aside class="tl-world" id="tl-world" aria-label="Világtörténelmi párhuzamos események">
+            <div class="tl-world-head">
+              <span class="tl-world-eyebrow"><i class="fas fa-globe"></i> A világban</span>
+              <p class="tl-world-lead">Mi történt máshol ugyanekkor? Néhány fontos világtörténelmi esemény a magyar idővonal mellé.</p>
+            </div>
+
+            <div class="tl-w-list">
+              <div class="tl-w-era">1853&ndash;1867</div>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1851</span>
+                <h3 class="tl-w-title">Londoni Nagy Világkiállítás</h3>
+                <p class="tl-w-desc">A Crystal Palace-ban a gépkor önbizalmát mutatják be: gőzgépek, szövetek, ipari újdonságok.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1856</span>
+                <h3 class="tl-w-title">A Bessemer-eljárás</h3>
+                <p class="tl-w-desc">Olcsó, nagy tömegű acélgyártás indul &ndash; az acélipari fellendülés a Ganz-kerekek világa is.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1867</span>
+                <h3 class="tl-w-title">Megjelenik Marx: A tőke</h3>
+                <p class="tl-w-desc">A kiegyezés évében születik meg a kapitalizmus egyik legnagyobb hatású bírálata.</p>
+              </article>
+
+              <div class="tl-w-era">1867&ndash;1885</div>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1869</span>
+                <h3 class="tl-w-title">Szuezi-csatorna &eacute;s az első amerikai átkontinentális vasút</h3>
+                <p class="tl-w-desc">A gőzhajó és a vasút globálissá teszi az áruszállítást &ndash; a magyar vasútépítés ugyanennek a hullámnak a része.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1873&ndash;1896</span>
+                <h3 class="tl-w-title">Bécsi tőzsdekrach, hosszú depresszió</h3>
+                <p class="tl-w-desc">Az olcsó tengerentúli búza leszorítja a gabonaárakat &ndash; a magyar búzának is a világpiacon kell versenyeznie.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1882</span>
+                <h3 class="tl-w-title">Edison első erőműve New Yorkban</h3>
+                <p class="tl-w-desc">A villamos energia ipari használata elkezdődik &ndash; három évvel később jön a magyar transzformátor.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1883</span>
+                <h3 class="tl-w-title">Elindul az Orient Expressz</h3>
+                <p class="tl-w-desc">Az európai vasúthálózat sűrűsödik: Párizsból Isztambulig lehet vonaton utazni.</p>
+              </article>
+
+              <div class="tl-w-era">1890&ndash;1932</div>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1891</span>
+                <h3 class="tl-w-title">Első háromfázisú nagyfeszültségű távvezeték</h3>
+                <p class="tl-w-desc">Lauffen és Frankfurt között &ndash; a váltakozó áram győzelmének világméretű bizonyítéka.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1893</span>
+                <h3 class="tl-w-title">Chicagói Világkiállítás</h3>
+                <p class="tl-w-desc">Az amerikai gabona- és húskereskedelem központja &ndash; Budapest malomipari vetélytársa a világpiacon.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1895</span>
+                <h3 class="tl-w-title">Röntgen röntgensugarai, az első filmvetítés</h3>
+                <p class="tl-w-desc">A tudományos világhír korszaka &ndash; ugyanezekben az években lesz híres Eötvös torziós ingája.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1897</span>
+                <h3 class="tl-w-title">Diesel-motor</h3>
+                <p class="tl-w-desc">Új belső égésű erőgép jelenik meg &ndash; a Bánki&ndash;Csonka-féle porlasztó rokon fejlesztés.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1903&ndash;1908</span>
+                <h3 class="tl-w-title">Wright-fivérek repülése, Ford Model T futószalagon</h3>
+                <p class="tl-w-desc">A közlekedés és a gyártás következő ugrása: megindul a sorozatgyártás kora.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1914</span>
+                <h3 class="tl-w-title">Kitör az első világháború</h3>
+                <p class="tl-w-desc">Lezárul a dualizmus gazdasági aranykora; a háború minden európai gazdaságot átalakít.</p>
+              </article>
+
+              <article class="tl-w-item">
+                <span class="tl-w-year">1929&ndash;1932</span>
+                <h3 class="tl-w-title">Világgazdasági válság</h3>
+                <p class="tl-w-desc">A new york-i tőzsdekrach begyűrűzik Európába &ndash; a Kandó-mozdony épp ezekben a válságos években áll forgalomba.</p>
+              </article>
+            </div>
+          </aside>
+
+          <div class="tl" id="timeline">
 
           <!-- ================= 1. KORSZAK ================= -->
           <section class="tl-era" id="era-1" style="--era:#7c5cff">
@@ -814,6 +1121,7 @@
           </section>
 
         </div>
+        </div>
 
         <footer class="tl-foot">
           <h2><i class="fas fa-bookmark me-1"></i> A 2. rész eddigi wikioldala</h2>
@@ -824,8 +1132,9 @@
             <i class="fas fa-lightbulb"></i>
             <div>
               <strong>Hogyan használd?</strong> A felső gombokkal témakörre szűrhetsz, a kártyákon a
-              <em>wikioldal</em> hivatkozás visz a részletes leckéhez. Az idővonal a 2. rész eddigi
-              leckéjéből épül, és az új leckékkel együtt bővül.
+              <em>wikioldal</em> hivatkozás visz a részletes leckéhez. A <em>Világ-idősáv</em> kapcsolóval
+              ki- és bekapcsolhatod a bal oldali oszlopot, amely párhuzamos világtörténelmi eseményeket mutat.
+              Az idővonal a 2. rész eddigi leckéjéből épül, és az új leckékkel együtt bővül.
             </div>
           </div>
         </footer>
@@ -873,6 +1182,30 @@
           applyFilter(chip.getAttribute('data-topic'));
         });
       });
+
+      /* ---- világ-idősáv ki/be ---- */
+      var worldToggle = document.getElementById('tl-world-toggle');
+      var worldToggleLabel = document.getElementById('tl-world-toggle-label');
+      var worldPanel = document.getElementById('tl-world');
+
+      function applyWorld(on) {
+        document.documentElement.classList.toggle('tl-world-off', !on);
+        if (worldToggle) { worldToggle.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+        if (worldToggleLabel) { worldToggleLabel.textContent = on ? 'Világ-idősáv be' : 'Világ-idősáv ki'; }
+        if (worldPanel) { worldPanel.classList.toggle('is-hidden', !on); }
+        try { localStorage.setItem('tl-world-col', on ? 'on' : 'off'); } catch (e) {}
+      }
+
+      if (worldToggle) {
+        worldToggle.addEventListener('click', function () {
+          applyWorld(worldToggle.getAttribute('aria-pressed') !== 'true');
+        });
+      }
+
+      /* kezdeti állapot a mentett beállításból */
+      var worldSaved = 'on';
+      try { worldSaved = localStorage.getItem('tl-world-col') || 'on'; } catch (e) {}
+      applyWorld(worldSaved !== 'off');
 
       /* ---- olvasási folyamatjelző ---- */
       function updateProgress() {
