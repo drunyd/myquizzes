@@ -14,6 +14,9 @@
         if (localStorage.getItem('tl-world-col') === 'off') {
           document.documentElement.classList.add('tl-world-off');
         }
+        if (localStorage.getItem('tl-view') === 'dates') {
+          document.documentElement.classList.add('tl-view-dates');
+        }
       } catch (e) {}
     })();
   </script>
@@ -755,6 +758,182 @@
       }
     }
 
+    /* ---------- Nézetváltó (idővonal / dátumlista) ---------- */
+    .tl-views {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .35rem;
+      margin-bottom: .75rem;
+    }
+    .tl-view-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      font-family: inherit;
+      font-size: .8rem;
+      font-weight: 600;
+      line-height: 1;
+      color: var(--tl-muted);
+      background: transparent;
+      border: 1px solid var(--tl-border);
+      border-radius: 999px;
+      padding: .5rem .85rem;
+      cursor: pointer;
+      transition: color .16s ease, background .16s ease, border-color .16s ease;
+    }
+    .tl-view-btn:hover { color: var(--tl-ink); border-color: var(--tl-muted); }
+    .tl-view-btn:focus-visible { outline: 3px solid var(--tl-border); outline-offset: 2px; }
+    .tl-view-btn.is-active {
+      color: var(--tl-label-bg);
+      background: var(--tl-ink);
+      border-color: var(--tl-ink);
+    }
+
+    /* ---------- Dátumlista nézet ---------- */
+    .tl-dates { display: none; }
+    html.tl-view-dates .tl-dates { display: block; }
+    html.tl-view-dates .tl,
+    html.tl-view-dates .tl-eras-nav,
+    html.tl-view-dates .tl-world-toggle,
+    html.tl-view-dates .tl-result { display: none !important; }
+
+    .tl-dates-card {
+      background: var(--tl-card);
+      border: 1px solid var(--tl-border);
+      border-radius: 16px;
+      box-shadow: var(--tl-shadow);
+      padding: 1rem 1.05rem 1.1rem;
+    }
+    html[data-theme="glass"] .tl-dates-card { background: rgba(255, 255, 255, .62); }
+
+    .tl-dates-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: .7rem 1rem;
+      margin-bottom: .85rem;
+    }
+    .tl-dates-title {
+      font-size: 1.02rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin: 0;
+      color: var(--tl-ink);
+    }
+    .tl-dates-title i { color: #7c5cff; margin-right: .3rem; }
+    .tl-dates-lead {
+      font-size: .8rem;
+      line-height: 1.55;
+      color: var(--tl-muted);
+      margin: .35rem 0 0;
+      max-width: 62ch;
+    }
+
+    .tl-quiz-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      flex: 0 0 auto;
+      font-family: inherit;
+      font-size: .76rem;
+      font-weight: 600;
+      line-height: 1;
+      color: var(--tl-muted);
+      background: var(--tl-card-soft);
+      border: 1px solid var(--tl-border);
+      border-radius: 999px;
+      padding: .5rem .75rem;
+      cursor: pointer;
+      transition: color .16s ease, border-color .16s ease, background .16s ease;
+    }
+    .tl-quiz-toggle:hover { color: var(--tl-ink); border-color: var(--tl-muted); }
+    .tl-quiz-toggle[aria-pressed="true"] {
+      color: var(--tl-label-bg);
+      background: #7c5cff;
+      border-color: #7c5cff;
+    }
+
+    .tl-dates-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .87rem;
+    }
+    .tl-dates-table thead th {
+      text-align: left;
+      font-size: .66rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--tl-faint);
+      padding: .3rem .6rem .45rem;
+      border-bottom: 1px solid var(--tl-border);
+    }
+    .tl-dates-table tbody tr {
+      border-bottom: 1px solid var(--tl-border);
+      transition: background .14s ease;
+    }
+    .tl-dates-table tbody tr:last-child { border-bottom: 0; }
+    .tl-dates-table tbody tr:hover { background: var(--topic-soft); }
+    .tl-dates-table tbody th {
+      padding: .55rem .6rem;
+      text-align: left;
+      vertical-align: top;
+      white-space: nowrap;
+      font-size: .98rem;
+      font-weight: 800;
+      color: var(--topic, var(--tl-ink));
+      font-variant-numeric: tabular-nums;
+    }
+    .tl-dates-table tbody td {
+      padding: .55rem .6rem;
+      vertical-align: top;
+      text-align: left;
+      line-height: 1.5;
+      color: var(--tl-ink);
+    }
+    .tl-dates-table tbody td.tl-date-meta {
+      font-size: .76rem;
+      color: var(--tl-muted);
+      white-space: nowrap;
+    }
+    .tl-date-row.is-hidden { display: none; }
+
+    /* tanuló mód: az események elrejtve, kattintásra felfedhetők */
+    .tl-dates.is-quiz tbody tr { cursor: pointer; }
+    .tl-dates.is-quiz tbody .tl-date-text,
+    .tl-dates.is-quiz tbody .tl-date-meta {
+      filter: blur(6px);
+      user-select: none;
+      transition: filter .18s ease;
+    }
+    .tl-dates.is-quiz tbody tr.is-open .tl-date-text,
+    .tl-dates.is-quiz tbody tr.is-open .tl-date-meta { filter: none; }
+
+    .tl-dates-note {
+      font-size: .76rem;
+      line-height: 1.55;
+      color: var(--tl-faint);
+      margin: .8rem 0 0;
+      padding-top: .7rem;
+      border-top: 1px dashed var(--tl-border);
+    }
+
+    @media (max-width: 640px) {
+      .tl-dates-table thead { display: none; }
+      .tl-dates-table,
+      .tl-dates-table tbody,
+      .tl-dates-table tr,
+      .tl-dates-table th,
+      .tl-dates-table td { display: block; width: 100%; }
+      .tl-dates-table tbody tr { padding: .45rem 0 .55rem; }
+      .tl-dates-table tbody th { padding: .1rem .55rem 0; font-size: 1.04rem; }
+      .tl-dates-table tbody td { padding: .12rem .55rem 0; }
+      .tl-dates-table tbody td.tl-date-meta { white-space: normal; font-size: .74rem; color: var(--tl-faint); }
+      .tl-dates-head { flex-direction: column; }
+    }
+
     /* ---------- Lábléc ---------- */
     .tl-foot {
       margin-top: 1.6rem;
@@ -858,7 +1037,7 @@
             Válassz témát, és kövesd a gazdaság, a közlekedés és a technika fejlődését!
           </p>
           <div class="tl-stats">
-            <span class="tl-stat"><b>9</b> magyar esemény</span>
+            <span class="tl-stat"><b>10</b> magyar esemény</span>
             <span class="tl-stat"><b>14</b> világesemény</span>
             <span class="tl-stat"><b>79</b> év</span>
             <span class="tl-stat"><b>3</b> témakör</span>
@@ -867,9 +1046,17 @@
         </header>
 
         <div class="tl-controls">
+          <div class="tl-views" role="tablist" aria-label="Nézet">
+            <button type="button" class="tl-view-btn is-active" data-view="timeline" role="tab" aria-selected="true">
+              <i class="fas fa-stream"></i> Idővonal
+            </button>
+            <button type="button" class="tl-view-btn" data-view="dates" role="tab" aria-selected="false">
+              <i class="fas fa-list-ol"></i> Dátumlista
+            </button>
+          </div>
           <div class="tl-filters" role="group" aria-label="Szűrés témakör szerint">
             <button type="button" class="tl-chip tl-chip--all is-active" data-topic="all" aria-pressed="true">
-              <i class="fas fa-layer-group"></i> Mind <span class="tl-count">9</span>
+              <i class="fas fa-layer-group"></i> Mind <span class="tl-count">10</span>
             </button>
             <button type="button" class="tl-chip tl-chip--social" data-topic="social" aria-pressed="false">
               <i class="fas fa-wheat-awn"></i> Gazdaság <span class="tl-count">3</span>
@@ -878,7 +1065,7 @@
               <i class="fas fa-industry"></i> Ipar és közlekedés <span class="tl-count">2</span>
             </button>
             <button type="button" class="tl-chip tl-chip--colony" data-topic="colony" aria-pressed="false">
-              <i class="fas fa-bolt"></i> Villamosság és technika <span class="tl-count">4</span>
+              <i class="fas fa-bolt"></i> Villamosság és technika <span class="tl-count">5</span>
             </button>
           </div>
           <div class="tl-world-toggle">
@@ -889,7 +1076,7 @@
               <span id="tl-world-toggle-label">Világ-idősáv be</span>
             </button>
           </div>
-          <p class="tl-result"><b id="tl-visible">9</b> esemény látható</p>
+          <p class="tl-result"><b id="tl-visible">10</b> esemény látható</p>
         </div>
 
         <nav class="tl-eras-nav" aria-label="Ugrás korszakhoz">
@@ -903,30 +1090,30 @@
 
           <!-- ================= 1. KORSZAK ================= -->
           <section class="tl-era" id="era-1" style="--era:#7c5cff">
-  <div class="tl-era-head">
-                <div class="tl-era-label">
-                  <span class="tl-era-range">1853&ndash;1867 &middot; 1. korszak</span>
-                  <span class="tl-era-name">Az alapok</span>
-                  <span class="tl-era-sub">A vasút és a kiegyezés megnyitja az utat a fejlődés előtt.</span>
-                </div>
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1853&ndash;1867 &middot; 1. korszak</span>
+                <span class="tl-era-name">Az alapok</span>
+                <span class="tl-era-sub">A vasút és a kiegyezés megnyitja az utat a fejlődés előtt.</span>
               </div>
+            </div>
 
             <div class="tl-row">
               <div class="tl-w-lane">
                 <p class="tl-w-head"><i class="fas fa-globe"></i> A világban &middot; 1853&ndash;1867</p>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1851</span>
-                    <h3 class="tl-w-title">Londoni Nagy Világkiállítás</h3>
-                    <p class="tl-w-desc">A Crystal Palace-ban a gépkor önbizalmát mutatják be: gőzgépek, szövetek, ipari újdonságok.</p>
-                  </article>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1856</span>
-                    <h3 class="tl-w-title">A Bessemer-eljárás</h3>
-                    <p class="tl-w-desc">Olcsó, nagy tömegű acélgyártás indul &ndash; az acélipari fellendülés a Ganz-kerekek világa is.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1851</span>
+                  <h3 class="tl-w-title">Londoni Nagy Világkiállítás</h3>
+                  <p class="tl-w-desc">A Crystal Palace-ban a gépkor önbizalmát mutatják be: gőzgépek, szövetek, ipari újdonságok.</p>
+                </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1856</span>
+                  <h3 class="tl-w-title">A Bessemer-eljárás</h3>
+                  <p class="tl-w-desc">Olcsó, nagy tömegű acélgyártás indul &ndash; az acélipari fellendülés a Ganz-kerekek világa is.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--right">
-    <article class="tl-event t-usa">
+                <article class="tl-event t-usa">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1853</span>
@@ -942,14 +1129,14 @@
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1867</span>
-                    <h3 class="tl-w-title">Megjelenik Marx: A tőke</h3>
-                    <p class="tl-w-desc">A kiegyezés évében születik meg a kapitalizmus egyik legnagyobb hatású bírálata.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1867</span>
+                  <h3 class="tl-w-title">Megjelenik Marx: A tőke</h3>
+                  <p class="tl-w-desc">A kiegyezés évében születik meg a kapitalizmus egyik legnagyobb hatású bírálata.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--left">
-    <article class="tl-event t-social">
+                <article class="tl-event t-social">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1867</span>
@@ -967,25 +1154,25 @@
 
           <!-- ================= 2. KORSZAK ================= -->
           <section class="tl-era" id="era-2" style="--era:#2f7de1">
-  <div class="tl-era-head">
-                <div class="tl-era-label">
-                  <span class="tl-era-range">1867&ndash;1885 &middot; 2. korszak</span>
-                  <span class="tl-era-name">Gépek és malmok</span>
-                  <span class="tl-era-sub">Vasút, hengerszék és az első nagy elektromos találmány.</span>
-                </div>
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1867&ndash;1885 &middot; 2. korszak</span>
+                <span class="tl-era-name">Gépek és malmok</span>
+                <span class="tl-era-sub">Vasút, hengerszék és az első nagy elektromos találmány.</span>
               </div>
+            </div>
 
             <div class="tl-row">
               <div class="tl-w-lane">
                 <p class="tl-w-head"><i class="fas fa-globe"></i> A világban &middot; 1867&ndash;1885</p>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1869</span>
-                    <h3 class="tl-w-title">Szuezi-csatorna &eacute;s az első amerikai átkontinentális vasút</h3>
-                    <p class="tl-w-desc">A gőzhajó és a vasút globálissá teszi az áruszállítást &ndash; a magyar vasútépítés ugyanennek a hullámnak a része.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1869</span>
+                  <h3 class="tl-w-title">Szuezi-csatorna &eacute;s az első amerikai átkontinentális vasút</h3>
+                  <p class="tl-w-desc">A gőzhajó és a vasút globálissá teszi az áruszállítást &ndash; a magyar vasútépítés ugyanennek a hullámnak a része.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--right">
-    <article class="tl-event t-usa">
+                <article class="tl-event t-usa">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1867&ndash;1900</span>
@@ -1001,14 +1188,14 @@
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1873&ndash;1896</span>
-                    <h3 class="tl-w-title">Bécsi tőzsdekrach, hosszú depresszió</h3>
-                    <p class="tl-w-desc">Az olcsó tengerentúli búza leszorítja a gabonaárakat &ndash; a magyar búzának is a világpiacon kell versenyeznie.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1873&ndash;1896</span>
+                  <h3 class="tl-w-title">Bécsi tőzsdekrach, hosszú depresszió</h3>
+                  <p class="tl-w-desc">Az olcsó tengerentúli búza leszorítja a gabonaárakat &ndash; a magyar búzának is a világpiacon kell versenyeznie.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--left">
-    <article class="tl-event t-social">
+                <article class="tl-event t-social">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1874</span>
@@ -1024,19 +1211,37 @@
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1882</span>
-                    <h3 class="tl-w-title">Edison első erőműve New Yorkban</h3>
-                    <p class="tl-w-desc">A villamos energia ipari használata elkezdődik &ndash; három évvel később jön a magyar transzformátor.</p>
-                  </article>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1883</span>
-                    <h3 class="tl-w-title">Elindul az Orient Expressz</h3>
-                    <p class="tl-w-desc">Az európai vasúthálózat sűrűsödik: Párizsból Isztambulig lehet vonaton utazni.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1882</span>
+                  <h3 class="tl-w-title">Edison első erőműve New Yorkban</h3>
+                  <p class="tl-w-desc">A villamos energia ipari használata elkezdődik &ndash; három évvel később jön a magyar transzformátor.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--right">
-    <article class="tl-event t-colony">
+                <article class="tl-event t-colony">
+                  <div class="tl-card">
+                    <div class="tl-meta">
+                      <span class="tl-year">1881</span>
+                      <span class="tl-tag"><i class="fas fa-bolt"></i> Technika</span>
+                    </div>
+                    <h3 class="tl-event-title">Megnyílik az első budapesti telefonközpont</h3>
+                    <p class="tl-desc">Puskás Tivadar ötlete nyomán 1881-ben kezdi meg működését az első budapesti telefonközpont.</p>
+                    <a class="tl-src" href="261024.7.o.tori.a.dualista.gazdasag.fejlodese.html"><i class="fas fa-book-open"></i> A dualista gazdaság fejlődése</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tl-row">
+              <div class="tl-w-lane">
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1883</span>
+                  <h3 class="tl-w-title">Elindul az Orient Expressz</h3>
+                  <p class="tl-w-desc">Az európai vasúthálózat sűrűsödik: Párizsból Isztambulig lehet vonaton utazni.</p>
+                </article>
+              </div>
+              <div class="tl-slot tl-slot--left">
+                <article class="tl-event t-colony">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1885</span>
@@ -1054,25 +1259,25 @@
 
           <!-- ================= 3. KORSZAK ================= -->
           <section class="tl-era" id="era-3" style="--era:#1f9d75">
-  <div class="tl-era-head">
-                <div class="tl-era-label">
-                  <span class="tl-era-range">1890&ndash;1932 &middot; 3. korszak</span>
-                  <span class="tl-era-name">Világhír és új technika</span>
-                  <span class="tl-era-sub">Malomipari világsiker, majd a tudomány és a technika új hulláma.</span>
-                </div>
+            <div class="tl-era-head">
+              <div class="tl-era-label">
+                <span class="tl-era-range">1890&ndash;1932 &middot; 3. korszak</span>
+                <span class="tl-era-name">Világhír és új technika</span>
+                <span class="tl-era-sub">Malomipari világsiker, majd a tudomány és a technika új hulláma.</span>
               </div>
+            </div>
 
             <div class="tl-row">
               <div class="tl-w-lane">
                 <p class="tl-w-head"><i class="fas fa-globe"></i> A világban &middot; 1890&ndash;1932</p>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1891</span>
-                    <h3 class="tl-w-title">Első háromfázisú nagyfeszültségű távvezeték</h3>
-                    <p class="tl-w-desc">Lauffen és Frankfurt között &ndash; a váltakozó áram győzelmének világméretű bizonyítéka.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1891</span>
+                  <h3 class="tl-w-title">Első háromfázisú nagyfeszültségű távvezeték</h3>
+                  <p class="tl-w-desc">Lauffen és Frankfurt között &ndash; a váltakozó áram győzelmének világméretű bizonyítéka.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--right">
-    <article class="tl-event t-colony">
+                <article class="tl-event t-colony">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1890</span>
@@ -1088,14 +1293,14 @@
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1893</span>
-                    <h3 class="tl-w-title">Chicagói Világkiállítás</h3>
-                    <p class="tl-w-desc">Az amerikai gabona- és húskereskedelem központja &ndash; Budapest malomipari vetélytársa a világpiacon.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1893</span>
+                  <h3 class="tl-w-title">Chicagói Világkiállítás</h3>
+                  <p class="tl-w-desc">Az amerikai gabona- és húskereskedelem központja &ndash; Budapest malomipari vetélytársa a világpiacon.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--left">
-    <article class="tl-event t-social">
+                <article class="tl-event t-social">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1890-es évek</span>
@@ -1111,19 +1316,19 @@
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1895</span>
-                    <h3 class="tl-w-title">Röntgen röntgensugarai, az első filmvetítés</h3>
-                    <p class="tl-w-desc">A tudományos világhír korszaka &ndash; ugyanezekben az években lesz híres Eötvös torziós ingája.</p>
-                  </article>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1897</span>
-                    <h3 class="tl-w-title">Diesel-motor</h3>
-                    <p class="tl-w-desc">Új belső égésű erőgép jelenik meg &ndash; a Bánki&ndash;Csonka-féle porlasztó rokon fejlesztés.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1895</span>
+                  <h3 class="tl-w-title">Röntgen röntgensugarai, az első filmvetítés</h3>
+                  <p class="tl-w-desc">A tudományos világhír korszaka &ndash; ugyanezekben az években lesz híres Eötvös torziós ingája.</p>
+                </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1897</span>
+                  <h3 class="tl-w-title">Diesel-motor</h3>
+                  <p class="tl-w-desc">Új belső égésű erőgép jelenik meg &ndash; a Bánki&ndash;Csonka-féle porlasztó rokon fejlesztés.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--right">
-    <article class="tl-event t-colony">
+                <article class="tl-event t-colony">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1893</span>
@@ -1139,29 +1344,29 @@
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1903&ndash;1908</span>
-                    <h3 class="tl-w-title">Wright-fivérek repülése, Ford Model T futószalagon</h3>
-                    <p class="tl-w-desc">A közlekedés és a gyártás következő ugrása: megindul a sorozatgyártás kora.</p>
-                  </article>
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1914</span>
-                    <h3 class="tl-w-title">Kitör az első világháború</h3>
-                    <p class="tl-w-desc">Lezárul a dualizmus gazdasági aranykora; a háború minden európai gazdaságot átalakít.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1903&ndash;1908</span>
+                  <h3 class="tl-w-title">Wright-fivérek repülése, Ford Model T futószalagon</h3>
+                  <p class="tl-w-desc">A közlekedés és a gyártás következő ugrása: megindul a sorozatgyártás kora.</p>
+                </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1914</span>
+                  <h3 class="tl-w-title">Kitör az első világháború</h3>
+                  <p class="tl-w-desc">Lezárul a dualizmus gazdasági aranykora; a háború minden európai gazdaságot átalakít.</p>
+                </article>
               </div>
             </div>
 
             <div class="tl-row">
               <div class="tl-w-lane">
-    <article class="tl-w-item">
-                    <span class="tl-w-year">1929&ndash;1932</span>
-                    <h3 class="tl-w-title">Világgazdasági válság</h3>
-                    <p class="tl-w-desc">A new york-i tőzsdekrach begyűrűzik Európába &ndash; a Kandó-mozdony épp ezekben a válságos években áll forgalomba.</p>
-                  </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1929&ndash;1932</span>
+                  <h3 class="tl-w-title">Világgazdasági válság</h3>
+                  <p class="tl-w-desc">A new york-i tőzsdekrach begyűrűzik Európába &ndash; a Kandó-mozdony épp ezekben a válságos években áll forgalomba.</p>
+                </article>
               </div>
               <div class="tl-slot tl-slot--left">
-    <article class="tl-event t-colony">
+                <article class="tl-event t-colony">
                   <div class="tl-card">
                     <div class="tl-meta">
                       <span class="tl-year">1932</span>
@@ -1179,6 +1384,91 @@
 
         </div>
 
+        <section class="tl-dates" id="tl-dates" aria-labelledby="tl-dates-title">
+          <div class="tl-dates-card">
+            <div class="tl-dates-head">
+              <div>
+                <h2 class="tl-dates-title" id="tl-dates-title"><i class="fas fa-list-ol"></i> Dátumok egyben</h2>
+                <p class="tl-dates-lead">
+                  A lecke összes dátuma röviden &ndash; gyors ismétléshez. Kétféle kérdéshez is jó:
+                  <em>mi történt ekkor?</em> és <em>mikor történt?</em>
+                </p>
+              </div>
+              <button type="button" class="tl-quiz-toggle" id="tl-quiz-toggle" aria-pressed="false">
+                <i class="fas fa-eye-slash"></i> <span id="tl-quiz-label">Események elrejtése</span>
+              </button>
+            </div>
+
+            <table class="tl-dates-table">
+              <thead>
+                <tr>
+                  <th scope="col">Dátum</th>
+                  <th scope="col">Mi történt?</th>
+                  <th scope="col">Ki / mi</th>
+                </tr>
+              </thead>
+              <tbody>
+        <tr class="tl-date-row t-usa">
+          <th scope="row">1853</th>
+          <td class="tl-date-text">Megindul a kéregöntésű vasúti kerekek gyártása a budai üzemben.</td>
+          <td class="tl-date-meta">Ganz Ábrahám &middot; Ipar</td>
+        </tr>
+        <tr class="tl-date-row t-social">
+          <th scope="row">1867</th>
+          <td class="tl-date-text">Kiegyezés: megteremti a gazdasági fejlődés alapjait; a mezőgazdaság lesz a húzóágazat.</td>
+          <td class="tl-date-meta">Gazdaság</td>
+        </tr>
+        <tr class="tl-date-row t-usa">
+          <th scope="row">1867&ndash;1900</th>
+          <td class="tl-date-text">Vasút- és csatornaépítés, folyószabályozás: a hálózat 222 km-ről 21 200 km-re nő.</td>
+          <td class="tl-date-meta">Ipar és közlekedés</td>
+        </tr>
+        <tr class="tl-date-row t-social">
+          <th scope="row">1874</th>
+          <td class="tl-date-text">Mechwart-féle acél hengerszék: finomabb liszt, magyar búza- és lisztvilághatalom.</td>
+          <td class="tl-date-meta">Mechwart András &middot; Gazdaság</td>
+        </tr>
+        <tr class="tl-date-row t-colony">
+          <th scope="row">1881</th>
+          <td class="tl-date-text">Megkezdi működését az első budapesti telefonközpont.</td>
+          <td class="tl-date-meta">Puskás Tivadar &middot; Technika</td>
+        </tr>
+        <tr class="tl-date-row t-colony">
+          <th scope="row">1885</th>
+          <td class="tl-date-text">Szabadalmaztatják a zárt vasmagú transzformátort.</td>
+          <td class="tl-date-meta">Déri Miksa, Bláthy Ottó Titusz, Zipernovszky Károly &middot; Technika</td>
+        </tr>
+        <tr class="tl-date-row t-colony">
+          <th scope="row">1890</th>
+          <td class="tl-date-text">Elkészül Eötvös Loránd torziós ingájának első változata.</td>
+          <td class="tl-date-meta">Eötvös Loránd &middot; Technika</td>
+        </tr>
+        <tr class="tl-date-row t-social">
+          <th scope="row">1890-es évek</th>
+          <td class="tl-date-text">Budapest a világ legnagyobb malomipari központja.</td>
+          <td class="tl-date-meta">Gazdaság</td>
+        </tr>
+        <tr class="tl-date-row t-colony">
+          <th scope="row">1893</th>
+          <td class="tl-date-text">Szabadalmaztatják a Bánki&ndash;Csonka-féle porlasztót.</td>
+          <td class="tl-date-meta">Bánki Donát, Csonka János &middot; Technika</td>
+        </tr>
+        <tr class="tl-date-row t-colony">
+          <th scope="row">1932</th>
+          <td class="tl-date-text">Forgalomba áll a Kandó-mozdony (V40).</td>
+          <td class="tl-date-meta">Kandó Kálmán &middot; Technika</td>
+        </tr>
+              </tbody>
+            </table>
+
+            <p class="tl-dates-note">
+              <strong>Tipp:</strong> kapcsold be az <em>Események elrejtése</em> gombot, és kattints a sorokra
+              egyenként &ndash; így tudod magadat kérdezni. Megjegyzés: Kandó Kálmán 1869&ndash;1931 között élt;
+              a kiegyezés 1867-ben, a magyar vasúthálózat kiépülése pedig 1867 és 1900 között történt.
+            </p>
+          </div>
+        </section>
+
         <footer class="tl-foot">
           <h2><i class="fas fa-bookmark me-1"></i> A 2. rész eddigi wikioldala</h2>
           <div class="tl-sources">
@@ -1187,7 +1477,7 @@
           <div class="tl-note">
             <i class="fas fa-lightbulb"></i>
             <div>
-              <strong>Hogyan használd?</strong> A felső gombokkal témakörre szűrhetsz, a kártyákon a
+              <strong>Hogyan használd?</strong> Felül válthatsz <em>Idővonal</em> és <em>Dátumlista</em> nézet között; a gombokkal témakörre szűrhetsz, a kártyákon a
               <em>wikioldal</em> hivatkozás visz a részletes leckéhez. A <em>Világ-idősáv</em> kapcsolóval
               ki- és bekapcsolhatod a bal oldali harmadik sávot, amely az idővonallal együtt görgetve a
               párhuzamos világtörténelmi eseményeket mutatja.
@@ -1210,10 +1500,14 @@
       var chips = Array.prototype.slice.call(document.querySelectorAll('.tl-chip'));
       var events = Array.prototype.slice.call(document.querySelectorAll('.tl-event'));
       var worldItems = Array.prototype.slice.call(document.querySelectorAll('.tl-w-item'));
+      var dateRows = Array.prototype.slice.call(document.querySelectorAll('.tl-date-row'));
       var eras = Array.prototype.slice.call(document.querySelectorAll('.tl-era'));
 
       /* ---- témakör szűrő ---- */
+      var currentTopic = 'all';
+
       function applyFilter(topic) {
+        currentTopic = topic;
         chips.forEach(function (chip) {
           var active = chip.getAttribute('data-topic') === topic;
           chip.classList.toggle('is-active', active);
@@ -1232,12 +1526,68 @@
           era.classList.toggle('is-hidden', !any);
         });
 
+        dateRows.forEach(function (row) {
+          var match = topic === 'all' || row.classList.contains('t-' + topic);
+          row.classList.toggle('is-hidden', !match);
+        });
+
         if (visibleCount) { visibleCount.textContent = shown; }
       }
 
       chips.forEach(function (chip) {
         chip.addEventListener('click', function () {
           applyFilter(chip.getAttribute('data-topic'));
+        });
+      });
+
+      /* ---- nézetváltó: idővonal / dátumlista ---- */
+      var viewButtons = Array.prototype.slice.call(document.querySelectorAll('.tl-view-btn'));
+      var currentView = 'timeline';
+
+      function applyView(view) {
+        currentView = view === 'dates' ? 'dates' : 'timeline';
+        document.documentElement.classList.toggle('tl-view-dates', currentView === 'dates');
+        viewButtons.forEach(function (btn) {
+          var on = btn.getAttribute('data-view') === currentView;
+          btn.classList.toggle('is-active', on);
+          btn.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+        try { localStorage.setItem('tl-view', currentView); } catch (e) {}
+        applyFilter(currentTopic);
+        updateProgress();
+      }
+
+      viewButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          applyView(btn.getAttribute('data-view'));
+        });
+      });
+
+      /* ---- tanuló mód a dátumlistán ---- */
+      var datesSection = document.getElementById('tl-dates');
+      var quizToggle = document.getElementById('tl-quiz-toggle');
+      var quizLabel = document.getElementById('tl-quiz-label');
+
+      function applyQuiz(on) {
+        if (!datesSection) { return; }
+        datesSection.classList.toggle('is-quiz', on);
+        if (quizToggle) { quizToggle.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+        if (quizLabel) { quizLabel.textContent = on ? 'Események mutatása' : 'Események elrejtése'; }
+        if (!on) {
+          dateRows.forEach(function (row) { row.classList.remove('is-open'); });
+        }
+      }
+
+      if (quizToggle) {
+        quizToggle.addEventListener('click', function () {
+          applyQuiz(quizToggle.getAttribute('aria-pressed') !== 'true');
+        });
+      }
+
+      dateRows.forEach(function (row) {
+        row.addEventListener('click', function () {
+          if (!datesSection || !datesSection.classList.contains('is-quiz')) { return; }
+          row.classList.toggle('is-open');
         });
       });
 
@@ -1262,6 +1612,11 @@
       var worldSaved = 'on';
       try { worldSaved = localStorage.getItem('tl-world-col') || 'on'; } catch (e) {}
       applyWorld(worldSaved !== 'off');
+
+      /* kezdeti nézet */
+      var viewSaved = 'timeline';
+      try { viewSaved = localStorage.getItem('tl-view') || 'timeline'; } catch (e) {}
+      applyView(viewSaved);
 
       /* ---- olvasási folyamatjelző ---- */
       function updateProgress() {
