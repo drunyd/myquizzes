@@ -91,6 +91,8 @@
       --c-colony-soft: rgba(31, 157, 117, .13);
       --c-war: #d64550;
       --c-war-soft: rgba(214, 69, 80, .13);
+      --c-culture: #b03a83;
+      --c-culture-soft: rgba(176, 58, 131, .13);
     }
 
     html[data-theme="dark"] .tl-page,
@@ -115,6 +117,8 @@
       --c-colony-soft: rgba(79, 209, 165, .18);
       --c-war: #ff7b84;
       --c-war-soft: rgba(255, 123, 132, .18);
+      --c-culture: #ef8ac9;
+      --c-culture-soft: rgba(239, 138, 201, .18);
     }
 
     html[data-theme="glass"] .tl-page {
@@ -145,6 +149,8 @@
       --c-colony-soft: rgba(0, 224, 200, .16);
       --c-war: #ff4655;
       --c-war-soft: rgba(255, 70, 85, .18);
+      --c-culture: #ff8ad0;
+      --c-culture-soft: rgba(255, 138, 208, .18);
     }
 
     /* ---------- Fejléc ---------- */
@@ -309,6 +315,7 @@
     .tl-chip--usa { --chip: var(--c-usa); --chip-soft: var(--c-usa-soft); }
     .tl-chip--colony { --chip: var(--c-colony); --chip-soft: var(--c-colony-soft); }
     .tl-chip--war { --chip: var(--c-war); --chip-soft: var(--c-war-soft); }
+    .tl-chip--culture { --chip: var(--c-culture); --chip-soft: var(--c-culture-soft); }
 
     .tl-result {
       margin-top: .6rem;
@@ -513,6 +520,7 @@
     .t-usa { --topic: var(--c-usa); --topic-soft: var(--c-usa-soft); }
     .t-colony { --topic: var(--c-colony); --topic-soft: var(--c-colony-soft); }
     .t-war { --topic: var(--c-war); --topic-soft: var(--c-war-soft); }
+    .t-culture { --topic: var(--c-culture); --topic-soft: var(--c-culture-soft); }
 
     .tl-card {
       position: relative;
@@ -1033,14 +1041,14 @@
           <span class="tl-eyebrow"><i class="fas fa-hourglass-half"></i> 7. osztály &middot; Történelem &middot; 2. rész</span>
           <h1 class="tl-title">A dualista gazdaság <span class="tl-title-accent">fejlődése</span></h1>
           <p class="tl-lead">
-            A kiegyezéstől a Kandó-mozdonyig &ndash; a második rész eddigi leckéjének eseményei egy idővonalon.
-            Válassz témát, és kövesd a gazdaság, a közlekedés és a technika fejlődését!
+            A kiegyezéstől a Kandó-mozdonyig &ndash; a második rész eddigi leckéinek eseményei egy idővonalon.
+            Válassz témát, és kövesd a gazdaság, a közlekedés, a technika és a művelődés fejlődését!
           </p>
           <div class="tl-stats">
-            <span class="tl-stat"><b>10</b> magyar esemény</span>
-            <span class="tl-stat"><b>14</b> világesemény</span>
+            <span class="tl-stat"><b>14</b> magyar esemény</span>
+            <span class="tl-stat"><b>17</b> világesemény</span>
             <span class="tl-stat"><b>79</b> év</span>
-            <span class="tl-stat"><b>3</b> témakör</span>
+            <span class="tl-stat"><b>4</b> témakör</span>
             <span class="tl-stat"><b>3</b> korszak</span>
           </div>
         </header>
@@ -1056,7 +1064,7 @@
           </div>
           <div class="tl-filters" role="group" aria-label="Szűrés témakör szerint">
             <button type="button" class="tl-chip tl-chip--all is-active" data-topic="all" aria-pressed="true">
-              <i class="fas fa-layer-group"></i> Mind <span class="tl-count">10</span>
+              <i class="fas fa-layer-group"></i> Mind <span class="tl-count">14</span>
             </button>
             <button type="button" class="tl-chip tl-chip--social" data-topic="social" aria-pressed="false">
               <i class="fas fa-wheat-awn"></i> Gazdaság <span class="tl-count">3</span>
@@ -1067,6 +1075,9 @@
             <button type="button" class="tl-chip tl-chip--colony" data-topic="colony" aria-pressed="false">
               <i class="fas fa-bolt"></i> Villamosság és technika <span class="tl-count">5</span>
             </button>
+            <button type="button" class="tl-chip tl-chip--culture" data-topic="culture" aria-pressed="false">
+              <i class="fas fa-landmark"></i> Művelődés <span class="tl-count">4</span>
+            </button>
           </div>
           <div class="tl-world-toggle">
             <button type="button" class="tl-toggle" id="tl-world-toggle" aria-pressed="true"
@@ -1076,7 +1087,7 @@
               <span id="tl-world-toggle-label">Világ-idősáv be</span>
             </button>
           </div>
-          <p class="tl-result"><b id="tl-visible">10</b> esemény látható</p>
+          <p class="tl-result"><b id="tl-visible">14</b> esemény látható</p>
         </div>
 
         <nav class="tl-eras-nav" aria-label="Ugrás korszakhoz">
@@ -1157,21 +1168,43 @@
             <div class="tl-era-head">
               <div class="tl-era-label">
                 <span class="tl-era-range">1867&ndash;1885 &middot; 2. korszak</span>
-                <span class="tl-era-name">Gépek és malmok</span>
-                <span class="tl-era-sub">Vasút, hengerszék és az első nagy elektromos találmány.</span>
+                <span class="tl-era-name">Gépek, malmok és iskolák</span>
+                <span class="tl-era-sub">Vasút, hengerszék, iskola és a magyar városok fejlődése.</span>
               </div>
             </div>
 
             <div class="tl-row">
               <div class="tl-w-lane">
-                <p class="tl-w-head"><i class="fas fa-globe"></i> A világban &middot; 1867&ndash;1885</p>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1868</span>
+                  <h3 class="tl-w-title">Meiji-restauráció Japánban</h3>
+                  <p class="tl-w-desc">Japán nyugati mintára kezdi modernizálni az országot &ndash; iskolákat, gyárakat, hadsereget épít.</p>
+                </article>
+              </div>
+              <div class="tl-slot tl-slot--right">
+                <article class="tl-event t-culture">
+                  <div class="tl-card">
+                    <div class="tl-meta">
+                      <span class="tl-year">1868</span>
+                      <span class="tl-tag"><i class="fas fa-landmark"></i> Művelődés</span>
+                    </div>
+                    <h3 class="tl-event-title">Népiskolai törvény: kötelező iskola</h3>
+                    <p class="tl-desc">Eötvös József törvénye 6&ndash;12 év között kötelezővé teszi az iskolát: 4 elemi és 2 ismétlő évfolyam. Fölötte gimnáziumok, szakiskolák és polgári iskolák, legfelül az egyetemek.</p>
+                    <a class="tl-src" href="261107.7.o.tori.muvelodes.a.dualizmus.kori.magyarorszagon.html"><i class="fas fa-book-open"></i> Művelődés a dualizmus kori Magyarországon</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tl-row">
+              <div class="tl-w-lane">
                 <article class="tl-w-item">
                   <span class="tl-w-year">1869</span>
                   <h3 class="tl-w-title">Szuezi-csatorna &eacute;s az első amerikai átkontinentális vasút</h3>
                   <p class="tl-w-desc">A gőzhajó és a vasút globálissá teszi az áruszállítást &ndash; a magyar vasútépítés ugyanennek a hullámnak a része.</p>
                 </article>
               </div>
-              <div class="tl-slot tl-slot--right">
+              <div class="tl-slot tl-slot--left">
                 <article class="tl-event t-usa">
                   <div class="tl-card">
                     <div class="tl-meta">
@@ -1181,6 +1214,29 @@
                     <h3 class="tl-event-title">Vasút, csatornák, folyószabályozás</h3>
                     <p class="tl-desc">Vasutakat és csatornákat építenek, szabályozzák a folyókat. A forrás szerint a közlekedési hálózat 222 km-ről 21 200 km-re nő.</p>
                     <a class="tl-src" href="261024.7.o.tori.a.dualista.gazdasag.fejlodese.html"><i class="fas fa-book-open"></i> A dualista gazdaság fejlődése</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tl-row">
+              <div class="tl-w-lane">
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1871</span>
+                  <h3 class="tl-w-title">Megalakul a Német Császárság</h3>
+                  <p class="tl-w-desc">Poroszország vezetésével új nagyhatalom születik Európa közepén &ndash; ez a Monarchia helyzetét is befolyásolja.</p>
+                </article>
+              </div>
+              <div class="tl-slot tl-slot--right">
+                <article class="tl-event t-culture">
+                  <div class="tl-card">
+                    <div class="tl-meta">
+                      <span class="tl-year">1873</span>
+                      <span class="tl-tag"><i class="fas fa-landmark"></i> Művelődés</span>
+                    </div>
+                    <h3 class="tl-event-title">Megszületik Budapest</h3>
+                    <p class="tl-desc">Pest, Buda és Óbuda egyesítésével létrejön a főváros, amely a század végére világvárossá fejlődik.</p>
+                    <a class="tl-src" href="261107.7.o.tori.muvelodes.a.dualizmus.kori.magyarorszagon.html"><i class="fas fa-book-open"></i> Művelődés a dualizmus kori Magyarországon</a>
                   </div>
                 </article>
               </div>
@@ -1262,14 +1318,13 @@
             <div class="tl-era-head">
               <div class="tl-era-label">
                 <span class="tl-era-range">1890&ndash;1932 &middot; 3. korszak</span>
-                <span class="tl-era-name">Világhír és új technika</span>
-                <span class="tl-era-sub">Malomipari világsiker, majd a tudomány és a technika új hulláma.</span>
+                <span class="tl-era-name">Világhír, technika és millennium</span>
+                <span class="tl-era-sub">Malomipari világsiker, új technika és az 1896-os ünnepségek kora.</span>
               </div>
             </div>
 
             <div class="tl-row">
               <div class="tl-w-lane">
-                <p class="tl-w-head"><i class="fas fa-globe"></i> A világban &middot; 1890&ndash;1932</p>
                 <article class="tl-w-item">
                   <span class="tl-w-year">1891</span>
                   <h3 class="tl-w-title">Első háromfázisú nagyfeszültségű távvezeték</h3>
@@ -1321,11 +1376,6 @@
                   <h3 class="tl-w-title">Röntgen röntgensugarai, az első filmvetítés</h3>
                   <p class="tl-w-desc">A tudományos világhír korszaka &ndash; ugyanezekben az években lesz híres Eötvös torziós ingája.</p>
                 </article>
-                <article class="tl-w-item">
-                  <span class="tl-w-year">1897</span>
-                  <h3 class="tl-w-title">Diesel-motor</h3>
-                  <p class="tl-w-desc">Új belső égésű erőgép jelenik meg &ndash; a Bánki&ndash;Csonka-féle porlasztó rokon fejlesztés.</p>
-                </article>
               </div>
               <div class="tl-slot tl-slot--right">
                 <article class="tl-event t-colony">
@@ -1337,6 +1387,52 @@
                     <h3 class="tl-event-title">A Bánki&ndash;Csonka-féle porlasztó</h3>
                     <p class="tl-desc">Bánki Donát és Csonka János szabadalmaztatja a porlasztót, amely a belső égésű motorok elterjedését segíti.</p>
                     <a class="tl-src" href="261024.7.o.tori.a.dualista.gazdasag.fejlodese.html"><i class="fas fa-book-open"></i> A dualista gazdaság fejlődése</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tl-row">
+              <div class="tl-w-lane">
+              </div>
+              <div class="tl-slot tl-slot--left">
+                <article class="tl-event t-culture">
+                  <div class="tl-card">
+                    <div class="tl-meta">
+                      <span class="tl-year">1894</span>
+                      <span class="tl-tag"><i class="fas fa-landmark"></i> Művelődés</span>
+                    </div>
+                    <h3 class="tl-event-title">Meghal Kossuth Lajos Torinóban</h3>
+                    <p class="tl-desc">Temetése felszínre hozza a Monarchia problémáit: állami temetés nem lehetett, a gyászszertartást csak Budapest intézte.</p>
+                    <a class="tl-src" href="261107.7.o.tori.muvelodes.a.dualizmus.kori.magyarorszagon.html"><i class="fas fa-book-open"></i> Művelődés a dualizmus kori Magyarországon</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tl-row">
+              <div class="tl-w-lane">
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1896</span>
+                  <h3 class="tl-w-title">Első modern olimpiai játékok</h3>
+                  <p class="tl-w-desc">Athénban megrendezik az első újkori olimpiát &ndash; a millennium évében a sport is világeseménnyé válik.</p>
+                </article>
+                <article class="tl-w-item">
+                  <span class="tl-w-year">1897</span>
+                  <h3 class="tl-w-title">Diesel-motor</h3>
+                  <p class="tl-w-desc">Új belső égésű erőgép jelenik meg &ndash; a Bánki&ndash;Csonka-féle porlasztó rokon fejlesztés.</p>
+                </article>
+              </div>
+              <div class="tl-slot tl-slot--right">
+                <article class="tl-event t-culture">
+                  <div class="tl-card">
+                    <div class="tl-meta">
+                      <span class="tl-year">1896</span>
+                      <span class="tl-tag"><i class="fas fa-landmark"></i> Művelődés</span>
+                    </div>
+                    <h3 class="tl-event-title">Millennium: Budapest világváros lesz</h3>
+                    <p class="tl-desc">Az ezredéves ünnepségek idején sorra épülnek a nagy létesítmények: Hősök tere, Földalatti, Halászbástya, Országház, Opera, a két pályaudvar, a Nagykörút és a hidak. Megindul a villamos- és buszközlekedés, nyílnak a mozik és színházak.</p>
+                    <a class="tl-src" href="261107.7.o.tori.muvelodes.a.dualizmus.kori.magyarorszagon.html"><i class="fas fa-book-open"></i> Művelődés a dualizmus kori Magyarországon</a>
                   </div>
                 </article>
               </div>
@@ -1418,10 +1514,20 @@
           <td class="tl-date-text">Kiegyezés: megteremti a gazdasági fejlődés alapjait; a mezőgazdaság lesz a húzóágazat.</td>
           <td class="tl-date-meta">Gazdaság</td>
         </tr>
+        <tr class="tl-date-row t-culture">
+          <th scope="row">1868</th>
+          <td class="tl-date-text">Népiskolai törvény (Eötvös József): 6&ndash;12 év között kötelező iskola, 4 elemi + 2 ismétlő évfolyam.</td>
+          <td class="tl-date-meta">Eötvös József &middot; Művelődés</td>
+        </tr>
         <tr class="tl-date-row t-usa">
           <th scope="row">1867&ndash;1900</th>
           <td class="tl-date-text">Vasút- és csatornaépítés, folyószabályozás: a hálózat 222 km-ről 21 200 km-re nő.</td>
           <td class="tl-date-meta">Ipar és közlekedés</td>
+        </tr>
+        <tr class="tl-date-row t-culture">
+          <th scope="row">1873</th>
+          <td class="tl-date-text">Pest, Buda és Óbuda egyesítésével létrejön Budapest.</td>
+          <td class="tl-date-meta">Művelődés</td>
         </tr>
         <tr class="tl-date-row t-social">
           <th scope="row">1874</th>
@@ -1453,6 +1559,16 @@
           <td class="tl-date-text">Szabadalmaztatják a Bánki&ndash;Csonka-féle porlasztót.</td>
           <td class="tl-date-meta">Bánki Donát, Csonka János &middot; Technika</td>
         </tr>
+        <tr class="tl-date-row t-culture">
+          <th scope="row">1894</th>
+          <td class="tl-date-text">Kossuth Lajos halála Torinóban; temetése felszínre hozza a Monarchia problémáit.</td>
+          <td class="tl-date-meta">Művelődés</td>
+        </tr>
+        <tr class="tl-date-row t-culture">
+          <th scope="row">1896</th>
+          <td class="tl-date-text">Millenniumi ünnepségek: Hősök tere, Földalatti, Országház, Opera, hidak, Nagykörút &ndash; Budapest világváros lesz.</td>
+          <td class="tl-date-meta">Művelődés</td>
+        </tr>
         <tr class="tl-date-row t-colony">
           <th scope="row">1932</th>
           <td class="tl-date-text">Forgalomba áll a Kandó-mozdony (V40).</td>
@@ -1464,7 +1580,7 @@
             <p class="tl-dates-note">
               <strong>Tipp:</strong> kapcsold be az <em>Események elrejtése</em> gombot, és kattints a sorokra
               egyenként &ndash; így tudod magadat kérdezni. Megjegyzés: Kandó Kálmán 1869&ndash;1931 között élt;
-              a kiegyezés 1867-ben, a magyar vasúthálózat kiépülése pedig 1867 és 1900 között történt.
+              a kiegyezés 1867-ben, Budapest 1873-ban jött létre, a millennium 1896-ban volt, a magyar vasúthálózat kiépülése pedig 1867 és 1900 között történt.
             </p>
           </div>
         </section>
@@ -1473,6 +1589,7 @@
           <h2><i class="fas fa-bookmark me-1"></i> A 2. rész eddigi wikioldala</h2>
           <div class="tl-sources">
             <a href="261024.7.o.tori.a.dualista.gazdasag.fejlodese.html">A dualista gazdaság fejlődése<span>Mezőgazdaság, malmok, közlekedés és feltalálók</span></a>
+            <a href="261107.7.o.tori.muvelodes.a.dualizmus.kori.magyarorszagon.html">Művelődés a dualizmus kori Magyarországon<span>Iskola, művészetek, tudományok és a millennium</span></a>
           </div>
           <div class="tl-note">
             <i class="fas fa-lightbulb"></i>

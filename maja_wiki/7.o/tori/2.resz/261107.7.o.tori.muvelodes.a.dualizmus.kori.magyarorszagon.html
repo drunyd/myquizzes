@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Művelődés a dualizmus kori Magyarországon</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .year-list { list-style: none; padding-left: 0; }
+    .year-list > li { padding-left: 4.6rem; text-indent: -4.6rem; margin-bottom: .45rem; }
+    .year-list .year { display: inline-block; min-width: 4.2rem; font-weight: 700; text-indent: 0; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Művelődés a dualizmus kori Magyarországon</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miért kellett művelt ember?</h2>
+            <p class="mb-0">A modern polgári államban szükség van a művelt és szakképzett emberekre.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az 1868-as népiskolai törvény</h2>
+            <p class="mb-2">1868: népiskolai törvény (Eötvös József). 6&ndash;12 év között kötelező iskola = 4 elemi + 2 ismétlő évfolyam.</p>
+            <ul class="mb-0">
+              <li><strong>Középfokú oktatás:</strong> gimnáziumok, szakiskolák (polgári)</li>
+              <li><strong>Felsőfokú képzés:</strong> egyetemek</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Művészetek</h2>
+            <ul class="mb-0">
+              <li><strong>Írók:</strong> Arany János, Jókai Mór, Mikszáth Kálmán, Ady Endre</li>
+              <li><strong>Festők:</strong> Munkácsy Mihály, Csontváry Kosztka Tivadar, Színyei Merse Pál</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tudományok</h2>
+            <ul class="mb-0">
+              <li>Puskás Tivadar</li>
+              <li>Kandó Kálmán</li>
+              <li>Déry&ndash;Bláthy&ndash;Zipernovszky</li>
+              <li>Bánki Donát &ndash; Csonka János</li>
+              <li>Ganz, Mechwart</li>
+              <li>Semmelweis Ignác (orvos, gyermekágyi láz és fertőtlenítés)</li>
+              <li>Eötvös Loránd (geológus, torziós inga)</li>
+              <li>Galamb József</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>1894: Kossuth Lajos halála</h2>
+            <p class="mb-2">Kossuth Lajos Torinóban halt meg. Temetése felszínre hozta a Monarchia problémáit.</p>
+            <p class="mb-0">Nem lehetett állami temetés, csak Budapest intézte.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A millenniumi Magyarország</h2>
+            <p class="mb-2">1896: millenniumi ünnepségsorozat &ndash; hazánk csúcsformában van.</p>
+            <p class="mb-2">Hatalmas építkezések:</p>
+            <ul class="mb-2">
+              <li>Hősök tere</li>
+              <li>Városliget</li>
+              <li>Földalatti</li>
+              <li>Halász bástya</li>
+              <li>Országház</li>
+              <li>Opera</li>
+              <li>Nyugati- és keleti pályaudvar</li>
+              <li>Nagykörút</li>
+              <li>Erzsébet híd</li>
+              <li>Margit híd</li>
+            </ul>
+            <p>Budapest világváros lesz.</p>
+            <p class="mb-0">1873: Pest, Buda és Óbuda.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Városi élet és polgári állam</h2>
+            <ul class="mb-0">
+              <li>Tömegközlekedés: busz, villamos, csatornázás, mozik, színházak</li>
+              <li>polgári anyakönyvvezetés</li>
+              <li>a zsidó vallás engedélyezése</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>A kiegyezés (1867) után nemcsak a gazdaság indult fejlődésnek: a modern polgári államnak tanult, szakképzett emberekre volt szüksége, ezért az állam megszervezte az iskolákat, a városok pedig iskolákkal, színházakkal, múzeumokkal és hidakkal váltak igazi nagyvárossá. Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>Az 1868-as törvényt (1868. évi XXXVIII. törvénycikk) Eötvös József vallás- és közoktatásügyi miniszter készítette elő; a tankötelezettség 6&ndash;12 éves korra szólt, ehhez kapcsolódott a 12&ndash;15 éves korig tartó ismétlő iskola.</li>
+                <li>1896-ban Budapesten rendezték meg az Ezredéves Országos Kiállítást: a honfoglalás (896) ezredik évfordulójára a Városligetben mintegy 240 pavilont építettek.</li>
+                <li>A millenniumi Földalatti volt a kontinens első földalatti vasútja: 1896-ban indult a városközpont és a Városliget között.</li>
+              </ul>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Iskola mindenkinek: az 1868-as népiskolai törvény</h2>
+            <p>A modern állam működéséhez írni-olvasni tudó, szakképzett polgárok kellettek, ezért az állam beleszólt abba, hogyan tanulnak a gyerekek. Az 1868-as népiskolai törvény tette kötelezővé a 6&ndash;12 éves gyerekek iskolába járását &ndash; fiúknak és lányoknak egyaránt. A négy elemi évfolyam után még két ismétlő évfolyam következett, hogy a tanultak ne menjenek feledésbe.</p>
+            <p>Aki tovább tanult, annak három lépcsőfok állt rendelkezésre:</p>
+            <ul class="def mb-2">
+              <li><span class="term">Elemi iskola</span> &ndash; az alapfok: írás, olvasás, számolás.</li>
+              <li><span class="term">Középfok</span> &ndash; gimnáziumok, szakiskolák és polgári iskolák.</li>
+              <li><span class="term">Felsőfok</span> &ndash; az egyetemek, ahol orvosokat, mérnököket, jogászokat képeztek.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/E%C3%B6tv%C3%B6s%20J%C3%B3zsef%20Portr%C3%A9.jpg?width=800" class="figure-img img-fluid rounded" alt="Eötvös József portréja">
+              <figcaption class="figure-caption">Eötvös József, a népiskolai törvény megalkotója. <a href="https://commons.wikimedia.org/wiki/File:E%C3%B6tv%C3%B6s_J%C3%B3zsef_Portr%C3%A9.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-0">Az iskolarendszer kiépülése lassan ment: az 1870-es években a tanköteles gyerekek háromnegyede, 1910-re már majdnem 90%-a járt rendesen iskolába. <a href="https://hu.wikipedia.org/wiki/1868._%C3%A9vi_XXXVIII._t%C3%B6rv%C3%A9nycikk" target="_blank" rel="noopener">1868. évi XXXVIII. törvénycikk</a></p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Művészek: az irodalom aranykora</h2>
+            <p>A dualizmus kora az irodalom és a képzőművészet fellendülésének ideje. A forrásban négy író és három festő szerepel &ndash; közülük többen ma is a magyar irodalom és festészet legismertebb alakjai.</p>
+            <h3>Írók</h3>
+            <ul>
+              <li><strong>Arany János</strong> &ndash; a magyar irodalom egyik legnagyobb költője, a <em>Toldi</em> szerzője.</li>
+              <li><strong>Jókai Mór</strong> &ndash; a korszak legnépszerűbb regényírója, romantikus történeteivel.</li>
+              <li><strong>Mikszáth Kálmán</strong> &ndash; az anekdotikus, humoros elbeszélések mestere.</li>
+              <li><strong>Ady Endre</strong> &ndash; a századforduló új stílusú, modern költője.</li>
+            </ul>
+            <h3>Festők</h3>
+            <ul class="mb-2">
+              <li><strong>Munkácsy Mihály</strong> &ndash; világhírű magyar festő, nagy méretű, drámai képeivel.</li>
+              <li><strong>Csontváry Kosztka Tivadar</strong> &ndash; sajátos, színpompás festői világot teremtett.</li>
+              <li><strong>Szinyei Merse Pál</strong> &ndash; a magyar plein air (szabadban festés) úttörője.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Munk%C3%A1csy-%C3%B6narck%C3%A9p-1881.jpg?width=800" class="figure-img img-fluid rounded" alt="Munkácsy Mihály önarcképe">
+              <figcaption class="figure-caption">Munkácsy Mihály önarcképe (1881). <a href="https://commons.wikimedia.org/wiki/File:Munk%C3%A1csy-%C3%B6narck%C3%A9p-1881.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-eye me-1"></i>Figyeld meg!</strong> A forrásban a festők neve „Színyei Merse Pál” alakban szerepel &ndash; a helyes, ma használt írásmód: <em>Szinyei Merse Pál</em>.
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Tudósok, feltalálók</h2>
+            <p>A forrás a korszak tudósait és mérnökeit egy listában sorolja fel. Közülük többen a Ganz gyárhoz kötődtek, és olyan találmányokat alkottak, amelyek világszínvonalúak voltak.</p>
+            <ul class="def mb-2">
+              <li><span class="term">Semmelweis Ignác</span> &ndash; orvos: felismerte, hogy a gyermekágyi lázat a fertőzés, illetve a nem megfelelő kézfertőtlenítés okozza.</li>
+              <li><span class="term">Eötvös Loránd</span> &ndash; a torziós inga, a gravitáció mérésére szolgáló rendkívül érzékeny eszköz megalkotója.</li>
+              <li><span class="term">Puskás Tivadar</span> &ndash; a telefonközpont ötlete fűződik a nevéhez.</li>
+              <li><span class="term">Kandó Kálmán</span> &ndash; a villamos vontatás úttörője, a villanymozdony.</li>
+              <li><span class="term">Déry, Bláthy, Zipernovszky</span> &ndash; a transzformátor.</li>
+              <li><span class="term">Bánki Donát &ndash; Csonka János</span> &ndash; a porlasztó.</li>
+              <li><span class="term">Ganz Ábrahám, Mechwart András</span> &ndash; a kéregöntésű vasúti kerék és az acél hengerszék.</li>
+              <li><span class="term">Galamb József</span> &ndash; a makói születésű mérnök, a Ford Model T egyik fő konstruktőre.</li>
+            </ul>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              Semmelweis Ignác (1818&ndash;1865) a Bécsi Általános Kórház szülészetén dolgozott, amikor rájött: ha az orvosok klóros vízben mossák meg a kezüket, sokkal kevesebb anya hal meg gyermekágyi lázban.
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>1894: Kossuth Lajos temetése</h2>
+            <p>Kossuth Lajos, az 1848&ndash;49-es szabadságharc vezetője 1894-ben halt meg Torinóban, száműzetésben. Hazahozatala és temetése országos ügy lett: a temetés felszínre hozta a Monarchia problémáit, hiszen a bécsi udvar nem vállalta a Függetlenségi Párt által követelt állami temetést &ndash; végül csak Budapest intézte a gyászszertartást.</p>
+            <p class="mb-0">A temetés így egyszerre lett gyászünnep és politikai tüntetés: a magyar közönség az elhunyt szabadsághőstől búcsúzott, miközben a kiegyezés és a függetlenség kérdése is újra előkerült. <a href="https://hu.wikipedia.org/wiki/Kossuth_Lajos" target="_blank" rel="noopener">Kossuth Lajos</a></p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>1896: a millennium</h2>
+            <p>1896-ban az ország a honfoglalás ezredik évfordulóját ünnepelte. A millenniumi ünnepségsorozat május elején kezdődött és hónapokig tartott; központi eseménye az Ezredéves Országos Kiállítás volt a Városligetben, ahol hatalmas területen, több száz pavilonban mutatták be a magyar gazdaság, ipar és kultúra eredményeit.</p>
+            <p>A forrás úgy fogalmaz: hazánk ekkor „csúcsformában van”. Valóban sorra nyíltak az új létesítmények, és a város rohamosan fejlődött. Fontos azonban tudni, hogy nem minden millenniumi épület készült el pontosan 1896-ra:</p>
+            <ul class="def mb-2">
+              <li><span class="term">Opera</span> &ndash; Ybl Miklós tervei szerint épült, 1884-ben nyílt meg.</li>
+              <li><span class="term">Nyugati pályaudvar</span> &ndash; az Eiffel-cég közreműködésével, 1877-ben nyitották meg.</li>
+              <li><span class="term">Földalatti</span> &ndash; 1896-ban indult, a kontinens első földalatti vasútja.</li>
+              <li><span class="term">Országház</span> &ndash; az építkezés 1885-ben kezdődött, és csak a 20. század elején (1904-ben) fejeződött be.</li>
+              <li><span class="term">Erzsébet híd</span> &ndash; 1903-ban adták át a forgalomnak.</li>
+            </ul>
+            <p class="mb-0">Budapest 1873-ban jött létre Pest, Buda és Óbuda egyesítésével, és a század végére valódi világvárossá vált: kiépült a Nagykörút, megnyíltak a hidak, a színházak és a múzeumok. <a href="https://hu.wikipedia.org/wiki/1896-os_millenniumi_%C3%BCnneps%C3%A9gek" target="_blank" rel="noopener">1896-os millenniumi ünnepségek</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Heroes%E2%80%99%20square%2C%20Budapest%203.jpg?width=800" class="figure-img img-fluid rounded" alt="A Hősök tere Budapesten">
+              <figcaption class="figure-caption">A Hősök tere a millenniumi építkezések egyik jelképe. <a href="https://commons.wikimedia.org/wiki/File:Heroes%E2%80%99_square,_Budapest_3.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Városi élet: villamos, mozi, színház</h2>
+            <p>A millenniumi Budapesten a hétköznapok is átalakultak: a városi tömegközlekedés (busz, villamos), a csatornázás, valamint a mozik és színházak a modern nagyvárosi élet részei lettek.</p>
+            <p class="mb-0">A polgári állam kiépüléséhez hozzátartozott a polgári anyakönyvvezetés bevezetése és a zsidó vallás engedélyezése is &ndash; ezek a lépések a vallási és állampolgári egyenjogúság felé mutattak.</p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+      var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+      var ext = view === 'extended';
+      o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+      bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+      bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+    }
+  </script>
+</body>
+</html>
