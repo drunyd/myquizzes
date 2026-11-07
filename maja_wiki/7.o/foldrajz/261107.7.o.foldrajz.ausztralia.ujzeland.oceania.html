@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ausztrália, Új-Zéland és Óceánia</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Ausztrália, Új-Zéland és Óceánia</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ausztrália</h2>
+            <ul class="mb-0">
+              <li>Államszövetség, fővárosa Canberra</li>
+              <li>Fejlett ipari ország: feketeszén, vasérc, bauxit, uránérc, színes és nemesércek, kőolaj és földgáz &rArr; kohászat, gépgyártás, vegyipar</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Mezőgazdaság</h2>
+            <p class="mb-2">Főként állattenyésztés: juh, szarvasmarha farmokon.</p>
+            <p class="mb-0">Búza, cukornád, gyümölcsök (pl. szőlő).</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Városok</h2>
+            <p class="mb-0">Canberra, Sydney, Melbourne, Perth</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Új-Zéland</h2>
+            <p class="mb-0">Fejlett ipari ország: hús, gyapjú, tejtermékek</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Óceánia</h2>
+            <ol class="mb-0">
+              <li><strong>Melanézia:</strong> Új-Guinea</li>
+              <li><strong>Mikronézia:</strong> korall atoll szigetek</li>
+              <li><strong>Polinézia:</strong> Hawaii</li>
+            </ol>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>A Csendes-óceán délnyugati részén fekszik a Föld legnagyobb szigetvilága: Óceánia. Középpontjában Ausztrália, mellette Új-Zéland, körülötte pedig több ezer sziget &ndash; a nagy szigetvilágot három csoportra osztjuk. Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Oceania%20%28orthographic%20projection%29.svg?width=800" class="figure-img img-fluid rounded" alt="Óceánia térképe">
+              <figcaption class="figure-caption">Óceánia a Csendes-óceán nyugati felén. <a href="https://commons.wikimedia.org/wiki/File:Oceania_(orthographic_projection).svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>Óceániában nagyjából 5000&ndash;7500 sziget található, de a szárazföld aránya elenyésző az óceán felületéhez képest.</li>
+                <li>Új-Guinea a Föld második legnagyobb szigete Grönland után &ndash; ezért is ő a Melanézia legnagyobb egysége.</li>
+                <li>Hawaii ma az Amerikai Egyesült Államok tagállama, földrajzilag viszont Polinéziához tartozik.</li>
+              </ul>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ausztrália: bányászat és ipar</h2>
+            <p>Ausztrália államszövetség: több tagállam alkotja, élén a brit koronát képviselő főkormányzó áll. Az ország a fejlett ipari országok közé tartozik, és a gazdaság alapja a rendkívül gazdag ásványkincskészlet: feketeszén, vasérc, bauxit, uránérc, színes- és nemesércek, kőolaj és földgáz.</p>
+            <p class="mb-0">Erre a bányászott nyersanyagra épül a kohászat, a gépgyártás és a vegyipar. A hatalmas, gyéren lakott országban a bányák és a farmok gyakran több száz kilométerre fekszenek a városoktól, ezért fontos szerepe van a vasútnak és a közutaknak.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Canberra%20%28AU%29%2C%20Parliament%20House%20--%202019%20--%201745.jpg?width=800" class="figure-img img-fluid rounded" alt="A canberrai Parlament épülete">
+              <figcaption class="figure-caption">Canberra, Ausztrália tervezett fővárosa; a képen a Parlament épülete. <a href="https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Parliament_House_--_2019_--_1745.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              Canberrát szándékosan fővárosnak tervezték: Sydney és Melbourne versengése miatt esett rá a választás, a város nevét 1913. március 12-én hirdették ki, terveit pedig az amerikai építész, Walter Burley Griffin nyerte el. Ma is Canberra a főváros, noha a legnépesebb város Sydney.
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Ausztrália mezőgazdasága</h2>
+            <p>Az ország belseje száraz, ezért a mezőgazdaság súlypontja nem a szántóföldi növénytermesztés, hanem az <strong>állattenyésztés</strong>: hatalmas farmokon tartanak juhot és szarvasmarhát. A juhok gyapja és a marhahús fontos exportcikk.</p>
+            <p class="mb-2">Ahol van elég csapadék &ndash; a partvidékeken és az öntözött területeken &ndash; ott gabonát és más növényeket is termesztenek:</p>
+            <ul class="mb-2">
+              <li><strong>búza</strong> &ndash; a déli, mérsékeltebb éghajlatú övezetekben;</li>
+              <li><strong>cukornád</strong> &ndash; a meleg, csapadékos keleti parton;</li>
+              <li><strong>gyümölcsök</strong>, például szőlő &ndash; a bortermő vidékeken.</li>
+            </ul>
+            <p class="mb-0"><i class="fas fa-eye me-1"></i><strong>Figyeld meg!</strong> A forrás a városoknál Canberrát is felsorolja, pedig Canberra nem nagyváros &ndash; azért került a listára, mert ez az ország fővárosa.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Opera%20House%20-%20Dec%202008.jpg?width=800" class="figure-img img-fluid rounded" alt="A Sydney Operaház">
+              <figcaption class="figure-caption">Sydney, Ausztrália legnagyobb városa &ndash; az Operaház az ország egyik jelképe. <a href="https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Új-Zéland</h2>
+            <p>Új-Zéland szintén fejlett ipari ország, de gazdaságában jóval nagyobb szerepe van a mezőgazdaságnak, mint Ausztráliában. A mérsékelt, csapadékos éghajlat és a vulkanikus talajok kiválóak a legeltetéshez, ezért az ország fő termékei a <strong>hús</strong>, a <strong>gyapjú</strong> és a <strong>tejtermékek</strong>.</p>
+            <p class="mb-0">A szigetország két fő szigetből áll (északi és déli), és híres a gejzírekről, a hőforrásokról és a fjordokról is. <a href="https://hu.wikipedia.org/wiki/%C3%9Aj-Z%C3%A9land" target="_blank" rel="noopener">Új-Zéland</a></p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Milford%20Sound%20in%20Fiordland%20National%20Park%2001.jpg?width=800" class="figure-img img-fluid rounded" alt="Milford Sound, Új-Zéland">
+              <figcaption class="figure-caption">Milford Sound, Új-Zéland egyik leghíresebb fjordja. <a href="https://commons.wikimedia.org/wiki/File:Milford_Sound_in_Fiordland_National_Park_01.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Óceánia három nagy szigetcsoportja</h2>
+            <p>Óceánia szigeteit hagyományosan három nagy csoportra osztják. A felosztás nem pontos földrajzi határokat jelent, hanem a szigetek fekvése, népei és kultúrája alapján kialakult rendszert.</p>
+            <ul class="def mb-2">
+              <li><span class="term">Melanézia</span> &ndash; a Csendes-óceán délnyugati részén; legnagyobb egysége Új-Guinea, de ide tartoznak a Fidzsi-, a Salamon-szigetek és Vanuatu is.</li>
+              <li><span class="term">Mikronézia</span> &ndash; sok apró, többnyire <em>korall atoll</em> sziget; az atoll gyűrű alakú korallzátony, amelynek közepén sekély lagúna van.</li>
+              <li><span class="term">Polinézia</span> &ndash; a Csendes-óceán középső-keleti része; legismertebb tagja Hawaii, de ide tartozik Szamoa és Tonga is.</li>
+            </ul>
+            <p class="mb-0">A három csoport neve is erre utal: <em>melasz</em> = fekete (a szigetlakók sötétebb bőre miatt), <em>mikro</em> = kicsi, <em>poli</em> = sok. <a href="https://hu.wikipedia.org/wiki/%C3%93ce%C3%A1nia" target="_blank" rel="noopener">Óceánia</a></p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-eye me-1"></i>Figyeld meg!</strong> Óceánia szigetei kétfélék lehetnek: vulkanikus eredetűek (hegyesek, termékenyek) és korall eredetűek (laposak, alacsonyak). Mikronézia szigetei főként a második csoportba tartoznak.
+            </div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+      var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+      var ext = view === 'extended';
+      o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+      bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+      bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+Quiz: Ausztrália, Új-Zéland és Óceánia
+Source: maja_wiki/7.o/foldrajz/261107.7.o.foldrajz.ausztralia.ujzeland.oceania.html
+Question:
+  - Type: singlechoice
+    Text: Milyen államforma jellemzi Ausztráliát a forrás szerint?
+    A: államszövetség
+    B: egységes királyság
+    C: népköztársaság
+    D: városállam
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi Ausztrália fővárosa?
+    A: Sydney
+    B: Canberra
+    C: Melbourne
+    D: Perth
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik város szerepel Ausztrália városai között?
+    A: Auckland
+    B: Sydney
+    C: Wellington
+    D: Suva
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik város NEM szerepel a forrás ausztrál városai között?
+    A: Melbourne
+    B: Perth
+    C: Auckland
+    D: Canberra
+    Correct: C
+
+  - Type: singlechoice
+    Text: Milyen gazdasági szinten áll Ausztrália a forrás szerint?
+    A: fejlett ipari ország
+    B: fejlődő mezőgazdasági ország
+    C: ipar nélküli szigetország
+    D: olajtermelő hercegség
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ásványkincset említi a forrás Ausztráliánál?
+    A: mangánérc-lelőhely
+    B: feketeszén
+    C: higanyérctelep
+    D: grafitbánya
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik ércet sorolja fel a forrás Ausztrália ásványkincsei között?
+    A: vasérc
+    B: krómérc
+    C: ólomérc
+    D: cinkérc
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik iparág épül az ausztrál ásványkincsekre?
+    A: a kohászat
+    B: a textilipar
+    C: a papíripar
+    D: a hajóépítés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a forrás szerint Ausztrália mezőgazdaságát?
+    A: főként állattenyésztés
+    B: főként erdőgazdálkodás
+    C: főként halászat
+    D: főként méhészet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely állatokat tartják az ausztrál farmokon a forrás szerint?
+    A: juh és marha
+    B: sertés és kecske
+    C: ló és szamár
+    D: teve és bivaly
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik növényt említi a forrás az ausztrál növénytermesztésnél?
+    A: cukornád
+    B: rizs
+    C: kukorica
+    D: burgonya
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik gyümölcsöt említi példaként a forrás?
+    A: a szőlő
+    B: a banán
+    C: az ananász
+    D: a mangó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen gazdasági szinten áll Új-Zéland a forrás szerint?
+    A: fejlett ipari ország
+    B: fejlődő bányászország
+    C: elmaradott mezőgazdasági ország
+    D: ipar nélküli állam
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik termék kötődik Új-Zélandhoz a forrás szerint?
+    A: tejtermék
+    B: feketeszén
+    C: bauxit
+    D: uránérc
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik termék kapcsolódik a juhokhoz?
+    A: a gyapjú
+    B: a bőr cipő
+    C: a méz
+    D: a vaj
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik sziget tartozik Melanéziához a forrás szerint?
+    A: Új-Guinea
+    B: Hawaii
+    C: Tahiti
+    D: a Fülöp-szigetek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi Mikronéziát a forrás szerint?
+    A: korall atoll szigetek
+    B: vulkáni szigetek
+    C: kontinensnyi táblák
+    D: jég borította szigetek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik sziget tartozik Polinéziához a forrás szerint?
+    A: Új-Guinea
+    B: Hawaii
+    C: Tasmania
+    D: Új-Kaledónia
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik csoportba tartozik Hawaii?
+    A: Polinézia
+    B: Melanézia
+    C: Mikronézia
+    D: Ausztrália
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik csoportba tartozik Új-Guinea?
+    A: Melanézia
+    B: Mikronézia
+    C: Polinézia
+    D: Óceánia központi része
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik csoport jellemzője a korall atoll?
+    A: Mikronézia
+    B: Melanézia
+    C: Polinézia
+    D: Ausztrália
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik energiahordozót említi a forrás Ausztráliánál?
+    A: földgáz
+    B: tőzeg
+    C: olajpala
+    D: tűzifa
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik nyersanyagot említi a forrás Ausztráliánál?
+    A: bauxit
+    B: kálisó
+    C: azbeszt
+    D: talkum
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik iparág épül Ausztráliában a bányászott anyagokra?
+    A: gépgyártás
+    B: selyemgyártás
+    C: kávéfeldolgozás
+    D: parafaipar
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik iparág szerepel az ausztrál gazdaságnál a forrásban?
+    A: vegyipar
+    B: cementipar
+    C: sörgyártás
+    D: faipar
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi az ausztrál állattenyésztést a forrás szerint?
+    A: farmokon folyik
+    B: vándorló pásztorkodás
+    C: istállózó tartás
+    D: tanyasi baromfitenyésztés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely növények termesztését említi a forrás Ausztráliánál?
+    A: búza és cukornád
+    B: rizs, tea és kakaó
+    C: kakaó és kávé
+    D: len és kender
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek szerepelnek a forrás ausztrál felsorolásában?
+    Answers: [feketeszén, vasérc, bauxit, uránérc, mangánérc]
+    Correct: [feketeszén, vasérc, bauxit, uránérc]
+
+  - Type: multiplechoice
+    Text: Mely iparágak épülnek az ausztrál bányászat termékeire?
+    Answers: [kohászat, gépgyártás, vegyipar, textilipar]
+    Correct: [kohászat, gépgyártás, vegyipar]
+
+  - Type: multiplechoice
+    Text: Mely termékek jellemzik Új-Zélandot a forrás szerint?
+    Answers: [hús, gyapjú, tejtermékek, bauxit]
+    Correct: [hús, gyapjú, tejtermékek]
+
+  - Type: multiplechoice
+    Text: Mely városok szerepelnek a forrás ausztrál városai között?
+    Answers: [Canberra, Sydney, Melbourne, Perth, Auckland]
+    Correct: [Canberra, Sydney, Melbourne, Perth]
+
+  - Type: multiplechoice
+    Text: Mely növényeket termesztik Ausztráliában a forrás szerint?
+    Answers: [búza, cukornád, szőlő, rizs]
+    Correct: [búza, cukornád, szőlő]
+
+  - Type: multiplechoice
+    Text: Mely állatokat tenyésztik az ausztrál farmokon?
+    Answers: [juh, szarvasmarha, sertés]
+    Correct: [juh, szarvasmarha]
+
+  - Type: multiplechoice
+    Text: Melyek Óceánia fő szigetcsoportjai a forrás szerint?
+    Answers: [Melanézia, Mikronézia, Polinézia, Indonézia]
+    Correct: [Melanézia, Mikronézia, Polinézia]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Ausztráliára a forrás szerint?
+    Answers: [államszövetség, fővárosa Canberra, fejlett ipari ország, főként növénytermesztő ország]
+    Correct: [államszövetség, fővárosa Canberra, fejlett ipari ország]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a forrás alapján?
+    Answers: [Ausztrália fejlett ipari ország, Új-Zéland fejlett ipari ország, Hawaii Polinéziában található, Új-Guinea Mikronéziában található]
+    Correct: [Ausztrália fejlett ipari ország, Új-Zéland fejlett ipari ország, Hawaii Polinéziában található]
+
+  - Type: multiplechoice
+    Text: Mely ásványkincsek tartoznak az energiahordozókhoz a forrás felsorolásából?
+    Answers: [feketeszén, kőolaj, földgáz, vasérc]
+    Correct: [feketeszén, kőolaj, földgáz]
+
+  - Type: multiplechoice
+    Text: Mely érceket említi a forrás Ausztráliánál?
+    Answers: [vasérc, uránérc, színesércek, nemesércek]
+    Correct: [vasérc, uránérc, színesércek, nemesércek]
+
+  - Type: word
+    Text: Mi Ausztrália fővárosa?
+    Answers: [Canberra]
+    Correct: [Canberra]
+
+  - Type: word
+    Text: Melyik energiahordozót bányásszák Ausztráliában a forrás szerint?
+    Answers: [feketeszén, fekete szén]
+    Correct: [feketeszén, fekete szén]
+
+  - Type: word
+    Text: Melyik alumíniumipari nyersanyag szerepel az ausztrál ásványkincsek között?
+    Answers: [bauxit]
+    Correct: [bauxit]
+
+  - Type: word
+    Text: Melyik terméket adják az ausztrál juhok?
+    Answers: [gyapjú]
+    Correct: [gyapjú]
+
+  - Type: word
+    Text: Melyik sziget tartozik Melanéziához?
+    Answers: [Új-Guinea, Uj-Guinea]
+    Correct: [Új-Guinea, Uj-Guinea]
+
+  - Type: word
+    Text: Melyik sziget tartozik Polinéziához a forrás példája szerint?
+    Answers: [Hawaii]
+    Correct: [Hawaii]
+
+  - Type: singlechoice
+    Text: Melyik termék NEM szerepel Új-Zéland termékei között a forrásban?
+    A: hús
+    B: gyapjú
+    C: bauxit
+    D: tejtermékek
+    Correct: C
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak Óceánia szigetcsoportjaira?
+    Answers: [Melanézia példája Új-Guinea, Mikronézia korall atoll szigetek, Polinézia példája Hawaii, Melanézia korall atoll szigetek]
+    Correct: [Melanézia példája Új-Guinea, Mikronézia korall atoll szigetek, Polinézia példája Hawaii]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe Ausztrália városait a forrás felsorolása szerint!
+    Items:
+      - Perth
+      - Canberra
+      - Melbourne
+      - Sydney
+    Correct:
+      - Canberra
+      - Sydney
+      - Melbourne
+      - Perth
+
+  - Type: ordering
+    Text: Rendezd sorrendbe Óceánia szigetcsoportjait a forrás szerint!
+    Items:
+      - Polinézia
+      - Melanézia
+      - Mikronézia
+    Correct:
+      - Melanézia
+      - Mikronézia
+      - Polinézia
+
+  - Type: pairing
+    Text: Párosítsd össze Óceánia szigetcsoportjait a hozzájuk tartozó példával!
+    LeftTitle: Szigetcsoport
+    RightTitle: Példa
+    Pairs:
+      - [Melanézia, Új-Guinea]
+      - [Mikronézia, korall atoll szigetek]
+      - [Polinézia, Hawaii]
+
+  - Type: pairing
+    Text: Párosítsd össze a területet a hozzá tartozó jellemzővel!
+    LeftTitle: Terület
+    RightTitle: Jellemző
+    Pairs:
+      - [Ausztrália, államszövetség, Canberra fővárossal]
+      - [Új-Zéland, hús, gyapjú és tejtermékek]
+      - [Hawaii, Polinézia szigete]
