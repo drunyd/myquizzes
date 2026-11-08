@@ -1,0 +1,369 @@
+Quiz: Oroszország földrajza
+Source: mate_wiki/8.o/foldrajz/261108.8.o.foldrajz.oroszorszag.html
+Question:
+  - Type: singlechoice
+    Text: Mekkora Oroszország területe a forrás szerint?
+    A: 17 075 480 km&sup2;
+    B: 1 707 548 km&sup2;
+    C: 170 754 km&sup2;
+    D: 27 075 480 km&sup2;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen államforma jellemzi Oroszországot?
+    A: szövetségi köztársaság
+    B: egységes alkotmányos királyság
+    C: katonai diktatúra
+    D: városállam
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi Oroszország lakossága a forrás szerint?
+    A: 146 millió
+    B: 64 millió
+    C: 246 millió
+    D: 14,6 millió
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi Oroszország fővárosa?
+    A: Moszkva
+    B: Szentpétervár
+    C: Jekatyerinburg
+    D: Novoszibirszk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik ősföld található Oroszországban?
+    A: a Balti-pajzs
+    B: az Urál röghegység
+    C: a Kaukázus
+    D: az Altáj
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik röghegység Oroszországban?
+    A: az Urál
+    B: a Kaukázus
+    C: a Pacifikus-hegységrendszer
+    D: a Kaszpi-mélyföld
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik lánchegység Oroszországban?
+    A: a Kaukázus
+    B: az Urál
+    C: a Balti-pajzs
+    D: a Szaján
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely éghajlati övezetek éghajlata jellemző Oroszországra?
+    A: a mérsékelt és a hideg övezet
+    B: a forró és a mérsékelt övezet
+    C: csak a forró övezet
+    D: a mérsékelt és a forró övezet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik folyó szerepel Oroszország vizei között?
+    A: a Volga
+    B: a Duna
+    C: a Rajna
+    D: a Visztula
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik tó szerepel a forrásban?
+    A: a Bajkál-tó
+    B: a Balaton, Magyarország tava
+    C: a Boden-tó
+    D: a Genfi-tó
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik folyó NEM szerepel a forrás vizei között?
+    A: a Duna
+    B: a Don
+    C: az Amur
+    D: a Léna
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire épül Oroszország gazdasága a forrás szerint?
+    A: a nagyon gazdag ásványkincsekre
+    B: a tengeri halászatra és a kikötőkre
+    C: a turizmusra
+    D: az élelmiszer-exportra
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan jellemzi a forrás az orosz gazdaságot?
+    A: modernizálódik
+    B: teljesen leállt
+    C: csak mezőgazdaságra épül
+    D: csak hadiiparra épül
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város Európa legnépesebb városa a forrás szerint?
+    A: Moszkva
+    B: Szentpétervár
+    C: Volgográd
+    D: Kurszk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi Moszkva lakossága a forrás szerint?
+    A: több mint 11 millió
+    B: több mint 1 millió
+    C: több mint 21 millió
+    D: több mint 41 millió
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik kikötő jégmentes?
+    A: Murmanszk
+    B: Volgográd
+    C: Jekatyerinburg
+    D: Novoszibirszk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik erdő ad munkát a Szentpétervár környéki körzetben?
+    A: a tajga
+    B: a tundra
+    C: a sztyepp
+    D: a sivatag
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a Szentpétervár környéki iparra?
+    A: modern és hagyományos iparágak kettőssége
+    B: csak nehézipar működik ott, más iparág nincs
+    C: csak mezőgazdaság van ott
+    D: kizárólag bányászat folyik ott
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a központi iparvidék központja?
+    A: Moszkva
+    B: Kurszk
+    C: Murmanszk
+    D: Volgográd
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik iparág jellemző a Volga mente körzetére?
+    A: az autógyártás
+    B: a vaskohászat
+    C: a petrolkémia
+    D: a műtrágyagyártás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik város a Volga mente egyik központja?
+    A: Volgográd
+    B: Kurszk
+    C: Novoszibirszk
+    D: Murmanszk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik az Uráli körzet legnagyobb városa?
+    A: Jekatyerinburg
+    B: Novoszibirszk, Szibéria központja
+    C: Volgográd
+    D: Kurszk
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi a szibériai körzetet?
+    A: kőolaj, földgáz, feketeszén, vízerőművek
+    B: csak mezőgazdasági termelés
+    C: kizárólag textilipar
+    D: csak halászat és erdőgazdálkodás folyik ott
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemzi az orosz mezőgazdaságot a forrás szerint?
+    A: alacsony termésátlagok, behozatalra szorul
+    B: a világ legjobb termésátlagai
+    C: csak állattenyésztésből áll
+    D: teljesen gépesített és korszerű, magas hozamokkal
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik állatot tenyésztik a tundrán?
+    A: a rénszarvast
+    B: a sertést
+    C: a juhot
+    D: a szarvasmarhát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit termesztenek a déli tájakon?
+    A: gyümölcsöt, szőlőt, gyapotot
+    B: burgonyát, árpát, rozst
+    C: rénszarvast és prémes állatokat
+    D: búzát, kukoricát, cukorrépát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit termesztenek a középső vidékeken?
+    A: búzát, kukoricát, cukorrépát
+    B: gyapotot, szőlőt és déligyümölcsöt
+    C: árpát, rozst, lent
+    D: csak burgonyát
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a tajgára a forrás szerint?
+    A: fakitermelés és vadászat prémért
+    B: rénszarvastenyésztés és prémes vadászat
+    C: szőlő- és gyapottermesztés
+    D: halászat a tavakon
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek ősföldek a forrás szerint?
+    Answers: [Balti-pajzs, Közép-szibériai-fennsík, Urál, Altáj]
+    Correct: [Balti-pajzs, Közép-szibériai-fennsík]
+
+  - Type: multiplechoice
+    Text: Melyek röghegységek a forrás szerint?
+    Answers: [Urál, Altáj, Szaján, Kaukázus]
+    Correct: [Urál, Altáj, Szaján]
+
+  - Type: multiplechoice
+    Text: Melyek lánchegységek a forrás szerint?
+    Answers: [Kaukázus, Pacifikus-hegységrendszer, Urál, Szaján]
+    Correct: [Kaukázus, Pacifikus-hegységrendszer]
+
+  - Type: multiplechoice
+    Text: Melyek alföldek vagy síkságok a forrás szerint?
+    Answers: [Nyugat-szibériai-alföld, Kelet-Európai-síkság, Kaszpi-mélyföld, Urál]
+    Correct: [Nyugat-szibériai-alföld, Kelet-Európai-síkság, Kaszpi-mélyföld]
+
+  - Type: multiplechoice
+    Text: Mely folyók szerepelnek Oroszország vizei között?
+    Answers: [Volga, Don, Ob, Duna]
+    Correct: [Volga, Don, Ob]
+
+  - Type: multiplechoice
+    Text: Mely tavak szerepelnek a forrásban?
+    Answers: [Ladoga-tó, Onyega-tó, Bajkál-tó, Balaton]
+    Correct: [Ladoga-tó, Onyega-tó, Bajkál-tó]
+
+  - Type: multiplechoice
+    Text: Mely nyersanyagok találhatók az Urálban a forrás szerint?
+    Answers: [földgáz, kőolaj, kálisó, bauxit, gyapot]
+    Correct: [földgáz, kőolaj, kálisó, bauxit]
+
+  - Type: multiplechoice
+    Text: Mely iparágak jellemzők a Volga mente körzetére?
+    Answers: [gépipar, autógyártás, repülő- és hajógyártás, textilipar]
+    Correct: [gépipar, autógyártás, repülő- és hajógyártás]
+
+  - Type: multiplechoice
+    Text: Mely iparágak működnek a központi iparvidéken?
+    Answers: [textilipar, élelmiszeripar, fogyasztási cikkek gyártása, vaskohászat]
+    Correct: [textilipar, élelmiszeripar, fogyasztási cikkek gyártása]
+
+  - Type: multiplechoice
+    Text: Mit termesztenek a hűvösebb tájakon?
+    Answers: [burgonya, árpa, rozs, len, gyapot]
+    Correct: [burgonya, árpa, rozs, len]
+
+  - Type: multiplechoice
+    Text: Mely folyók kapcsolódnak a vízenergiához a forrás szerint?
+    Answers: [Volga, Jenyiszej, Angara, Moszkva]
+    Correct: [Volga, Jenyiszej, Angara]
+
+  - Type: multiplechoice
+    Text: Mely iparágak jellemzik a szibériai körzetet?
+    Answers: [kőolajkitermelés, földgázkitermelés, feketeszén-bányászat, gyapottermesztés]
+    Correct: [kőolajkitermelés, földgázkitermelés, feketeszén-bányászat]
+
+  - Type: word
+    Text: Hány km&sup2; Oroszország területe?
+    Answers: [17 075 480, 17075480]
+    Correct: [17 075 480, 17075480]
+
+  - Type: word
+    Text: Hány millió lakosa van Oroszországnak?
+    Answers: [146, 146 millió]
+    Correct: [146, 146 millió]
+
+  - Type: word
+    Text: Mi Oroszország fővárosa?
+    Answers: [Moszkva]
+    Correct: [Moszkva]
+
+  - Type: word
+    Text: Melyik orosz kikötő jégmentes?
+    Answers: [Murmanszk]
+    Correct: [Murmanszk]
+
+  - Type: word
+    Text: Melyik az oroszországi tavak legnagyobbika a forrás felsorolásában?
+    Answers: [Bajkál-tó, Bajkál]
+    Correct: [Bajkál-tó, Bajkál]
+
+  - Type: word
+    Text: Melyik az Uráli körzet legnagyobb városa?
+    Answers: [Jekatyerinburg]
+    Correct: [Jekatyerinburg]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az ipari körzeteket a forrás felsorolása szerint!
+    Items:
+      - Uráli körzet
+      - Volga mente
+      - Szentpétervár és környéke
+      - Szibériai körzet
+      - Központi iparvidék
+    Correct:
+      - Szentpétervár és környéke
+      - Központi iparvidék
+      - Volga mente
+      - Uráli körzet
+      - Szibériai körzet
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a mezőgazdasági övezeteket északról dél felé a forrás szerint!
+    Items:
+      - középső vidékek
+      - tundra
+      - déli tájak
+      - tajga
+      - hűvösebb tájak
+    Correct:
+      - tundra
+      - tajga
+      - hűvösebb tájak
+      - középső vidékek
+      - déli tájak
+
+  - Type: pairing
+    Text: Párosítsd össze a városokat a hozzájuk tartozó iparággal!
+    LeftTitle: Város
+    RightTitle: Iparág
+    Pairs:
+      - [Szentpétervár, elektrotechnika]
+      - [Murmanszk, műtrágyagyártás]
+      - [Moszkva, textilipar]
+      - [Kurszk, vaskohászat]
+      - [Volgográd, traktor- és autógyártás]
+      - [Novoszibirszk, petrolkémia]
+
+  - Type: pairing
+    Text: Párosítsd össze a tájakat a típusukkal!
+    LeftTitle: Táj
+    RightTitle: Típus
+    Pairs:
+      - [Balti-pajzs, ősföld]
+      - [Urál, röghegység]
+      - [Kaukázus, lánchegység]
+      - [Nyugat-szibériai-alföld, alföld]
+      - [Kaszpi-mélyföld, mélyföld]
