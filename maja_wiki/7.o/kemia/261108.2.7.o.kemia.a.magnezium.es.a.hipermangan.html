@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A magnézium és a hipermangán összehasonlítása</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .data-table th, .data-table td { padding: .45rem .6rem; vertical-align: top; }
+    .reaction { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">A magnézium és a hipermangán összehasonlítása</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A fizikai tulajdonságok vizsgálata</h2>
+            <h3>Magnézium (Mg)</h3>
+            <p class="mb-2">Ezüstszürke, szagtalan, vízben nem oldódó, a víznél nagyobb sűrűségű fém. Hajlítható, megmunkálható, vezeti az elektromos áramot.</p>
+            <h3>Hipermangán, kálium-permanganát (KMnO<sub>4</sub>)</h3>
+            <p class="mb-0">Lilásszürke, szagtalan, szilárd vegyület, vízben oldódik (lila színnel), sűrűsége nagyobb a víznél. Könnyen porítható, az elektromos áramot nem vezeti.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai tulajdonságok vizsgálata &ndash; magnézium</h2>
+            <ul class="mb-0">
+              <li>Hajlításra, olvasztásra a kémiai tulajdonságok nem változnak</li>
+              <li>Égésnél új anyag, magnézium-oxid keletkezik, vakító fehér fény kíséretében</li>
+              <li>Magnézium-oxid: fehér porszerű szilárd anyag, eltérő szerkezet és kémiai összetétel</li>
+              <li>Magnézium + oxigén = magnézium-oxid</li>
+              <li class="reaction">2 Mg + O<sub>2</sub> = 2 MgO</li>
+              <li>Azokat a kémiai reakciókat, ahol két vagy több kiindulási anyagból egy termék keletkezik, <strong>egyesülésnek</strong> nevezzük</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai tulajdonságok vizsgálata &ndash; hipermangán</h2>
+            <ul class="mb-0">
+              <li>Hevítés hatására nem olvad meg, sercegni, pattogni kezd</li>
+              <li>A kémcsőszájához tartott gyújtópálca lángra lobban és ég, ami oxigéngáz fejlődésére utal</li>
+              <li class="reaction">2 KMnO<sub>4</sub> &rarr; K<sub>2</sub>MnO<sub>4</sub> + MnO<sub>2</sub> + O<sub>2</sub></li>
+              <li>A kémcsőben maradt szilárd terméket vízbe szórva egy zöld (kálium-manganát) vízben jól oldódó és egy fekete (mangán-dioxid) vízben nem oldódó anyag keverékét kapjuk</li>
+              <li>Azokat a kémiai változásokat, ahol egy anyagból kettő vagy több új anyag keletkezik, <strong>bomlásnak</strong> nevezzük</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az energiaváltozások</h2>
+            <ul class="mb-0">
+              <li>A fizikai és kémiai változások mindig energiaváltozással járnak</li>
+              <li>Legtöbbször hő felszabadulás vagy hőelnyelés formájában van jelen</li>
+              <li><strong>Exoterm</strong> a változás, amely során hő szabadul fel &ndash; például lecsapódás, fagyás</li>
+              <li><strong>Endoterm</strong> a változás, ha hő nyelődik el &ndash; például párolgás, forrás, olvadás, szublimáció</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>Két nagyon különböző anyagot hasonlítunk össze: egy fémet (a magnéziumot) és egy szilárd vegyületet (a hipermangánt). A kémia egyik legfontosabb módszere éppen ez: megvizsgáljuk a fizikai tulajdonságokat, aztán kísérlettel megnézzük, hogyan viselkednek &ndash; milyen körülmények között alakulnak át, és milyen új anyag keletkezik. Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A magnézium könnyűfém: a rendszáma 12, sűrűsége mindössze 1,74&nbsp;g/cm&sup3; &ndash; ezért is nagyobb a víz sűrűségénél, de sokkal kisebb pl. a vasénál.</li>
+                <li>A magnézium égése olyan erős fényt ad, hogy régen vakuphotókhoz és fényjelző rakétákhoz használták.</li>
+                <li>A kálium-permanganát erős oxidálószer: híg oldatát fertőtlenítésre, a víz tisztítására is alkalmazzák.</li>
+              </ul>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A két anyag fizikai tulajdonságai</h2>
+            <div class="table-responsive">
+              <table class="table table-sm data-table mb-3">
+                <thead>
+                  <tr><th>Tulajdonság</th><th>Magnézium (Mg)</th><th>Hipermangán (KMnO<sub>4</sub>)</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Szín</td><td>ezüstszürke</td><td>lilásszürke</td></tr>
+                  <tr><td>Szag</td><td>szagtalan</td><td>szagtalan</td></tr>
+                  <tr><td>Halmazállapot</td><td>szilárd (fém)</td><td>szilárd (vegyület)</td></tr>
+                  <tr><td>Oldhatóság vízben</td><td>nem oldódik</td><td>oldódik, lila színt ad</td></tr>
+                  <tr><td>Sűrűség a vízhez képest</td><td>nagyobb</td><td>nagyobb</td></tr>
+                  <tr><td>Megmunkálhatóság</td><td>hajlítható, megmunkálható</td><td>könnyen porítható</td></tr>
+                  <tr><td>Elektromos vezetés</td><td>vezeti</td><td>nem vezeti</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="mb-2">A vezetőképesség jól mutatja a különbséget: a magnézium <em>fém</em>, ezért vezeti az áramot; a hipermangán <em>vegyület</em>, ezért nem.</p>
+            <figure class="figure wiki-figure text-center w-100 mb-0">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Magnesium%20crystals.jpg?width=800" class="figure-img img-fluid rounded" alt="Magnézium kristályok">
+              <figcaption class="figure-caption">Magnézium &ndash; ezüstszürke, hajlítható fém. <a href="https://commons.wikimedia.org/wiki/File:Magnesium_crystals.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A magnézium égése: egyesülés</h2>
+            <p>A magnéziumot hajlítva vagy olvasztva csak fizikai változás történik: az anyag ugyanaz marad, a kémiai tulajdonságai nem változnak. Egészen más a helyzet, ha meggyújtjuk: vakító fehér fény közben új anyag, <strong>magnézium-oxid</strong> keletkezik.</p>
+            <p class="reaction mb-2">2 Mg + O<sub>2</sub> = 2 MgO</p>
+            <p class="mb-2">A magnézium-oxid fehér, porszerű, szilárd anyag, amelynek szerkezete és kémiai összetétele is eltér a magnéziumétól. Mivel két kiindulási anyagból (magnézium + oxigén) egyetlen termék keletkezett, ez a reakció <strong>egyesülés</strong>.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Magnesium%20ribbon%20burning.jpg?width=800" class="figure-img img-fluid rounded" alt="Égő magnéziumszalag">
+              <figcaption class="figure-caption">Égő magnéziumszalag &ndash; a vakító fehér fény a magnézium-oxid keletkezését kíséri. <a href="https://commons.wikimedia.org/wiki/File:Magnesium_ribbon_burning.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-eye me-1"></i>Figyeld meg!</strong> Az égéshez oxigén kell &ndash; a levegő oxigénjével egyesül a magnézium. Ezért a reakcióban a magnézium mellett az oxigén is <em>kiindulási anyag</em>.
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A hipermangán hevítése: bomlás</h2>
+            <p>A hipermangánt hevítve nem olvad meg, hanem sercegni, pattogni kezd. A kémcső szájához tartott gyújtópálca lángra lobban és ég &ndash; ez bizonyítja, hogy <strong>oxigéngáz</strong> fejlődik.</p>
+            <p class="reaction mb-2">2 KMnO<sub>4</sub> &rarr; K<sub>2</sub>MnO<sub>4</sub> + MnO<sub>2</sub> + O<sub>2</sub></p>
+            <p class="mb-2">Egy anyagból három új anyag keletkezik, tehát ez a folyamat <strong>bomlás</strong>:</p>
+            <ul class="mb-2">
+              <li><strong>kálium-manganát</strong> &ndash; zöld, vízben jól oldódó;</li>
+              <li><strong>mangán-dioxid</strong> &ndash; fekete, vízben nem oldódó;</li>
+              <li><strong>oxigéngáz</strong> &ndash; ez lobbantja lángra a gyújtópálcát.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Potassium%20permanganate%20solutions%202.JPG?width=800" class="figure-img img-fluid rounded" alt="Kálium-permanganát oldatai">
+              <figcaption class="figure-caption">Kálium-permanganát-oldatok &ndash; vízben oldva jellegzetes lila színt adnak. <a href="https://commons.wikimedia.org/wiki/File:Potassium_permanganate_solutions_2.JPG" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-0">Ha a kémcsőben maradt szilárd terméket vízbe szórjuk, a zöld kálium-manganát feloldódik, a fekete mangán-dioxid pedig oldatlanul marad &ndash; így a kettő szétválasztható.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Egyesülés és bomlás</h2>
+            <ul class="def mb-2">
+              <li><span class="term">Egyesülés</span> &ndash; két vagy több kiindulási anyagból egy termék keletkezik. Példa: 2 Mg + O<sub>2</sub> = 2 MgO.</li>
+              <li><span class="term">Bomlás</span> &ndash; egy anyagból kettő vagy több új anyag keletkezik. Példa: 2 KMnO<sub>4</sub> &rarr; K<sub>2</sub>MnO<sub>4</sub> + MnO<sub>2</sub> + O<sub>2</sub>.</li>
+            </ul>
+            <p class="mb-0">Mindkettő kémiai változás, hiszen új anyagok jönnek létre. <i class="fas fa-eye me-1"></i><strong>Figyeld meg!</strong> A nyíl (<em>&rarr;</em>) mindig a kiindulási anyagoktól a termékek felé mutat: bal oldalon a reakcióba lépő anyagok, jobb oldalon a keletkező anyagok állnak.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Energiaváltozások: exoterm és endoterm</h2>
+            <p>A fizikai és a kémiai változások mindig energiaváltozással járnak, legtöbbször hő formájában. Két irány létezik:</p>
+            <ul class="def mb-2">
+              <li><span class="term">Exoterm</span> &ndash; a változás során hő szabadul fel, a környezet melegszik. Például lecsapódás, fagyás (és a magnézium égése is).</li>
+              <li><span class="term">Endoterm</span> &ndash; a változás során hő nyelődik el, a környezet hűl. Például párolgás, forrás, olvadás, szublimáció.</li>
+            </ul>
+            <p class="mb-0">A hipermangán hevítésekor hőt kell adni a reakciónak &ndash; ezért indul meg a bomlás csak melegítésre.</p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+      var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+      var ext = view === 'extended';
+      o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+      bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+      bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+    }
+  </script>
+</body>
+</html>

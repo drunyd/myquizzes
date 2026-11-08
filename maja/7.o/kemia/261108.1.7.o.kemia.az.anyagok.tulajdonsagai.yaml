@@ -1,0 +1,362 @@
+Quiz: Az anyagok tulajdonságai
+Source: maja_wiki/7.o/kemia/261108.1.7.o.kemia.az.anyagok.tulajdonsagai.html
+Question:
+  - Type: singlechoice
+    Text: Mi építi fel az anyagokat a forrás szerint?
+    A: részecskék
+    B: kristályok
+    C: sejtek
+    D: molekulaláncok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nevezünk anyagi halmaznak?
+    A: nagy számú részecske együttesét
+    B: egyetlen nagy részecskét
+    C: a kémcsőben lévő folyadékot
+    D: a mérhető tulajdonságok összegét
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik jellemzője az anyagi halmazoknak a forrás szerint?
+    A: a halmazállapot
+    B: az olvadáspont
+    C: a forráspont
+    D: a mérhető sűrűség
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit tudunk tenni az anyagi halmazokkal?
+    A: megfigyelni és kísérletezni velük
+    B: csak számolni tudunk a képletekkel
+    C: csak rajzolni tudjuk őket
+    D: semmit, nem vizsgálhatók
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a répacukor?
+    A: fehér
+    B: sárga
+    C: barna
+    D: színtelen
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen szagú a répacukor?
+    A: szagtalan
+    B: édeskés szagú
+    C: karamellszagú
+    D: savanyú szagú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen halmazállapotú a répacukor?
+    A: szilárd
+    B: folyékony
+    C: légnemű
+    D: pépes
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan oldódik a répacukor vízben?
+    A: jól oldódik
+    B: egyáltalán nem oldódik
+    C: csak melegen oldódik
+    D: csak savban oldódik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a répacukor olvadáspontja?
+    A: 186 &deg;C
+    B: 100 &deg;C
+    C: 59 &deg;C
+    D: 286 &deg;C
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mennyi a répacukor sűrűsége?
+    A: 1,59 g/cm&sup3;
+    B: 0,59 g/cm&sup3;
+    C: 2,59 g/cm&sup3;
+    D: 1,00 g/cm&sup3;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik fizikai tulajdonság a forrás felsorolása szerint?
+    A: a keménység
+    B: az éghetőség
+    C: a karamellé alakulás
+    D: a szén-dioxiddá égés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik kémiai tulajdonsága a répacukornak a forrás szerint?
+    A: hevítésre karamellé alakul
+    B: fehér színű, szagtalan anyag
+    C: vízben jól oldódik
+    D: szilárd halmazállapotú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit mutatnak meg a kémiai tulajdonságok?
+    A: milyen körülmények között alakul át az anyag
+    B: milyen színű az anyag szobahőmérsékleten és oldatban
+    C: mennyi az anyag sűrűsége
+    D: milyen gyorsan oldódik az anyag
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik, ha a répacukrot hamuban megforgatva meggyújtjuk?
+    A: szén-dioxiddá és vízzé ég el
+    B: karamellé alakul, és közben megbarnul
+    C: megolvad, de nem ég el
+    D: fehér porrá alakul
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a fizikai változás?
+    A: olyan változás, amelynél nem keletkezik új anyag
+    B: olyan változás, amelynél új anyag keletkezik
+    C: olyan változás, amelynél megváltozik az anyagi minőség
+    D: olyan változás, amely csak oldatokban játszódik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik példa a fizikai változásra?
+    A: az oldódás
+    B: az égés
+    C: a bomlás
+    D: a karamellé alakulás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit lehet elmondani a részecskékről fizikai változás során?
+    A: szerkezetük nem változik, csak a halmazé
+    B: belső szerkezetük mélyrehatóan átalakul
+    C: megszűnnek, és új részecskék keletkeznek
+    D: számuk megduplázódik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a kémiai változás másik neve?
+    A: kémiai reakció
+    B: fizikai állapotváltozás
+    C: oldódási folyamat
+    D: halmazállapot-változás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a részecskék belső szerkezetével kémiai változáskor?
+    A: megváltozik
+    B: változatlan marad
+    C: csak a színe változik
+    D: csak a száma változik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi változik meg kémiai változás során?
+    A: az anyagi minőség
+    B: csak a hőmérséklet
+    C: csak az edény alakja
+    D: csak a halmaz állapota
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit eredményez a répacukor erőteljes hevítése?
+    A: kémiai változást, új anyag keletkezik
+    B: fizikai változást, mert csak színe változik
+    C: oldódási folyamatot
+    D: halmazállapot-változást új anyag nélkül
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik fizikai tulajdonság mérhető számadattal a forrás szerint?
+    A: a sűrűség
+    B: a szín
+    C: a szag
+    D: a halmazállapot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik tulajdonságot NEM adjuk meg számadattal?
+    A: a szag
+    B: az olvadáspont
+    C: a forráspont
+    D: a sűrűség
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik változás jár új anyag keletkezésével?
+    A: az égés
+    B: az aprítás
+    C: az oldódás
+    D: az olvadás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen változás a répacukor aprítása vagy törése?
+    A: fizikai változás
+    B: kémiai változás
+    C: kémiai reakció
+    D: bomlási folyamat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen változás a répacukor elégetése?
+    A: kémiai változás
+    B: fizikai változás
+    C: oldódási folyamat
+    D: halmazállapot-változás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik példa a halmazállapot-változásra?
+    A: az olvadás
+    B: az égés
+    C: a karamellé alakulás
+    D: a hamuban való meggyulladás
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit fejez ki a halmazállapot?
+    A: hogy az anyag szilárd, folyékony vagy légnemű
+    B: hogy az anyag milyen színű
+    C: hogy az anyag mennyire oldódik vízben és más oldószerekben
+    D: hogy az anyag milyen szagú
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek az anyagi halmazok jellemzői a forrás szerint?
+    Answers: [szín, szag, halmazállapot, olvadáspont]
+    Correct: [szín, szag, halmazállapot]
+
+  - Type: multiplechoice
+    Text: Melyek fizikai tulajdonságok a forrás felsorolása szerint?
+    Answers: [szín, szag, keménység, oldhatóság, éghetőség]
+    Correct: [szín, szag, keménység, oldhatóság]
+
+  - Type: multiplechoice
+    Text: Mely fizikai tulajdonságokat lehet mérni és számadattal megadni?
+    Answers: [olvadáspont, forráspont, sűrűség, szag]
+    Correct: [olvadáspont, forráspont, sűrűség]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a répacukorra?
+    Answers: [fehér színű, szagtalan, szilárd halmazállapotú, vízben nem oldódik]
+    Correct: [fehér színű, szagtalan, szilárd halmazállapotú]
+
+  - Type: multiplechoice
+    Text: Melyek fizikai változások a forrás szerint?
+    Answers: [halmazállapot-változás, oldódási folyamat, égés]
+    Correct: [halmazállapot-változás, oldódási folyamat]
+
+  - Type: multiplechoice
+    Text: Mi jellemzi a kémiai változást?
+    Answers: [mélyreható változás a szerkezetben, megváltoznak a fizikai tulajdonságok, megváltozik az anyagi minőség, a részecskék szerkezete változatlan marad]
+    Correct: [mélyreható változás a szerkezetben, megváltoznak a fizikai tulajdonságok, megváltozik az anyagi minőség]
+
+  - Type: multiplechoice
+    Text: Melyek a répacukor kémiai tulajdonságai a forrás szerint?
+    Answers: [hevítésre karamellé alakul, hamuban meggyullad, vízben jól oldódik, kézzel aprítható]
+    Correct: [hevítésre karamellé alakul, hamuban meggyullad]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az anyagok vizsgálatára?
+    Answers: [az anyagokat részecskék építik fel, a részecskék együtt anyagi halmazt alkotnak, a halmazokkal kísérletezhetünk, a halmazok jellemzője az olvadáspont]
+    Correct: [az anyagokat részecskék építik fel, a részecskék együtt anyagi halmazt alkotnak, a halmazokkal kísérletezhetünk]
+
+  - Type: multiplechoice
+    Text: Melyek igazak a kémiai változásra?
+    Answers: [egy anyagból két másik keletkezhet, két anyagból egy harmadik keletkezhet, új anyag keletkezik, az anyag változatlan marad]
+    Correct: [egy anyagból két másik keletkezhet, két anyagból egy harmadik keletkezhet, új anyag keletkezik]
+
+  - Type: multiplechoice
+    Text: Mi keletkezik a répacukor elégetésekor a forrás szerint?
+    Answers: [szén-dioxid, víz, karamell]
+    Correct: [szén-dioxid, víz]
+
+  - Type: multiplechoice
+    Text: Mely adatok jellemzik a répacukrot a forrás szerint?
+    Answers: [olvadáspontja 186 &deg;C, sűrűsége 1,59 g/cm&sup3;, színe fehér, forráspontja 186 &deg;C]
+    Correct: [olvadáspontja 186 &deg;C, sűrűsége 1,59 g/cm&sup3;, színe fehér]
+
+  - Type: multiplechoice
+    Text: Mit jelent, hogy a kémiai változás mélyreható?
+    Answers: [a részecskék belső szerkezete megváltozik, más molekulák keletkeznek, új anyag jön létre, csak az edény alakja változik]
+    Correct: [a részecskék belső szerkezete megváltozik, más molekulák keletkeznek, új anyag jön létre]
+
+  - Type: word
+    Text: Milyen színű a répacukor?
+    Answers: [fehér]
+    Correct: [fehér]
+
+  - Type: word
+    Text: Mennyi a répacukor olvadáspontja?
+    Answers: [186, 186 °C, 186 oC]
+    Correct: [186, 186 °C, 186 oC]
+
+  - Type: word
+    Text: Mennyi a répacukor sűrűsége?
+    Answers: [1,59, 1,59 g/cm3]
+    Correct: [1,59, 1,59 g/cm3]
+
+  - Type: word
+    Text: Mi a kémiai változás másik neve?
+    Answers: [kémiai reakció]
+    Correct: [kémiai reakció]
+
+  - Type: word
+    Text: Minek nevezzük a nagy számú részecske együttesét?
+    Answers: [anyagi halmaz]
+    Correct: [anyagi halmaz]
+
+  - Type: word
+    Text: Mivé alakul a répacukor hevítés hatására?
+    Answers: [karamell, karamellé]
+    Correct: [karamell, karamellé]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a répacukor vizsgálatának lépéseit!
+    Items:
+      - az új anyag megjelenése hevítéskor
+      - a halmaz megfigyelése
+      - a fizikai tulajdonságok mérése
+    Correct:
+      - a halmaz megfigyelése
+      - a fizikai tulajdonságok mérése
+      - az új anyag megjelenése hevítéskor
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a fizikai tulajdonságokat a forrás felsorolása szerint!
+    Items:
+      - oldhatóság
+      - szín
+      - halmazállapot
+      - szag
+      - keménység
+    Correct:
+      - szín
+      - szag
+      - halmazállapot
+      - keménység
+      - oldhatóság
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó jellemzővel!
+    LeftTitle: Fogalom
+    RightTitle: Jellemző
+    Pairs:
+      - [fizikai változás, nem keletkezik új anyag]
+      - [kémiai változás, új anyag keletkezik]
+      - [fizikai tulajdonság, mérhető számadattal is]
+      - [kémiai tulajdonság, megmutatja a keletkező anyagot]
+
+  - Type: pairing
+    Text: Párosítsd össze a répacukor tulajdonságait a hozzájuk tartozó adattal!
+    LeftTitle: Tulajdonság
+    RightTitle: Adat
+    Pairs:
+      - [szín, fehér]
+      - [olvadáspont, 186 &deg;C]
+      - [sűrűség, 1,59 g/cm&sup3;]
+      - [halmazállapot, szilárd]

@@ -1,0 +1,362 @@
+Quiz: A magnézium és a hipermangán összehasonlítása
+Source: maja_wiki/7.o/kemia/261108.2.7.o.kemia.a.magnezium.es.a.hipermangan.html
+Question:
+  - Type: singlechoice
+    Text: Milyen színű a magnézium?
+    A: ezüstszürke
+    B: lilásszürke
+    C: fehér
+    D: zöld
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen szagú a magnézium?
+    A: szagtalan
+    B: szúrós szagú
+    C: fémos szagú
+    D: édeskés
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan viselkedik a magnézium a vízben?
+    A: nem oldódik
+    B: jól oldódik
+    C: lila színnel oldódik
+    D: csak forrón oldódik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a magnézium sűrűsége a vízhez képest?
+    A: nagyobb
+    B: kisebb
+    C: egyenlő
+    D: nulla
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen halmazállapotú a magnézium?
+    A: szilárd fém
+    B: folyékony fém
+    C: légnemű anyag
+    D: porszerű por
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan viselkedik a magnézium hajlításkor?
+    A: hajlítható és megmunkálható
+    B: azonnal eltörik, és porrá hullik szét
+    C: megolvad
+    D: porrá esik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti a magnézium az elektromos áramot?
+    A: igen, vezeti
+    B: nem, szigetelő
+    C: csak olvadék állapotban
+    D: csak vizes oldatban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a hipermangán kémiai képlete?
+    A: KMnO4
+    B: MgO
+    C: K2MnO4
+    D: MnO2
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a hipermangán?
+    A: lilásszürke
+    B: ezüstszürke
+    C: fekete
+    D: zöld
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan oldódik a hipermangán a vízben?
+    A: oldódik, és lila színt ad
+    B: nem oldódik benne
+    C: zöld színt ad
+    D: fekete csapadékot ad, és nem oldódik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit lehet tenni a hipermangánnal?
+    A: könnyen porítható
+    B: csak hajlítani lehet
+    C: semmilyen megmunkálás nem lehetséges
+    D: csak olvasztani lehet
+    Correct: A
+
+  - Type: singlechoice
+    Text: Vezeti a hipermangán az elektromos áramot?
+    A: nem vezeti
+    B: igen, vezeti
+    C: csak oldatban vezeti
+    D: csak hevítve vezeti
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a hipermangán sűrűsége a vízhez képest?
+    A: nagyobb
+    B: kisebb
+    C: egyenlő
+    D: fele akkora
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a magnézium kémiai tulajdonságaival hajlításkor és olvasztáskor?
+    A: nem változnak
+    B: minden tulajdonsága megváltozik
+    C: új anyaggá alakul
+    D: oxigénné alakul
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi keletkezik a magnézium égésekor?
+    A: magnézium-oxid
+    B: mangán-dioxid
+    C: kálium-manganát
+    D: oxigéngáz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen fény kíséri a magnézium égését?
+    A: vakító fehér fény
+    B: halvány kék fény, alig látható lobbanás
+    C: zöldes fény
+    D: sárgás láng
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen anyag a magnézium-oxid?
+    A: fehér porszerű szilárd anyag
+    B: fekete szilárd anyag
+    C: lila színű oldat, amely vízben oldódik
+    D: zöld színű gáz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a magnézium égésének egyenlete a forrás szerint?
+    A: 2 Mg + O2 = 2 MgO
+    B: 2 MgO = 2 Mg + O2
+    C: Mg + 2 O2 = MgO2
+    D: KMnO4 = K2MnO4 + O2
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nevezünk egyesülésnek?
+    A: amikor két anyagból egy termék keletkezik
+    B: amikor egy anyagból két termék keletkezik
+    C: amikor az anyag csak halmazállapotot vált
+    D: amikor az anyag melegszik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi történik a hipermangánnal hevítés hatására?
+    A: serceg és pattog
+    B: megolvad, és lila gőzt ad
+    C: fehér színűre vált
+    D: szagtalan lesz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mire utal, hogy a kémcsőszájhoz tartott gyújtópálca lángra lobban?
+    A: oxigéngáz fejlődik
+    B: hidrogéngáz fejlődik
+    C: szén-dioxid fejlődik
+    D: a hipermangán elolvadt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi a hipermangán bomlásának egyenlete a forrás szerint?
+    A: 2 KMnO4 = K2MnO4 + MnO2 + O2
+    B: KMnO4 + O2 = K2MnO4 + MnO2 + H2O
+    C: 2 Mg + O2 = 2 MgO
+    D: K2MnO4 = KMnO4 + O2
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a kálium-manganát?
+    A: zöld
+    B: fekete
+    C: lila
+    D: ezüstszürke
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen színű a mangán-dioxid?
+    A: fekete
+    B: sötétzöld
+    C: halványlila
+    D: fehér
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik termék oldódik jól vízben a hevítés utáni maradékból?
+    A: a kálium-manganát
+    B: a mangán-dioxid, mert az is jól oldódik
+    C: a hipermangán
+    D: a magnézium-oxid
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit nevezünk bomlásnak?
+    A: amikor egy anyagból több új anyag lesz
+    B: amikor két anyagból egy termék keletkezik
+    C: amikor az anyag oldódik
+    D: amikor az anyag vízben szétporlad
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik változás exoterm?
+    A: az, amelyiknél hő szabadul fel
+    B: az, amelyiknél hő nyelődik el
+    C: az, amelyiknél gáz keletkezik
+    D: az, amelyiknél oldat keletkezik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik változás endoterm?
+    A: az, amelyiknél hő nyelődik el
+    B: az, amelyiknél hő szabadul fel
+    C: az, amelyiknél csapadék keletkezik
+    D: az, amelyiknél oxigén fejlődik
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a magnéziumra?
+    Answers: [ezüstszürke fém, szagtalan, hajlítható, vízben jól oldódik]
+    Correct: [ezüstszürke fém, szagtalan, hajlítható]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a hipermangánra?
+    Answers: [KMnO4 a képlete, lilásszürke színű, nem vezeti az elektromos áramot, ezüstszürke fém]
+    Correct: [KMnO4 a képlete, lilásszürke színű, nem vezeti az elektromos áramot]
+
+  - Type: multiplechoice
+    Text: Mely anyagok keletkeznek a hipermangán hevítésekor?
+    Answers: [kálium-manganát, mangán-dioxid, oxigéngáz, magnézium-oxid]
+    Correct: [kálium-manganát, mangán-dioxid, oxigéngáz]
+
+  - Type: multiplechoice
+    Text: Mely folyamatok exotermek a forrás szerint?
+    Answers: [lecsapódás, fagyás, párolgás]
+    Correct: [lecsapódás, fagyás]
+
+  - Type: multiplechoice
+    Text: Mely folyamatok endotermek a forrás szerint?
+    Answers: [párolgás, forrás, olvadás, szublimáció, fagyás]
+    Correct: [párolgás, forrás, olvadás, szublimáció]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a magnézium égésére?
+    Answers: [vakító fehér fény kíséri, magnézium-oxid keletkezik, egyesülés játszódik le, bomlás játszódik le]
+    Correct: [vakító fehér fény kíséri, magnézium-oxid keletkezik, egyesülés játszódik le]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a hipermangán hevítésére?
+    Answers: [sercegni, pattogni kezd, oxigéngáz fejlődik, bomlás játszódik le, az anyag megolvad]
+    Correct: [sercegni, pattogni kezd, oxigéngáz fejlődik, bomlás játszódik le]
+
+  - Type: multiplechoice
+    Text: Mely fizikai tulajdonságokat hasonlította össze a forrás a két anyagnál?
+    Answers: [szín, szag, sűrűség, oldhatóság, hőmérséklet]
+    Correct: [szín, szag, sűrűség, oldhatóság]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az energiaváltozásokra?
+    Answers: [minden fizikai és kémiai változás energiaváltozással jár, legtöbbször hő formájában jelenik meg, exotermnél hő szabadul fel, endotermnél hő szabadul fel]
+    Correct: [minden fizikai és kémiai változás energiaváltozással jár, legtöbbször hő formájában jelenik meg, exotermnél hő szabadul fel]
+
+  - Type: multiplechoice
+    Text: Mit kapunk, ha a hevítés utáni szilárd maradékot vízbe szórjuk?
+    Answers: [zöld kálium-manganátot, fekete mangán-dioxidot, vízben jól oldódó anyagot, oxigéngázt]
+    Correct: [zöld kálium-manganátot, fekete mangán-dioxidot, vízben jól oldódó anyagot]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a két anyag elektromos vezetésére?
+    Answers: [a magnézium vezeti az áramot, a hipermangán nem vezeti, a fémek általában vezetik, a hipermangán fém]
+    Correct: [a magnézium vezeti az áramot, a hipermangán nem vezeti, a fémek általában vezetik]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a magnézium-oxidra?
+    Answers: [fehér színű, porszerű, szilárd anyag, szerkezete eltér a magnéziumétól, lila színű oldat]
+    Correct: [fehér színű, porszerű, szilárd anyag, szerkezete eltér a magnéziumétól]
+
+  - Type: word
+    Text: Mi a magnézium vegyjele?
+    Answers: [Mg]
+    Correct: [Mg]
+
+  - Type: word
+    Text: Mi a hipermangán kémiai képlete?
+    Answers: [KMnO4]
+    Correct: [KMnO4]
+
+  - Type: word
+    Text: Mi keletkezik a magnézium égésekor?
+    Answers: [magnézium-oxid, MgO]
+    Correct: [magnézium-oxid, MgO]
+
+  - Type: word
+    Text: Melyik gáz fejlődik a hipermangán hevítésekor?
+    Answers: [oxigén, oxigéngáz]
+    Correct: [oxigén, oxigéngáz]
+
+  - Type: word
+    Text: Melyik anyag zöld színű a hevítés utáni maradékban?
+    Answers: [kálium-manganát, kálium-manganát.]
+    Correct: [kálium-manganát, kálium-manganát.]
+
+  - Type: word
+    Text: Mi az exoterm változás ellentéte?
+    Answers: [endoterm]
+    Correct: [endoterm]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a magnézium égésének lépéseit!
+    Items:
+      - vakító fehér fény kíséri az égést
+      - a magnéziumot meggyújtjuk
+      - magnézium-oxid keletkezik
+      - a magnézium oxigénnel egyesül
+    Correct:
+      - a magnéziumot meggyújtjuk
+      - a magnézium oxigénnel egyesül
+      - vakító fehér fény kíséri az égést
+      - magnézium-oxid keletkezik
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a hipermangán bomlásának termékeit a forrás egyenlete szerint!
+    Items:
+      - MnO2
+      - KMnO4
+      - O2
+      - K2MnO4
+    Correct:
+      - KMnO4
+      - K2MnO4
+      - MnO2
+      - O2
+
+  - Type: pairing
+    Text: Párosítsd össze az anyagokat a színükkel!
+    LeftTitle: Anyag
+    RightTitle: Szín
+    Pairs:
+      - [magnézium, ezüstszürke]
+      - [hipermangán, lilásszürke]
+      - [kálium-manganát, zöld]
+      - [mangán-dioxid, fekete]
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó meghatározással!
+    LeftTitle: Fogalom
+    RightTitle: Meghatározás
+    Pairs:
+      - [egyesülés, két vagy több anyagból egy termék keletkezik]
+      - [bomlás, egy anyagból több új anyag keletkezik]
+      - [exoterm, hő szabadul fel]
+      - [endoterm, hő nyelődik el]

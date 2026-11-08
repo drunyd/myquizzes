@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az anyagok tulajdonságai</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .data-table td, .data-table th { padding: .4rem .6rem; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az anyagok tulajdonságai</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az anyagok tulajdonságai</h2>
+            <ul class="mb-0">
+              <li>Az anyagokat részecskék építik fel</li>
+              <li>Nagy számú részecske együttesen anyagi halmazt alkot</li>
+              <li>Az anyagi halmazokra jellemző: szín, szag, halmazállapot</li>
+              <li>Az anyagi halmazokat meg tudjuk figyelni, és tudunk velük kísérletezni</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fizikai tulajdonságok</h2>
+            <p class="mb-2"><strong>Répacukor:</strong> fehér színű, szagtalan, szilárd halmazállapotú, vízben jól oldódó, törhető, aprítható anyag. Olvadáspontja 186&nbsp;&deg;C, sűrűsége 1,59&nbsp;g/cm&sup3;.</p>
+            <p class="mb-2"><strong>Fizikai tulajdonság:</strong></p>
+            <ul class="mb-2">
+              <li>szín</li>
+              <li>szag</li>
+              <li>halmazállapot</li>
+              <li>keménység</li>
+              <li>oldhatóság</li>
+            </ul>
+            <p class="mb-0">Egyes fizikai tulajdonságokat tudunk mérni, így számadattal, mértékegységgel jellemezni tudjuk az anyagot. Például: olvadáspont, forráspont, sűrűség.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A kémiai tulajdonságok</h2>
+            <p class="mb-2">Az anyagnak azokat a tulajdonságait, amelyek megmutatják, hogy</p>
+            <ul class="mb-2">
+              <li>milyen körülmények között alakul át,</li>
+              <li>és közben milyen anyag keletkezik,</li>
+            </ul>
+            <p class="mb-2"><strong>kémiai tulajdonságoknak</strong> nevezzük.</p>
+            <p class="mb-2">A répacukor két kémiai tulajdonsága:</p>
+            <ul class="mb-0">
+              <li>hevítés hatására karamellé alakul, bomlik;</li>
+              <li>hamuban megforgatva meggyullad, miközben szén-dioxiddá és vízzé ég el.</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fizikai változás</h2>
+            <ul class="mb-0">
+              <li>A répacukor aprítás vagy vízben oldás vagy enyhe olvasztás hatására nem alakul át más anyaggá</li>
+              <li>Azokat a változásokat, amelyek során nem keletkezik új anyag, <strong>fizikai változásoknak</strong> nevezzük</li>
+              <li>Legismertebb fizikai változások: halmazállapot-változás, oldódási folyamatok</li>
+              <li>A részecskék szerkezetében nem történik változás, csak az anyagi halmaz szerkezetében</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kémiai változás</h2>
+            <ul class="mb-0">
+              <li>A cukor erőteljes hevítés hatására kémiai változást szenved, vagyis a molekulák szerkezete is megváltozik</li>
+              <li>A cukrot alkotó atomok más molekulákká kapcsolódnak össze, így új anyag keletkezik</li>
+              <li>A kémiai változás más néven <strong>kémiai reakció</strong></li>
+              <li>Mélyreható változás történik az anyag szerkezetében (a részecskék belső szerkezete is megváltozik)</li>
+              <li>Megváltoznak a fizikai tulajdonságok</li>
+              <li>Megváltozik az anyagi minőség (például egy kémiailag tiszta anyagból két másik keletkezik, vagy két kémiailag tiszta anyagból egy harmadik)</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>Minden anyag apró részecskékből áll, és a belőlük felépülő anyagi halmazt vizsgálni tudjuk: megfigyeljük, mérjük, kísérletezünk vele. A vizsgálat eredménye két nagy csoportba sorolható: azokra a tulajdonságokra, amelyek <em>milyen az anyag</em> (fizikai tulajdonságok), és azokra, amelyek <em>hogyan viselkedik, ha megváltozik</em> (kémiai tulajdonságok). Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A répacukor kémiai neve <strong>szacharóz</strong>; képlete C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>. A cukor kristályai a nagyítás alatt apró, szabályos szemcsék.</li>
+                <li>A sűrűség számértéke megmondja, mennyi az anyag tömege 1&nbsp;cm&sup3;-ben: 1,59&nbsp;g/cm&sup3; azt jelenti, hogy 1&nbsp;cm&sup3; répacukor 1,59&nbsp;g tömegű (a víznél ez az érték 1,00&nbsp;g/cm&sup3;) &ndash; ezért a cukor nagyobb sűrűségű a víznél.</li>
+                <li>A karamell készítése valójában kémiai változás: a hevítés hatására a cukor molekulái átalakulnak, ezért lesz barna és más ízű.</li>
+              </ul>
+            </div>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20convex%20half%20litre%20of%20sucrose.jpg?width=800" class="figure-img img-fluid rounded" alt="Répacukor kristályai">
+              <figcaption class="figure-caption">Répacukor: fehér, szagtalan, szilárd, vízben jól oldódó anyag. <a href="https://commons.wikimedia.org/wiki/File:A_convex_half_litre_of_sucrose.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fizikai tulajdonságok: amit meg tudunk figyelni</h2>
+            <p>A fizikai tulajdonságok az anyag „személyazonosságának” a külső jegyei. Egy részük egyszerűen megfigyelhető (szín, szag, halmazállapot, keménység, oldhatóság), más részük <strong>mérhető</strong>, tehát számadattal és mértékegységgel jellemezhető: ilyen az olvadáspont, a forráspont és a sűrűség.</p>
+            <p class="mb-2">A répacukor példáján:</p>
+            <ul class="mb-2">
+              <li><strong>szín:</strong> fehér</li>
+              <li><strong>szag:</strong> szagtalan</li>
+              <li><strong>halmazállapot:</strong> szilárd</li>
+              <li><strong>oldhatóság:</strong> vízben jól oldódó</li>
+              <li><strong>olvadáspont:</strong> 186&nbsp;&deg;C</li>
+              <li><strong>sűrűség:</strong> 1,59&nbsp;g/cm&sup3;</li>
+            </ul>
+            <p class="mb-0">A répacukor ezen kívül törhető és aprítható &ndash; ez a keménységére, illetve a szerkezetére utal. <i class="fas fa-eye me-1"></i><strong>Figyeld meg!</strong> A színt, a szagot és a halmazállapotot nem lehet számadattal megadni, az olvadáspontot és a sűrűséget viszont igen.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Kémiai tulajdonságok: hogyan alakul át</h2>
+            <p>A kémiai tulajdonságok arra adnak választ, hogy az anyag <em>milyen körülmények között</em> alakul át, és közben <em>milyen anyag</em> keletkezik. A répacukornak a forrás két ilyen tulajdonságát említi:</p>
+            <ul class="def mb-2">
+              <li><span class="term">Hevítés</span> &ndash; a cukor karamellé alakul, illetve bomlik; a molekulák szerkezete megváltozik.</li>
+              <li><span class="term">Égés</span> &ndash; hamuban megforgatva meggyullad, és miközben elég, szén-dioxid és víz keletkezik belőle.</li>
+            </ul>
+            <p class="mb-0">Ez a két folyamat már nem „kinézet kérdése”: új anyagok jönnek létre, tehát kémiai változások.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Fizikai vagy kémiai változás?</h2>
+            <p>A két változásfajta közti döntő különbség egyetlen kérdésben összefoglalható: <strong>keletkezik-e új anyag?</strong></p>
+            <ul class="def mb-2">
+              <li><span class="term">Fizikai változás</span> &ndash; nem keletkezik új anyag. A részecskék szerkezete nem változik, csak az anyagi halmaz szerkezete. Ide tartozik a halmazállapot-változás és az oldódás. Példa: a répacukor aprítása, vízben oldása, enyhe olvasztása.</li>
+              <li><span class="term">Kémiai változás (kémiai reakció)</span> &ndash; új anyag keletkezik. Mélyreható változás történik: a részecskék belső szerkezete is átalakul, megváltoznak a fizikai tulajdonságok és megváltozik az anyagi minőség. Példa: a cukor erőteljes hevítése, elégetése.</li>
+            </ul>
+            <p class="mb-0">Kémiai változáskor előfordulhat, hogy egy kémiailag tiszta anyagból két másik anyag keletkezik, vagy hogy két kémiailag tiszta anyagból egyetlen harmadik jön létre.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-eye me-1"></i>Figyeld meg!</strong> Az oldódás trükkös: a cukor eltűnik a vízből, mégsem keletkezett új anyag &ndash; visszakaphatnánk a cukrot a víz elpárologtatásával. Ezért az oldódás fizikai változás.
+            </div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+      var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+      var ext = view === 'extended';
+      o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+      bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+      bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+    }
+  </script>
+</body>
+</html>
