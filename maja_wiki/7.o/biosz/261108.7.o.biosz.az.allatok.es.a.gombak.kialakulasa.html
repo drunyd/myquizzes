@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az állatok és a gombák kialakulása</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az állatok és a gombák kialakulása</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az állatok és a gombák fejlődése</h2>
+            <ul class="mb-0">
+              <li>Az állatok képesek helyük gyors megváltoztatására</li>
+              <li>A gombák nem képesek erre, az evolúciójuk külön utat járt be</li>
+              <li>Mégis van bennük egy közös dolog: a <strong>heterotróf anyagcsere</strong></li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az állati sejt</h2>
+            <p class="mb-2">Hasonlít sok mindenben a növényi sejtre, de vannak igen eltérő jellemzői is. Alakjuk sokféle lehet:</p>
+            <ul class="mb-2">
+              <li>kerek: vérben lévő egyes sejtek</li>
+              <li>hegyes: izomsejt</li>
+              <li>vékony, vaskos sejt: bőr</li>
+              <li>nyúlványos: idegrendszer</li>
+            </ul>
+            <p class="mb-1 mt-3"><strong>További jellemzőik:</strong></p>
+            <ul class="mb-0">
+              <li><strong>Méretük:</strong> megegyezik a növényi sejt méretével</li>
+              <li><strong>Sejtfal:</strong> nincs, csak a sejthártya (féligáteresztő) határolja a sejtet</li>
+              <li>Belsejüket sejtplazma tölti ki, ebben helyezkedik el a sejtmag, amit sejtmaghártya határol</li>
+              <li>Nincs bennük zöld színtest</li>
+              <li>Gyakran sok mitokondrium van bennük, számuk a sejt működésétől függ</li>
+              <li>Sejtüregeket és kristályokat nem tartalmaz</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mai állatvilág kifejlődése</h2>
+            <ul class="mb-0">
+              <li>A mai állatvilág kialakulása a heterotróf egysejtűekből indulhatott meg</li>
+              <li>Első képviselőik felépítése sejthalmazos volt</li>
+              <li>Szöveteik még nem voltak, de a sejtek között már volt működésmegosztás</li>
+              <li>Ennek legfejlettebb formáját napjainkban a szivacsok képviselik, amelyek álszövetes szerveződésűek</li>
+              <li>Testük kehelyszerű, összesen két sejtsorból áll</li>
+              <li>Helyüket nem tudják változtatni, mert a kehely az aljzathoz rögzül</li>
+              <li>Külső réteg: kova- vagy szaruanyagot termelő sejtek, a szilárdítás a feladatuk; az apró lyukakon keresztül bejut a víz a kehely belsejébe</li>
+              <li>Táplálkozásuk: a belső sejtsor nyúlványai kiszűrik a vízből a táplálékot</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Szövetes állatok</h2>
+            <ul class="mb-0">
+              <li>Később megjelentek a nagyobb alkalmazkodóképességgel rendelkező szövetes állatok</li>
+              <li>Csoportjaik különböző fejlettségűek &ndash; például ízeltlábúak, madarak, emlősök</li>
+              <li>Kialakult az ivarsejtekkel történő szaporodás az állatvilágban is</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mai gombák kifejlődése</h2>
+            <ul class="mb-0">
+              <li>Az élővilág harmadik önálló csoportja</li>
+              <li>Őseik valószínűleg heterotróf egysejtűek voltak</li>
+              <li>Testfelépítésük egyedi</li>
+              <li>Legfejlettebb típusaikban sincs szövet</li>
+              <li>Az egyszerű gombák sejtek láncolatából állnak: élesztőgomba</li>
+              <li>A fejlettebb gombák megnyúlt sejtekből álló gombafonalakból épülnek fel</li>
+              <li>A fonalak rendelkeznek sejtfallal, bennük sejtplazma és sejtalkotók is megtalálhatók</li>
+              <li>Spórákkal szaporodnak</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>Az élővilág három nagy csoportja &ndash; a növények, a gombák és az állatok &ndash; közös ősökből indult, mégis egészen más irányba fejlődött. A növények fényből készítik a tápanyagot, az állatok és a gombák viszont készen kapják: <strong>heterotrófok</strong>. Ez a közös vonás, de a mozgás, a sejtek felépítése és a szaporodás már elválasztja őket. Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A gombák a modern vizsgálatok szerint közelebbi rokonai az állatoknak, mint a növényeknek &ndash; pedig a szemünknek növénynek tűnnek.</li>
+                <li>A gomba sejtfala nem cellulózból, hanem <em>kitinből</em> áll &ndash; ugyanabból az anyagból, mint a rovarok páncélja.</li>
+                <li>A szivacsok nem növények, hanem a legegyszerűbb állatok: a tudomány jelenleg mintegy 9000 fajukat tartja számon.</li>
+              </ul>
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az állati sejt: mi hiányzik belőle?</h2>
+            <p>Az állati sejt sokban hasonlít a növényire: mindkettőt sejthártya határolja, belsejét sejtplazma tölti ki, és van sejtmagja, amelyet sejtmaghártya választ el a plazmától. A különbségek azonban rögtön látszanak a mikroszkóp alatt:</p>
+            <ul class="def mb-2">
+              <li><span class="term">Nincs sejtfal</span> &ndash; ezért az állati sejt alakja változékonyabb, hajlékonyabb, mint a növényi sejté.</li>
+              <li><span class="term">Nincs zöld színtest</span> &ndash; az állatok nem fotoszintetizálnak, nincs szükségük klorofillra.</li>
+              <li><span class="term">Nincs nagy sejtüreg és kristály</span> &ndash; a növényi sejt jellegzetes, méretes üregét itt nem találjuk.</li>
+              <li><span class="term">Sok mitokondrium</span> &ndash; minél több energiát használ a sejt (pl. egy izomsejt), annál több van benne.</li>
+            </ul>
+            <p class="mb-0">Az állati sejtek alakja a feladathoz igazodik: a vérben kerek sejtek áramlanak, az izomsejt megnyúlt, hegyes, az idegsejt hosszú nyúlványokkal kapcsolódik a többiekhez, a bőr sejtjei pedig vékonyak vagy vaskosak lehetnek.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Animal%20cell%20structure%20hu.svg?width=800" class="figure-img img-fluid rounded" alt="Az állati sejt felépítése">
+              <figcaption class="figure-caption">Az állati sejt felépítése: sejthártya, sejtplazma, sejtmag, mitokondriumok &ndash; sejtfal és zöld színtest nélkül. <a href="https://commons.wikimedia.org/wiki/File:Animal_cell_structure_hu.svg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A sejthalmaztól a szövetes állatokig</h2>
+            <p>Az állatok ősei feltehetően heterotróf egysejtűek voltak. Az első többsejtű állatok teste még csak <strong>sejthalmaz</strong> volt: a sejtek együtt éltek, és közöttük már megoszlott a munka, de valódi szövetek még nem alakultak ki.</p>
+            <p>A szivacsok ennek a szintnek a mai, legfejlettebb képviselői: <em>álszövetes</em> szerveződésűek. Testük kehelyszerű, két sejtsorból áll, és az aljzathoz rögzül &ndash; ezért nem tud helyet változtatni. A külső sejtsor kova- vagy szaruanyagot termel, ami szilárdítja a testet, az apró lyukakon (pórusokon) beáramló vizet pedig a belső sejtsor nyúlványai szűrik át: ezekkel fogják ki a vízben lebegő táplálékszemcséket.</p>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Spongilla%20lacustris.jpg?width=800" class="figure-img img-fluid rounded" alt="Édesvízi szivacs">
+              <figcaption class="figure-caption">Édesvízi szivacs (Spongilla lacustris) &ndash; álszövetes felépítésű állat. <a href="https://commons.wikimedia.org/wiki/File:Spongilla_lacustris.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-2">Később jelentek meg a <strong>szövetes állatok</strong>: náluk a sejtek már valódi szöveteket alkotnak, ezért sokkal nagyobb alkalmazkodóképességre képesek. Csoportjaik fejlettsége eltérő &ndash; az ízeltlábúak, a madarak és az emlősök a forrás példái erre.</p>
+            <p class="mb-0">A szövetes állatoknál alakult ki az <strong>ivarsejtekkel</strong> történő szaporodás is: a petesejt és a hímivarsejt egyesülése új egyedet hoz létre, így a tulajdonságok keveredhetnek, és a faj jobban alkalmazkodhat a változó környezethez.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-eye me-1"></i>Figyeld meg!</strong> A fejlődés iránya nem „tökéletesedés”: a szivacs a maga módján nagyon sikeres &ndash; évszázmilliók óta él a tengerekben anélkül, hogy szövetei lennének.
+            </div>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A gombák: sejtfonalak és spórák</h2>
+            <p>A gombák az élővilág harmadik önálló csoportja. Őseik valószínűleg heterotróf egysejtűek voltak, testfelépítésük viszont egyedi: <strong>legfejlettebb típusaikban sincs szövet</strong>.</p>
+            <ul class="mb-2">
+              <li>Az <strong>egyszerű gombák</strong> sejtek láncolatából állnak &ndash; ilyen az élesztőgomba is.</li>
+              <li>A <strong>fejlettebb gombák</strong> megnyúlt sejtekből álló <em>gombafonalakból</em> épülnek fel.</li>
+              <li>A fonalaknak sejtfaluk van, belsejükben sejtplazma és sejtalkotók találhatók.</li>
+              <li>A gombák <strong>spórákkal</strong> szaporodnak: a spórák apró, széllel vagy vízzel terjedő szaporítóképletek.</li>
+            </ul>
+            <figure class="figure wiki-figure text-center w-100">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Saccharomyces%20cerevisiae%20SEM.jpg?width=800" class="figure-img img-fluid rounded" alt="Élesztőgombák pásztázó elektronmikroszkópos képe">
+              <figcaption class="figure-caption">Élesztőgombák (Saccharomyces cerevisiae) pásztázó elektronmikroszkópos képe &ndash; sejtek láncolata. <a href="https://commons.wikimedia.org/wiki/File:Saccharomyces_cerevisiae_SEM.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+            <p class="mb-0">A gombák táplálkozása is heterotróf, de másként, mint az állatoké: nem bekebelezik a táplálékot, hanem a sejtfalukon keresztül <em>szívják fel</em> a lebontott anyagokat. <a href="https://hu.wikipedia.org/wiki/Gomb%C3%A1k" target="_blank" rel="noopener">Gombák</a></p>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+      var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+      var ext = view === 'extended';
+      o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+      bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+      bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+    }
+  </script>
+</body>
+</html>

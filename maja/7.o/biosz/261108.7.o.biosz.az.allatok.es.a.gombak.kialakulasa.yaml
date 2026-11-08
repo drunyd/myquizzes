@@ -1,0 +1,360 @@
+Quiz: Az állatok és a gombák kialakulása
+Source: maja_wiki/7.o/biosz/261108.7.o.biosz.az.allatok.es.a.gombak.kialakulasa.html
+Question:
+  - Type: singlechoice
+    Text: Mi a közös az állatokban és a gombákban a forrás szerint?
+    A: a heterotróf anyagcsere
+    B: a zöld színtest jelenléte
+    C: a helyváltoztatás képessége
+    D: a sejtfallal határolt sejt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miben különbözik leginkább az állat a gombától?
+    A: Az állat gyorsan helyet változtathat
+    B: Az állat sejtjei mindig kerekszerűek
+    C: Az állatnak nincs sejtplazmája
+    D: Az állat a tápanyagát fotoszintézissel állítja elő
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi határolja az állati sejtet?
+    A: a sejtfal
+    B: a sejthártya
+    C: a sejtmaghártya
+    D: a gombafonal
+    Correct: B
+
+  - Type: singlechoice
+    Text: Milyen tulajdonságú az állati sejt sejthártyája?
+    A: féligáteresztő
+    B: teljesen átjárhatatlan
+    C: fényt áteresztő
+    D: szaruanyagú
+    Correct: A
+
+  - Type: singlechoice
+    Text: Van-e sejtfala az állati sejtnek?
+    A: van, vékony sejtfala
+    B: nincs, csak sejthártyája
+    C: csak a bőrsejteknek van
+    D: csak az idegsejteknek van
+    Correct: B
+
+  - Type: singlechoice
+    Text: Mi tölti ki az állati sejt belsejét?
+    A: sejtplazma
+    B: kovaanyag
+    C: sejtüreg
+    D: zöld színtest
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi határolja az állati sejt sejtmagját?
+    A: a sejtfal és a sejthártya együtt
+    B: a sejtmaghártya
+    C: a sejthártya
+    D: a gombafonal
+    Correct: B
+
+  - Type: singlechoice
+    Text: Melyik sejtalkotó NINCS az állati sejtben?
+    A: a zöld színtest
+    B: a sejtplazmában lévő sejtmag
+    C: a mitokondriumok sokasága
+    D: a sejthártya
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely anyagot NEM tartalmazza az állati sejt a forrás szerint?
+    A: sejtüregeket
+    B: sejtplazmát
+    C: sejtmagot
+    D: mitokondriumot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan viszonyul az állati sejt mérete a növényi sejtéhez?
+    A: megegyezik vele
+    B: sokkal nagyobb nála
+    C: fele akkora nála
+    D: attól függ, hol van
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mitől függ az állati sejtben a mitokondriumok száma?
+    A: a sejt működésétől
+    B: a sejtben lévő sejtmag alakjától
+    C: a sejt alakjától
+    D: a sejt korától
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen alakú az izomsejt a forrás szerint?
+    A: hegyes
+    B: kerek
+    C: gömbölyű
+    D: lapos
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik sejtre jellemző a nyúlványos alak?
+    A: az idegsejtre
+    B: a vérsejtre
+    C: az izomsejtre
+    D: a bőrsejtre
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol találhatók kerek alakú állati sejtek a forrás példája szerint?
+    A: a vérben
+    B: a bőrben
+    C: az idegekben
+    D: az izmokban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely szerv sejtjeire jellemző a vékony és vaskos alak?
+    A: a bőr
+    B: a vér
+    C: az idegrendszer
+    D: az izomzat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből indulhatott ki a mai állatvilág kialakulása?
+    A: heterotróf egysejtűekből
+    B: fotoszintetizáló sejtekből
+    C: gombafonalakból
+    D: növényi szövetekből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen felépítésűek voltak az állatok első képviselői?
+    A: sejthalmazos felépítésűek
+    B: szövetes felépítésűek
+    C: szervrendszeres felépítésűek
+    D: egyszerű sejtfalúak
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik mai állatcsoport képviseli legfejlettebben a sejthalmazos szintet?
+    A: a szivacsok
+    B: a madarak
+    C: az ízeltlábúak
+    D: az emlősök
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen szerveződésűek a szivacsok?
+    A: álszövetes szerveződésűek
+    B: valódi szövetekkel rendelkező állatok
+    C: egysejtűek
+    D: sejtmag nélküliek
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hány sejtsorból áll a szivacsok kehelyszerű teste?
+    A: kettőből
+    B: egyből
+    C: háromból
+    D: négyből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért nem tudja helyét változtatni a szivacs?
+    A: Mert a kehely az aljzathoz rögzül
+    B: Mert a sejtjeiben nincsenek mitokondriumok
+    C: Mert nincs sejtmagja
+    D: Mert spórákkal szaporodik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit termelnek a szivacs külső rétegének sejtjei?
+    A: kova vagy szaru anyagot
+    B: zöld színtestet
+    C: sejtfalat és sejtplazmát
+    D: ivarsejteket és spórákat
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan jut be a víz a szivacs belsejébe?
+    A: apró lyukakon keresztül
+    B: a kelyhe peremén kialakult nyílásokon át
+    C: a sejtmaghártyán át
+    D: a gombafonalakon át
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan táplálkozik a szivacs a forrás szerint?
+    A: A belső sejtsor nyúlványai kiszűrik a táplálékot
+    B: A külső sejtek kovaanyagot emésztenek
+    C: A kehely alján sejtüregek gyűjtik össze a lebegő táplálékot
+    D: Fotoszintézissel állítja elő a tápanyagot
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mely állatok jelentek meg később, nagyobb alkalmazkodóképességgel?
+    A: a szövetes állatok
+    B: a sejthalmazos állatok
+    C: az álszövetes állatok
+    D: az egysejtű állatok
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi alakult ki az állatvilágban a forrás szerint?
+    A: az ivarsejtekkel történő szaporodás
+    B: a spórákkal történő ivartalan szaporodás
+    C: a sejtfalon belüli osztódás
+    D: a fotoszintézis
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hányadik önálló csoportja a gombák az élővilágnak?
+    A: a harmadik
+    B: a második
+    C: az első
+    D: a negyedik
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miből épülnek fel a fejlettebb gombák?
+    A: gombafonalakból
+    B: sejtek láncolatából
+    C: valódi szövetekből
+    D: sejtüregekből
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Mely sejtalkotók találhatók meg az állati sejtben a forrás szerint?
+    Answers: [sejthártya, sejtplazma, sejtmag, sejtfal]
+    Correct: [sejthártya, sejtplazma, sejtmag]
+
+  - Type: multiplechoice
+    Text: Mely alkotók hiányoznak az állati sejtből?
+    Answers: [sejtfal, sejtüreg, kristályok, mitokondrium]
+    Correct: [sejtfal, sejtüreg, kristályok]
+
+  - Type: multiplechoice
+    Text: Mely sejtalakok szerepelnek a forrásban?
+    Answers: [kerek, hegyes, nyúlványos, szögletes]
+    Correct: [kerek, hegyes, nyúlványos]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a szivacsokra?
+    Answers: [álszövetesek, kehelyszerű testük van, két sejtsorból állnak, valódi szöveteik vannak]
+    Correct: [álszövetesek, kehelyszerű testük van, két sejtsorból állnak]
+
+  - Type: multiplechoice
+    Text: Mely állatcsoportokat említi a forrás a szövetes állatok példájaként?
+    Answers: [ízeltlábúak, madarak, emlősök, szivacsok]
+    Correct: [ízeltlábúak, madarak, emlősök]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a gombákra a forrás szerint?
+    Answers: [harmadik önálló csoport, heterotróf anyagcseréjűek, spórákkal szaporodnak, zöld színtestet tartalmaznak]
+    Correct: [harmadik önálló csoport, heterotróf anyagcseréjűek, spórákkal szaporodnak]
+
+  - Type: multiplechoice
+    Text: Mi jellemzi a fejlettebb gombák gombafonalait?
+    Answers: [sejtfallal rendelkeznek, sejtplazma van bennük, sejtalkotókat tartalmaznak, zöld színtestet termelnek]
+    Correct: [sejtfallal rendelkeznek, sejtplazma van bennük, sejtalkotókat tartalmaznak]
+
+  - Type: multiplechoice
+    Text: Milyen anyagból szilárdíthatják a szivacs külső sejtjei a testet?
+    Answers: [kova, szaru, sejtplazma, zöld színtest]
+    Correct: [kova, szaru]
+
+  - Type: multiplechoice
+    Text: Mely élőlénycsoportok anyagcseréje heterotróf a forrás szerint?
+    Answers: [állatok, gombák, növények]
+    Correct: [állatok, gombák]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a mai állatvilág kialakulására?
+    Answers: [heterotróf egysejtűekből indulhatott, az első képviselők sejthalmazosak, később szövetes állatok jelentek meg, az első állatok már szövetesek]
+    Correct: [heterotróf egysejtűekből indulhatott, az első képviselők sejthalmazosak, később szövetes állatok jelentek meg]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az állati sejtre a forrás szerint?
+    Answers: [nincs sejtfala, nincs zöld színteste, mérete a növényi sejtével egyezik, sejtüregeket tartalmaz]
+    Correct: [nincs sejtfala, nincs zöld színteste, mérete a növényi sejtével egyezik]
+
+  - Type: multiplechoice
+    Text: Miben hasonlít az állati sejt a növényi sejtre a forrás szerint?
+    Answers: [sejtplazma tölti ki, van sejtmagja, sejthártya határolja, zöld színtestet tartalmaz]
+    Correct: [sejtplazma tölti ki, van sejtmagja, sejthártya határolja]
+
+  - Type: word
+    Text: Milyen anyagcseréjű az állat és a gomba?
+    Answers: [heterotróf]
+    Correct: [heterotróf]
+
+  - Type: word
+    Text: Mi határolja az állati sejtet, mivel nincs sejtfala?
+    Answers: [sejthártya, sejthártyája]
+    Correct: [sejthártya, sejthártyája]
+
+  - Type: word
+    Text: Melyik állatcsoport képviseli legfejlettebben a sejthalmazos szerveződést?
+    Answers: [szivacsok, a szivacsok]
+    Correct: [szivacsok, a szivacsok]
+
+  - Type: word
+    Text: Mivel szaporodnak a gombák?
+    Answers: [spórákkal, spóra]
+    Correct: [spórákkal, spóra]
+
+  - Type: word
+    Text: Melyik egyszerű gombát említi példaként a forrás?
+    Answers: [élesztőgomba, élesztő]
+    Correct: [élesztőgomba, élesztő]
+
+  - Type: word
+    Text: Mi tölti ki az állati sejt belsejét?
+    Answers: [sejtplazma]
+    Correct: [sejtplazma]
+
+  - Type: ordering
+    Text: Rendezd sorrendbe az állatvilág fejlődésének szintjeit a forrás alapján!
+    Items:
+      - szövetes állatok
+      - heterotróf egysejtűek
+      - álszövetes szivacsok
+      - sejthalmazos állatok
+    Correct:
+      - heterotróf egysejtűek
+      - sejthalmazos állatok
+      - álszövetes szivacsok
+      - szövetes állatok
+
+  - Type: ordering
+    Text: Rendezd sorrendbe a szivacson átvezető utat a táplálkozás során!
+    Items:
+      - a belső sejtsor nyúlványai kiszűrik a táplálékot
+      - a víz a kehely belsejébe jut
+      - a víz az apró lyukakon belép
+    Correct:
+      - a víz az apró lyukakon belép
+      - a víz a kehely belsejébe jut
+      - a belső sejtsor nyúlványai kiszűrik a táplálékot
+
+  - Type: pairing
+    Text: Párosítsd össze az állati sejt alakját a hozzá tartozó példával!
+    LeftTitle: Sejtalak
+    RightTitle: Példa
+    Pairs:
+      - [kerek, vérben lévő sejt]
+      - [hegyes, izomsejt]
+      - [nyúlványos, idegsejt]
+      - [vékony és vaskos, bőrsejt]
+
+  - Type: pairing
+    Text: Párosítsd össze a fogalmakat a hozzájuk tartozó jellemzővel!
+    LeftTitle: Fogalom
+    RightTitle: Jellemző
+    Pairs:
+      - [szivacs, álszövetes szerveződés]
+      - [élesztőgomba, sejtek láncolata]
+      - [gombafonal, megnyúlt sejtekből áll]
+      - [állati sejt, nincs sejtfala]
