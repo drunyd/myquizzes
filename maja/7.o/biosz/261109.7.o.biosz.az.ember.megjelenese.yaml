@@ -1,0 +1,367 @@
+Quiz: Az ember megjelenése
+Source: maja_wiki/7.o/biosz/261109.7.o.biosz.az.ember.megjelenese.html
+Question:
+  - Type: singlechoice
+    Text: Mikor vált el az ember törzsfejlődése a mai emberszabású majmokétól?
+    A: 25 millió évvel ezelőtt
+    B: 2,5 millió évvel ezelőtt
+    C: 250 millió évvel ezelőtt
+    D: 25 ezer évvel ezelőtt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik lehetett az ember és a majmok közös őse a forrás szerint?
+    A: a tölgymajom
+    B: a neander-völgyi ember
+    C: az ügyes ember
+    D: a felegyenesedett ember
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora lehetett a tölgymajom tömege?
+    A: 20&ndash;45 kg
+    B: 2&ndash;4,5 kg
+    C: 120&ndash;145 kg
+    D: 200&ndash;450 kg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora volt a tölgymajom agyának térfogata?
+    A: 300 cm&sup3;
+    B: 500 cm&sup3;
+    C: 800 cm&sup3;
+    D: 1300 cm&sup3;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen volt a tölgymajom fogíve?
+    A: U alakú, két párhuzamos szárból állt
+    B: V alakú, hegyes szemfogakkal
+    C: széttartó, kiálló szemfogakkal
+    D: egyenes, teljesen fogak nélküli állkapocsív
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hol tartózkodott sokat a tölgymajom?
+    A: a talajon
+    B: a fákon
+    C: a vízben
+    D: barlangokban
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor éltek a majomemberek?
+    A: 6&ndash;3 millió évvel ezelőtt
+    B: 25&ndash;20 millió évvel ezelőtt
+    C: 400 ezer évvel ezelőtt
+    D: 300 ezer évvel ezelőtt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora a majomember agytérfogata?
+    A: 500 cm&sup3;
+    B: 300 cm&sup3;
+    C: 800 cm&sup3;
+    D: 1500 cm&sup3;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen a majomember fogíve?
+    A: széttartó, szemfogai nem állnak ki
+    B: U alakú, párhuzamos szárakkal
+    C: erősen kiálló, hegyes szemfogú fogív
+    D: teljesen fogatlan
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan járt a majomember?
+    A: két lábon
+    B: négy lábon
+    C: csak mászva
+    D: ugrálva
+    Correct: A
+
+  - Type: singlechoice
+    Text: Miért volt szükség az idegrendszer tökéletesedésére?
+    A: a kommunikációhoz és a társas kapcsolatokhoz
+    B: a szőrzet kialakulásához és a bőrszín megváltozásához
+    C: a fogak megerősödéséhez
+    D: a testméret növekedéséhez
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi az előemberek gyűjtőneve a forrás szerint?
+    A: a korai emberformák
+    B: a mai emberszabású majmok
+    C: a Neander-völgyi leletek
+    D: a négy nagy rassz
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik volt az első valódi ember?
+    A: az ügyes ember
+    B: a felegyenesedett ember
+    C: a neander-völgyi ember
+    D: a tölgymajom
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora az ügyes ember agytérfogata?
+    A: 800 cm&sup3;
+    B: 500 cm&sup3;
+    C: 1300 cm&sup3;
+    D: 1500 cm&sup3;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mit evett az ügyes ember?
+    A: növényi és állati táplálékot egyaránt
+    B: csak növényi táplálékot
+    C: csak húst, halat és rovarokat, növényeket nem
+    D: csak gyümölcsöt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Minek a fejlődését eredményezte a csoportos gyűjtögetés és vadászat?
+    A: a társas kapcsolatokét
+    B: a szőrzet eltűnését
+    C: a szemfogak megnagyobbodását
+    D: a négy lábon járás kialakulását
+    Correct: A
+
+  - Type: singlechoice
+    Text: Melyik emberforma a mai ember közvetlen elődje?
+    A: a felegyenesedett ember
+    B: az ügyes ember és a majomember
+    C: a tölgymajom
+    D: a neander-völgyi ember
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora a felegyenesedett ember agytérfogata?
+    A: 1300 cm&sup3;
+    B: 800 cm&sup3;
+    C: 1500 cm&sup3;
+    D: 500 cm&sup3;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi alakult ki a felegyenesedett ember koponyáján?
+    A: a szemöldök fölötti homlokeresz
+    B: a boltozatos koponya és az állcsúcs
+    C: a fogak nélküli állkapocs
+    D: a megnagyobbodott szemüreg
+    Correct: A
+
+  - Type: singlechoice
+    Text: Ismerte a tüzet a felegyenesedett ember?
+    A: igen, ismerte
+    B: nem, egyáltalán nem
+    C: csak a mai ember ismerte
+    D: csak a neander-völgyi ember
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor élt a korai értelmes emberek több típusa?
+    A: 400 000 évvel ezelőtt
+    B: 40 000 évvel ezelőtt
+    C: 4 millió évvel ezelőtt
+    D: 300 000 évvel ezelőtt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Honnan kerültek elő a legismertebb korai értelmes ember leletek?
+    A: a Neander-völgyből
+    B: a Tölgyerdő vidékéről
+    C: az Urál hegységből
+    D: a Nílus völgyéből
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi jellemző a neander-völgyi ember koponyájára?
+    A: még volt homlokeresze, és nem volt állcsúcsa
+    B: már nem volt homlokeresze, de volt állcsúcsa
+    C: boltozatos koponyája és állcsúcsa volt
+    D: teljesen sima, állcsúcs nélküli koponyája volt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mekkora a neander-völgyi ember agytérfogata?
+    A: 1500 cm&sup3;
+    B: 1300 cm&sup3;
+    C: 800 cm&sup3;
+    D: 300 cm&sup3;
+    Correct: A
+
+  - Type: singlechoice
+    Text: Milyen magasak voltak a neander-völgyi emberek?
+    A: átlagosan 150 cm
+    B: átlagosan 130 cm
+    C: átlagosan 170 cm
+    D: átlagosan 190 cm
+    Correct: A
+
+  - Type: singlechoice
+    Text: Hogyan éltek a neander-völgyi emberek?
+    A: hordákban, közös vadászatokkal
+    B: magányosan, mindenki magának vadászott
+    C: állandó falvakban, földműveléssel
+    D: vízparti cölöpépítményeken
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mikor alakult ki a mai értelmes ember?
+    A: 300 000 évvel ezelőtt
+    B: 30 000 évvel ezelőtt
+    C: 3 millió évvel ezelőtt
+    D: 3 ezer évvel ezelőtt
+    Correct: A
+
+  - Type: singlechoice
+    Text: Mi csak az emberre jellemző a forrás szerint?
+    A: a tagolt beszéd és a nyelv
+    B: a két lábon járás és a függőleges testtartás
+    C: az agy fejlődése és a társas élet
+    D: a vadászó-gyűjtögető életmód
+    Correct: A
+
+  - Type: multiplechoice
+    Text: Melyek a tölgymajom jellemzői a forrás szerint?
+    Answers: [20&ndash;45 kg tömeg, 300 cm&sup3; agytérfogat, U alakú fogív, felegyenesedett testtartás]
+    Correct: [20&ndash;45 kg tömeg, 300 cm&sup3; agytérfogat, U alakú fogív]
+
+  - Type: multiplechoice
+    Text: Melyek a majomember jellemzői?
+    Answers: [6&ndash;3 millió éve élt, 500 cm&sup3; agytérfogat, két lábon járt, U alakú fogíve volt]
+    Correct: [6&ndash;3 millió éve élt, 500 cm&sup3; agytérfogat, két lábon járt]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak az ügyes emberre?
+    Answers: [800 cm&sup3; agytérfogat, magabiztosan járt két lábon, vegyes táplálkozás, ismerte a tüzet]
+    Correct: [800 cm&sup3; agytérfogat, magabiztosan járt két lábon, vegyes táplálkozás]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a felegyenesedett emberre?
+    Answers: [1300 cm&sup3; agytérfogat, homlokeresze volt, közösségekben élt, ismerte a tüzet]
+    Correct: [1300 cm&sup3; agytérfogat, homlokeresze volt, közösségekben élt, ismerte a tüzet]
+
+  - Type: multiplechoice
+    Text: Melyek a neander-völgyi ember jellemzői?
+    Answers: [1500 cm&sup3; agytérfogat, homlokeresz, 150 cm testmagasság, állcsúcs]
+    Correct: [1500 cm&sup3; agytérfogat, homlokeresz, 150 cm testmagasság]
+
+  - Type: multiplechoice
+    Text: Melyek a mai ember jellemzői a forrás szerint?
+    Answers: [boltozatos koponya, kialakult állcsúcs, 160&ndash;180 cm testmagasság, erős homlokeresz]
+    Correct: [boltozatos koponya, kialakult állcsúcs, 160&ndash;180 cm testmagasság]
+
+  - Type: multiplechoice
+    Text: Mely négy nagy rassz alakult ki a forrás szerint?
+    Answers: [Europid, Negrid, Mongolid, Veddo-ausztralid, Arktid]
+    Correct: [Europid, Negrid, Mongolid, Veddo-ausztralid]
+
+  - Type: multiplechoice
+    Text: Miben térnek el egymástól a rasszok képviselői?
+    Answers: [az orr alakja, az arc felépítése, a szem alakja, a bőr színe]
+    Correct: [az orr alakja, az arc felépítése, a szem alakja, a bőr színe]
+
+  - Type: multiplechoice
+    Text: Mely tényezők befolyásolták az emberi evolúciót?
+    Answers: [a két lábon járás kialakulása, az agy fejlődése, a vadászó-gyűjtögető életmód, a szőrzet színe]
+    Correct: [a két lábon járás kialakulása, az agy fejlődése, a vadászó-gyűjtögető életmód]
+
+  - Type: multiplechoice
+    Text: Mely emberformákat említi a forrás?
+    Answers: [tölgymajom, majomember, ügyes ember, neander-völgyi ember, ősdinó]
+    Correct: [tölgymajom, majomember, ügyes ember, neander-völgyi ember]
+
+  - Type: multiplechoice
+    Text: Mit eredményezett a csoportos gyűjtögetés és vadászat?
+    Answers: [a társas kapcsolatok fejlődését, a kommunikáció fejlődését, a szőrzet eltűnését, az agytérfogat csökkenését]
+    Correct: [a társas kapcsolatok fejlődését, a kommunikáció fejlődését]
+
+  - Type: multiplechoice
+    Text: Mely állítások igazak a mai rasszokra?
+    Answers: [testileg egyenértékűek, szellemileg egyenértékűek, eltéréseik külső tulajdonságokban vannak, a fejlettebb rassz uralkodik]
+    Correct: [testileg egyenértékűek, szellemileg egyenértékűek, eltéréseik külső tulajdonságokban vannak]
+
+  - Type: word
+    Text: Melyik lehetett az ember és a majmok közös őse a forrás szerint?
+    Answers: [tölgymajom, a tölgymajom]
+    Correct: [tölgymajom, a tölgymajom]
+
+  - Type: word
+    Text: Hány millió évvel ezelőtt vált el az ember törzsfejlődése az emberszabású majmokétól?
+    Answers: [25, 25 millió]
+    Correct: [25, 25 millió]
+
+  - Type: word
+    Text: Mi a mai ember tudományos neve?
+    Answers: [Homo sapiens, homo sapiens]
+    Correct: [Homo sapiens, homo sapiens]
+
+  - Type: word
+    Text: Honnan kerültek elő a legismertebb korai értelmes ember leletek?
+    Answers: [Neander-völgy, Neandervölgy, Neander-völgyből]
+    Correct: [Neander-völgy, Neandervölgy, Neander-völgyből]
+
+  - Type: word
+    Text: Hány cm&sup3; az ügyes ember agytérfogata?
+    Answers: [800]
+    Correct: [800]
+
+  - Type: word
+    Text: Hány cm&sup3; a felegyenesedett ember agytérfogata?
+    Answers: [1300]
+    Correct: [1300]
+
+  - Type: ordering
+    Text: Rendezd időrendbe az emberformák megjelenését!
+    Items:
+      - felegyenesedett ember
+      - tölgymajom
+      - neander-völgyi ember
+      - majomember
+      - ügyes ember
+    Correct:
+      - tölgymajom
+      - majomember
+      - ügyes ember
+      - felegyenesedett ember
+      - neander-völgyi ember
+
+  - Type: ordering
+    Text: Rendezd növekvő sorrendbe az agytérfogatokat a forrás adatai szerint!
+    Items:
+      - 1300 cm&sup3;
+      - 300 cm&sup3;
+      - 1500 cm&sup3;
+      - 500 cm&sup3;
+      - 800 cm&sup3;
+    Correct:
+      - 300 cm&sup3;
+      - 500 cm&sup3;
+      - 800 cm&sup3;
+      - 1300 cm&sup3;
+      - 1500 cm&sup3;
+
+  - Type: pairing
+    Text: Párosítsd össze az emberformákat az agytérfogatukkal!
+    LeftTitle: Emberforma
+    RightTitle: Agytérfogat
+    Pairs:
+      - [tölgymajom, 300 cm&sup3;]
+      - [majomember, 500 cm&sup3;]
+      - [ügyes ember, 800 cm&sup3;]
+      - [felegyenesedett ember, 1300 cm&sup3;]
+      - [neander-völgyi ember, 1500 cm&sup3;]
+
+  - Type: pairing
+    Text: Párosítsd össze az emberformákat a hozzájuk tartozó jellemzővel!
+    LeftTitle: Emberforma
+    RightTitle: Jellemző
+    Pairs:
+      - [ügyes ember, az első valódi ember]
+      - [felegyenesedett ember, ismerte a tüzet]
+      - [neander-völgyi ember, szervezett hordákban élt]
+      - [mai ember, boltozatos koponya]

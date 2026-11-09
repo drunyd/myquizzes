@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az ember megjelenése</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('quiz-theme');
+        if (theme && theme !== 'original') {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .wiki-article { max-width: 920px; margin: 0 auto; }
+    .wiki-article h2 { font-size: 1.35rem; font-weight: 600; }
+    .wiki-article h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.25rem; }
+    .wiki-article li { margin-bottom: .35rem; }
+    .def { list-style: none; padding-left: 0; margin: .5rem 0 0; }
+    .def > li { border: 1px solid var(--bs-border-color); border-radius: .5rem; padding: .65rem .9rem; margin-bottom: .55rem; }
+    .def .term { font-weight: 600; }
+    .view-toggle .btn { min-width: 120px; }
+    .wiki-figure img { max-height: 320px; width: auto; }
+    .data-table th, .data-table td { padding: .45rem .6rem; vertical-align: top; }
+  </style>
+</head>
+<body>
+  <div class="container py-4">
+    <div class="quiz-container p-4 p-md-5">
+      <div class="wiki-article">
+
+        <div class="view-toggle d-flex justify-content-center mb-4">
+          <div class="btn-group" role="group" aria-label="Nézetváltó">
+            <button type="button" id="btn-original" class="btn btn-outline-secondary active" aria-pressed="true" onclick="showView('original')"><i class="fas fa-file-lines me-1"></i>Eredeti</button>
+            <button type="button" id="btn-extended" class="btn btn-outline-secondary" aria-pressed="false" onclick="showView('extended')"><i class="fas fa-wand-magic-sparkles me-1"></i>Kibővített</button>
+          </div>
+        </div>
+
+        <h1 class="quiz-title display-5 mb-4">Az ember megjelenése</h1>
+
+        <div id="view-original">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Majomemberek</h2>
+            <ul class="mb-2">
+              <li>Az ember hosszantartó evolúció eredményeként jelent meg a Földön</li>
+              <li>Törzsfejlődése 25 millió évvel ezelőtt vált el a mai emberszabású majmokétól</li>
+            </ul>
+            <p class="mb-2"><strong>A tölgymajom</strong> lehetett a közös ős:</p>
+            <ul class="mb-0">
+              <li>Tömege 20&ndash;45 kg körül lehetett</li>
+              <li>Agya térfogata 300 cm&sup3;</li>
+              <li>Fogsorainak íve U alakú volt, két párhuzamos szárból állt</li>
+              <li>Sokat tartózkodott a talajon</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A majomemberek</h2>
+            <ul class="mb-2">
+              <li>Fejlettebb leszármazottai a <strong>majomemberek</strong></li>
+              <li>6&ndash;3 millió évvel ezelőtt éltek</li>
+            </ul>
+            <ul class="mb-0">
+              <li>A déli majom még majomszerű volt</li>
+              <li>Két lábon járt</li>
+              <li>Agytérfogata 500 cm&sup3; (az idegrendszer fejlettebb)</li>
+              <li>Fogíve széttartó, szemfogai nem állnak ki</li>
+            </ul>
+            <p class="mb-0 mt-2">Az idegrendszer tökéletesedése nélkül nem alakulhatott volna ki a ma élő ember, mivel ez kell a kommunikációhoz és a társas kapcsolatokhoz.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az előemberek</h2>
+            <ul class="mb-2">
+              <li>A korai emberformák gyűjtőneve</li>
+            </ul>
+            <h3>Az ügyes ember &ndash; az első valódi ember</h3>
+            <ul class="mb-0">
+              <li>Agytérfogata 800 cm&sup3; volt</li>
+              <li>Magabiztosan járt két lábon</li>
+              <li>Növényi és állati táplálékot egyformán fogyasztott</li>
+              <li>A csoportos gyűjtögetés és vadászat a társas kapcsolatok fejlődését eredményezte</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A felegyenesedett ember</h2>
+            <ul class="mb-0">
+              <li>A valódi emberek egyik típusából fejlődött ki</li>
+              <li>A mai ember közvetlen elődje</li>
+              <li>Agytérfogata 1300 cm&sup3;</li>
+              <li>Koponyáján a szemöldök fölött kinyúló csonttaraj, homlokeresz alakult ki</li>
+              <li>Közösségekben élt</li>
+              <li>Ismerte a tüzet</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az ősemberek</h2>
+            <ul class="mb-2">
+              <li>A mai emberhez közel álló elődök neve</li>
+              <li>400 000 évvel ezelőtt a korai értelmes embereknek több típusa is élt</li>
+            </ul>
+            <p class="mb-2">Legismertebbek a Neander-völgyből előkerült leletek:</p>
+            <ul class="mb-0">
+              <li>A mai emberrel ellentétben még volt homlokeresze és nem volt állcsúcsa</li>
+              <li>Agytérfogata 1500 cm&sup3; volt</li>
+              <li>Átlagosan 150 cm magasak voltak, és erőteljesebb végtagokkal rendelkeztek</li>
+              <li>Szervezett hordákban éltek</li>
+              <li>Munkamegosztással vadásztak</li>
+              <li>Primitív beszéddel kommunikáltak</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A mai ember kialakulása</h2>
+            <ul class="mb-0">
+              <li>A mai <strong>értelmes ember</strong> 300 000 évvel ezelőtt alakult ki</li>
+              <li>Homo sapiens</li>
+              <li>160&ndash;180 cm-es testmagasság</li>
+              <li>Boltozatos koponya</li>
+              <li>A szemöldök feletti eresz eltűnt</li>
+              <li>Állcsúcs kialakult</li>
+              <li>Csontváz könnyebb, finomabb felépítésű</li>
+            </ul>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A négy nagy rassz</h2>
+            <ul class="mb-2">
+              <li>Europid</li>
+              <li>Negrid</li>
+              <li>Mongolid</li>
+              <li>Veddo-ausztralid</li>
+            </ul>
+            <p class="mb-2">A rasszok képviselői külső tulajdonságokban térnek el egymástól: az orr alakja, az arc felépítése, a szem alakja, a bőr színe.</p>
+            <p class="mb-0">A ma élő rasszok testileg és szellemileg egyenértékűek. Az eltérések a környezeti tényezőknek, az egyenlőtlen ütemű és különböző irányú társadalmi fejlődésnek tudhatók be.</p>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az emberi evolúciót befolyásoló tényezők</h2>
+            <ul class="mb-0">
+              <li>A két lábon járás kialakulása, mert felszabadította a mellső végtagot, amely így újabb tevékenységet tudott elvégezni</li>
+              <li>Az agy fejlődése</li>
+              <li>A vadászó-gyűjtögető életmód: társas együttélés, kommunikáció</li>
+              <li>A tagolt beszéd és a nyelv csak az emberre jellemző</li>
+            </ul>
+          </div></div>
+
+        </div>
+
+        <div id="view-extended" class="d-none">
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miről is van szó?</h2>
+            <p>Az ember nem egyszerre „készült el”: hosszú evolúció során alakult ki a mai formája. A fejlődés fő vonala az agytérfogat növekedése, a két lábon járás megszilárdulása és az egyre összetettebb társas élet. Ezen az oldalon a forrás anyagát egészítjük ki egy kis háttérrel.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-lightbulb me-1"></i>Tudtad?</strong>
+              <ul class="mb-0 mt-2">
+                <li>A majomemberek legismertebb lelete a „Lucy” nevű csontváz (Australopithecus afarensis), amely mintegy 3,2 millió éves.</li>
+                <li>Az „ügyes ember” (Homo habilis) nevét onnan kapta, hogy az első kőeszközök készítői közé tartozott.</li>
+                <li>A neander-völgyi ember agytérfogata (1500 cm&sup3;) nagyobb volt, mint a mai emberé &ndash; mégsem ő maradt fenn, hanem a Homo sapiens.</li>
+              </ul>
+            </div>
+            <figure class="figure wiki-figure text-center w-100 mb-0">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Skull%20evolution.png?width=800" class="figure-img img-fluid rounded" alt="Koponyák összehasonlítása">
+              <figcaption class="figure-caption">Koponyák az emberi evolúció során &ndash; a homlokeresz fokozatosan eltűnik, az állcsúcs megjelenik. <a href="https://commons.wikimedia.org/wiki/File:Skull_evolution.png" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az emberformák adatai egy táblázatban</h2>
+            <div class="table-responsive">
+              <table class="table table-sm data-table mb-3">
+                <thead>
+                  <tr><th>Emberforma</th><th>Kor</th><th>Agy</th><th>Jellemző</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>tölgymajom</td><td>&ndash;</td><td>300 cm&sup3;</td><td>U alakú fogív, sokat a talajon</td></tr>
+                  <tr><td>majomember</td><td>6&ndash;3 millió év</td><td>500 cm&sup3;</td><td>két lábon járt, széttartó fogív</td></tr>
+                  <tr><td>ügyes ember</td><td>&ndash;</td><td>800 cm&sup3;</td><td>első valódi ember, vegyes táplálkozás</td></tr>
+                  <tr><td>felegyenesedett ember</td><td>&ndash;</td><td>1300 cm&sup3;</td><td>homlokeresz, ismerte a tüzet</td></tr>
+                  <tr><td>neander-völgyi ember</td><td>400 000 év</td><td>1500 cm&sup3;</td><td>150 cm, szervezett hordák</td></tr>
+                  <tr><td>mai ember</td><td>300 000 év</td><td>&ndash;</td><td>boltozatos koponya, állcsúcs</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <figure class="figure wiki-figure text-center w-100 mb-0">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Reconstruction%20of%20the%20fossil%20skeleton%20of%20%22Lucy%22%20the%20Australopithecus%20afarensis.jpg?width=800" class="figure-img img-fluid rounded" alt="Lucy csontváza">
+              <figcaption class="figure-caption">„Lucy”, az Australopithecus afarensis csontvázának rekonstrukciója. <a href="https://commons.wikimedia.org/wiki/File:Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Miért volt döntő a két lábon járás?</h2>
+            <p>A felegyenesedett testtartás nemcsak kényelmi kérdés volt: a mellső végtag felszabadult, így az állat már nem csak járásra használhatta a kezét. Ez tette lehetővé a tárgyak megfogását, majd hosszú távon az eszközkészítést is.</p>
+            <p class="mb-2">A két lábon járás mellett a másik nagy változás az agy fejlődése volt. Az idegrendszer tökéletesedése nélkül nem alakult volna ki a kommunikáció és a társas élet, ami az emberré válás kulcsa.</p>
+            <figure class="figure wiki-figure text-center w-100 mb-0">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Homo%20habilis-KNM%20ER%201813.jpg?width=800" class="figure-img img-fluid rounded" alt="Homo habilis koponya">
+              <figcaption class="figure-caption">A Homo habilis (ügyes ember) koponyája &ndash; 800 cm&sup3; agytérfogattal. <a href="https://commons.wikimedia.org/wiki/File:Homo_habilis-KNM_ER_1813.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>Az ősemberek és a mai ember</h2>
+            <p>A neander-völgyi ember mintegy 400 000 évvel ezelőtt jelent meg, és nagyjából 40 000 évvel ezelőttig élt Európában és Nyugat-Ázsiában: erőteljes testű, szervezett hordákban vadászó, primitív beszéddel kommunikáló ősember volt. A mai emberhez képest még volt homlokeresze, és hiányzott az állcsúcsa.</p>
+            <p class="mb-0">A Homo sapiens mintegy 300 000 évvel ezelőtt jelent meg. Teste karcsúbb lett, koponyája boltozatossá vált, a szemöldök feletti eresz eltűnt, az állcsúcs kialakult &ndash; mai szemmel ez a „modern” emberi arc.</p>
+            <figure class="figure wiki-figure text-center w-100 mb-0">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Homo%20sapiens%20neanderthalensis.jpg?width=800" class="figure-img img-fluid rounded" alt="Neander-völgyi ember koponyája">
+              <figcaption class="figure-caption">Neander-völgyi koponya &ndash; feltűnő homlokeresz, állcsúcs nélkül. <a href="https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg" target="_blank" rel="noopener">Forrás</a></figcaption>
+            </figure>
+          </div></div>
+
+          <div class="card mb-4"><div class="card-body">
+            <h2>A rasszokról</h2>
+            <p>Négy nagy rasszt különböztetünk meg: europid, negrid, mongolid és veddo-ausztralid. A különbségek külső jegyekben mutatkoznak meg &ndash; az orr alakjában, az arc felépítésében, a szem alakjában és a bőr színében.</p>
+            <p class="mb-0">Fontos, hogy a ma élő rasszok testileg és szellemileg egyenértékűek: az eltérések a környezeti tényezőkből és az egyenlőtlen ütemű, különböző irányú társadalmi fejlődésből fakadnak, nem veleszületett képességkülönbségekből.</p>
+            <div class="alert alert-info mb-0">
+              <strong><i class="fas fa-eye me-1"></i>Figyeld meg!</strong> Az evolúció nem „cél felé” halad: a neander-völgyi ember nagyobb aggyal rendelkezett, mint a mai ember, mégis kihalt. A sikeresség nem csak az agyméretben mérhető.
+            </div>
+          </div></div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showView(view) {
+      var o = document.getElementById('view-original'), e = document.getElementById('view-extended');
+      var bo = document.getElementById('btn-original'), be = document.getElementById('btn-extended');
+      var ext = view === 'extended';
+      o.classList.toggle('d-none', ext); e.classList.toggle('d-none', !ext);
+      bo.classList.toggle('active', !ext); be.classList.toggle('active', ext);
+      bo.setAttribute('aria-pressed', String(!ext)); be.setAttribute('aria-pressed', String(ext));
+    }
+  </script>
+</body>
+</html>
